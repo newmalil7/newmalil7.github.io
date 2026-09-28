@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-28",
+  "regions": [
+    { "code": "CN",    "name": "中国国内", "short": "中国", "flag": "🇨🇳", "order": 1 },
+    { "code": "SEA",   "name": "东南亚",   "short": "东南亚", "flag": "🌏", "order": 2 },
+    { "code": "ME",    "name": "中东",     "short": "中东", "flag": "🕌", "order": 3 },
+    { "code": "JPKR",  "name": "日韩",     "short": "日韩", "flag": "🗾", "order": 4 },
+    { "code": "EU",    "name": "欧洲",     "short": "欧洲", "flag": "🇪🇺", "order": 5 },
+    { "code": "NA",    "name": "北美",     "short": "北美", "flag": "🌎", "order": 6 },
+    { "code": "OTHER", "name": "其他地区", "short": "其他", "flag": "🌐", "order": 7 }
+  ],
+  "sources": [
+    {
+      "id": "36kr",
+      "name": "36氪",
+      "region": "CN",
+      "url": "https://www.36kr.com/feed",
+      "lang": "zh",
+      "tier": 2,
+      "focus": "科技商业、创投、公司动态",
+      "homepage": "https://36kr.com"
+    },
+    {
+      "id": "leiphone",
+      "name": "雷峰网",
+      "region": "CN",
+      "url": "https://www.leiphone.com/feed",
+      "lang": "zh",
+      "tier": 2,
+      "focus": "AI 技术、智能硬件、产业观察",
+      "homepage": "https://www.leiphone.com"
+    },
+    {
+      "id": "qbitai",
+      "name": "量子位",
+      "region": "CN",
+      "url": "https://www.qbitai.com/feed",
+      "lang": "zh",
+      "tier": 2,
+      "focus": "AI 前沿、论文解读、大模型动态",
+      "homepage": "https://www.qbitai.com"
+    },
+    {
+      "id": "infoq-cn",
+      "name": "InfoQ 中国",
+      "region": "CN",
+      "url": "https://www.infoq.cn/feed",
+      "lang": "zh",
+      "tier": 1,
+      "focus": "工程实践、架构、技术落地",
+      "homepage": "https://www.infoq.cn"
+    },
+    {
+      "id": "tmtpost",
+      "name": "钛媒体",
+      "region": "CN",
+      "url": "https://www.tmtpost.com/feed",
+      "lang": "zh",
+      "tier": 2,
+      "focus": "科技产业与商业模式",
+      "homepage": "https://www.tmtpost.com"
+    },
+    {
+      "id": "geekpark",
+      "name": "极客公园",
+      "region": "CN",
+      "url": "https://www.geekpark.net/rss",
+      "lang": "zh",
+      "tier": 2,
+      "focus": "产品创新与科技趋势",
+      "homepage": "https://www.geekpark.net"
+    },
+    {
+      "id": "ifanr",
+      "name": "爱范儿",
+      "region": "CN",
+      "url": "https://www.ifanr.com/feed",
+      "lang": "zh",
+      "tier": 2,
+      "focus": "消费科技与产品体验",
+      "homepage": "https://www.ifanr.com"
+    },
+    {
+      "id": "techinasia",
+      "name": "Tech in Asia",
+      "region": "SEA",
+      "url": "https://www.techinasia.com/feed",
+      "lang": "en",
+      "tier": 1,
+      "focus": "东南亚科技创业与融资",
+      "homepage": "https://www.techinasia.com"
+    },
+    {
+      "id": "vulcanpost",
+      "name": "Vulcan Post",
+      "region": "SEA",
+      "url": "https://vulcanpost.com/feed/",
+      "lang": "en",
+      "tier": 2,
+      "focus": "东南亚消费科技与初创公司",
+      "homepage": "https://vulcanpost.com"
+    },
+    {
+      "id": "wamda",
+      "name": "Wamda",
+      "region": "ME",
+      "url": "https://www.wamda.com/feed",
+      "lang": "en",
+      "tier": 1,
+      "focus": "中东北非创投生态",
+      "homepage": "https://www.wamda.com"
+    },
+    {
+      "id": "arabianbusiness",
+      "name": "Arabian Business",
+      "region": "ME",
+      "url": "https://www.arabianbusiness.com/feed",
+      "lang": "en",
+      "tier": 2,
+      "focus": "海湾地区商业与产业政策",
+      "homepage": "https://www.arabianbusiness.com"
+    },
+    {
+      "id": "tahawultech",
+      "name": "TahawulTech",
+      "region": "ME",
+      "url": "https://www.tahawultech.com/feed/",
+      "lang": "en",
+      "tier": 2,
+      "focus": "中东企业 IT 与数字化转型",
+      "homepage": "https://www.tahawultech.com"
+    },
+    {
+      "id": "itp-net",
+      "name": "ITP.net",
+      "region": "ME",
+      "url": "https://www.itp.net/feed",
+      "lang": "en",
+      "tier": 2,
+      "focus": "中东科技产业与云计算",
+      "homepage": "https://www.itp.net"
+    },
+    {
+      "id": "ainow",
+      "name": "AINOW",
+      "region": "JPKR",
+      "url": "https://ainow.ai/feed",
+      "lang": "ja",
+      "tier": 1,
+      "focus": "日本 AI 产业新闻与案例",
+      "homepage": "https://ainow.ai"
+    },
+    {
+      "id": "aitimes-kr",
+      "name": "AI타임스",
+      "region": "JPKR",
+      "url": "https://www.aitimes.com/rss/allArticle.xml",
+      "lang": "ko",
+      "tier": 1,
+      "focus": "韩国 AI 产业与政策",
+      "homepage": "https://www.aitimes.com"
+    },
+    {
+      "id": "mittr-kr",
+      "name": "MIT Technology Review Korea",
+      "region": "JPKR",
+      "url": "https://www.technologyreview.kr/feed/",
+      "lang": "ko",
+      "tier": 1,
+      "focus": "深度科技评论（韩文版）",
+      "homepage": "https://www.technologyreview.kr"
+    },
+    {
+      "id": "sifted",
+      "name": "Sifted",
+      "region": "EU",
+      "url": "https://sifted.eu/feed",
+      "lang": "en",
+      "tier": 1,
+      "focus": "欧洲创业与风投（FT 系）",
+      "homepage": "https://sifted.eu"
+    },
+    {
+      "id": "tech-eu",
+      "name": "Tech.eu",
+      "region": "EU",
+      "url": "https://tech.eu/feed/",
+      "lang": "en",
+      "tier": 1,
+      "focus": "欧洲科技融资与政策",
+      "homepage": "https://tech.eu"
+    },
+    {
+      "id": "siliconrepublic",
+      "name": "Silicon Republic",
+      "region": "EU",
+      "url": "https://www.siliconrepublic.com/feed",
+      "lang": "en",
+      "tier": 2,
+      "focus": "欧洲科技与研发动态",
+      "homepage": "https://www.siliconrepublic.com"
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch AI",
+      "region": "NA",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "lang": "en",
+      "tier": 1,
+      "focus": "AI 创投与产品发布",
+      "homepage": "https://techcrunch.com"
+    },
+    {
+      "id": "mit-tr",
+      "name": "MIT Technology Review",
+      "region": "NA",
+      "url": "https://www.technologyreview.com/feed/",
+      "lang": "en",
+      "tier": 1,
+      "focus": "技术趋势与深度分析",
+      "homepage": "https://www.technologyreview.com"
+    },
+    {
+      "id": "openai-news",
+      "name": "OpenAI 官方",
+      "region": "NA",
+      "url": "https://openai.com/news/rss.xml",
+      "lang": "en",
+      "tier": 1,
+      "focus": "一线大模型厂商一手动态",
+      "homepage": "https://openai.com/news"
+    },
+    {
+      "id": "theverge-ai",
+      "name": "The Verge AI",
+      "region": "NA",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "lang": "en",
+      "tier": 2,
+      "focus": "AI 产品与消费市场",
+      "homepage": "https://www.theverge.com"
+    },
+    {
+      "id": "synced",
+      "name": "Synced Review",
+      "region": "NA",
+      "url": "https://syncedreview.com/feed/",
+      "lang": "en",
+      "tier": 1,
+      "focus": "AI 论文与研究成果解读",
+      "homepage": "https://syncedreview.com"
+    },
+    {
+      "id": "yourstory",
+      "name": "YourStory",
+      "region": "OTHER",
+      "url": "https://yourstory.com/feed",
+      "lang": "en",
+      "tier": 2,
+      "focus": "印度创业生态",
+      "homepage": "https://yourstory.com"
+    },
+    {
+      "id": "inc42",
+      "name": "Inc42",
+      "region": "OTHER",
+      "url": "https://inc42.com/feed/",
+      "lang": "en",
+      "tier": 1,
+      "focus": "印度科技与风投数据",
+      "homepage": "https://inc42.com"
+    },
+    {
+      "id": "startupdaily",
+      "name": "Startup Daily",
+      "region": "OTHER",
+      "url": "https://www.startupdaily.net/feed/",
+      "lang": "en",
+      "tier": 2,
+      "focus": "澳新创业生态",
+      "homepage": "https://www.startupdaily.net"
+    },
+    {
+      "id": "itnews-au",
+      "name": "iTnews Australia",
+      "region": "OTHER",
+      "url": "https://www.itnews.com.au/RSS/rss.ashx",
+      "lang": "en",
+      "tier": 2,
+      "focus": "澳新企业 IT 与数字化",
+      "homepage": "https://www.itnews.com.au"
+    },
+    {
+      "id": "techloy",
+      "name": "Techloy",
+      "region": "OTHER",
+      "url": "https://www.techloy.com/feed",
+      "lang": "en",
+      "tier": 2,
+      "focus": "非洲科技产业",
+      "homepage": "https://www.techloy.com"
+    }
+  ]
+}

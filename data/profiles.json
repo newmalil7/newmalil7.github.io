@@ -1,0 +1,114 @@
+{
+  "schema": "ai-horizon/profiles-v1",
+  "updatedAt": "2026-09-28T11:20:00+08:00",
+  "selection": {
+    "title": "选谁来讲",
+    "criteria": [
+      "优先选有特色打法的初创公司或项目，而不是已经人尽皆知的大厂",
+      "优先选被知名企业或机构扶植、投资的 startup——从投资方身上能看清产业资本的布局意图",
+      "优先选当天在要闻里出现过的对象，读新闻与读剖析互相印证",
+      "刻意避开 OpenAI、Google、Meta、英伟达这类巨头本身，只在它们投的公司值得讲时才出现"
+    ]
+  },
+  "list": [
+    {
+      "id": "basecamp-research",
+      "date": "2026-09-28",
+      "name": "Basecamp Research",
+      "nameZh": "Basecamp Research",
+      "tagline": "把大自然的基因数据，变成 AI 制药的燃料",
+      "region": "EU",
+      "country": "英国",
+      "city": "伦敦",
+      "founded": "2019 年",
+      "stage": "C 轮",
+      "amount": "1.4 亿美元",
+      "category": "AI for Science · 生物医药",
+      "investors": ["Anthropic", "Menlo Ventures", "NVIDIA"],
+      "whatTheyDo": "一家英国生命科学公司，做的事一句话概括：用 AI 加速新药研发。但它和多数「AI 制药」公司不一样——别人大多拿公开的论文和数据库去训练模型，它是自己跑到世界各地采集自然界的生物样本，把蛋白质序列做成一套专属数据集，再用这套数据训练模型来设计新的蛋白质和药物。",
+      "whySpecial": "它的护城河不在模型，而在数据来源。公开数据谁都能下载，而自然界里绝大多数微生物和极端环境物种从没被记录过。Basecamp Research 选择与一些国家合作、共享后续收益，从而拿到合法且独占的采集与使用权。这条路又慢又重，但一旦铺成，对手很难复制——这也是为什么它值得作为「数据壁垒型 AI 公司」的样本来看。",
+      "businessModel": "目前主要是与药企和研究机构做合作研发、以及数据集授权；长期看是「专有数据资产 + 领域模型 + 成果分成」的组合。它卖的不是算力也不是通用能力，而是别人没有的生物学数据入口。",
+      "backerNote": "这一轮的投资方组合很说明问题：Anthropic 是模型方，NVIDIA 是算力方，Menlo Ventures 是风投方。三方同时出现，意味着这已经不只是财务投资——模型公司想验证「大模型在垂直科学领域的真实落地」，芯片公司想证明 GPU 在科学计算上的增量需求，风投负责押赛道。看懂这层，就理解了当前产业资本的一种典型打法：用投资锁定行业数据和场景，而不只是卖 API。",
+      "numbers": [
+        { "k": "最新一轮", "v": "1.4 亿美元 C 轮" },
+        { "k": "投资方", "v": "Anthropic · Menlo Ventures · NVIDIA" },
+        { "k": "成立时间", "v": "2019 年" },
+        { "k": "所处环节", "v": "产业链中间层 · 领域数据 + 模型" }
+      ],
+      "moat": [
+        "自建的生物多样性基因数据集：专有、需要长期野外采样积累，无法靠爬公开语料补齐",
+        "与国家/机构的长期数据合作：绕开了「数据从哪来、是否合法」这个行业最大隐患",
+        "已被头部模型厂商与芯片厂商绑定，拿到的不仅是钱，还有技术协同与背书"
+      ],
+      "risks": [
+        "生物数据获取牵涉各国监管与惠益分享规则，政策一变，采集渠道可能受影响",
+        "新药研发周期以年计，商业化验证极慢，需要持续的大额资金支撑",
+        "大型药企若自建 AI 团队、或与模型厂商直接合作，可能压缩它的中间位置"
+      ],
+      "watch": [
+        "数据集规模与独占性能否持续扩大——这是它全部估值的基础",
+        "与 Anthropic 的深度绑定，会不会从「合作」变成「技术依赖」",
+        "是否出现自研管线进入临床阶段，那将是它从卖数据转向卖成果的关键一跃"
+      ],
+      "terms": ["moat", "finetune", "valuation"],
+      "questions": [
+        "药企为什么愿意为它付钱？AI 到底省掉了新药研发里的哪一步、哪一年？",
+        "如果这套数据集的独占性被削弱，这家公司的价值还剩多少？"
+      ],
+      "source": {
+        "name": "Tech.eu",
+        "title": "Anthropic with Menlo Ventures and Nvidia back Basecamp Research in $140M Series C",
+        "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/",
+        "newsId": "5e0d5e44d2467486"
+      }
+    }
+  ],
+  "watchlist": {
+    "title": "今日要闻里的其他初创公司",
+    "note": "这些名字出现在今天的要闻里，但还没到值得单开一篇讲的程度。先认脸，以后它们再出现时你会有印象。",
+    "items": [
+      {
+        "name": "Cyble",
+        "region": "ME",
+        "oneLiner": "网络安全公司，把威胁情报和 agentic AI 结合做主动防御",
+        "why": "与阿联酋网络安全委员会达成合作。中东的国家级数字化项目通常是「先立安全标准，再引产业」，安全类合作往往是更大型 AI 基建落地的先导信号。",
+        "url": "https://www.tahawultech.com/features/cyble-accelerates-proactive-cyber-defence-with-agentic-ai/"
+      },
+      {
+        "name": "Kontext",
+        "region": "EU",
+        "oneLiner": "给 AI 智能体做运行时安全防护，刚拿 400 万美元",
+        "why": "「智能体的安全」正在成为一个独立赛道。当 AI 能自己调工具、执行任务，谁来拦住它做错事就成了刚需——这类配套工具往往比应用本身更早赚钱。",
+        "url": "https://tech.eu/2026/09/24/kontext-raises-4m-for-runtime-security-platform-for-ai-agents/"
+      },
+      {
+        "name": "Ringg",
+        "region": "NA",
+        "oneLiner": "做多语言 AI 客服智能体，自称能独立解决 65% 的来电",
+        "why": "被 OpenAI 官方拿来当客户案例。它给出了一组最实用的落地数字：替代率 65%、成本降约 90%。评估任何 AI 应用新闻时，就找这两个数。",
+        "url": "https://openai.com/index/ringg"
+      },
+      {
+        "name": "Nscale",
+        "region": "EU",
+        "oneLiner": "英国新型算力云，被指帮字节的子公司绕开美国规则拿到英伟达芯片",
+        "why": "「合规灰区」正在变成一种商业模式。谁能把卡送到需要的人手里，谁就能赚溢价——但代价是监管风险长期悬在头上。",
+        "url": "https://sifted.eu/articles/nscale-nvidia-bytedance-tiktok/"
+      },
+      {
+        "name": "Tanami",
+        "region": "ME",
+        "oneLiner": "巴林的私募市场投资平台，拿钱扩张到卡塔尔",
+        "why": "中东本地资本基础设施正在自建。这类小新闻比大额主权基金投资更有结构意义——它说明中东不再只是「出钱方」，开始做自己的平台。",
+        "url": "http://wamda.com/2026/09/tanami-raises-new-funding-expand-qatar"
+      },
+      {
+        "name": "Reply Next",
+        "region": "EU",
+        "oneLiner": "帮多门店企业管理线上形象的 AI 平台，拿了 40 万欧元 pre-seed",
+        "why": "典型的「垂直小场景」AI 应用：不性感、盘子不大，但需求清晰。这类公司是判断 AI 落地真实温度的样本。",
+        "url": "https://tech.eu/2026/09/24/ai-platform-reply-next-secures-eur400k-pre-seed-funding/"
+      }
+    ]
+  }
+}

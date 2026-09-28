@@ -1,0 +1,14 @@
+# 运行时生成：由 CI 每次抓取重新产出，不纳入版本库
+data/news-latest.json
+data/archive-index.json
+data/archive/
+data/raw/
+
+# WorkBuddy 内部文件（应用注册 / 本地记忆），不进公开仓库
+.wbapp_*.genie
+.workbuddy/
+
+# 系统 / 编辑器
+.DS_Store
+node_modules/
+*.log
