@@ -98,8 +98,10 @@ function toast(msg, ms = 2000) {
 
 const S = {
   data: null, briefing: {}, curriculum: null, glossary: null, sources: null, archive: [],
-  profiles: null, weekly: null,
+  profiles: null, weekly: null, models: null,
   tab: 'feed',
+  bizTab: 'primer', bizSort: 'price', bizTier: 'ALL',
+  calc: { in: 2, out: 8, margin: 30, vin: 100, vout: 100 },
   region: 'ALL',
   topics: new Set(),
   diff: 'ALL',
@@ -139,7 +141,7 @@ async function getJSON(url) {
 }
 
 async function loadAll() {
-  const [data, briefing, curriculum, glossary, sources, archive, profiles, weekly] = await Promise.all([
+  const [data, briefing, curriculum, glossary, sources, archive, profiles, weekly, models] = await Promise.all([
     getJSON('./data/news-latest.json'),
     getJSON('./data/briefing.json'),
     getJSON('./data/curriculum.json'),
@@ -148,6 +150,7 @@ async function loadAll() {
     getJSON('./data/archive-index.json'),
     getJSON('./data/profiles.json'),
     getJSON('./data/weekly.json'),
+    getJSON('./data/models.json'),
   ]);
   S.data = data;
   S.briefing = briefing?.items || {};
@@ -157,6 +160,7 @@ async function loadAll() {
   S.archive = archive || [];
   S.profiles = profiles;
   S.weekly = weekly;
+  S.models = models;
   computeNextRefresh();
 }
 
@@ -347,6 +351,7 @@ function renderTabs() {
     { id: 'bm', label: '⭐ 收藏夹', n: S.bookmarks.length },
     { id: 'gl', label: '📖 术语词典', n: S.glossary ? S.glossary.categories.reduce((a, c) => a + c.terms.length, 0) : 0 },
     { id: 'arch', label: '🗂️ 归档' },
+    { id: 'biz', label: '💱 中转台' },
   ];
   return `<nav class="tabs">${tabs.map((t) => `
     <button class="tab ${S.tab === t.id ? 'on' : ''}" data-act="tab" data-tab="${t.id}">
@@ -965,6 +970,173 @@ function renderArch() {
     ${list}${detail}`;
 }
 
+/* ------------------------------ 中转台（业务模块） ----------------------- */
+
+const fmtMoney = (x) => '¥' + (Math.round(x * 100) / 100).toLocaleString('en-US');
+
+function renderBiz() {
+  const sub = ['primer', 'compare', 'calc'];
+  const labels = { primer: '业务认知', compare: '上游渠道比对', calc: '差价计算器' };
+  const subnav = `<div class="biz-sub">${sub.map((k) => `
+    <button class="biz-sub-btn ${S.bizTab === k ? 'on' : ''}" data-act="bizsub" data-v="${k}">${labels[k]}</button>`).join('')}</div>`;
+  let body = '';
+  if (S.bizTab === 'primer') body = bizPrimerHTML();
+  else if (S.bizTab === 'compare') body = bizCompareHTML();
+  else body = bizCalcHTML();
+  return `${subnav}<div class="biz-body">${body}</div>`;
+}
+
+function bizPrimerHTML() {
+  return `
+  <div class="biz-intro">
+    <h2>Token 中转服务 · 业务认知</h2>
+    <p>你处在<strong>上游大模型厂商</strong>与<strong>下游客户</strong>之间：向上游拿到渠道 / 协议价，向下游客户按你的报价计费，赚中间差价。核心是把「合适的模型」用「合适的延迟与价格」送到「合适的区域客户」。</p>
+  </div>
+  <div class="biz-flow">
+    <div class="flow-node up"><b>上游模型厂商</b><span>国内大模型（DeepSeek / 通义 / 智谱 / 豆包 / Kimi …）</span><i>渠道价 · API</i></div>
+    <div class="flow-arrow">➜</div>
+    <div class="flow-node mid"><b>💱 你的中转层</b><span>路由 · 计费 · 加价 · 合规 · 节点</span><i>赚差价</i></div>
+    <div class="flow-arrow">➜</div>
+    <div class="flow-node down"><b>下游客户</b><span>东南亚 → 亚洲 → 全球</span><i>按量付费</i></div>
+  </div>
+  <div class="biz-cards">
+    <div class="biz-card">
+      <h3>💰 赚钱逻辑</h3>
+      <ul>
+        <li><b>收入</b> = 下游计费（输出通常比输入贵，按 token 分别计价）</li>
+        <li><b>成本</b> = 上游渠道价 + 转发 / 节点 / 运营成本</li>
+        <li><b>利润</b> = 收入 − 成本 − 运营成本</li>
+        <li>加价方式：按比例（如 +30%）或固定绝对值（¥/百万 tokens）</li>
+      </ul>
+    </div>
+    <div class="biz-card">
+      <h3>🌏 为什么东南亚是切入点</h3>
+      <ul>
+        <li><b>地理近 → 延迟低</b>：示例 RTT 50–90ms，体感接近本地</li>
+        <li>华人商圈 / 文化近，出海第一站阻力小</li>
+        <li>可在此设<strong>中转节点</strong>降低 RTT，再辐射亚洲 / 全球</li>
+        <li>成本敏感的中小客户多，适合走量模型（豆包 / DeepSeek）</li>
+      </ul>
+    </div>
+    <div class="biz-card">
+      <h3>🎯 选渠道的关键维度</h3>
+      <ul>
+        <li><b>价格</b>：¥/百万 tokens（输入 vs 输出分开看）</li>
+        <li><b>延迟</b>：从目标区域测的 RTT，决定体感</li>
+        <li><b>质量</b>：任务适配度（推理 / 长上下文 / 多语）</li>
+        <li><b>稳定性 & 出海可用性</b>：API 是否对你所在区域开放</li>
+      </ul>
+    </div>
+    <div class="biz-card warn">
+      <h3>⚠️ 风险与注意</h3>
+      <ul>
+        <li>上游价频繁变动，需动态调价</li>
+        <li>跨境数据传输 / 内容安全 / 当地牌照合规</li>
+        <li>汇率波动（你收客户多为外币）</li>
+        <li>渠道稳定性：避免单点依赖，多上游备份</li>
+      </ul>
+    </div>
+  </div>
+  <p class="biz-tip">👉 下一步：到「上游渠道比对」挑模型，再到「差价计算器」算你的报价与月毛利。</p>`;
+}
+
+function bizCompareHTML() {
+  if (!S.models) return `<div class="empty"><p>渠道数据载入中…</p></div>`;
+  const tiers = ['ALL', ...new Set(S.models.models.map((m) => m.tier))];
+  const list = S.models.models
+    .filter((m) => S.bizTier === 'ALL' || m.tier === S.bizTier)
+    .slice()
+    .sort((a, b) => {
+      if (S.bizSort === 'price') return (a.priceIn + a.priceOut) - (b.priceIn + b.priceOut);
+      if (S.bizSort === 'latency') return a.latency - b.latency;
+      if (S.bizSort === 'quality') return b.quality - a.quality;
+      return 0;
+    });
+  const tierOpts = tiers.map((t) => `<option value="${t}" ${S.bizTier === t ? 'selected' : ''}>${t === 'ALL' ? '全部档位' : esc(t)}</option>`).join('');
+  const rows = list.map((m) => `
+    <tr>
+      <td><b>${esc(m.vendor)}</b><div class="sub">${esc(m.model)}</div></td>
+      <td><span class="pill">${esc(m.tier)}</span></td>
+      <td>${esc(m.context)}</td>
+      <td class="num">¥${m.priceIn}<div class="sub">出 ¥${m.priceOut}</div></td>
+      <td class="num">${m.latency}ms</td>
+      <td class="num">${'★'.repeat(m.quality)}${'☆'.repeat(5 - m.quality)}</td>
+      <td>${esc((m.langs || []).join('/'))}</td>
+      <td>${esc(m.overseas)}</td>
+      <td><button class="mini" data-act="calcfill" data-id="${m.id}" title="填入计算器">＋计算器</button></td>
+    </tr>`).join('');
+  return `
+  <div class="filters"><div class="frow">
+    <span class="flabel">档位</span>
+    <select data-act="biztier">${tierOpts}</select>
+    <span class="flabel">排序</span>
+    <select data-act="bizsort">
+      <option value="price" ${S.bizSort === 'price' ? 'selected' : ''}>价格（低→高）</option>
+      <option value="latency" ${S.bizSort === 'latency' ? 'selected' : ''}>延迟（低→高）</option>
+      <option value="quality" ${S.bizSort === 'quality' ? 'selected' : ''}>质量（高→低）</option>
+    </select>
+    <span class="meta">示例数据 · 非实时</span>
+  </div></div>
+  <div class="cmp-wrap">
+    <table class="cmp-table">
+      <thead><tr>
+        <th>厂商 / 模型</th><th>档位</th><th>上下文</th><th>价格(¥/M)<br><span class="sub">输入 / 输出</span></th>
+        <th>延迟(SEA)</th><th>质量</th><th>语种</th><th>出海可用</th><th>操作</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+}
+
+function bizCalcHTML() {
+  const c = S.calc;
+  return `
+  <div class="calc-grid">
+    <div class="calc-in">
+      <h3>输入</h3>
+      <label>上游输入价（¥/百万 tokens）<input id="calc-in" type="number" min="0" step="0.1" data-act="calc" value="${c.in}"></label>
+      <label>上游输出价（¥/百万 tokens）<input id="calc-out" type="number" min="0" step="0.1" data-act="calc" value="${c.out}"></label>
+      <label>目标利润率（%）<input id="calc-margin" type="number" min="0" step="1" data-act="calc" value="${c.margin}"></label>
+      <label>预估月输入量（百万 tokens）<input id="calc-vin" type="number" min="0" step="1" data-act="calc" value="${c.vin}"></label>
+      <label>预估月输出量（百万 tokens）<input id="calc-vout" type="number" min="0" step="1" data-act="calc" value="${c.vout}"></label>
+      <button class="mini" data-act="calcreset">重置示例</button>
+    </div>
+    <div class="calc-out">
+      <h3>测算结果</h3>
+      <div class="res"><span>下游输入价</span><b id="r-in">—</b></div>
+      <div class="res"><span>下游输出价</span><b id="r-out">—</b></div>
+      <div class="res"><span>月上游成本</span><b id="r-cost">—</b></div>
+      <div class="res"><span>月下游营收</span><b id="r-rev">—</b></div>
+      <div class="res hl"><span>月毛利</span><b id="r-profit">—</b></div>
+      <div class="res"><span>毛利率</span><b id="r-margin">—</b></div>
+      <p class="biz-tip">结果随输入实时变化；在「上游渠道比对」点「＋计算器」可一键带入某模型的上游价。</p>
+    </div>
+  </div>`;
+}
+
+function calcrecompute() {
+  const g = (id) => document.getElementById(id);
+  const pin = parseFloat(g('calc-in')?.value);
+  const pout = parseFloat(g('calc-out')?.value);
+  const m = parseFloat(g('calc-margin')?.value);
+  const vin = parseFloat(g('calc-vin')?.value);
+  const vout = parseFloat(g('calc-vout')?.value);
+  if ([pin, pout, m, vin, vout].some((x) => isNaN(x))) return;
+  S.calc = { in: pin, out: pout, margin: m, vin, vout };
+  const din = pin * (1 + m / 100);
+  const dout = pout * (1 + m / 100);
+  const cost = pin * vin + pout * vout;
+  const rev = din * vin + dout * vout;
+  const profit = rev - cost;
+  const mp = rev > 0 ? (profit / rev * 100) : 0;
+  if (g('r-in')) g('r-in').textContent = fmtMoney(din);
+  if (g('r-out')) g('r-out').textContent = fmtMoney(dout);
+  if (g('r-cost')) g('r-cost').textContent = fmtMoney(cost);
+  if (g('r-rev')) g('r-rev').textContent = fmtMoney(rev);
+  if (g('r-profit')) g('r-profit').textContent = fmtMoney(profit);
+  if (g('r-margin')) g('r-margin').textContent = mp.toFixed(1) + '%';
+}
+
 /* --------------------------------- 主渲染 -------------------------------- */
 
 function render() {
@@ -981,6 +1153,7 @@ function render() {
     bm: renderBm,
     gl: renderGl,
     arch: renderArch,
+    biz: renderBiz,
   }[S.tab] || renderFeed;
 
   const d = S.data;
@@ -1000,6 +1173,7 @@ function render() {
       </footer>
     </div>`;
   updateCountdown();
+  if (S.tab === 'biz' && S.bizTab === 'calc') setTimeout(calcrecompute, 0);
 }
 
 /* ------------------------------ 交互：动作分发 --------------------------- */
@@ -1145,6 +1319,23 @@ const actions = {
     render();
     toast('收藏夹已清空');
   },
+  bizsub(el) {
+    S.bizTab = el.dataset.v;
+    render();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  },
+  calcfill(el) {
+    const m = (S.models?.models || []).find((x) => x.id === el.dataset.id);
+    if (!m) return toast('找不到该模型');
+    S.calc = { in: m.priceIn, out: m.priceOut, margin: S.calc.margin, vin: S.calc.vin, vout: S.calc.vout };
+    S.bizTab = 'calc';
+    render();
+    toast(`已带入 ${m.vendor} ${m.model} 的上游价`);
+  },
+  calcreset() {
+    S.calc = { in: 2, out: 8, margin: 30, vin: 100, vout: 100 };
+    render();
+  },
 };
 
 /* -------------------------------- 事件绑定 ------------------------------ */
@@ -1179,11 +1370,14 @@ document.addEventListener('input', (e) => {
     const b = S.bookmarks.find((x) => x.id === el.dataset.id);
     if (b) { b.note = el.value; clearTimeout(el._t2); el._t2 = setTimeout(() => saveLS(LS.bm, S.bookmarks), 500); }
   }
+  if (el.dataset?.act === 'calc') { calcrecompute(); }
 });
 
 document.addEventListener('change', (e) => {
   const el = e.target;
   if (el.dataset?.act === 'sort') { S.sort = el.value; render(); }
+  else if (el.dataset?.act === 'biztier') { S.bizTier = el.value; render(); }
+  else if (el.dataset?.act === 'bizsort') { S.bizSort = el.value; render(); }
 });
 
 document.addEventListener('keydown', (e) => {

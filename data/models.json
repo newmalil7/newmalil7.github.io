@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "updated": "2026-09",
+    "note": "示例数据，非实时报价。价格单位：¥ / 百万 tokens；延迟 latency 为从东南亚节点预估的往返 RTT（ms），仅供参考。实际请以各厂商最新开放平台报价、以及你拿到的渠道/协议价为准。出海可用性随厂商政策与合规要求变动，落地前请自行核实。"
+  },
+  "models": [
+    {
+      "id": "deepseek-v3", "vendor": "深度求索", "model": "DeepSeek-V3", "tier": "旗舰",
+      "context": "128K", "priceIn": 2, "priceOut": 8, "latency": 55, "langs": ["中文", "英文"],
+      "quality": 5, "overseas": "开放 API · 全球可用", "note": "性价比标杆，出海首选通道之一"
+    },
+    {
+      "id": "deepseek-r1", "vendor": "深度求索", "model": "DeepSeek-R1", "tier": "推理",
+      "context": "128K", "priceIn": 4, "priceOut": 16, "latency": 60, "langs": ["中文", "英文"],
+      "quality": 5, "overseas": "开放 API · 全球可用", "note": "强推理，适合复杂任务/代理链路"
+    },
+    {
+      "id": "qwen-max", "vendor": "阿里云", "model": "通义千问 Qwen-Max", "tier": "旗舰",
+      "context": "128K", "priceIn": 20, "priceOut": 20, "latency": 70, "langs": ["中文", "英文", "多语"],
+      "quality": 5, "overseas": "开放 API · 部分区域", "note": "综合能力均衡，企业客户认知度高"
+    },
+    {
+      "id": "qwen-plus", "vendor": "阿里云", "model": "Qwen-Plus", "tier": "主力",
+      "context": "128K", "priceIn": 4, "priceOut": 12, "latency": 65, "langs": ["中文", "英文"],
+      "quality": 4, "overseas": "开放 API · 部分区域", "note": "主力走量模型，性价比好"
+    },
+    {
+      "id": "glm-4-plus", "vendor": "智谱 AI", "model": "GLM-4-Plus", "tier": "旗舰",
+      "context": "128K", "priceIn": 10, "priceOut": 10, "latency": 75, "langs": ["中文", "英文"],
+      "quality": 4, "overseas": "开放 API · 有海外节点", "note": "智谱出海布局较积极"
+    },
+    {
+      "id": "kimi-k1", "vendor": "月之暗面", "model": "Kimi (k1.5)", "tier": "长上下文",
+      "context": "200K", "priceIn": 12, "priceOut": 12, "latency": 80, "langs": ["中文", "英文"],
+      "quality": 4, "overseas": "开放 API · 全球可用", "note": "超长上下文，长文档/摘要场景强"
+    },
+    {
+      "id": "doubao-pro", "vendor": "字节跳动", "model": "豆包 Doubao-pro", "tier": "主力",
+      "context": "128K", "priceIn": 5, "priceOut": 9, "latency": 50, "langs": ["中文", "英文"],
+      "quality": 4, "overseas": "开放 API · 火山引擎", "note": "延迟低、价格亲民，走量友好"
+    },
+    {
+      "id": "minimax", "vendor": "MiniMax", "model": "MiniMax-Text-01", "tier": "主力",
+      "context": "128K", "priceIn": 8, "priceOut": 8, "latency": 70, "langs": ["中文", "英文"],
+      "quality": 4, "overseas": "开放 API · 全球可用", "note": "多模态能力齐，适合综合产品"
+    },
+    {
+      "id": "baichuan4", "vendor": "百川智能", "model": "Baichuan4", "tier": "主力",
+      "context": "128K", "priceIn": 10, "priceOut": 10, "latency": 80, "langs": ["中文", "英文"],
+      "quality": 3, "overseas": "开放 API · 需核实区域", "note": "国内合规能力强，政企客户友好"
+    },
+    {
+      "id": "step-2", "vendor": "阶跃星辰", "model": "Step-2", "tier": "旗舰",
+      "context": "128K", "priceIn": 10, "priceOut": 10, "latency": 85, "langs": ["中文", "英文"],
+      "quality": 4, "overseas": "开放 API · 需核实区域", "note": "综合旗舰，适合中高端客户"
+    },
+    {
+      "id": "ernie-4", "vendor": "百度", "model": "文心 ERNIE 4.0", "tier": "旗舰",
+      "context": "128K", "priceIn": 30, "priceOut": 30, "latency": 90, "langs": ["中文", "英文"],
+      "quality": 4, "overseas": "开放 API · 需企业资质", "note": "品牌强但价高，适合不敏感预算客户"
+    },
+    {
+      "id": "yi-large", "vendor": "零一万物", "model": "Yi-Large", "tier": "旗舰",
+      "context": "32K", "priceIn": 8, "priceOut": 8, "latency": 80, "langs": ["中文", "英文"],
+      "quality": 3, "overseas": "开放 API · 全球可用", "note": "海外团队运营，出海通道友好"
+    }
+  ]
+}
