@@ -1,13 +1,17 @@
 /* AI 瞭望台 · Service Worker
    静态资源 cache-first，数据文件 network-first（保证每天 9 点拿到最新） */
 
-const VERSION = 'aih-v3';
+const VERSION = 'aih-v4';
 const STATIC = [
   './',
   './index.html',
   './assets/styles.css',
   './assets/app.js',
   './manifest.webmanifest',
+  './assets/icons/icon-192.png',
+  './assets/icons/icon-512.png',
+  './assets/icons/icon-maskable-512.png',
+  './assets/icons/apple-touch-icon.png',
   './data/sources.json',
   './data/curriculum.json',
   './data/glossary.json',
