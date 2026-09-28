@@ -32,6 +32,7 @@ const LS = {
   pref: 'aih.pref.v1',
   channels: 'aih.biz.channels.v1',
   customers: 'aih.biz.customers.v1',
+  sync: 'aih.biz.sync.v1',
 };
 
 const REFRESH_HOUR = 9; // 每日 09:00 自动刷新
@@ -103,6 +104,7 @@ const S = {
   profiles: null, weekly: null, models: null,
   channels: loadLS(LS.channels, null),
   customers: loadLS(LS.customers, []),
+  sync: loadLS(LS.sync, { token: '', gistId: '', lastSync: '' }),
   tab: 'feed',
   bizTab: 'primer', bizSort: 'price', bizTier: 'ALL',
   bizEditCh: null, bizEditCu: null, _quote: null,
@@ -980,8 +982,8 @@ function renderArch() {
 const fmtMoney = (x) => '¥' + (Math.round(x * 100) / 100).toLocaleString('en-US');
 
 function renderBiz() {
-  const sub = ['primer', 'channels', 'calc', 'quote', 'crm'];
-  const labels = { primer: '业务认知', channels: '渠道管理', calc: '差价计算器', quote: '报价单', crm: '客户管理' };
+  const sub = ['primer', 'channels', 'calc', 'quote', 'crm', 'sync'];
+  const labels = { primer: '业务认知', channels: '渠道管理', calc: '差价计算器', quote: '报价单', crm: '客户管理', sync: '☁️ 云同步' };
   const subnav = `<div class="biz-sub">${sub.map((k) => `
     <button class="biz-sub-btn ${S.bizTab === k ? 'on' : ''}" data-act="bizsub" data-v="${k}">${labels[k]}</button>`).join('')}</div>`;
   let body = '';
@@ -990,6 +992,7 @@ function renderBiz() {
   else if (S.bizTab === 'calc') body = bizCalcHTML();
   else if (S.bizTab === 'quote') body = bizQuoteHTML();
   else if (S.bizTab === 'crm') body = bizCrmHTML();
+  else if (S.bizTab === 'sync') body = bizSyncHTML();
   else body = bizCalcHTML();
   return `${subnav}<div class="biz-body">${body}</div>`;
 }
@@ -1355,6 +1358,110 @@ function bizCrmHTML() {
   ${form}`;
 }
 
+/* --------------------------------- 云同步（GitHub 私有 Gist） --------------------------------- */
+
+function bizSyncHTML() {
+  const s = S.sync || {};
+  const chCount = (S.channels || []).length;
+  const cuCount = (S.customers || []).length;
+  const hasToken = !!s.token;
+  const lastSync = s.lastSync ? new Date(s.lastSync).toLocaleString('zh-CN') : '尚未同步';
+  return `
+  <div class="biz-intro">
+    <h2>☁️ 云同步 · 让 iMac 与 MacBook 数据对齐</h2>
+    <p>数据存在你自己的 <strong>GitHub 私有 Gist</strong> 里。在任意一台设备「上传」，另一台「拉取」即可对齐——不依赖服务器，不影响站点本身。令牌只存在本机浏览器，<strong>不会写入代码仓库</strong>。</p>
+  </div>
+
+  <div class="sync-cards">
+    <div class="sync-card">
+      <h3>① 第一步：准备令牌（只需做一次）</h3>
+      <ol class="sync-steps">
+        <li>GitHub → 头像 → <b>Settings → Developer settings → Personal access tokens → Tokens (classic)</b></li>
+        <li>点 <b>Generate new token (classic)</b>，Note 写「AI瞭望台云同步」</li>
+        <li>权限只勾一项：<b>✅ gist</b>（其余都不勾）</li>
+        <li>生成后复制那串 <code>ghp_...</code> 令牌，粘贴到下方（它只存你这台浏览器）</li>
+      </ol>
+      <div class="sync-form">
+        <label>GitHub 令牌（gist 权限）<input id="sync-token" type="password" placeholder="ghp_..." autocomplete="off"></label>
+        <label>已有同步 Gist ID（可选，留空=首次自动创建）<input id="sync-gist" placeholder="留空则首次上传时自动创建"></label>
+        <button class="mini primary" data-act="syncsave">保存令牌 / Gist ID</button>
+        <span class="meta">${hasToken ? '✅ 已保存令牌（已加密存本地）' : '⚠️ 尚未保存令牌'}</span>
+      </div>
+    </div>
+
+    <div class="sync-card">
+      <h3>② 第二步：同步</h3>
+      <div class="sync-status">
+        <div><span>本地渠道台账</span><b>${chCount} 条</b></div>
+        <div><span>本地客户数据</span><b>${cuCount} 条</b></div>
+        <div><span>上次同步</span><b>${esc(lastSync)}</b></div>
+      </div>
+      <div class="sync-actions">
+        <button class="mini primary" data-act="syncupload" ${hasToken ? '' : 'disabled'}>☁️ 上传到云端（本地 → Gist）</button>
+        <button class="mini" data-act="syncdownload" ${hasToken ? '' : 'disabled'}>⬇️ 从云端拉取（Gist → 本地，覆盖本地）</button>
+      </div>
+      <p class="sync-note">上传：把当前 iMac/MacBook 的渠道 + 客户推到你的私有 Gist。拉取：把 Gist 里的最新数据覆盖到当前设备。建议「改完数据 → 上传；换设备 → 拉取」。</p>
+    </div>
+  </div>`;
+}
+
+async function gistPush() {
+  const s = S.sync || {};
+  if (!s.token) return toast('请先在「保存令牌」里填写 GitHub 令牌');
+  const payload = {
+    channels: S.channels || [],
+    customers: S.customers || [],
+    updatedAt: new Date().toISOString(),
+  };
+  const filename = 'aih-biz-sync.json';
+  const body = { public: false, files: { [filename]: { content: JSON.stringify(payload, null, 2) } } };
+  const headers = { 'Content-Type': 'application/json', Authorization: 'Bearer ' + s.token };
+  try {
+    let url = 'https://api.github.com/gists';
+    let method = 'POST';
+    if (s.gistId) { url = 'https://api.github.com/gists/' + s.gistId; method = 'PATCH'; }
+    toast('正在上传到 GitHub…');
+    const res = await fetch(url, { method, headers, body: JSON.stringify(body) });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error((err.message || res.statusText) + (res.status === 401 ? '（令牌无效或无 gist 权限）' : ''));
+    }
+    const data = await res.json();
+    S.sync = { token: s.token, gistId: data.id, lastSync: new Date().toISOString() };
+    saveLS(LS.sync, S.sync);
+    toast('☁️ 已上传到云端，Gist ID: ' + data.id);
+    render();
+  } catch (e) {
+    toast('上传失败：' + e.message);
+  }
+}
+
+async function gistPull() {
+  const s = S.sync || {};
+  if (!s.token) return toast('请先填写 GitHub 令牌');
+  if (!s.gistId) return toast('没有 Gist ID：请先在一台设备「上传」一次');
+  if (!confirm('从云端拉取将用云端数据覆盖当前设备的本地数据，确定？')) return;
+  try {
+    toast('正在从 GitHub 拉取…');
+    const res = await fetch('https://api.github.com/gists/' + s.gistId, { headers: { Authorization: 'Bearer ' + s.token } });
+    if (!res.ok) throw new Error(res.statusText + (res.status === 401 ? '（令牌无效）' : ''));
+    const data = await res.json();
+    const file = data.files && data.files['aih-biz-sync.json'];
+    if (!file || !file.content) throw new Error('Gist 中没有同步文件');
+    const payload = JSON.parse(file.content);
+    S.channels = Array.isArray(payload.channels) ? payload.channels : (S.channels || null);
+    S.customers = Array.isArray(payload.customers) ? payload.customers : (S.customers || []);
+    saveLS(LS.channels, S.channels);
+    saveLS(LS.customers, S.customers);
+    S.sync = { ...s, lastSync: new Date().toISOString() };
+    saveLS(LS.sync, S.sync);
+    toast('⬇️ 已从云端拉取，本地已对齐');
+    render();
+  } catch (e) {
+    toast('拉取失败：' + e.message);
+  }
+}
+
 /* --------------------------------- 主渲染 -------------------------------- */
 
 function render() {
@@ -1594,6 +1701,17 @@ const actions = {
     const inp = el.parentElement.querySelector('[data-act="cufile"]');
     if (inp) inp.click();
   },
+  syncsave() {
+    const token = ($('#sync-token')?.value || '').trim();
+    const gistId = ($('#sync-gist')?.value || '').trim();
+    if (!token) return toast('令牌不能为空');
+    S.sync = { token, gistId: gistId || (S.sync?.gistId || ''), lastSync: S.sync?.lastSync || '' };
+    saveLS(LS.sync, S.sync);
+    toast('已保存令牌（仅存本机浏览器）');
+    render();
+  },
+  syncupload() { gistPush(); },
+  syncdownload() { gistPull(); },
   chedit(el) { S.bizEditCh = el.dataset.id; render(); setTimeout(() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }), 30); },
   chcancel() { S.bizEditCh = null; render(); },
   chdel(el) {

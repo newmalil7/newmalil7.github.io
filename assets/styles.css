@@ -924,3 +924,21 @@ html[data-theme="dark"] .pill.on { background: #14331f; color: #4ade80; }
   .ch-grid, .quote-grid { grid-template-columns: 1fr; }
   .crm-stats { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* 云同步 */
+.sync-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 12px; }
+.sync-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; }
+.sync-card h3 { margin: 0 0 10px; font-size: 15px; }
+.sync-steps { margin: 0 0 12px; padding-left: 18px; font-size: 13px; line-height: 1.7; color: var(--text-2); }
+.sync-steps code { background: var(--bg-2); padding: 1px 5px; border-radius: 5px; font-size: 12px; }
+.sync-form { display: flex; flex-direction: column; gap: 8px; }
+.sync-form label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--text-2); }
+.sync-form input { padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font-size: 14px; }
+.sync-status { display: grid; grid-template-columns: 1fr; gap: 8px; margin-bottom: 14px; }
+.sync-status > div { display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: var(--bg-2); border-radius: 9px; font-size: 13px; }
+.sync-status span { color: var(--text-2); }
+.sync-status b { font-family: var(--mono); }
+.sync-actions { display: flex; flex-direction: column; gap: 10px; }
+.sync-actions .mini { width: 100%; padding: 11px; font-size: 14px; }
+.sync-note { font-size: 12.5px; color: var(--text-2); line-height: 1.6; margin: 12px 0 0; }
+@media (max-width: 760px) { .sync-cards { grid-template-columns: 1fr; } }
