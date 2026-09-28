@@ -1125,6 +1125,9 @@ function bizChannelsHTML() {
     ${usingSample
       ? '<button class="mini primary" data-act="chimport">导入示例到台账</button>'
       : '<button class="mini" data-act="chclear">清空台账（回示例）</button><button class="mini" data-act="chexport">导出 JSON</button>'}
+    <button class="mini" data-act="chimportfile">导入备份 JSON</button>
+    <input type="file" data-act="chfile" accept="application/json,.json" hidden>
+    <span class="meta">数据存本机浏览器 · 导出/导入可在设备间搬运</span>
   </div>
   <div class="cmp-wrap">
     <table class="cmp-table">
@@ -1334,6 +1337,12 @@ function bizCrmHTML() {
     <div class="stat"><span>签约中</span><b>${stats.signed}</b></div>
     <div class="stat"><span>合同总月用量</span><b>${stats.vol} M</b></div>
     <div class="stat"><span>估算月营收</span><b>${fmtMoney(stats.rev)}</b></div>
+  </div>
+  <div class="ch-toolbar">
+    <button class="mini" data-act="cuexport">导出客户 JSON</button>
+    <button class="mini" data-act="cuimportfile">导入备份 JSON</button>
+    <input type="file" data-act="cufile" accept="application/json,.json" hidden>
+    <span class="meta">数据存本机浏览器 · 导出/导入可在设备间搬运</span>
   </div>
   <div class="cmp-wrap">
     <table class="cmp-table">
@@ -1570,6 +1579,21 @@ const actions = {
     const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'aih-channels.json'; a.click(); URL.revokeObjectURL(a.href);
     toast('已导出渠道台账');
   },
+  chimportfile(el) {
+    const inp = el.parentElement.querySelector('[data-act="chfile"]');
+    if (inp) inp.click();
+  },
+  cuexport() {
+    const cus = S.customers || [];
+    const text = JSON.stringify(cus, null, 2);
+    const blob = new Blob([text], { type: 'application/json' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'aih-customers.json'; a.click(); URL.revokeObjectURL(a.href);
+    toast('已导出客户数据');
+  },
+  cuimportfile(el) {
+    const inp = el.parentElement.querySelector('[data-act="cufile"]');
+    if (inp) inp.click();
+  },
   chedit(el) { S.bizEditCh = el.dataset.id; render(); setTimeout(() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }), 30); },
   chcancel() { S.bizEditCh = null; render(); },
   chdel(el) {
@@ -1640,6 +1664,34 @@ const actions = {
   },
 };
 
+/* 通用：从本地文件导入台账/客户（在设备间搬运数据） */
+function readBizFile(input, kind) {
+  const file = input.files && input.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const data = JSON.parse(reader.result);
+      let arr = Array.isArray(data) ? data : (data[kind] || data.channels || data.customers || data.models || []);
+      if (!Array.isArray(arr)) throw new Error('文件不是有效的数组');
+      if (kind === 'channels') {
+        S.channels = arr;
+        saveLS(LS.channels, S.channels);
+        toast(`已导入 ${arr.length} 条渠道到台账`);
+      } else {
+        S.customers = arr;
+        saveLS(LS.customers, S.customers);
+        toast(`已导入 ${arr.length} 条客户`);
+      }
+      render();
+    } catch (err) {
+      toast('导入失败：' + err.message + '（请确保是本站导出的 JSON）');
+    }
+  };
+  reader.readAsText(file);
+  input.value = '';
+}
+
 /* -------------------------------- 事件绑定 ------------------------------ */
 
 document.addEventListener('click', (e) => {
@@ -1682,6 +1734,8 @@ document.addEventListener('change', (e) => {
   else if (el.dataset?.act === 'biztier') { S.bizTier = el.value; render(); }
   else if (el.dataset?.act === 'bizsort') { S.bizSort = el.value; render(); }
   else if (el.dataset?.act === 'quote') { quoteCompute(); }
+  else if (el.dataset?.act === 'chfile') { readBizFile(el, 'channels'); }
+  else if (el.dataset?.act === 'cufile') { readBizFile(el, 'customers'); }
 });
 
 document.addEventListener('keydown', (e) => {
