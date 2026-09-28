@@ -890,3 +890,37 @@ html[data-theme="dark"] .calc-out .res.hl b { color: #34d399; }
   .calc-grid { grid-template-columns: 1fr; }
   .flow-arrow { transform: rotate(90deg); }
 }
+
+/* 渠道管理 / 报价单 / 客户管理 */
+.ch-toolbar { margin: 10px 0; display: flex; gap: 8px; flex-wrap: wrap; }
+.ch-form { margin-top: 18px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); padding: 18px; box-shadow: var(--shadow-sm); }
+.ch-form h3 { margin: 0 0 14px; font-size: 15.5px; }
+.ch-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.ch-grid label { display: block; font-size: 13px; color: var(--text-2); }
+.ch-grid input, .ch-grid select, .ch-note textarea {
+  display: block; width: 100%; margin-top: 5px; padding: 9px 11px; font-size: 14px;
+  border: 1px solid var(--border-strong); border-radius: var(--r-sm);
+  background: var(--surface-2); color: var(--text); font-family: var(--mono); box-sizing: border-box;
+}
+.ch-note { display: block; font-size: 13px; color: var(--text-2); margin-top: 14px; }
+.ch-note textarea { font-family: inherit; resize: vertical; }
+.ch-form-actions { margin-top: 14px; display: flex; gap: 8px; }
+.mini.primary { background: var(--brand); color: #fff; border-color: var(--brand); }
+.mini.danger { color: #ef4444; border-color: #ef4444; }
+.mini.danger:hover { background: #ef4444; color: #fff; }
+.row-actions { display: flex; gap: 4px; flex-wrap: wrap; }
+.quote-actions { margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap; }
+.quote-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 8px; }
+.crm-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 12px 0; }
+.crm-stats .stat {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--r);
+  padding: 12px 14px; display: flex; flex-direction: column; gap: 4px; box-shadow: var(--shadow-sm);
+}
+.crm-stats .stat span { font-size: 12.5px; color: var(--text-2); }
+.crm-stats .stat b { font-size: 19px; font-family: var(--mono); }
+.pill.on { background: #dcfce7; color: #15803d; }
+html[data-theme="dark"] .pill.on { background: #14331f; color: #4ade80; }
+@media (max-width: 760px) {
+  .ch-grid, .quote-grid { grid-template-columns: 1fr; }
+  .crm-stats { grid-template-columns: repeat(2, 1fr); }
+}

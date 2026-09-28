@@ -30,6 +30,8 @@ const LS = {
   prog: 'aih.progress.v1',
   theme: 'aih.theme',
   pref: 'aih.pref.v1',
+  channels: 'aih.biz.channels.v1',
+  customers: 'aih.biz.customers.v1',
 };
 
 const REFRESH_HOUR = 9; // 每日 09:00 自动刷新
@@ -99,8 +101,11 @@ function toast(msg, ms = 2000) {
 const S = {
   data: null, briefing: {}, curriculum: null, glossary: null, sources: null, archive: [],
   profiles: null, weekly: null, models: null,
+  channels: loadLS(LS.channels, null),
+  customers: loadLS(LS.customers, []),
   tab: 'feed',
   bizTab: 'primer', bizSort: 'price', bizTier: 'ALL',
+  bizEditCh: null, bizEditCu: null, _quote: null,
   calc: { in: 2, out: 8, margin: 30, vin: 100, vout: 100 },
   region: 'ALL',
   topics: new Set(),
@@ -975,15 +980,28 @@ function renderArch() {
 const fmtMoney = (x) => '¥' + (Math.round(x * 100) / 100).toLocaleString('en-US');
 
 function renderBiz() {
-  const sub = ['primer', 'compare', 'calc'];
-  const labels = { primer: '业务认知', compare: '上游渠道比对', calc: '差价计算器' };
+  const sub = ['primer', 'channels', 'calc', 'quote', 'crm'];
+  const labels = { primer: '业务认知', channels: '渠道管理', calc: '差价计算器', quote: '报价单', crm: '客户管理' };
   const subnav = `<div class="biz-sub">${sub.map((k) => `
     <button class="biz-sub-btn ${S.bizTab === k ? 'on' : ''}" data-act="bizsub" data-v="${k}">${labels[k]}</button>`).join('')}</div>`;
   let body = '';
   if (S.bizTab === 'primer') body = bizPrimerHTML();
-  else if (S.bizTab === 'compare') body = bizCompareHTML();
+  else if (S.bizTab === 'channels') body = bizChannelsHTML();
+  else if (S.bizTab === 'calc') body = bizCalcHTML();
+  else if (S.bizTab === 'quote') body = bizQuoteHTML();
+  else if (S.bizTab === 'crm') body = bizCrmHTML();
   else body = bizCalcHTML();
   return `${subnav}<div class="biz-body">${body}</div>`;
+}
+
+/** 取当前渠道：若有本地台账优先用台账，否则用示例数据 */
+function getBizChannels() {
+  if (S.channels && S.channels.length) return S.channels;
+  return (S.models?.models || []).map((m) => ({
+    id: m.id, vendor: m.vendor, model: m.model, tier: m.tier, context: m.context,
+    priceIn: m.priceIn, priceOut: m.priceOut, latency: m.latency, quality: m.quality,
+    langs: m.langs || [], overseas: m.overseas, note: '',
+  }));
 }
 
 function bizPrimerHTML() {
@@ -1040,10 +1058,11 @@ function bizPrimerHTML() {
   <p class="biz-tip">👉 下一步：到「上游渠道比对」挑模型，再到「差价计算器」算你的报价与月毛利。</p>`;
 }
 
-function bizCompareHTML() {
-  if (!S.models) return `<div class="empty"><p>渠道数据载入中…</p></div>`;
-  const tiers = ['ALL', ...new Set(S.models.models.map((m) => m.tier))];
-  const list = S.models.models
+function bizChannelsHTML() {
+  const usingSample = !(S.channels && S.channels.length);
+  const chs = getBizChannels();
+  const tiers = ['ALL', ...new Set(chs.map((m) => m.tier))];
+  const list = chs
     .filter((m) => S.bizTier === 'ALL' || m.tier === S.bizTier)
     .slice()
     .sort((a, b) => {
@@ -1062,21 +1081,51 @@ function bizCompareHTML() {
       <td class="num">${m.latency}ms</td>
       <td class="num">${'★'.repeat(m.quality)}${'☆'.repeat(5 - m.quality)}</td>
       <td>${esc((m.langs || []).join('/'))}</td>
-      <td>${esc(m.overseas)}</td>
-      <td><button class="mini" data-act="calcfill" data-id="${m.id}" title="填入计算器">＋计算器</button></td>
+      <td>${esc(m.overseas || '')}</td>
+      <td class="row-actions">
+        <button class="mini" data-act="calcfill" data-id="${m.id}" title="填入计算器">＋计算器</button>
+        ${usingSample ? '' : `<button class="mini" data-act="chedit" data-id="${m.id}">编辑</button><button class="mini danger" data-act="chdel" data-id="${m.id}">删</button>`}
+      </td>
     </tr>`).join('');
+  const e = S.bizEditCh ? chs.find((x) => x.id === S.bizEditCh) : null;
+  const f = (k, d = '') => (e ? esc(e[k] ?? d) : '');
+  const langsVal = e ? (Array.isArray(e.langs) ? e.langs.join('/') : (e.langs || '')) : '';
+  const form = `
+  <div class="ch-form">
+    <h3>${e ? `编辑渠道：${esc(e.vendor)} ${esc(e.model)}` : '➕ 新增上游渠道（存浏览器本地）'}</h3>
+    <div class="ch-grid">
+      <label>厂商<input name="vendor" value="${f('vendor')}" placeholder="如 深度求索"></label>
+      <label>模型<input name="model" value="${f('model')}" placeholder="如 DeepSeek-V3"></label>
+      <label>档位<input name="tier" value="${f('tier')}" placeholder="如 standard"></label>
+      <label>上下文<input name="context" value="${f('context')}" placeholder="如 128K"></label>
+      <label>输入价(¥/M)<input name="priceIn" type="number" step="0.1" min="0" value="${f('priceIn', 0)}"></label>
+      <label>输出价(¥/M)<input name="priceOut" type="number" step="0.1" min="0" value="${f('priceOut', 0)}"></label>
+      <label>SEA延迟(ms)<input name="latency" type="number" step="1" min="0" value="${f('latency', 0)}"></label>
+      <label>质量(1-5)<input name="quality" type="number" step="1" min="0" max="5" value="${f('quality', 3)}"></label>
+      <label>语种<input name="langs" value="${esc(langsVal)}" placeholder="逗号分隔，如 中英/英"></label>
+      <label>出海可用<input name="overseas" value="${f('overseas')}" placeholder="如 东南亚可用"></label>
+    </div>
+    <label class="ch-note">备注<textarea name="note" rows="2">${f('note')}</textarea></label>
+    <div class="ch-form-actions">
+      <button class="mini primary" data-act="chsave">${e ? '保存修改' : '添加渠道'}</button>
+      ${e ? '<button class="mini" data-act="chcancel">取消</button>' : ''}
+    </div>
+  </div>`;
   return `
   <div class="filters"><div class="frow">
-    <span class="flabel">档位</span>
-    <select data-act="biztier">${tierOpts}</select>
-    <span class="flabel">排序</span>
-    <select data-act="bizsort">
+    <span class="flabel">档位</span><select data-act="biztier">${tierOpts}</select>
+    <span class="flabel">排序</span><select data-act="bizsort">
       <option value="price" ${S.bizSort === 'price' ? 'selected' : ''}>价格（低→高）</option>
       <option value="latency" ${S.bizSort === 'latency' ? 'selected' : ''}>延迟（低→高）</option>
       <option value="quality" ${S.bizSort === 'quality' ? 'selected' : ''}>质量（高→低）</option>
     </select>
-    <span class="meta">示例数据 · 非实时</span>
+    <span class="meta ${usingSample ? 'warn' : ''}">${usingSample ? '当前：示例数据（点「导入示例」可转成可编辑台账）' : '当前：我的台账（已存本地）'}</span>
   </div></div>
+  <div class="ch-toolbar">
+    ${usingSample
+      ? '<button class="mini primary" data-act="chimport">导入示例到台账</button>'
+      : '<button class="mini" data-act="chclear">清空台账（回示例）</button><button class="mini" data-act="chexport">导出 JSON</button>'}
+  </div>
   <div class="cmp-wrap">
     <table class="cmp-table">
       <thead><tr>
@@ -1085,7 +1134,8 @@ function bizCompareHTML() {
       </tr></thead>
       <tbody>${rows}</tbody>
     </table>
-  </div>`;
+  </div>
+  ${form}`;
 }
 
 function bizCalcHTML() {
@@ -1137,6 +1187,165 @@ function calcrecompute() {
   if (g('r-margin')) g('r-margin').textContent = mp.toFixed(1) + '%';
 }
 
+function bizQuoteHTML() {
+  const chs = getBizChannels();
+  if (!chs.length) return '<div class="empty"><p>还没有渠道数据，请先到「渠道管理」导入示例或新增。</p></div>';
+  const modelOpts = chs.map((m) => `<option value="${m.id}">${esc(m.vendor)} ${esc(m.model)}（¥${m.priceIn}/¥${m.priceOut}）</option>`).join('');
+  const regionOpts = ['东南亚', '亚洲', '全球', '其他'].map((r) => `<option value="${r}">${r}</option>`).join('');
+  return `
+  <div class="quote-grid">
+    <div class="calc-in">
+      <h3>报价参数</h3>
+      <label>客户名称<input id="q-cust" value=""></label>
+      <label>目标区域<select id="q-region" data-act="quote">${regionOpts}</select></label>
+      <label>选择模型<select id="q-model" data-act="quote">${modelOpts}</select></label>
+      <label>目标利润率（%）<input id="q-margin" type="number" step="1" min="0" value="30"></label>
+      <label>区域服务费溢价（%）<input id="q-radd" type="number" step="1" min="0" value="0" title="东南亚延迟低可设 0；全球可加溢价"></label>
+      <label>月输入量（百万 tokens）<input id="q-vin" type="number" step="1" min="0" value="100"></label>
+      <label>月输出量（百万 tokens）<input id="q-vout" type="number" step="1" min="0" value="100"></label>
+      <label>固定月服务费（¥，可选）<input id="q-fee" type="number" step="100" min="0" value="0"></label>
+    </div>
+    <div class="calc-out" id="quote-out"><h3>报价单预览</h3><div class="res"><span>填写左侧参数</span><b>—</b></div></div>
+  </div>
+  <div class="quote-actions">
+    <button class="mini" data-act="qcopy" data-lang="zh">复制中文报价</button>
+    <button class="mini" data-act="qcopy" data-lang="en">Copy English</button>
+    <button class="mini" data-act="qdown">下载 .txt</button>
+  </div>`;
+}
+
+function quoteCompute() {
+  const g = (id) => document.getElementById(id);
+  const m = getBizChannels().find((x) => x.id === g('q-model')?.value);
+  const out = document.getElementById('quote-out');
+  if (!m || !out) return;
+  const margin = parseFloat(g('q-margin')?.value) || 0;
+  const radd = parseFloat(g('q-radd')?.value) || 0;
+  const vin = parseFloat(g('q-vin')?.value) || 0;
+  const vout = parseFloat(g('q-vout')?.value) || 0;
+  const fee = parseFloat(g('q-fee')?.value) || 0;
+  const din = m.priceIn * (1 + margin / 100) * (1 + radd / 100);
+  const dout = m.priceOut * (1 + margin / 100) * (1 + radd / 100);
+  const cost = m.priceIn * vin + m.priceOut * vout;
+  const rev = din * vin + dout * vout + fee;
+  const profit = rev - cost - fee;
+  const mp = rev > 0 ? (profit / rev * 100) : 0;
+  out.innerHTML = `<h3>报价单预览</h3>
+    <div class="res"><span>上游输入价</span><b>¥${m.priceIn}</b></div>
+    <div class="res"><span>上游输出价</span><b>¥${m.priceOut}</b></div>
+    <div class="res hl"><span>建议下游输入价</span><b>${fmtMoney(din)}</b></div>
+    <div class="res hl"><span>建议下游输出价</span><b>${fmtMoney(dout)}</b></div>
+    <div class="res"><span>月上游成本</span><b>${fmtMoney(cost)}</b></div>
+    <div class="res"><span>月下游营收</span><b>${fmtMoney(rev)}</b></div>
+    <div class="res hl"><span>月毛利</span><b>${fmtMoney(profit)}</b></div>
+    <div class="res"><span>毛利率</span><b>${mp.toFixed(1)}%</b></div>`;
+  S._quote = { cust: g('q-cust')?.value || '（未填）', region: g('q-region')?.value || '东南亚', m, din, dout, cost, rev, profit, mp, vin, vout, fee, margin, radd };
+}
+
+const REGION_EN = { '东南亚': 'Southeast Asia', '亚洲': 'Asia', '全球': 'Global', '其他': 'Other' };
+
+function quoteTextZH(q) {
+  return `客户报价单
+客户：${q.cust}
+目标区域：${q.region}
+模型：${q.m.vendor} ${q.m.model}
+上游成本：输入 ¥${q.m.priceIn} / 输出 ¥${q.m.priceOut}（每百万 tokens）
+目标利润率：${q.margin}%${q.radd ? ' ｜ 区域服务费溢价：' + q.radd + '%' : ''}
+-------------------------
+建议下游报价：
+  输入价：${fmtMoney(q.din)} / 百万 tokens
+  输出价：${fmtMoney(q.dout)} / 百万 tokens
+月用量预估：输入 ${q.vin} M / 输出 ${q.vout} M
+月上游成本：${fmtMoney(q.cost)}
+月下游营收：${fmtMoney(q.rev)}${q.fee ? '（含固定服务费 ' + fmtMoney(q.fee) + '）' : ''}
+月毛利：${fmtMoney(q.profit)}
+毛利率：${q.mp.toFixed(1)}%
+（示例测算，价格以实际渠道为准）`;
+}
+
+function quoteTextEN(q) {
+  const region = REGION_EN[q.region] || q.region;
+  return `QUOTATION
+Client: ${q.cust}
+Region: ${region}
+Model: ${q.m.vendor} ${q.m.model}
+Upstream cost: input ¥${q.m.priceIn} / output ¥${q.m.priceOut} per 1M tokens
+Target margin: ${q.margin}%${q.radd ? ' | Regional premium: ' + q.radd + '%' : ''}
+-------------------------
+Suggested resale price:
+  Input: ${fmtMoney(q.din)} / 1M tokens
+  Output: ${fmtMoney(q.dout)} / 1M tokens
+Estimated monthly volume: input ${q.vin}M / output ${q.vout}M
+Monthly upstream cost: ${fmtMoney(q.cost)}
+Monthly revenue: ${fmtMoney(q.rev)}${q.fee ? ' (incl. fixed fee ' + fmtMoney(q.fee) + ')' : ''}
+Monthly gross profit: ${fmtMoney(q.profit)}
+Gross margin: ${q.mp.toFixed(1)}%
+(Estimate only; subject to actual channel pricing)`;
+}
+
+function bizCrmHTML() {
+  const cus = S.customers || [];
+  const chs = getBizChannels();
+  const regionList = ['东南亚', '亚洲', '全球', '其他'];
+  const statusList = ['潜在', '试用', '签约', '流失'];
+  const modelItems = chs.map((m) => ({ v: m.id, label: m.vendor + ' ' + m.model }));
+  const optHTML = (items, sel) => items.map((it) => `<option value="${esc(it.v)}" ${it.v === sel ? 'selected' : ''}>${esc(it.label)}</option>`).join('');
+  const stats = {
+    total: cus.length,
+    signed: cus.filter((c) => c.status === '签约').length,
+    vol: cus.reduce((s, c) => s + (parseFloat(c.monthly) || 0), 0),
+    rev: cus.reduce((s, c) => s + (parseFloat(c.monthly) || 0) * (parseFloat(c.price) || 0), 0),
+  };
+  const rows = cus.map((c) => {
+    const m = chs.find((x) => x.id === c.model);
+    return `<tr>
+      <td><b>${esc(c.name)}</b><div class="sub">${esc(c.contact || '')}</div></td>
+      <td>${esc(c.region)}</td>
+      <td>${m ? esc(m.vendor + ' ' + m.model) : '—'}</td>
+      <td class="num">${c.monthly} M</td>
+      <td class="num">¥${c.price}</td>
+      <td><span class="pill ${c.status === '签约' ? 'on' : ''}">${esc(c.status)}</span></td>
+      <td class="row-actions"><button class="mini" data-act="cuedit" data-id="${c.id}">编辑</button><button class="mini danger" data-act="cudel" data-id="${c.id}">删</button></td>
+    </tr>`;
+  }).join('') || `<tr><td colspan="7" class="empty">还没有客户，下面添加第一个。</td></tr>`;
+  const e = S.bizEditCu ? cus.find((x) => x.id === S.bizEditCu) : null;
+  const f = (k, d = '') => (e ? esc(e[k] ?? d) : '');
+  const form = `
+  <div class="ch-form">
+    <h3>${e ? '编辑客户：' + esc(e.name) : '➕ 新增下游客户（存浏览器本地）'}</h3>
+    <div class="ch-grid">
+      <label>客户名称<input name="name" value="${f('name')}"></label>
+      <label>地区<select name="region">${optHTML(regionList.map((r) => ({ v: r, label: r })), e?.region)}</select></label>
+      <label>联系人<input name="contact" value="${f('contact')}"></label>
+      <label>签约模型<select name="model">${optHTML(modelItems, e?.model)}</select></label>
+      <label>合同月用量(百万 tokens)<input name="monthly" type="number" step="1" min="0" value="${f('monthly', 0)}"></label>
+      <label>合同综合价(¥/M)<input name="price" type="number" step="0.1" min="0" value="${f('price', 0)}"></label>
+      <label>状态<select name="status">${optHTML(statusList.map((r) => ({ v: r, label: r })), e?.status)}</select></label>
+      <label>备注<input name="note" value="${f('note')}"></label>
+    </div>
+    <div class="ch-form-actions">
+      <button class="mini primary" data-act="cusave">${e ? '保存修改' : '添加客户'}</button>
+      ${e ? '<button class="mini" data-act="cucancel">取消</button>' : ''}
+    </div>
+  </div>`;
+  return `
+  <div class="crm-stats">
+    <div class="stat"><span>客户总数</span><b>${stats.total}</b></div>
+    <div class="stat"><span>签约中</span><b>${stats.signed}</b></div>
+    <div class="stat"><span>合同总月用量</span><b>${stats.vol} M</b></div>
+    <div class="stat"><span>估算月营收</span><b>${fmtMoney(stats.rev)}</b></div>
+  </div>
+  <div class="cmp-wrap">
+    <table class="cmp-table">
+      <thead><tr>
+        <th>客户 / 联系人</th><th>地区</th><th>签约模型</th><th>月用量</th><th>合同价</th><th>状态</th><th>操作</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>
+  ${form}`;
+}
+
 /* --------------------------------- 主渲染 -------------------------------- */
 
 function render() {
@@ -1174,6 +1383,7 @@ function render() {
     </div>`;
   updateCountdown();
   if (S.tab === 'biz' && S.bizTab === 'calc') setTimeout(calcrecompute, 0);
+  if (S.tab === 'biz' && S.bizTab === 'quote') setTimeout(quoteCompute, 0);
 }
 
 /* ------------------------------ 交互：动作分发 --------------------------- */
@@ -1325,7 +1535,8 @@ const actions = {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   },
   calcfill(el) {
-    const m = (S.models?.models || []).find((x) => x.id === el.dataset.id);
+    const all = [...(S.channels || []), ...(S.models?.models || [])];
+    const m = all.find((x) => x.id === el.dataset.id);
     if (!m) return toast('找不到该模型');
     S.calc = { in: m.priceIn, out: m.priceOut, margin: S.calc.margin, vin: S.calc.vin, vout: S.calc.vout };
     S.bizTab = 'calc';
@@ -1335,6 +1546,97 @@ const actions = {
   calcreset() {
     S.calc = { in: 2, out: 8, margin: 30, vin: 100, vout: 100 };
     render();
+  },
+  chimport() {
+    if (!S.models?.models?.length) return toast('示例数据未载入');
+    S.channels = S.models.models.map((m) => ({
+      id: m.id, vendor: m.vendor, model: m.model, tier: m.tier, context: m.context,
+      priceIn: m.priceIn, priceOut: m.priceOut, latency: m.latency, quality: m.quality,
+      langs: m.langs || [], overseas: m.overseas, note: '',
+    }));
+    saveLS(LS.channels, S.channels);
+    toast('已导入示例到台账，现在可编辑');
+    render();
+  },
+  chclear() {
+    if (!confirm('清空我的台账、回到示例数据？此操作不可撤销。')) return;
+    S.channels = null; S.bizEditCh = null;
+    saveLS(LS.channels, null);
+    render(); toast('已回到示例数据');
+  },
+  chexport() {
+    const text = JSON.stringify(S.channels, null, 2);
+    const blob = new Blob([text], { type: 'application/json' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'aih-channels.json'; a.click(); URL.revokeObjectURL(a.href);
+    toast('已导出渠道台账');
+  },
+  chedit(el) { S.bizEditCh = el.dataset.id; render(); setTimeout(() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }), 30); },
+  chcancel() { S.bizEditCh = null; render(); },
+  chdel(el) {
+    if (!confirm('删除该渠道？')) return;
+    S.channels = S.channels.filter((x) => x.id !== el.dataset.id);
+    saveLS(LS.channels, S.channels); render(); toast('已删除');
+  },
+  chsave() {
+    const form = $('.ch-form');
+    if (!form) return;
+    const g = (n) => form.querySelector(`[name="${n}"]`)?.value?.trim() ?? '';
+    const num = (n) => { const v = parseFloat(g(n)); return isNaN(v) ? 0 : v; };
+    const id = S.bizEditCh || ('ch_' + Date.now());
+    const rec = {
+      id,
+      vendor: g('vendor') || '未命名', model: g('model') || '未命名模型', tier: g('tier') || 'standard',
+      context: g('context') || '—',
+      priceIn: num('priceIn'), priceOut: num('priceOut'), latency: num('latency'),
+      quality: Math.max(0, Math.min(5, Math.round(num('quality')))),
+      langs: g('langs') ? g('langs').split(/[,，/]/).map((s) => s.trim()).filter(Boolean) : [],
+      overseas: g('overseas'), note: g('note') || '',
+    };
+    if (!S.channels) S.channels = [];
+    const i = S.channels.findIndex((x) => x.id === id);
+    if (i >= 0) S.channels[i] = rec; else S.channels.push(rec);
+    saveLS(LS.channels, S.channels);
+    S.bizEditCh = null;
+    render(); toast('已保存渠道');
+  },
+  cuedit(el) { S.bizEditCu = el.dataset.id; render(); setTimeout(() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }), 30); },
+  cucancel() { S.bizEditCu = null; render(); },
+  cudel(el) {
+    if (!confirm('删除该客户？')) return;
+    S.customers = (S.customers || []).filter((x) => x.id !== el.dataset.id);
+    saveLS(LS.customers, S.customers); render(); toast('已删除');
+  },
+  cusave() {
+    const form = $('.ch-form');
+    if (!form) return;
+    const g = (n) => form.querySelector(`[name="${n}"]`)?.value?.trim() ?? '';
+    const num = (n) => { const v = parseFloat(g(n)); return isNaN(v) ? 0 : v; };
+    const id = S.bizEditCu || ('cu_' + Date.now());
+    const rec = {
+      id, name: g('name') || '未命名客户', region: g('region') || '东南亚', contact: g('contact'),
+      model: form.querySelector('[name="model"]')?.value || '', monthly: num('monthly'), price: num('price'),
+      status: g('status') || '潜在', note: g('note') || '',
+    };
+    if (!S.customers) S.customers = [];
+    const i = S.customers.findIndex((x) => x.id === id);
+    if (i >= 0) S.customers[i] = rec; else S.customers.push(rec);
+    saveLS(LS.customers, S.customers);
+    S.bizEditCu = null; render(); toast('已保存客户');
+  },
+  qcopy(el) {
+    quoteCompute();
+    const q = S._quote; if (!q) return toast('请先填写报价参数');
+    const text = el.dataset.lang === 'en' ? quoteTextEN(q) : quoteTextZH(q);
+    if (navigator.clipboard?.writeText) navigator.clipboard.writeText(text).then(() => toast('已复制' + (el.dataset.lang === 'en' ? '英文' : '中文') + '报价')).catch(() => toast('复制失败，请手动选择'));
+    else toast('当前环境不支持复制，请点「下载」');
+  },
+  qdown() {
+    quoteCompute();
+    const q = S._quote; if (!q) return toast('请先填写报价参数');
+    const text = '【中文】\n' + quoteTextZH(q) + '\n\n【English】\n' + quoteTextEN(q);
+    const blob = new Blob([text], { type: 'text/plain' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `quote-${q.cust || 'client'}.txt`; a.click(); URL.revokeObjectURL(a.href);
+    toast('已下载报价单');
   },
 };
 
@@ -1371,6 +1673,7 @@ document.addEventListener('input', (e) => {
     if (b) { b.note = el.value; clearTimeout(el._t2); el._t2 = setTimeout(() => saveLS(LS.bm, S.bookmarks), 500); }
   }
   if (el.dataset?.act === 'calc') { calcrecompute(); }
+  if (el.dataset?.act === 'quote') { quoteCompute(); }
 });
 
 document.addEventListener('change', (e) => {
@@ -1378,6 +1681,7 @@ document.addEventListener('change', (e) => {
   if (el.dataset?.act === 'sort') { S.sort = el.value; render(); }
   else if (el.dataset?.act === 'biztier') { S.bizTier = el.value; render(); }
   else if (el.dataset?.act === 'bizsort') { S.bizSort = el.value; render(); }
+  else if (el.dataset?.act === 'quote') { quoteCompute(); }
 });
 
 document.addEventListener('keydown', (e) => {
