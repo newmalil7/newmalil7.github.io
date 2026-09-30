@@ -967,13 +967,14 @@ html[data-theme="dark"] .pill.on { background: #14331f; color: #4ade80; }
 /* 成长时间线（每日剖析） */
 .tl { position: relative; margin: 0 0 6px; padding-left: 4px; }
 .tl-item { position: relative; display: grid; grid-template-columns: 30px 1fr; gap: 10px; }
-.tl-rail { position: relative; display: flex; justify-content: center; }
+.tl-rail { position: relative; display: flex; justify-content: center; align-items: flex-start; }
 .tl-rail::before {
   content: ''; position: absolute; top: 0; bottom: 0; width: 2px;
   background: linear-gradient(180deg, color-mix(in srgb, var(--tc) 55%, var(--border)) 0%, var(--border) 92%);
 }
 .tl-item:first-child .tl-rail::before { top: 13px; }
-.tl-item:last-child .tl-rail::before { bottom: calc(100% - 14px); }
+.tl-item:last-child .tl-rail::before { bottom: auto; height: 14px; }
+.tl-item:only-child .tl-rail::before { display: none; }
 .tl-dot {
   position: relative; z-index: 1; width: 12px; height: 12px; margin-top: 7px; border-radius: 50%;
   background: var(--surface); border: 2.5px solid var(--tc);
