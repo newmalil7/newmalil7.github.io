@@ -41,6 +41,13 @@ jobs:
           node-version: 22
 
       - name: Fetch & curate news
+        env:
+          # MyMemory 匿名额度约 5000 字符/天，带邮箱可提到约 50000 字符/天。
+          # 想让每天全部要闻都配上中文，可在仓库 Settings → Secrets 里加
+          # TRANSLATE_DE_EMAIL（填你自己的邮箱）。不配也能跑，只是当天翻得少，
+          # 未翻的会在后续几天自动补上（译文有缓存，不会重复消耗额度）。
+          TRANSLATE_DE_EMAIL: ${{ secrets.TRANSLATE_DE_EMAIL }}
+          TRANSLATE_BUDGET: '45000'
         run: node scripts/fetch_news.mjs
 
       # 归档提交失败不应阻断部署：站点当天照常更新，只是少存一天归档
@@ -51,7 +58,7 @@ jobs:
           git config user.name "ai-horizon-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B main
-          git add -f data/news-latest.json data/archive data/archive-index.json data/digest data/digests.json data/companies.json data/profiles.json
+          git add -f data/news-latest.json data/archive data/archive-index.json data/digest data/digests.json data/companies.json data/profiles.json data/i18n-cache.json
           if git diff --cached --quiet; then
             echo "本日数据无变化，跳过提交"
             exit 0

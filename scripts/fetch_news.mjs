@@ -22,6 +22,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { Translator, buildI18n } from './translate.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -1245,11 +1246,62 @@ function backfillDigests(regions) {
 
 /* ---------------------------------- 主流程 -------------------------------- */
 
+const I18N_CACHE = path.join(DATA, 'i18n-cache.json');
+
+/**
+ * 中英对照（规则层）：给非中文条目补中文译文，非英文条目再补英文译文，原文始终保留。
+ * - 只翻「还没翻过」的：结果进缓存跨天复用，预算用尽也不丢进度，次日继续补
+ * - 按重要度顺序翻：预算不足时先保重要的（传入的 curated 已按重要度排序）
+ * - 任何异常都不阻断出刊
+ */
+async function attachTranslations(items, date) {
+  const budget = Number(getArg('--translate-budget') || process.env.TRANSLATE_BUDGET || 45000);
+  if (process.env.TRANSLATE_OFF === '1') return { total: 0, done: 0, off: true };
+
+  const tr = new Translator({ cachePath: I18N_CACHE, budget });
+  const need = items.filter((i) => String(i.lang || 'en').toLowerCase() !== 'zh');
+  if (!need.length) return { total: 0, done: 0 };
+
+  const t0 = Date.now();
+  let done = 0;
+  for (const it of need) {
+    if (tr.remaining <= 0) break;
+    try {
+      const r = await buildI18n(it, tr, { summaryMax: 240 });
+      if (r) {
+        it.i18n = r;
+        done += 1;
+      }
+    } catch (e) {
+      tr.fails += 1; // 单条失败不影响其它条目
+    }
+  }
+  tr.save();
+
+  const out = {
+    total: need.length,
+    done,
+    pending: need.length - done,
+    spent: tr.spent,
+    cached: tr.hits,
+    bySrc: tr.bySrc,
+    dead: [...tr.deadSources],
+    secs: +((Date.now() - t0) / 1000).toFixed(1),
+  };
+  console.log(
+    `  🌐 中英对照：需翻 ${out.total} 条 → 完成 ${out.done} 条` +
+      (out.pending ? `（${out.pending} 条待后续补翻）` : '') +
+      ` · 消耗 ${out.spent} 字符 · 缓存命中 ${out.cached} · 用时 ${out.secs}s` +
+      (out.dead.length ? ` · 停用源 ${out.dead.join('/')}` : '')
+  );
+  return out;
+}
+
 /**
  * 策展 + 落盘：去重 → 分类打分 → 区域配平（新鲜优先）→ 写 raw/归档/最新/每日总结。
  * 独立成函数，是为了让「用历史 raw 重跑同一条管线」成为可能（--rebuild-from-raw）。
  */
-function curateDay({ items: rawItems, regions, sourceTotal, failures = [], staleDropped = [], staleBase = 0, date, nowIso, writeRaw = true, refTime }) {
+async function curateDay({ items: rawItems, regions, sourceTotal, failures = [], staleDropped = [], staleBase = 0, date, nowIso, writeRaw = true, refTime }) {
   setRefNow(refTime);
   let items = rawItems;
 
@@ -1380,6 +1432,15 @@ function curateDay({ items: rawItems, regions, sourceTotal, failures = [], stale
 
   const curated = FULL ? items : regions.flatMap(pickRegion).sort(byImportance);
 
+  // 中英对照（规则层）：非中文条目补中文，非英文条目再补英文，原文始终保留
+  let i18n = null;
+  try {
+    i18n = await attachTranslations(curated, date);
+  } catch (e) {
+    console.warn('  ⚠ 翻译层异常（不影响出刊）：', e.message);
+    i18n = { total: 0, done: 0, error: String((e && e.message) || e) };
+  }
+
   const fullPayload = { ...base, curated: false, items };
   const curatedPayload = {
     ...base,
@@ -1391,6 +1452,12 @@ function curateDay({ items: rawItems, regions, sourceTotal, failures = [], stale
       // 以「精选后的条目」为准，前端显示的才是读者实际能看到的数字
       newCount: curated.filter((i) => i.isNew).length,
       repeatCount: curated.filter((i) => !i.isNew).length,
+      // 中英对照覆盖率：前端据此提示「今日已有 N 条配中文」
+      i18n: {
+        need: (i18n && i18n.total) || 0,
+        done: (i18n && i18n.done) || 0,
+        pending: (i18n && i18n.pending) || 0,
+      },
     },
     items: curated,
   };
@@ -1409,7 +1476,7 @@ function curateDay({ items: rawItems, regions, sourceTotal, failures = [], stale
   // 每日剖析（规则层）：同样由 CI 每天产出，公司每天自动轮换
   const profile = saveDailyProfile(buildDailyProfile({ date, curated, regions }));
 
-  return { date, items, curated, freshness, byRegion, digest, profile };
+  return { date, items, curated, freshness, byRegion, digest, profile, i18n };
 }
 
 /** 按归档重建每日剖析（升序处理，保证「近 N 天不重复」的轮换顺序正确） */
@@ -1475,7 +1542,7 @@ async function main() {
       }
       const st = j.stats || {};
       const d = j.date || f.replace('.json', '');
-      const r = curateDay({
+      const r = await curateDay({
         items: j.items || [],
         regions,
         sourceTotal: st.sourceTotal || 0,
@@ -1585,7 +1652,7 @@ async function main() {
 
   const batches = await pool(tasks, CONCURRENCY);
 
-  const { date, items, curated, freshness, byRegion, profile } = curateDay({
+  const { date, items, curated, freshness, byRegion, profile } = await curateDay({
     items: batches.flat(),
     regions,
     sourceTotal: sources.length,

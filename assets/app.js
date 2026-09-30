@@ -440,6 +440,13 @@ function renderTabs() {
 
 /* -------------------------------- 渲染：卡片 ----------------------------- */
 
+// 语种中文名：用于「对照原文」折叠条的标签
+const LANG_NAME = {
+  ja: '日语', ko: '韩语', ar: '阿拉伯语', he: '希伯来语', ru: '俄语',
+  de: '德语', fr: '法语', es: '西班牙语', pt: '葡萄牙语', it: '意大利语',
+  en: '英语', zh: '中文', 'zh-cn': '中文',
+};
+
 function cardHTML(it, idx) {
   const rm = REGION_META[it.region] || { short: it.region, color: '#64748b' };
   const isBm = S.bookmarks.some((b) => b.id === it.id);
@@ -462,8 +469,29 @@ function cardHTML(it, idx) {
     return term ? `<span class="tg gl" data-act="glossary" data-term="${esc(g)}" title="${esc(term.def)}"># ${esc(term.term.split(' / ')[0])}</span>` : '';
   }).join('');
 
-  const zhTitle = it.titleZh && it.titleZh !== it.title
-    ? `<div class="zh-title">▸ ${esc(it.titleZh)}</div>` : '';
+  // 中英对照：规则层译文(i18n) → 解读层译文(titleZh) → 原文
+  const i18n = it.i18n || {};
+  const zhTitle = i18n.zhTitle || (it.titleZh && it.titleZh !== it.title ? it.titleZh : '');
+  const hasZh = !!zhTitle;
+  const origLang = String(i18n.origLang || it.lang || 'en').toLowerCase();
+  const langName = LANG_NAME[origLang] || origLang.toUpperCase();
+
+  // 非英文条目额外给英文译文，凑成「中 / 英 / 原文」三语对照
+  const enBlock = i18n.enTitle
+    ? `<div class="en-line"><span class="lb">EN</span>${esc(i18n.enTitle)}</div>` : '';
+
+  // 原文对照：默认折叠，想核对时再展开，不干扰扫读
+  const origBlock = hasZh ? `
+    <details class="orig">
+      <summary>原文 · ${esc(langName)}</summary>
+      <div class="orig-t">${esc(it.title)}</div>
+      ${it.summary ? `<div class="orig-s">${esc(it.summary)}</div>` : ''}
+      ${i18n.enSummary ? `<div class="orig-s en">EN · ${esc(i18n.enSummary)}</div>` : ''}
+    </details>` : '';
+
+  // 译文自动生成，明确标注，避免读者误以为是人工校对过的
+  const trBadge = (i18n.zhTitle || i18n.enTitle)
+    ? `<span class="tr-badge" title="由机器翻译自动生成，点开「原文」可与译文对照">🌐 机翻</span>` : '';
 
   const plain = it.plain
     ? `<div class="plain"><span class="lb">白话解读</span>${esc(it.plain)}</div>` : '';
@@ -493,17 +521,18 @@ function cardHTML(it, idx) {
       <span class="rbadge">${rm.flag || ''} ${esc(rm.name || rm.short)}</span>
       <span class="src">${esc(it.source)}</span>
       <span class="dotsep">·</span>
-      <span class="meta" title="${esc(timeTitle)}">${esc(timeLabel)}</span>${staleFlag}${repeatFlag}
+      <span class="meta" title="${esc(timeTitle)}">${esc(timeLabel)}</span>${staleFlag}${repeatFlag}${trBadge}
       <div class="acts">
         <button class="mini ${isBm ? 'on' : ''}" data-act="bm" data-id="${it.id}" title="${isBm ? '取消收藏' : '收藏'}">${isBm ? '★' : '☆'}</button>
         <button class="mini ${isRead ? 'read-on' : ''}" data-act="read" data-id="${it.id}" title="${isRead ? '标记未读' : '标记已读'}">✓</button>
       </div>
     </div>
-    <h3><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.title)}</a></h3>
-    ${zhTitle}
+    <h3><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(hasZh ? zhTitle : it.title)}</a></h3>
+    ${enBlock}
+    ${origBlock}
     ${plain}
     ${why}
-    ${showSummary ? `<p class="summary">${esc(it.summary)}</p>` : ''}
+    ${showSummary ? `<p class="summary">${esc(i18n.zhSummary || it.summary)}</p>` : ''}
     ${compact ? '' : `<div class="tags">${topics}${dif}${ents}${gls}
       <span class="imp">重要度 ${it.importance}<i><b style="width:${it.importance}%"></b></i></span>
     </div>`}

@@ -1060,3 +1060,40 @@ html[data-theme="dark"] .pill.on { background: #14331f; color: #4ade80; }
   border-left: 3px solid color-mix(in srgb, var(--brand) 40%, transparent);
 }
 .pblock.auto-note p { font-size: 13px; line-height: 1.78; color: var(--text-2); }
+
+/* ------------------------- 中英对照（机器翻译） -------------------------- */
+
+.tr-badge {
+  font-size: 11px; color: var(--muted); background: var(--surface-3);
+  border-radius: 999px; padding: 1px 7px; white-space: nowrap;
+}
+
+/* 非英文条目的英文译文：与中文标题并列，凑成三语对照 */
+.en-line {
+  margin-top: 6px; font-size: 12.5px; line-height: 1.62; color: var(--text-2);
+  display: flex; gap: 7px; align-items: baseline;
+}
+.en-line .lb {
+  flex: none; font-family: var(--mono); font-size: 10.5px; color: var(--muted);
+  background: var(--surface-3); border-radius: 999px; padding: 1px 6px;
+}
+
+/* 原文对照：默认折叠，想核对术语或译文时再展开 */
+.orig { margin-top: 8px; }
+.orig > summary {
+  cursor: pointer; font-size: 11.5px; color: var(--muted);
+  list-style: none; display: inline-flex; align-items: center; gap: 5px;
+  padding: 2px 8px; border: 1px solid var(--border); border-radius: 999px;
+  user-select: none;
+}
+.orig > summary::-webkit-details-marker { display: none; }
+.orig > summary::before { content: '▸'; font-size: 9px; transition: transform .15s; }
+.orig[open] > summary::before { transform: rotate(90deg); }
+.orig > summary:hover { color: var(--brand); border-color: var(--brand); }
+.orig-t, .orig-s {
+  margin-top: 6px; padding: 8px 11px; background: var(--surface-2);
+  border-left: 2px solid var(--border); border-radius: 0 6px 6px 0;
+  font-size: 12.5px; line-height: 1.66; color: var(--text-2); word-break: break-word;
+}
+.orig-t { color: var(--text); }
+.orig-s.en { color: var(--muted); font-size: 12px; }
