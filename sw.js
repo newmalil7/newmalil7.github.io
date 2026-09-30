@@ -1,7 +1,7 @@
 /* AI 瞭望台 · Service Worker
    静态资源 cache-first，数据文件 network-first（保证每天 9 点拿到最新） */
 
-const VERSION = 'aih-v5';
+const VERSION = 'aih-v6';
 const STATIC = [
   './',
   './index.html',
@@ -17,6 +17,7 @@ const STATIC = [
   './data/glossary.json',
   './data/profiles.json',
   './data/weekly.json',
+  './data/companies.json',
 ];
 
 self.addEventListener('install', (e) => {

@@ -963,3 +963,69 @@ html[data-theme="dark"] .pill.on { background: #14331f; color: #4ade80; }
   background: var(--surface-3); color: var(--text-2); border: 1px solid var(--border);
 }
 .arch-item span { display: block; font-size: 12px; color: var(--muted); }
+
+/* 成长时间线（每日剖析） */
+.tl { position: relative; margin: 0 0 6px; padding-left: 4px; }
+.tl-item { position: relative; display: grid; grid-template-columns: 30px 1fr; gap: 10px; }
+.tl-rail { position: relative; display: flex; justify-content: center; }
+.tl-rail::before {
+  content: ''; position: absolute; top: 0; bottom: 0; width: 2px;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--tc) 55%, var(--border)) 0%, var(--border) 92%);
+}
+.tl-item:first-child .tl-rail::before { top: 13px; }
+.tl-item:last-child .tl-rail::before { bottom: calc(100% - 14px); }
+.tl-dot {
+  position: relative; z-index: 1; width: 12px; height: 12px; margin-top: 7px; border-radius: 50%;
+  background: var(--surface); border: 2.5px solid var(--tc);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--tc) 12%, transparent);
+}
+.tl-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 12px 15px 13px; margin-bottom: 12px; box-shadow: var(--shadow-sm);
+  border-left: 3px solid color-mix(in srgb, var(--tc) 65%, var(--border));
+}
+.tl-item:last-child .tl-card { margin-bottom: 4px; }
+.tl-top { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 5px; }
+.tl-date {
+  font-family: var(--mono); font-size: 12px; font-weight: 600; letter-spacing: .2px;
+  color: var(--text); background: var(--surface-3); border-radius: 6px; padding: 2px 7px;
+}
+.tl-date.muted { color: var(--muted); font-weight: 500; }
+.tl-tag {
+  font-size: 11.5px; font-weight: 600; padding: 2px 8px; border-radius: 999px;
+  color: var(--tc); background: color-mix(in srgb, var(--tc) 11%, transparent);
+  border: 1px solid color-mix(in srgb, var(--tc) 26%, transparent);
+}
+.tl-amount { font-size: 12px; font-weight: 650; color: var(--warn); }
+.tl-title { display: block; font-size: 14.5px; line-height: 1.5; color: var(--text); }
+.tl-title a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--border-strong); }
+.tl-title a:hover { color: var(--brand); border-color: var(--brand); }
+.tl-desc { margin: 6px 0 0; font-size: 13px; line-height: 1.72; color: var(--text-2); }
+.tl-why {
+  margin: 7px 0 0; font-size: 13px; line-height: 1.72; color: var(--text-2);
+  padding: 8px 11px; border-radius: 9px;
+  background: color-mix(in srgb, var(--tc) 5%, var(--surface-2));
+  border-left: 2px solid color-mix(in srgb, var(--tc) 40%, transparent);
+}
+.tl-why .lb { font-size: 11.5px; font-weight: 700; color: var(--tc); margin-right: 6px; }
+.tl-src { display: inline-block; margin-top: 7px; font-size: 12px; color: var(--muted); text-decoration: none; }
+.tl-src:hover { color: var(--brand); }
+.tl-item.news .tl-dot { border-style: dashed; box-shadow: none; }
+.tl-item.news .tl-card { border-left-style: dashed; background: var(--surface-2); }
+
+/* 卡片上的「较旧」标记 */
+.staleflag {
+  font-size: 11px; font-weight: 600; padding: 1px 6px; border-radius: 999px;
+  color: var(--warn); background: color-mix(in srgb, var(--warn) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--warn) 30%, transparent);
+}
+
+@media (max-width: 760px) {
+  .tl-item { grid-template-columns: 22px 1fr; gap: 8px; }
+  .tl-card { padding: 11px 12px 12px; }
+}
+.dg-fresh {
+  font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 999px;
+  color: var(--ok); background: color-mix(in srgb, var(--ok) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ok) 30%, transparent);
+}

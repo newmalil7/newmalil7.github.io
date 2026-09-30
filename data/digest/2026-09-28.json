@@ -4,13 +4,13 @@
  "generatedAt": "2026-09-28T03:02:17.709Z",
  "mode": "rule",
  "counts": {
-  "crawled": 497,
-  "published": 165,
+  "crawled": 458,
+  "published": 158,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
    "ME": 24,
-   "JPKR": 21,
+   "JPKR": 14,
    "EU": 24,
    "NA": 24,
    "OTHER": 24
@@ -19,64 +19,73 @@
   "sourceTotal": 29,
   "regions": 7
  },
+ "freshness": {
+  "within24h": 65,
+  "withinFresh": 125,
+  "freshHours": 72,
+  "monthPrecision": 0,
+  "undated": 20,
+  "staleDropped": 39,
+  "newestAt": "2026-09-28T03:34:27.000Z"
+ },
  "themes": [
   {
    "name": "产品与应用",
-   "n": 82
+   "n": 50
   },
   {
    "name": "资本与市场",
-   "n": 48
+   "n": 38
   },
   {
    "name": "模型与能力",
-   "n": 41
+   "n": 23
   },
   {
    "name": "产业与生态",
-   "n": 30
-  },
-  {
-   "name": "政策与治理",
-   "n": 30
+   "n": 22
   },
   {
    "name": "算力与基建",
-   "n": 15
+   "n": 20
+  },
+  {
+   "name": "政策与治理",
+   "n": 8
   }
  ],
  "entities": [
   {
-   "name": "Intel",
-   "n": 30
-  },
-  {
    "name": "OpenAI",
-   "n": 28
+   "n": 20
   },
   {
    "name": "Anthropic",
    "n": 14
   },
   {
-   "name": "Meta",
-   "n": 11
-  },
-  {
-   "name": "DeepSeek",
-   "n": 11
-  },
-  {
    "name": "NVIDIA",
-   "n": 10
+   "n": 9
+  },
+  {
+   "name": "Meta",
+   "n": 8
   },
   {
    "name": "Google",
-   "n": 7
+   "n": 6
+  },
+  {
+   "name": "字节跳动",
+   "n": 4
   },
   {
    "name": "Apple",
-   "n": 6
+   "n": 4
+  },
+  {
+   "name": "Arm",
+   "n": 3
   }
  ],
  "topOverall": [
@@ -86,7 +95,7 @@
    "source": "钛媒体",
    "region": "CN",
    "url": "https://www.tmtpost.com/8153628.html",
-   "importance": 90,
+   "importance": 99,
    "difficulty": "入门",
    "publishedAt": "2026-09-28T02:33:21.000Z",
    "topics": [
@@ -100,31 +109,12 @@
    ]
   },
   {
-   "id": "aa037c23b52e36c9",
-   "title": "China weighs Nvidia chip purchases by ByteDance, Alibaba",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/china-weighs-nvidia-chip-purchases-bytedance-alibaba",
-   "importance": 88,
-   "difficulty": "进阶",
-   "publishedAt": "2026-09-28T00:32:10.000Z",
-   "topics": [
-    "算力与基建"
-   ],
-   "entities": [
-    "NVIDIA",
-    "Intel",
-    "alibaba",
-    "字节跳动"
-   ]
-  },
-  {
    "id": "99d084a187c04810",
    "title": "AI打平创业门槛之后，AI应用大爆发",
    "source": "钛媒体",
    "region": "CN",
    "url": "https://www.tmtpost.com/8153790.html",
-   "importance": 84,
+   "importance": 99,
    "difficulty": "入门",
    "publishedAt": "2026-09-28T02:11:56.000Z",
    "topics": [
@@ -137,12 +127,30 @@
    ]
   },
   {
+   "id": "aa037c23b52e36c9",
+   "title": "China weighs Nvidia chip purchases by ByteDance, Alibaba",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/china-weighs-nvidia-chip-purchases-bytedance-alibaba",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-09-28T00:32:10.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "NVIDIA",
+    "alibaba",
+    "字节跳动"
+   ]
+  },
+  {
    "id": "2e88780ec8a8cad1",
    "title": "早报｜苹果Vision新项目曝光，减重成为第一目标/三大运营商暂停「零元购机」/问界确认仍属鸿蒙智行",
    "source": "爱范儿",
    "region": "CN",
    "url": "https://www.ifanr.com/1682201?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "importance": 83,
+   "importance": 99,
    "difficulty": "进阶",
    "publishedAt": "2026-09-28T00:25:33.000Z",
    "topics": [
@@ -157,29 +165,12 @@
    ]
   },
   {
-   "id": "492399043b9e5e47",
-   "title": "Hyundai Engineering lands $644m AI data center deal",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/hyundai-engineering-lands-644m-ai-data-center-deal",
-   "importance": 82,
-   "difficulty": "进阶",
-   "publishedAt": "2026-09-28T02:11:40.000Z",
-   "topics": [
-    "算力与基建"
-   ],
-   "entities": [
-    "NVIDIA",
-    "Intel"
-   ]
-  },
-  {
    "id": "947ca427a7c07ae0",
    "title": "苹果或重返服务器，互联市场开始“群雄逐鹿”",
    "source": "钛媒体",
    "region": "CN",
    "url": "https://www.tmtpost.com/8153405.html",
-   "importance": 81,
+   "importance": 94,
    "difficulty": "进阶",
    "publishedAt": "2026-09-27T09:48:14.000Z",
    "topics": [
@@ -189,24 +180,23 @@
    "entities": [
     "Apple",
     "NVIDIA",
-    "Intel",
     "台积电"
    ]
   },
   {
-   "id": "709729fe95f797b2",
-   "title": "“Make robots fight instead of people”: Mykhailo Fedorov launches Army of Robots — and you could be its CTO",
-   "source": "Tech.eu",
-   "region": "EU",
-   "url": "https://tech.eu/2026/09/27/make-robots-fight-instead-of-people-mykhailo-fedorov-launches-army-of-robots-and-you-could-be-its-cto/",
-   "importance": 75,
-   "difficulty": "入门",
-   "publishedAt": "2026-09-27T23:01:00.000Z",
+   "id": "492399043b9e5e47",
+   "title": "Hyundai Engineering lands $644m AI data center deal",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/hyundai-engineering-lands-644m-ai-data-center-deal",
+   "importance": 92,
+   "difficulty": "进阶",
+   "publishedAt": "2026-09-28T02:11:40.000Z",
    "topics": [
-    "产品与应用"
+    "算力与基建"
    ],
    "entities": [
-    "Arm"
+    "NVIDIA"
    ]
   },
   {
@@ -215,15 +205,31 @@
    "source": "极客公园",
    "region": "CN",
    "url": "http://www.geekpark.net/news/371044",
-   "importance": 74,
+   "importance": 90,
    "difficulty": "入门",
    "publishedAt": "2026-09-28T00:06:58.000Z",
    "topics": [
     "产品与应用",
-    "模型与能力"
+    "产业与生态"
    ],
    "entities": [
     "OpenAI"
+   ]
+  },
+  {
+   "id": "709729fe95f797b2",
+   "title": "“Make robots fight instead of people”: Mykhailo Fedorov launches Army of Robots — and you could be its CTO",
+   "source": "Tech.eu",
+   "region": "EU",
+   "url": "https://tech.eu/2026/09/27/make-robots-fight-instead-of-people-mykhailo-fedorov-launches-army-of-robots-and-you-could-be-its-cto/",
+   "importance": 87,
+   "difficulty": "入门",
+   "publishedAt": "2026-09-27T23:01:00.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "Arm"
    ]
   }
  ],
@@ -241,7 +247,7 @@
      "source": "钛媒体",
      "region": "CN",
      "url": "https://www.tmtpost.com/8153628.html",
-     "importance": 90,
+     "importance": 99,
      "difficulty": "入门",
      "publishedAt": "2026-09-28T02:33:21.000Z",
      "topics": [
@@ -260,7 +266,7 @@
      "source": "钛媒体",
      "region": "CN",
      "url": "https://www.tmtpost.com/8153790.html",
-     "importance": 84,
+     "importance": 99,
      "difficulty": "入门",
      "publishedAt": "2026-09-28T02:11:56.000Z",
      "topics": [
@@ -278,7 +284,7 @@
      "source": "爱范儿",
      "region": "CN",
      "url": "https://www.ifanr.com/1682201?utm_source=rss&utm_medium=rss&utm_campaign=",
-     "importance": 83,
+     "importance": 99,
      "difficulty": "进阶",
      "publishedAt": "2026-09-28T00:25:33.000Z",
      "topics": [
@@ -307,7 +313,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/china-weighs-nvidia-chip-purchases-bytedance-alibaba",
-     "importance": 88,
+     "importance": 99,
      "difficulty": "进阶",
      "publishedAt": "2026-09-28T00:32:10.000Z",
      "topics": [
@@ -315,7 +321,6 @@
      ],
      "entities": [
       "NVIDIA",
-      "Intel",
       "alibaba",
       "字节跳动"
      ]
@@ -326,15 +331,14 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/hyundai-engineering-lands-644m-ai-data-center-deal",
-     "importance": 82,
+     "importance": 92,
      "difficulty": "进阶",
      "publishedAt": "2026-09-28T02:11:40.000Z",
      "topics": [
       "算力与基建"
      ],
      "entities": [
-      "NVIDIA",
-      "Intel"
+      "NVIDIA"
      ]
     },
     {
@@ -343,7 +347,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/cars24-eyes-india-ipo-filing-singapore-reverse-flip",
-     "importance": 70,
+     "importance": 86,
      "difficulty": "进阶",
      "publishedAt": "2026-09-28T00:52:41.000Z",
      "topics": [
@@ -366,7 +370,7 @@
      "source": "Wamda",
      "region": "ME",
      "url": "http://wamda.com/2026/09/tanami-raises-new-funding-expand-qatar",
-     "importance": 61,
+     "importance": 74,
      "difficulty": "入门",
      "publishedAt": null,
      "topics": [
@@ -378,37 +382,34 @@
      ]
     },
     {
-     "id": "2bf92fcb73863169",
-     "title": "iPhone 18 Pro Review: A week later, it makes more sense",
-     "source": "Arabian Business",
+     "id": "157b031cc81d04ea",
+     "title": "AREP raises pre-Seed funding for Saudi expansion, eyes regional growth",
+     "source": "Wamda",
      "region": "ME",
-     "url": "https://www.arabianbusiness.com/business/technology/iphone-18-pro-review",
-     "importance": 59,
+     "url": "http://wamda.com/2026/09/arep-raises-pre-seed-funding-saudi-expansion-eyes-regional-growth",
+     "importance": 68,
      "difficulty": "入门",
-     "publishedAt": "2026-09-27T17:06:50.000Z",
+     "publishedAt": null,
      "topics": [
-      "产品与应用"
+      "资本与市场",
+      "产业与生态"
      ],
-     "entities": [
-      "Apple"
-     ]
+     "entities": []
     },
     {
-     "id": "324e794fa987b0c9",
-     "title": "Cyble advances proactive cyber defence through UAE partnership",
-     "source": "TahawulTech",
+     "id": "b4d9fc1214960636",
+     "title": "Saudi fintech barq closes $329.5 million Series A",
+     "source": "Wamda",
      "region": "ME",
-     "url": "https://www.tahawultech.com/features/cyble-advances-proactive-cyber-defence-through-uae-partnership/",
-     "importance": 56,
+     "url": "http://wamda.com/2026/09/saudi-fintech-barq-closes-329-5-million-series-a",
+     "importance": 68,
      "difficulty": "入门",
-     "publishedAt": "2026-09-25T15:49:26.000Z",
+     "publishedAt": null,
      "topics": [
-      "产业与生态",
+      "资本与市场",
       "产品与应用"
      ],
-     "entities": [
-      "Intel"
-     ]
+     "entities": []
     }
    ]
   },
@@ -417,34 +418,33 @@
    "name": "日韩",
    "short": "日韩",
    "flag": "🗾",
-   "count": 21,
+   "count": 14,
    "top": [
-    {
-     "id": "8919cae8f0d39da1",
-     "title": "AI는 왜 아이처럼 언어를 배우지 못할까",
-     "source": "MIT Technology Review Korea",
-     "region": "JPKR",
-     "url": "https://www.technologyreview.kr/ai%eb%8a%94-%ec%99%9c-%ec%95%84%ec%9d%b4%ec%b2%98%eb%9f%bc-%ec%96%b8%ec%96%b4%eb%a5%bc-%eb%b0%b0%ec%9a%b0%ec%a7%80-%eb%aa%bb%ed%95%a0%ea%b9%8c/",
-     "importance": 65,
-     "difficulty": "入门",
-     "publishedAt": "2026-09-27T21:00:00.000Z",
-     "topics": [
-      "模型与能力",
-      "产品与应用"
-     ],
-     "entities": []
-    },
     {
      "id": "668e66d9afd2f990",
      "title": "'AI 칩 부족' 중국, 엔비디아 PC용 GPU 구매 허용하나",
      "source": "AI타임스",
      "region": "JPKR",
      "url": "https://www.aitimes.com/news/articleView.html?idxno=215701",
-     "importance": 62,
+     "importance": 78,
      "difficulty": "进阶",
      "publishedAt": "2026-09-28T03:34:27.000Z",
      "topics": [
       "算力与基建"
+     ],
+     "entities": []
+    },
+    {
+     "id": "8919cae8f0d39da1",
+     "title": "AI는 왜 아이처럼 언어를 배우지 못할까",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/ai%eb%8a%94-%ec%99%9c-%ec%95%84%ec%9d%b4%ec%b2%98%eb%9f%bc-%ec%96%b8%ec%96%b4%eb%a5%bc-%eb%b0%b0%ec%9a%b0%ec%a7%80-%eb%aa%bb%ed%95%a0%ea%b9%8c/",
+     "importance": 74,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-27T21:00:00.000Z",
+     "topics": [
+      "模型与能力"
      ],
      "entities": []
     },
@@ -454,7 +454,7 @@
      "source": "AINOW",
      "region": "JPKR",
      "url": "https://ainow.ai/2026/09/27/278392/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a7%25e3%2583%25aa%25e3%2582%25b5%25e3%2583%25bc%25e3%2583%2581%25e3%2582%2592%25e5%258a%25b9%25e7%258e%2587%25e5%258c%2596%25ef%25bc%2581%25e3%2581%258a%25e3%2581%2599%25e3%2581%2599%25e3%2582%2581%25e3%2583%2584%25e3%2583%25bc",
-     "importance": 62,
+     "importance": 67,
      "difficulty": "进阶",
      "publishedAt": "2026-09-26T15:33:06.000Z",
      "topics": [
@@ -480,7 +480,7 @@
      "source": "Tech.eu",
      "region": "EU",
      "url": "https://tech.eu/2026/09/27/make-robots-fight-instead-of-people-mykhailo-fedorov-launches-army-of-robots-and-you-could-be-its-cto/",
-     "importance": 75,
+     "importance": 87,
      "difficulty": "入门",
      "publishedAt": "2026-09-27T23:01:00.000Z",
      "topics": [
@@ -491,39 +491,33 @@
      ]
     },
     {
-     "id": "5e0d5e44d2467486",
-     "title": "Anthropic with Menlo Ventures and Nvidia back Basecamp Research in $140M Series C",
+     "id": "c61d385ce2af5975",
+     "title": "TEKEVER raises $580M Series D, DTCP closes €455M defence fund, and the challenge to reinvent chip design",
      "source": "Tech.eu",
      "region": "EU",
-     "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/",
-     "importance": 74,
-     "difficulty": "进阶",
-     "publishedAt": "2026-09-23T13:00:00.000Z",
+     "url": "https://tech.eu/2026/09/25/tekever-raises-580m-series-d-dtcp-closes-455m-defence-fund-and-the-challenge-to-reinvent-chip-design/",
+     "importance": 62,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-25T14:30:58.000Z",
      "topics": [
-      "产业与生态",
-      "算力与基建"
+      "资本与市场"
      ],
-     "entities": [
-      "Anthropic",
-      "NVIDIA",
-      "Intel"
-     ]
+     "entities": []
     },
     {
-     "id": "37d8b32861a8fbe7",
-     "title": "Kontext raises $4M for runtime security platform for AI agents",
+     "id": "e74ee6fcaa7a660c",
+     "title": "Fortum backs Norrsken Evolve’s €62M fund to accelerate Europe’s electrification",
      "source": "Tech.eu",
      "region": "EU",
-     "url": "https://tech.eu/2026/09/24/kontext-raises-4m-for-runtime-security-platform-for-ai-agents/",
+     "url": "https://tech.eu/2026/09/25/fortum-backs-norrsken-evolves-eur62m-fund-to-accelerate-europes-electrification/",
      "importance": 61,
-     "difficulty": "入门",
-     "publishedAt": "2026-09-24T12:00:00.000Z",
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-25T05:09:08.000Z",
      "topics": [
-      "资本与市场",
-      "产品与应用"
+      "产业与生态"
      ],
      "entities": [
-      "Intel"
+      "Arm"
      ]
     }
    ]
@@ -536,30 +530,12 @@
    "count": 24,
    "top": [
     {
-     "id": "73c175b66e8a0164",
-     "title": "The AI Hype Index: AI loves cheating",
-     "source": "MIT Technology Review",
-     "region": "NA",
-     "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
-     "importance": 73,
-     "difficulty": "入门",
-     "publishedAt": "2026-09-23T09:00:00.000Z",
-     "topics": [
-      "产品与应用"
-     ],
-     "entities": [
-      "OpenAI",
-      "Anthropic",
-      "Intel"
-     ]
-    },
-    {
      "id": "c9cc2e27a75f2249",
      "title": "Anthropic’s CEO is about to have dinner with President Trump",
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
-     "importance": 68,
+     "importance": 80,
      "difficulty": "进阶",
      "publishedAt": "2026-09-27T20:34:28.000Z",
      "topics": [
@@ -575,10 +551,29 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
-     "importance": 68,
+     "importance": 80,
      "difficulty": "进阶",
      "publishedAt": "2026-09-27T19:57:30.000Z",
      "topics": [],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "Meta"
+     ]
+    },
+    {
+     "id": "32f87ac1b5ed5ffa",
+     "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+     "importance": 73,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-25T18:22:47.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
      "entities": [
       "OpenAI",
       "Anthropic",
@@ -595,13 +590,43 @@
    "count": 24,
    "top": [
     {
+     "id": "1dda0ec3830f0b71",
+     "title": "The Bharat Taxi Row, Weekly Funding Rebounds & More",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/the-bharat-taxi-row-weekly-funding-rebounds-more/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-28T02:30:17.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": []
+    },
+    {
+     "id": "78d720437e677c24",
+     "title": "Policybazaar, Turtlemint Feel The Squeeze",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/features/policybazaar-turtlemint-feel-the-squeeze/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-28T00:30:41.000Z",
+     "topics": [
+      "产品与应用",
+      "政策与治理"
+     ],
+     "entities": []
+    },
+    {
      "id": "9070bf203bf541b1",
      "title": "OpenAI, Anthropic CEOs called to appear at Australian AI probe",
      "source": "iTnews Australia",
      "region": "OTHER",
      "url": "https://www.itnews.com.au/news/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe-629231?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-     "importance": 72,
-     "difficulty": "入门",
+     "importance": 77,
+     "difficulty": "进阶",
      "publishedAt": "2026-09-27T19:58:00.000Z",
      "topics": [
       "产品与应用"
@@ -610,42 +635,9 @@
       "OpenAI",
       "Anthropic"
      ]
-    },
-    {
-     "id": "78d720437e677c24",
-     "title": "Policybazaar, Turtlemint Feel The Squeeze",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/features/policybazaar-turtlemint-feel-the-squeeze/",
-     "importance": 69,
-     "difficulty": "入门",
-     "publishedAt": "2026-09-28T00:30:41.000Z",
-     "topics": [
-      "政策与治理",
-      "产品与应用"
-     ],
-     "entities": []
-    },
-    {
-     "id": "ff4e2dd291f850c1",
-     "title": "New malware lets commercial AI models call the shots: Talos",
-     "source": "iTnews Australia",
-     "region": "OTHER",
-     "url": "https://www.itnews.com.au/news/new-malware-lets-commercial-ai-models-call-the-shots-talos-629108?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-     "importance": 69,
-     "difficulty": "进阶",
-     "publishedAt": "2026-09-22T23:38:00.000Z",
-     "topics": [
-      "模型与能力"
-     ],
-     "entities": [
-      "Mistral",
-      "DeepSeek",
-      "通义千问"
-     ]
     }
    ]
   }
  ],
- "overview": "9 月 28 日，共从 28 个信息源抓取 497 条 AI 产业动态，其中 165 条进入当日精选，覆盖 7 个区域。当日最集中的板块是「产品与应用」82 条、「资本与市场」48 条。值得优先关注的几条：「Muse 登顶、Meta 股价涨 11%，国内大模型却挤在办公内卷里」（钛媒体）、「China weighs Nvidia chip purchases by ByteDance, Alibaba」（Tech in Asia）、「AI打平创业门槛之后，AI应用大爆发」（钛媒体）。"
+ "overview": "9 月 28 日，共从 28 个信息源抓取 458 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 65 条发布于 24 小时内。当日最集中的板块是「产品与应用」50 条、「资本与市场」38 条。值得优先关注的几条：「Muse 登顶、Meta 股价涨 11%，国内大模型却挤在办公内卷里」（钛媒体）、「AI打平创业门槛之后，AI应用大爆发」（钛媒体）、「早报｜苹果Vision新项目曝光，减重成为第一目标/三大运营商暂停「零元购机」/问界确认仍属鸿蒙智行」（爱范儿）。"
 }

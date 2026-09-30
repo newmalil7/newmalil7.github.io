@@ -74,8 +74,23 @@ function relTime(iso) {
   const h = Math.floor(m / 60);
   if (h < 24) return `${h} 小时前`;
   const d = Math.floor(h / 24);
-  if (d < 30) return `${d} 天前`;
-  return new Date(iso).toLocaleDateString('zh-CN');
+  if (d === 1) return '昨天';
+  if (d < 7) return `${d} 天前`;
+  // 超过一周直接给日期——「536 天前」既读不出信息量，也掩盖了"这是一条旧闻"
+  return absDate(iso);
+}
+/** 北京时间日期（YYYY-MM-DD） */
+function absDate(iso) {
+  if (!iso) return '';
+  const x = new Date(new Date(iso).getTime() + new Date().getTimezoneOffset() * 60000 + 8 * 3600000);
+  const p = (n) => String(n).padStart(2, '0');
+  return `${x.getFullYear()}-${p(x.getMonth() + 1)}-${p(x.getDate())}`;
+}
+/** 条目年龄（小时）；无日期返回 null */
+function ageHours(iso) {
+  if (!iso) return null;
+  const t = new Date(iso).getTime();
+  return Number.isNaN(t) ? null : (Date.now() - t) / 36e5;
 }
 function absTime(iso) {
   if (!iso) return '';
@@ -101,7 +116,7 @@ function toast(msg, ms = 2000) {
 
 const S = {
   data: null, briefing: {}, curriculum: null, glossary: null, sources: null, archive: [], digests: [],
-  profiles: null, weekly: null, models: null,
+  profiles: null, weekly: null, models: null, companies: null,
   channels: loadLS(LS.channels, null),
   customers: loadLS(LS.customers, []),
   sync: loadLS(LS.sync, { token: '', gistId: '', lastSync: '' }),
@@ -112,6 +127,7 @@ const S = {
   region: 'ALL',
   topics: new Set(),
   diff: 'ALL',
+  fresh: 'ALL',
   q: '',
   sort: 'importance',
   compact: false,
@@ -155,7 +171,7 @@ async function getJSON(url, { fresh = null } = {}) {
 }
 
 async function loadAll() {
-  const [data, briefing, curriculum, glossary, sources, archive, digests, profiles, weekly, models] = await Promise.all([
+  const [data, briefing, curriculum, glossary, sources, archive, digests, profiles, weekly, models, companies] = await Promise.all([
     getJSON('./data/news-latest.json'),
     getJSON('./data/briefing.json'),
     getJSON('./data/curriculum.json'),
@@ -166,6 +182,7 @@ async function loadAll() {
     getJSON('./data/profiles.json'),
     getJSON('./data/weekly.json'),
     getJSON('./data/models.json'),
+    getJSON('./data/companies.json'),
   ]);
   S.data = data;
   S.briefing = briefing?.items || {};
@@ -177,7 +194,27 @@ async function loadAll() {
   S.profiles = profiles;
   S.weekly = weekly;
   S.models = models;
+  S.companies = companies;
   computeNextRefresh();
+}
+
+/**
+ * 某家公司在历次归档里出现过的条目（从 data/companies.json 查）。
+ * 用途：给「每日剖析」画一条真实的时间线，归档越攒越长，时间线自己会长。
+ */
+function companyFootprint(profile) {
+  const list = S.companies?.companies || [];
+  if (!list.length || !profile) return [];
+  const keys = [profile.name, profile.nameZh, ...(profile.aliases || [])]
+    .filter(Boolean)
+    .map((s) => String(s).trim().toLowerCase());
+  const hit = list.find((c) => keys.includes(String(c.name).trim().toLowerCase()));
+  if (!hit) {
+    // 主名不完全一致时，用「包含」兜一层（例如 Basecamp Research / Basecamp）
+    const loose = list.find((c) => keys.some((k) => k.includes(String(c.name).toLowerCase())));
+    return loose?.items || [];
+  }
+  return hit.items || [];
 }
 
 /** 取某天的总结（先查索引里的浓缩版，再回落到完整 digest 文件由调用方异步取） */
@@ -251,6 +288,11 @@ function filtered(items) {
   return items.filter((it) => {
     if (S.region !== 'ALL' && it.region !== S.region) return false;
     if (S.diff !== 'ALL' && it.difficulty !== S.diff) return false;
+    if (S.fresh !== 'ALL') {
+      // 「时间未知」与按月精度估出来的条目不算过期——它们只是没有精确时间
+      const a = ageHours(it.publishedAt);
+      if (a !== null && it.datePrecision !== 'month' && a > Number(S.fresh)) return false;
+    }
     if (S.topics.size && !it.topics.some((t) => S.topics.has(t.name))) return false;
     if (q) {
       const hay = `${it.title} ${it.titleZh || ''} ${it.plain || ''} ${it.why || ''} ${it.summary || ''} ${it.source} ${(it.entities || []).join(' ')}`.toLowerCase();
@@ -414,13 +456,25 @@ function cardHTML(it, idx) {
 
   const showSummary = !compact && it.summary;
 
+  // 时间：源没给日期时只按链接里的年月估算，别显示成一个假的具体时间；超过一周的标「较旧」
+  const isMonthPrec = it.datePrecision === 'month';
+  const ageH = ageHours(it.publishedAt);
+  const timeLabel = isMonthPrec
+    ? `${absDate(it.publishedAt).slice(0, 7)}（源未标日期）`
+    : relTime(it.publishedAt);
+  const timeTitle = isMonthPrec
+    ? '该信息源没有提供发布时间，这里按链接中的年月估算'
+    : absTime(it.publishedAt);
+  const staleFlag = !isMonthPrec && ageH !== null && ageH > 24 * 7
+    ? '<span class="staleflag" title="这条已经超过一周，抓取侧默认不会保留，可能来自历史归档">较旧</span>' : '';
+
   return `
   <article class="card ${isRead ? 'read' : ''}" style="--rc:${rm.color}" data-id="${it.id}">
     <div class="card-top">
       <span class="rbadge">${rm.flag || ''} ${esc(rm.name || rm.short)}</span>
       <span class="src">${esc(it.source)}</span>
       <span class="dotsep">·</span>
-      <span class="meta" title="${esc(absTime(it.publishedAt))}">${esc(relTime(it.publishedAt))}</span>
+      <span class="meta" title="${esc(timeTitle)}">${esc(timeLabel)}</span>${staleFlag}
       <div class="acts">
         <button class="mini ${isBm ? 'on' : ''}" data-act="bm" data-id="${it.id}" title="${isBm ? '取消收藏' : '收藏'}">${isBm ? '★' : '☆'}</button>
         <button class="mini ${isRead ? 'read-on' : ''}" data-act="read" data-id="${it.id}" title="${isRead ? '标记未读' : '标记已读'}">✓</button>
@@ -510,10 +564,33 @@ function renderFeed() {
     `<button class="chip ${S.diff === d ? 'on' : ''}" data-act="diff" data-v="${d}">${d === 'ALL' ? '全部难度' : d}</button>`
   ).join('');
 
+  // 时效筛选：抓取侧已经把超过 7 天的旧文清掉了，这里再给一层「只看最近」的手动过滤
+  const freshOpts = [
+    { v: 'ALL', label: '全部时间' },
+    { v: '24', label: '24 小时内' },
+    { v: '72', label: '3 天内' },
+    { v: '168', label: '7 天内' },
+  ];
+  const freshChips = freshOpts.map((o) => {
+    const n = o.v === 'ALL'
+      ? all.length
+      : all.filter((i) => {
+        const a = ageHours(i.publishedAt);
+        return a === null || i.datePrecision === 'month' || a <= Number(o.v);
+      }).length;
+    return `<button class="chip ${S.fresh === o.v ? 'on' : ''}" data-act="fresh" data-v="${o.v}">${o.label} <span class="n">${n}</span></button>`;
+  }).join('');
+
+  const freshness = S.data?.stats?.freshness || {};
+  const freshNote = freshness.maxAgeHours
+    ? `抓取时已丢弃 ${Math.round(freshness.maxAgeHours / 24)} 天前的旧文${freshness.staleDropped ? `（今日 ${freshness.staleDropped} 条）` : ''}`
+    : '';
+
   const filters = `
   <div class="filters">
     <div class="frow"><span class="flabel">区域</span>${regionChips}</div>
     <div class="frow"><span class="flabel">主题</span>${topicChips || '<span class="meta">暂无</span>'}</div>
+    <div class="frow"><span class="flabel">时效</span>${freshChips}${freshNote ? `<span class="meta">${esc(freshNote)}</span>` : ''}</div>
     <div class="frow">
       <span class="flabel">难度</span>${diffs}
       <select class="sel" data-act="sort">
@@ -573,6 +650,44 @@ function renderFeed() {
 
 /* ------------------------------ 渲染：每日剖析 --------------------------- */
 
+/** 时间线节点标签 → 颜色（成立/融资/产品/合作… 一眼分类） */
+const TL_COLOR = {
+  成立: '#4f46e5', 起步: '#4f46e5', 背景: '#4f46e5',
+  融资: '#f59e0b', 上市: '#f59e0b', 轮次: '#f59e0b',
+  产品: '#10b981', 项目: '#10b981', 上线: '#10b981', 客户: '#10b981',
+  合作: '#0ea5e9', 技术: '#8b5cf6', 研究: '#8b5cf6',
+  现状: '#0ea5e9', 看点: '#ef4444', 下一步: '#ef4444', 要闻: '#64748b',
+};
+const tlColor = (tag) => TL_COLOR[tag] || '#64748b';
+
+/** 一个时间线节点（公司史与要闻足迹共用同一套结构） */
+function tlNodeHTML(n) {
+  const isNews = n.kind === 'news';
+  const tag = n.tag || (isNews ? '要闻' : '');
+  const url = n.source?.url || n.url || '';
+  const srcName = n.source?.name || (typeof n.source === 'string' ? n.source : '') || (isNews ? '原文' : '');
+  const link = url
+    ? `<a class="tl-src" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(srcName || '来源')} ↗</a>`
+    : '';
+  return `
+  <div class="tl-item ${isNews ? 'news' : ''}" style="--tc:${tlColor(tag)}">
+    <div class="tl-rail"><span class="tl-dot"></span></div>
+    <div class="tl-card">
+      <div class="tl-top">
+        ${n.date ? `<span class="tl-date">${esc(n.date)}</span>` : '<span class="tl-date muted">时间未标</span>'}
+        ${tag ? `<span class="tl-tag">${esc(tag)}</span>` : ''}
+        ${n.amount ? `<span class="tl-amount">${esc(n.amount)}</span>` : ''}
+      </div>
+      <b class="tl-title">${isNews && url
+    ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(n.title)}</a>`
+    : esc(n.title)}</b>
+      ${n.desc ? `<p class="tl-desc">${esc(n.desc)}</p>` : ''}
+      ${n.why ? `<p class="tl-why"><span class="lb">这一步的意义</span>${esc(n.why)}</p>` : ''}
+      ${link}
+    </div>
+  </div>`;
+}
+
 function itemById(id) {
   const all = [...itemsForToday(), ...(S.archData?.items || [])];
   return all.find((i) => i.id === id) || null;
@@ -607,6 +722,23 @@ function renderProfile() {
     : '';
 
   const investors = (c.investors || []).map((i) => `<span class="inv">${esc(i)}</span>`).join('');
+
+  // 成长时间线：按时间看它怎么一步步长起来（成立 → 融资 → 产品/项目 → 当下 → 下一步）
+  const timeline = c.timeline || [];
+  const timelineBlock = timeline.length ? `
+    <div class="sect-head" style="margin-top:26px"><h3>🛤 成长时间线</h3>
+      <span class="n">${timeline.length} 个节点</span><span class="line"></span></div>
+    <p class="meta" style="margin:-4px 0 14px">${esc(c.timelineNote || '从上到下按时间读：它什么时候成立、钱从哪来、做了什么项目、现在站在什么位置。')}</p>
+    <div class="tl">${timeline.map(tlNodeHTML).join('')}</div>` : '';
+
+  // 要闻足迹：归档里提到它的真实新闻，自动汇总、随每日抓取变长
+  const foot = companyFootprint(c).slice(0, 12);
+  const footBlock = foot.length ? `
+    <div class="sect-head" style="margin-top:26px"><h3>📡 在要闻里的足迹</h3>
+      <span class="n">${foot.length} 条</span><span class="line"></span></div>
+    <p class="meta" style="margin:-4px 0 14px">这些是历史归档里真正提到过它的新闻，点标题可看原文。归档每天累积，这条线会自己变长。</p>
+    <div class="tl tl-foot">${foot.map((n) => tlNodeHTML({ ...n, kind: 'news' })).join('')}</div>`
+    : '';
 
   const watch = p.watchlist?.items?.length ? `
     <div class="sect-head" style="margin-top:28px">
@@ -655,6 +787,9 @@ function renderProfile() {
     </div>
 
     ${numCards ? `<div class="pnums">${numCards}</div>` : ''}
+
+    ${timelineBlock}
+    ${footBlock}
 
     <div class="p-body">
       <div class="pblock"><h5>它做什么</h5><p>${esc(c.whatTheyDo)}</p></div>
@@ -979,11 +1114,14 @@ function digestCardHTML(date) {
   const themes = (dg.themes || [])
     .map((t) => `<span class="dg-theme">${esc(t)}</span>`)
     .join('');
+  const fresh = dg.within24h
+    ? `<span class="dg-fresh">🕘 24 小时内 ${dg.within24h} 条</span>` : '';
   return `
   <div class="digest-card">
     <div class="dg-head">
       <span class="dg-tag">📌 ${esc(date)} 当日总结</span>
       <span class="dg-meta">抓取 ${dg.crawled} 条 · 精选 ${dg.published} 条 · 覆盖 ${dg.regions} 个区域</span>
+      ${fresh}
     </div>
     <p class="dg-over">${esc(dg.overview || '（今日暂无总结）')}</p>
     ${themes ? `<div class="dg-themes"><span class="dg-lbl">热门板块</span>${themes}</div>` : ''}
@@ -1590,7 +1728,8 @@ const actions = {
     render();
   },
   diff(el) { S.diff = el.dataset.v; render(); },
-  reset() { S.region = 'ALL'; S.topics.clear(); S.diff = 'ALL'; S.q = ''; render(); },
+  fresh(el) { S.fresh = el.dataset.v; render(); },
+  reset() { S.region = 'ALL'; S.topics.clear(); S.diff = 'ALL'; S.fresh = 'ALL'; S.q = ''; render(); },
   toggleview() { S.compact = !S.compact; render(); },
   regionmore(el) {
     const v = el.dataset.v;
@@ -1930,13 +2069,14 @@ async function doRefresh(silent = false) {
   const btn = $('#btnRefresh');
   btn?.classList.add('spin');
   if (!silent) toast('正在刷新数据…');
-  const [data, briefing, archive, digests, profiles, weekly] = await Promise.all([
+  const [data, briefing, archive, digests, profiles, weekly, companies] = await Promise.all([
     getJSON('./data/news-latest.json'),
     getJSON('./data/briefing.json'),
     getJSON('./data/archive-index.json'),
     getJSON('./data/digests.json'),
     getJSON('./data/profiles.json'),
     getJSON('./data/weekly.json'),
+    getJSON('./data/companies.json'),
   ]);
   if (data) S.data = data;
   if (briefing) S.briefing = briefing.items || {};
@@ -1944,6 +2084,7 @@ async function doRefresh(silent = false) {
   if (digests) S.digests = digests;
   if (profiles) S.profiles = profiles;
   if (weekly) S.weekly = weekly;
+  if (companies) S.companies = companies;
   computeNextRefresh();
   render();
   btn?.classList.remove('spin');

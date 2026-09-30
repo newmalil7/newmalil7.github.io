@@ -6,11 +6,16 @@
  *   node scripts/fetch_news.mjs                 # 抓取全部区域
  *   node scripts/fetch_news.mjs --region CN,NA  # 仅抓指定区域
  *   node scripts/fetch_news.mjs --limit 40      # 每源最多取条数(默认 25)
+ *   node scripts/fetch_news.mjs --max-age 72    # 时效硬上限(小时，默认 168=7 天)
+ *   node scripts/fetch_news.mjs --fresh 48      # 「新鲜」窗口(小时，默认 72)
+ *   node scripts/fetch_news.mjs --digest-only   # 只按现有归档重建每日总结与索引
+ *   node scripts/fetch_news.mjs --rebuild-from-raw  # 用 data/raw 重跑策展，不重新抓取
  *
  * 输出:
  *   data/raw/<date>.json      原始归一化结果（供解读层消费）
  *   data/news-latest.json     规则版解读结果（让站点永远有可用内容）
  *   data/archive/<date>.json  按日归档
+ *   data/companies.json       各公司在历次归档中出现的足迹（供每日剖析画时间线）
  */
 
 import fs from 'node:fs';
@@ -37,6 +42,16 @@ const PER_SOURCE_LIMIT = Number(getArg('--limit') || 25);
 const PER_REGION_CAP = Number(getArg('--per-region') || 24);
 const FULL = argv.includes('--full');
 const CONCURRENCY = Number(getArg('--concurrency') || 5);
+
+/**
+ * 时效控制（避免把源里积压的旧文当成今日要闻）
+ * - MAX_AGE_HOURS：硬上限。超过这个年龄的条目直接丢弃（默认 7 天）。
+ * - FRESH_HOURS：  「新鲜」窗口。区域配额优先用窗口内的条目填，填不满才回落到更旧的。
+ * - STALE_HOURS：  超过这个年龄按"偏旧"扣分（默认 72 小时）。
+ */
+const MAX_AGE_HOURS = Number(getArg('--max-age') || 168);
+const FRESH_HOURS = Number(getArg('--fresh') || 72);
+const STALE_HOURS = Number(getArg('--stale') || 72);
 
 // 轮换 UA：部分站点对固定 UA 会临时限流
 const UA_POOL = [
@@ -156,6 +171,65 @@ function parseDate(str) {
   const d = new Date(clean(str, 80));
   if (!Number.isNaN(d.getTime())) return d;
   return null;
+}
+
+/**
+ * 有些 feed 不带日期（例如 Wamda），但链接里往往藏着年月：
+ *   http://wamda.com/2026/09/tanami-raises-new-funding-expand-qatar
+ * 命中就拿来用。注意精度：只有年月时按「该月 1 日」占位，并标记 precision='month'，
+ * 后续不会拿它当精确日期去卡时效，也不会显示成一个假的"几号"。
+ */
+function inferDateFromUrl(url) {
+  if (!url) return null;
+  const m = String(url).match(/[/-](20\d{2})[/-](\d{1,2})(?:[/-](\d{1,2}))?(?:[/-]|$)/);
+  if (!m) return null;
+  const y = Number(m[1]);
+  const mo = Number(m[2]);
+  if (mo < 1 || mo > 12) return null;
+  if (y < 2015) return null;
+  const day = m[3] ? Math.min(Math.max(Number(m[3]), 1), 28) : 1;
+  const dt = new Date(Date.UTC(y, mo - 1, day, 12, 0, 0));
+  if (dt.getTime() > Date.now() + 86400000) return null; // 明显是未来的日期，不要
+  return { date: dt, precision: m[3] ? 'day' : 'month' };
+}
+
+/** 按月精度占位日反推的日期，实际含义是「这个月内」，因此给一个更宽的时效上限 */
+const MONTH_AGE_HOURS = 45 * 24;
+function ageLimitFor(item) {
+  return item?.datePrecision === 'month' ? MONTH_AGE_HOURS : MAX_AGE_HOURS;
+}
+
+/**
+ * 计算「年龄」时用的参考时刻。
+ * 实时抓取时就是现在；重跑历史归档时会设为那一天结束（北京时间），
+ * 否则今天去看 9 月 28 日的归档，所有条目都会被算成"两天前"，新鲜度全失真。
+ */
+let REF_NOW = Date.now();
+function setRefNow(ms) {
+  REF_NOW = Number.isFinite(ms) ? ms : Date.now();
+}
+/** 某一天（北京时间）的结束时刻 */
+function dayEndRef(date) {
+  const t = Date.parse(`${date}T23:59:59+08:00`);
+  return Number.isFinite(t) ? t : Date.now();
+}
+/**
+ * 某个归档文件对应的「参考时刻」。
+ * 用归档自己的 generatedAt（当天实际抓取的时刻）——因为站点是早上 9 点抓的，
+ * 「24 小时内」指的是抓取那一刻往前 24 小时；若按当天 24 点算，
+ * 上午抓到的内容会被平白算老 14 小时，新鲜度就失真了。
+ */
+function archiveRef(archiveJson, date) {
+  const t = Date.parse(archiveJson?.generatedAt || '');
+  return Number.isFinite(t) ? t : dayEndRef(date);
+}
+
+/** 条目年龄（小时）；没有日期返回 null */
+function ageHours(item, now = REF_NOW) {
+  if (!item?.publishedAt) return null;
+  const t = new Date(item.publishedAt).getTime();
+  if (Number.isNaN(t)) return null;
+  return (now - t) / 36e5;
 }
 
 /* --------------------------------- 抓取 ---------------------------------- */
@@ -296,17 +370,72 @@ const DIFFICULTY_BASIC = [
   'pricing', '合作', 'partnership', '招聘',
 ];
 
+/**
+ * 关键词命中（用于主题/难度打分）。
+ * 单字英文按词匹配并允许常见词形变化，避免 app 命中 apple、act 命中 impact 之类的误判；
+ * 带连字符的（如 fine-tun）按前缀处理，中文与短语按直接包含。
+ */
+const kwCache = new Map();
+function kwHit(hay, w) {
+  if (!w) return false;
+  const word = String(w).toLowerCase();
+  if (!ASCII_ONLY.test(word)) return hay.includes(word);
+  if (word.includes(' ')) return hay.includes(word);
+  let re = kwCache.get(word);
+  if (!re) {
+    const esc = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const tail = word.includes('-') ? '' : '(?:s|es|ing|ed|ion)?';
+    re = new RegExp(`(?<![a-z0-9])${esc}${tail}(?![a-z0-9])`);
+    kwCache.set(word, re);
+  }
+  return re.test(hay);
+}
+
 function countHits(haystack, words) {
   let n = 0;
   const matched = [];
   for (const w of words) {
-    if (haystack.includes(w)) {
+    if (kwHit(haystack, w)) {
       n += 1;
       matched.push(w);
     }
   }
   return { n, matched };
 }
+
+/**
+ * 实体命中判断。
+ * 必须按「词」匹配而不是子串包含——否则 intel 会命中 intelligence、
+ * arm 会命中 alarm/charm、meta 会命中 metaverse，实体标签会大面积失真。
+ */
+const ASCII_ONLY = /^[\x00-\x7f]+$/;
+const boundaryCache = new Map();
+function entityHit(hay, needle) {
+  if (!needle) return false;
+  const n = String(needle).toLowerCase();
+  if (!ASCII_ONLY.test(n)) return hay.includes(n); // 中文等按直接包含
+  let re = boundaryCache.get(n);
+  if (!re) {
+    re = new RegExp(`(?<![a-z0-9])${n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![a-z0-9])`);
+    boundaryCache.set(n, re);
+  }
+  return re.test(hay);
+}
+
+/** 实体别名 → 展示名（同时供分类与「公司足迹」索引复用） */
+const ENTITY_LABEL = {
+  openai: 'OpenAI', anthropic: 'Anthropic', google: 'Google', deepmind: 'DeepMind',
+  microsoft: 'Microsoft', meta: 'Meta', apple: 'Apple', amazon: 'Amazon',
+  nvidia: 'NVIDIA', 英伟达: 'NVIDIA', intel: 'Intel', amd: 'AMD', tsmc: '台积电',
+  台积电: '台积电', samsung: '三星', 三星: '三星', xai: 'xAI', mistral: 'Mistral',
+  cohere: 'Cohere', perplexity: 'Perplexity', 字节: '字节跳动', bytedance: '字节跳动',
+  阿里: '阿里巴巴', 阿里巴巴: '阿里巴巴', 腾讯: '腾讯', 百度: '百度', 华为: '华为',
+  小米: '小米', 商汤: '商汤', 月之暗面: '月之暗面', 智谱: '智谱AI', 科大讯飞: '科大讯飞',
+  deepseek: 'DeepSeek', 深度求索: 'DeepSeek', qwen: '通义千问', softbank: '软银',
+  软银: '软银', oracle: 'Oracle', salesforce: 'Salesforce', adobe: 'Adobe',
+  sap: 'SAP', siemens: 'Siemens', asml: 'ASML', arm: 'Arm', qualcomm: '高通',
+  broadcom: '博通', coreweave: 'CoreWeave', stargate: 'Stargate',
+};
 
 function classify(item) {
   const hay = `${item.title} ${item.summary} ${item.categories.join(' ')}`.toLowerCase();
@@ -321,23 +450,8 @@ function classify(item) {
   const topics = scored.slice(0, 2).map((t) => ({ id: t.id, name: t.name, color: t.color }));
 
   // 实体
-  const entities = MAJOR_ENTITIES.filter((e) => hay.includes(e))
-    .map((e) => {
-      const map = {
-        openai: 'OpenAI', anthropic: 'Anthropic', google: 'Google', deepmind: 'DeepMind',
-        microsoft: 'Microsoft', meta: 'Meta', apple: 'Apple', amazon: 'Amazon',
-        nvidia: 'NVIDIA', 英伟达: 'NVIDIA', intel: 'Intel', amd: 'AMD', tsmc: '台积电',
-        台积电: '台积电', samsung: '三星', 三星: '三星', xai: 'xAI', mistral: 'Mistral',
-        cohere: 'Cohere', perplexity: 'Perplexity', 字节: '字节跳动', bytedance: '字节跳动',
-        阿里: '阿里巴巴', 阿里巴巴: '阿里巴巴', 腾讯: '腾讯', 百度: '百度', 华为: '华为',
-        小米: '小米', 商汤: '商汤', 月之暗面: '月之暗面', 智谱: '智谱AI', 科大讯飞: '科大讯飞',
-        deepseek: 'DeepSeek', 深度求索: 'DeepSeek', qwen: '通义千问', softbank: '软银',
-        软银: '软银', oracle: 'Oracle', salesforce: 'Salesforce', adobe: 'Adobe',
-        sap: 'SAP', siemens: 'Siemens', asml: 'ASML', arm: 'Arm', qualcomm: '高通',
-        broadcom: '博通', coreweave: 'CoreWeave', stargate: 'Stargate',
-      };
-      return map[e] || e;
-    });
+  const entities = MAJOR_ENTITIES.filter((e) => entityHit(hay, e))
+    .map((e) => ENTITY_LABEL[e] || e);
   const entityList = [...new Set(entities)].slice(0, 4);
 
   // 难度
@@ -353,16 +467,28 @@ function classify(item) {
   else if (adv >= 1) difficulty = '进阶';
 
   // 重要度：35 ~ 99，避免大面积顶格
-  const ageH = item.publishedAt
-    ? (Date.now() - new Date(item.publishedAt).getTime()) / 36e5
-    : 999;
-  const freshBonus = ageH <= 8 ? 14 : ageH <= 16 ? 11 : ageH <= 24 ? 8 : ageH <= 48 ? 4 : 0;
+  // 时效权重被刻意放大：今日要闻里，「今天发生的」应当压过「很久以前但主角很大牌」的。
+  // 只有日期精确到日的条目才按真实年龄打分；只剩年月（datePrecision='month'）或完全
+  // 没日期的源，给一个中性分——不能因为"不知道多新"就把人家当旧闻踩下去。
+  const precise = item.datePrecision !== 'month';
+  const ageH = precise ? ageHours(item) : null;
+  const freshBonus =
+    ageH === null ? 13
+      : ageH <= 6 ? 30
+        : ageH <= 12 ? 26
+          : ageH <= 24 ? 21
+            : ageH <= 48 ? 13
+              : ageH <= FRESH_HOURS ? 7
+                : ageH <= MAX_AGE_HOURS ? 2
+                  : 0;
+  const stalePenalty = ageH !== null && ageH > STALE_HOURS ? -8 : 0;
   let importance =
     35 +
     Math.min(scored[0]?.hits || 0, 5) * 4 +
     Math.min(entityList.length, 3) * 6 +
     (item.sourceTier === 1 ? 9 : 0) +
     freshBonus +
+    stalePenalty +
     (difficulty === '入门' ? 3 : 0) +
     (topics.length === 0 ? -8 : 0);
   importance = Math.max(20, Math.min(99, Math.round(importance)));
@@ -447,9 +573,31 @@ function buildDigest({ date, nowIso, curated, regions, stats }) {
   const pickSource = zhPicks.length >= 2 ? zhPicks : topOverall.slice(0, 3);
   const head3 = pickSource.map((i) => `「${i.title}」（${i.source}）`).join('、');
   const themeTxt = themes.slice(0, 2).map((t) => `「${t.name}」${t.n} 条`).join('、');
+
+  // 当日新鲜度（供总览与前端展示）
+  const within = (h) => curated.filter((i) => { const a = ageHours(i); return a !== null && a <= h; }).length;
+  const freshness = {
+    within24h: within(24),
+    withinFresh: within(stats.freshness?.freshHours || FRESH_HOURS),
+    freshHours: stats.freshness?.freshHours || FRESH_HOURS,
+    monthPrecision: curated.filter((i) => i.datePrecision === 'month').length,
+    undated: curated.filter((i) => ageHours(i) === null && i.datePrecision !== 'month').length,
+    staleDropped: stats.freshness?.staleDropped || 0,
+    newestAt: curated
+      .map((i) => i.publishedAt)
+      .filter(Boolean)
+      .sort()
+      .reverse()[0] || null,
+  };
+
+  const freshTxt = freshness.within24h
+    ? `其中有 ${freshness.within24h} 条发布于 24 小时内。`
+    : `今日新发布的条目较少，多为近 ${Math.round(freshness.freshHours / 24)} 天内的内容。`;
+
   const overview =
     `${Number(mm)} 月 ${Number(dd)} 日，共从 ${stats.sourceOk} 个信息源抓取 ${stats.total} 条 AI 产业动态，` +
     `其中 ${curated.length} 条进入当日精选，覆盖 ${regionPicks.length} 个区域。` +
+    freshTxt +
     (themeTxt ? `当日最集中的板块是${themeTxt}。` : '') +
     (head3 ? `值得优先关注的几条：${head3}。` : '');
 
@@ -466,6 +614,7 @@ function buildDigest({ date, nowIso, curated, regions, stats }) {
       sourceTotal: stats.sourceTotal,
       regions: regionPicks.length,
     },
+    freshness,
     themes,
     entities,
     topOverall,
@@ -506,15 +655,96 @@ function rebuildDigestsIndex() {
         crawled: j.counts?.crawled || 0,
         published: j.counts?.published || 0,
         regions: j.counts?.regions || 0,
+        within24h: j.freshness?.within24h || 0,
         overview: j.overview || '',
         themes: (j.themes || []).slice(0, 4).map((t) => t.name),
       };
     } catch {
-      return { date: f.replace('.json', ''), crawled: 0, published: 0, regions: 0, overview: '', themes: [] };
+      return { date: f.replace('.json', ''), crawled: 0, published: 0, regions: 0, within24h: 0, overview: '', themes: [] };
     }
   });
   fs.writeFileSync(path.join(DATA, 'digests.json'), JSON.stringify(index, null, 1));
   return index;
+}
+
+/**
+ * 重建 data/companies.json —— 「公司足迹」索引。
+ *
+ * 把历次归档里提到某家公司的条目按日期串起来，前端就能给「每日剖析」画出一条
+ * 真实的时间线（这家公司哪天因为什么事上了要闻）。它不依赖 agent、也不依赖本机，
+ * 只要归档在累积，时间线就会自己变长。
+ */
+function buildCompaniesIndex() {
+  const TRACK_CAP = 40; // 每家公司最多保留的足迹节点数（按日期倒序取新）
+
+  // 追踪名单：内置大厂/机构 + 剖析过的公司与观察名单（含别名）
+  const aliasToName = new Map();
+  const track = (name, aliases = []) => {
+    if (!name) return;
+    for (const a of [name, ...aliases]) {
+      const key = String(a || '').trim().toLowerCase();
+      if (key && !aliasToName.has(key)) aliasToName.set(key, name);
+    }
+  };
+  for (const e of new Set(Object.values(ENTITY_LABEL))) track(e);
+  try {
+    const pf = JSON.parse(fs.readFileSync(path.join(DATA, 'profiles.json'), 'utf8'));
+    for (const p of pf.list || []) track(p.name, [p.nameZh, ...(p.aliases || [])]);
+    for (const w of pf.watchlist?.items || []) track(w.name, [w.nameZh, ...(w.aliases || [])]);
+  } catch {
+    /* 没有 profiles.json 也能跑，只索引内置实体 */
+  }
+
+  const nodes = new Map(); // name -> Map(key -> node)
+  const add = (name, node) => {
+    if (!nodes.has(name)) nodes.set(name, new Map());
+    const m = nodes.get(name);
+    const k = `${node.date}|${node.url}`;
+    if (!m.has(k)) m.set(k, node);
+  };
+
+  const files = readDated('archive'); // 日期倒序
+  for (const f of files) {
+    let j;
+    try {
+      j = JSON.parse(fs.readFileSync(path.join(DATA, 'archive', f), 'utf8'));
+    } catch {
+      continue;
+    }
+    const date = j.date || f.replace('.json', '');
+    for (const it of j.items || []) {
+      const hit = new Set(it.entities || []);
+      const hay = `${it.title || ''} ${it.summary || ''}`.toLowerCase();
+      for (const [alias, name] of aliasToName) if (hay.includes(alias)) hit.add(name);
+      if (!hit.size) continue;
+      const node = {
+        date,
+        title: it.title,
+        url: it.url,
+        source: it.source,
+        region: it.region,
+        importance: it.importance,
+      };
+      for (const n of hit) add(n, node);
+    }
+  }
+
+  const companies = [...nodes.entries()]
+    .map(([name, m]) => {
+      const items = [...m.values()].sort((a, b) => b.date.localeCompare(a.date));
+      return { name, count: items.length, first: items[items.length - 1]?.date || '', last: items[0]?.date || '', items: items.slice(0, TRACK_CAP) };
+    })
+    .filter((c) => c.count > 0)
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+
+  const payload = {
+    schema: 'ai-horizon/companies-v1',
+    updatedAt: new Date().toISOString(),
+    archivedDays: files.length,
+    companies,
+  };
+  fs.writeFileSync(path.join(DATA, 'companies.json'), JSON.stringify(payload, null, 1));
+  return payload;
 }
 
 /** 仅根据已有归档重建全部每日总结（不重新抓取） */
@@ -530,8 +760,10 @@ function backfillDigests(regions) {
       continue;
     }
     const stats = j.stats || {};
+    const dk = j.date || f.replace('.json', '');
+    setRefNow(archiveRef(j, dk)); // 按「当天抓取那一刻」看当天的新鲜度，而不是按今天看
     const d = buildDigest({
-      date: j.date || f.replace('.json', ''),
+      date: dk,
       nowIso: j.generatedAt || new Date().toISOString(),
       curated: j.items || [],
       regions,
@@ -539,6 +771,7 @@ function backfillDigests(regions) {
         total: stats.total ?? (j.items || []).length,
         sourceOk: stats.sourceOk ?? 0,
         sourceTotal: stats.sourceTotal ?? 0,
+        freshness: stats.freshness,
       },
     });
     fs.writeFileSync(path.join(DATA, 'digest', `${d.date}.json`), JSON.stringify(d, null, 1));
@@ -548,6 +781,142 @@ function backfillDigests(regions) {
 }
 
 /* ---------------------------------- 主流程 -------------------------------- */
+
+/**
+ * 策展 + 落盘：去重 → 分类打分 → 区域配平（新鲜优先）→ 写 raw/归档/最新/每日总结。
+ * 独立成函数，是为了让「用历史 raw 重跑同一条管线」成为可能（--rebuild-from-raw）。
+ */
+function curateDay({ items: rawItems, regions, sourceTotal, failures = [], staleDropped = [], staleBase = 0, date, nowIso, writeRaw = true, refTime }) {
+  setRefNow(refTime);
+  let items = rawItems;
+
+  // 时效硬过滤：超过上限的旧文一律不放行。
+  // 实时抓取时在抓取阶段已经筛过一遍，这里是给「用历史 raw 重跑」兜底，保证两条路径口径一致。
+  const localStale = [];
+  items = items.filter((it) => {
+    const a = ageHours(it);
+    if (a !== null && a > ageLimitFor(it)) {
+      localStale.push({ source: it.source, region: it.region, ageDays: Math.round(a / 24), title: it.title });
+      return false;
+    }
+    return true;
+  });
+  const allStale = [...staleDropped, ...localStale];
+
+  // 去重：同 URL 保留信息更全的
+  const byUrl = new Map();
+  for (const it of items) {
+    const key = it.url.replace(/[?#].*$/, '').replace(/\/$/, '').toLowerCase();
+    const prev = byUrl.get(key);
+    if (!prev || (it.summary || '').length > (prev.summary || '').length) byUrl.set(key, it);
+  }
+  items = [...byUrl.values()];
+
+  // 标题高度相似也去重
+  const normTitle = (s) => s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '').slice(0, 60);
+  const byTitle = new Map();
+  for (const it of items) {
+    const k = `${it.region}|${normTitle(it.title)}`;
+    if (!byTitle.has(k)) byTitle.set(k, it);
+  }
+  items = [...byTitle.values()];
+
+  // 分类 + 排序
+  for (const it of items) Object.assign(it, classify(it));
+
+  const byImportance = (a, b) => {
+    if (b.importance !== a.importance) return b.importance - a.importance;
+    return (b.publishedAt || '').localeCompare(a.publishedAt || '');
+  };
+  items.sort(byImportance);
+
+  const byRegion = {};
+  for (const r of regions) byRegion[r.code] = items.filter((i) => i.region === r.code).length;
+
+  // 时效概览：让每日总结和运行日志都能说清「今天有多新」
+  const within = (h) => items.filter((i) => { const a = ageHours(i); return a !== null && a <= h; }).length;
+  const freshness = {
+    maxAgeHours: MAX_AGE_HOURS,
+    freshHours: FRESH_HOURS,
+    within24h: within(24),
+    withinFresh: within(FRESH_HOURS),
+    monthPrecision: items.filter((i) => i.datePrecision === 'month').length,
+    undated: items.filter((i) => ageHours(i) === null && i.datePrecision !== 'month').length,
+    staleDropped: staleBase + allStale.length,
+    staleSources: [...new Set([
+      ...failures.filter((f) => /超期/.test(f.error || '')).map((f) => f.name),
+      ...Object.entries(allStale.reduce((acc, s) => { acc[s.source] = (acc[s.source] || 0) + 1; return acc; }, {}))
+        .filter(([name, n]) => n >= 5 && !items.some((i) => i.source === name))
+        .map(([name]) => name),
+    ])],
+  };
+
+  const base = {
+    schema: 'ai-horizon/v1',
+    generatedAt: nowIso,
+    date,
+    enrichMode: 'rule',
+    stats: {
+      total: items.length,
+      byRegion,
+      sourceTotal,
+      sourceOk: Math.max(0, sourceTotal - failures.length),
+      freshness,
+      failures,
+    },
+  };
+
+  /**
+   * 区域配平策展 + 分层取新：
+   * 先在该区域里把「24 小时内」的条目按重要度填满配额，不够再用「3 天内」补，
+   * 再不够才用「更旧（但仍在时效上限内）」的补。
+   * 这样即使是更新很慢的区域，也只有配额没填满时才会出现旧文，
+   * 而不会拿旧文顶掉当天的新闻。
+   */
+  const recencyTier = (i) => {
+    if (i.datePrecision === 'month') return 0; // 只知道"这个月"，按新处理
+    const a = ageHours(i);
+    if (a === null) return 0;
+    if (a <= 24) return 0;
+    if (a <= FRESH_HOURS) return 1;
+    return 2;
+  };
+  const pickRegion = (r) => {
+    const pool = items.filter((i) => i.region === r.code).sort(byImportance);
+    if (FULL) return pool;
+    const tiers = [[], [], []];
+    for (const i of pool) tiers[recencyTier(i)].push(i);
+    const out = [];
+    for (const t of tiers) {
+      if (out.length >= PER_REGION_CAP) break;
+      out.push(...t.slice(0, PER_REGION_CAP - out.length));
+    }
+    return out;
+  };
+
+  const curated = FULL ? items : regions.flatMap(pickRegion).sort(byImportance);
+
+  const fullPayload = { ...base, curated: false, items };
+  const curatedPayload = {
+    ...base,
+    curated: !FULL,
+    stats: { ...base.stats, published: curated.length, perRegionCap: PER_REGION_CAP },
+    items: curated,
+  };
+
+  fs.mkdirSync(path.join(DATA, 'raw'), { recursive: true });
+  fs.mkdirSync(path.join(DATA, 'archive'), { recursive: true });
+  fs.mkdirSync(path.join(DATA, 'digest'), { recursive: true });
+  if (writeRaw) fs.writeFileSync(path.join(DATA, 'raw', `${date}.json`), JSON.stringify(fullPayload, null, 1));
+  fs.writeFileSync(path.join(DATA, 'archive', `${date}.json`), JSON.stringify(curatedPayload, null, 1));
+  fs.writeFileSync(path.join(DATA, 'news-latest.json'), JSON.stringify(curatedPayload, null, 1));
+
+  // 每日总结（规则层）：CI 每天自动产出，不依赖本机 / LLM
+  const digest = buildDigest({ date, nowIso, curated, regions, stats: base.stats });
+  fs.writeFileSync(path.join(DATA, 'digest', `${date}.json`), JSON.stringify(digest, null, 1));
+
+  return { date, items, curated, freshness, byRegion, digest };
+}
 
 function todayKey(d = new Date()) {
   const tz = new Date(d.getTime() + 8 * 3600 * 1000);
@@ -564,7 +933,54 @@ async function main() {
     const n = backfillDigests(regions);
     const ai = rebuildArchiveIndex();
     const di = rebuildDigestsIndex();
-    console.log(`\n✅ 已按现有归档重建 ${n} 天总结；归档 ${ai.length} 天 / 总结 ${di.length} 天\n`);
+    const ci = buildCompaniesIndex();
+    console.log(
+      `\n✅ 已按现有归档重建 ${n} 天总结；归档 ${ai.length} 天 / 总结 ${di.length} 天 / ` +
+      `公司足迹 ${ci.companies.length} 家\n`
+    );
+    return;
+  }
+
+  // 用历史 raw 重跑同一条策展管线（不重新抓取）：修数据、改口径时用
+  if (argv.includes('--rebuild-from-raw')) {
+    const rawDir = path.join(DATA, 'raw');
+    const files = fs.existsSync(rawDir)
+      ? fs.readdirSync(rawDir).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort()
+      : [];
+    console.log(`\n♻️  用 data/raw 重跑策展：共 ${files.length} 天\n`);
+    for (const f of files) {
+      let j;
+      try {
+        j = JSON.parse(fs.readFileSync(path.join(rawDir, f), 'utf8'));
+      } catch {
+        continue;
+      }
+      const st = j.stats || {};
+      const d = j.date || f.replace('.json', '');
+      const r = curateDay({
+        items: j.items || [],
+        regions,
+        sourceTotal: st.sourceTotal || 0,
+        failures: st.failures || [],
+        staleDropped: [],
+        staleBase: st.freshness?.staleDropped || 0,
+        date: d,
+        nowIso: j.generatedAt || new Date().toISOString(),
+        writeRaw: false,
+        refTime: archiveRef(j, d),
+      });
+      console.log(
+        `  ${f}  全量 ${String(r.items.length).padStart(3)} → 精选 ${String(r.curated.length).padStart(3)}` +
+        `  · 24h 内 ${r.freshness.within24h}` +
+        (r.freshness.staleDropped ? `  · ⊘ 弃旧文 ${r.freshness.staleDropped}` : '')
+      );
+    }
+    const ai = rebuildArchiveIndex();
+    const di = rebuildDigestsIndex();
+    const ci = buildCompaniesIndex();
+    console.log(
+      `\n✅ 归档重建 ${ai.length} 天 / 总结 ${di.length} 天 / 公司足迹 ${ci.companies.length} 家\n`
+    );
     return;
   }
 
@@ -575,19 +991,24 @@ async function main() {
   console.log(`\n🛰  AI 瞭望台 · 开始抓取 ${sources.length} 个源 / ${new Set(sources.map(s=>s.region)).size} 个区域\n`);
 
   const failures = [];
+  const staleDropped = []; // 因过期被丢弃的条目（用于统计与日志）
   const tasks = sources.map((src) => async () => {
     const t0 = Date.now();
-    let items = [];
+    let kept = [];
+    let dropped = 0;
+    let newestAge = null;
     let err = null;
     for (let attempt = 0; attempt < 3; attempt++) {
       try {
         const xml = await fetchFeed(src.url, 1);
         const rows = parseFeed(xml);
-        items = rows
+        const mapped = rows
           .filter((r) => r.title && r.url)
           .slice(0, PER_SOURCE_LIMIT)
           .map((r) => {
-            const d = parseDate(r.dateStr);
+            const feedDate = parseDate(r.dateStr);
+            const inferred = feedDate ? null : inferDateFromUrl(r.url);
+            const d = feedDate || inferred?.date;
             const base = {
               title: r.title,
               url: r.url,
@@ -600,6 +1021,10 @@ async function main() {
               summary: r.summary,
               publishedAt: d ? d.toISOString() : null,
             };
+            if (!feedDate && inferred) {
+              base.dateInferred = true;
+              base.datePrecision = inferred.precision; // 'day' | 'month'
+            }
             base.id = crypto
               .createHash('sha1')
               .update(`${src.id}|${r.url}|${r.title}`)
@@ -607,115 +1032,75 @@ async function main() {
               .slice(0, 16);
             return base;
           });
-        if (items.length) break;
-        err = new Error('解析出 0 条');
+
+        // 时效硬过滤：超过上限的旧文不进池子（否则源里积压的陈年文章会被当成今日要闻）
+        kept = [];
+        dropped = 0;
+        for (const it of mapped) {
+          const a = ageHours(it);
+          if (a !== null && a > ageLimitFor(it)) {
+            dropped += 1;
+            staleDropped.push({ source: src.name, region: src.region, ageDays: Math.round(a / 24), title: it.title });
+            continue;
+          }
+          if (a !== null && (newestAge === null || a < newestAge)) newestAge = a;
+          kept.push(it);
+        }
+        if (kept.length) break;
+        err = new Error(dropped ? `全部 ${dropped} 条超期` : '解析出 0 条');
       } catch (e) {
         err = e;
       }
       if (attempt < 2) await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
     }
     const ms = Date.now() - t0;
+    const ageTag = newestAge === null ? '  ——' : `${newestAge < 10 ? newestAge.toFixed(1) : Math.round(newestAge)}h`;
     console.log(
-      `  ${String(items.length).padStart(3)} 条  ${String(ms).padStart(6)}ms  ` +
-      `[${src.region.padEnd(5)}] ${src.name}` + (items.length ? '' : `   ⚠ ${err?.message || '空'}`)
+      `  ${String(kept.length).padStart(3)} 条  ${String(ms).padStart(6)}ms  ` +
+      `[${src.region.padEnd(5)}] 最新${ageTag.padStart(6)}  ${src.name}` +
+      (dropped ? `   ⊘ 弃${dropped}条旧文` : '') +
+      (kept.length ? '' : `   ⚠ ${err?.message || '空'}`)
     );
-    if (!items.length) failures.push({ id: src.id, name: src.name, error: err?.message || '空' });
-    return items;
+    if (!kept.length) failures.push({ id: src.id, name: src.name, error: err?.message || '空' });
+    return kept;
   });
 
   const batches = await pool(tasks, CONCURRENCY);
-  let items = batches.flat();
 
-  // 去重：同 URL 保留信息更全的；标题高度相似也去重
-  const byUrl = new Map();
-  for (const it of items) {
-    const key = it.url.replace(/[?#].*$/, '').replace(/\/$/, '').toLowerCase();
-    const prev = byUrl.get(key);
-    if (!prev || (it.summary || '').length > (prev.summary || '').length) byUrl.set(key, it);
-  }
-  items = [...byUrl.values()];
-
-  const normTitle = (s) =>
-    s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '').slice(0, 60);
-  const byTitle = new Map();
-  for (const it of items) {
-    const k = `${it.region}|${normTitle(it.title)}`;
-    if (!byTitle.has(k)) byTitle.set(k, it);
-  }
-  items = [...byTitle.values()];
-
-  // 分类 + 排序
-  for (const it of items) Object.assign(it, classify(it));
-  items.sort((a, b) => {
-    if (b.importance !== a.importance) return b.importance - a.importance;
-    return (b.publishedAt || '').localeCompare(a.publishedAt || '');
+  const { date, items, curated, freshness, byRegion } = curateDay({
+    items: batches.flat(),
+    regions,
+    sourceTotal: sources.length,
+    failures,
+    staleDropped,
+    date: todayKey(),
+    nowIso: new Date().toISOString(),
+    writeRaw: true,
   });
 
-  const date = todayKey();
-  const nowIso = new Date().toISOString();
-
-  const byRegion = {};
-  for (const r of regions) byRegion[r.code] = items.filter((i) => i.region === r.code).length;
-
-  const base = {
-    schema: 'ai-horizon/v1',
-    generatedAt: nowIso,
-    date,
-    enrichMode: 'rule',
-    stats: {
-      total: items.length,
-      byRegion,
-      sourceTotal: sources.length,
-      sourceOk: sources.length - failures.length,
-      failures,
-    },
-  };
-
-  // 区域配平策展：每个区域取重要度最高的 N 条，避免某区域刷屏
-  const curated = FULL
-    ? items
-    : regions
-        .flatMap((r) =>
-          items.filter((i) => i.region === r.code).slice(0, PER_REGION_CAP)
-        )
-        .sort((a, b) => {
-          if (b.importance !== a.importance) return b.importance - a.importance;
-          return (b.publishedAt || '').localeCompare(a.publishedAt || '');
-        });
-
-  const fullPayload = { ...base, curated: false, items };
-  const curatedPayload = {
-    ...base,
-    curated: !FULL,
-    stats: { ...base.stats, published: curated.length, perRegionCap: PER_REGION_CAP },
-    items: curated,
-  };
-
-  fs.mkdirSync(path.join(DATA, 'raw'), { recursive: true });
-  fs.mkdirSync(path.join(DATA, 'archive'), { recursive: true });
-  fs.mkdirSync(path.join(DATA, 'digest'), { recursive: true });
-  fs.writeFileSync(path.join(DATA, 'raw', `${date}.json`), JSON.stringify(fullPayload, null, 1));
-  fs.writeFileSync(path.join(DATA, 'archive', `${date}.json`), JSON.stringify(curatedPayload, null, 1));
-  fs.writeFileSync(path.join(DATA, 'news-latest.json'), JSON.stringify(curatedPayload, null, 1));
-
-  // 每日总结（规则层）：CI 每天自动产出，不依赖本机 / LLM
-  const digest = buildDigest({ date, nowIso, curated, regions, stats: base.stats });
-  fs.writeFileSync(path.join(DATA, 'digest', `${date}.json`), JSON.stringify(digest, null, 1));
-
-  // 重建两个索引（归档 + 每日总结）
+  // 重建两个索引（归档 + 每日总结）+ 公司足迹
   const archFiles = rebuildArchiveIndex().map((x) => `${x.date}.json`);
   const digestsIndex = rebuildDigestsIndex();
+  const companies = buildCompaniesIndex();
 
   console.log(
     `\n✅ 完成：抓取 ${items.length} 条 → 策展发布 ${curated.length} 条 · ` +
     `${sources.length - failures.length}/${sources.length} 源正常` +
     `\n   分区：` + regions.map((r) => `${r.short} ${byRegion[r.code]}`).join(' / ')
   );
-  if (failures.length) {
-    console.log(`   失败源：` + failures.map((f) => `${f.name}(${f.error})`).join('，'));
+  console.log(
+    `   时效：24h 内 ${freshness.within24h} 条 · ${freshness.freshHours}h 内 ${freshness.withinFresh} 条 · ` +
+    `仅年月 ${freshness.monthPrecision} 条 · 无日期 ${freshness.undated} 条 · ` +
+    `丢弃超 ${Math.round(freshness.maxAgeHours / 24)} 天旧文 ${freshness.staleDropped} 条`
+  );
+  if (freshness.staleSources.length) {
+    console.log(`   ⚠ 疑似停更源（全部条目都超期）：` + freshness.staleSources.join('，'));
   }
-  console.log(`   输出：data/news-latest.json + data/archive/${date}.json + data/digest/${date}.json`);
-  console.log(`   归档累计：${archFiles.length} 天（最新 ${archFiles[0] || '-'}）\n`);
+  if (failures.length) {
+    console.log(`   失败源：` + failures.filter((f) => !/超期/.test(f.error || '')).map((f) => `${f.name}(${f.error})`).join('，'));
+  }
+  console.log(`   输出：data/news-latest.json + data/archive/${date}.json + data/digest/${date}.json + data/companies.json`);
+  console.log(`   归档累计：${archFiles.length} 天（最新 ${archFiles[0] || '-'}）· 公司足迹 ${companies.companies.length} 家\n`);
 }
 
 main().catch((e) => {
