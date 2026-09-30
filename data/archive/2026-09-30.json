@@ -1,22 +1,32 @@
 {
  "schema": "ai-horizon/v1",
- "generatedAt": "2026-09-30T01:31:43.656Z",
+ "generatedAt": "2026-09-30T01:35:36.833Z",
  "date": "2026-09-30",
  "enrichMode": "rule",
  "stats": {
-  "total": 494,
+  "total": 444,
   "byRegion": {
    "CN": 126,
    "SEA": 35,
-   "ME": 84,
+   "ME": 34,
    "JPKR": 21,
    "EU": 64,
    "NA": 75,
    "OTHER": 89
   },
   "sourceTotal": 29,
-  "sourceOk": 28,
+  "sourceOk": 26,
   "failures": [
+   {
+    "id": "arabianbusiness",
+    "name": "Arabian Business",
+    "error": "HTTP 405"
+   },
+   {
+    "id": "itp-net",
+    "name": "ITP.net",
+    "error": "HTTP 405"
+   },
    {
     "id": "qbitai",
     "name": "量子位",
@@ -1073,40 +1083,6 @@
    "plainHint": "AI 具体被拿去做成了什么能用的东西"
   },
   {
-   "title": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
-   "source": "The Verge AI",
-   "sourceId": "theverge-ai",
-   "sourceTier": 2,
-   "region": "NA",
-   "lang": "en",
-   "categories": [],
-   "summary": "\"The chance of human extinction is about a coin flip, in my view,\" Geoffrey Irving, a former OpenAI and Google DeepMind employee, said in a new interview. It's one of a dozen interviews with AI researchers, including current and former employees at OpenAI, Google, and Anthropic. Palisade Research, which says it's a nonprofit studying AIs' capabilities and motivations, collected…",
-   "publishedAt": "2026-09-29T17:35:03.000Z",
-   "id": "5808c97b354c8bca",
-   "topics": [
-    {
-     "id": "policy",
-     "name": "政策与治理",
-     "color": "#ef4444"
-    },
-    {
-     "id": "industry",
-     "name": "产业与生态",
-     "color": "#8b5cf6"
-    }
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic",
-    "Google",
-    "DeepMind"
-   ],
-   "difficulty": "进阶",
-   "importance": 71,
-   "plainHint": "规则制定者正在给 AI 划边界"
-  },
-  {
    "title": "OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道",
    "url": "http://www.geekpark.net/news/372005",
    "source": "极客公园",
@@ -1437,6 +1413,40 @@
    "difficulty": "进阶",
    "importance": 68,
    "plainHint": "又有人把 AI 的\"脑子\"升级了一代"
+  },
+  {
+   "title": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
+   "source": "The Verge AI",
+   "sourceId": "theverge-ai",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [],
+   "summary": "\"The chance of human extinction is about a coin flip, in my view,\" Geoffrey Irving, a former OpenAI and Google DeepMind employee, said in a new interview. It's one of a dozen interviews with AI researchers, including current and former employees at OpenAI, Google, and Anthropic. Palisade Research, which says it's a nonprofit studying AIs' capabilities and motivations, collected…",
+   "publishedAt": "2026-09-29T17:35:03.000Z",
+   "id": "5808c97b354c8bca",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "DeepMind"
+   ],
+   "difficulty": "进阶",
+   "importance": 68,
+   "plainHint": "规则制定者正在给 AI 划边界"
   },
   {
    "title": "OpenAI expands ChatGPT’s plug-ins with app-like interfaces and automations",
@@ -3129,43 +3139,6 @@
    "plainHint": "AI 具体被拿去做成了什么能用的东西"
   },
   {
-   "title": "Dubai introduces new AI driving tests with no human intervention in results",
-   "url": "https://www.arabianbusiness.com/business/transport/dubai-ai-driving-tests",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Transport",
-    "News",
-    "AI",
-    "Artificial intelligence",
-    "Dubai RTA"
-   ],
-   "summary": "Dubai RTA introduces next-generation AI driving tests using facial recognition, computer vision, 3D mapping and automatic emergency braking",
-   "publishedAt": "2026-09-29T18:57:25.000Z",
-   "id": "d0bc86cfceeb691c",
-   "topics": [
-    {
-     "id": "compute",
-     "name": "算力与基建",
-     "color": "#0ea5e9"
-    },
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [
-    "Intel"
-   ],
-   "difficulty": "进阶",
-   "importance": 59,
-   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了"
-  },
-  {
    "title": "Axiology joins Europe’s push to bring central bank money to digital capital markets",
    "url": "https://tech.eu/2026/09/29/axiology-joins-europes-push-to-bring-central-bank-money-to-digital-capital-markets/",
    "source": "Tech.eu",
@@ -3659,43 +3632,6 @@
    "plainHint": "大厂、人才和开源社区在怎么重新排座次"
   },
   {
-   "title": "AMD Agrees to Buy Fei-Fei Li’s World Labs for $8.2 Billion in Physical AI Push",
-   "url": "https://www.itp.net/ai-automation/amd-agrees-to-buy-fei-fei-lis-world-labs-for-8-2-billion-in-physical-ai-push",
-   "source": "ITP.net",
-   "sourceId": "itp-net",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "AI & Automation",
-    "AI",
-    "AI research company",
-    "AMD",
-    "Compute"
-   ],
-   "summary": "The all-stock deal would bring World Labs’ spatial AI research team into AMD, with Fei-Fei Li set to become its chief scientist.",
-   "publishedAt": "2026-09-29T08:01:57.000Z",
-   "id": "13cfc14fab9e82bb",
-   "topics": [
-    {
-     "id": "industry",
-     "name": "产业与生态",
-     "color": "#8b5cf6"
-    },
-    {
-     "id": "compute",
-     "name": "算力与基建",
-     "color": "#0ea5e9"
-    }
-   ],
-   "entities": [
-    "AMD"
-   ],
-   "difficulty": "进阶",
-   "importance": 57,
-   "plainHint": "大厂、人才和开源社区在怎么重新排座次"
-  },
-  {
    "title": "Nvidia’s new platform aims to revamp AI agent control",
    "url": "https://www.tahawultech.com/home-slide/nvidias-new-platform-aims-to-revamp-ai-agent-control/",
    "source": "TahawulTech",
@@ -3770,36 +3706,6 @@
    "summary": "After its separation from the competition watchdog.",
    "publishedAt": "2026-09-29T20:08:00.000Z",
    "id": "0e94041338df03a0",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 56,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西"
-  },
-  {
-   "title": "Etihad Rail Dubai service launches September 30 with 10 daily trains and Metro connection",
-   "url": "https://www.arabianbusiness.com/business/transport/etihad-rail-dubai-service-launches-september-30-with-10-daily-trains-and-metro-connection",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Transport",
-    "News",
-    "Etihad Rail",
-    "Etihad Rail passenger train",
-    "rail network"
-   ],
-   "summary": "Etihad Rail will launch its Dubai passenger service on September 30 with 10 daily Abu Dhabi-Dubai journeys and a connection to the Dubai Metro network",
-   "publishedAt": "2026-09-29T20:05:17.000Z",
-   "id": "9ebf45ce3bca0d75",
    "topics": [
     {
      "id": "product",
@@ -4475,35 +4381,6 @@
    "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了"
   },
   {
-   "title": "Dubai’s DEWA moves 76% of services to agentic AI as processing time falls 95%",
-   "url": "https://www.arabianbusiness.com/business/energy/dubais-dewa-moves-services-to-agentic-ai",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Energy",
-    "News",
-    "DEWA",
-    "Dubai"
-   ],
-   "summary": "Dubai’s DEWA has transformed 16 of its 21 services using agentic AI, cutting some processing times by 95% and moving technical case assignment to autonomous execution",
-   "publishedAt": "2026-09-29T20:56:39.000Z",
-   "id": "76cbe4104442b229",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 53,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西"
-  },
-  {
    "title": "Kaspersky highlights children’s most popular online platforms in the Middle East and related digital risks",
    "url": "https://www.tahawultech.com/insight/kaspersky-highlights-childrens-most-popular-online-platforms-in-the-middle-east-and-related-digital-risks/",
    "source": "TahawulTech",
@@ -4537,75 +4414,6 @@
    "difficulty": "入门",
    "importance": 53,
    "plainHint": "AI 具体被拿去做成了什么能用的东西"
-  },
-  {
-   "title": "Abu Dhabi rolls out first phase of AI platform for legal decisions",
-   "url": "https://www.arabianbusiness.com/business/technology/abu-dhabi-legal-ai-platform",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Technology",
-    "News",
-    "Abu Dhabi",
-    "Abu Dhabi Judicial Department",
-    "Artificial intelligence"
-   ],
-   "summary": "Judicial AI forms part of Abu Dhabi’s wider government technology programme",
-   "publishedAt": "2026-09-29T05:25:33.000Z",
-   "id": "48411a784c32e6a9",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [
-    "Intel"
-   ],
-   "difficulty": "进阶",
-   "importance": 53,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西"
-  },
-  {
-   "title": "OpenAI Agent Hacks Australia’s Healthcare Portal. Who is Responsible When AI Crosses the Line?",
-   "url": "https://www.itp.net/cybersecurity/openai-agent-hacks-australias-healthcare-portal-who-is-responsible-when-ai-crosses-the-line",
-   "source": "ITP.net",
-   "sourceId": "itp-net",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Cybersecurity",
-    "AI & Automation",
-    "Agentic AI",
-    "Australia Hack",
-    "Medicare Portal"
-   ],
-   "summary": "An OpenAI agent accessed non-public government health statistics while trying to answer a research question. No patient records are known to have been exposed, but the incident raises harder questions about how AI agents are controlled and how quickly their developers disclose mistakes.",
-   "publishedAt": "2026-09-28T06:14:21.000Z",
-   "id": "daa8faa106725064",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    },
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [
-    "OpenAI"
-   ],
-   "difficulty": "入门",
-   "importance": 52,
-   "plainHint": "钱在往哪里流，行业重心就在哪里"
   },
   {
    "title": "AI is redefining the way product teams work, says Muhammad Danish",
@@ -4670,38 +4478,6 @@
    "difficulty": "进阶",
    "importance": 52,
    "plainHint": "又有人把 AI 的\"脑子\"升级了一代"
-  },
-  {
-   "title": "du Marks iPhone 18 Pro UAE Launch as it Pushes 5G-Advanced Network",
-   "url": "https://www.itp.net/telecommunications/du-marks-iphone-18-pro-uae-launch-as-it-pushes-5g-advanced-network",
-   "source": "ITP.net",
-   "sourceId": "itp-net",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Telecommunications",
-    "Network Infrastructure",
-    "5G Advanced",
-    "5G+",
-    "Apple"
-   ],
-   "summary": "The UAE telecom operator showcased Apple’s new iPhone 18 Pro and Pro Max in Dubai as it continues to expand its next-generation 5G capabilities.",
-   "publishedAt": "2026-09-24T08:52:40.000Z",
-   "id": "c57f273b8d15cbd5",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [
-    "Apple"
-   ],
-   "difficulty": "入门",
-   "importance": 52,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西"
   },
   {
    "title": "AI는 왜 아이처럼 언어를 배우지 못할까",
@@ -4887,6 +4663,212 @@
    "plainHint": "AI 具体被拿去做成了什么能用的东西"
   },
   {
+   "title": "Rela lands strategic investment to scale workforce housing in Saudi Arabia",
+   "url": "http://wamda.com/2026/09/rela-lands-strategic-investment-scale-workforce-housing-saudi-arabia",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Saudi Arabia-based workforce housing startup Rela has secured an undisclosed investment from Yazeed Al Rajhi & Brothers Holding, which has joined the company as an investor and strategic partner. The size of the investment and equity stake were not disclosed. Launched in early 2026 by Salman Al Jabrain, Rela provides licensed workforce accommodation through a technology platfor…",
+   "publishedAt": null,
+   "id": "d1d7fa0f38ee4fad",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 51,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西"
+  },
+  {
+   "title": "FinTra Holding launches global payments consortium UPN",
+   "url": "http://wamda.com/2026/09/fintra-holding-launches-global-payments-consortium-upn",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Press release: Universal Payment Network (UPN), owned by FinTra Holding, has launched the UPN Consortium, an open global platform bringing together payment networks, banks, financial institutions, digital wallets, remittance companies and open finance providers to help shape the network’s strategy, market priorities and cross-border payment infrastructure. The consortium was an…",
+   "publishedAt": null,
+   "id": "c08b5ad660c9fe36",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 51,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西"
+  },
+  {
+   "title": "Saudi fintech TalMal lands pre-Seed investment for local expansion",
+   "url": "http://wamda.com/2026/09/saudi-fintech-talmal-lands-pre-seed-investment-local-expansion",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Saudi fintech startup TalMal has closed an undisclosed Pre-Seed funding round with participation from MM Partners, as it moves from product development and business-model validation towards commercial expansion in Saudi Arabia. Founded in 2023 by Thamer Faisal Al-Qu’ayshish, TalMal is developing a salary-backed flexible purchasing platform connecting employees, employers and me…",
+   "publishedAt": null,
+   "id": "d01c8a61892297c5",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 51,
+   "plainHint": "钱在往哪里流，行业重心就在哪里"
+  },
+  {
+   "title": "KEMET-X to bring global investors and startups to Egypt in December",
+   "url": "http://wamda.com/2026/09/kemet-x-bring-global-investors-startups-egypt-december",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Egypt-based career development platform Career 180 has announced the launch of KEMET-X, a global entrepreneurship and innovation gathering aimed at connecting Egyptian and African startups with international investors, venture capital firms, corporates and technology companies. Scheduled for 14–15 December 2026 at the Great Pyramids of Giza, KEMET-X is expected to bring togethe…",
+   "publishedAt": null,
+   "id": "a36fca39a92810b1",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 51,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西"
+  },
+  {
+   "title": "Paymob raises $35 million pre-Series C co-led by Mubadala, EBRD",
+   "url": "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Egypt-founded payments infrastructure provider Paymob has raised $35 million in a pre-Series C round, co-led by Mubadala Investment Company and the European Bank for Reconstruction and Development (EBRD), with participation from British International Investment (BII), Global Ventures and DPI Ventures. Founded in 2015 by Islam Shawky, Alain El Hajj and Mostafa Menessy, Paymob pr…",
+   "publishedAt": null,
+   "id": "b027a60ac333f158",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 51,
+   "plainHint": "钱在往哪里流，行业重心就在哪里"
+  },
+  {
+   "title": "Bekia secures $765,000 to launch B2B recycling platform",
+   "url": "http://wamda.com/2026/09/bekia-secures-765000-launch-b2b-recycling-platform",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Egyptian recycling technology startup Bekia has raised $765,000 in Seed funding, led by Madica, the Africa-focused investment programme affiliated with Flourish Ventures, with follow-on investment from Catalyst Fund and participation from Dakar-based Jambaar Capital. Founded in 2019 by Alaa Afifi, Bekia digitises waste collection by connecting households with collectors through…",
+   "publishedAt": null,
+   "id": "d24c167ccbf58505",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 51,
+   "plainHint": "钱在往哪里流，行业重心就在哪里"
+  },
+  {
+   "title": "Lendo, Quantic launch $200 million SME financing programme in Saudi Arabia",
+   "url": "http://wamda.com/2026/09/lendo-quantic-launch-200-million-sme-financing-programme-saudi-arabia",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Saudi fintech Lendo has partnered with Austria-based Quantic Financial Solutions on an institutional capital programme of up to SAR750 million ($200 million) to finance small and medium-sized enterprises (SMEs) in Saudi Arabia. Under the agreement, Quantic will invest up to SAR750 million through Lendo, with the capital dedicated to providing working capital financing to Saudi…",
+   "publishedAt": null,
+   "id": "782709401eb3dc9c",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 51,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西"
+  },
+  {
+   "title": "오픈AI, 24시간 자율 에이전트 '닷츠' 공개…소비자용 아닌 B2B 승부수",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215779",
+   "source": "AI타임스",
+   "sourceId": "aitimes-kr",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ko",
+   "categories": [],
+   "summary": "오픈AI가 24시간 백그라운드에서 상시 가동되는 자율형 AI 에이전트 서비스 '닷츠(dots)'를 공개했다. 당초 메타의 개인 맞춤형 에이전트 '뮤즈(Muse)'를 겨냥한 제품으로 예상됐으나, 완전히 성격이 다른 기업용 업무 에이전트에 초점을 맞췄다.오픈AI는 29일(현지시간) 연례 개발자 행사 '데브데이 2026'에서 20여개의 신규 업데이트 항목 가운데 핵심 카드인 닷츠를 선보였다. 기존 단발성 질의응답을 넘어 사용자를 대행해 스스로 결정을 내리고 연속적인 업무 프로세스를 관장하는 '상시 가동 에이전트 시스템'을 본격적으로 제품",
+   "publishedAt": "2026-09-30T07:07:16.000Z",
+   "id": "333f1ac912912723",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 50,
+   "plainHint": "行业又有了新动向"
+  },
+  {
    "title": "A SEA startup tracker worth bookmarking",
    "url": "https://www.techinasia.com/a-sea-startup-tracker-worth-bookmarking",
    "source": "Tech in Asia",
@@ -4904,24 +4886,6 @@
    "summary": "Today’s edition offers a glimpse into SEA startups’ financials and a closer look at Shein’s slowing profits.",
    "publishedAt": "2026-09-30T00:30:42.000Z",
    "id": "d1a37fdb6b2b0dd8",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 50,
-   "plainHint": "行业又有了新动向"
-  },
-  {
-   "title": "오픈AI, 24시간 자율 에이전트 '닷츠' 공개…소비자용 아닌 B2B 승부수",
-   "url": "https://www.aitimes.com/news/articleView.html?idxno=215779",
-   "source": "AI타임스",
-   "sourceId": "aitimes-kr",
-   "sourceTier": 1,
-   "region": "JPKR",
-   "lang": "ko",
-   "categories": [],
-   "summary": "오픈AI가 24시간 백그라운드에서 상시 가동되는 자율형 AI 에이전트 서비스 '닷츠(dots)'를 공개했다. 당초 메타의 개인 맞춤형 에이전트 '뮤즈(Muse)'를 겨냥한 제품으로 예상됐으나, 완전히 성격이 다른 기업용 업무 에이전트에 초점을 맞췄다.오픈AI는 29일(현지시간) 연례 개발자 행사 '데브데이 2026'에서 20여개의 신규 업데이트 항목 가운데 핵심 카드인 닷츠를 선보였다. 기존 단발성 질의응답을 넘어 사용자를 대행해 스스로 결정을 내리고 연속적인 업무 프로세스를 관장하는 '상시 가동 에이전트 시스템'을 본격적으로 제품",
-   "publishedAt": "2026-09-29T23:07:16.000Z",
-   "id": "333f1ac912912723",
    "topics": [],
    "entities": [],
    "difficulty": "进阶",
