@@ -1,29 +1,29 @@
 {
  "schema": "ai-horizon/v1",
- "generatedAt": "2026-09-30T01:49:18.810Z",
+ "generatedAt": "2026-09-30T01:55:16.324Z",
  "date": "2026-09-30",
  "enrichMode": "rule",
  "stats": {
-  "total": 454,
+  "total": 418,
   "byRegion": {
    "CN": 126,
    "SEA": 32,
-   "ME": 70,
+   "ME": 34,
    "JPKR": 16,
    "EU": 64,
    "NA": 57,
    "OTHER": 89
   },
   "sourceTotal": 29,
-  "sourceOk": 27,
+  "sourceOk": 25,
   "freshness": {
    "maxAgeHours": 168,
    "freshHours": 72,
-   "within24h": 260,
-   "withinFresh": 367,
+   "within24h": 233,
+   "withinFresh": 338,
    "monthPrecision": 20,
    "undated": 0,
-   "staleDropped": 60,
+   "staleDropped": 46,
    "staleSources": [
     "Synced Review"
    ]
@@ -33,6 +33,16 @@
     "id": "qbitai",
     "name": "量子位",
     "error": "HTTP 403"
+   },
+   {
+    "id": "arabianbusiness",
+    "name": "Arabian Business",
+    "error": "HTTP 405"
+   },
+   {
+    "id": "itp-net",
+    "name": "ITP.net",
+    "error": "HTTP 405"
    },
    {
     "id": "synced",
@@ -308,37 +318,6 @@
    "plainHint": "AI 具体被拿去做成了什么能用的东西"
   },
   {
-   "title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
-   "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-   "source": "TechCrunch AI",
-   "sourceId": "techcrunch-ai",
-   "sourceTier": 1,
-   "region": "NA",
-   "lang": "en",
-   "categories": [
-    "AI",
-    "In Brief",
-    "IPO",
-    "OpenAI"
-   ],
-   "summary": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
-   "publishedAt": "2026-09-29T19:52:37.000Z",
-   "id": "cddcb5bf7b43ff71",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [
-    "OpenAI"
-   ],
-   "difficulty": "进阶",
-   "importance": 92,
-   "plainHint": "钱在往哪里流，行业重心就在哪里"
-  },
-  {
    "title": "ChatGPT 一夜抄完半个 AI 圈，现场演示频频翻车",
    "url": "https://www.ifanr.com/1682644?utm_source=rss&utm_medium=rss&utm_campaign=",
    "source": "爱范儿",
@@ -441,6 +420,37 @@
    "plainHint": "又有人把 AI 的\"脑子\"升级了一代"
   },
   {
+   "title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
+   "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "In Brief",
+    "IPO",
+    "OpenAI"
+   ],
+   "summary": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
+   "publishedAt": "2026-09-29T19:52:37.000Z",
+   "id": "cddcb5bf7b43ff71",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "difficulty": "进阶",
+   "importance": 88,
+   "plainHint": "钱在往哪里流，行业重心就在哪里"
+  },
+  {
    "title": "OpenAI launches Dots, its Muse competitor",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
    "source": "The Verge AI",
@@ -466,37 +476,6 @@
    "difficulty": "入门",
    "importance": 88,
    "plainHint": "AI 具体被拿去做成了什么能用的东西"
-  },
-  {
-   "title": "OpenAI首席执行官称AI安全成为焦点，相信投资者会对IPO保持耐心",
-   "url": "https://36kr.com/newsflashes/4005180719583112?f=rss",
-   "source": "36氪",
-   "sourceId": "36kr",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "OpenAI首席执行官Sam Altman表示，公司希望在没有作为新上市公司的压力下，平稳度过人工智能安全担忧加剧的时期，并相信投资者会对公司IPO计划保持“耐心”。Altman周二接受媒体采访时表示，公司目前正在“调整”以适应人工智能能力的“新水平”以及随之而来的额外安全要求。“我们只是想站稳脚跟，确保我们了解如何以这种新方式运作，并且能在没有作为一家新上市公司的压力之下做出一些决定，”Altman说。（新浪财经）",
-   "publishedAt": "2026-09-30T01:05:17.000Z",
-   "id": "a9b3c0e2b707e4d4",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    },
-    {
-     "id": "policy",
-     "name": "政策与治理",
-     "color": "#ef4444"
-    }
-   ],
-   "entities": [
-    "OpenAI"
-   ],
-   "difficulty": "进阶",
-   "importance": 87,
-   "plainHint": "钱在往哪里流，行业重心就在哪里"
   },
   {
    "title": "Singapore AI startup Sparkonomy launches Open Creator Graph",
@@ -759,30 +738,6 @@
    "difficulty": "进阶",
    "importance": 85,
    "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了"
-  },
-  {
-   "title": "港股IPO市场热度居高不下，369家公司排队聆讯处理中",
-   "url": "https://36kr.com/newsflashes/4005186622443651?f=rss",
-   "source": "36氪",
-   "sourceId": "36kr",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "今年以来，港股IPO市场热度居高不下，企业赴港上市热情持续高涨。Wind数据显示，截至9月29日收盘，港股年内聆讯且已经完成上市动作的有76家，聆讯通过但暂未上市的有7家、聆讯处理中的有369家、失效的有145家、撤回的有2家。这一轮IPO热潮的核心驱动力来自科技企业的大规模入场与A股公司赴港上市热度的持续攀升，两条主线相互交织。内地AI、硬科技企业及“A+H”上市项目成为香港新股市场的重要增量。德勤中国最新预测显示，香港新股市场的强劲发展势头有望延续至年底，2026年全年有望迎来160只新股上市，融资额不低于4800亿港元，或超越2010年创下的年度新股融资额纪录。其中，硬科技企业将成为市场焦点。（中证报）",
-   "publishedAt": "2026-09-30T01:12:12.000Z",
-   "id": "a2d68a83a85e8fce",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 84,
-   "plainHint": "钱在往哪里流，行业重心就在哪里"
   },
   {
    "title": "OpenAI DevDay 2026: The biggest news and announcements",
@@ -1247,17 +1202,65 @@
    "plainHint": "钱在往哪里流，行业重心就在哪里"
   },
   {
-   "title": "市场监管总局召开网络平台食品安全行政指导会",
-   "url": "https://36kr.com/newsflashes/4005206146158471?f=rss",
+   "title": "广州：房地产开发企业收取的定金不得高于房屋总价5%",
+   "url": "https://36kr.com/newsflashes/4005252741222280?f=rss",
    "source": "36氪",
    "sourceId": "36kr",
    "sourceTier": 2,
    "region": "CN",
    "lang": "zh",
    "categories": [],
-   "summary": "36氪获悉，近日，市场监管总局召开网络平台食品安全行政指导会，进一步压实网络平台食品安全主体责任，细化线上风险管控举措，全力筑牢网络食品安全防线，营造规范有序、安心放心的网络食品消费环境。会议要求，各级市场监管部门要持续强化线上食品安全监管执法，扩大抽检覆盖面、加大靶向治理力度，精准排查化解各类食品安全风险隐患。要持续推进网络食品安全合规提质行动，常态化开展合规指导和警示教育，督促平台及入网经营者规范经营行为、强化安全意识、提升管理水平，以精准监管规范市场秩序，推动行业高质量发展。",
-   "publishedAt": "2026-09-30T01:06:22.000Z",
-   "id": "2d046296bf2525a2",
+   "summary": "36氪获悉，广州市住房和城乡建设局、广州市规划和自然资源局、国家金融监督管理总局广东监管局关于贯彻落实《关于完善商品住房销售制度的通知》的实施意见。房地产开发企业收取现房销售定金的，应当取得住宅楼栋建筑工程施工许可证，并与购房人签订购房定金合同。房地产开发企业收取的定金不得高于房屋总价5%。购房定金合同应约定定金金额、商品住房售价、交付时间及不能按期履约的责任等。广州市房屋交易监管中心具体承担现房定金监管工作。购房人支付的现房定金应全部存入定金监管账户，监管期间定金不得使用。在完成项目竣工验收备案、水电气等配套设施具备交付条件、居住用地内独立设置的居住区配套公共服务设施竣工验收后，解除项目定金监管、注销监管账户。",
+   "publishedAt": "2026-09-30T01:53:46.000Z",
+   "id": "5d8c0d03595a8e1b",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 80,
+   "plainHint": "规则制定者正在给 AI 划边界"
+  },
+  {
+   "title": "广州：规范个人按揭贷款发放",
+   "url": "https://36kr.com/newsflashes/4005252201582724?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "36氪获悉，广州市住房和城乡建设局、广州市规划和自然资源局、国家金融监督管理总局广东监管局关于贯彻落实《关于完善商品住房销售制度的通知》的实施意见。2026年8月28日起取得预售许可证的项目，竣工备案后方可发放个人住房按揭贷款（含公积金贷款），贷款资金应当通过受托支付方式支付至资金监管账户。",
+   "publishedAt": "2026-09-30T01:53:13.000Z",
+   "id": "00e4ddd99b0b66d0",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 80,
+   "plainHint": "规则制定者正在给 AI 划边界"
+  },
+  {
+   "title": "广州：2026年8月28日后，发布国有建设用地使用权出让公告的商品住房项目，实行预售的，单体建筑应完成主体结构封顶",
+   "url": "https://36kr.com/newsflashes/4005248478630022?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "36氪获悉，广州市住房和城乡建设局、广州市规划和自然资源局、国家金融监督管理总局广东监管局关于贯彻落实《关于完善商品住房销售制度的通知》的实施意见。2026年8月28日后，发布国有建设用地使用权出让公告的商品住房项目，实行预售的，单体建筑应完成主体结构封顶。2026年8月28日前（含当日），已取得（含部分取得）建设工程规划许可证但未办理预售许可证的商品住房项目，实行预售的，预售条件、预售资金监管等按我市原有政策规定执行。",
+   "publishedAt": "2026-09-30T01:49:26.000Z",
+   "id": "eef508cc97c179d7",
    "topics": [
     {
      "id": "policy",
@@ -1265,9 +1268,9 @@
      "color": "#ef4444"
     },
     {
-     "id": "industry",
-     "name": "产业与生态",
-     "color": "#8b5cf6"
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
     }
    ],
    "entities": [],
@@ -1884,7 +1887,7 @@
    "plainHint": "规则制定者正在给 AI 划边界"
   },
   {
-   "title": "OpenAI won’t go public until its models are safe",
+   "title": "Sam Altman says OpenAI won’t go public until its models are safe",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
    "source": "The Verge AI",
    "sourceId": "theverge-ai",
@@ -1894,7 +1897,7 @@
    "categories": [],
    "summary": "For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see more of that ahead of us, we have got to be able to make confident safety…",
    "publishedAt": "2026-09-30T00:19:13.000Z",
-   "id": "eb47c2c1a5a69490",
+   "id": "e0ef4fc648874f37",
    "topics": [
     {
      "id": "policy",
@@ -2073,36 +2076,6 @@
    "difficulty": "进阶",
    "importance": 75,
    "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了"
-  },
-  {
-   "title": "With Dazzle, Marissa Mayer bets your camera roll has more info on your life than your inbox",
-   "url": "https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/",
-   "source": "TechCrunch AI",
-   "sourceId": "techcrunch-ai",
-   "sourceTier": 1,
-   "region": "NA",
-   "lang": "en",
-   "categories": [
-    "AI",
-    "Startups",
-    "Venture",
-    "AI assistants",
-    "Marissa Mayer"
-   ],
-   "summary": "Mayer argues that if a photo is worth a thousand words, your camera roll is worth millions. By analyzing all the photos stored on your phone, Dazzle claims to understand your hobbies, interests, food, and style preferences, how you like to spend their time, and with whom.",
-   "publishedAt": "2026-09-29T13:53:01.000Z",
-   "id": "ed994dea8de8a8f7",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 74,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西"
   },
   {
    "title": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
@@ -2344,66 +2317,6 @@
    "difficulty": "进阶",
    "importance": 73,
    "plainHint": "又有人把 AI 的\"脑子\"升级了一代"
-  },
-  {
-   "title": "UAE launches world-first mobile network with speeds of up to 10Gbps",
-   "url": "https://www.arabianbusiness.com/business/technology/uae-launches-world-first-mobile-network-with-speeds-of-up-to-10gbps",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Technology",
-    "News",
-    "e&",
-    "mobile network",
-    "mobile phones"
-   ],
-   "summary": "e& UAE launches a world-first commercial Upper 6GHz mobile network with peak download speeds of up to 10Gbps as the country advances towards 6G",
-   "publishedAt": "2026-09-30T01:36:11.000Z",
-   "id": "2aaa7dc57ccc5525",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 72,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西"
-  },
-  {
-   "title": "Etihad Rail Dubai service launches September 30 with 10 daily trains and Metro connection",
-   "url": "https://www.arabianbusiness.com/business/transport/etihad-rail-dubai-service-launches-september-30-with-10-daily-trains-and-metro-connection",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Transport",
-    "News",
-    "Etihad Rail",
-    "Etihad Rail passenger train",
-    "rail network"
-   ],
-   "summary": "Etihad Rail will launch its Dubai passenger service on September 30 with 10 daily Abu Dhabi-Dubai journeys and a connection to the Dubai Metro network",
-   "publishedAt": "2026-09-29T20:05:17.000Z",
-   "id": "9ebf45ce3bca0d75",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 72,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西"
   },
   {
    "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
@@ -2785,43 +2698,6 @@
    "plainHint": "钱在往哪里流，行业重心就在哪里"
   },
   {
-   "title": "AMD Agrees to Buy Fei-Fei Li’s World Labs for $8.2 Billion in Physical AI Push",
-   "url": "https://www.itp.net/ai-automation/amd-agrees-to-buy-fei-fei-lis-world-labs-for-8-2-billion-in-physical-ai-push",
-   "source": "ITP.net",
-   "sourceId": "itp-net",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "AI & Automation",
-    "AI",
-    "AI research company",
-    "AMD",
-    "Compute"
-   ],
-   "summary": "The all-stock deal would bring World Labs’ spatial AI research team into AMD, with Fei-Fei Li set to become its chief scientist.",
-   "publishedAt": "2026-09-29T08:01:57.000Z",
-   "id": "13cfc14fab9e82bb",
-   "topics": [
-    {
-     "id": "industry",
-     "name": "产业与生态",
-     "color": "#8b5cf6"
-    },
-    {
-     "id": "compute",
-     "name": "算力与基建",
-     "color": "#0ea5e9"
-    }
-   ],
-   "entities": [
-    "AMD"
-   ],
-   "difficulty": "进阶",
-   "importance": 70,
-   "plainHint": "大厂、人才和开源社区在怎么重新排座次"
-  },
-  {
    "title": "Nvidia’s new platform aims to revamp AI agent control",
    "url": "https://www.tahawultech.com/home-slide/nvidias-new-platform-aims-to-revamp-ai-agent-control/",
    "source": "TahawulTech",
@@ -2857,6 +2733,30 @@
    "difficulty": "进阶",
    "importance": 70,
    "plainHint": "AI 具体被拿去做成了什么能用的东西"
+  },
+  {
+   "title": "Trump orders US government to call AI ‘Super Intelligence’",
+   "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+   "source": "The Verge AI",
+   "sourceId": "theverge-ai",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [],
+   "summary": "Image: Carolyn Van Houten / The Washington Post via Getty Images The US executive branch is no longer acknowledging the existence of \"artificial intelligence.\" Going forward, official policy websites, policy documents, and press releases will refer only to \"Super Intelligence,\" thanks to a new executive order signed by President Donald Trump. \"The word super is the best word of…",
+   "publishedAt": "2026-09-29T22:25:45.000Z",
+   "id": "8682dbd75b3a1222",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 69,
+   "plainHint": "规则制定者正在给 AI 划边界"
   },
   {
    "title": "As FlatPay soars, the rest of Nordic fintech searches for its next act",
@@ -3201,6 +3101,24 @@
    "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了"
   },
   {
+   "title": "이 대통령이 꺼낸 ‘태양광 농사’…패널 아래서도 쌀농사 될까",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215774",
+   "source": "AI타임스",
+   "sourceId": "aitimes-kr",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ko",
+   "categories": [],
+   "summary": "이재명 대통령이 농촌의 새로운 소득원으로 이른바 ‘태양광 농사’를 다시 꺼내 들면서 농지에서 농업과 발전을 함께 하는 영농형 태양광에도 관심이 쏠리고 있다.이 대통령은 29일 국무회의에서 묵히는 농지에 태양광 시설을 설치해 생산한 전기를 지역에서 사용하고 남은 전력을 판매하는 방안을 언급했다. 송배전망이 제대로 갖춰질 경우 태양광 발전이 농촌의 소득원이 될 수 있다는 취지다.대통령의 발언은 유휴 농지를 활용한 태양광 발전을 포함한 것으로 영농형 태양광만을 지칭한 것은 아니다. 하지만 기존 농사를 계속하면서 농지 상부에서 전기를 생산",
+   "publishedAt": "2026-09-30T10:51:12.000Z",
+   "id": "8838c1ce9c2e6483",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 66,
+   "plainHint": "行业又有了新动向"
+  },
+  {
    "title": "A SEA startup tracker worth bookmarking",
    "url": "https://www.techinasia.com/a-sea-startup-tracker-worth-bookmarking",
    "source": "Tech in Asia",
@@ -3266,24 +3184,6 @@
    "summary": "We've compiled a list of investors that are pouring money into Asia’s AI startups.",
    "publishedAt": "2026-09-30T00:00:00.000Z",
    "id": "fdb692c92461cb95",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 66,
-   "plainHint": "行业又有了新动向"
-  },
-  {
-   "title": "오픈AI, 24시간 자율 에이전트 '닷츠' 공개…소비자용 아닌 B2B 승부수",
-   "url": "https://www.aitimes.com/news/articleView.html?idxno=215779",
-   "source": "AI타임스",
-   "sourceId": "aitimes-kr",
-   "sourceTier": 1,
-   "region": "JPKR",
-   "lang": "ko",
-   "categories": [],
-   "summary": "오픈AI가 24시간 백그라운드에서 상시 가동되는 자율형 AI 에이전트 서비스 '닷츠(dots)'를 공개했다. 당초 메타의 개인 맞춤형 에이전트 '뮤즈(Muse)'를 겨냥한 제품으로 예상됐으나, 완전히 성격이 다른 기업용 업무 에이전트에 초점을 맞췄다.오픈AI는 29일(현지시간) 연례 개발자 행사 '데브데이 2026'에서 20여개의 신규 업데이트 항목 가운데 핵심 카드인 닷츠를 선보였다. 기존 단발성 질의응답을 넘어 사용자를 대행해 스스로 결정을 내리고 연속적인 업무 프로세스를 관장하는 '상시 가동 에이전트 시스템'을 본격적으로 제품",
-   "publishedAt": "2026-09-29T23:07:16.000Z",
-   "id": "333f1ac912912723",
    "topics": [],
    "entities": [],
    "difficulty": "进阶",
@@ -4031,84 +3931,6 @@
    "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了"
   },
   {
-   "title": "Abu Dhabi rolls out first phase of AI platform for legal decisions",
-   "url": "https://www.arabianbusiness.com/business/technology/abu-dhabi-legal-ai-platform",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Technology",
-    "News",
-    "Abu Dhabi",
-    "Abu Dhabi Judicial Department",
-    "Artificial intelligence"
-   ],
-   "summary": "Judicial AI forms part of Abu Dhabi’s wider government technology programme",
-   "publishedAt": "2026-09-29T05:25:33.000Z",
-   "id": "48411a784c32e6a9",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 60,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西"
-  },
-  {
-   "title": "Qatar mediates US-Iran peace talks as Trump denies sanctions relief offer",
-   "url": "https://www.arabianbusiness.com/politics/qatar-mediates-us-iran-peace-talks-as-trump-denies-sanctions-relief-offer",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Politics",
-    "News",
-    "Donald Trump",
-    "Iran",
-    "Iran crisis 2026"
-   ],
-   "summary": "Qatar is carrying messages between the US and Iran in a renewed push for a peace deal as Donald Trump denies offering Tehran sanctions relief",
-   "publishedAt": "2026-09-29T23:34:55.000Z",
-   "id": "1fa07892d9286547",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 57,
-   "plainHint": "行业又有了新动向"
-  },
-  {
-   "title": "Saudi Arabia announces Red Sea Yacht Show with $480m investment opportunity",
-   "url": "https://www.arabianbusiness.com/business/transport/saudi-arabia-announces-red-sea-yacht-show-with-480m-investment-opportunity",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Transport",
-    "News",
-    "Jeddah Yacht Club",
-    "Saudi Arabia",
-    "superyacht"
-   ],
-   "summary": "Saudi Arabia will host its first Red Sea Yacht Show in October 2027, targeting 50 yachts, 150 exhibitors and 10,000 visitors alongside $480m of investment opportunities",
-   "publishedAt": "2026-09-29T22:14:56.000Z",
-   "id": "0583d17ca2cdb858",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 57,
-   "plainHint": "行业又有了新动向"
-  },
-  {
    "title": "Inside the ‘secondaries arms race’: How employee liquidity is becoming fundamental to private businesses",
    "url": "https://sifted.eu/articles/how-employee-liquidity-is-becoming-fundamental-brnd/",
    "source": "Sifted",
@@ -4299,6 +4121,32 @@
    "plainHint": "又有人把 AI 的\"脑子\"升级了一代"
   },
   {
+   "title": "ASUS to showcase AI-enabled commercial solutions at AI Everything Abu Dhabi",
+   "url": "https://www.tahawultech.com/enterprise/asus-to-showcase-ai-enabled-commercial-solutions-at-ai-everything-abu-dhabi/",
+   "source": "TahawulTech",
+   "sourceId": "tahawultech",
+   "sourceTier": 2,
+   "region": "ME",
+   "lang": "en",
+   "categories": [
+    "Enterprise",
+    "News",
+    "Vendor",
+    "Ai Everything Abu Dhabi",
+    "AI-enabled"
+   ],
+   "summary": "Tolga Özdil, Regional Commercial Director, Middle East, Türkiye and Africa (META) at ASUS. ASUS has announced its participation at AI Everything Abu Dhabi from 6–7 October 2026, at ADNEC Centre. Driven by the idea of “Ubiquitous AI. Incredible Possibilities,” a wide range of AI-powered business solutions supporting organisations with smarter, more efficient, and secure ways of…",
+   "publishedAt": "2026-09-29T08:39:37.000Z",
+   "id": "fe6a07e89b82110d",
+   "topics": [],
+   "entities": [
+    "Meta"
+   ],
+   "difficulty": "进阶",
+   "importance": 54,
+   "plainHint": "行业又有了新动向"
+  },
+  {
    "title": "Meta Enterprise Platform to be led by outgoing MongoDB boss",
    "url": "https://www.siliconrepublic.com/business/meta-enterprise-platform-to-be-led-by-outgoing-mongodb-boss-ai",
    "source": "Silicon Republic",
@@ -4316,6 +4164,32 @@
    "summary": "Mark Zuckerberg said Meta’s new enterprise unit would initially focus on bringing the company’s 'full technology stack' to businesses and developers. Read more: Meta Enterprise Platform to be led by outgoing MongoDB boss",
    "publishedAt": "2026-09-29T08:32:03.000Z",
    "id": "9298d274c39ed5c2",
+   "topics": [],
+   "entities": [
+    "Meta"
+   ],
+   "difficulty": "进阶",
+   "importance": 54,
+   "plainHint": "行业又有了新动向"
+  },
+  {
+   "title": "Meta unveils new AI enterprise unit",
+   "url": "https://www.tahawultech.com/home-slide/meta-unveils-new-ai-enterprise-unit/",
+   "source": "TahawulTech",
+   "sourceId": "tahawultech",
+   "sourceTier": 2,
+   "region": "ME",
+   "lang": "en",
+   "categories": [
+    "Enterprise",
+    "Home-Slide",
+    "News",
+    "Vendor",
+    "AI enterprise unit"
+   ],
+   "summary": "Meta Platforms recently announced the formation of a new business unit focussed on increasing the use of AI by enterprises. Chirantan Desai, MongoDB ’s president and CEO, will run the operation. CEO Mark Zuckerberg said Desai would join the freshly-minted Meta Enterprise Platform as chief enterprise platform officer, pointing to his “track record of building full-stack software…",
+   "publishedAt": "2026-09-29T07:43:36.000Z",
+   "id": "389814ff459b356f",
    "topics": [],
    "entities": [
     "Meta"
@@ -4387,6 +4261,86 @@
    "summary": "人手が足りず、問い合わせ対応や入力作業に追われていませんか。本記事では、 中小企業で成果が出やすいAIエージェントの活用例8選と、月数千円から始められる費用パターン・補助金 を、公的データと実名事例をもとに解説します。 採用しても人が集まらず、少人数で問い合わせ対応や受発注入力を回している中小企業には、作業を実行まで任せられるAIエージェントが現実的な打ち手になっています。 中小企業のAI導入率はまだ20.4%にとどまるため、今動けば同業他社に先行できます。一方で様子見を続けると、先に導入した企業との生産性の差は広がる一方でしょう。 出典： 中小企業のAI等の利活用に係る実態調査（中小企業基盤整備機構） 本記事では、中小企業で成果が出やすい活用例と、既存ツールを使って低予算で始める方法を中心に、補助金の使い方まで解説します。 読み終えるころには、 自…",
    "publishedAt": "2026-09-28T14:27:05.000Z",
    "id": "7090c82987cbfd52",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 49,
+   "plainHint": "行业又有了新动向"
+  },
+  {
+   "title": "Pinnacle increases stake in Saudi hospitality startup Gathern",
+   "url": "http://wamda.com/2026/09/pinnacle-increases-stake-saudi-hospitality-startup-gathern",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Saudi investment firm Pinnacle Capital, through its Pinnacle Growth & Secondary Fund, has made an additional investment in Saudi alternative accommodation platform Gathern, increasing its ownership in the company. The transaction value and Pinnacle's resulting stake were not disclosed. Founded in 2016 by Latifah Altamimi, Gathern operates an alternative accommodation marketplac…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "8fe8fc5df43e3a99",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 49,
+   "plainHint": "行业又有了新动向"
+  },
+  {
+   "title": "MENA’s Open Finance opportunity in the age of AI",
+   "url": "http://wamda.com/2026/09/mena-open-finance-opportunity-age-ai",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "An article by Faisal Toukan, co-founder and CEO of Ziina Every major technology platform tends to follow a similar evolution. It begins with the digitisation of individual products. Over time, those products become connected. Eventually, the competitive advantage shifts from what each product can do to how intelligently the system works as a whole. Smartphones evolved this way.…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "d8a7e437a5937b72",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 49,
+   "plainHint": "行业又有了新动向"
+  },
+  {
+   "title": "EFG Holding secures $40 million EBRD loan to expand MSME financing in Egypt",
+   "url": "http://wamda.com/2026/09/efg-holding-secures-40-million-ebrd-loan-expand-msme-financing-egypt",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Egyptian financial services group EFG Holding has secured a $40 million, four-year senior unsecured loan from the European Bank for Reconstruction and Development (EBRD) to expand financing for micro, small and medium-sized enterprises (MSMEs) in Egypt. The financing marks the first EBRD facility extended directly to EFG Holding at the holding-company level, following previous…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "bc1d5b0998f67a0a",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 49,
+   "plainHint": "行业又有了新动向"
+  },
+  {
+   "title": "The AI metric founders should track: Cost of correction",
+   "url": "http://wamda.com/2026/09/ai-metric-founders-track-cost-correction",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "An article by Sadek El Assaad, an operator and adviser to founder-led and family businesses. A startup I worked with introduced AI into part of its customer operations workflow. At first, it looked like a clear success. Response times fell. The backlog shrank. More cases were handled with less manual effort. By the usual measures, the automation was doing exactly what it was su…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "97e0239128884963",
    "topics": [],
    "entities": [],
    "difficulty": "进阶",
