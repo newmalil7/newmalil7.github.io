@@ -1,33 +1,33 @@
 {
  "schema": "ai-horizon/v1",
- "generatedAt": "2026-09-30T02:25:28.049Z",
+ "generatedAt": "2026-09-30T02:26:41.315Z",
  "date": "2026-09-30",
  "enrichMode": "rule",
  "stats": {
-  "total": 498,
+  "total": 462,
   "byRegion": {
    "CN": 126,
    "SEA": 32,
-   "ME": 70,
+   "ME": 34,
    "JPKR": 16,
    "EU": 64,
    "NA": 101,
    "OTHER": 89
   },
   "sourceTotal": 30,
-  "sourceOk": 29,
+  "sourceOk": 27,
   "freshness": {
    "maxAgeHours": 168,
    "freshHours": 72,
-   "within24h": 292,
-   "withinFresh": 402,
+   "within24h": 264,
+   "withinFresh": 373,
    "monthPrecision": 20,
    "undated": 0,
-   "staleDropped": 31,
+   "staleDropped": 17,
    "staleSources": []
   },
-  "newCount": 149,
-  "repeatCount": 11,
+  "newCount": 138,
+  "repeatCount": 22,
   "seenWindowDays": 7,
   "seenDays": [
    "2026-09-28"
@@ -37,6 +37,16 @@
     "id": "qbitai",
     "name": "量子位",
     "error": "HTTP 403"
+   },
+   {
+    "id": "arabianbusiness",
+    "name": "Arabian Business",
+    "error": "HTTP 405"
+   },
+   {
+    "id": "itp-net",
+    "name": "ITP.net",
+    "error": "HTTP 405"
    }
   ],
   "published": 160,
@@ -481,38 +491,6 @@
    "plainHint": "AI 具体被拿去做成了什么能用的东西",
    "firstSeen": "2026-09-30",
    "isNew": true
-  },
-  {
-   "title": "OpenAI seeks $30b in funding at $1.4t valuation: report",
-   "url": "https://www.techinasia.com/news/openai-seeks-30b-funding-14t-valuation-report",
-   "source": "Tech in Asia",
-   "sourceId": "techinasia",
-   "sourceTier": 1,
-   "region": "SEA",
-   "lang": "en",
-   "categories": [
-    "Artificial Intelligence",
-    "News",
-    "ai",
-    "openai",
-    "sam altman"
-   ],
-   "summary": "The FTC opened an investigation into ChatGPT’s data security and false outputs in 2023.",
-   "publishedAt": "2026-09-30T02:02:21.000Z",
-   "id": "f3219e35842e7875",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [
-    "OpenAI"
-   ],
-   "difficulty": "入门",
-   "importance": 91,
-   "plainHint": "钱在往哪里流，行业重心就在哪里"
   },
   {
    "title": "ChatGPT 一夜抄完半个 AI 圈，现场演示频频翻车",
@@ -1413,6 +1391,32 @@
    "isNew": true
   },
   {
+   "title": "最前线丨打造“太空4S店”，未来宇航雄安智造基地启用，「锋行一号」首飞出征",
+   "url": "https://36kr.com/p/4005279658708868?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "9月29日，未来宇航雄安智能制造基地在雄安新区科创中心中试基地正式启用。仪式现场，未来宇航首款空间飞行器锋行一号（FX-1）从总装车间驶出，进入首飞前工程节点，后续将按计划开展在轨技术验证。 智能制造基地揭牌 未来宇航创始人兼CEO牛旼在现场表示， 空间飞行器产业化不仅需要完成产品研发，更要建立与产品规模化交付相匹配的制造和测试能力。 未来宇航将以雄安基地为重要支点，将工程能力落实到工程制造环节，在实际任务中沉淀经验，进一步提升产品成熟度，推动研发、制造与任务执行之间形成更为完整的工程链条。 近年来，雄安持续布局空天信息、卫星互联网等未来产业，截至目前已集聚69家空天信息企业、9个创新平台，依托应用场景与配套保障，推动产业链向研发、制造、测试、应用环节延伸。 据悉，本次落地雄安的智能制造基地，针对空间飞行器的工程制造需求搭建起覆盖总装集成、精密测量…",
+   "publishedAt": "2026-09-30T02:26:30.000Z",
+   "id": "c08a48a57c5f7ba2",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 81,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-09-30",
+   "isNew": true
+  },
+  {
    "title": "Green GSM expands electric taxi service in Philippines",
    "url": "https://www.techinasia.com/news/green-gsm-expands-electric-taxi-service-philippines",
    "source": "Tech in Asia",
@@ -1783,37 +1787,6 @@
    "isNew": true
   },
   {
-   "title": "一文速览OpenAI DevDay，欢迎来到Agent时代",
-   "url": "https://www.tmtpost.com/8156660.html",
-   "source": "钛媒体",
-   "sourceId": "tmtpost",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "文 | 字母AI 凌晨一点，准时蹲在OpenAI DevDay的直播间。 直播大概一个小时，更新恨不得有20多个，一场直播下来，震惊到椅子爆炸，瘫坐在地，久久不能平息（doge）。 OpenAI先端出24小时在线的Dot，又给人和Agent盖了一间共同工作的Space，GPT-6.1 Sol登场，Ultrafast模式、Pro 500接踵而至。 这篇文章，我将用最直白、最简单、最不绕弯子的方式，快速带你们看懂这次DevDay到底发了什么，有哪些真的能改变生活、哪些只是补课。 以及，狠狠地给OpenAI抓点漏洞，看看他们这次回避了哪些问题。 DevDay新品/更新速览 一、Dot 放在最前面的当然是这次最重要的新产品。 这是一个你不用一直盯着、也不用每次重新交代背景的常驻Agent。 你可以把它简单理解成Muse和Cue的中间形态。 它首先像Muse…",
-   "publishedAt": "2026-09-30T01:44:46.000Z",
-   "id": "4f57e1f8b4dad2a3",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    },
-    {
-     "id": "model",
-     "name": "模型与能力",
-     "color": "#6d5efc"
-    }
-   ],
-   "entities": [
-    "OpenAI"
-   ],
-   "difficulty": "进阶",
-   "importance": 79,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西"
-  },
-  {
    "title": "当“AI饲料”，我都被AI嫌弃了？",
    "url": "https://www.tmtpost.com/8155815.html",
    "source": "钛媒体",
@@ -2150,37 +2123,6 @@
    "difficulty": "进阶",
    "importance": 78,
    "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-09-30",
-   "isNew": true
-  },
-  {
-   "title": "大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
-   "url": "https://www.infoq.cn/article/O5pKYU5hfR2DgrXP6zRE?utm_source=rss&utm_medium=article",
-   "source": "InfoQ 中国",
-   "sourceId": "infoq-cn",
-   "sourceTier": 1,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "<div align='right'><a href='https://www.infoq.cn/article/O5pKYU5hfR2DgrXP6zRE?utm_source=rss&utm_medium=article'>点击查看原文></a></div>",
-   "publishedAt": "2026-09-29T15:49:30.000Z",
-   "id": "3d915b5f0277b2bb",
-   "topics": [
-    {
-     "id": "model",
-     "name": "模型与能力",
-     "color": "#6d5efc"
-    },
-    {
-     "id": "compute",
-     "name": "算力与基建",
-     "color": "#0ea5e9"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 78,
-   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
    "firstSeen": "2026-09-30",
    "isNew": true
   },
@@ -2693,38 +2635,6 @@
    "isNew": true
   },
   {
-   "title": "UAE launches world-first mobile network with speeds of up to 10Gbps",
-   "url": "https://www.arabianbusiness.com/business/technology/uae-launches-world-first-mobile-network-with-speeds-of-up-to-10gbps",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Technology",
-    "News",
-    "e&",
-    "mobile network",
-    "mobile phones"
-   ],
-   "summary": "e& UAE launches a world-first commercial Upper 6GHz mobile network with peak download speeds of up to 10Gbps as the country advances towards 6G",
-   "publishedAt": "2026-09-30T01:36:11.000Z",
-   "id": "2aaa7dc57ccc5525",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 72,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西",
-   "firstSeen": "2026-09-30",
-   "isNew": true
-  },
-  {
    "title": "OpenAI says it won’t release new GPT-6.1 Astra over safety concerns",
    "url": "https://www.siliconrepublic.com/business/openai-says-it-wont-release-new-gpt-6-1-astra-over-safety-concerns",
    "source": "Silicon Republic",
@@ -3098,45 +3008,6 @@
    "isNew": true
   },
   {
-   "title": "AMD Agrees to Buy Fei-Fei Li’s World Labs for $8.2 Billion in Physical AI Push",
-   "url": "https://www.itp.net/ai-automation/amd-agrees-to-buy-fei-fei-lis-world-labs-for-8-2-billion-in-physical-ai-push",
-   "source": "ITP.net",
-   "sourceId": "itp-net",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "AI & Automation",
-    "AI",
-    "AI research company",
-    "AMD",
-    "Compute"
-   ],
-   "summary": "The all-stock deal would bring World Labs’ spatial AI research team into AMD, with Fei-Fei Li set to become its chief scientist.",
-   "publishedAt": "2026-09-29T08:01:57.000Z",
-   "id": "13cfc14fab9e82bb",
-   "topics": [
-    {
-     "id": "industry",
-     "name": "产业与生态",
-     "color": "#8b5cf6"
-    },
-    {
-     "id": "compute",
-     "name": "算力与基建",
-     "color": "#0ea5e9"
-    }
-   ],
-   "entities": [
-    "AMD"
-   ],
-   "difficulty": "进阶",
-   "importance": 70,
-   "plainHint": "大厂、人才和开源社区在怎么重新排座次",
-   "firstSeen": "2026-09-30",
-   "isNew": true
-  },
-  {
    "title": "Nvidia’s new platform aims to revamp AI agent control",
    "url": "https://www.tahawultech.com/home-slide/nvidias-new-platform-aims-to-revamp-ai-agent-control/",
    "source": "TahawulTech",
@@ -3382,38 +3253,6 @@
    "difficulty": "进阶",
    "importance": 69,
    "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-09-30",
-   "isNew": true
-  },
-  {
-   "title": "Etihad Rail Dubai service launches September 30 with 10 daily trains and Metro connection",
-   "url": "https://www.arabianbusiness.com/business/transport/etihad-rail-dubai-service-launches-september-30-with-10-daily-trains-and-metro-connection",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Transport",
-    "News",
-    "Etihad Rail",
-    "Etihad Rail passenger train",
-    "rail network"
-   ],
-   "summary": "Etihad Rail will launch its Dubai passenger service on September 30 with 10 daily Abu Dhabi-Dubai journeys and a connection to the Dubai Metro network",
-   "publishedAt": "2026-09-29T20:05:17.000Z",
-   "id": "9ebf45ce3bca0d75",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 68,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西",
    "firstSeen": "2026-09-30",
    "isNew": true
   },
@@ -4001,36 +3840,6 @@
    "isNew": true
   },
   {
-   "title": "What Irish tech companies need to know about the EU’s CRA",
-   "url": "https://www.siliconrepublic.com/enterprise/what-irish-tech-companies-need-to-know-about-the-eus-cra",
-   "source": "Silicon Republic",
-   "sourceId": "siliconrepublic",
-   "sourceTier": 2,
-   "region": "EU",
-   "lang": "en",
-   "categories": [
-    "Enterprise",
-    "cybersecurity",
-    "EU",
-    "Guest Column",
-    "Ireland"
-   ],
-   "summary": "ServiceNow’s Anna Mazzone discusses obligations of the Cyber Resilience Act and why more Irish software firms may be in scope than most realise. Read more: What Irish tech companies need to know about the EU’s CRA",
-   "publishedAt": "2026-09-29T14:00:22.000Z",
-   "id": "eef544280bc645a9",
-   "topics": [
-    {
-     "id": "policy",
-     "name": "政策与治理",
-     "color": "#ef4444"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 60,
-   "plainHint": "规则制定者正在给 AI 划边界"
-  },
-  {
    "title": "CoinSwitch turns profitable in FY26 on adjusted EBITDA as revenue jumps 150%",
    "url": "https://yourstory.com/2026/09/coinswitch-turns-profitable-fy26-revenue-jumps-150-percent",
    "source": "YourStory",
@@ -4171,38 +3980,6 @@
    "isNew": true
   },
   {
-   "title": "Abu Dhabi rolls out first phase of AI platform for legal decisions",
-   "url": "https://www.arabianbusiness.com/business/technology/abu-dhabi-legal-ai-platform",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Technology",
-    "News",
-    "Abu Dhabi",
-    "Abu Dhabi Judicial Department",
-    "Artificial intelligence"
-   ],
-   "summary": "Judicial AI forms part of Abu Dhabi’s wider government technology programme",
-   "publishedAt": "2026-09-29T05:25:33.000Z",
-   "id": "48411a784c32e6a9",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 60,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西",
-   "firstSeen": "2026-09-30",
-   "isNew": true
-  },
-  {
    "title": "Tanami raises new funding to expand into Qatar",
    "url": "http://wamda.com/2026/09/tanami-raises-new-funding-expand-qatar",
    "source": "Wamda",
@@ -4236,135 +4013,6 @@
    "plainHint": "钱在往哪里流，行业重心就在哪里",
    "firstSeen": "2026-09-28",
    "isNew": false
-  },
-  {
-   "title": "Qatar mediates US-Iran peace talks as Trump denies sanctions relief offer",
-   "url": "https://www.arabianbusiness.com/politics/qatar-mediates-us-iran-peace-talks-as-trump-denies-sanctions-relief-offer",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Politics",
-    "News",
-    "Donald Trump",
-    "Iran",
-    "Iran crisis 2026"
-   ],
-   "summary": "Qatar is carrying messages between the US and Iran in a renewed push for a peace deal as Donald Trump denies offering Tehran sanctions relief",
-   "publishedAt": "2026-09-29T23:34:55.000Z",
-   "id": "1fa07892d9286547",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 57,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-09-30",
-   "isNew": true
-  },
-  {
-   "title": "Saudi Arabia announces Red Sea Yacht Show with $480m investment opportunity",
-   "url": "https://www.arabianbusiness.com/business/transport/saudi-arabia-announces-red-sea-yacht-show-with-480m-investment-opportunity",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Transport",
-    "News",
-    "Jeddah Yacht Club",
-    "Saudi Arabia",
-    "superyacht"
-   ],
-   "summary": "Saudi Arabia will host its first Red Sea Yacht Show in October 2027, targeting 50 yachts, 150 exhibitors and 10,000 visitors alongside $480m of investment opportunities",
-   "publishedAt": "2026-09-29T22:14:56.000Z",
-   "id": "0583d17ca2cdb858",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 57,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-09-30",
-   "isNew": true
-  },
-  {
-   "title": "Saudi Arabia ranks airlines for passenger complaints: Saudia No.1, Riyadh Air No.2",
-   "url": "https://www.arabianbusiness.com/business/transport/saudi-arabia-ranks-airlines-for-passenger-complaints-saudia-no-1-riyadh-air-no-2",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Transport",
-    "News",
-    "Aviation",
-    "flyadeal",
-    "Flynas"
-   ],
-   "summary": "Saudi Arabia reveals August airline complaint rankings, with Saudia recording the lowest rate followed by Riyadh Air, flynas and flyadeal",
-   "publishedAt": "2026-09-29T21:53:14.000Z",
-   "id": "d8455f8ba3cb5113",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 57,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-09-30",
-   "isNew": true
-  },
-  {
-   "title": "Dubai’s $544m Loop tunnel project advances as boring machine assembly begins",
-   "url": "https://www.arabianbusiness.com/business/transport/dubais-544m-loop-tunnel-project-advances-as-boring-machine-assembly-begins",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Transport",
-    "News",
-    "Boring Company",
-    "Dubai Loop",
-    "The Boring Company"
-   ],
-   "summary": "Dubai Loop project advances as The Boring Company begins assembling its tunnel boring machine and casting tunnel segments for the underground transport system",
-   "publishedAt": "2026-09-29T21:19:51.000Z",
-   "id": "707636845fc34452",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 57,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-09-30",
-   "isNew": true
-  },
-  {
-   "title": "Dubai’s DEWA moves 76% of services to agentic AI as processing time falls 95%",
-   "url": "https://www.arabianbusiness.com/business/energy/dubais-dewa-moves-services-to-agentic-ai",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Energy",
-    "News",
-    "DEWA",
-    "Dubai"
-   ],
-   "summary": "Dubai’s DEWA has transformed 16 of its 21 services using agentic AI, cutting some processing times by 95% and moving technical case assignment to autonomous execution",
-   "publishedAt": "2026-09-29T20:56:39.000Z",
-   "id": "76cbe4104442b229",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 57,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-09-30",
-   "isNew": true
   },
   {
    "title": "Inside the ‘secondaries arms race’: How employee liquidity is becoming fundamental to private businesses",
@@ -4575,107 +4223,67 @@
    "isNew": true
   },
   {
-   "title": "2026 Cadillac Escalade IQ Review: Range, Power and Road Presence",
-   "url": "https://www.arabianbusiness.com/life/2026-cadillac-escalade-iq-review",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
+   "title": "AREP raises pre-Seed funding for Saudi expansion, eyes regional growth",
+   "url": "http://wamda.com/2026/09/arep-raises-pre-seed-funding-saudi-expansion-eyes-regional-growth",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
    "region": "ME",
    "lang": "en",
-   "categories": [
-    "Life",
-    "Abu Dhabi",
-    "Cadillac",
-    "Dubai",
-    "UAE"
+   "categories": [],
+   "summary": "Saudi education technology and research enablement startup AREP (Academic Research and Educational Platform) has closed an undisclosed pre-Seed funding round led by Golden Assets Investment, its first disclosed funding round. Founded in 2023 by Hussain Alhamami, Ibrahim Asiri, Rayan Ahmed and Alhanouf Alhmammi, AREP addresses skills and procurement gaps in research and educatio…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "157b031cc81d04ea",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
    ],
-   "summary": "Escalade IQ feels effortless during normal driving and deeply powerful when you ask for more",
-   "publishedAt": "2026-09-29T19:57:43.000Z",
-   "id": "17618ec5bbdc1198",
-   "topics": [],
    "entities": [],
-   "difficulty": "进阶",
-   "importance": 53,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-09-30",
-   "isNew": true
+   "difficulty": "入门",
+   "importance": 52,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-09-28",
+   "isNew": false
   },
   {
-   "title": "Abu Dhabi property sales top $1.36bn as expat and overseas buyers take 69%",
-   "url": "https://www.arabianbusiness.com/real-estate/abu-dhabi-property-sales-top-1-36bn-as-expat-and-overseas-buyers-take-69",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
+   "title": "NVIDIA, RiseUp host Cairo reception for Egypt’s AI ecosystem",
+   "url": "http://wamda.com/2026/09/nvidia-riseup-host-cairo-reception-egypt-ai-ecosystem",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
    "region": "ME",
    "lang": "en",
-   "categories": [
-    "Real Estate",
-    "News",
-    "Abu Dhabi real estate",
-    "Aldar"
+   "categories": [],
+   "summary": "Egyptian entrepreneurship platform RiseUp and NVIDIA are bringing together startup founders, developers, industry executives, academics and other technology ecosystem stakeholders for an AI Ecosystem Reception in Cairo, as the two sides expand their collaboration around Egypt's AI ecosystem. The reception included NVIDIA senior executives Paolo Guglielmini, Vice President for E…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "74f3771fa6653373",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
    ],
-   "summary": "Aldar records more than AED5bn ($1.36bn) of Abu Dhabi sales at Talay and Yas Riva Reserve, with expatriate and overseas buyers accounting for 69%",
-   "publishedAt": "2026-09-29T19:39:39.000Z",
-   "id": "8e3ccec418ad38bb",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 53,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-09-30",
-   "isNew": true
-  },
-  {
-   "title": "UAE’s most expensive property deals of 2026 revealed: $54m villa, $46m Palm Jumeirah home",
-   "url": "https://www.arabianbusiness.com/real-estate/uaes-most-expensive-property-deals-2026",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Real Estate",
-    "News",
-    "Abu Dhabi real estate",
-    "Dubai real estate",
-    "Property Finder"
+   "entities": [
+    "NVIDIA"
    ],
-   "summary": "UAE’s biggest property deals of 2026 revealed, including an AED200m Abu Dhabi villa, AED170m Palm Jumeirah home and AED147m Dubai land sale",
-   "publishedAt": "2026-09-29T19:21:20.000Z",
-   "id": "82535b0889b53131",
-   "topics": [],
-   "entities": [],
    "difficulty": "进阶",
-   "importance": 53,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-09-30",
-   "isNew": true
-  },
-  {
-   "title": "Dubai introduces new AI driving tests with no human intervention in results",
-   "url": "https://www.arabianbusiness.com/business/transport/dubai-ai-driving-tests",
-   "source": "Arabian Business",
-   "sourceId": "arabianbusiness",
-   "sourceTier": 2,
-   "region": "ME",
-   "lang": "en",
-   "categories": [
-    "Transport",
-    "News",
-    "AI",
-    "Artificial intelligence",
-    "Dubai RTA"
-   ],
-   "summary": "Dubai RTA introduces next-generation AI driving tests using facial recognition, computer vision, 3D mapping and automatic emergency braking",
-   "publishedAt": "2026-09-29T18:57:25.000Z",
-   "id": "d0bc86cfceeb691c",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 53,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-09-30",
-   "isNew": true
+   "importance": 51,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-09-28",
+   "isNew": false
   },
   {
    "title": "이 대통령이 꺼낸 ‘태양광 농사’…패널 아래서도 쌀농사 될까",
@@ -4687,7 +4295,7 @@
    "lang": "ko",
    "categories": [],
    "summary": "이재명 대통령이 농촌의 새로운 소득원으로 이른바 ‘태양광 농사’를 다시 꺼내 들면서 농지에서 농업과 발전을 함께 하는 영농형 태양광에도 관심이 쏠리고 있다.이 대통령은 29일 국무회의에서 묵히는 농지에 태양광 시설을 설치해 생산한 전기를 지역에서 사용하고 남은 전력을 판매하는 방안을 언급했다. 송배전망이 제대로 갖춰질 경우 태양광 발전이 농촌의 소득원이 될 수 있다는 취지다.대통령의 발언은 유휴 농지를 활용한 태양광 발전을 포함한 것으로 영농형 태양광만을 지칭한 것은 아니다. 하지만 기존 농사를 계속하면서 농지 상부에서 전기를 생산",
-   "publishedAt": "2026-09-30T02:51:12.000Z",
+   "publishedAt": "2026-09-30T10:51:12.000Z",
    "id": "8838c1ce9c2e6483",
    "topics": [],
    "entities": [],
@@ -4773,6 +4381,28 @@
    "isNew": true
   },
   {
+   "title": "Pinnacle increases stake in Saudi hospitality startup Gathern",
+   "url": "http://wamda.com/2026/09/pinnacle-increases-stake-saudi-hospitality-startup-gathern",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Saudi investment firm Pinnacle Capital, through its Pinnacle Growth & Secondary Fund, has made an additional investment in Saudi alternative accommodation platform Gathern, increasing its ownership in the company. The transaction value and Pinnacle's resulting stake were not disclosed. Founded in 2016 by Latifah Altamimi, Gathern operates an alternative accommodation marketplac…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "8fe8fc5df43e3a99",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 49,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-09-30",
+   "isNew": true
+  },
+  {
    "title": "Engineers and project managers among hardest to recruit, finds Solar Ireland",
    "url": "https://www.siliconrepublic.com/careers/engineers-project-managers-recruit-solar-ireland-reports-survey-skills",
    "source": "Silicon Republic",
@@ -4790,6 +4420,32 @@
    "summary": "A new report found that the country’s renewable energy sector is facing a growing workforce challenge. Read more: Engineers and project managers among hardest to recruit, finds Solar Ireland",
    "publishedAt": "2026-09-29T11:04:12.000Z",
    "id": "ba668c70ae4c3f60",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 48,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-09-30",
+   "isNew": true
+  },
+  {
+   "title": "Kaspersky highlights children’s most popular online platforms in the Middle East and related digital risks",
+   "url": "https://www.tahawultech.com/insight/kaspersky-highlights-childrens-most-popular-online-platforms-in-the-middle-east-and-related-digital-risks/",
+   "source": "TahawulTech",
+   "sourceId": "tahawultech",
+   "sourceTier": 2,
+   "region": "ME",
+   "lang": "en",
+   "categories": [
+    "Insight",
+    "News",
+    "Security",
+    "children",
+    "Digital Risks"
+   ],
+   "summary": "Kaspersky ’s experts have examined the digital interests and online activity of children across the Middle East, identifying the most visited web resources and popular mobile applications during the first eight months of 2026. The analysis also highlights cybersecurity threats young users may encounter on these platforms, including multiplayer online games, as well as risks dri…",
+   "publishedAt": "2026-09-29T10:09:30.000Z",
+   "id": "c39da2d74e9c7ff5",
    "topics": [],
    "entities": [],
    "difficulty": "进阶",
@@ -4825,6 +4481,217 @@
    "isNew": true
   },
   {
+   "title": "FinTra Holding launches global payments consortium UPN",
+   "url": "http://wamda.com/2026/09/fintra-holding-launches-global-payments-consortium-upn",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Press release: Universal Payment Network (UPN), owned by FinTra Holding, has launched the UPN Consortium, an open global platform bringing together payment networks, banks, financial institutions, digital wallets, remittance companies and open finance providers to help shape the network’s strategy, market priorities and cross-border payment infrastructure. The consortium was an…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "c08b5ad660c9fe36",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-09-28",
+   "isNew": false
+  },
+  {
+   "title": "Saudi fintech TalMal lands pre-Seed investment for local expansion",
+   "url": "http://wamda.com/2026/09/saudi-fintech-talmal-lands-pre-seed-investment-local-expansion",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Saudi fintech startup TalMal has closed an undisclosed Pre-Seed funding round with participation from MM Partners, as it moves from product development and business-model validation towards commercial expansion in Saudi Arabia. Founded in 2023 by Thamer Faisal Al-Qu’ayshish, TalMal is developing a salary-backed flexible purchasing platform connecting employees, employers and me…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "d01c8a61892297c5",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-09-28",
+   "isNew": false
+  },
+  {
+   "title": "KEMET-X to bring global investors and startups to Egypt in December",
+   "url": "http://wamda.com/2026/09/kemet-x-bring-global-investors-startups-egypt-december",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Egypt-based career development platform Career 180 has announced the launch of KEMET-X, a global entrepreneurship and innovation gathering aimed at connecting Egyptian and African startups with international investors, venture capital firms, corporates and technology companies. Scheduled for 14–15 December 2026 at the Great Pyramids of Giza, KEMET-X is expected to bring togethe…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "a36fca39a92810b1",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-09-28",
+   "isNew": false
+  },
+  {
+   "title": "Paymob raises $35 million pre-Series C co-led by Mubadala, EBRD",
+   "url": "http://wamda.com/2026/09/paymob-raises-35-million-pre-series-c-led-mubadala-ebrd",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Egypt-founded payments infrastructure provider Paymob has raised $35 million in a pre-Series C round, co-led by Mubadala Investment Company and the European Bank for Reconstruction and Development (EBRD), with participation from British International Investment (BII), Global Ventures and DPI Ventures. Founded in 2015 by Islam Shawky, Alain El Hajj and Mostafa Menessy, Paymob pr…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "b027a60ac333f158",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-09-28",
+   "isNew": false
+  },
+  {
+   "title": "Bekia secures $765,000 to launch B2B recycling platform",
+   "url": "http://wamda.com/2026/09/bekia-secures-765000-launch-b2b-recycling-platform",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Egyptian recycling technology startup Bekia has raised $765,000 in Seed funding, led by Madica, the Africa-focused investment programme affiliated with Flourish Ventures, with follow-on investment from Catalyst Fund and participation from Dakar-based Jambaar Capital. Founded in 2019 by Alaa Afifi, Bekia digitises waste collection by connecting households with collectors through…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "d24c167ccbf58505",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-09-28",
+   "isNew": false
+  },
+  {
+   "title": "Lendo, Quantic launch $200 million SME financing programme in Saudi Arabia",
+   "url": "http://wamda.com/2026/09/lendo-quantic-launch-200-million-sme-financing-programme-saudi-arabia",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Saudi fintech Lendo has partnered with Austria-based Quantic Financial Solutions on an institutional capital programme of up to SAR750 million ($200 million) to finance small and medium-sized enterprises (SMEs) in Saudi Arabia. Under the agreement, Quantic will invest up to SAR750 million through Lendo, with the capital dedicated to providing working capital financing to Saudi…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "782709401eb3dc9c",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-09-28",
+   "isNew": false
+  },
+  {
+   "title": "Huspy enters Italy with Integra Finance acquisition and $86 million investment plan",
+   "url": "http://wamda.com/2026/09/huspy-enters-italy-integra-finance-acquisition-86-million-investment-plan",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "UAE-founded proptech Huspy has acquired Italian credit intermediary Integra Finance, marking its entry into Italy, where it plans to invest $86 million (AED315 million) as part of its strategy to build its mortgage finance and real estate business in the country. The acquisition price was not disclosed. Founded in Dubai in 2020 by Jad Antoun and Ziad Nassar, Huspy provides AI-p…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "86f18232d73da58b",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 45,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-09-28",
+   "isNew": false
+  },
+  {
    "title": "AI는 왜 아이처럼 언어를 배우지 못할까",
    "url": "https://www.technologyreview.kr/ai%eb%8a%94-%ec%99%9c-%ec%95%84%ec%9d%b4%ec%b2%98%eb%9f%bc-%ec%96%b8%ec%96%b4%eb%a5%bc-%eb%b0%b0%ec%9a%b0%ec%a7%80-%eb%aa%bb%ed%95%a0%ea%b9%8c/",
    "source": "MIT Technology Review Korea",
@@ -4853,6 +4720,50 @@
    "difficulty": "进阶",
    "importance": 39,
    "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-09-28",
+   "isNew": false
+  },
+  {
+   "title": "MENA’s Open Finance opportunity in the age of AI",
+   "url": "http://wamda.com/2026/09/mena-open-finance-opportunity-age-ai",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "An article by Faisal Toukan, co-founder and CEO of Ziina Every major technology platform tends to follow a similar evolution. It begins with the digitisation of individual products. Over time, those products become connected. Eventually, the competitive advantage shifts from what each product can do to how intelligently the system works as a whole. Smartphones evolved this way.…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "d8a7e437a5937b72",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 33,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-09-28",
+   "isNew": false
+  },
+  {
+   "title": "EFG Holding secures $40 million EBRD loan to expand MSME financing in Egypt",
+   "url": "http://wamda.com/2026/09/efg-holding-secures-40-million-ebrd-loan-expand-msme-financing-egypt",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Egyptian financial services group EFG Holding has secured a $40 million, four-year senior unsecured loan from the European Bank for Reconstruction and Development (EBRD) to expand financing for micro, small and medium-sized enterprises (MSMEs) in Egypt. The financing marks the first EBRD facility extended directly to EFG Holding at the holding-company level, following previous…",
+   "publishedAt": "2026-09-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "bc1d5b0998f67a0a",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 33,
+   "plainHint": "行业又有了新动向",
    "firstSeen": "2026-09-28",
    "isNew": false
   },
