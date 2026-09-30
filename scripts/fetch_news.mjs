@@ -52,6 +52,9 @@ const CONCURRENCY = Number(getArg('--concurrency') || 5);
 const MAX_AGE_HOURS = Number(getArg('--max-age') || 168);
 const FRESH_HOURS = Number(getArg('--fresh') || 72);
 const STALE_HOURS = Number(getArg('--stale') || 72);
+/** 跨天去重的回看窗口（天）与降权幅度 */
+const SEEN_WINDOW_DAYS = Number(getArg('--seen-window') || 7);
+const SEEN_PENALTY = Number(getArg('--seen-penalty') || 16);
 
 // 轮换 UA：部分站点对固定 UA 会临时限流
 const UA_POOL = [
@@ -232,6 +235,66 @@ function ageHours(item, now = REF_NOW) {
   return (now - t) / 36e5;
 }
 
+/* ------------------------------ 跨天去重索引 ------------------------------ */
+
+/** URL 归一化：去掉查询串、末尾斜杠，统一小写，用于跨天比对 */
+function urlKey(u) {
+  return String(u || '')
+    .replace(/[?#].*$/, '')
+    .replace(/\/+$/, '')
+    .toLowerCase();
+}
+
+/**
+ * 读最近 N 天归档，建立「已经出现过」的索引。
+ *
+ * 为什么需要它：时效窗口是 7 天，同一篇文章会在这个窗口里连续多天被抓到，
+ * 而重要度的日间变化很小 —— 结果就是「今天的要闻」和昨天几乎一样，
+ * 读者感觉"刷新了也没换内容"。这里把见过的条目识别出来：
+ *   - 打上 firstSeen（首次出现的日期）与 isNew 标记
+ *   - 在排序上降权，让真正新增的内容浮上来
+ *
+ * 注意：只读「early days」（严格早于目标日期），这样同一天重跑（CI 兜底补刷）
+ * 不会把当天自己的内容误判成旧闻。
+ */
+function loadSeenIndex(date, days = 7) {
+  const seenUrl = new Map(); // urlKey -> 首次出现日期
+  const seenId = new Map(); // id     -> 首次出现日期
+  const dir = path.join(DATA, 'archive');
+  const used = [];
+  if (!fs.existsSync(dir)) return { seenUrl, seenId, used };
+  const files = fs
+    .readdirSync(dir)
+    .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .map((f) => f.replace('.json', ''))
+    .filter((d) => d < date)
+    .sort()
+    .reverse()
+    .slice(0, days);
+  for (const d of files) {
+    try {
+      const j = JSON.parse(fs.readFileSync(path.join(dir, `${d}.json`), 'utf8'));
+      for (const it of j.items || []) {
+        const k = urlKey(it.url);
+        if (k && !seenUrl.has(k)) seenUrl.set(k, d);
+        if (it.id && !seenId.has(it.id)) seenId.set(it.id, d);
+      }
+      used.push(d);
+    } catch {
+      /* 单个归档坏了不影响整体 */
+    }
+  }
+  return { seenUrl, seenId, used };
+}
+
+/** 该条目是否在历史归档里出现过；返回首次出现日期或 null */
+function firstSeenOf(item, idx) {
+  const byId = item.id ? idx.seenId.get(item.id) : null;
+  if (byId) return byId;
+  const k = urlKey(item.url);
+  return k ? idx.seenUrl.get(k) || null : null;
+}
+
 /* --------------------------------- 抓取 ---------------------------------- */
 
 async function fetchWithTimeout(url, ms = 25000, attempt = 0) {
@@ -356,6 +419,15 @@ const MAJOR_ENTITIES = [
   'minimax', '百川', '零一万物', '科大讯飞', 'iflytek', 'deepseek', '深度求索', 'qwen',
   'softbank', '软银', 'g42', 'huawei cloud', 'stargate', 'coreweave', 'oracle',
   'salesforce', 'adobe', 'sap', 'siemens', 'asml', 'arm', 'qualcomm', 'broadcom',
+  // 创业公司 / 新兴玩家：不只影响标签，也让「每日剖析」有足够的轮换对象
+  'elevenlabs', 'hugging face', 'huggingface', 'scale ai', 'groq', 'cerebras', 'sambanova',
+  'together ai', 'figure ai', 'physical intelligence', 'suno', 'runway ml', 'anysphere',
+  'poolside', 'cognition ai', 'tempus', 'vast data', 'weights & biases', 'weights and biases',
+  'nebius', 'lambda labs', 'stability ai', 'openrouter', 'fireworks ai', 'baseten', 'ollama',
+  'langchain', 'securiti', 'sierra ai', 'ai21', 'aleph alpha', 'character.ai', 'inflection',
+  '生数科技', '面壁智能', '阶跃星辰', '无问芯穹', '硅基流动', '壁仞', '摩尔线程', '燧原',
+  '沐曦', '天数智芯', '宇树', 'unitree', '智元机器人', '银河通用', '星海图', '傅利叶',
+  '深势科技', '潞晨', '澜舟', '元象', '燧原科技', '思必驰', '云从', '依图', '格灵深瞳',
 ];
 
 const DIFFICULTY_ADVANCED = [
@@ -427,14 +499,39 @@ const ENTITY_LABEL = {
   openai: 'OpenAI', anthropic: 'Anthropic', google: 'Google', deepmind: 'DeepMind',
   microsoft: 'Microsoft', meta: 'Meta', apple: 'Apple', amazon: 'Amazon',
   nvidia: 'NVIDIA', 英伟达: 'NVIDIA', intel: 'Intel', amd: 'AMD', tsmc: '台积电',
-  台积电: '台积电', samsung: '三星', 三星: '三星', xai: 'xAI', mistral: 'Mistral',
-  cohere: 'Cohere', perplexity: 'Perplexity', 字节: '字节跳动', bytedance: '字节跳动',
-  阿里: '阿里巴巴', 阿里巴巴: '阿里巴巴', 腾讯: '腾讯', 百度: '百度', 华为: '华为',
-  小米: '小米', 商汤: '商汤', 月之暗面: '月之暗面', 智谱: '智谱AI', 科大讯飞: '科大讯飞',
-  deepseek: 'DeepSeek', 深度求索: 'DeepSeek', qwen: '通义千问', softbank: '软银',
-  软银: '软银', oracle: 'Oracle', salesforce: 'Salesforce', adobe: 'Adobe',
-  sap: 'SAP', siemens: 'Siemens', asml: 'ASML', arm: 'Arm', qualcomm: '高通',
-  broadcom: '博通', coreweave: 'CoreWeave', stargate: 'Stargate',
+  台积电: '台积电', samsung: '三星', 三星: '三星', 'sk hynix': 'SK 海力士',
+  xai: 'xAI', mistral: 'Mistral AI', cohere: 'Cohere', perplexity: 'Perplexity',
+  midjourney: 'Midjourney', stability: 'Stability AI',
+  // 中文名优先，避免前端标签里出现 alibaba / tencent 这种小写原名
+  阿里巴巴: '阿里巴巴', 阿里: '阿里巴巴', alibaba: '阿里巴巴',
+  腾讯: '腾讯', tencent: '腾讯', 字节: '字节跳动', bytedance: '字节跳动',
+  百度: '百度', baidu: '百度', 华为: '华为', huawei: '华为', 'huawei cloud': '华为云',
+  小米: '小米', xiaomi: '小米', 商汤: '商汤', 旷视: '旷视', 云从: '云从科技',
+  依图: '依图科技', 格灵深瞳: '格灵深瞳',
+  月之暗面: '月之暗面', moonshot: '月之暗面', 智谱: '智谱AI', minimax: 'MiniMax',
+  百川: '百川智能', 零一万物: '零一万物', 科大讯飞: '科大讯飞', iflytek: '科大讯飞',
+  deepseek: 'DeepSeek', 深度求索: 'DeepSeek', qwen: '通义千问',
+  softbank: '软银', 软银: '软银', g42: 'G42', oracle: 'Oracle', salesforce: 'Salesforce',
+  adobe: 'Adobe', sap: 'SAP', siemens: 'Siemens', asml: 'ASML', arm: 'Arm',
+  qualcomm: '高通', broadcom: '博通', coreweave: 'CoreWeave', stargate: 'Stargate',
+  // 创业公司
+  elevenlabs: 'ElevenLabs', 'hugging face': 'Hugging Face', huggingface: 'Hugging Face',
+  'scale ai': 'Scale AI', groq: 'Groq', cerebras: 'Cerebras', sambanova: 'SambaNova',
+  'together ai': 'Together AI', 'figure ai': 'Figure AI',
+  'physical intelligence': 'Physical Intelligence', suno: 'Suno', 'runway ml': 'Runway',
+  anysphere: 'Anysphere（Cursor）', poolside: 'Poolside', 'cognition ai': 'Cognition',
+  tempus: 'Tempus AI', 'vast data': 'VAST Data', 'weights & biases': 'Weights & Biases',
+  'weights and biases': 'Weights & Biases', nebius: 'Nebius', 'lambda labs': 'Lambda Labs',
+  'stability ai': 'Stability AI', openrouter: 'OpenRouter', 'fireworks ai': 'Fireworks AI',
+  baseten: 'Baseten', ollama: 'Ollama', langchain: 'LangChain', securiti: 'Securiti',
+  'sierra ai': 'Sierra', ai21: 'AI21 Labs', 'aleph alpha': 'Aleph Alpha',
+  'character.ai': 'Character.AI', inflection: 'Inflection AI',
+  生数科技: '生数科技', 面壁智能: '面壁智能', 阶跃星辰: '阶跃星辰', 无问芯穹: '无问芯穹',
+  硅基流动: '硅基流动', 壁仞: '壁仞科技', 摩尔线程: '摩尔线程', 燧原: '燧原科技',
+  燧原科技: '燧原科技', 沐曦: '沐曦', 天数智芯: '天数智芯', 宇树: '宇树科技',
+  unitree: '宇树科技', 智元机器人: '智元机器人', 银河通用: '银河通用', 星海图: '星海图',
+  傅利叶: '傅利叶智能', 深势科技: '深势科技', 潞晨: '潞晨科技', 澜舟: '澜舟科技',
+  元象: '元象 XVERSE', 思必驰: '思必驰',
 };
 
 function classify(item) {
@@ -525,6 +622,8 @@ function slimItem(it) {
     publishedAt: it.publishedAt,
     topics: (it.topics || []).map((t) => t.name),
     entities: it.entities || [],
+    firstSeen: it.firstSeen,
+    isNew: it.isNew,
   };
 }
 
@@ -594,10 +693,19 @@ function buildDigest({ date, nowIso, curated, regions, stats }) {
     ? `其中有 ${freshness.within24h} 条发布于 24 小时内。`
     : `今日新发布的条目较少，多为近 ${Math.round(freshness.freshHours / 24)} 天内的内容。`;
 
+  // 跨天去重：这一天里有多少条是「新面孔」，多少条是前几天已经推过的
+  const newCount = curated.filter((i) => i.isNew).length;
+  const repeatCount = curated.length - newCount;
+  const newTxt = curated.length
+    ? `其中 ${newCount} 条是此前未出现过的新增内容` +
+      (repeatCount ? `，另有 ${repeatCount} 条为近 ${stats.seenWindowDays || SEEN_WINDOW_DAYS} 天内的延续报道（已降权排后）。` : '。')
+    : '';
+
   const overview =
     `${Number(mm)} 月 ${Number(dd)} 日，共从 ${stats.sourceOk} 个信息源抓取 ${stats.total} 条 AI 产业动态，` +
     `其中 ${curated.length} 条进入当日精选，覆盖 ${regionPicks.length} 个区域。` +
     freshTxt +
+    newTxt +
     (themeTxt ? `当日最集中的板块是${themeTxt}。` : '') +
     (head3 ? `值得优先关注的几条：${head3}。` : '');
 
@@ -609,6 +717,8 @@ function buildDigest({ date, nowIso, curated, regions, stats }) {
     counts: {
       crawled: stats.total,
       published: curated.length,
+      newCount,
+      repeatCount,
       byRegion: Object.fromEntries(regionPicks.map((r) => [r.code, r.count])),
       sourceOk: stats.sourceOk,
       sourceTotal: stats.sourceTotal,
@@ -747,6 +857,359 @@ function buildCompaniesIndex() {
   return payload;
 }
 
+/* --------------------------- 每日剖析（规则层） --------------------------- */
+
+/**
+ * 大厂黑名单：剖析刻意避开人尽皆知的巨头，聚焦有特色、被产业资本扶植的公司。
+ * 这是一道保险——即使它当天在要闻里刷屏，也不会被选为剖析对象。
+ */
+const PROFILE_BLOCKLIST = new Set([
+  'OpenAI', 'Anthropic', 'Google', 'DeepMind', 'Microsoft', 'Meta', 'Apple', 'Amazon',
+  'NVIDIA', 'Intel', 'AMD', '台积电', '三星', '阿里巴巴', '腾讯', '百度', '华为', '华为云',
+  '小米', '字节跳动', '软银', 'Oracle', 'Salesforce', 'Adobe', 'SAP', 'Siemens', 'ASML',
+  'Arm', '高通', '博通', 'IBM', 'SK 海力士', 'Stargate', '通义千问',
+]);
+
+/**
+ * 「人尽皆知」名单：不是不能剖析，而是在同等条件下让位给更少被讲的公司。
+ * 目的是让这个栏目长期来看是「公司库」，而不是天天讲同一批明星。
+ */
+const PROFILE_WELL_KNOWN = new Set(['xAI', 'DeepSeek', 'Mistral AI', 'Perplexity', 'Cohere', 'CoreWeave', 'Stability AI', 'Midjourney']);
+
+/** 话题字段在不同数据源里可能是字符串或 {name} 对象，统一取名字 */
+function topicName(t) {
+  return typeof t === 'string' ? t : t?.name || '';
+}
+
+/**
+ * 一条新闻里出现的全部实体（不设上限）。
+ *
+ * 故事背景：给要闻打标签时每条只保留前 4 个实体（避免标签栏刷屏），
+ * 但剖析要找的是「今天有谁被反复提到」——用被截断的 4 个标签去做候选池，
+ * 会漏掉很多本来够格的对象。所以这里重新扫一遍原文，拿完整名单。
+ */
+function allEntitiesOf(it) {
+  const hay = `${it.title || ''} ${it.summary || ''} ${(it.categories || []).join(' ')}`.toLowerCase();
+  const out = new Set(it.entities || []);
+  for (const e of MAJOR_ENTITIES) if (entityHit(hay, e)) out.add(ENTITY_LABEL[e] || e);
+  return [...out];
+}
+
+/** 节点标签关键词：只做归类，不做主观判断 */
+const TIMELINE_TAGS = [
+  ['融资', /(rais|funding|\bfunds?\b|\bseed\b|investment|valuation|\bbets?\b|融资|募资|估值|投资|\b轮\b|ipo)/i],
+  ['并购', /(acqui|merger|takeover|收购|并购|合并)/i],
+  ['合作', /(partner|collaborat|alliance|contract|\bdeals?\b|\borders?\b|合作|联手|达成|签约|供应)/i],
+  ['产品', /(launch|unveil|releas|rollout|introduc|\bships?\b|shipped|推出|发布|上线|开源|公测|内测|更新)/i],
+  ['政策', /(regulat|polic|\b(ban|bill|law)s?\b|antitrust|法案|监管|合规|牌照|诉讼|调查)/i],
+  ['技术', /(benchmark|\bpaper\b|research|training|inference|\bmodels?\b|模型|基准|论文|训练|推理|架构)/i],
+  ['人事', /(\bceo\b|\bcto\b|\bcfo\b|hir(e|es|ing)|layoff|resign|高管|任命|裁员|离职|创始人)/i],
+];
+function inferTimelineTag(it) {
+  const hay = `${it.title || ''} ${it.summary || ''}`;
+  for (const [tag, re] of TIMELINE_TAGS) if (re.test(hay)) return tag;
+  return '动态';
+}
+
+/** 展示名 → 全部别名（小写）。用于「宇树」能否命中「宇树科技」这类问题 */
+const LABEL_ALIASES = (() => {
+  const m = new Map();
+  const put = (label, alias) => {
+    if (!m.has(label)) m.set(label, new Set());
+    m.get(label).add(String(alias).toLowerCase());
+  };
+  for (const [alias, label] of Object.entries(ENTITY_LABEL)) {
+    put(label, alias);
+    put(label, label);
+  }
+  for (const e of MAJOR_ENTITIES) put(ENTITY_LABEL[e] || e, e);
+  return m;
+})();
+function aliasesOf(name) {
+  return [...(LABEL_ALIASES.get(name) || new Set([String(name).toLowerCase()]))];
+}
+function textHasAlias(text, name) {
+  const hay = String(text || '').toLowerCase();
+  // 英文别名按词匹配，避免 sap 命中 sapiens、meta 命中 metaverse 这类误判
+  return aliasesOf(name).some((a) => a && entityHit(hay, a));
+}
+
+/** 公司名 → 稳定的 id 片段 */
+function slugify(s) {
+  const out = String(s || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\u4e00-\u9fff]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 40);
+  return out || 'company';
+}
+
+/** 日期平移（按北京时间），返回 YYYY-MM-DD */
+function shiftDate(date, deltaDays) {
+  const t = Date.parse(`${date}T12:00:00+08:00`);
+  if (!Number.isFinite(t)) return date;
+  return new Date(t + deltaDays * 86400000).toISOString().slice(0, 10);
+}
+
+function profilesPath() {
+  return path.join(DATA, 'profiles.json');
+}
+
+/** 读剖析库（可能是手写的，也可能是上次自动生成的） */
+function readProfiles() {
+  try {
+    const p = JSON.parse(fs.readFileSync(profilesPath(), 'utf8'));
+    if (p && Array.isArray(p.list)) return p;
+  } catch {
+    /* 首次运行时文件还不存在 */
+  }
+  return { schema: 'ai-horizon/profiles-v1', list: [] };
+}
+
+/**
+ * 生成当天的剖析对象（规则层）。
+ *
+ * 为什么必须有它：剖析原先完全由本机 agent 手写产出，机器一关就断供、
+ * 内容永远停在同一个日期同一家公司。这里改成从真实来源里聚合：
+ *   1. 候选 = 当天要闻里被提到的公司，剔除大厂与近几天已剖析过的；
+ *   2. 打分 = 当日提及数 + 归档足迹长度 + 融资/并购类信号；
+ *   3. 内容 = 该公司在历次归档里的真实报道，按时间正序排成一条线。
+ * 全程不做主观判断，也不编造金额、轮次、投资方——没有依据的字段一律不写。
+ */
+function buildDailyProfile({ date, curated, regions, windowDays = 45, rotateDays = 7 }) {
+  const rmap = Object.fromEntries(regions.map((r) => [r.code, r]));
+  const rname = (c) => rmap[c]?.name || c;
+  const rflag = (c) => rmap[c]?.flag || '';
+
+  // 1) 当日候选（排除大厂）
+  const todayHits = new Map();
+  const todayEnt = new Map(); // item -> 完整实体名单（扫描一次，后面复用）
+  for (const it of curated) {
+    const ents = allEntitiesOf(it);
+    todayEnt.set(it, ents);
+    for (const e of ents) {
+      if (PROFILE_BLOCKLIST.has(e)) continue;
+      if (!todayHits.has(e)) todayHits.set(e, []);
+      todayHits.get(e).push(it);
+    }
+  }
+  if (!todayHits.size) return null;
+
+  // 2) 足迹：读 ≤date 的归档（含当天），把提到候选公司的条目全捞出来
+  const days = readDated('archive')
+    .map((f) => f.replace('.json', ''))
+    .filter((d) => d <= date)
+    .sort()
+    .reverse()
+    .slice(0, windowDays);
+  const footprint = new Map();
+  const pushNode = (name, node) => {
+    if (!footprint.has(name)) footprint.set(name, []);
+    const arr = footprint.get(name);
+    if (arr.some((x) => x.date === node.date && urlKey(x.url) === urlKey(node.url))) return;
+    arr.push(node);
+  };
+  for (const d of days) {
+    let j;
+    try {
+      j = JSON.parse(fs.readFileSync(path.join(DATA, 'archive', `${d}.json`), 'utf8'));
+    } catch {
+      continue;
+    }
+    for (const it of j.items || []) {
+      const ents = allEntitiesOf(it);
+      for (const name of todayHits.keys()) {
+        if (!ents.includes(name) && !textHasAlias(`${it.title} ${it.summary}`, name)) continue;
+        pushNode(name, {
+          date: d,
+          title: it.title,
+          url: it.url,
+          source: it.source,
+          region: it.region,
+          importance: it.importance,
+          summary: it.summary || '',
+          topics: it.topics || [],
+          entities: ents,
+          // 标题里出现 = 它是这条新闻的主角；只在摘要里出现 = 只是被顺带提到
+          titleHit: textHasAlias(it.title, name),
+        });
+      }
+    }
+  }
+
+  const titleHitsToday = (name) =>
+    (todayHits.get(name) || []).filter((it) => textHasAlias(it.title, name)).length;
+
+  const scoreOf = (name) => {
+    const anyToday = todayHits.get(name) || [];
+    const foot = footprint.get(name) || [];
+    const footTitle = foot.filter((n) => n.titleHit).length;
+    const signals = foot.filter((n) => ['融资', '并购'].includes(inferTimelineTag(n))).length;
+    const base =
+      titleHitsToday(name) * 22 +
+      anyToday.length * 6 +
+      Math.min(footTitle, 12) * 8 +
+      Math.min(foot.length, 24) * 2 +
+      Math.min(signals, 6) * 6;
+    // 明星公司在同等条件下让位，让这个栏目长期更像「公司库」
+    return base - (PROFILE_WELL_KNOWN.has(name) ? 24 : 0);
+  };
+
+  // 3) 近期已剖析过的不重复（避免连着好几天同一家）
+  const pf = readProfiles();
+  const recentCut = shiftDate(date, -rotateDays);
+  const recent = new Set(
+    (pf.list || [])
+      .filter((p) => p.date && p.date >= recentCut && p.date < date)
+      .map((p) => String(p.name || '').trim().toLowerCase())
+  );
+
+  const ranked = [...todayHits.keys()]
+    .map((name) => ({
+      name,
+      score: scoreOf(name),
+      t: titleHitsToday(name),
+      a: (todayHits.get(name) || []).length,
+      f: (footprint.get(name) || []).length,
+    }))
+    .sort(
+      (a, b) =>
+        b.score - a.score ||
+        b.t - a.t ||
+        b.a - a.a ||
+        b.f - a.f ||
+        a.name.localeCompare(b.name)
+    );
+  // 明星公司让位：只要今天还有「更少被讲」的公司可选，就不选那些人尽皆知的
+  const notKnown = ranked.filter((r) => !PROFILE_WELL_KNOWN.has(r.name));
+  const pool = notKnown.length ? notKnown : ranked;
+  let pick = pool.find((r) => !recent.has(r.name.toLowerCase()))?.name;
+  if (!pick) pick = pool[0]?.name; // 候选都被剖析过：这一轮允许重复，但不能空着
+  if (!pick) return null;
+
+  // 4) 组装
+  const footRaw = (footprint.get(pick) || [])
+    .slice()
+    .sort((a, b) => a.date.localeCompare(b.date) || urlKey(a.url).localeCompare(urlKey(b.url)));
+  const todayList = todayHits.get(pick) || [];
+
+  const tagCounts = {};
+  const tagIdx = new Map();
+  for (const n of footRaw) {
+    const tag = inferTimelineTag(n);
+    tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+    tagIdx.set(n, { tag, idx: tagCounts[tag] });
+  }
+
+  // 时间线优先只放「它是主角」的报道（标题级），只有标题级不足 2 条时才退回全部提及
+  const titleNodes = footRaw.filter((n) => n.titleHit);
+  const useTitleOnly = titleNodes.length >= 2;
+  const timeline = (useTitleOnly ? titleNodes : footRaw).slice(-12).map((n) => {
+    const { tag, idx } = tagIdx.get(n) || { tag: inferTimelineTag(n), idx: 1 };
+    const nth = tagCounts[tag] > 1 ? `归档里第 ${idx} 条「${tag}」类消息（共 ${tagCounts[tag]} 条）。` : '';
+    return {
+      date: n.date,
+      tag,
+      title: n.title,
+      desc: clean(n.summary, 130),
+      why: nth,
+      kind: 'news',
+      source: { name: n.source, url: n.url },
+    };
+  });
+
+  const regionCounts = {};
+  for (const n of footRaw) regionCounts[n.region] = (regionCounts[n.region] || 0) + 1;
+  const mainRegion = Object.entries(regionCounts).sort((a, b) => b[1] - a[1])[0]?.[0] || todayList[0]?.region || 'OTHER';
+
+  const topicCounts = {};
+  for (const n of footRaw) for (const t of n.topics || []) {
+    const name = topicName(t);
+    if (name) topicCounts[name] = (topicCounts[name] || 0) + 1;
+  }
+  const topTopics = Object.entries(topicCounts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 2).map(([t]) => t);
+
+  const srcCount = new Set(footRaw.map((n) => n.source)).size;
+  const span = footRaw.length
+    ? footRaw[0].date === footRaw[footRaw.length - 1].date
+      ? `${footRaw[0].date} 单日`
+      : `${footRaw[0].date} → ${footRaw[footRaw.length - 1].date}`
+    : '—';
+
+  // 同期出现的公司：这些名字在同一批新闻里和它一起出现，能看出它站在谁的生态位里
+  const co = {};
+  for (const n of footRaw) {
+    for (const e of n.entities || []) {
+      if (e === pick) continue;
+      co[e] = (co[e] || 0) + 1;
+    }
+  }
+  const related = Object.entries(co)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, 6)
+    .map(([name, n]) => ({ name, n }));
+
+  const tagRanked = Object.entries(tagCounts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const topTag = tagRanked[0]?.[0] || '动态';
+  const tagTxt = tagRanked.slice(0, 3).map(([t, n]) => `「${t}」${n}`).join('、');
+
+  const CJK = /[\u4e00-\u9fff]/;
+  return {
+    id: `auto-${slugify(pick)}-${date}`,
+    date,
+    auto: true,
+    name: pick,
+    nameZh: CJK.test(pick) ? pick : '',
+    aliases: [pick],
+    tagline:
+      `归档里共 ${footRaw.length} 条要闻提到它（${todayList.length} 条来自今天` +
+      (titleNodes.length ? `，其中 ${titleNodes.length} 条它是标题主角` : '') +
+      `），消息类型集中在 ${tagTxt}` +
+      (topTopics.length ? `，板块以「${topTopics.join('、')}」为主` : '') +
+      `。`,
+    category: topTopics.length ? `${topTopics.join(' · ')} · 要闻聚合` : '要闻聚合',
+    region: mainRegion,
+    numbers: [
+      { k: '归档提及', v: `${footRaw.length} 条` },
+      ...(titleNodes.length ? [{ k: '标题主角', v: `${titleNodes.length} 条` }] : []),
+      { k: '今日提及', v: `${todayList.length} 条` },
+      { k: '活跃区间', v: span },
+      { k: '来源家数', v: `${srcCount} 家` },
+      { k: '主要区域', v: `${rflag(mainRegion)} ${rname(mainRegion)}` },
+      { k: '消息类型', v: topTag },
+    ],
+    timelineNote: useTitleOnly
+      ? '按时间正序读：这些都是「它是主角」的报道——一条一条点开，就是它在媒体视野里的轨迹。'
+      : `按时间正序读：它出现在下面这些报道里（含只被顺带提及的），共 ${footRaw.length} 条，点标题可看原文。`,
+    timeline,
+    patternNote:
+      `这一页由规则层自动聚合：只陈述「谁、什么时候、因为什么上了要闻」，不做主观判断，` +
+      `金额、轮次、投资方等没有来源支撑的字段一律不填。选择标准是当天被提及最多、且不在大厂名单里的公司，` +
+      `近 ${rotateDays} 天内剖析过的不重复选。`,
+    related,
+    terms: [],
+  };
+}
+
+/** 写回剖析库：同一天已有手写剖析时不覆盖（人工内容优先） */
+function saveDailyProfile(profile) {
+  if (!profile) return null;
+  const pf = readProfiles();
+  const sameDay = (pf.list || []).find((p) => p.date === profile.date);
+  if (sameDay && !sameDay.auto) return null;
+  const list = (pf.list || []).filter((p) => p.date !== profile.date);
+  list.unshift(profile);
+  list.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+  const out = {
+    ...pf,
+    schema: pf.schema || 'ai-horizon/profiles-v1',
+    updatedAt: new Date().toISOString(),
+    list: list.slice(0, 60),
+  };
+  fs.writeFileSync(profilesPath(), JSON.stringify(out, null, 1));
+  return profile;
+}
+
 /** 仅根据已有归档重建全部每日总结（不重新抓取） */
 function backfillDigests(regions) {
   fs.mkdirSync(path.join(DATA, 'digest'), { recursive: true });
@@ -821,8 +1284,24 @@ function curateDay({ items: rawItems, regions, sourceTotal, failures = [], stale
   }
   items = [...byTitle.values()];
 
-  // 分类 + 排序
+  // 分类
   for (const it of items) Object.assign(it, classify(it));
+
+  // 跨天去重：标出「今天第一次出现」与「前几天已经推过的」。
+  // 已经推过的条目降权，保证首页优先是真正的新内容，而不是同一批文章连着刷几天。
+  const seen = loadSeenIndex(date, SEEN_WINDOW_DAYS);
+  for (const it of items) {
+    const prior = firstSeenOf(it, seen);
+    if (prior) {
+      it.firstSeen = prior;
+      it.isNew = false;
+      it.importance = Math.max(20, it.importance - SEEN_PENALTY);
+    } else {
+      it.firstSeen = date;
+      it.isNew = true;
+    }
+  }
+  const newCount = items.filter((i) => i.isNew).length;
 
   const byImportance = (a, b) => {
     if (b.importance !== a.importance) return b.importance - a.importance;
@@ -862,6 +1341,11 @@ function curateDay({ items: rawItems, regions, sourceTotal, failures = [], stale
       sourceTotal,
       sourceOk: Math.max(0, sourceTotal - failures.length),
       freshness,
+      // 跨天去重概览：前端据此说明「今天有多少条是新的」
+      newCount,
+      repeatCount: items.length - newCount,
+      seenWindowDays: SEEN_WINDOW_DAYS,
+      seenDays: seen.used,
       failures,
     },
   };
@@ -900,7 +1384,14 @@ function curateDay({ items: rawItems, regions, sourceTotal, failures = [], stale
   const curatedPayload = {
     ...base,
     curated: !FULL,
-    stats: { ...base.stats, published: curated.length, perRegionCap: PER_REGION_CAP },
+    stats: {
+      ...base.stats,
+      published: curated.length,
+      perRegionCap: PER_REGION_CAP,
+      // 以「精选后的条目」为准，前端显示的才是读者实际能看到的数字
+      newCount: curated.filter((i) => i.isNew).length,
+      repeatCount: curated.filter((i) => !i.isNew).length,
+    },
     items: curated,
   };
 
@@ -915,7 +1406,33 @@ function curateDay({ items: rawItems, regions, sourceTotal, failures = [], stale
   const digest = buildDigest({ date, nowIso, curated, regions, stats: base.stats });
   fs.writeFileSync(path.join(DATA, 'digest', `${date}.json`), JSON.stringify(digest, null, 1));
 
-  return { date, items, curated, freshness, byRegion, digest };
+  // 每日剖析（规则层）：同样由 CI 每天产出，公司每天自动轮换
+  const profile = saveDailyProfile(buildDailyProfile({ date, curated, regions }));
+
+  return { date, items, curated, freshness, byRegion, digest, profile };
+}
+
+/** 按归档重建每日剖析（升序处理，保证「近 N 天不重复」的轮换顺序正确） */
+function backfillProfiles(regions, { latestOnly = false } = {}) {
+  const files = readDated('archive').slice().reverse();
+  const use = latestOnly ? files.slice(-1) : files;
+  let n = 0;
+  for (const f of use) {
+    let j;
+    try {
+      j = JSON.parse(fs.readFileSync(path.join(DATA, 'archive', f), 'utf8'));
+    } catch {
+      continue;
+    }
+    const d = j.date || f.replace('.json', '');
+    setRefNow(archiveRef(j, d));
+    const p = saveDailyProfile(buildDailyProfile({ date: d, curated: j.items || [], regions }));
+    if (p) {
+      n += 1;
+      console.log(`  ${d}  剖析对象：${p.name}（${p.numbers?.[0]?.v || ''}）`);
+    }
+  }
+  return n;
 }
 
 function todayKey(d = new Date()) {
@@ -928,14 +1445,15 @@ async function main() {
   const regions = cfg.regions;
   const regionMap = Object.fromEntries(regions.map((r) => [r.code, r]));
 
-  // 仅重建总结与索引（修复历史归档、不抓取）
+  // 仅重建「派生层」（总结 / 剖析 / 索引）：不抓取，全部从已有归档重算
   if (argv.includes('--digest-only')) {
     const n = backfillDigests(regions);
+    const pn = backfillProfiles(regions);
     const ai = rebuildArchiveIndex();
     const di = rebuildDigestsIndex();
     const ci = buildCompaniesIndex();
     console.log(
-      `\n✅ 已按现有归档重建 ${n} 天总结；归档 ${ai.length} 天 / 总结 ${di.length} 天 / ` +
+      `\n✅ 已按现有归档重建 ${n} 天总结、${pn} 天剖析；归档 ${ai.length} 天 / 总结 ${di.length} 天 / ` +
       `公司足迹 ${ci.companies.length} 家\n`
     );
     return;
@@ -1067,7 +1585,7 @@ async function main() {
 
   const batches = await pool(tasks, CONCURRENCY);
 
-  const { date, items, curated, freshness, byRegion } = curateDay({
+  const { date, items, curated, freshness, byRegion, profile } = curateDay({
     items: batches.flat(),
     regions,
     sourceTotal: sources.length,
@@ -1083,10 +1601,15 @@ async function main() {
   const digestsIndex = rebuildDigestsIndex();
   const companies = buildCompaniesIndex();
 
+  const newCount = curated.filter((i) => i.isNew).length;
+
   console.log(
     `\n✅ 完成：抓取 ${items.length} 条 → 策展发布 ${curated.length} 条 · ` +
     `${sources.length - failures.length}/${sources.length} 源正常` +
     `\n   分区：` + regions.map((r) => `${r.short} ${byRegion[r.code]}`).join(' / ')
+  );
+  console.log(
+    `   跨天去重：新增 ${newCount} 条 · 延续 ${curated.length - newCount} 条（回看窗口 ${SEEN_WINDOW_DAYS} 天）`
   );
   console.log(
     `   时效：24h 内 ${freshness.within24h} 条 · ${freshness.freshHours}h 内 ${freshness.withinFresh} 条 · ` +
@@ -1099,7 +1622,13 @@ async function main() {
   if (failures.length) {
     console.log(`   失败源：` + failures.filter((f) => !/超期/.test(f.error || '')).map((f) => `${f.name}(${f.error})`).join('，'));
   }
-  console.log(`   输出：data/news-latest.json + data/archive/${date}.json + data/digest/${date}.json + data/companies.json`);
+  if (profile) {
+    console.log(`   每日剖析：${profile.name} · ${profile.category} · 时间线 ${profile.timeline.length} 个节点`);
+  } else {
+    console.log(`   每日剖析：今日无可选对象（候选都被大厂名单或近期轮换排除）`);
+  }
+  console.log(`   输出：data/news-latest.json + data/archive/${date}.json + data/digest/${date}.json`);
+  console.log(`        + data/profiles.json + data/companies.json`);
   console.log(`   归档累计：${archFiles.length} 天（最新 ${archFiles[0] || '-'}）· 公司足迹 ${companies.companies.length} 家\n`);
 }
 

@@ -115,7 +115,7 @@ function toast(msg, ms = 2000) {
 /* --------------------------------- 状态 --------------------------------- */
 
 const S = {
-  data: null, briefing: {}, curriculum: null, glossary: null, sources: null, archive: [], digests: [],
+  data: null, briefing: {}, briefingDate: null, curriculum: null, glossary: null, sources: null, archive: [], digests: [],
   profiles: null, weekly: null, models: null, companies: null,
   channels: loadLS(LS.channels, null),
   customers: loadLS(LS.customers, []),
@@ -127,7 +127,8 @@ const S = {
   region: 'ALL',
   topics: new Set(),
   diff: 'ALL',
-  fresh: 'ALL',
+  // 默认只看「今天第一次出现」的内容——同一篇文章不该连着几天占住首页
+  fresh: 'NEW',
   q: '',
   sort: 'importance',
   compact: false,
@@ -186,6 +187,7 @@ async function loadAll() {
   ]);
   S.data = data;
   S.briefing = briefing?.items || {};
+  S.briefingDate = briefing?.date || null;
   S.curriculum = curriculum;
   S.glossary = glossary;
   S.sources = sources;
@@ -275,10 +277,21 @@ function phaseProgress() {
 
 /* ------------------------------ 今日要闻过滤 ----------------------------- */
 
+/**
+ * 取某条要闻的编辑解读。
+ *
+ * 解读层是「按某一天的要闻 id」写出来的——日期对不上就整层作废，
+ * 否则会出现「昨天的编辑精选挂在今天的要闻上」这种自相矛盾的画面。
+ */
+function briefingFor(id) {
+  if (!S.briefingDate || !S.data || S.briefingDate !== S.data.date) return null;
+  return S.briefing[id] || null;
+}
+
 function itemsForToday() {
   if (!S.data?.items) return [];
   return S.data.items.map((it) => {
-    const b = S.briefing[it.id] || {};
+    const b = briefingFor(it.id) || {};
     return { ...it, ...b, _hasBrief: !!b.plain };
   });
 }
@@ -288,7 +301,10 @@ function filtered(items) {
   return items.filter((it) => {
     if (S.region !== 'ALL' && it.region !== S.region) return false;
     if (S.diff !== 'ALL' && it.difficulty !== S.diff) return false;
-    if (S.fresh !== 'ALL') {
+    if (S.fresh === 'NEW') {
+      // 抓取侧会给每条标 isNew：false = 前几天已经推过，这里作为延续报道保留
+      if (it.isNew === false) return false;
+    } else if (S.fresh !== 'ALL') {
       // 「时间未知」与按月精度估出来的条目不算过期——它们只是没有精确时间
       const a = ageHours(it.publishedAt);
       if (a !== null && it.datePrecision !== 'month' && a > Number(S.fresh)) return false;
@@ -467,6 +483,9 @@ function cardHTML(it, idx) {
     : absTime(it.publishedAt);
   const staleFlag = !isMonthPrec && ageH !== null && ageH > 24 * 7
     ? '<span class="staleflag" title="这条已经超过一周，抓取侧默认不会保留，可能来自历史归档">较旧</span>' : '';
+  // 延续报道：前几天已经推过，这里保留但在排序上降权，让读者一眼能区分
+  const repeatFlag = it.isNew === false
+    ? `<span class="reflag" title="这条在 ${esc(it.firstSeen || '前几天')} 已经推过，此处作为延续报道保留">回顾</span>` : '';
 
   return `
   <article class="card ${isRead ? 'read' : ''}" style="--rc:${rm.color}" data-id="${it.id}">
@@ -474,7 +493,7 @@ function cardHTML(it, idx) {
       <span class="rbadge">${rm.flag || ''} ${esc(rm.name || rm.short)}</span>
       <span class="src">${esc(it.source)}</span>
       <span class="dotsep">·</span>
-      <span class="meta" title="${esc(timeTitle)}">${esc(timeLabel)}</span>${staleFlag}
+      <span class="meta" title="${esc(timeTitle)}">${esc(timeLabel)}</span>${staleFlag}${repeatFlag}
       <div class="acts">
         <button class="mini ${isBm ? 'on' : ''}" data-act="bm" data-id="${it.id}" title="${isBm ? '取消收藏' : '收藏'}">${isBm ? '★' : '☆'}</button>
         <button class="mini ${isRead ? 'read-on' : ''}" data-act="read" data-id="${it.id}" title="${isRead ? '标记未读' : '标记已读'}">✓</button>
@@ -564,20 +583,24 @@ function renderFeed() {
     `<button class="chip ${S.diff === d ? 'on' : ''}" data-act="diff" data-v="${d}">${d === 'ALL' ? '全部难度' : d}</button>`
   ).join('');
 
-  // 时效筛选：抓取侧已经把超过 7 天的旧文清掉了，这里再给一层「只看最近」的手动过滤
+  // 时效筛选：抓取侧已做「跨天去重」（每条带 isNew）与 7 天时效上限，这里再给一层手动过滤
+  const newCount = all.filter((i) => i.isNew !== false).length;
+  const repeatCount = all.length - newCount;
   const freshOpts = [
-    { v: 'ALL', label: '全部时间' },
+    { v: 'NEW', label: '✨ 只看今日新增' },
+    { v: 'ALL', label: '含近期回顾' },
     { v: '24', label: '24 小时内' },
     { v: '72', label: '3 天内' },
     { v: '168', label: '7 天内' },
   ];
   const freshChips = freshOpts.map((o) => {
-    const n = o.v === 'ALL'
-      ? all.length
-      : all.filter((i) => {
-        const a = ageHours(i.publishedAt);
-        return a === null || i.datePrecision === 'month' || a <= Number(o.v);
-      }).length;
+    let n;
+    if (o.v === 'NEW') n = newCount;
+    else if (o.v === 'ALL') n = all.length;
+    else n = all.filter((i) => {
+      const a = ageHours(i.publishedAt);
+      return a === null || i.datePrecision === 'month' || a <= Number(o.v);
+    }).length;
     return `<button class="chip ${S.fresh === o.v ? 'on' : ''}" data-act="fresh" data-v="${o.v}">${o.label} <span class="n">${n}</span></button>`;
   }).join('');
 
@@ -585,12 +608,21 @@ function renderFeed() {
   const freshNote = freshness.maxAgeHours
     ? `抓取时已丢弃 ${Math.round(freshness.maxAgeHours / 24)} 天前的旧文${freshness.staleDropped ? `（今日 ${freshness.staleDropped} 条）` : ''}`
     : '';
+  const dedupNote = repeatCount
+    ? `今日新增 ${newCount} 条 · 另有 ${repeatCount} 条是前 ${S.data?.stats?.seenWindowDays || 7} 天内推过的延续报道（已降权排后）`
+    : `今日 ${newCount} 条全部是新出现的`;
+  // 解读层是按天写的：日期对不上就说明今天的还没生成，界面要说清楚，而不是假装有解读
+  const briefStale = S.briefingDate && S.data && S.briefingDate !== S.data.date
+    ? `白话解读层停在 ${S.briefingDate}（今天尚未生成），今日要闻按重要度自动排序`
+    : '';
 
   const filters = `
   <div class="filters">
     <div class="frow"><span class="flabel">区域</span>${regionChips}</div>
     <div class="frow"><span class="flabel">主题</span>${topicChips || '<span class="meta">暂无</span>'}</div>
     <div class="frow"><span class="flabel">时效</span>${freshChips}${freshNote ? `<span class="meta">${esc(freshNote)}</span>` : ''}</div>
+    <div class="frow" style="margin-top:2px"><span class="flabel"></span>
+      <span class="dedup-note">🔄 ${esc(dedupNote)}</span>${briefStale ? `<span class="meta">· ${esc(briefStale)}</span>` : ''}</div>
     <div class="frow">
       <span class="flabel">难度</span>${diffs}
       <select class="sel" data-act="sort">
@@ -604,6 +636,14 @@ function renderFeed() {
   </div>`;
 
   if (!list.length) {
+    const onlyNew = S.fresh === 'NEW' && !S.q.trim() && S.region === 'ALL' && !S.topics.size && S.diff === 'ALL';
+    if (onlyNew && repeatCount) {
+      return filters + `<div class="empty"><div class="em">🌤</div>
+        <p>今天还没有新的内容——云端抓取后会自动出现。</p>
+        <p style="font-size:12.5px">目前页面上的 ${repeatCount} 条都是前 ${S.data?.stats?.seenWindowDays || 7} 天内推过的延续报道，
+          切换「含近期回顾」可以先看这些。</p>
+        <p><button class="btn" data-act="fresh" data-v="ALL">含近期回顾</button></p></div>`;
+    }
     return filters + `<div class="empty"><div class="em">🔍</div><p>没有符合当前筛选条件的要闻。</p>
       <p><button class="btn" data-act="reset">重置筛选</button></p></div>`;
   }
@@ -615,11 +655,14 @@ function renderFeed() {
 
   let body;
   if (grouped) {
-    // 有编辑解读层时优先用它；没有（例如云端只跑了规则层）就按重要度自动挑前 6 条，
-    // 保证「今日必读」永远是满的，不会因为解读层缺席而空掉。
+    // 有当天编辑解读层就用它；没有（例如云端只跑了规则层、或解读层还停在昨天）
+    // 就按重要度自动补齐到 6 条，保证「今日必读」永远满，不会空掉也不会只剩两三条。
     const briefed = list.filter((i) => i._hasBrief);
-    const brief = (briefed.length ? briefed : list).slice(0, 6);
-    const briefNote = briefed.length ? '编辑精选 · 跨区域' : '按重要度自动挑选';
+    const briefedIds = new Set(briefed.map((i) => i.id));
+    const brief = [...briefed, ...list.filter((i) => !briefedIds.has(i.id))].slice(0, 6);
+    const briefNote = briefed.length
+      ? `编辑解读 ${briefed.length} 条 + 重要度补足 ${brief.length - briefed.length} 条`
+      : '按重要度自动挑选';
     const briefSection = brief.length ? `
       <div class="sect-head"><h3>🔥 今日必读</h3><span class="n">${briefNote}</span><span class="line"></span></div>
       <div class="feed">${brief.map(cardHTML).join('')}</div>` : '';
@@ -723,6 +766,26 @@ function renderProfile() {
 
   const investors = (c.investors || []).map((i) => `<span class="inv">${esc(i)}</span>`).join('');
 
+  // 手写剖析有「它做什么 / 为什么特别 / 风险点…」这些区块；自动聚合版只有来源事实，
+  // 没有内容的整块不渲染，避免出现一排空标题。
+  const hasBody = c.patternNote || c.whatTheyDo || c.whySpecial || c.businessModel || c.backerNote
+    || (c.moat || []).length || (c.risks || []).length || (c.watch || []).length
+    || questions || terms || c.source;
+  const bodyBlock = hasBody ? `
+    <div class="p-body">
+      ${c.patternNote ? `<div class="pblock auto-note"><h5>这一页是怎么来的</h5><p>${esc(c.patternNote)}</p></div>` : ''}
+      ${c.whatTheyDo ? `<div class="pblock"><h5>它做什么</h5><p>${esc(c.whatTheyDo)}</p></div>` : ''}
+      ${c.whySpecial ? `<div class="pblock hi"><h5>为什么特别</h5><p>${esc(c.whySpecial)}</p></div>` : ''}
+      ${c.businessModel ? `<div class="pblock"><h5>靠什么赚钱</h5><p>${esc(c.businessModel)}</p></div>` : ''}
+      ${c.backerNote ? `<div class="pblock inv-note"><h5>投资方组合说明了什么</h5><p>${esc(c.backerNote)}</p></div>` : ''}
+      ${listBlock('护城河在哪', c.moat, 'good')}
+      ${listBlock('风险点', c.risks, 'bad')}
+      ${listBlock('接下来盯什么', c.watch, 'watch2')}
+      ${questions}
+      ${terms ? `<div class="p-terms"><span class="pt-label">相关术语</span>${terms}</div>` : ''}
+      ${c.source ? `<div class="p-src">信息来源：<a href="${esc(c.source.url)}" target="_blank" rel="noopener noreferrer">${esc(c.source.name)} · ${esc(c.source.title)}</a></div>` : ''}
+    </div>` : '';
+
   // 成长时间线：按时间看它怎么一步步长起来（成立 → 融资 → 产品/项目 → 当下 → 下一步）
   const timeline = c.timeline || [];
   const timelineBlock = timeline.length ? `
@@ -731,13 +794,22 @@ function renderProfile() {
     <p class="meta" style="margin:-4px 0 14px">${esc(c.timelineNote || '从上到下按时间读：它什么时候成立、钱从哪来、做了什么项目、现在站在什么位置。')}</p>
     <div class="tl">${timeline.map(tlNodeHTML).join('')}</div>` : '';
 
-  // 要闻足迹：归档里提到它的真实新闻，自动汇总、随每日抓取变长
-  const foot = companyFootprint(c).slice(0, 12);
+  // 自动版的时间线本身就是「归档足迹」（同一批来源），不再重复渲染一块
+  const foot = c.auto ? [] : companyFootprint(c).slice(0, 12);
   const footBlock = foot.length ? `
     <div class="sect-head" style="margin-top:26px"><h3>📡 在要闻里的足迹</h3>
       <span class="n">${foot.length} 条</span><span class="line"></span></div>
     <p class="meta" style="margin:-4px 0 14px">这些是历史归档里真正提到过它的新闻，点标题可看原文。归档每天累积，这条线会自己变长。</p>
     <div class="tl tl-foot">${foot.map((n) => tlNodeHTML({ ...n, kind: 'news' })).join('')}</div>`
+    : '';
+
+  // 同期出现的公司：名字一起出现在同一批新闻里，能看出它站在谁的生态位旁边
+  const relBlock = (c.related || []).length ? `
+    <div class="sect-head" style="margin-top:26px"><h3>🔗 同期出现的公司</h3>
+      <span class="n">${c.related.length} 家</span><span class="line"></span></div>
+    <p class="meta" style="margin:-4px 0 12px">这些名字和它出现在同一批新闻里——同框次数越多，说明越在同一件事里。</p>
+    <div class="rel-grid">${c.related.map((r) => `
+      <span class="rel-chip">${esc(r.name)}<span class="n">${r.n}</span></span>`).join('')}</div>`
     : '';
 
   const watch = p.watchlist?.items?.length ? `
@@ -771,6 +843,7 @@ function renderProfile() {
         <div class="p-eyebrow">
           <span class="rbadge">${rm.flag || ''} ${esc(rm.name || c.region || '')}</span>
           ${c.category ? `<span class="pcat">${esc(c.category)}</span>` : ''}
+          ${c.auto ? '<span class="pauto" title="由规则层从当日要闻与历史归档自动聚合，每天轮换">自动聚合</span>' : ''}
           <span class="pdate">${esc(c.date)} · 第 ${list.length - list.indexOf(c)} 期${list.indexOf(c) > 0 ? '（往期）' : ''}</span>
         </div>
         <h2>${esc(c.name)}</h2>
@@ -778,31 +851,21 @@ function renderProfile() {
         <p class="p-tagline">${esc(c.tagline || '')}</p>
         <div class="p-investors">${investors}</div>
       </div>
-      <div class="p-facts">
+      ${(c.country || c.founded || c.stage || c.amount) ? `<div class="p-facts">
         ${c.country ? `<div><span>所在地</span><b>${esc(c.country)}${c.city ? ' · ' + esc(c.city) : ''}</b></div>` : ''}
         ${c.founded ? `<div><span>成立</span><b>${esc(c.founded)}</b></div>` : ''}
         ${c.stage ? `<div><span>最新轮次</span><b>${esc(c.stage)}</b></div>` : ''}
         ${c.amount ? `<div><span>规模</span><b>${esc(c.amount)}</b></div>` : ''}
-      </div>
+      </div>` : ''}
     </div>
 
     ${numCards ? `<div class="pnums">${numCards}</div>` : ''}
 
     ${timelineBlock}
     ${footBlock}
+    ${relBlock}
 
-    <div class="p-body">
-      <div class="pblock"><h5>它做什么</h5><p>${esc(c.whatTheyDo)}</p></div>
-      <div class="pblock hi"><h5>为什么特别</h5><p>${esc(c.whySpecial)}</p></div>
-      <div class="pblock"><h5>靠什么赚钱</h5><p>${esc(c.businessModel)}</p></div>
-      ${c.backerNote ? `<div class="pblock inv-note"><h5>投资方组合说明了什么</h5><p>${esc(c.backerNote)}</p></div>` : ''}
-      ${listBlock('护城河在哪', c.moat, 'good')}
-      ${listBlock('风险点', c.risks, 'bad')}
-      ${listBlock('接下来盯什么', c.watch, 'watch2')}
-      ${questions}
-      ${terms ? `<div class="p-terms"><span class="pt-label">相关术语</span>${terms}</div>` : ''}
-      ${c.source ? `<div class="p-src">信息来源：<a href="${esc(c.source.url)}" target="_blank" rel="noopener noreferrer">${esc(c.source.name)} · ${esc(c.source.title)}</a></div>` : ''}
-    </div>
+    ${bodyBlock}
   </div>
   ${watch}
   ${pastBlock}`;
@@ -1729,7 +1792,7 @@ const actions = {
   },
   diff(el) { S.diff = el.dataset.v; render(); },
   fresh(el) { S.fresh = el.dataset.v; render(); },
-  reset() { S.region = 'ALL'; S.topics.clear(); S.diff = 'ALL'; S.fresh = 'ALL'; S.q = ''; render(); },
+  reset() { S.region = 'ALL'; S.topics.clear(); S.diff = 'ALL'; S.fresh = 'NEW'; S.q = ''; render(); },
   toggleview() { S.compact = !S.compact; render(); },
   regionmore(el) {
     const v = el.dataset.v;
@@ -2079,7 +2142,7 @@ async function doRefresh(silent = false) {
     getJSON('./data/companies.json'),
   ]);
   if (data) S.data = data;
-  if (briefing) S.briefing = briefing.items || {};
+  if (briefing) { S.briefing = briefing.items || {}; S.briefingDate = briefing.date || null; }
   if (archive) S.archive = archive;
   if (digests) S.digests = digests;
   if (profiles) S.profiles = profiles;
@@ -2119,7 +2182,7 @@ function startCatchup() {
         getJSON('./data/archive-index.json'),
         getJSON('./data/digests.json'),
       ]);
-      if (briefing) S.briefing = briefing.items || {};
+      if (briefing) { S.briefing = briefing.items || {}; S.briefingDate = briefing.date || null; }
       if (archive) S.archive = archive;
       if (digests) S.digests = digests;
       stopCatchup();
@@ -2179,7 +2242,7 @@ async function boot() {
         getJSON('./data/archive-index.json'),
         getJSON('./data/digests.json'),
       ]);
-      if (briefing) S.briefing = briefing.items || {};
+      if (briefing) { S.briefing = briefing.items || {}; S.briefingDate = briefing.date || null; }
       if (archive) S.archive = archive;
       if (digests) S.digests = digests;
       render();
@@ -2188,6 +2251,15 @@ async function boot() {
   }, 180000);
 
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+    // 页面本来就没被 SW 接管时不reload——否则第一次访问会白刷一次
+    const hadController = !!navigator.serviceWorker.controller;
+    let reloaded = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (!hadController || reloaded) return;
+      reloaded = true;
+      toast('检测到新版本，正在重新载入…', 2500);
+      setTimeout(() => location.reload(), 900);
+    });
     navigator.serviceWorker.register('./sw.js').catch(() => {});
   }
 }

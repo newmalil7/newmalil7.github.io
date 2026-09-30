@@ -1,158 +1,249 @@
 {
-  "schema": "ai-horizon/profiles-v1",
-  "updatedAt": "2026-09-28T11:20:00+08:00",
-  "selection": {
-    "title": "选谁来讲",
-    "criteria": [
-      "优先选有特色打法的初创公司或项目，而不是已经人尽皆知的大厂",
-      "优先选被知名企业或机构扶植、投资的 startup——从投资方身上能看清产业资本的布局意图",
-      "优先选当天在要闻里出现过的对象，读新闻与读剖析互相印证",
-      "刻意避开 OpenAI、Google、Meta、英伟达这类巨头本身，只在它们投的公司值得讲时才出现"
-    ]
-  },
-  "list": [
+ "schema": "ai-horizon/profiles-v1",
+ "updatedAt": "2026-09-30T02:25:28.933Z",
+ "selection": {
+  "title": "选谁来讲",
+  "criteria": [
+   "优先选有特色打法的初创公司或项目，而不是已经人尽皆知的大厂",
+   "优先选被知名企业或机构扶植、投资的 startup——从投资方身上能看清产业资本的布局意图",
+   "优先选当天在要闻里出现过的对象，读新闻与读剖析互相印证",
+   "刻意避开 OpenAI、Google、Meta、英伟达这类巨头本身，只在它们投的公司值得讲时才出现"
+  ]
+ },
+ "list": [
+  {
+   "id": "auto-g42-2026-09-30",
+   "date": "2026-09-30",
+   "auto": true,
+   "name": "G42",
+   "nameZh": "",
+   "aliases": [
+    "G42"
+   ],
+   "tagline": "归档里共 2 条要闻提到它（2 条来自今天），消息类型集中在 「动态」1、「融资」1，板块以「政策与治理、算力与基建」为主。",
+   "category": "政策与治理 · 算力与基建 · 要闻聚合",
+   "region": "ME",
+   "numbers": [
     {
-      "id": "basecamp-research",
-      "date": "2026-09-28",
-      "name": "Basecamp Research",
-      "nameZh": "Basecamp Research",
-      "aliases": ["basecamp"],
-      "tagline": "把大自然的基因数据，变成 AI 制药的燃料",
-      "region": "EU",
-      "country": "英国",
-      "city": "伦敦",
-      "founded": "2019 年",
-      "stage": "C 轮",
-      "amount": "1.4 亿美元",
-      "category": "AI for Science · 生物医药",
-      "investors": ["Anthropic", "Menlo Ventures", "NVIDIA"],
-      "timelineNote": "从上往下按时间读：它什么时候成立、护城河是怎么一锹一锹挖出来的、钱从哪来、现在站在产业链的哪一层、下一步要跨哪道坎。",
-      "timeline": [
-        {
-          "date": "2019",
-          "tag": "成立",
-          "title": "在伦敦成立，选了一条又慢又重的路",
-          "desc": "不做通用大模型，而是自己跑到世界各地采集自然界的生物样本，把蛋白质序列做成一套专属数据集，再拿它去设计新的蛋白质和药物。",
-          "why": "它押的不是模型能力，而是数据的独占性——公开数据谁都能下载，自采的数据买不到、也爬不到。"
-        },
-        {
-          "date": "长期积累",
-          "tag": "合作",
-          "title": "与一些国家、机构建立长期数据合作",
-          "desc": "自然界里绝大多数微生物与极端环境物种从没被记录过。它选择与一些国家合作、共享后续收益，从而拿到合法且独占的采集与使用权。",
-          "why": "这一步顺手把行业最大的隐患——「数据从哪来、是否合法」——提前解决了，对手很难复制。"
-        },
-        {
-          "date": "2026-09-23",
-          "tag": "融资",
-          "amount": "1.4 亿美元 C 轮",
-          "title": "Anthropic、Menlo Ventures、NVIDIA 同时进入",
-          "desc": "一家模型公司、一家风投、一家芯片公司凑在同一条融资消息里，这个组合本身就值得读。",
-          "why": "三方同时出现说明不只是财务投资：模型方想验证大模型在垂直科学领域的真实落地，算力方想证明 GPU 在科学计算上的增量需求。产业资本在用投资锁定行业数据和场景，而不只是卖 API。",
-          "source": {
-            "name": "Tech.eu",
-            "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/"
-          }
-        },
-        {
-          "date": "当前",
-          "tag": "现状",
-          "title": "卖的不是算力，是别人没有的数据入口",
-          "desc": "收入主要来自与药企、研究机构的合作研发，以及数据集授权；长期目标是把「专有数据资产 + 领域模型 + 成果分成」拼起来。",
-          "why": "看清它站在产业链的哪一层，就理解了当前 AI 产业的一种典型分工：有人做通用能力，有人做垂直数据，钱两边的赚法完全不同。"
-        },
-        {
-          "date": "下一步",
-          "tag": "看点",
-          "title": "自研管线能不能进入临床",
-          "desc": "这是它从「卖数据」转向「卖成果」的关键一跃。",
-          "why": "真迈过去，天花板就从「数据供应商」变成「新药公司」；迈不过去，它长期只是别人管线里的一环。"
-        }
-      ],
-      "whatTheyDo": "一家英国生命科学公司，做的事一句话概括：用 AI 加速新药研发。但它和多数「AI 制药」公司不一样——别人大多拿公开的论文和数据库去训练模型，它是自己跑到世界各地采集自然界的生物样本，把蛋白质序列做成一套专属数据集，再用这套数据训练模型来设计新的蛋白质和药物。",
-      "whySpecial": "它的护城河不在模型，而在数据来源。公开数据谁都能下载，而自然界里绝大多数微生物和极端环境物种从没被记录过。Basecamp Research 选择与一些国家合作、共享后续收益，从而拿到合法且独占的采集与使用权。这条路又慢又重，但一旦铺成，对手很难复制——这也是为什么它值得作为「数据壁垒型 AI 公司」的样本来看。",
-      "businessModel": "目前主要是与药企和研究机构做合作研发、以及数据集授权；长期看是「专有数据资产 + 领域模型 + 成果分成」的组合。它卖的不是算力也不是通用能力，而是别人没有的生物学数据入口。",
-      "backerNote": "这一轮的投资方组合很说明问题：Anthropic 是模型方，NVIDIA 是算力方，Menlo Ventures 是风投方。三方同时出现，意味着这已经不只是财务投资——模型公司想验证「大模型在垂直科学领域的真实落地」，芯片公司想证明 GPU 在科学计算上的增量需求，风投负责押赛道。看懂这层，就理解了当前产业资本的一种典型打法：用投资锁定行业数据和场景，而不只是卖 API。",
-      "numbers": [
-        { "k": "最新一轮", "v": "1.4 亿美元 C 轮" },
-        { "k": "投资方", "v": "Anthropic · Menlo Ventures · NVIDIA" },
-        { "k": "成立时间", "v": "2019 年" },
-        { "k": "所处环节", "v": "产业链中间层 · 领域数据 + 模型" }
-      ],
-      "moat": [
-        "自建的生物多样性基因数据集：专有、需要长期野外采样积累，无法靠爬公开语料补齐",
-        "与国家/机构的长期数据合作：绕开了「数据从哪来、是否合法」这个行业最大隐患",
-        "已被头部模型厂商与芯片厂商绑定，拿到的不仅是钱，还有技术协同与背书"
-      ],
-      "risks": [
-        "生物数据获取牵涉各国监管与惠益分享规则，政策一变，采集渠道可能受影响",
-        "新药研发周期以年计，商业化验证极慢，需要持续的大额资金支撑",
-        "大型药企若自建 AI 团队、或与模型厂商直接合作，可能压缩它的中间位置"
-      ],
-      "watch": [
-        "数据集规模与独占性能否持续扩大——这是它全部估值的基础",
-        "与 Anthropic 的深度绑定，会不会从「合作」变成「技术依赖」",
-        "是否出现自研管线进入临床阶段，那将是它从卖数据转向卖成果的关键一跃"
-      ],
-      "terms": ["moat", "finetune", "valuation"],
-      "questions": [
-        "药企为什么愿意为它付钱？AI 到底省掉了新药研发里的哪一步、哪一年？",
-        "如果这套数据集的独占性被削弱，这家公司的价值还剩多少？"
-      ],
-      "source": {
-        "name": "Tech.eu",
-        "title": "Anthropic with Menlo Ventures and Nvidia back Basecamp Research in $140M Series C",
-        "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/",
-        "newsId": "5e0d5e44d2467486"
-      }
+     "k": "归档提及",
+     "v": "2 条"
+    },
+    {
+     "k": "今日提及",
+     "v": "2 条"
+    },
+    {
+     "k": "活跃区间",
+     "v": "2026-09-30 单日"
+    },
+    {
+     "k": "来源家数",
+     "v": "2 家"
+    },
+    {
+     "k": "主要区域",
+     "v": "🕌 中东"
+    },
+    {
+     "k": "消息类型",
+     "v": "动态"
     }
-  ],
-  "watchlist": {
-    "title": "今日要闻里的其他初创公司",
-    "note": "这些名字出现在今天的要闻里，但还没到值得单开一篇讲的程度。先认脸，以后它们再出现时你会有印象。",
-    "items": [
-      {
-        "name": "Cyble",
-        "region": "ME",
-        "oneLiner": "网络安全公司，把威胁情报和 agentic AI 结合做主动防御",
-        "why": "与阿联酋网络安全委员会达成合作。中东的国家级数字化项目通常是「先立安全标准，再引产业」，安全类合作往往是更大型 AI 基建落地的先导信号。",
-        "url": "https://www.tahawultech.com/features/cyble-accelerates-proactive-cyber-defence-with-agentic-ai/"
-      },
-      {
-        "name": "Kontext",
-        "region": "EU",
-        "oneLiner": "给 AI 智能体做运行时安全防护，刚拿 400 万美元",
-        "why": "「智能体的安全」正在成为一个独立赛道。当 AI 能自己调工具、执行任务，谁来拦住它做错事就成了刚需——这类配套工具往往比应用本身更早赚钱。",
-        "url": "https://tech.eu/2026/09/24/kontext-raises-4m-for-runtime-security-platform-for-ai-agents/"
-      },
-      {
-        "name": "Ringg",
-        "region": "NA",
-        "oneLiner": "做多语言 AI 客服智能体，自称能独立解决 65% 的来电",
-        "why": "被 OpenAI 官方拿来当客户案例。它给出了一组最实用的落地数字：替代率 65%、成本降约 90%。评估任何 AI 应用新闻时，就找这两个数。",
-        "url": "https://openai.com/index/ringg"
-      },
-      {
-        "name": "Nscale",
-        "region": "EU",
-        "oneLiner": "英国新型算力云，被指帮字节的子公司绕开美国规则拿到英伟达芯片",
-        "why": "「合规灰区」正在变成一种商业模式。谁能把卡送到需要的人手里，谁就能赚溢价——但代价是监管风险长期悬在头上。",
-        "url": "https://sifted.eu/articles/nscale-nvidia-bytedance-tiktok/"
-      },
-      {
-        "name": "Tanami",
-        "region": "ME",
-        "oneLiner": "巴林的私募市场投资平台，拿钱扩张到卡塔尔",
-        "why": "中东本地资本基础设施正在自建。这类小新闻比大额主权基金投资更有结构意义——它说明中东不再只是「出钱方」，开始做自己的平台。",
-        "url": "http://wamda.com/2026/09/tanami-raises-new-funding-expand-qatar"
-      },
-      {
-        "name": "Reply Next",
-        "region": "EU",
-        "oneLiner": "帮多门店企业管理线上形象的 AI 平台，拿了 40 万欧元 pre-seed",
-        "why": "典型的「垂直小场景」AI 应用：不性感、盘子不大，但需求清晰。这类公司是判断 AI 落地真实温度的样本。",
-        "url": "https://tech.eu/2026/09/24/ai-platform-reply-next-secures-eur400k-pre-seed-funding/"
-      }
-    ]
+   ],
+   "timelineNote": "按时间正序读：它出现在下面这些报道里（含只被顺带提及的），共 2 条，点标题可看原文。",
+   "timeline": [
+    {
+     "date": "2026-09-30",
+     "tag": "融资",
+     "title": "Shorooq, Presight join Maven Robotics’ $100 million Series A",
+     "desc": "UAE-based Shorooq and Presight, a G42 company, have invested in US industrial robotics startup Maven Robotics as part of its $100…",
+     "why": "",
+     "kind": "news",
+     "source": {
+      "name": "Wamda",
+      "url": "http://wamda.com/2026/09/shorooq-presight-join-maven-robotics-100-million-series-a"
+     }
+    },
+    {
+     "date": "2026-09-30",
+     "tag": "动态",
+     "title": "Core42 and CSC sign MoU to advance Signature Sovereign AI Cloud in the UAE",
+     "desc": "Core42 , a G42 company specialising in sovereign enabled cloud and AI infrastructure, signed an agreement with the UAE Cyber Secur…",
+     "why": "",
+     "kind": "news",
+     "source": {
+      "name": "TahawulTech",
+      "url": "https://www.tahawultech.com/channel/core42-and-csc-sign-mou-to-advance-signature-sovereign-ai-cloud-in-the-uae/"
+     }
+    }
+   ],
+   "patternNote": "这一页由规则层自动聚合：只陈述「谁、什么时候、因为什么上了要闻」，不做主观判断，金额、轮次、投资方等没有来源支撑的字段一律不填。选择标准是当天被提及最多、且不在大厂名单里的公司，近 7 天内剖析过的不重复选。",
+   "related": [],
+   "terms": []
+  },
+  {
+   "id": "basecamp-research",
+   "date": "2026-09-28",
+   "name": "Basecamp Research",
+   "nameZh": "Basecamp Research",
+   "aliases": [
+    "basecamp"
+   ],
+   "tagline": "把大自然的基因数据，变成 AI 制药的燃料",
+   "region": "EU",
+   "country": "英国",
+   "city": "伦敦",
+   "founded": "2019 年",
+   "stage": "C 轮",
+   "amount": "1.4 亿美元",
+   "category": "AI for Science · 生物医药",
+   "investors": [
+    "Anthropic",
+    "Menlo Ventures",
+    "NVIDIA"
+   ],
+   "timelineNote": "从上往下按时间读：它什么时候成立、护城河是怎么一锹一锹挖出来的、钱从哪来、现在站在产业链的哪一层、下一步要跨哪道坎。",
+   "timeline": [
+    {
+     "date": "2019",
+     "tag": "成立",
+     "title": "在伦敦成立，选了一条又慢又重的路",
+     "desc": "不做通用大模型，而是自己跑到世界各地采集自然界的生物样本，把蛋白质序列做成一套专属数据集，再拿它去设计新的蛋白质和药物。",
+     "why": "它押的不是模型能力，而是数据的独占性——公开数据谁都能下载，自采的数据买不到、也爬不到。"
+    },
+    {
+     "date": "长期积累",
+     "tag": "合作",
+     "title": "与一些国家、机构建立长期数据合作",
+     "desc": "自然界里绝大多数微生物与极端环境物种从没被记录过。它选择与一些国家合作、共享后续收益，从而拿到合法且独占的采集与使用权。",
+     "why": "这一步顺手把行业最大的隐患——「数据从哪来、是否合法」——提前解决了，对手很难复制。"
+    },
+    {
+     "date": "2026-09-23",
+     "tag": "融资",
+     "amount": "1.4 亿美元 C 轮",
+     "title": "Anthropic、Menlo Ventures、NVIDIA 同时进入",
+     "desc": "一家模型公司、一家风投、一家芯片公司凑在同一条融资消息里，这个组合本身就值得读。",
+     "why": "三方同时出现说明不只是财务投资：模型方想验证大模型在垂直科学领域的真实落地，算力方想证明 GPU 在科学计算上的增量需求。产业资本在用投资锁定行业数据和场景，而不只是卖 API。",
+     "source": {
+      "name": "Tech.eu",
+      "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/"
+     }
+    },
+    {
+     "date": "当前",
+     "tag": "现状",
+     "title": "卖的不是算力，是别人没有的数据入口",
+     "desc": "收入主要来自与药企、研究机构的合作研发，以及数据集授权；长期目标是把「专有数据资产 + 领域模型 + 成果分成」拼起来。",
+     "why": "看清它站在产业链的哪一层，就理解了当前 AI 产业的一种典型分工：有人做通用能力，有人做垂直数据，钱两边的赚法完全不同。"
+    },
+    {
+     "date": "下一步",
+     "tag": "看点",
+     "title": "自研管线能不能进入临床",
+     "desc": "这是它从「卖数据」转向「卖成果」的关键一跃。",
+     "why": "真迈过去，天花板就从「数据供应商」变成「新药公司」；迈不过去，它长期只是别人管线里的一环。"
+    }
+   ],
+   "whatTheyDo": "一家英国生命科学公司，做的事一句话概括：用 AI 加速新药研发。但它和多数「AI 制药」公司不一样——别人大多拿公开的论文和数据库去训练模型，它是自己跑到世界各地采集自然界的生物样本，把蛋白质序列做成一套专属数据集，再用这套数据训练模型来设计新的蛋白质和药物。",
+   "whySpecial": "它的护城河不在模型，而在数据来源。公开数据谁都能下载，而自然界里绝大多数微生物和极端环境物种从没被记录过。Basecamp Research 选择与一些国家合作、共享后续收益，从而拿到合法且独占的采集与使用权。这条路又慢又重，但一旦铺成，对手很难复制——这也是为什么它值得作为「数据壁垒型 AI 公司」的样本来看。",
+   "businessModel": "目前主要是与药企和研究机构做合作研发、以及数据集授权；长期看是「专有数据资产 + 领域模型 + 成果分成」的组合。它卖的不是算力也不是通用能力，而是别人没有的生物学数据入口。",
+   "backerNote": "这一轮的投资方组合很说明问题：Anthropic 是模型方，NVIDIA 是算力方，Menlo Ventures 是风投方。三方同时出现，意味着这已经不只是财务投资——模型公司想验证「大模型在垂直科学领域的真实落地」，芯片公司想证明 GPU 在科学计算上的增量需求，风投负责押赛道。看懂这层，就理解了当前产业资本的一种典型打法：用投资锁定行业数据和场景，而不只是卖 API。",
+   "numbers": [
+    {
+     "k": "最新一轮",
+     "v": "1.4 亿美元 C 轮"
+    },
+    {
+     "k": "投资方",
+     "v": "Anthropic · Menlo Ventures · NVIDIA"
+    },
+    {
+     "k": "成立时间",
+     "v": "2019 年"
+    },
+    {
+     "k": "所处环节",
+     "v": "产业链中间层 · 领域数据 + 模型"
+    }
+   ],
+   "moat": [
+    "自建的生物多样性基因数据集：专有、需要长期野外采样积累，无法靠爬公开语料补齐",
+    "与国家/机构的长期数据合作：绕开了「数据从哪来、是否合法」这个行业最大隐患",
+    "已被头部模型厂商与芯片厂商绑定，拿到的不仅是钱，还有技术协同与背书"
+   ],
+   "risks": [
+    "生物数据获取牵涉各国监管与惠益分享规则，政策一变，采集渠道可能受影响",
+    "新药研发周期以年计，商业化验证极慢，需要持续的大额资金支撑",
+    "大型药企若自建 AI 团队、或与模型厂商直接合作，可能压缩它的中间位置"
+   ],
+   "watch": [
+    "数据集规模与独占性能否持续扩大——这是它全部估值的基础",
+    "与 Anthropic 的深度绑定，会不会从「合作」变成「技术依赖」",
+    "是否出现自研管线进入临床阶段，那将是它从卖数据转向卖成果的关键一跃"
+   ],
+   "terms": [
+    "moat",
+    "finetune",
+    "valuation"
+   ],
+   "questions": [
+    "药企为什么愿意为它付钱？AI 到底省掉了新药研发里的哪一步、哪一年？",
+    "如果这套数据集的独占性被削弱，这家公司的价值还剩多少？"
+   ],
+   "source": {
+    "name": "Tech.eu",
+    "title": "Anthropic with Menlo Ventures and Nvidia back Basecamp Research in $140M Series C",
+    "url": "https://tech.eu/2026/09/23/anthropic-and-nvidia-back-basecamp-research-in-140m-series-c/",
+    "newsId": "5e0d5e44d2467486"
+   }
   }
+ ],
+ "watchlist": {
+  "title": "今日要闻里的其他初创公司",
+  "note": "这些名字出现在今天的要闻里，但还没到值得单开一篇讲的程度。先认脸，以后它们再出现时你会有印象。",
+  "items": [
+   {
+    "name": "Cyble",
+    "region": "ME",
+    "oneLiner": "网络安全公司，把威胁情报和 agentic AI 结合做主动防御",
+    "why": "与阿联酋网络安全委员会达成合作。中东的国家级数字化项目通常是「先立安全标准，再引产业」，安全类合作往往是更大型 AI 基建落地的先导信号。",
+    "url": "https://www.tahawultech.com/features/cyble-accelerates-proactive-cyber-defence-with-agentic-ai/"
+   },
+   {
+    "name": "Kontext",
+    "region": "EU",
+    "oneLiner": "给 AI 智能体做运行时安全防护，刚拿 400 万美元",
+    "why": "「智能体的安全」正在成为一个独立赛道。当 AI 能自己调工具、执行任务，谁来拦住它做错事就成了刚需——这类配套工具往往比应用本身更早赚钱。",
+    "url": "https://tech.eu/2026/09/24/kontext-raises-4m-for-runtime-security-platform-for-ai-agents/"
+   },
+   {
+    "name": "Ringg",
+    "region": "NA",
+    "oneLiner": "做多语言 AI 客服智能体，自称能独立解决 65% 的来电",
+    "why": "被 OpenAI 官方拿来当客户案例。它给出了一组最实用的落地数字：替代率 65%、成本降约 90%。评估任何 AI 应用新闻时，就找这两个数。",
+    "url": "https://openai.com/index/ringg"
+   },
+   {
+    "name": "Nscale",
+    "region": "EU",
+    "oneLiner": "英国新型算力云，被指帮字节的子公司绕开美国规则拿到英伟达芯片",
+    "why": "「合规灰区」正在变成一种商业模式。谁能把卡送到需要的人手里，谁就能赚溢价——但代价是监管风险长期悬在头上。",
+    "url": "https://sifted.eu/articles/nscale-nvidia-bytedance-tiktok/"
+   },
+   {
+    "name": "Tanami",
+    "region": "ME",
+    "oneLiner": "巴林的私募市场投资平台，拿钱扩张到卡塔尔",
+    "why": "中东本地资本基础设施正在自建。这类小新闻比大额主权基金投资更有结构意义——它说明中东不再只是「出钱方」，开始做自己的平台。",
+    "url": "http://wamda.com/2026/09/tanami-raises-new-funding-expand-qatar"
+   },
+   {
+    "name": "Reply Next",
+    "region": "EU",
+    "oneLiner": "帮多门店企业管理线上形象的 AI 平台，拿了 40 万欧元 pre-seed",
+    "why": "典型的「垂直小场景」AI 应用：不性感、盘子不大，但需求清晰。这类公司是判断 AI 落地真实温度的样本。",
+    "url": "https://tech.eu/2026/09/24/ai-platform-reply-next-secures-eur400k-pre-seed-funding/"
+   }
+  ]
+ }
 }

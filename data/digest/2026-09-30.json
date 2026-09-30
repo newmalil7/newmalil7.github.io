@@ -1,11 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-09-30",
- "generatedAt": "2026-09-30T02:02:58.523Z",
+ "generatedAt": "2026-09-30T02:25:28.049Z",
  "mode": "rule",
  "counts": {
-  "crawled": 417,
+  "crawled": 498,
   "published": 160,
+  "newCount": 149,
+  "repeatCount": 11,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -15,61 +17,69 @@
    "NA": 24,
    "OTHER": 24
   },
-  "sourceOk": 25,
-  "sourceTotal": 29,
+  "sourceOk": 29,
+  "sourceTotal": 30,
   "regions": 7
  },
  "freshness": {
-  "within24h": 128,
-  "withinFresh": 135,
+  "within24h": 141,
+  "withinFresh": 148,
   "freshHours": 72,
-  "monthPrecision": 18,
+  "monthPrecision": 5,
   "undated": 0,
-  "staleDropped": 47,
-  "newestAt": "2026-09-30T10:51:12.000Z"
+  "staleDropped": 31,
+  "newestAt": "2026-09-30T10:00:00.000Z"
  },
  "themes": [
   {
    "name": "产品与应用",
-   "n": 59
+   "n": 57
   },
   {
    "name": "资本与市场",
-   "n": 45
+   "n": 40
   },
   {
    "name": "模型与能力",
-   "n": 24
+   "n": 26
   },
   {
    "name": "算力与基建",
-   "n": 20
+   "n": 26
   },
   {
    "name": "产业与生态",
-   "n": 18
+   "n": 15
   },
   {
    "name": "政策与治理",
-   "n": 16
+   "n": 12
   }
  ],
  "entities": [
   {
    "name": "OpenAI",
-   "n": 34
+   "n": 35
   },
   {
    "name": "Anthropic",
-   "n": 11
+   "n": 12
+  },
+  {
+   "name": "NVIDIA",
+   "n": 10
   },
   {
    "name": "Meta",
    "n": 9
   },
   {
-   "name": "NVIDIA",
-   "n": 8
+   "name": "DeepSeek",
+   "n": 4
+  },
+  {
+   "name": "AMD",
+   "n": 4
   },
   {
    "name": "Microsoft",
@@ -78,14 +88,6 @@
   {
    "name": "Google",
    "n": 4
-  },
-  {
-   "name": "DeepSeek",
-   "n": 3
-  },
-  {
-   "name": "xAI",
-   "n": 2
   }
  ],
  "topOverall": [
@@ -106,7 +108,9 @@
     "Anthropic",
     "Meta",
     "DeepSeek"
-   ]
+   ],
+   "firstSeen": "2026-09-30",
+   "isNew": true
   },
   {
    "id": "a60fb3bba753cb78",
@@ -124,7 +128,9 @@
    "entities": [
     "OpenAI",
     "Anthropic"
-   ]
+   ],
+   "firstSeen": "2026-09-30",
+   "isNew": true
   },
   {
    "id": "638d5dd27646938e",
@@ -141,7 +147,9 @@
    "entities": [
     "OpenAI",
     "xAI"
-   ]
+   ],
+   "firstSeen": "2026-09-30",
+   "isNew": true
   },
   {
    "id": "5d2b54c185f9bf86",
@@ -160,7 +168,9 @@
     "OpenAI",
     "华为",
     "DeepSeek"
-   ]
+   ],
+   "firstSeen": "2026-09-30",
+   "isNew": true
   },
   {
    "id": "42ea2a2a274fbf44",
@@ -179,23 +189,49 @@
     "OpenAI",
     "NVIDIA",
     "AMD"
-   ]
+   ],
+   "firstSeen": "2026-09-30",
+   "isNew": true
   },
   {
-   "id": "15f92c500d5e46cf",
-   "title": "OpenAI’s latest features take direct aim at the app store model",
-   "source": "TechCrunch AI",
+   "id": "5844f9ef8334591d",
+   "title": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
+   "source": "Ars Technica AI",
    "region": "NA",
-   "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
-   "importance": 95,
-   "difficulty": "入门",
-   "publishedAt": "2026-09-29T20:15:47.000Z",
+   "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+   "importance": 98,
+   "difficulty": "进阶",
+   "publishedAt": "2026-09-29T21:14:49.000Z",
    "topics": [
-    "产品与应用"
+    "资本与市场",
+    "算力与基建"
    ],
    "entities": [
-    "OpenAI"
-   ]
+    "NVIDIA",
+    "AMD"
+   ],
+   "firstSeen": "2026-09-30",
+   "isNew": true
+  },
+  {
+   "id": "b132278e37ec3196",
+   "title": "OpenClaw Foundation launches open-source AI agent platform",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/openclaw-foundation-launches-open-source-ai-agent-platform",
+   "importance": 94,
+   "difficulty": "进阶",
+   "publishedAt": "2026-09-30T02:13:55.000Z",
+   "topics": [
+    "产品与应用",
+    "算力与基建"
+   ],
+   "entities": [
+    "OpenAI",
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-09-30",
+   "isNew": true
   },
   {
    "id": "8625b6ee758f9928",
@@ -212,25 +248,9 @@
    "entities": [
     "OpenAI",
     "Microsoft"
-   ]
-  },
-  {
-   "id": "12d1a42e5b4e196f",
-   "title": "Meta’s Muse AI sent a YouTuber’s address to a stranger",
-   "source": "The Verge AI",
-   "region": "NA",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
-   "importance": 94,
-   "difficulty": "入门",
-   "publishedAt": "2026-09-29T14:08:21.000Z",
-   "topics": [
-    "产品与应用"
    ],
-   "entities": [
-    "OpenAI",
-    "Anthropic",
-    "Meta"
-   ]
+   "firstSeen": "2026-09-30",
+   "isNew": true
   }
  ],
  "regions": [
@@ -257,7 +277,9 @@
      "entities": [
       "OpenAI",
       "Anthropic"
-     ]
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     },
     {
      "id": "5d2b54c185f9bf86",
@@ -276,7 +298,9 @@
       "OpenAI",
       "华为",
       "DeepSeek"
-     ]
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     },
     {
      "id": "42ea2a2a274fbf44",
@@ -295,7 +319,9 @@
       "OpenAI",
       "NVIDIA",
       "AMD"
-     ]
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     }
    ]
   },
@@ -323,7 +349,29 @@
       "Anthropic",
       "Meta",
       "DeepSeek"
-     ]
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
+    },
+    {
+     "id": "b132278e37ec3196",
+     "title": "OpenClaw Foundation launches open-source AI agent platform",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/openclaw-foundation-launches-open-source-ai-agent-platform",
+     "importance": 94,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-30T02:13:55.000Z",
+     "topics": [
+      "产品与应用",
+      "算力与基建"
+     ],
+     "entities": [
+      "OpenAI",
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     },
     {
      "id": "8625b6ee758f9928",
@@ -340,23 +388,9 @@
      "entities": [
       "OpenAI",
       "Microsoft"
-     ]
-    },
-    {
-     "id": "f3219e35842e7875",
-     "title": "OpenAI seeks $30b in funding at $1.4t valuation: report",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/openai-seeks-30b-funding-14t-valuation-report",
-     "importance": 91,
-     "difficulty": "入门",
-     "publishedAt": "2026-09-30T02:02:21.000Z",
-     "topics": [
-      "资本与市场"
      ],
-     "entities": [
-      "OpenAI"
-     ]
+     "firstSeen": "2026-09-30",
+     "isNew": true
     }
    ]
   },
@@ -382,24 +416,25 @@
      ],
      "entities": [
       "NVIDIA"
-     ]
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     },
     {
-     "id": "3f105720a885bc49",
-     "title": "Tanami raises new funding to expand into Qatar",
-     "source": "Wamda",
+     "id": "2aaa7dc57ccc5525",
+     "title": "UAE launches world-first mobile network with speeds of up to 10Gbps",
+     "source": "Arabian Business",
      "region": "ME",
-     "url": "http://wamda.com/2026/09/tanami-raises-new-funding-expand-qatar",
-     "importance": 74,
+     "url": "https://www.arabianbusiness.com/business/technology/uae-launches-world-first-mobile-network-with-speeds-of-up-to-10gbps",
+     "importance": 72,
      "difficulty": "入门",
-     "publishedAt": "2026-09-01T12:00:00.000Z",
+     "publishedAt": "2026-09-30T01:36:11.000Z",
      "topics": [
-      "资本与市场",
       "产品与应用"
      ],
-     "entities": [
-      "Arm"
-     ]
+     "entities": [],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     },
     {
      "id": "fff119f68beabe9a",
@@ -415,9 +450,11 @@
       "产业与生态"
      ],
      "entities": [
-      "huawei",
-      "huawei cloud"
-     ]
+      "华为",
+      "华为云"
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     }
    ]
   },
@@ -444,19 +481,9 @@
      "entities": [
       "Google",
       "Microsoft"
-     ]
-    },
-    {
-     "id": "8838c1ce9c2e6483",
-     "title": "이 대통령이 꺼낸 ‘태양광 농사’…패널 아래서도 쌀농사 될까",
-     "source": "AI타임스",
-     "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=215774",
-     "importance": 66,
-     "difficulty": "进阶",
-     "publishedAt": "2026-09-30T10:51:12.000Z",
-     "topics": [],
-     "entities": []
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     },
     {
      "id": "77003f297703360a",
@@ -468,7 +495,23 @@
      "difficulty": "进阶",
      "publishedAt": "2026-09-29T21:00:00.000Z",
      "topics": [],
-     "entities": []
+     "entities": [],
+     "firstSeen": "2026-09-30",
+     "isNew": true
+    },
+    {
+     "id": "86d422108ce1fdb4",
+     "title": "[OPINION] ‘과장’을 파는 AI 빅테크의 노림수",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/opinion-%ea%b3%bc%ec%9e%a5%ec%9d%84-%ed%8c%8c%eb%8a%94-ai-%eb%b9%85%ed%85%8c%ed%81%ac/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-29T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     }
    ]
   },
@@ -491,7 +534,9 @@
      "topics": [
       "资本与市场"
      ],
-     "entities": []
+     "entities": [],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     },
     {
      "id": "67a0564ed12a9e05",
@@ -505,7 +550,9 @@
      "topics": [
       "资本与市场"
      ],
-     "entities": []
+     "entities": [],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     },
     {
      "id": "9cd4994279078a05",
@@ -519,7 +566,9 @@
      "topics": [
       "资本与市场"
      ],
-     "entities": []
+     "entities": [],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     }
    ]
   },
@@ -545,41 +594,48 @@
      "entities": [
       "OpenAI",
       "xAI"
-     ]
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     },
     {
-     "id": "15f92c500d5e46cf",
-     "title": "OpenAI’s latest features take direct aim at the app store model",
-     "source": "TechCrunch AI",
+     "id": "5844f9ef8334591d",
+     "title": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
+     "source": "Ars Technica AI",
      "region": "NA",
-     "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
-     "importance": 95,
-     "difficulty": "入门",
-     "publishedAt": "2026-09-29T20:15:47.000Z",
+     "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+     "importance": 98,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-29T21:14:49.000Z",
      "topics": [
-      "产品与应用"
+      "资本与市场",
+      "算力与基建"
      ],
      "entities": [
-      "OpenAI"
-     ]
+      "NVIDIA",
+      "AMD"
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     },
     {
-     "id": "12d1a42e5b4e196f",
-     "title": "Meta’s Muse AI sent a YouTuber’s address to a stranger",
-     "source": "The Verge AI",
+     "id": "a9b28c54e50a8d2f",
+     "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+     "source": "TechCrunch AI",
      "region": "NA",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
-     "importance": 94,
+     "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+     "importance": 93,
      "difficulty": "入门",
-     "publishedAt": "2026-09-29T14:08:21.000Z",
+     "publishedAt": "2026-09-29T17:45:51.000Z",
      "topics": [
       "产品与应用"
      ],
      "entities": [
       "OpenAI",
-      "Anthropic",
-      "Meta"
-     ]
+      "Microsoft"
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     }
    ]
   },
@@ -603,21 +659,9 @@
       "资本与市场",
       "算力与基建"
      ],
-     "entities": []
-    },
-    {
-     "id": "9f3d741efd79f053",
-     "title": "[Update] AceVector IPO Closes With 4.93X Oversubscription",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/acevector-ipo-oversubscribed-2-59x-on-day-3-so-far/",
-     "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-09-29T14:25:01.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": []
+     "entities": [],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     },
     {
      "id": "820485835a085056",
@@ -632,10 +676,30 @@
       "资本与市场",
       "产品与应用"
      ],
-     "entities": []
+     "entities": [],
+     "firstSeen": "2026-09-30",
+     "isNew": true
+    },
+    {
+     "id": "0f1dd4db1699f351",
+     "title": "Home Affairs orders gov-wide 'legacy' system stocktake within six months",
+     "source": "iTnews Australia",
+     "region": "OTHER",
+     "url": "https://www.itnews.com.au/news/home-affairs-orders-gov-wide-legacy-system-stocktake-within-six-months-629313?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+     "importance": 75,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-30T00:08:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     }
    ]
   }
  ],
- "overview": "9 月 30 日，共从 25 个信息源抓取 417 条 AI 产业动态，其中 160 条进入当日精选，覆盖 7 个区域。其中有 128 条发布于 24 小时内。当日最集中的板块是「产品与应用」59 条、「资本与市场」45 条。值得优先关注的几条：「OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了」（爱范儿）、「早报｜曝苹果新CEO想更快发产品/华为Mate 90真机进店/GPT‑6.1 Sol推出，价格仅Astra的五分之一」（爱范儿）、「8点1氪丨10月1日起将对居民购房实施贷款贴息；AMD回应收购李飞飞公司；网红超长蛋挞全是皮没蛋液？鲍师傅回应」（36氪）。"
+ "overview": "9 月 30 日，共从 29 个信息源抓取 498 条 AI 产业动态，其中 160 条进入当日精选，覆盖 7 个区域。其中有 141 条发布于 24 小时内。其中 149 条是此前未出现过的新增内容，另有 11 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」57 条、「资本与市场」40 条。值得优先关注的几条：「OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了」（爱范儿）、「早报｜曝苹果新CEO想更快发产品/华为Mate 90真机进店/GPT‑6.1 Sol推出，价格仅Astra的五分之一」（爱范儿）、「8点1氪丨10月1日起将对居民购房实施贷款贴息；AMD回应收购李飞飞公司；网红超长蛋挞全是皮没蛋液？鲍师傅回应」（36氪）。"
 }

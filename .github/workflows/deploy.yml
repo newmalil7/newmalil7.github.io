@@ -3,12 +3,17 @@ name: Deploy AI 瞭望台
 # 触发：
 #   1) 推送到 main 分支（首次部署 / 手动更新）
 #   2) 定时：北京时间 09:00 = UTC 01:00 每日自动抓取刷新
-#   3) 手动：在 Actions 页面点 Run workflow
+#   3) 定时兜底：北京时间 12:00 = UTC 04:00 再刷一次
+#      —— GitHub 的 schedule 在整点容易延迟甚至被跳过，只排一次的风险是
+#         「当天没有新内容」。第三次补刷时抓取器会重新策展，跨天去重保证
+#         结果稳定（内容没变就不会产生新提交）。
+#   4) 手动：在 Actions 页面点 Run workflow
 on:
   push:
     branches: [main]
   schedule:
     - cron: '0 1 * * *'
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 # contents: write —— 用于把「每日归档 + 总结」提交回仓库，实现按日累积，
@@ -46,7 +51,7 @@ jobs:
           git config user.name "ai-horizon-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B main
-          git add -f data/news-latest.json data/archive data/archive-index.json data/digest data/digests.json data/companies.json
+          git add -f data/news-latest.json data/archive data/archive-index.json data/digest data/digests.json data/companies.json data/profiles.json
           if git diff --cached --quiet; then
             echo "本日数据无变化，跳过提交"
             exit 0
