@@ -1,17 +1,17 @@
 {
  "schema": "ai-horizon/v1",
- "generatedAt": "2026-09-30T01:57:34.919Z",
+ "generatedAt": "2026-09-30T02:02:58.523Z",
  "date": "2026-09-30",
  "enrichMode": "rule",
  "stats": {
-  "total": 418,
+  "total": 417,
   "byRegion": {
    "CN": 126,
    "SEA": 32,
    "ME": 34,
    "JPKR": 16,
    "EU": 64,
-   "NA": 57,
+   "NA": 56,
    "OTHER": 89
   },
   "sourceTotal": 29,
@@ -19,16 +19,21 @@
   "freshness": {
    "maxAgeHours": 168,
    "freshHours": 72,
-   "within24h": 233,
+   "within24h": 232,
    "withinFresh": 338,
    "monthPrecision": 20,
    "undated": 0,
-   "staleDropped": 46,
+   "staleDropped": 47,
    "staleSources": [
     "Synced Review"
    ]
   },
   "failures": [
+   {
+    "id": "qbitai",
+    "name": "量子位",
+    "error": "HTTP 403"
+   },
    {
     "id": "arabianbusiness",
     "name": "Arabian Business",
@@ -38,11 +43,6 @@
     "id": "itp-net",
     "name": "ITP.net",
     "error": "HTTP 405"
-   },
-   {
-    "id": "qbitai",
-    "name": "量子位",
-    "error": "HTTP 403"
    },
    {
     "id": "synced",
@@ -55,6 +55,45 @@
  },
  "curated": true,
  "items": [
+  {
+   "title": "Can Meta charm you away from your phone?",
+   "url": "https://www.techinasia.com/meta-charm-phone",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "Newsletters",
+    "ai agent",
+    "Anthropic",
+    "artificial intelligence"
+   ],
+   "summary": "Meta charms its way in the AI race. Also: Anthropic’s IPO prospectus, retailers’ AI shopping dilemma, and looking past DeepSeek’s cheap price tag.",
+   "publishedAt": "2026-09-30T02:00:39.000Z",
+   "id": "5bd68ddcadc37867",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    }
+   ],
+   "entities": [
+    "Anthropic",
+    "Meta",
+    "DeepSeek"
+   ],
+   "difficulty": "进阶",
+   "importance": 99,
+   "plainHint": "钱在往哪里流，行业重心就在哪里"
+  },
   {
    "title": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了",
    "url": "https://www.ifanr.com/1682571?utm_source=rss&utm_medium=rss&utm_campaign=",
@@ -316,6 +355,38 @@
    "difficulty": "入门",
    "importance": 93,
    "plainHint": "AI 具体被拿去做成了什么能用的东西"
+  },
+  {
+   "title": "OpenAI seeks $30b in funding at $1.4t valuation: report",
+   "url": "https://www.techinasia.com/news/openai-seeks-30b-funding-14t-valuation-report",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "News",
+    "ai",
+    "openai",
+    "sam altman"
+   ],
+   "summary": "The FTC opened an investigation into ChatGPT’s data security and false outputs in 2023.",
+   "publishedAt": "2026-09-30T02:02:21.000Z",
+   "id": "f3219e35842e7875",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "difficulty": "入门",
+   "importance": 91,
+   "plainHint": "钱在往哪里流，行业重心就在哪里"
   },
   {
    "title": "ChatGPT 一夜抄完半个 AI 圈，现场演示频频翻车",
@@ -801,19 +872,17 @@
    "plainHint": "钱在往哪里流，行业重心就在哪里"
   },
   {
-   "title": "Agent扎堆金融：一场真正的AI大考开始了",
-   "url": "https://www.tmtpost.com/8155852.html",
+   "title": "价值判断：涨停板的投资机会和风险提示（9月29日）｜上市公司观察",
+   "url": "https://www.tmtpost.com/8156783.html",
    "source": "钛媒体",
    "sourceId": "tmtpost",
    "sourceTier": 2,
    "region": "CN",
    "lang": "zh",
-   "categories": [
-    "投稿"
-   ],
-   "summary": "文 | 产业家 金融是人类商业社会中“信任体系”的最高形态，这套在最严苛环境下磨炼出来的智能体准入、权限划分、操作审计与熔断机制，是一套严格的Agent工业级标准。 未来，这套机制可以毫不费力地下沉到自动驾驶的调度计费、智能制造的供应链自动采购、乃至智能政务的资金划拨之中。站在这个角度来看，金融行业今天在Agent落地中踩的所有坑、立的所有规矩，实际上是在替未来整个智能商业世界打造Agent的“信任样板”。 2026年以来，金融行业正在成为Agent落地最热闹的行业之一。 过去几个月， 大模型厂商、云厂商、金融科技公司几乎同时把金融推到了Agent落地的前排。 6月，阿里云金融级通用智能体平台“点金”亮相中国国际金融展，主打投研、投顾、信贷、风控、理赔、营销、客服等金融业务流程中的任务执行，不再只停留在问答和摘要层面；同月，字节旗下扣子Coze 3.…",
-   "publishedAt": "2026-09-29T10:03:29.000Z",
-   "id": "ac90d219d3897ddc",
+   "categories": [],
+   "summary": "一、市场概览 9月29日，A 股三大指数低开后震荡走高、尾盘小幅收涨，全天呈“指数缩量小涨、题材热点扩散”走势。上证指数涨 0.18% 报 3830.45 点，深证成指涨 0.34% 报 12901.95 点，创业板指涨 0.09% 报3142.56 点，沪深两市成交额约 1.41 万亿元，较前一交易日明显缩量。个股涨多跌少，全市场约 3471 只个股上涨、1933 只个股下跌，涨停个股 57 只、跌停个股 11 只。 盘面上，固态电池、房地产与物业、网络安全与 AI 安全、PCB 与覆铜板、文化传媒与 AI 应用等方向涨幅居前，七部门联合印发《新型电池产业发展“十五五”规划》带动电池股集体异动，国务院常务会议研究稳定房地产市场政策推动地产链走强，海外人工智能模型安全事件与英伟达发布智能体安全平台共同推升网络安全板块；培育钻石、玉米、煤炭、石油石化…",
+   "publishedAt": "2026-09-30T01:56:44.000Z",
+   "id": "c26001cf224de2f1",
    "topics": [
     {
      "id": "product",
@@ -821,17 +890,16 @@
      "color": "#10b981"
     },
     {
-     "id": "model",
-     "name": "模型与能力",
-     "color": "#6d5efc"
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
     }
    ],
    "entities": [
-    "阿里巴巴",
-    "字节跳动"
+    "NVIDIA"
    ],
    "difficulty": "进阶",
-   "importance": 84,
+   "importance": 83,
    "plainHint": "AI 具体被拿去做成了什么能用的东西"
   },
   {
@@ -1171,37 +1239,6 @@
    "plainHint": "AI 具体被拿去做成了什么能用的东西"
   },
   {
-   "title": "Ex-Soulfull MD Prashant Parameswaran Launches Arovia To Build Regional Food Brands Portfolio",
-   "url": "https://inc42.com/buzz/ex-soulfull-md-prashant-parameswaran-launches-arovia-to-build-regional-food-brands-portfolio/",
-   "source": "Inc42",
-   "sourceId": "inc42",
-   "sourceTier": 1,
-   "region": "OTHER",
-   "lang": "en",
-   "categories": [
-    "News"
-   ],
-   "summary": "Ex-Soulfull managing director and cofounder Prashant Parameswaran has launched Arovia Consumer, a new ecommerce rollup venture that intends to acquire controlling stakes in established regional packaged-food businesses. The new venture has secured a ₹100 Cr capital commitment from Fireside Ventures, with the investment to be drawn down as Arovia closes acquisitions. The startup…",
-   "publishedAt": "2026-09-29T14:00:45.000Z",
-   "id": "820485835a085056",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    },
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 81,
-   "plainHint": "钱在往哪里流，行业重心就在哪里"
-  },
-  {
    "title": "广州：房地产开发企业收取的定金不得高于房屋总价5%",
    "url": "https://36kr.com/newsflashes/4005252741222280?f=rss",
    "source": "36氪",
@@ -1378,35 +1415,6 @@
    "plainHint": "又有人把 AI 的\"脑子\"升级了一代"
   },
   {
-   "title": "Manus 回来了，可Agent 的战场已经挤满对手",
-   "url": "https://36kr.com/p/4004527155171460?f=rss",
-   "source": "36氪",
-   "sourceId": "36kr",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "文｜李炤锋 编辑 ｜ 张雨忻 2025 年3月6日，Manus 上线那天，办公室里一群工程师看着一张 Manus生成的NBA 球员象限图，觉得十分亮眼——图上排着球员头像，基于得分和投篮次数分布。创始人肖弘后来回忆，让他们意外的不是象限图有多难画，而是过去得由人一步步完成的活，现在只需交代要求，Agent 就能一路做到交付。 一年后，Manus 团队把这段回忆写进公开信，肖弘在这封信的开头，用一句话概括最初的念头：“AI 不仅应该思考，还应该行动。” Manus生成的分析图 昨天，恢复独立运营的 Manus 发布了 2.0 版本，同时推出面向个人事务的独立应用 Cue。官方介绍显示，2.0 升级了自研 Agent 框架 Cascade；自动化任务可以由新邮件、日历事件等触发。原有桌面应用升级为 Manus Studio，加入可修改初剪时间线的视频编辑…",
-   "publishedAt": "2026-09-29T14:01:34.000Z",
-   "id": "e5469d9fb279f397",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    },
-    {
-     "id": "industry",
-     "name": "产业与生态",
-     "color": "#8b5cf6"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 80,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西"
-  },
-  {
    "title": "Milan-based biotech Aptadir Therapeutics raises $45M seed round",
    "url": "https://tech.eu/2026/09/29/milan-based-biotech-aptadir-therapeutics-raises-45m-seed-round/",
    "source": "Tech.eu",
@@ -1485,6 +1493,37 @@
    "plainHint": "钱在往哪里流，行业重心就在哪里"
   },
   {
+   "title": "一文速览OpenAI DevDay，欢迎来到Agent时代",
+   "url": "https://www.tmtpost.com/8156660.html",
+   "source": "钛媒体",
+   "sourceId": "tmtpost",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "文 | 字母AI 凌晨一点，准时蹲在OpenAI DevDay的直播间。 直播大概一个小时，更新恨不得有20多个，一场直播下来，震惊到椅子爆炸，瘫坐在地，久久不能平息（doge）。 OpenAI先端出24小时在线的Dot，又给人和Agent盖了一间共同工作的Space，GPT-6.1 Sol登场，Ultrafast模式、Pro 500接踵而至。 这篇文章，我将用最直白、最简单、最不绕弯子的方式，快速带你们看懂这次DevDay到底发了什么，有哪些真的能改变生活、哪些只是补课。 以及，狠狠地给OpenAI抓点漏洞，看看他们这次回避了哪些问题。 DevDay新品/更新速览 一、Dot 放在最前面的当然是这次最重要的新产品。 这是一个你不用一直盯着、也不用每次重新交代背景的常驻Agent。 你可以把它简单理解成Muse和Cue的中间形态。 它首先像Muse…",
+   "publishedAt": "2026-09-30T01:44:46.000Z",
+   "id": "4f57e1f8b4dad2a3",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    }
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "difficulty": "进阶",
+   "importance": 79,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西"
+  },
+  {
    "title": "当“AI饲料”，我都被AI嫌弃了？",
    "url": "https://www.tmtpost.com/8155815.html",
    "source": "钛媒体",
@@ -1512,37 +1551,6 @@
     "OpenAI"
    ],
    "difficulty": "高级",
-   "importance": 79,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西"
-  },
-  {
-   "title": "Manus 要做AI时代的“全家桶”",
-   "url": "https://www.tmtpost.com/8155978.html",
-   "source": "钛媒体",
-   "sourceId": "tmtpost",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [
-    "投稿"
-   ],
-   "summary": "文 | 影子备忘录 那个靠一个邀请码炒到10万元的Manus，在恢复独立运营不到一个月后，扔出了一颗重磅炸弹。 9月28日深夜，Manus正式发布2.0版本，同时推出面向个人生活场景的独立智能体应用Cue。官方博客罕见地用了“We're back”作为开篇，创始人肖弘更是在社交媒体上直言：“Manus挺像一个卖电脑的生意。” 一个AI Agent公司，为什么说自己在卖电脑？要理解这背后的战略逻辑，得先看Manus 2.0到底端出了一桌什么菜。 Manus想通吃“全家桶” Manus 2.0的更新如果用一句话概括，就是从“帮你完成一个任务”变成了“帮你搭建一整套工作环境”。 从底向上看，这次的升级分三层。 最底层是自研Agent框架Cascade。它的设计思路很反直觉，就是让项目在起步阶段尽量轻，只在任务真正需要时才调用专业能力。 官方测试数据显示，C…",
-   "publishedAt": "2026-09-29T10:12:45.000Z",
-   "id": "a2a8663d58a8f1d8",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    },
-    {
-     "id": "industry",
-     "name": "产业与生态",
-     "color": "#8b5cf6"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
    "importance": 79,
    "plainHint": "AI 具体被拿去做成了什么能用的东西"
   },
@@ -1719,6 +1727,35 @@
    "plainHint": "钱在往哪里流，行业重心就在哪里"
   },
   {
+   "title": "大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
+   "url": "https://www.infoq.cn/article/O5pKYU5hfR2DgrXP6zRE?utm_source=rss&utm_medium=article",
+   "source": "InfoQ 中国",
+   "sourceId": "infoq-cn",
+   "sourceTier": 1,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "<div align='right'><a href='https://www.infoq.cn/article/O5pKYU5hfR2DgrXP6zRE?utm_source=rss&utm_medium=article'>点击查看原文></a></div>",
+   "publishedAt": "2026-09-29T15:49:30.000Z",
+   "id": "3d915b5f0277b2bb",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 78,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代"
+  },
+  {
    "title": "[Update] AceVector IPO Closes With 4.93X Oversubscription",
    "url": "https://inc42.com/buzz/acevector-ipo-oversubscribed-2-59x-on-day-3-so-far/",
    "source": "Inc42",
@@ -1772,6 +1809,37 @@
    "difficulty": "入门",
    "importance": 77,
    "plainHint": "AI 具体被拿去做成了什么能用的东西"
+  },
+  {
+   "title": "Ex-Soulfull MD Prashant Parameswaran Launches Arovia To Build Regional Food Brands Portfolio",
+   "url": "https://inc42.com/buzz/ex-soulfull-md-prashant-parameswaran-launches-arovia-to-build-regional-food-brands-portfolio/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "News"
+   ],
+   "summary": "Ex-Soulfull managing director and cofounder Prashant Parameswaran has launched Arovia Consumer, a new ecommerce rollup venture that intends to acquire controlling stakes in established regional packaged-food businesses. The new venture has secured a ₹100 Cr capital commitment from Fireside Ventures, with the investment to be drawn down as Arovia closes acquisitions. The startup…",
+   "publishedAt": "2026-09-29T14:00:45.000Z",
+   "id": "820485835a085056",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 76,
+   "plainHint": "钱在往哪里流，行业重心就在哪里"
   },
   {
    "title": "Reco raises $55M as AI agent security startups crowd the market",
@@ -3436,36 +3504,6 @@
    "plainHint": "规则制定者正在给 AI 划边界"
   },
   {
-   "title": "What Irish tech companies need to know about the EU’s CRA",
-   "url": "https://www.siliconrepublic.com/enterprise/what-irish-tech-companies-need-to-know-about-the-eus-cra",
-   "source": "Silicon Republic",
-   "sourceId": "siliconrepublic",
-   "sourceTier": 2,
-   "region": "EU",
-   "lang": "en",
-   "categories": [
-    "Enterprise",
-    "cybersecurity",
-    "EU",
-    "Guest Column",
-    "Ireland"
-   ],
-   "summary": "ServiceNow’s Anna Mazzone discusses obligations of the Cyber Resilience Act and why more Irish software firms may be in scope than most realise. Read more: What Irish tech companies need to know about the EU’s CRA",
-   "publishedAt": "2026-09-29T14:00:22.000Z",
-   "id": "eef544280bc645a9",
-   "topics": [
-    {
-     "id": "policy",
-     "name": "政策与治理",
-     "color": "#ef4444"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 65,
-   "plainHint": "规则制定者正在给 AI 划边界"
-  },
-  {
    "title": "Rela lands strategic investment to scale workforce housing in Saudi Arabia",
    "url": "http://wamda.com/2026/09/rela-lands-strategic-investment-scale-workforce-housing-saudi-arabia",
    "source": "Wamda",
@@ -3801,6 +3839,36 @@
    "plainHint": "钱在往哪里流，行业重心就在哪里"
   },
   {
+   "title": "What Irish tech companies need to know about the EU’s CRA",
+   "url": "https://www.siliconrepublic.com/enterprise/what-irish-tech-companies-need-to-know-about-the-eus-cra",
+   "source": "Silicon Republic",
+   "sourceId": "siliconrepublic",
+   "sourceTier": 2,
+   "region": "EU",
+   "lang": "en",
+   "categories": [
+    "Enterprise",
+    "cybersecurity",
+    "EU",
+    "Guest Column",
+    "Ireland"
+   ],
+   "summary": "ServiceNow’s Anna Mazzone discusses obligations of the Cyber Resilience Act and why more Irish software firms may be in scope than most realise. Read more: What Irish tech companies need to know about the EU’s CRA",
+   "publishedAt": "2026-09-29T14:00:22.000Z",
+   "id": "eef544280bc645a9",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 60,
+   "plainHint": "规则制定者正在给 AI 划边界"
+  },
+  {
    "title": "CoinSwitch turns profitable in FY26 on adjusted EBITDA as revenue jumps 150%",
    "url": "https://yourstory.com/2026/09/coinswitch-turns-profitable-fy26-revenue-jumps-150-percent",
    "source": "YourStory",
@@ -4018,54 +4086,6 @@
    "summary": "",
    "publishedAt": "2026-09-29T09:17:53.000Z",
    "id": "19d05e1decf7add1",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 57,
-   "plainHint": "行业又有了新动向"
-  },
-  {
-   "title": "MY fintech firm AhaPay expands QR network with Share Commerce",
-   "url": "https://www.techinasia.com/news/fintech-firm-ahapay-expands-qr-network-share-commerce",
-   "source": "Tech in Asia",
-   "sourceId": "techinasia",
-   "sourceTier": 1,
-   "region": "SEA",
-   "lang": "en",
-   "categories": [
-    "Fintech",
-    "News",
-    "AhaPay",
-    "BNPL",
-    "Malaysia"
-   ],
-   "summary": "Share Commerce offers merchant payment terminal management software and related terminal services.",
-   "publishedAt": "2026-09-29T08:51:32.000Z",
-   "id": "665eed12a695a378",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 57,
-   "plainHint": "行业又有了新动向"
-  },
-  {
-   "title": "How this AI bot closes sales for service firms within 5 minutes",
-   "url": "https://www.techinasia.com/ai-bot-closes-sales-service-firms-5-minutes",
-   "source": "Tech in Asia",
-   "sourceId": "techinasia",
-   "sourceTier": 1,
-   "region": "SEA",
-   "lang": "en",
-   "categories": [
-    "Artificial Intelligence",
-    "Startups",
-    "ai",
-    "service businesses",
-    "Singapore"
-   ],
-   "summary": "Superbench leverages a typed AI ontology to handle complex scheduling, quotes, and dispatch for service businesses directly in chat.",
-   "publishedAt": "2026-09-29T07:00:23.000Z",
-   "id": "1b967d2ba3eabcad",
    "topics": [],
    "entities": [],
    "difficulty": "进阶",

@@ -1,10 +1,10 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-09-30",
- "generatedAt": "2026-09-30T01:57:34.919Z",
+ "generatedAt": "2026-09-30T02:02:58.523Z",
  "mode": "rule",
  "counts": {
-  "crawled": 418,
+  "crawled": 417,
   "published": 160,
   "byRegion": {
    "CN": 24,
@@ -25,29 +25,29 @@
   "freshHours": 72,
   "monthPrecision": 18,
   "undated": 0,
-  "staleDropped": 46,
+  "staleDropped": 47,
   "newestAt": "2026-09-30T10:51:12.000Z"
  },
  "themes": [
   {
    "name": "产品与应用",
-   "n": 60
+   "n": 59
   },
   {
    "name": "资本与市场",
-   "n": 42
+   "n": 45
   },
   {
    "name": "模型与能力",
-   "n": 22
-  },
-  {
-   "name": "产业与生态",
-   "n": 20
+   "n": 24
   },
   {
    "name": "算力与基建",
-   "n": 19
+   "n": 20
+  },
+  {
+   "name": "产业与生态",
+   "n": 18
   },
   {
    "name": "政策与治理",
@@ -57,19 +57,19 @@
  "entities": [
   {
    "name": "OpenAI",
-   "n": 32
+   "n": 34
   },
   {
    "name": "Anthropic",
-   "n": 10
+   "n": 11
   },
   {
    "name": "Meta",
-   "n": 8
+   "n": 9
   },
   {
    "name": "NVIDIA",
-   "n": 7
+   "n": 8
   },
   {
    "name": "Microsoft",
@@ -80,15 +80,34 @@
    "n": 4
   },
   {
-   "name": "xAI",
-   "n": 2
+   "name": "DeepSeek",
+   "n": 3
   },
   {
-   "name": "DeepSeek",
+   "name": "xAI",
    "n": 2
   }
  ],
  "topOverall": [
+  {
+   "id": "5bd68ddcadc37867",
+   "title": "Can Meta charm you away from your phone?",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/meta-charm-phone",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-09-30T02:00:39.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "Anthropic",
+    "Meta",
+    "DeepSeek"
+   ]
+  },
   {
    "id": "a60fb3bba753cb78",
    "title": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了",
@@ -212,23 +231,6 @@
     "Anthropic",
     "Meta"
    ]
-  },
-  {
-   "id": "a9b28c54e50a8d2f",
-   "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-   "importance": 93,
-   "difficulty": "入门",
-   "publishedAt": "2026-09-29T17:45:51.000Z",
-   "topics": [
-    "产品与应用"
-   ],
-   "entities": [
-    "OpenAI",
-    "Microsoft"
-   ]
   }
  ],
  "regions": [
@@ -305,6 +307,25 @@
    "count": 24,
    "top": [
     {
+     "id": "5bd68ddcadc37867",
+     "title": "Can Meta charm you away from your phone?",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/meta-charm-phone",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-30T02:00:39.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "Anthropic",
+      "Meta",
+      "DeepSeek"
+     ]
+    },
+    {
      "id": "8625b6ee758f9928",
      "title": "OpenAI unveils Dots AI assistant for background tasks",
      "source": "Tech in Asia",
@@ -322,33 +343,16 @@
      ]
     },
     {
-     "id": "908ea8575346be08",
-     "title": "Singapore AI startup Sparkonomy launches Open Creator Graph",
+     "id": "f3219e35842e7875",
+     "title": "OpenAI seeks $30b in funding at $1.4t valuation: report",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/singapore-ai-startup-sparkonomy-launches-open-creator-graph",
-     "importance": 87,
+     "url": "https://www.techinasia.com/news/openai-seeks-30b-funding-14t-valuation-report",
+     "importance": 91,
      "difficulty": "入门",
-     "publishedAt": "2026-09-30T00:11:16.000Z",
+     "publishedAt": "2026-09-30T02:02:21.000Z",
      "topics": [
-      "产品与应用"
-     ],
-     "entities": [
-      "Adobe"
-     ]
-    },
-    {
-     "id": "e2f8f73df4884707",
-     "title": "OpenAI launches GPT-6.1 Sol, says it nears Astra",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/openai-launches-gpt61-sol-nears-astra",
-     "importance": 87,
-     "difficulty": "入门",
-     "publishedAt": "2026-09-29T23:42:12.000Z",
-     "topics": [
-      "模型与能力",
-      "产品与应用"
+      "资本与市场"
      ],
      "entities": [
       "OpenAI"
@@ -602,21 +606,6 @@
      "entities": []
     },
     {
-     "id": "820485835a085056",
-     "title": "Ex-Soulfull MD Prashant Parameswaran Launches Arovia To Build Regional Food Brands Portfolio",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/ex-soulfull-md-prashant-parameswaran-launches-arovia-to-build-regional-food-brands-portfolio/",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-09-29T14:00:45.000Z",
-     "topics": [
-      "资本与市场",
-      "产品与应用"
-     ],
-     "entities": []
-    },
-    {
      "id": "9f3d741efd79f053",
      "title": "[Update] AceVector IPO Closes With 4.93X Oversubscription",
      "source": "Inc42",
@@ -629,9 +618,24 @@
       "资本与市场"
      ],
      "entities": []
+    },
+    {
+     "id": "820485835a085056",
+     "title": "Ex-Soulfull MD Prashant Parameswaran Launches Arovia To Build Regional Food Brands Portfolio",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/ex-soulfull-md-prashant-parameswaran-launches-arovia-to-build-regional-food-brands-portfolio/",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-29T14:00:45.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": []
     }
    ]
   }
  ],
- "overview": "9 月 30 日，共从 25 个信息源抓取 418 条 AI 产业动态，其中 160 条进入当日精选，覆盖 7 个区域。其中有 128 条发布于 24 小时内。当日最集中的板块是「产品与应用」60 条、「资本与市场」42 条。值得优先关注的几条：「OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了」（爱范儿）、「早报｜曝苹果新CEO想更快发产品/华为Mate 90真机进店/GPT‑6.1 Sol推出，价格仅Astra的五分之一」（爱范儿）、「8点1氪丨10月1日起将对居民购房实施贷款贴息；AMD回应收购李飞飞公司；网红超长蛋挞全是皮没蛋液？鲍师傅回应」（36氪）。"
+ "overview": "9 月 30 日，共从 25 个信息源抓取 417 条 AI 产业动态，其中 160 条进入当日精选，覆盖 7 个区域。其中有 128 条发布于 24 小时内。当日最集中的板块是「产品与应用」59 条、「资本与市场」45 条。值得优先关注的几条：「OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了」（爱范儿）、「早报｜曝苹果新CEO想更快发产品/华为Mate 90真机进店/GPT‑6.1 Sol推出，价格仅Astra的五分之一」（爱范儿）、「8点1氪丨10月1日起将对居民购房实施贷款贴息；AMD回应收购李飞飞公司；网红超长蛋挞全是皮没蛋液？鲍师傅回应」（36氪）。"
 }
