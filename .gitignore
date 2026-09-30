@@ -1,8 +1,13 @@
-# 运行时生成：由 CI 每次抓取重新产出，不纳入版本库
-data/news-latest.json
-data/archive-index.json
-data/archive/
+# 每日全量原始数据：体积大（约 0.5MB/天），不入库；归档只保留策展后的 data/archive
 data/raw/
+
+# 注意：以下「按日累积」的数据必须入库，由 CI 每天提交回仓库
+# （否则每次干净检出都只剩当天，归档台就永远只有一天）
+#   data/news-latest.json
+#   data/archive/<date>.json
+#   data/archive-index.json
+#   data/digest/<date>.json
+#   data/digests.json
 
 # WorkBuddy 内部文件（应用注册 / 本地记忆），不进公开仓库
 .wbapp_*.genie

@@ -1,7 +1,7 @@
 /* AI 瞭望台 · Service Worker
    静态资源 cache-first，数据文件 network-first（保证每天 9 点拿到最新） */
 
-const VERSION = 'aih-v4';
+const VERSION = 'aih-v5';
 const STATIC = [
   './',
   './index.html',
@@ -39,16 +39,20 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(req.url);
   if (url.origin !== location.origin) return;
 
-  // 数据文件：网络优先，失败回落缓存（离线仍可看昨日内容）
+  // 数据文件：强制走网络（no-store），保证每天 9 点后拿到的是新内容。
+  // 缓存只作离线兜底，且按「去掉查询串的路径」存，避免前端加时间戳导致缓存膨胀。
   if (url.pathname.includes('/data/')) {
+    const key = new Request(url.origin + url.pathname);
     e.respondWith(
-      fetch(req)
+      fetch(req, { cache: 'no-store' })
         .then((res) => {
-          const copy = res.clone();
-          caches.open(VERSION).then((c) => c.put(req, copy)).catch(() => {});
+          if (res && res.ok) {
+            const copy = res.clone();
+            caches.open(VERSION).then((c) => c.put(key, copy)).catch(() => {});
+          }
           return res;
         })
-        .catch(() => caches.match(req).then((r) => r || Response.error()))
+        .catch(() => caches.match(key).then((r) => r || Response.error()))
     );
     return;
   }

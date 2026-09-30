@@ -1,0 +1,654 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-09-30",
+ "generatedAt": "2026-09-30T01:31:43.656Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 494,
+  "published": 165,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 21,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 28,
+  "sourceTotal": 29,
+  "regions": 7
+ },
+ "themes": [
+  {
+   "name": "产品与应用",
+   "n": 89
+  },
+  {
+   "name": "资本与市场",
+   "n": 49
+  },
+  {
+   "name": "模型与能力",
+   "n": 30
+  },
+  {
+   "name": "政策与治理",
+   "n": 26
+  },
+  {
+   "name": "算力与基建",
+   "n": 23
+  },
+  {
+   "name": "产业与生态",
+   "n": 20
+  }
+ ],
+ "entities": [
+  {
+   "name": "OpenAI",
+   "n": 36
+  },
+  {
+   "name": "Intel",
+   "n": 31
+  },
+  {
+   "name": "Anthropic",
+   "n": 12
+  },
+  {
+   "name": "Arm",
+   "n": 11
+  },
+  {
+   "name": "NVIDIA",
+   "n": 8
+  },
+  {
+   "name": "AMD",
+   "n": 6
+  },
+  {
+   "name": "Meta",
+   "n": 6
+  },
+  {
+   "name": "Google",
+   "n": 6
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "638d5dd27646938e",
+   "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+   "importance": 85,
+   "difficulty": "入门",
+   "publishedAt": "2026-09-29T22:20:59.000Z",
+   "topics": [
+    "产品与应用",
+    "资本与市场"
+   ],
+   "entities": [
+    "OpenAI",
+    "xAI"
+   ]
+  },
+  {
+   "id": "8625b6ee758f9928",
+   "title": "OpenAI unveils Dots AI assistant for background tasks",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/openai-unveils-dots-ai-assistant-background-tasks",
+   "importance": 84,
+   "difficulty": "进阶",
+   "publishedAt": "2026-09-30T00:49:03.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Microsoft",
+    "Intel"
+   ]
+  },
+  {
+   "id": "a60fb3bba753cb78",
+   "title": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1682571?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 84,
+   "difficulty": "入门",
+   "publishedAt": "2026-09-30T00:20:06.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ]
+  },
+  {
+   "id": "5d2b54c185f9bf86",
+   "title": "早报｜曝苹果新CEO想更快发产品/华为Mate 90真机进店/GPT‑6.1 Sol推出，价格仅Astra的五分之一",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1682554?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 82,
+   "difficulty": "入门",
+   "publishedAt": "2026-09-30T00:26:36.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "华为",
+    "DeepSeek"
+   ]
+  },
+  {
+   "id": "42ea2a2a274fbf44",
+   "title": "8点1氪丨10月1日起将对居民购房实施贷款贴息；AMD回应收购李飞飞公司；网红超长蛋挞全是皮没蛋液？鲍师傅回应",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4005136008761217?f=rss",
+   "importance": 82,
+   "difficulty": "入门",
+   "publishedAt": "2026-09-30T00:01:53.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "NVIDIA",
+    "AMD"
+   ]
+  },
+  {
+   "id": "e2f8f73df4884707",
+   "title": "OpenAI launches GPT-6.1 Sol, says it nears Astra",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/openai-launches-gpt61-sol-nears-astra",
+   "importance": 81,
+   "difficulty": "入门",
+   "publishedAt": "2026-09-29T23:42:12.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Intel"
+   ]
+  },
+  {
+   "id": "a9b28c54e50a8d2f",
+   "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+   "importance": 81,
+   "difficulty": "入门",
+   "publishedAt": "2026-09-29T17:45:51.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Microsoft"
+   ]
+  },
+  {
+   "id": "15f92c500d5e46cf",
+   "title": "OpenAI’s latest features take direct aim at the app store model",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+   "importance": 79,
+   "difficulty": "入门",
+   "publishedAt": "2026-09-29T20:15:47.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI"
+   ]
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "a60fb3bba753cb78",
+     "title": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了",
+     "source": "爱范儿",
+     "region": "CN",
+     "url": "https://www.ifanr.com/1682571?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 84,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-30T00:20:06.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ]
+    },
+    {
+     "id": "5d2b54c185f9bf86",
+     "title": "早报｜曝苹果新CEO想更快发产品/华为Mate 90真机进店/GPT‑6.1 Sol推出，价格仅Astra的五分之一",
+     "source": "爱范儿",
+     "region": "CN",
+     "url": "https://www.ifanr.com/1682554?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 82,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-30T00:26:36.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "华为",
+      "DeepSeek"
+     ]
+    },
+    {
+     "id": "42ea2a2a274fbf44",
+     "title": "8点1氪丨10月1日起将对居民购房实施贷款贴息；AMD回应收购李飞飞公司；网红超长蛋挞全是皮没蛋液？鲍师傅回应",
+     "source": "36氪",
+     "region": "CN",
+     "url": "https://36kr.com/p/4005136008761217?f=rss",
+     "importance": 82,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-30T00:01:53.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "NVIDIA",
+      "AMD"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "8625b6ee758f9928",
+     "title": "OpenAI unveils Dots AI assistant for background tasks",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/openai-unveils-dots-ai-assistant-background-tasks",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-30T00:49:03.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Microsoft",
+      "Intel"
+     ]
+    },
+    {
+     "id": "e2f8f73df4884707",
+     "title": "OpenAI launches GPT-6.1 Sol, says it nears Astra",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/openai-launches-gpt61-sol-nears-astra",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-29T23:42:12.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Intel"
+     ]
+    },
+    {
+     "id": "24659bdd0354fe49",
+     "title": "Siemens, TSMC expand work on AI-powered chip design",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/siemens-tsmc-expand-work-aipowered-chip-design",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-29T07:30:48.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Intel",
+      "台积电",
+      "Siemens"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "f749b3344414485c",
+     "title": "6G connections are forecast to reach 2.4 billion by 2035",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/insight/6g-connections-are-forecast-to-reach-2-4-billion-by-2035/",
+     "importance": 66,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-28T09:34:05.000Z",
+     "topics": [
+      "产品与应用",
+      "产业与生态"
+     ],
+     "entities": [
+      "Intel",
+      "Arm"
+     ]
+    },
+    {
+     "id": "fff119f68beabe9a",
+     "title": "Hiperdist and Huawei Cloud strengthen UAE channel ecosystem",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/hiperdist-and-huawei-cloud-strengthen-uae-channel-ecosystem/",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-29T09:58:36.000Z",
+     "topics": [
+      "算力与基建",
+      "产业与生态"
+     ],
+     "entities": [
+      "huawei",
+      "huawei cloud"
+     ]
+    },
+    {
+     "id": "7c9e590e2c45cc19",
+     "title": "Nscale raises $3.4 billion in pre-IPO financing",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/business/finance/nscale-raises-3-4-billion-in-pre-ipo-financing/",
+     "importance": 61,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-29T07:55:21.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 21,
+   "top": [
+    {
+     "id": "77003f297703360a",
+     "title": "이루기 힘든 ‘영생’의 꿈…젊은 장기 이식해도 회춘 효과 없었다",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ec%a0%8a%ec%9d%80-%ec%9e%a5%ea%b8%b0-%ec%9d%b4%ec%8b%9d%eb%b0%9b%ec%9d%80-%ec%82%ac%eb%9e%8c%ea%b9%8c%ec%a7%80-%ec%a0%8a%ea%b2%8c-%eb%a7%8c%eb%93%a4%ec%a7%80%eb%8a%94-%eb%aa%bb%ed%95%a0-%ec%88%98/",
+     "importance": 65,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-29T21:00:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": []
+    },
+    {
+     "id": "86d422108ce1fdb4",
+     "title": "[OPINION] ‘과장’을 파는 AI 빅테크의 노림수",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/opinion-%ea%b3%bc%ec%9e%a5%ec%9d%84-%ed%8c%8c%eb%8a%94-ai-%eb%b9%85%ed%85%8c%ed%81%ac/",
+     "importance": 65,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-29T21:00:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": []
+    },
+    {
+     "id": "b7560fd4dd6ced8a",
+     "title": "AIエージェントでスケジュール管理を自動化する方法とおすすめツール9選",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/09/28/278395/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a7%25e3%2582%25b9%25e3%2582%25b1%25e3%2582%25b8%25e3%2583%25a5%25e3%2583%25bc%25e3%2583%25ab%25e7%25ae%25a1%25e7%2590%2586%25e3%2582%2592%25e8%2587%25aa%25e5%258b%2595%25e5%258c%2596%25e3%2581%2599%25e3%2582%258b%25e6%2596%25b9",
+     "importance": 64,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-28T13:49:18.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "Google",
+      "Microsoft"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "9cd4994279078a05",
+     "title": "Swedish machine fitness tracker IPercept raises $16.5M",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/09/29/swedish-machine-fitness-tracker-ipercept-raises-165m/",
+     "importance": 73,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-29T06:55:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Intel"
+     ]
+    },
+    {
+     "id": "33f17774d3fd4b12",
+     "title": "Romania’s Kyndred raises €500K from Early Game Ventures to build AI companions",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/09/29/romanias-kyndred-raises-eur500k-from-early-game-ventures-to-build-ai-companions/",
+     "importance": 69,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-29T09:30:00.000Z",
+     "topics": [
+      "资本与市场",
+      "政策与治理"
+     ],
+     "entities": [
+      "Intel"
+     ]
+    },
+    {
+     "id": "c9e3f3924bd4e7b6",
+     "title": "Cotierra raises $3M to scale decentralised biochar across tropical agriculture",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/09/29/cotierra-raises-3m-to-scale-decentralised-biochar-across-tropical-agriculture/",
+     "importance": 68,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-29T09:49:32.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "638d5dd27646938e",
+     "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-29T22:20:59.000Z",
+     "topics": [
+      "产品与应用",
+      "资本与市场"
+     ],
+     "entities": [
+      "OpenAI",
+      "xAI"
+     ]
+    },
+    {
+     "id": "a9b28c54e50a8d2f",
+     "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-29T17:45:51.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Microsoft"
+     ]
+    },
+    {
+     "id": "15f92c500d5e46cf",
+     "title": "OpenAI’s latest features take direct aim at the app store model",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+     "importance": 79,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-29T20:15:47.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "895207f265673601",
+     "title": "Arivihan Nets $10.2 Mn To Scale Its AI Tutoring Platform",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/arivihan-nets-10-2-mn-to-scale-its-ai-tutoring-platform/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-30T00:30:17.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": []
+    },
+    {
+     "id": "820485835a085056",
+     "title": "Ex-Soulfull MD Prashant Parameswaran Launches Arovia To Build Regional Food Brands Portfolio",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/ex-soulfull-md-prashant-parameswaran-launches-arovia-to-build-regional-food-brands-portfolio/",
+     "importance": 66,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-29T14:00:45.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": []
+    },
+    {
+     "id": "5ce43794f535ad02",
+     "title": "Anthropic Wants AI to Slow Down. Its IPO Shows the Cost of Scaling",
+     "source": "Techloy",
+     "region": "OTHER",
+     "url": "https://www.techloy.com/anthropic-ipo-prospectus-cost/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-29T11:56:20.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "Anthropic",
+      "Intel"
+     ]
+    }
+   ]
+  }
+ ],
+ "overview": "9 月 30 日，共从 28 个信息源抓取 494 条 AI 产业动态，其中 165 条进入当日精选，覆盖 7 个区域。当日最集中的板块是「产品与应用」89 条、「资本与市场」49 条。值得优先关注的几条：「OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了」（爱范儿）、「早报｜曝苹果新CEO想更快发产品/华为Mate 90真机进店/GPT‑6.1 Sol推出，价格仅Astra的五分之一」（爱范儿）、「8点1氪丨10月1日起将对居民购房实施贷款贴息；AMD回应收购李飞飞公司；网红超长蛋挞全是皮没蛋液？鲍师傅回应」（36氪）。"
+}

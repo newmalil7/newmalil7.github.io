@@ -100,7 +100,7 @@ function toast(msg, ms = 2000) {
 /* --------------------------------- 状态 --------------------------------- */
 
 const S = {
-  data: null, briefing: {}, curriculum: null, glossary: null, sources: null, archive: [],
+  data: null, briefing: {}, curriculum: null, glossary: null, sources: null, archive: [], digests: [],
   profiles: null, weekly: null, models: null,
   channels: loadLS(LS.channels, null),
   customers: loadLS(LS.customers, []),
@@ -136,9 +136,16 @@ if (pref.region) S.region = pref.region;
 
 /* ------------------------------ 数据载入 --------------------------------- */
 
-async function getJSON(url) {
+/**
+ * 取 JSON。
+ * 数据文件（/data/）默认加时间戳穿透所有缓存 —— 否则 Service Worker / 浏览器
+ * 可能把昨天的 news-latest.json 端回来，表现为「倒计时在走、要闻却没刷新」。
+ */
+async function getJSON(url, { fresh = null } = {}) {
+  const bust = fresh === null ? url.includes('/data/') : fresh;
   try {
-    const res = await fetch(url, { cache: 'no-cache' });
+    const target = bust ? `${url}${url.includes('?') ? '&' : '?'}_=${Date.now()}` : url;
+    const res = await fetch(target, { cache: bust ? 'no-store' : 'no-cache' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.json();
   } catch (e) {
@@ -148,13 +155,14 @@ async function getJSON(url) {
 }
 
 async function loadAll() {
-  const [data, briefing, curriculum, glossary, sources, archive, profiles, weekly, models] = await Promise.all([
+  const [data, briefing, curriculum, glossary, sources, archive, digests, profiles, weekly, models] = await Promise.all([
     getJSON('./data/news-latest.json'),
     getJSON('./data/briefing.json'),
     getJSON('./data/curriculum.json'),
     getJSON('./data/glossary.json'),
     getJSON('./data/sources.json'),
     getJSON('./data/archive-index.json'),
+    getJSON('./data/digests.json'),
     getJSON('./data/profiles.json'),
     getJSON('./data/weekly.json'),
     getJSON('./data/models.json'),
@@ -165,10 +173,16 @@ async function loadAll() {
   S.glossary = glossary;
   S.sources = sources;
   S.archive = archive || [];
+  S.digests = digests || [];
   S.profiles = profiles;
   S.weekly = weekly;
   S.models = models;
   computeNextRefresh();
+}
+
+/** 取某天的总结（先查索引里的浓缩版，再回落到完整 digest 文件由调用方异步取） */
+function digestFor(date) {
+  return (S.digests || []).find((d) => d.date === date) || null;
 }
 
 function computeNextRefresh() {
@@ -274,9 +288,9 @@ function renderTopbar() {
           <span>每日 9 点自动刷新 · 7 大区域 · 6 个月成长地图</span>
         </div>
       </div>
-      <div class="refresh-pill" id="refreshPill" title="每日早晨 9:00 自动刷新">
+      <div class="refresh-pill" id="refreshPill" title="数据日期 ${esc(d?.date || '—')} · 最近更新 ${esc(absTime(d?.generatedAt) || '—')}（北京时间）· 每日 9:00 自动刷新">
         <span class="dot ${stale ? 'stale' : ''}"></span>
-        <span class="hide-sm">下次刷新</span>
+        <span class="hide-sm">${stale ? '等待今日数据' : '下次刷新'}</span>
         <b id="countdown">--:--:--</b>
         <span class="hide-sm" style="color:var(--muted)">9:00</span>
       </div>
@@ -524,9 +538,13 @@ function renderFeed() {
 
   let body;
   if (grouped) {
-    const brief = list.filter((i) => i._hasBrief).slice(0, 6);
+    // 有编辑解读层时优先用它；没有（例如云端只跑了规则层）就按重要度自动挑前 6 条，
+    // 保证「今日必读」永远是满的，不会因为解读层缺席而空掉。
+    const briefed = list.filter((i) => i._hasBrief);
+    const brief = (briefed.length ? briefed : list).slice(0, 6);
+    const briefNote = briefed.length ? '编辑精选 · 跨区域' : '按重要度自动挑选';
     const briefSection = brief.length ? `
-      <div class="sect-head"><h3>🔥 今日必读</h3><span class="n">编辑精选 · 跨区域</span><span class="line"></span></div>
+      <div class="sect-head"><h3>🔥 今日必读</h3><span class="n">${briefNote}</span><span class="line"></span></div>
       <div class="feed">${brief.map(cardHTML).join('')}</div>` : '';
 
     const restSection = regions.map((r) => {
@@ -550,7 +568,7 @@ function renderFeed() {
       <div class="feed">${list.map(cardHTML).join('')}</div>`;
   }
 
-  return filters + body;
+  return (S.data ? digestCardHTML(S.data.date) : '') + filters + body;
 }
 
 /* ------------------------------ 渲染：每日剖析 --------------------------- */
@@ -954,26 +972,56 @@ function renderGl() {
 
 /* ------------------------------- 渲染：归档 ----------------------------- */
 
+/** 当天总结卡片：数据来自云端每日自动产出的 data/digests.json */
+function digestCardHTML(date) {
+  const dg = digestFor(date);
+  if (!dg) return '';
+  const themes = (dg.themes || [])
+    .map((t) => `<span class="dg-theme">${esc(t)}</span>`)
+    .join('');
+  return `
+  <div class="digest-card">
+    <div class="dg-head">
+      <span class="dg-tag">📌 ${esc(date)} 当日总结</span>
+      <span class="dg-meta">抓取 ${dg.crawled} 条 · 精选 ${dg.published} 条 · 覆盖 ${dg.regions} 个区域</span>
+    </div>
+    <p class="dg-over">${esc(dg.overview || '（今日暂无总结）')}</p>
+    ${themes ? `<div class="dg-themes"><span class="dg-lbl">热门板块</span>${themes}</div>` : ''}
+  </div>`;
+}
+
 function renderArch() {
-  if (!S.archive.length) return `<div class="empty"><p>还没有历史归档。每天 9 点抓取后会自动积累。</p></div>`;
+  if (!S.archive.length) {
+    return `<div class="empty"><div class="em">🗂️</div><p>还没有历史归档。</p>
+      <p style="font-size:12.5px">云端每天 9:00 抓取后会按日期自动累积，即使本机没开机也照常归档。</p></div>`;
+  }
+
   const list = `
-  <div class="arch-grid">${S.archive.map((a) => `
-    <button class="arch-item ${S.archDate === a.date ? 'on' : ''}" data-act="arch" data-v="${a.date}">
-      <b>${esc(a.date)}</b><span>${a.total} 条要闻</span>
-    </button>`).join('')}</div>`;
+  <div class="arch-grid">${S.archive.map((a) => {
+    const dg = digestFor(a.date);
+    return `<button class="arch-item ${S.archDate === a.date ? 'on' : ''}" data-act="arch" data-v="${a.date}"
+      title="${esc(dg?.overview || '')}">
+      <b>${esc(a.date)}</b><span>${a.total} 条</span>
+    </button>`;
+  }).join('')}</div>`;
 
   let detail = '';
-  if (S.archDate && S.archData) {
-    const items = (S.archData.items || []).slice(0, 60);
-    detail = `
-      <div class="sect-head" style="margin-top:26px"><h3>${esc(S.archDate)} 归档</h3>
-        <span class="n">${S.archData.items.length} 条</span><span class="line"></span></div>
-      <div class="feed">${items.map(cardHTML).join('')}</div>`;
-  } else if (S.archDate) {
-    detail = `<div class="empty" style="margin-top:22px"><p>正在载入 ${esc(S.archDate)} …</p></div>`;
+  if (S.archDate) {
+    const dg = digestCardHTML(S.archDate);
+    if (S.archData) {
+      const items = (S.archData.items || []).slice(0, 60);
+      detail = `
+        ${dg}
+        <div class="sect-head" style="margin-top:26px"><h3>${esc(S.archDate)} 当日要闻</h3>
+          <span class="n">${S.archData.items.length} 条</span><span class="line"></span></div>
+        <div class="feed">${items.map(cardHTML).join('')}</div>`;
+    } else {
+      detail = `${dg}<div class="empty" style="margin-top:22px"><p>正在载入 ${esc(S.archDate)} …</p></div>`;
+    }
   }
+
   return `<div class="filters"><div class="frow"><span class="flabel">日期</span>
-    <span class="meta">点击日期查看当天抓取的全部要闻（含未进入今日精选的内容）</span></div></div>
+    <span class="meta">共 ${S.archive.length} 天归档 · 每天自动生成当日总结，点击日期查看</span></div></div>
     ${list}${detail}`;
 }
 
@@ -1526,6 +1574,10 @@ const actions = {
     saveLS(LS.pref, { ...loadLS(LS.pref, {}), tab: S.tab });
     render();
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    // 进归档台时默认摊开最新一天，省得看着一排日期不知道点哪
+    if (S.tab === 'arch' && !S.archDate && S.archive[0]) {
+      actions.arch({ dataset: { v: S.archive[0].date } });
+    }
   },
   region(el) {
     S.region = el.dataset.v;
@@ -1878,16 +1930,18 @@ async function doRefresh(silent = false) {
   const btn = $('#btnRefresh');
   btn?.classList.add('spin');
   if (!silent) toast('正在刷新数据…');
-  const [data, briefing, archive, profiles, weekly] = await Promise.all([
+  const [data, briefing, archive, digests, profiles, weekly] = await Promise.all([
     getJSON('./data/news-latest.json'),
     getJSON('./data/briefing.json'),
     getJSON('./data/archive-index.json'),
+    getJSON('./data/digests.json'),
     getJSON('./data/profiles.json'),
     getJSON('./data/weekly.json'),
   ]);
   if (data) S.data = data;
   if (briefing) S.briefing = briefing.items || {};
   if (archive) S.archive = archive;
+  if (digests) S.digests = digests;
   if (profiles) S.profiles = profiles;
   if (weekly) S.weekly = weekly;
   computeNextRefresh();
@@ -1895,8 +1949,46 @@ async function doRefresh(silent = false) {
   btn?.classList.remove('spin');
   if (!silent) {
     const fresh = S.data && S.data.date === bjDateKey();
-    toast(fresh ? `已更新 ${S.data.items.length} 条要闻` : '后台尚未生成今日数据（9 点后自动更新）');
+    toast(fresh ? `已更新 ${S.data.items.length} 条要闻（${S.data.date}）` : '云端今日数据还没部署好，正在自动补齐…');
+    if (!fresh) startCatchup();
   }
+}
+
+/**
+ * 云端 9:00 才开始抓取 + 部署，通常要 1~3 分钟才上线。
+ * 所以到点后轮询补齐，避免「倒计时归零了、内容却没变」的错觉。
+ */
+let catchupTimer = null;
+let catchupTries = 0;
+
+function stopCatchup() {
+  if (catchupTimer) { clearInterval(catchupTimer); catchupTimer = null; }
+}
+
+function startCatchup() {
+  if (catchupTimer) return;
+  catchupTries = 0;
+  catchupTimer = setInterval(async () => {
+    catchupTries += 1;
+    const d = await getJSON('./data/news-latest.json');
+    if (d && d.date === bjDateKey()) {
+      S.data = d;
+      const [briefing, archive, digests] = await Promise.all([
+        getJSON('./data/briefing.json'),
+        getJSON('./data/archive-index.json'),
+        getJSON('./data/digests.json'),
+      ]);
+      if (briefing) S.briefing = briefing.items || {};
+      if (archive) S.archive = archive;
+      if (digests) S.digests = digests;
+      stopCatchup();
+      computeNextRefresh();
+      render();
+      toast(`今日数据已到：${d.items.length} 条要闻`);
+    } else if (catchupTries >= 20) {
+      stopCatchup();
+    }
+  }, 45000);
 }
 
 $('#app')?.addEventListener?.('click', () => {});
@@ -1913,10 +2005,11 @@ document.addEventListener('click', (e) => {
 
 function tick() {
   updateCountdown();
-  // 到点自动刷新
+  // 到点自动刷新，并开始轮询直到当天数据真的部署到位
   if (S.nextRefreshAt && Date.now() >= S.nextRefreshAt.getTime()) {
     computeNextRefresh();
     doRefresh(true);
+    startCatchup();
   }
 }
 
@@ -1931,15 +2024,27 @@ async function boot() {
   render();
   setInterval(tick, 1000);
 
-  // 每 10 分钟静默校验一次，若后台已生成新数据则自动更新
+  // 打开时若还停在旧日期（跨天、云端刚重新部署），自动补齐当天数据
+  if (S.data && S.data.date !== bjDateKey()) startCatchup();
+
+  // 每 3 分钟静默校验一次，若云端已生成新数据则自动更新
   setInterval(async () => {
+    if (catchupTimer) return;
     const d = await getJSON('./data/news-latest.json');
     if (d && (!S.data || d.generatedAt !== S.data.generatedAt)) {
       S.data = d;
+      const [briefing, archive, digests] = await Promise.all([
+        getJSON('./data/briefing.json'),
+        getJSON('./data/archive-index.json'),
+        getJSON('./data/digests.json'),
+      ]);
+      if (briefing) S.briefing = briefing.items || {};
+      if (archive) S.archive = archive;
+      if (digests) S.digests = digests;
       render();
       toast('检测到新数据，已自动更新');
     }
-  }, 600000);
+  }, 180000);
 
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
     navigator.serviceWorker.register('./sw.js').catch(() => {});

@@ -373,6 +373,180 @@ function classify(item) {
   return { topics, entities: entityList, difficulty, importance, plainHint };
 }
 
+/* --------------------------- 每日总结（规则层） --------------------------- */
+
+/** 列出某数据子目录里所有按日期命名的文件，按日期倒序 */
+function readDated(sub) {
+  const dir = path.join(DATA, sub);
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .sort()
+    .reverse();
+}
+
+/** 精简条目：只保留前端展示所需字段 */
+function slimItem(it) {
+  return {
+    id: it.id,
+    title: it.title,
+    source: it.source,
+    region: it.region,
+    url: it.url,
+    importance: it.importance,
+    difficulty: it.difficulty,
+    publishedAt: it.publishedAt,
+    topics: (it.topics || []).map((t) => t.name),
+    entities: it.entities || [],
+  };
+}
+
+/**
+ * 生成一天的「规则层总结」。
+ * 刻意不依赖 iMac / LLM：CI 每天跑完抓取就能产出，保证归档台每天都有内容。
+ */
+function buildDigest({ date, nowIso, curated, regions, stats }) {
+  const byRegionItems = {};
+  for (const r of regions) byRegionItems[r.code] = curated.filter((i) => i.region === r.code);
+
+  const topicCounts = {};
+  for (const it of curated) for (const t of it.topics || []) topicCounts[t.name] = (topicCounts[t.name] || 0) + 1;
+  const themes = Object.entries(topicCounts)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, 6)
+    .map(([name, n]) => ({ name, n }));
+
+  const entCounts = {};
+  for (const it of curated) for (const e of it.entities || []) entCounts[e] = (entCounts[e] || 0) + 1;
+  const entities = Object.entries(entCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8)
+    .map(([name, n]) => ({ name, n }));
+
+  const topOverall = curated.slice(0, 8).map(slimItem);
+
+  const regionPicks = regions
+    .map((r) => {
+      const arr = byRegionItems[r.code] || [];
+      return {
+        code: r.code,
+        name: r.name || r.short,
+        short: r.short || r.code,
+        flag: r.flag || '',
+        count: arr.length,
+        top: arr.slice(0, 3).map(slimItem),
+      };
+    })
+    .filter((x) => x.count > 0);
+
+  const [, mm, dd] = date.split('-');
+  // 总览里优先引用中文标题的条目，读起来更顺（没有中文条目时再回落到重要度前 3）
+  const CJK = /[\u4e00-\u9fff]/;
+  const zhPicks = topOverall.filter((i) => CJK.test(i.title)).slice(0, 3);
+  const pickSource = zhPicks.length >= 2 ? zhPicks : topOverall.slice(0, 3);
+  const head3 = pickSource.map((i) => `「${i.title}」（${i.source}）`).join('、');
+  const themeTxt = themes.slice(0, 2).map((t) => `「${t.name}」${t.n} 条`).join('、');
+  const overview =
+    `${Number(mm)} 月 ${Number(dd)} 日，共从 ${stats.sourceOk} 个信息源抓取 ${stats.total} 条 AI 产业动态，` +
+    `其中 ${curated.length} 条进入当日精选，覆盖 ${regionPicks.length} 个区域。` +
+    (themeTxt ? `当日最集中的板块是${themeTxt}。` : '') +
+    (head3 ? `值得优先关注的几条：${head3}。` : '');
+
+  return {
+    schema: 'ai-horizon/digest-v1',
+    date,
+    generatedAt: nowIso,
+    mode: 'rule',
+    counts: {
+      crawled: stats.total,
+      published: curated.length,
+      byRegion: Object.fromEntries(regionPicks.map((r) => [r.code, r.count])),
+      sourceOk: stats.sourceOk,
+      sourceTotal: stats.sourceTotal,
+      regions: regionPicks.length,
+    },
+    themes,
+    entities,
+    topOverall,
+    regions: regionPicks,
+    overview,
+  };
+}
+
+/* ------------------------------ 索引重建工具 ----------------------------- */
+
+/** 重建 data/archive-index.json（按日期倒序，total 取归档文件真实条数） */
+function rebuildArchiveIndex() {
+  const files = readDated('archive');
+  const index = files.map((f) => {
+    try {
+      const j = JSON.parse(fs.readFileSync(path.join(DATA, 'archive', f), 'utf8'));
+      return {
+        date: f.replace('.json', ''),
+        total: (j.items || []).length,
+        crawled: j.stats?.total || 0,
+      };
+    } catch {
+      return { date: f.replace('.json', ''), total: 0, crawled: 0 };
+    }
+  });
+  fs.writeFileSync(path.join(DATA, 'archive-index.json'), JSON.stringify(index, null, 1));
+  return index;
+}
+
+/** 重建 data/digests.json（每天一句话总结的索引） */
+function rebuildDigestsIndex() {
+  const files = readDated('digest');
+  const index = files.map((f) => {
+    try {
+      const j = JSON.parse(fs.readFileSync(path.join(DATA, 'digest', f), 'utf8'));
+      return {
+        date: j.date,
+        crawled: j.counts?.crawled || 0,
+        published: j.counts?.published || 0,
+        regions: j.counts?.regions || 0,
+        overview: j.overview || '',
+        themes: (j.themes || []).slice(0, 4).map((t) => t.name),
+      };
+    } catch {
+      return { date: f.replace('.json', ''), crawled: 0, published: 0, regions: 0, overview: '', themes: [] };
+    }
+  });
+  fs.writeFileSync(path.join(DATA, 'digests.json'), JSON.stringify(index, null, 1));
+  return index;
+}
+
+/** 仅根据已有归档重建全部每日总结（不重新抓取） */
+function backfillDigests(regions) {
+  fs.mkdirSync(path.join(DATA, 'digest'), { recursive: true });
+  const files = readDated('archive');
+  let n = 0;
+  for (const f of files) {
+    let j;
+    try {
+      j = JSON.parse(fs.readFileSync(path.join(DATA, 'archive', f), 'utf8'));
+    } catch {
+      continue;
+    }
+    const stats = j.stats || {};
+    const d = buildDigest({
+      date: j.date || f.replace('.json', ''),
+      nowIso: j.generatedAt || new Date().toISOString(),
+      curated: j.items || [],
+      regions,
+      stats: {
+        total: stats.total ?? (j.items || []).length,
+        sourceOk: stats.sourceOk ?? 0,
+        sourceTotal: stats.sourceTotal ?? 0,
+      },
+    });
+    fs.writeFileSync(path.join(DATA, 'digest', `${d.date}.json`), JSON.stringify(d, null, 1));
+    n += 1;
+  }
+  return n;
+}
+
 /* ---------------------------------- 主流程 -------------------------------- */
 
 function todayKey(d = new Date()) {
@@ -384,6 +558,15 @@ async function main() {
   const cfg = JSON.parse(fs.readFileSync(path.join(DATA, 'sources.json'), 'utf8'));
   const regions = cfg.regions;
   const regionMap = Object.fromEntries(regions.map((r) => [r.code, r]));
+
+  // 仅重建总结与索引（修复历史归档、不抓取）
+  if (argv.includes('--digest-only')) {
+    const n = backfillDigests(regions);
+    const ai = rebuildArchiveIndex();
+    const di = rebuildDigestsIndex();
+    console.log(`\n✅ 已按现有归档重建 ${n} 天总结；归档 ${ai.length} 天 / 总结 ${di.length} 天\n`);
+    return;
+  }
 
   const sources = cfg.sources.filter(
     (s) => !ONLY_REGIONS.length || ONLY_REGIONS.includes(s.region)
@@ -510,25 +693,18 @@ async function main() {
 
   fs.mkdirSync(path.join(DATA, 'raw'), { recursive: true });
   fs.mkdirSync(path.join(DATA, 'archive'), { recursive: true });
+  fs.mkdirSync(path.join(DATA, 'digest'), { recursive: true });
   fs.writeFileSync(path.join(DATA, 'raw', `${date}.json`), JSON.stringify(fullPayload, null, 1));
   fs.writeFileSync(path.join(DATA, 'archive', `${date}.json`), JSON.stringify(curatedPayload, null, 1));
   fs.writeFileSync(path.join(DATA, 'news-latest.json'), JSON.stringify(curatedPayload, null, 1));
 
-  // 归档索引
-  const files = fs
-    .readdirSync(path.join(DATA, 'archive'))
-    .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
-    .sort()
-    .reverse();
-  const index = files.map((f) => {
-    try {
-      const j = JSON.parse(fs.readFileSync(path.join(DATA, 'archive', f), 'utf8'));
-      return { date: f.replace('.json', ''), total: j.stats?.total || 0 };
-    } catch {
-      return { date: f.replace('.json', ''), total: 0 };
-    }
-  });
-  fs.writeFileSync(path.join(DATA, 'archive-index.json'), JSON.stringify(index, null, 1));
+  // 每日总结（规则层）：CI 每天自动产出，不依赖本机 / LLM
+  const digest = buildDigest({ date, nowIso, curated, regions, stats: base.stats });
+  fs.writeFileSync(path.join(DATA, 'digest', `${date}.json`), JSON.stringify(digest, null, 1));
+
+  // 重建两个索引（归档 + 每日总结）
+  const archFiles = rebuildArchiveIndex().map((x) => `${x.date}.json`);
+  const digestsIndex = rebuildDigestsIndex();
 
   console.log(
     `\n✅ 完成：抓取 ${items.length} 条 → 策展发布 ${curated.length} 条 · ` +
@@ -538,7 +714,8 @@ async function main() {
   if (failures.length) {
     console.log(`   失败源：` + failures.map((f) => `${f.name}(${f.error})`).join('，'));
   }
-  console.log(`   输出：data/news-latest.json + data/archive/${date}.json\n`);
+  console.log(`   输出：data/news-latest.json + data/archive/${date}.json + data/digest/${date}.json`);
+  console.log(`   归档累计：${archFiles.length} 天（最新 ${archFiles[0] || '-'}）\n`);
 }
 
 main().catch((e) => {

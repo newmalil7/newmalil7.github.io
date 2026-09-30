@@ -11,9 +11,10 @@ on:
     - cron: '0 1 * * *'
   workflow_dispatch:
 
-# 允许 Actions 把产物部署到 GitHub Pages
+# contents: write —— 用于把「每日归档 + 总结」提交回仓库，实现按日累积，
+# 这样即使 iMac 关机，云端也会自己把每天的内容存下来。
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -36,6 +37,24 @@ jobs:
 
       - name: Fetch & curate news
         run: node scripts/fetch_news.mjs
+
+      # 归档提交失败不应阻断部署：站点当天照常更新，只是少存一天归档
+      - name: Persist daily archive & digest
+        continue-on-error: true
+        run: |
+          set -e
+          git config user.name "ai-horizon-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B main
+          git add -f data/news-latest.json data/archive data/archive-index.json data/digest data/digests.json
+          if git diff --cached --quiet; then
+            echo "本日数据无变化，跳过提交"
+            exit 0
+          fi
+          DAY=$(TZ=Asia/Shanghai date +%F)
+          git commit -m "chore(data): 每日归档与总结 ${DAY} [skip ci]"
+          # 若远端在本任务运行期间又有前进，先 rebase 再推一次
+          git push origin main || (git pull --rebase --autostash origin main && git push origin main)
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
