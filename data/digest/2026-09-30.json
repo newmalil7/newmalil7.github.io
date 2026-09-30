@@ -1,96 +1,137 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-09-30",
- "generatedAt": "2026-09-30T02:25:28.049Z",
+ "generatedAt": "2026-09-30T04:13:10.149Z",
  "mode": "rule",
  "counts": {
-  "crawled": 498,
-  "published": 160,
-  "newCount": 149,
-  "repeatCount": 11,
+  "crawled": 465,
+  "published": 161,
+  "newCount": 139,
+  "repeatCount": 22,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
    "ME": 24,
-   "JPKR": 16,
+   "JPKR": 17,
    "EU": 24,
    "NA": 24,
    "OTHER": 24
   },
-  "sourceOk": 29,
+  "sourceOk": 27,
   "sourceTotal": 30,
   "regions": 7
  },
  "freshness": {
-  "within24h": 141,
-  "withinFresh": 148,
+  "within24h": 131,
+  "withinFresh": 136,
   "freshHours": 72,
-  "monthPrecision": 5,
+  "monthPrecision": 17,
   "undated": 0,
-  "staleDropped": 31,
-  "newestAt": "2026-09-30T10:00:00.000Z"
+  "staleDropped": 17,
+  "newestAt": "2026-09-30T11:58:58.000Z"
  },
  "themes": [
   {
    "name": "产品与应用",
-   "n": 57
+   "n": 63
   },
   {
    "name": "资本与市场",
-   "n": 40
+   "n": 44
   },
   {
    "name": "模型与能力",
-   "n": 26
+   "n": 25
   },
   {
    "name": "算力与基建",
-   "n": 26
+   "n": 23
   },
   {
    "name": "产业与生态",
-   "n": 15
+   "n": 21
   },
   {
    "name": "政策与治理",
-   "n": 12
+   "n": 10
   }
  ],
  "entities": [
   {
    "name": "OpenAI",
-   "n": 35
+   "n": 34
   },
   {
    "name": "Anthropic",
    "n": 12
   },
   {
-   "name": "NVIDIA",
-   "n": 10
-  },
-  {
    "name": "Meta",
    "n": 9
   },
   {
-   "name": "DeepSeek",
-   "n": 4
+   "name": "NVIDIA",
+   "n": 9
   },
   {
-   "name": "AMD",
-   "n": 4
+   "name": "Google",
+   "n": 5
   },
   {
    "name": "Microsoft",
    "n": 4
   },
   {
-   "name": "Google",
-   "n": 4
+   "name": "腾讯",
+   "n": 3
+  },
+  {
+   "name": "AMD",
+   "n": 3
   }
  ],
  "topOverall": [
+  {
+   "id": "708bf4384b797ce6",
+   "title": "Meta 又制造了一个赛道幻觉",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8156722.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-09-30T02:30:03.000Z",
+   "topics": [
+    "产品与应用",
+    "资本与市场"
+   ],
+   "entities": [
+    "Google",
+    "Meta"
+   ],
+   "firstSeen": "2026-09-30",
+   "isNew": true
+  },
+  {
+   "id": "11d6881e95046f4f",
+   "title": "推演大厂AI办公之战",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8156682.html",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-09-30T02:21:00.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "字节跳动"
+   ],
+   "firstSeen": "2026-09-30",
+   "isNew": true
+  },
   {
    "id": "5bd68ddcadc37867",
    "title": "Can Meta charm you away from your phone?",
@@ -194,26 +235,6 @@
    "isNew": true
   },
   {
-   "id": "5844f9ef8334591d",
-   "title": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
-   "source": "Ars Technica AI",
-   "region": "NA",
-   "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
-   "importance": 98,
-   "difficulty": "进阶",
-   "publishedAt": "2026-09-29T21:14:49.000Z",
-   "topics": [
-    "资本与市场",
-    "算力与基建"
-   ],
-   "entities": [
-    "NVIDIA",
-    "AMD"
-   ],
-   "firstSeen": "2026-09-30",
-   "isNew": true
-  },
-  {
    "id": "b132278e37ec3196",
    "title": "OpenClaw Foundation launches open-source AI agent platform",
    "source": "Tech in Asia",
@@ -232,25 +253,6 @@
    ],
    "firstSeen": "2026-09-30",
    "isNew": true
-  },
-  {
-   "id": "8625b6ee758f9928",
-   "title": "OpenAI unveils Dots AI assistant for background tasks",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/openai-unveils-dots-ai-assistant-background-tasks",
-   "importance": 94,
-   "difficulty": "进阶",
-   "publishedAt": "2026-09-30T00:49:03.000Z",
-   "topics": [
-    "产品与应用"
-   ],
-   "entities": [
-    "OpenAI",
-    "Microsoft"
-   ],
-   "firstSeen": "2026-09-30",
-   "isNew": true
   }
  ],
  "regions": [
@@ -261,6 +263,47 @@
    "flag": "🇨🇳",
    "count": 24,
    "top": [
+    {
+     "id": "708bf4384b797ce6",
+     "title": "Meta 又制造了一个赛道幻觉",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8156722.html",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-30T02:30:03.000Z",
+     "topics": [
+      "产品与应用",
+      "资本与市场"
+     ],
+     "entities": [
+      "Google",
+      "Meta"
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
+    },
+    {
+     "id": "11d6881e95046f4f",
+     "title": "推演大厂AI办公之战",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8156682.html",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-30T02:21:00.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "阿里巴巴",
+      "腾讯",
+      "字节跳动"
+     ],
+     "firstSeen": "2026-09-30",
+     "isNew": true
+    },
     {
      "id": "a60fb3bba753cb78",
      "title": "OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了",
@@ -277,48 +320,6 @@
      "entities": [
       "OpenAI",
       "Anthropic"
-     ],
-     "firstSeen": "2026-09-30",
-     "isNew": true
-    },
-    {
-     "id": "5d2b54c185f9bf86",
-     "title": "早报｜曝苹果新CEO想更快发产品/华为Mate 90真机进店/GPT‑6.1 Sol推出，价格仅Astra的五分之一",
-     "source": "爱范儿",
-     "region": "CN",
-     "url": "https://www.ifanr.com/1682554?utm_source=rss&utm_medium=rss&utm_campaign=",
-     "importance": 98,
-     "difficulty": "入门",
-     "publishedAt": "2026-09-30T00:26:36.000Z",
-     "topics": [
-      "产品与应用",
-      "模型与能力"
-     ],
-     "entities": [
-      "OpenAI",
-      "华为",
-      "DeepSeek"
-     ],
-     "firstSeen": "2026-09-30",
-     "isNew": true
-    },
-    {
-     "id": "42ea2a2a274fbf44",
-     "title": "8点1氪丨10月1日起将对居民购房实施贷款贴息；AMD回应收购李飞飞公司；网红超长蛋挞全是皮没蛋液？鲍师傅回应",
-     "source": "36氪",
-     "region": "CN",
-     "url": "https://36kr.com/p/4005136008761217?f=rss",
-     "importance": 98,
-     "difficulty": "入门",
-     "publishedAt": "2026-09-30T00:01:53.000Z",
-     "topics": [
-      "资本与市场",
-      "模型与能力"
-     ],
-     "entities": [
-      "OpenAI",
-      "NVIDIA",
-      "AMD"
      ],
      "firstSeen": "2026-09-30",
      "isNew": true
@@ -421,22 +422,6 @@
      "isNew": true
     },
     {
-     "id": "2aaa7dc57ccc5525",
-     "title": "UAE launches world-first mobile network with speeds of up to 10Gbps",
-     "source": "Arabian Business",
-     "region": "ME",
-     "url": "https://www.arabianbusiness.com/business/technology/uae-launches-world-first-mobile-network-with-speeds-of-up-to-10gbps",
-     "importance": 72,
-     "difficulty": "入门",
-     "publishedAt": "2026-09-30T01:36:11.000Z",
-     "topics": [
-      "产品与应用"
-     ],
-     "entities": [],
-     "firstSeen": "2026-09-30",
-     "isNew": true
-    },
-    {
      "id": "fff119f68beabe9a",
      "title": "Hiperdist and Huawei Cloud strengthen UAE channel ecosystem",
      "source": "TahawulTech",
@@ -455,6 +440,22 @@
      ],
      "firstSeen": "2026-09-30",
      "isNew": true
+    },
+    {
+     "id": "cfc97320b09a9b2a",
+     "title": "Saudi fintech erad raises $22 million Series A led by MEVP",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/09/saudi-fintech-erad-raises-22-million-series-led-mevp",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-09-30",
+     "isNew": true
     }
    ]
   },
@@ -463,8 +464,24 @@
    "name": "日韩",
    "short": "日韩",
    "flag": "🗾",
-   "count": 16,
+   "count": 17,
    "top": [
+    {
+     "id": "d90310716604de6e",
+     "title": "AI 학습의 다음 단계, ‘스스로 만드는 데이터’",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/ai-%ed%95%99%ec%8a%b5%ec%9d%98-%eb%8b%a4%ec%9d%8c-%eb%8b%a8%ea%b3%84-%ec%8a%a4%ec%8a%a4%eb%a1%9c-%eb%a7%8c%eb%93%9c%eb%8a%94-%eb%8d%b0%ec%9d%b4%ed%84%b0/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-30T02:32:36.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-09-30",
+     "isNew": true
+    },
     {
      "id": "b7560fd4dd6ced8a",
      "title": "AIエージェントでスケジュール管理を自動化する方法とおすすめツール9選",
@@ -491,21 +508,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ec%a0%8a%ec%9d%80-%ec%9e%a5%ea%b8%b0-%ec%9d%b4%ec%8b%9d%eb%b0%9b%ec%9d%80-%ec%82%ac%eb%9e%8c%ea%b9%8c%ec%a7%80-%ec%a0%8a%ea%b2%8c-%eb%a7%8c%eb%93%a4%ec%a7%80%eb%8a%94-%eb%aa%bb%ed%95%a0-%ec%88%98/",
-     "importance": 66,
-     "difficulty": "进阶",
-     "publishedAt": "2026-09-29T21:00:00.000Z",
-     "topics": [],
-     "entities": [],
-     "firstSeen": "2026-09-30",
-     "isNew": true
-    },
-    {
-     "id": "86d422108ce1fdb4",
-     "title": "[OPINION] ‘과장’을 파는 AI 빅테크의 노림수",
-     "source": "MIT Technology Review Korea",
-     "region": "JPKR",
-     "url": "https://www.technologyreview.kr/opinion-%ea%b3%bc%ec%9e%a5%ec%9d%84-%ed%8c%8c%eb%8a%94-ai-%eb%b9%85%ed%85%8c%ed%81%ac/",
-     "importance": 66,
+     "importance": 62,
      "difficulty": "进阶",
      "publishedAt": "2026-09-29T21:00:00.000Z",
      "topics": [],
@@ -604,7 +607,7 @@
      "source": "Ars Technica AI",
      "region": "NA",
      "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
-     "importance": 98,
+     "importance": 94,
      "difficulty": "进阶",
      "publishedAt": "2026-09-29T21:14:49.000Z",
      "topics": [
@@ -664,6 +667,22 @@
      "isNew": true
     },
     {
+     "id": "3868bff8107bd2e2",
+     "title": "Arivihan raises $10M as AI-led edtech targets India’s smaller cities",
+     "source": "YourStory",
+     "region": "OTHER",
+     "url": "https://yourstory.com/2026/09/arivihan-10m-as-ai-led-edtech-targets-indias-smaller-cities",
+     "importance": 80,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-30T03:49:05.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-09-30",
+     "isNew": true
+    },
+    {
      "id": "820485835a085056",
      "title": "Ex-Soulfull MD Prashant Parameswaran Launches Arovia To Build Regional Food Brands Portfolio",
      "source": "Inc42",
@@ -679,27 +698,9 @@
      "entities": [],
      "firstSeen": "2026-09-30",
      "isNew": true
-    },
-    {
-     "id": "0f1dd4db1699f351",
-     "title": "Home Affairs orders gov-wide 'legacy' system stocktake within six months",
-     "source": "iTnews Australia",
-     "region": "OTHER",
-     "url": "https://www.itnews.com.au/news/home-affairs-orders-gov-wide-legacy-system-stocktake-within-six-months-629313?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-     "importance": 75,
-     "difficulty": "进阶",
-     "publishedAt": "2026-09-30T00:08:00.000Z",
-     "topics": [
-      "产品与应用"
-     ],
-     "entities": [
-      "OpenAI"
-     ],
-     "firstSeen": "2026-09-30",
-     "isNew": true
     }
    ]
   }
  ],
- "overview": "9 月 30 日，共从 29 个信息源抓取 498 条 AI 产业动态，其中 160 条进入当日精选，覆盖 7 个区域。其中有 141 条发布于 24 小时内。其中 149 条是此前未出现过的新增内容，另有 11 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」57 条、「资本与市场」40 条。值得优先关注的几条：「OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了」（爱范儿）、「早报｜曝苹果新CEO想更快发产品/华为Mate 90真机进店/GPT‑6.1 Sol推出，价格仅Astra的五分之一」（爱范儿）、「8点1氪丨10月1日起将对居民购房实施贷款贴息；AMD回应收购李飞飞公司；网红超长蛋挞全是皮没蛋液？鲍师傅回应」（36氪）。"
+ "overview": "9 月 30 日，共从 27 个信息源抓取 465 条 AI 产业动态，其中 161 条进入当日精选，覆盖 7 个区域。其中有 131 条发布于 24 小时内。其中 139 条是此前未出现过的新增内容，另有 22 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」63 条、「资本与市场」44 条。值得优先关注的几条：「Meta 又制造了一个赛道幻觉」（钛媒体）、「推演大厂AI办公之战」（钛媒体）、「OpenAI 年度发布会最全总结：25 个新品很夯，但额度减半拉爆了」（爱范儿）。"
 }
