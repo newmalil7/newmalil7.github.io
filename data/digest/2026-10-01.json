@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-01",
- "generatedAt": "2026-10-01T01:05:28.523Z",
+ "generatedAt": "2026-10-01T04:18:21.990Z",
  "mode": "rule",
  "counts": {
-  "crawled": 460,
+  "crawled": 459,
   "published": 163,
-  "newCount": 124,
-  "repeatCount": 39,
+  "newCount": 127,
+  "repeatCount": 36,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,29 +22,29 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 129,
+  "within24h": 128,
   "withinFresh": 135,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
-  "staleDropped": 19,
-  "newestAt": "2026-10-01T01:00:07.000Z"
+  "staleDropped": 20,
+  "newestAt": "2026-10-01T12:35:04.000Z"
  },
  "themes": [
   {
    "name": "产品与应用",
-   "n": 54
+   "n": 53
   },
   {
    "name": "资本与市场",
-   "n": 49
-  },
-  {
-   "name": "产业与生态",
-   "n": 24
+   "n": 51
   },
   {
    "name": "模型与能力",
+   "n": 25
+  },
+  {
+   "name": "产业与生态",
    "n": 24
   },
   {
@@ -53,7 +53,7 @@
   },
   {
    "name": "政策与治理",
-   "n": 12
+   "n": 13
   }
  ],
  "entities": [
@@ -63,30 +63,30 @@
   },
   {
    "name": "Google",
-   "n": 11
-  },
-  {
-   "name": "Meta",
    "n": 9
   },
   {
-   "name": "NVIDIA",
-   "n": 6
+   "name": "Meta",
+   "n": 8
   },
   {
    "name": "Anthropic",
    "n": 5
   },
   {
-   "name": "Apple",
+   "name": "华为",
    "n": 5
   },
   {
-   "name": "华为",
+   "name": "NVIDIA",
+   "n": 5
+  },
+  {
+   "name": "Apple",
    "n": 4
   },
   {
-   "name": "Hugging Face",
+   "name": "ElevenLabs",
    "n": 4
   }
  ],
@@ -174,27 +174,6 @@
    "isNew": true
   },
   {
-   "id": "4cabbb31d0f79f19",
-   "title": "AMD82亿美元收购李飞飞WorldLab，为什么是现在？买对了吗？",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8157114.html",
-   "importance": 93,
-   "difficulty": "入门",
-   "publishedAt": "2026-09-30T11:27:44.000Z",
-   "topics": [
-    "产业与生态",
-    "模型与能力"
-   ],
-   "entities": [
-    "NVIDIA",
-    "AMD",
-    "Hugging Face"
-   ],
-   "firstSeen": "2026-10-01",
-   "isNew": true
-  },
-  {
    "id": "efa9da888dff620e",
    "title": "OpenAI says Moonshot users tried to extract GPT reasoning data",
    "source": "Tech in Asia",
@@ -248,6 +227,26 @@
    "entities": [
     "OpenAI",
     "Anthropic"
+   ],
+   "firstSeen": "2026-10-01",
+   "isNew": true
+  },
+  {
+   "id": "59a1d2620b4ef20b",
+   "title": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack",
+   "source": "Ars Technica AI",
+   "region": "NA",
+   "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-09-30T18:25:04.000Z",
+   "topics": [
+    "政策与治理",
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Hugging Face"
    ],
    "firstSeen": "2026-10-01",
    "isNew": true
@@ -372,20 +371,20 @@
      "isNew": true
     },
     {
-     "id": "2060b0dce0f6eea9",
-     "title": "Google rolls out Gemini 4 Argon to trusted cyber defenders",
+     "id": "2f3851b7ecfc5431",
+     "title": "Nvidia joins AI cloud startup GMI Cloud’s $668m round",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/google-rolls-gemini-4-argon-trusted-cyber-defenders",
+     "url": "https://www.techinasia.com/news/nvidia-joins-ai-cloud-startup-gmi-clouds-668m",
      "importance": 88,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-01T00:03:36.000Z",
+     "publishedAt": "2026-10-01T03:05:21.000Z",
      "topics": [
-      "模型与能力",
-      "产品与应用"
+      "算力与基建",
+      "资本与市场"
      ],
      "entities": [
-      "Google"
+      "NVIDIA"
      ],
      "firstSeen": "2026-10-01",
      "isNew": true
@@ -466,12 +465,28 @@
    "count": 19,
    "top": [
     {
+     "id": "6f88fff45a9a9ae5",
+     "title": "올거나이즈, 기업용 AI로 '일본 코스닥' 간다...그로스시장 상장 승인",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=215833",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-01T12:35:04.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-09-30",
+     "isNew": false
+    },
+    {
      "id": "965714bd202165da",
      "title": "AI 에이전트 해킹 잇따르는데…책임 물을 제도는 ‘공백’",
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/ai-%ec%97%90%ec%9d%b4%ec%a0%84%ed%8a%b8-%ed%95%b4%ed%82%b9-%ec%9e%87%eb%94%b0%eb%a5%b4%eb%8a%94%eb%8d%b0%ec%b1%85%ec%9e%84-%eb%ac%bc%ec%9d%84-%ec%a0%9c%eb%8f%84%eb%8a%94-%ea%b3%b5%eb%b0%b1/",
-     "importance": 66,
+     "importance": 62,
      "difficulty": "进阶",
      "publishedAt": "2026-09-30T21:00:00.000Z",
      "topics": [],
@@ -485,29 +500,13 @@
      "source": "AINOW",
      "region": "JPKR",
      "url": "https://ainow.ai/2026/09/30/278404/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae10%25e5%25a4%25a7%25e3%2583%25aa%25e3%2582%25b9%25e3%2582%25af%25e3%2581%25a8%25e4%25ba%258b%25e6%2595%2585%25e4%25ba%258b%25e4%25be%258b%25e3%2581%258b%25e3%2582%2589%25e5%25ad%25a6%25e3%2581%25b6%25e7%25ae%25a1",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-09-30T13:24:46.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-10-01",
      "isNew": true
-    },
-    {
-     "id": "a20dabfb98edb97a",
-     "title": "\"한국판 코어위브 넘는다\"...'1조 몸값' 엘리스그룹, 코스닥 도전",
-     "source": "AI타임스",
-     "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=215816",
-     "importance": 58,
-     "difficulty": "进阶",
-     "publishedAt": "2026-09-30T18:35:00.000Z",
-     "topics": [
-      "算力与基建"
-     ],
-     "entities": [],
-     "firstSeen": "2026-09-30",
-     "isNew": false
     }
    ]
   },
@@ -519,17 +518,16 @@
    "count": 24,
    "top": [
     {
-     "id": "119cfdc65fe51312",
-     "title": "Berlin-based Restate raises $20M",
-     "source": "Tech.eu",
+     "id": "0f504296441ac46d",
+     "title": "Exclusive: Dig Ventures raises $120m to back Europe’s AI infrastructure startups",
+     "source": "Sifted",
      "region": "EU",
-     "url": "https://tech.eu/2026/09/30/berlin-based-restate-raises-20m/",
-     "importance": 85,
+     "url": "https://sifted.eu/articles/dig-ventures-fund-europe-ai-infrastructure/",
+     "importance": 81,
      "difficulty": "入门",
-     "publishedAt": "2026-09-30T14:00:00.000Z",
+     "publishedAt": "2026-10-01T05:00:40.000Z",
      "topics": [
-      "资本与市场",
-      "产品与应用"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-10-01",
@@ -649,6 +647,22 @@
    "count": 24,
    "top": [
     {
+     "id": "b85c2b5401c42a81",
+     "title": "Q3 Funding Crawls Up, Inc42’s CTO Summit 2026 & More",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/q3-funding-crawls-up-inc42s-cto-summit-2026-more/",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T02:30:14.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-01",
+     "isNew": true
+    },
+    {
      "id": "c2d68dfad7916d4e",
      "title": "AI Leaders Agree to Safety Rules. Who Will Enforce Them?",
      "source": "Techloy",
@@ -688,25 +702,9 @@
      ],
      "firstSeen": "2026-10-01",
      "isNew": true
-    },
-    {
-     "id": "c9725735b1b96e08",
-     "title": "How Swiggy Is Using AI Agents To Take Commerce Beyond Its App",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/how-swiggy-is-using-ai-agents-to-take-commerce-beyond-its-app/",
-     "importance": 80,
-     "difficulty": "入门",
-     "publishedAt": "2026-09-30T07:33:40.000Z",
-     "topics": [
-      "产品与应用"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-01",
-     "isNew": true
     }
    ]
   }
  ],
- "overview": "10 月 1 日，共从 27 个信息源抓取 460 条 AI 产业动态，其中 163 条进入当日精选，覆盖 7 个区域。其中有 129 条发布于 24 小时内。其中 124 条是此前未出现过的新增内容，另有 39 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」54 条、「资本与市场」49 条。值得优先关注的几条：「Gemini 4 正式发布，我们终于有了一个写作强于代码的前沿模型」（爱范儿）、「早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双倍退款」（爱范儿）、「OpenAI、Meta、Manus同时下注，智能体 2.0 来了」（钛媒体）。"
+ "overview": "10 月 1 日，共从 27 个信息源抓取 459 条 AI 产业动态，其中 163 条进入当日精选，覆盖 7 个区域。其中有 128 条发布于 24 小时内。其中 127 条是此前未出现过的新增内容，另有 36 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」53 条、「资本与市场」51 条。值得优先关注的几条：「Gemini 4 正式发布，我们终于有了一个写作强于代码的前沿模型」（爱范儿）、「早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双倍退款」（爱范儿）、「OpenAI、Meta、Manus同时下注，智能体 2.0 来了」（钛媒体）。"
 }
