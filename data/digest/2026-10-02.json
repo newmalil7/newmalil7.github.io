@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-02",
- "generatedAt": "2026-10-02T01:04:07.579Z",
+ "generatedAt": "2026-10-02T04:17:50.448Z",
  "mode": "rule",
  "counts": {
-  "crawled": 462,
+  "crawled": 456,
   "published": 163,
-  "newCount": 119,
-  "repeatCount": 44,
+  "newCount": 125,
+  "repeatCount": 38,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -27,54 +27,54 @@
   "freshHours": 72,
   "monthPrecision": 18,
   "undated": 0,
-  "staleDropped": 19,
-  "newestAt": "2026-10-02T04:56:01.000Z"
+  "staleDropped": 24,
+  "newestAt": "2026-10-02T13:06:23.000Z"
  },
  "themes": [
   {
-   "name": "资本与市场",
-   "n": 59
+   "name": "产品与应用",
+   "n": 60
   },
   {
-   "name": "产品与应用",
-   "n": 53
+   "name": "资本与市场",
+   "n": 60
   },
   {
    "name": "产业与生态",
-   "n": 19
+   "n": 22
   },
   {
    "name": "模型与能力",
-   "n": 18
-  },
-  {
-   "name": "算力与基建",
-   "n": 17
+   "n": 20
   },
   {
    "name": "政策与治理",
-   "n": 11
+   "n": 12
+  },
+  {
+   "name": "算力与基建",
+   "n": 12
   }
  ],
  "entities": [
   {
    "name": "Google",
-   "n": 9
+   "n": 12
   },
   {
    "name": "OpenAI",
-   "n": 8
-  },
-  {
-   "name": "NVIDIA",
-   "n": 6
+   "n": 10
   },
   {
    "name": "华为",
-   "n": 6
+   "n": 8
   },
   {
    "name": "Anthropic",
+   "n": 7
+  },
+  {
+   "name": "NVIDIA",
    "n": 5
   },
   {
@@ -82,15 +82,56 @@
    "n": 3
   },
   {
-   "name": "字节跳动",
-   "n": 2
+   "name": "Meta",
+   "n": 3
   },
   {
-   "name": "Meta",
+   "name": "Amazon",
    "n": 2
   }
  ],
  "topOverall": [
+  {
+   "id": "d34c2c3cc28f0c59",
+   "title": "Anthropic targets mid-November IPO after delay",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/anthropic-targets-midnovember-ipo-delay",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-02T01:14:16.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "Anthropic",
+    "Google",
+    "Amazon"
+   ],
+   "firstSeen": "2026-10-02",
+   "isNew": true
+  },
+  {
+   "id": "9d218acdf630d356",
+   "title": "deepseek为什么要在此时拥抱华为？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8158082.html",
+   "importance": 95,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-02T01:56:11.000Z",
+   "topics": [
+    "模型与能力",
+    "算力与基建"
+   ],
+   "entities": [
+    "NVIDIA",
+    "华为",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-02",
+   "isNew": true
+  },
   {
    "id": "723895528da10b89",
    "title": "SK hynix leads US IPO proceeds with $26.5b listing",
@@ -111,19 +152,20 @@
    "isNew": true
   },
   {
-   "id": "e138426a7cbf924e",
-   "title": "ChatGPT can now virtually try on clothes for you",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+   "id": "5296854ac3f73475",
+   "title": "英伟达参投的Firmus计划澳洲IPO，目标估值300亿美元",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4008004616753287?f=rss",
    "importance": 91,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-01T19:21:53.000Z",
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-02T02:09:07.000Z",
    "topics": [
-    "产品与应用"
+    "资本与市场",
+    "算力与基建"
    ],
    "entities": [
-    "OpenAI"
+    "NVIDIA"
    ],
    "firstSeen": "2026-10-02",
    "isNew": true
@@ -148,6 +190,43 @@
    "isNew": true
   },
   {
+   "id": "eba06d319ec328ac",
+   "title": "Researchers Flag AI Overreach, Moneyview’s Bumper IPO & More",
+   "source": "Inc42",
+   "region": "OTHER",
+   "url": "https://inc42.com/buzz/researchers-flag-ai-overreach-moneyviews-bumper-ipo-more/",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-02T02:30:23.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "firstSeen": "2026-10-02",
+   "isNew": true
+  },
+  {
+   "id": "354cdc0eba44566c",
+   "title": "Tencent-backed Infinigence eyes HK IPO as early as 2027",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/tencentbacked-infinigence-eyes-hk-ipo-early-2027",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-02T01:09:51.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "腾讯"
+   ],
+   "firstSeen": "2026-10-02",
+   "isNew": true
+  },
+  {
    "id": "450bab1750e582ee",
    "title": "Nebius acquires Israeli AI startup Inferize in GPU deal",
    "source": "Tech in Asia",
@@ -165,78 +244,6 @@
    ],
    "firstSeen": "2026-10-02",
    "isNew": true
-  },
-  {
-   "id": "258b2ff52b331c05",
-   "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
-   "source": "Ars Technica AI",
-   "region": "NA",
-   "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-   "importance": 88,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-01T20:11:55.000Z",
-   "topics": [
-    "政策与治理"
-   ],
-   "entities": [
-    "Google"
-   ],
-   "firstSeen": "2026-10-02",
-   "isNew": true
-  },
-  {
-   "id": "7b414a11c02ff2ed",
-   "title": "美股三大指数集体收涨，大型科技股多数下跌",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4007987196448641?f=rss",
-   "importance": 87,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-02T01:00:00.000Z",
-   "topics": [
-    "算力与基建"
-   ],
-   "entities": [
-    "NVIDIA",
-    "腾讯",
-    "百度"
-   ],
-   "firstSeen": "2026-10-02",
-   "isNew": true
-  },
-  {
-   "id": "687eae103b31df75",
-   "title": "Volantis raises $88M to develop photonic inference systems",
-   "source": "SiliconANGLE",
-   "region": "NA",
-   "url": "https://siliconangle.com/2026/10/01/volantis-raises-88m-to-develop-photonic-inference-systems/",
-   "importance": 86,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-01T22:45:13.000Z",
-   "topics": [
-    "资本与市场"
-   ],
-   "entities": [
-    "Intel"
-   ],
-   "firstSeen": "2026-10-02",
-   "isNew": true
-  },
-  {
-   "id": "ba6c08cdbf6362b6",
-   "title": "Seeds Fincap Raises ₹100 Cr To Scale Lending Tech Capabilities",
-   "source": "Inc42",
-   "region": "OTHER",
-   "url": "https://inc42.com/buzz/seeds-fincap-raises-%e2%82%b9100-cr-to-scale-lending-tech-capabilities/",
-   "importance": 85,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-01T13:58:14.000Z",
-   "topics": [
-    "资本与市场"
-   ],
-   "entities": [],
-   "firstSeen": "2026-10-02",
-   "isNew": true
   }
  ],
  "regions": [
@@ -248,60 +255,61 @@
    "count": 24,
    "top": [
     {
-     "id": "7b414a11c02ff2ed",
-     "title": "美股三大指数集体收涨，大型科技股多数下跌",
-     "source": "36氪",
+     "id": "9d218acdf630d356",
+     "title": "deepseek为什么要在此时拥抱华为？",
+     "source": "钛媒体",
      "region": "CN",
-     "url": "https://36kr.com/newsflashes/4007987196448641?f=rss",
-     "importance": 87,
+     "url": "https://www.tmtpost.com/8158082.html",
+     "importance": 95,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-02T01:00:00.000Z",
+     "publishedAt": "2026-10-02T01:56:11.000Z",
      "topics": [
+      "模型与能力",
       "算力与基建"
      ],
      "entities": [
       "NVIDIA",
-      "腾讯",
-      "百度"
+      "华为",
+      "DeepSeek"
      ],
      "firstSeen": "2026-10-02",
      "isNew": true
     },
     {
-     "id": "905852ca58d055c8",
-     "title": "腾讯经销、字节驻场、Kimi借船：FDE成了大模型的新成本？",
-     "source": "钛媒体",
-     "region": "CN",
-     "url": "https://www.tmtpost.com/8157828.html",
-     "importance": 83,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-01T08:16:17.000Z",
-     "topics": [
-      "产品与应用",
-      "模型与能力"
-     ],
-     "entities": [
-      "腾讯",
-      "字节跳动"
-     ],
-     "firstSeen": "2026-10-02",
-     "isNew": true
-    },
-    {
-     "id": "092c7896cce96555",
-     "title": "问界汽车：华为与赛力斯达成新五年合作",
+     "id": "5296854ac3f73475",
+     "title": "英伟达参投的Firmus计划澳洲IPO，目标估值300亿美元",
      "source": "36氪",
      "region": "CN",
-     "url": "https://36kr.com/newsflashes/4008032226463617?f=rss",
-     "importance": 82,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-02T01:01:13.000Z",
+     "url": "https://36kr.com/newsflashes/4008004616753287?f=rss",
+     "importance": 91,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T02:09:07.000Z",
      "topics": [
-      "产业与生态",
-      "资本与市场"
+      "资本与市场",
+      "算力与基建"
      ],
      "entities": [
-      "华为"
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-02",
+     "isNew": true
+    },
+    {
+     "id": "eace9c2e1a70b3fd",
+     "title": "领导层洗牌后，Argon能否助谷歌重回前沿？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8158081.html",
+     "importance": 85,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T01:29:50.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "Google",
+      "DeepMind"
      ],
      "firstSeen": "2026-10-02",
      "isNew": true
@@ -315,6 +323,26 @@
    "flag": "🌏",
    "count": 24,
    "top": [
+    {
+     "id": "d34c2c3cc28f0c59",
+     "title": "Anthropic targets mid-November IPO after delay",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/anthropic-targets-midnovember-ipo-delay",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-02T01:14:16.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Anthropic",
+      "Google",
+      "Amazon"
+     ],
+     "firstSeen": "2026-10-02",
+     "isNew": true
+    },
     {
      "id": "723895528da10b89",
      "title": "SK hynix leads US IPO proceeds with $26.5b listing",
@@ -349,25 +377,6 @@
      "entities": [
       "Anthropic",
       "博通"
-     ],
-     "firstSeen": "2026-10-02",
-     "isNew": true
-    },
-    {
-     "id": "450bab1750e582ee",
-     "title": "Nebius acquires Israeli AI startup Inferize in GPU deal",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/nebius-acquires-israeli-ai-startup-inferize-gpu-deal",
-     "importance": 88,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-02T00:27:40.000Z",
-     "topics": [
-      "算力与基建",
-      "资本与市场"
-     ],
-     "entities": [
-      "Nebius"
      ],
      "firstSeen": "2026-10-02",
      "isNew": true
@@ -453,7 +462,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ec%95%a4%ed%8a%b8%eb%a1%9c%ed%94%bd%ec%9d%98-ai-%ea%b3%bc%ed%95%99%ec%a0%81-%eb%b0%9c%ea%b2%ac-%eb%85%bc%eb%9e%80%ed%8c%a8%ed%84%b4-%eb%b0%9c%ea%b2%ac%ea%b3%bc-%ec%a7%84%ec%a7%9c/",
-     "importance": 66,
+     "importance": 62,
      "difficulty": "进阶",
      "publishedAt": "2026-10-01T21:00:00.000Z",
      "topics": [],
@@ -467,7 +476,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ec%8b%a0%ec%9d%98-%ea%b3%84%ec%8b%9c%eb%a1%9c-%ec%8b%9c%ec%9e%91%ed%95%9c-%ec%bd%94%ec%9d%b8-%ec%82%ac%ec%97%85-%ed%88%ac%ec%9e%90%ec%9e%90%eb%93%a4%ec%9d%98-%eb%8f%88%ec%9d%80-%ec%96%b4%eb%94%94/",
-     "importance": 66,
+     "importance": 62,
      "difficulty": "进阶",
      "publishedAt": "2026-10-01T21:00:00.000Z",
      "topics": [],
@@ -476,14 +485,14 @@
      "isNew": true
     },
     {
-     "id": "c1e937e4a4da4564",
-     "title": "최대선 센터장 \"사이버보안 특화 모델 AI 기본법 사각지대...기준 마련 시급\"",
+     "id": "5148e16ff09b5b88",
+     "title": "오픈AI, 내부 기밀 유출 혐의로 정렬·안전팀 연구원 3명 해고",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=215867",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=215876",
      "importance": 50,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-02T04:56:01.000Z",
+     "publishedAt": "2026-10-02T13:06:23.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-10-01",
@@ -567,7 +576,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-     "importance": 91,
+     "importance": 87,
      "difficulty": "入门",
      "publishedAt": "2026-10-01T19:21:53.000Z",
      "topics": [
@@ -575,24 +584,6 @@
      ],
      "entities": [
       "OpenAI"
-     ],
-     "firstSeen": "2026-10-02",
-     "isNew": true
-    },
-    {
-     "id": "258b2ff52b331c05",
-     "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
-     "source": "Ars Technica AI",
-     "region": "NA",
-     "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-     "importance": 88,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-01T20:11:55.000Z",
-     "topics": [
-      "政策与治理"
-     ],
-     "entities": [
-      "Google"
      ],
      "firstSeen": "2026-10-02",
      "isNew": true
@@ -614,6 +605,24 @@
      ],
      "firstSeen": "2026-10-02",
      "isNew": true
+    },
+    {
+     "id": "258b2ff52b331c05",
+     "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
+     "source": "Ars Technica AI",
+     "region": "NA",
+     "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-01T20:11:55.000Z",
+     "topics": [
+      "政策与治理"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-10-02",
+     "isNew": true
     }
    ]
   },
@@ -625,18 +634,20 @@
    "count": 24,
    "top": [
     {
-     "id": "ba6c08cdbf6362b6",
-     "title": "Seeds Fincap Raises ₹100 Cr To Scale Lending Tech Capabilities",
+     "id": "eba06d319ec328ac",
+     "title": "Researchers Flag AI Overreach, Moneyview’s Bumper IPO & More",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/seeds-fincap-raises-%e2%82%b9100-cr-to-scale-lending-tech-capabilities/",
-     "importance": 85,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-01T13:58:14.000Z",
+     "url": "https://inc42.com/buzz/researchers-flag-ai-overreach-moneyviews-bumper-ipo-more/",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T02:30:23.000Z",
      "topics": [
       "资本与市场"
      ],
-     "entities": [],
+     "entities": [
+      "OpenAI"
+     ],
      "firstSeen": "2026-10-02",
      "isNew": true
     },
@@ -661,25 +672,23 @@
      "isNew": true
     },
     {
-     "id": "ef58f4fc5a4f3894",
-     "title": "Google Unveils Gemini 4 Argon, Its Most Advanced AI Model Yet",
+     "id": "ba6c08cdbf6362b6",
+     "title": "Seeds Fincap Raises ₹100 Cr To Scale Lending Tech Capabilities",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/google-unveils-gemini-4-argon-its-most-advanced-ai-model-yet/",
-     "importance": 79,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-01T09:40:23.000Z",
+     "url": "https://inc42.com/buzz/seeds-fincap-raises-%e2%82%b9100-cr-to-scale-lending-tech-capabilities/",
+     "importance": 80,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T13:58:14.000Z",
      "topics": [
-      "模型与能力"
+      "资本与市场"
      ],
-     "entities": [
-      "Google"
-     ],
+     "entities": [],
      "firstSeen": "2026-10-02",
      "isNew": true
     }
    ]
   }
  ],
- "overview": "10 月 2 日，共从 27 个信息源抓取 462 条 AI 产业动态，其中 163 条进入当日精选，覆盖 7 个区域。其中有 127 条发布于 24 小时内。其中 119 条是此前未出现过的新增内容，另有 44 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」59 条、「产品与应用」53 条。值得优先关注的几条：「SK hynix leads US IPO proceeds with $26.5b listing」（Tech in Asia）、「ChatGPT can now virtually try on clothes for you」（TechCrunch AI）、「Broadcom to lend Anthropic up to $42b for AI infrastructure」（Tech in Asia）。"
+ "overview": "10 月 2 日，共从 27 个信息源抓取 456 条 AI 产业动态，其中 163 条进入当日精选，覆盖 7 个区域。其中有 127 条发布于 24 小时内。其中 125 条是此前未出现过的新增内容，另有 38 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」60 条、「资本与市场」60 条。值得优先关注的几条：「deepseek为什么要在此时拥抱华为？」（钛媒体）、「英伟达参投的Firmus计划澳洲IPO，目标估值300亿美元」（36氪）。"
 }
