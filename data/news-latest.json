@@ -1,6 +1,6 @@
 {
  "schema": "ai-horizon/v1",
- "generatedAt": "2026-10-03T01:03:46.993Z",
+ "generatedAt": "2026-10-03T04:17:51.182Z",
  "date": "2026-10-03",
  "enrichMode": "rule",
  "stats": {
@@ -19,15 +19,15 @@
   "freshness": {
    "maxAgeHours": 168,
    "freshHours": 72,
-   "within24h": 148,
-   "withinFresh": 362,
+   "within24h": 145,
+   "withinFresh": 357,
    "monthPrecision": 20,
    "undated": 0,
-   "staleDropped": 24,
+   "staleDropped": 23,
    "staleSources": []
   },
-  "newCount": 102,
-  "repeatCount": 60,
+  "newCount": 118,
+  "repeatCount": 44,
   "seenWindowDays": 7,
   "seenDays": [
    "2026-10-02",
@@ -107,7 +107,7 @@
     "pending": [],
     "zhTitle": "苹果更改全磁盘访问权限以遏制人工智能代理的滥用",
     "zhSummary": "苹果表示，它正在更改 macOS 隐私设置，以阻止第三方应用程序开发人员滥用这些设置来访问消息历史记录。周五的公告是在科技专栏作家 Jason Aten 表示 Meta 的新产品两周后发布的。",
-    "ts": "2026-10-03T01:03:48.383Z",
+    "ts": "2026-10-03T04:17:51.243Z",
     "partial": false
    }
   },
@@ -143,6 +143,51 @@
    "plainHint": "AI 具体被拿去做成了什么能用的东西",
    "firstSeen": "2026-10-03",
    "isNew": true
+  },
+  {
+   "title": "Cerebras shares fall 20% as OpenAI turns to Nvidia",
+   "url": "https://www.techinasia.com/news/cerebras-shares-fall-20-openai-turns-nvidia",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "News",
+    "AI chips",
+    "Cerebras",
+    "NVIDIA"
+   ],
+   "summary": "Cerebras’ CEO and CTO sold more than $240 million in stock under trading plans.",
+   "publishedAt": "2026-10-03T02:06:23.000Z",
+   "id": "c2211d5848e39f61",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [
+    "OpenAI",
+    "NVIDIA",
+    "Cerebras"
+   ],
+   "difficulty": "进阶",
+   "importance": 96,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "OpenAI 转向 Nvidia 后 Cerebras 股价下跌 20%",
+    "zhSummary": "Cerebras 的首席执行官和首席技术官根据交易计划出售了超过 2.4 亿美元的股票。",
+    "ts": "2026-10-03T04:17:52.591Z",
+    "partial": false
+   }
   },
   {
    "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
@@ -190,7 +235,7 @@
     "pending": [],
     "zhTitle": "叫它AI，叫它超级智能，只有2%的消费者买账",
     "zhSummary": "本周，白宫将几乎所有主要科技公司首席执行官聚集在一个房间，其中包括扎克伯格、贝索斯、马斯克和 Anthropic 的达里奥·阿莫迪，签署了一份唐纳德·特朗普总统称之为“具有道德约束力”的人工智能安全承诺。特朗普还签署了",
-    "ts": "2026-10-03T01:03:49.884Z",
+    "ts": "2026-10-03T04:17:52.592Z",
     "partial": false
    }
   },
@@ -240,9 +285,43 @@
     "pending": [],
     "zhTitle": "这不再是人工智能，而是“超级智能”（根据白宫的说法）",
     "zhSummary": "本周，白宫将几乎所有主要科技公司首席执行官聚集在一个房间，其中包括扎克伯格、贝索斯、马斯克和 Anthropic 的达里奥·阿莫迪，签署了一份唐纳德·特朗普总统称之为“具有道德约束力”的人工智能安全承诺。特朗普还签署了",
-    "ts": "2026-10-03T01:03:50.080Z",
+    "ts": "2026-10-03T04:17:52.592Z",
     "partial": false
    }
+  },
+  {
+   "title": "英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文",
+   "url": "http://www.geekpark.net/news/372070",
+   "source": "极客公园",
+   "sourceId": "geekpark",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "英伟达股价创新高，逼近 6 万亿美元 英伟达股价自 5 月以来首次创下历史新高，在两个月的抛售导致市值蒸发逾 1 万亿美元后，投资者重新涌入该股。这家全球市值最高的上市公司股价周五上涨 2.9%，较 7 月底低点累计反弹近 25%。 英伟达股价今年迄今上涨约 27%，有望连续第四年实现两位数涨幅。目前公司市值约为 5.7 万亿美元，距离成为历史上首家市值达到 6 万亿美元的公司不到 3000 亿美元。（来源：环球市场播报） 腾讯 WorkBuddy 内置模型独家支持 Space Bunny 10 月 2 日消息，腾讯 WorkBuddy 宣布内置模型独家支持 Space Bunny。 据介绍，Space Bunny 是一款匿名 Flash 大模型，具备极速推理、强大的编码能力，原生支持文本、图像、视频输入，思考深度可调，上下文长达 1M。WorkBu…",
+   "publishedAt": "2026-10-03T01:17:08.000Z",
+   "id": "e16fc28fc44183b5",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [
+    "NVIDIA",
+    "腾讯"
+   ],
+   "difficulty": "高级",
+   "importance": 89,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-10-03",
+   "isNew": true
   },
   {
    "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
@@ -283,163 +362,27 @@
     "pending": [],
     "zhTitle": "苹果表示，由于人工智能代理带来的新风险，它正在加强 macOS 的“全磁盘访问”控制",
     "zhSummary": "苹果表示，将在 macOS 的全磁盘访问权限周围添加新的控制，并警告说，功能日益强大的人工智能代理会使对用户文件、消息、邮件和浏览历史记录的广泛访问变得更加危险。",
-    "ts": "2026-10-03T01:03:50.476Z",
+    "ts": "2026-10-03T04:17:52.592Z",
     "partial": false
    }
   },
   {
-   "title": "Headline closes $400M fund, Oura delays IPO, and Fedorov launches Army of Robots",
-   "url": "https://tech.eu/2026/10/02/headline-closes-400m-fund-oura-delays-ipo-and-fedorov-launches-army-of-robots/",
-   "source": "Tech.eu",
-   "sourceId": "tech-eu",
-   "sourceTier": 1,
-   "region": "EU",
-   "lang": "en",
-   "categories": [
-    "General"
-   ],
-   "summary": "This week, we tracked more than 70 tech funding deals worth over €3.9 billion and over 5 exits, M&A transactions, rumours, and related news stories across Europe. This week took me from Bilbao to Angers. In Bilbao, I was at BIOSPAIN 2026, digging into the startups, investment, and technologies emerging from Spain’s growing biotech ecosystem — as well as the bigger questions aro…",
-   "publishedAt": "2026-10-02T14:24:00.000Z",
-   "id": "cd206ec58a84c489",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    },
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 85,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "Headline 关闭 4 亿美元基金，Oura 推迟 IPO，Fedorov 推出 Army of Robots",
-    "zhSummary": "本周，我们追踪了欧洲各地超过 70 笔价值超过 39 亿欧元的科技融资交易以及超过 5 笔退出、并购交易、谣言和相关新闻报道。这周我从毕尔巴鄂飞往昂热。在毕尔巴鄂，我参加了 BIOSPAIN 2026，",
-    "ts": "2026-10-03T01:03:51.870Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Database startup Supabase raises $150M, acquires Turso",
-   "url": "https://siliconangle.com/2026/10/02/database-startup-supabase-raises-150m-acquires-turso/",
-   "source": "SiliconANGLE",
-   "sourceId": "siliconangle",
+   "title": "台积电或与马斯克晶圆厂合作",
+   "url": "https://36kr.com/newsflashes/4009601618710661?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
    "sourceTier": 2,
-   "region": "NA",
-   "lang": "en",
-   "categories": [
-    "Big Data",
-    "NEWS",
-    "The-Latest",
-    "Top Story 6",
-    "acquisition"
-   ],
-   "summary": "Supabase Inc., a startup that commercializes the open-source PostgreSQL database, has raised $150 million in funding. Singapore’s GIC sovereign wealth fund led the deal. It was joined by Alphabet Inc.’s CapitalG, IronArc and SquarePeg. Supabase announced the raise today alongside another business milestone: it has agreed to buy fellow database startup Turso for an undisclosed […",
-   "publishedAt": "2026-10-02T22:16:50.000Z",
-   "id": "03c3a69816d7c769",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    },
-    {
-     "id": "policy",
-     "name": "政策与治理",
-     "color": "#ef4444"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 84,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "数据库初创公司 Supabase 融资 1.5 亿美元，收购 Turso",
-    "zhSummary": "Supabase Inc. 是一家将开源 PostgreSQL 数据库商业化的初创公司，已筹集 1.5 亿美元资金。新加坡 GIC 主权财富基金牵头了该交易。 Alphabet Inc. 的 CapitalG、IronArc 和 SquarePeg 也加入了进来。",
-    "ts": "2026-10-03T01:03:53.071Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
-   "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-   "source": "Ars Technica AI",
-   "sourceId": "ars-ai",
-   "sourceTier": 1,
-   "region": "NA",
-   "lang": "en",
-   "categories": [
-    "AI",
-    "Policy",
-    "ai data center",
-    "Amazon",
-    "data center moratoriums"
-   ],
-   "summary": "On Friday, Amazon committed to donating more than $1 billion over the next five years to communities neighboring data centers. In a press release , Amazon Web Services’ CEO Matt Garman said that communities would decide how to prioritize funds across “education, job training, energy affordability, water, and energy preservation, and local priorities.” Laying out other community…",
-   "publishedAt": "2026-10-02T20:30:27.000Z",
-   "id": "dc9fcc701a0f8313",
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "科技媒体人 Tim Culpan（高鸣璨）爆料称，台积电 (TSMC) 正在探索与 Elon Musk（埃隆 · 马斯克）旗下 Terafab 晶圆厂的合作事宜。 Terafab 此前已与 Intel（英特尔）达成合作；近来有风声传出台积电考虑在美国设立第二园区，Terafab 所在的得克萨斯州是最可能的落脚点。（格隆汇）",
+   "publishedAt": "2026-10-03T04:14:28.000Z",
+   "id": "5550158c9a87419e",
    "topics": [
     {
      "id": "compute",
      "name": "算力与基建",
      "color": "#0ea5e9"
-    },
-    {
-     "id": "policy",
-     "name": "政策与治理",
-     "color": "#ef4444"
-    }
-   ],
-   "entities": [
-    "Amazon"
-   ],
-   "difficulty": "高级",
-   "importance": 84,
-   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "亚马逊斥资 10 亿美元应对数据中心强烈反对的计划招致更多反对",
-    "zhSummary": "周五，亚马逊承诺在未来五年内向数据中心附近的社区捐赠超过 10 亿美元。亚马逊网络服务首席执行官马特·加曼在一份新闻稿中表示，社区将决定如何确定优先级",
-    "ts": "2026-10-03T01:03:54.123Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Meta open sources code to let you make Muse AI gadgets",
-   "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-   "source": "The Verge AI",
-   "sourceId": "theverge-ai",
-   "sourceTier": 2,
-   "region": "NA",
-   "lang": "en",
-   "categories": [],
-   "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced . The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or putting Muse on a small touchscreen device to make what looks kind of like a DIY Muse Char…",
-   "publishedAt": "2026-10-02T21:08:37.000Z",
-   "id": "d020fdc50fa79c63",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
     },
     {
      "id": "industry",
@@ -448,35 +391,141 @@
     }
    ],
    "entities": [
-    "Meta"
+    "Intel",
+    "台积电"
    ],
-   "difficulty": "入门",
-   "importance": 82,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "difficulty": "进阶",
+   "importance": 85,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "title": "Amazon to invest $1b in US data center communities",
+   "url": "https://www.techinasia.com/news/amazon-invest-1b-data-center-communities",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Investments",
+    "News",
+    "Amazon Web Services",
+    "data centers",
+    "sustainability"
+   ],
+   "summary": "AWS says it is 75% of the way toward its 2030 water-positive goal.",
+   "publishedAt": "2026-10-03T01:20:04.000Z",
+   "id": "1ec70d0d72e9c95f",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [
+    "Amazon"
+   ],
+   "difficulty": "进阶",
+   "importance": 84,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
    "firstSeen": "2026-10-03",
    "isNew": true,
    "i18n": {
     "origLang": "en",
     "src": "google+orig",
     "pending": [],
-    "zhTitle": "Meta 开源代码可让您制作 Muse AI 小工具",
-    "zhSummary": "Meta 现在可以让您制作自己的 Muse 小工具，这些小工具具有该公司新的 AI 代理以及该公司开源的代码。该公司建议开展诸如在彩色电子墨水显示屏上加载 Muse 来显示提醒、将其添加到 HDMI 等项目",
-    "ts": "2026-10-03T01:03:54.699Z",
+    "zhTitle": "亚马逊将向美国数据中心社区投资 10 亿美元",
+    "zhSummary": "AWS 表示，其 2030 年水利目标已完成 75%。",
+    "ts": "2026-10-03T04:17:53.586Z",
     "partial": false
    }
   },
   {
-   "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-   "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-   "source": "The Verge AI",
-   "sourceId": "theverge-ai",
+   "title": "苏姿丰抬头，李飞飞低头",
+   "url": "https://www.tmtpost.com/8158564.html",
+   "source": "钛媒体",
+   "sourceId": "tmtpost",
    "sourceTier": 2,
-   "region": "NA",
-   "lang": "en",
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "主编精选文章",
+    "投稿"
+   ],
+   "summary": "文 | 版面之外，作者｜画画 如果把时间拨回 2014 年，苏姿丰刚接手 AMD。 那时的 AMD 还看不出今天 AI 明星公司的样子。公司承压，业务陷入困境，甚至有人怀疑，这家老牌芯片公司等不到下一轮机会。 也是在那个阶段，李飞飞在做一件看起来更笨的事情：给机器准备足够多的图片。 9 月 28 日，AMD 宣布以约 82 亿美元全股票收购李飞飞创办的 World Labs。交易完成后，李飞飞将加入 AMD，担任执行副总裁兼首席科学家，直接向苏姿丰汇报。 表面看，这是一家芯片公司收购一家 AI 创业公司。往深处看，是两条走了十多年的路终于交汇。 一、苏姿丰把 AMD 从悬崖边拉了回来 2014 年，苏姿丰接任 AMD CEO。 那时的 AMD 已经连续多年一蹶不振。 2014 年 AMD 营收约 55 亿美元，净亏损 4.03 亿美元；2015 年营…",
+   "publishedAt": "2026-10-03T01:42:32.000Z",
+   "id": "4424244721e44d94",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [
+    "AMD"
+   ],
+   "difficulty": "进阶",
+   "importance": 83,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "title": "大模型一体机，开始缩水了",
+   "url": "https://www.tmtpost.com/8158443.html",
+   "source": "钛媒体",
+   "sourceId": "tmtpost",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "投稿"
+   ],
+   "summary": "文 | 半导体产业纵横 大模型一体机是集成 AI 加速硬件（GPU / 国产 AI 加速卡）、服务器硬件、推理框架、大模型权重、配套运维与应用平台的一体化设备，实现开箱即用，面向政府、企业、科研机构完成本地私有化大模型部署，省去用户自行组装服务器、适配框架、调试模型的复杂流程。 去年年初，DeepSeek R1 正式亮相，带动 DeepSeek 一体机迅速走红。DeepSeek一体机可在单机环境下完成 671B 满血版大模型的部署，一时间，各地机构、企事业单位与中小企业纷纷采购，市场热度高涨。 而如今，随着市场变化和模型进化，大模型一体机市场出现了深刻变革。 饱受争议的DeepSeek一体机 2025 年春节前后，DeepSeek R1横空出世，相关热度持续攀升，随后60多家厂商推出DeepSeek一体机。但随之而来的便是各种争论，大家都在讨论，各个…",
+   "publishedAt": "2026-10-03T01:38:50.000Z",
+   "id": "50c3f935ad0e0a74",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [
+    "DeepSeek"
+   ],
+   "difficulty": "进阶",
+   "importance": 83,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "title": "OpenAI披露澳大利亚又一政府机构遭入侵",
+   "url": "https://36kr.com/newsflashes/4009465146019717?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
    "categories": [],
-   "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch . In an update on Friday , Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.\" The change comes just weeks after Inc 's…",
-   "publishedAt": "2026-10-02T20:08:40.000Z",
-   "id": "7cd4025da8a5a768",
+   "summary": "当地时间10月2日，美国开放人工智能研究中心（OpenAI）披露，有第二家澳大利亚政府机构遭到了入侵。OpenAI在一份声明中表示，一个人工智能模型获取了新南威尔士州某政府机构保存的火灾统计数据，而这些数据并未由该部门向公众公开。 OpenAI称，公司是在针对“模型行为偏离预期”展开的更大范围调查过程中发现了这一事件。 澳大利亚总理阿尔巴尼斯9月23日在纽约召开新闻发布会，通报一起美国开放人工智能研究中心（OpenAI）的人工智能体侵入澳大利亚政府网站的事件。阿尔巴尼斯称，今年6月，OpenAI的一个智能体未经授权接入了澳政府部门运营的一个医疗保险统计门户网站，访问了公开与非公开的文件。（央视新闻）",
+   "publishedAt": "2026-10-03T01:29:40.000Z",
+   "id": "2167d4343c90dfe8",
    "topics": [
     {
      "id": "product",
@@ -484,129 +533,35 @@
      "color": "#10b981"
     },
     {
-     "id": "policy",
-     "name": "政策与治理",
-     "color": "#ef4444"
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
     }
    ],
    "entities": [
-    "Apple"
+    "OpenAI"
    ],
    "difficulty": "入门",
    "importance": 82,
    "plainHint": "AI 具体被拿去做成了什么能用的东西",
    "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "苹果将​​限制 Mac 磁盘访问，因为人工智能代理“大幅”增加了风险",
-    "zhSummary": "据 TechCrunch 早些时候报道，苹果将在 Mac 上增加“全磁盘访问”的新限制，以应对人工智能代理带来的风险。苹果在周五的更新中表示，它正在推出新的控制措施，以“确保真正希望的用户",
-    "ts": "2026-10-03T01:03:55.992Z",
-    "partial": false
-   }
+   "isNew": true
   },
   {
-   "title": "IPO-Bound JSW One’s FY26 Loss Narrows 51% YoY To ₹107 Cr, Revenue Jumps 45%",
-   "url": "https://inc42.com/buzz/ipo-bound-jsw-ones-fy26-loss-narrows-51-yoy-to-%e2%82%b9107-cr-revenue-jumps-45/",
+   "title": "From Simple Energy To Arivihan — Indian Startups Raised Over $233 Mn This Week",
+   "url": "https://inc42.com/buzz/from-simple-energy-to-arivihan-indian-startups-raised-over-233-mn-this-week/",
    "source": "Inc42",
    "sourceId": "inc42",
    "sourceTier": 1,
    "region": "OTHER",
    "lang": "en",
    "categories": [
-    "News"
-   ],
-   "summary": "JSW Group’s B2B ecommerce marketplace JSW One Platforms narrowed its consolidated net loss by 50.9% to ₹106.5 Cr in FY26 from ₹217 Cr in the previous financial year, helped by revenue growth outpacing the rise in expenses. Its operating revenue jumped 44.9% to ₹5,743.4 Cr from ₹3,962.8 Cr in FY25, according to its DRHP. The company runs a technology-led platform that combines p…",
-   "publishedAt": "2026-10-02T14:02:48.000Z",
-   "id": "4312f79ff96975d5",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 82,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "即将首次公开募股的 JSW One 2026 财年亏损同比收窄 51% 至 107 印度卢比，收入猛增 45%",
-    "zhSummary": "JSW Group 的 B2B 电子商务市场 JSW One Platforms 在收入增长超过支出增长的帮助下，2026 财年综合净亏损从上一财年的 217 印度卢比缩小至 106.5 印度卢比，缩小了 50.9%。其经营的",
-    "ts": "2026-10-03T01:03:58.133Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Anthropic targets mid-November IPO after delay",
-   "url": "https://www.techinasia.com/news/anthropic-targets-midnovember-ipo-delay",
-   "source": "Tech in Asia",
-   "sourceId": "techinasia",
-   "sourceTier": 1,
-   "region": "SEA",
-   "lang": "en",
-   "categories": [
-    "Artificial Intelligence",
     "News",
-    "ai",
-    "Anthropic",
-    "IPO"
+    "Funding Galore"
    ],
-   "summary": "Anthropic was valued at US$61.5 billion in a March funding round and is backed by Amazon and Google.",
-   "publishedAt": "2026-10-02T01:14:16.000Z",
-   "id": "d34c2c3cc28f0c59",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [
-    "Anthropic",
-    "Google",
-    "Amazon"
-   ],
-   "difficulty": "入门",
-   "importance": 82,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-02",
-   "isNew": false,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "Anthropic 推迟后计划于 11 月中旬首次公开募股",
-    "zhSummary": "Anthropic 在 3 月份的一轮融资中估值为 615 亿美元，并得到了亚马逊和谷歌的支持。",
-    "ts": "2026-10-03T01:03:58.133Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
-   "url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
-   "source": "TechCrunch AI",
-   "sourceId": "techcrunch-ai",
-   "sourceTier": 1,
-   "region": "NA",
-   "lang": "en",
-   "categories": [
-    "AI",
-    "Biotech & Health",
-    "Fintech",
-    "Fundraising",
-    "Robotics"
-   ],
-   "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
-   "publishedAt": "2026-10-02T19:15:51.000Z",
-   "id": "6469e9c525423e06",
+   "summary": "Funding momentum in the Indian startup ecosystem continued through the final week of September. Homegrown new-age tech ventures raised $233.6 Mn across 16 deals between September 28 and October 2. While funding rose 14.9% from the previous week, deal count declined 23.8%. Funding Galore: Indian Startup Funding Of The Week [Sep 28 – Oct 2] Date Name Sector Subsector Business Mod…",
+   "publishedAt": "2026-10-03T03:30:21.000Z",
+   "id": "b1895774164bdc70",
    "topics": [
     {
      "id": "capital",
@@ -624,9 +579,9 @@
     "origLang": "en",
     "src": "google+orig",
     "pending": [],
-    "zhTitle": "受裁员影响？不要错过购买 TechCrunch Disrupt 2026 Expo+ 通行证的 75 美元优惠",
-    "zhSummary": "您的下一次机会可能只需要一次谈话即可。只需 75 美元即可获得您的 Expo+ 通行证。仅限前100名符合资格的人。",
-    "ts": "2026-10-03T01:03:58.527Z",
+    "zhTitle": "从 Simple Energy 到 Arivihan——印度初创公司本周融资超过 2.33 亿美元",
+    "zhSummary": "印度初创企业生态系统的融资势头持续到 9 月的最后一周。 9 月 28 日至 10 月 2 日期间，本土新时代科技企业通过 16 笔交易筹集了 2.336 亿美元。融资额较之前增长了 14.9%",
+    "ts": "2026-10-03T04:17:55.684Z",
     "partial": false
    }
   },
@@ -670,7 +625,7 @@
     "pending": [],
     "zhTitle": "OpenAI 就 AI 代理活动通知了 100 多个组织",
     "zhSummary": "该公司表示，在 Hugging Face 意外遭到黑客攻击后，它开始对模型活动进行广泛审查。",
-    "ts": "2026-10-03T01:04:00.022Z",
+    "ts": "2026-10-03T04:17:55.684Z",
     "partial": false
    }
   },
@@ -714,7 +669,101 @@
     "pending": [],
     "zhTitle": "亚马逊探索向外部投资者出售 80 亿美元的 Nvidia 芯片",
     "zhSummary": "根据拟议的结构，亚马逊将从车辆上租回芯片，这将增加债务。",
-    "ts": "2026-10-03T01:04:01.299Z",
+    "ts": "2026-10-03T04:17:55.684Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Database startup Supabase raises $150M, acquires Turso",
+   "url": "https://siliconangle.com/2026/10/02/database-startup-supabase-raises-150m-acquires-turso/",
+   "source": "SiliconANGLE",
+   "sourceId": "siliconangle",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "Big Data",
+    "NEWS",
+    "The-Latest",
+    "Top Story 6",
+    "acquisition"
+   ],
+   "summary": "Supabase Inc., a startup that commercializes the open-source PostgreSQL database, has raised $150 million in funding. Singapore’s GIC sovereign wealth fund led the deal. It was joined by Alphabet Inc.’s CapitalG, IronArc and SquarePeg. Supabase announced the raise today alongside another business milestone: it has agreed to buy fellow database startup Turso for an undisclosed […",
+   "publishedAt": "2026-10-02T22:16:50.000Z",
+   "id": "03c3a69816d7c769",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 80,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "数据库初创公司 Supabase 融资 1.5 亿美元，收购 Turso",
+    "zhSummary": "Supabase Inc. 是一家将开源 PostgreSQL 数据库商业化的初创公司，已筹集 1.5 亿美元资金。新加坡 GIC 主权财富基金牵头了该交易。 Alphabet Inc. 的 CapitalG、IronArc 和 SquarePeg 也加入了进来。",
+    "ts": "2026-10-03T04:17:55.684Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
+   "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Policy",
+    "ai data center",
+    "Amazon",
+    "data center moratoriums"
+   ],
+   "summary": "On Friday, Amazon committed to donating more than $1 billion over the next five years to communities neighboring data centers. In a press release , Amazon Web Services’ CEO Matt Garman said that communities would decide how to prioritize funds across “education, job training, energy affordability, water, and energy preservation, and local priorities.” Laying out other community…",
+   "publishedAt": "2026-10-02T20:30:27.000Z",
+   "id": "dc9fcc701a0f8313",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [
+    "Amazon"
+   ],
+   "difficulty": "高级",
+   "importance": 80,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "亚马逊斥资 10 亿美元应对数据中心强烈反对的计划招致更多反对",
+    "zhSummary": "周五，亚马逊承诺在未来五年内向数据中心附近的社区捐赠超过 10 亿美元。亚马逊网络服务首席执行官马特·加曼在一份新闻稿中表示，社区将决定如何确定优先级",
+    "ts": "2026-10-03T04:17:55.684Z",
     "partial": false
    }
   },
@@ -762,28 +811,64 @@
     "pending": [],
     "zhTitle": "美国逮捕科技公司首席执行官，指控其向中国走私价值 3 亿美元的 Nvidia 芯片",
     "zhSummary": "美国逮捕了另一名涉嫌将含有受出口管制的英伟达芯片的高端计算机服务器走私到中国的嫌疑人。在周四的一份新闻稿中，司法部指控 38 岁的格雷格·吕 (Greg Lui) 使用虚假信息",
-    "ts": "2026-10-03T01:04:02.094Z",
+    "ts": "2026-10-03T04:17:55.684Z",
     "partial": false
    }
   },
   {
-   "title": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI",
-   "url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
-   "source": "Ars Technica AI",
-   "sourceId": "ars-ai",
+   "title": "Headline closes $400M fund, Oura delays IPO, and Fedorov launches Army of Robots",
+   "url": "https://tech.eu/2026/10/02/headline-closes-400m-fund-oura-delays-ipo-and-fedorov-launches-army-of-robots/",
+   "source": "Tech.eu",
+   "sourceId": "tech-eu",
    "sourceTier": 1,
-   "region": "NA",
+   "region": "EU",
    "lang": "en",
    "categories": [
-    "AI",
-    "Tech",
-    "Artificial Intelligence",
-    "NVIDIA",
-    "Nvidia Shield TV"
+    "General"
    ],
-   "summary": "The era of generative AI has upended technology supply chains, and there is one ironclad rule in 2026: If it has memory or storage, it's getting more expensive. Even devices with years-old tech inside are still apparently subject to that unwritten rule. Nvidia has just announced that the Shield TV Pro is getting $100 more expensive, effective immediately. The most recent versio…",
-   "publishedAt": "2026-10-02T14:52:16.000Z",
-   "id": "e94ba731c87c6687",
+   "summary": "This week, we tracked more than 70 tech funding deals worth over €3.9 billion and over 5 exits, M&A transactions, rumours, and related news stories across Europe. This week took me from Bilbao to Angers. In Bilbao, I was at BIOSPAIN 2026, digging into the startups, investment, and technologies emerging from Spain’s growing biotech ecosystem — as well as the bigger questions aro…",
+   "publishedAt": "2026-10-02T14:24:00.000Z",
+   "id": "cd206ec58a84c489",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 80,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Headline 关闭 4 亿美元基金，Oura 推迟 IPO，Fedorov 推出 Army of Robots",
+    "zhSummary": "本周，我们追踪了欧洲各地超过 70 笔价值超过 39 亿欧元的科技融资交易以及超过 5 笔退出、并购交易、谣言和相关新闻报道。这周我从毕尔巴鄂飞往昂热。在毕尔巴鄂，我参加了 BIOSPAIN 2026，",
+    "ts": "2026-10-03T04:17:55.684Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "美股收盘三大指数集体收涨，纳指、英伟达盘中再创新高",
+   "url": "https://36kr.com/newsflashes/4009461894566017?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "美股三大指数集体收涨，纳指涨1.19%，盘中再创新高，本周累涨0.45%，周线三连涨；标普500指数涨0.73%，本周累跌0.27%；道指涨0.49%，本周累跌1.26%。大型科技股多数上涨，SpaceX涨超7%，特斯拉涨超4%，谷歌、英伟达、苹果涨超1%，微软涨近1%；英特尔、奈飞收跌。其中，英伟达盘中再创新高。存储股大跌，希捷科技、西部数据跌超10%，闪迪跌逾3%，美光科技跌超2%。光通信股集体上涨，Coherent涨超5%，lumentum、Ciena涨超3%，康宁涨超2%。",
+   "publishedAt": "2026-10-03T01:15:33.000Z",
+   "id": "14146bc9022a1ddd",
    "topics": [
     {
      "id": "compute",
@@ -795,19 +880,10 @@
     "NVIDIA"
    ],
    "difficulty": "进阶",
-   "importance": 80,
+   "importance": 79,
    "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
    "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "由于人工智能，已有 7 年历史的 Nvidia Shield TV 现在贵了 100 美元",
-    "zhSummary": "生成式人工智能时代颠覆了技术供应链，2026 年有一条铁定规则：如果有内存或存储，它就会变得更加昂贵。即使是内置多年技术的设备显然仍然受到这种影响",
-    "ts": "2026-10-03T01:04:03.637Z",
-    "partial": false
-   }
+   "isNew": true
   },
   {
    "title": "和 Opus 5.5 同题交卷，MiniMax M3.1 让 Flash 开始超纲了",
@@ -849,6 +925,162 @@
    "isNew": true
   },
   {
+   "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+   "url": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article",
+   "source": "InfoQ 中国",
+   "sourceId": "infoq-cn",
+   "sourceTier": 1,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "<div align='right'><a href='https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article'>点击查看原文></a></div>",
+   "publishedAt": "2026-10-03T10:00:00.000Z",
+   "id": "f78ce8ade3f757e9",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "高级",
+   "importance": 78,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "title": "BNY, Kraken parent Payward discuss digital asset partnership",
+   "url": "https://www.techinasia.com/news/bny-kraken-parent-payward-discuss-digital-asset-partnership",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Crypto",
+    "Fintech",
+    "News",
+    "BNY",
+    "digital assets"
+   ],
+   "summary": "Kraken Pro already supports trading in stocks and exchange-traded funds.",
+   "publishedAt": "2026-10-03T01:14:53.000Z",
+   "id": "13210d0e0b594dd7",
+   "topics": [
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 78,
+   "plainHint": "大厂、人才和开源社区在怎么重新排座次",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "纽约银行与 Kraken 母公司 Payward 讨论数字资产合作伙伴关系",
+    "zhSummary": "Kraken Pro 已经支持股票和交易所交易基金交易。",
+    "ts": "2026-10-03T04:17:56.424Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Meta open sources code to let you make Muse AI gadgets",
+   "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+   "source": "The Verge AI",
+   "sourceId": "theverge-ai",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [],
+   "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced . The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or putting Muse on a small touchscreen device to make what looks kind of like a DIY Muse Char…",
+   "publishedAt": "2026-10-02T21:08:37.000Z",
+   "id": "d020fdc50fa79c63",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [
+    "Meta"
+   ],
+   "difficulty": "入门",
+   "importance": 78,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Meta 开源代码可让您制作 Muse AI 小工具",
+    "zhSummary": "Meta 现在可以让您制作自己的 Muse 小工具，这些小工具具有该公司新的 AI 代理以及该公司开源的代码。该公司建议开展诸如在彩色电子墨水显示屏上加载 Muse 来显示提醒、将其添加到 HDMI 等项目",
+    "ts": "2026-10-03T04:17:56.424Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+   "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+   "source": "The Verge AI",
+   "sourceId": "theverge-ai",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [],
+   "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch . In an update on Friday , Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.\" The change comes just weeks after Inc 's…",
+   "publishedAt": "2026-10-02T20:08:40.000Z",
+   "id": "7cd4025da8a5a768",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [
+    "Apple"
+   ],
+   "difficulty": "入门",
+   "importance": 78,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "苹果将​​限制 Mac 磁盘访问，因为人工智能代理“大幅”增加了风险",
+    "zhSummary": "据 TechCrunch 早些时候报道，苹果将在 Mac 上增加“全磁盘访问”的新限制，以应对人工智能代理带来的风险。苹果在周五的更新中表示，它正在推出新的控制措施，以“确保真正希望的用户",
+    "ts": "2026-10-03T04:17:56.424Z",
+    "partial": false
+   }
+  },
+  {
    "title": "Inside ixigo’s Full-Stack Model: How Trains, Flights And Buses Are Funding Its Next Bets",
    "url": "https://inc42.com/features/inside-ixigos-full-stack-model-how-trains-flights-and-buses-are-funding-its-next-bets/",
    "source": "Inc42",
@@ -883,7 +1115,48 @@
     "pending": [],
     "zhTitle": "ixigo 的全栈模型内部：火车、航班和公共汽车如何为其下一个赌注提供资金",
     "zhSummary": "ixigo自2007年成立以来所做的一切，堪称是走到今天的垫脚石。成为全栈 OTA 总是一步一步地走下去，而不是一次飞跃。将自己打造为飞行之后",
-    "ts": "2026-10-03T01:04:05.624Z",
+    "ts": "2026-10-03T04:17:56.424Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+   "url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Biotech & Health",
+    "Fintech",
+    "Fundraising",
+    "Robotics"
+   ],
+   "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
+   "publishedAt": "2026-10-02T19:15:51.000Z",
+   "id": "6469e9c525423e06",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 77,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "受裁员影响？不要错过购买 TechCrunch Disrupt 2026 Expo+ 通行证的 75 美元优惠",
+    "zhSummary": "您的下一次机会可能只需要一次谈话即可。只需 75 美元即可获得您的 Expo+ 通行证。仅限前100名符合资格的人。",
+    "ts": "2026-10-03T04:17:56.424Z",
     "partial": false
    }
   },
@@ -921,7 +1194,44 @@
     "pending": [],
     "zhTitle": "OpenAI 的 Dot Agent 是一款企业软件，也可以为你订餐",
     "zhSummary": "新来的乐于助人的小家伙刚刚掉下来。 |照片：Allison Johnson / The Verge 这是一个上周的老故事：OpenAI 的新代理平台，名为 Dots，充满了可爱的小家伙，他们可以执行您的命令。但与超级平易近人不同的是",
-    "ts": "2026-10-03T01:04:06.412Z",
+    "ts": "2026-10-03T04:17:56.424Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "IPO-Bound JSW One’s FY26 Loss Narrows 51% YoY To ₹107 Cr, Revenue Jumps 45%",
+   "url": "https://inc42.com/buzz/ipo-bound-jsw-ones-fy26-loss-narrows-51-yoy-to-%e2%82%b9107-cr-revenue-jumps-45/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "News"
+   ],
+   "summary": "JSW Group’s B2B ecommerce marketplace JSW One Platforms narrowed its consolidated net loss by 50.9% to ₹106.5 Cr in FY26 from ₹217 Cr in the previous financial year, helped by revenue growth outpacing the rise in expenses. Its operating revenue jumped 44.9% to ₹5,743.4 Cr from ₹3,962.8 Cr in FY25, according to its DRHP. The company runs a technology-led platform that combines p…",
+   "publishedAt": "2026-10-02T14:02:48.000Z",
+   "id": "4312f79ff96975d5",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 77,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "即将首次公开募股的 JSW One 2026 财年亏损同比收窄 51% 至 107 印度卢比，收入猛增 45%",
+    "zhSummary": "JSW Group 的 B2B 电子商务市场 JSW One Platforms 在收入增长超过支出增长的帮助下，2026 财年综合净亏损从上一财年的 217 印度卢比缩小至 106.5 印度卢比，缩小了 50.9%。其经营的",
+    "ts": "2026-10-03T04:17:56.424Z",
     "partial": false
    }
   },
@@ -962,33 +1272,62 @@
     "pending": [],
     "zhTitle": "GCash 削减 IPO 雄心以满足市场现实",
     "zhSummary": "GCash 已将其 IPO 股价设定为较其招股说明书中设定的最高股价折让 30%。尽管如此，分析师对于这个估值是否合理存在分歧。",
-    "ts": "2026-10-03T01:04:07.901Z",
+    "ts": "2026-10-03T04:17:56.424Z",
     "partial": false
    }
   },
   {
-   "title": "IBM and CoreWeave co-design controls for agent workloads",
-   "url": "https://siliconangle.com/2026/10/02/ibm-coreweave-co-design-controls-agent-workloads-fullyconnected/",
-   "source": "SiliconANGLE",
-   "sourceId": "siliconangle",
+   "title": "Business trends and success tips: entrepreneur advice from Gifts World Expo",
+   "url": "https://yourstory.com/2026/10/business-trends-success-tips-entrepreneur-advice-gifts-world-expo-photography",
+   "source": "YourStory",
+   "sourceId": "yourstory",
    "sourceTier": 2,
-   "region": "NA",
+   "region": "OTHER",
    "lang": "en",
-   "categories": [
-    "AI",
-    "Cube Event Coverage",
-    "NEWS",
-    "#FullyConnected",
-    "#theCube"
-   ],
-   "summary": "Agent workload isolation is becoming a practical infrastructure challenge as research teams move beyond training models to running code and testing agents. Systems built for intensive computation must now accommodate workloads that interact with tools, storage and other services. IBM Research’s infrastructure must support increasingly varied workloads as its model development p…",
-   "publishedAt": "2026-10-02T20:12:25.000Z",
-   "id": "696b7637d3496bbf",
+   "categories": [],
+   "summary": "Launched in 2014, PhotoSparks is a weekly feature from YourStory, with photographs that celebrate the spirit of creativity and innovation. In the earlier 1,020 posts, we featured an art festival, cartoon gallery. world music festival , telecom expo , millets fair, climate change expo, wildlife conference, startup festival, Diwali rangoli, and jazz festival. The gifting industry…",
+   "publishedAt": "2026-10-03T02:18:31.000Z",
+   "id": "a381a5e8bc1732d8",
    "topics": [
     {
      "id": "product",
      "name": "产品与应用",
      "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 76,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "商业趋势和成功秘诀：礼品世博会的企业家建议",
+    "zhSummary": "PhotoSparks 于 2014 年推出，是 YourStory 的每周专题，其中的照片颂扬创造力和创新精神。在之前的 1,020 篇帖子中，我们重点介绍了艺术节、卡通画廊。世界音乐节，",
+    "ts": "2026-10-03T04:17:57.891Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "OpenAI安全系统团队负责人David Robinson已从公司离职",
+   "url": "https://36kr.com/newsflashes/4009502398549890?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "OpenAI安全系统团队负责人David Robinson已从公司离职。（财联社）",
+   "publishedAt": "2026-10-03T02:41:33.000Z",
+   "id": "ea46722fd5b2f64a",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
     },
     {
      "id": "industry",
@@ -997,68 +1336,54 @@
     }
    ],
    "entities": [
-    "CoreWeave"
+    "OpenAI"
    ],
-   "difficulty": "高级",
+   "difficulty": "进阶",
    "importance": 75,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "plainHint": "规则制定者正在给 AI 划边界",
    "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "IBM 和 CoreWeave 共同设计针对代理工作负载的控制",
-    "zhSummary": "随着研究团队超越训练模型转向运行代码和测试代理，代理工作负载隔离正在成为一个实际的基础设施挑战。为密集计算而构建的系统现在必须适应以下工作负载：",
-    "ts": "2026-10-03T01:04:09.664Z",
-    "partial": false
-   }
+   "isNew": true
   },
   {
-   "title": "Despite IPO jitters and AI safety worries, Anthropic sticks to a 2026 offering",
-   "url": "https://siliconangle.com/2026/10/02/despite-ipo-jitters-and-ai-safety-worries-anthropic-sticks-to-a-2026-offering/",
-   "source": "SiliconANGLE",
-   "sourceId": "siliconangle",
-   "sourceTier": 2,
+   "title": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI",
+   "url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "sourceTier": 1,
    "region": "NA",
    "lang": "en",
    "categories": [
     "AI",
-    "NEWS",
-    "The-Latest",
-    "Top Story 2",
-    "agent"
+    "Tech",
+    "Artificial Intelligence",
+    "NVIDIA",
+    "Nvidia Shield TV"
    ],
-   "summary": "How quickly things change in the artificial intelligence era. Just a few months after everyone was scrambling to infuse AI into every enterprise operation — and frankly they still are, as agents have captured the enterprise imagination — everyone now is saying, “Whoa, where’s the brake pedal?” That’s why controlling agents is the next infrastructure […] The post Despite IPO jit…",
-   "publishedAt": "2026-10-02T14:00:15.000Z",
-   "id": "c98ad92d8b223859",
+   "summary": "The era of generative AI has upended technology supply chains, and there is one ironclad rule in 2026: If it has memory or storage, it's getting more expensive. Even devices with years-old tech inside are still apparently subject to that unwritten rule. Nvidia has just announced that the Shield TV Pro is getting $100 more expensive, effective immediately. The most recent versio…",
+   "publishedAt": "2026-10-02T14:52:16.000Z",
+   "id": "e94ba731c87c6687",
    "topics": [
     {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    },
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
     }
    ],
    "entities": [
-    "Anthropic"
+    "NVIDIA"
    ],
    "difficulty": "进阶",
    "importance": 75,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
    "firstSeen": "2026-10-03",
    "isNew": true,
    "i18n": {
     "origLang": "en",
     "src": "google+orig",
     "pending": [],
-    "zhTitle": "尽管存在 IPO 不安和人工智能安全担忧，Anthropic 仍坚持 2026 年发行",
-    "zhSummary": "人工智能时代事情变化得有多快。就在几个月前，每个人都在争先恐后地将人工智能融入到每一个企业运营中——坦率地说，他们仍然如此，因为代理商已经抓住了企业的想象力——",
-    "ts": "2026-10-03T01:04:11.878Z",
+    "zhTitle": "由于人工智能，已有 7 年历史的 Nvidia Shield TV 现在贵了 100 美元",
+    "zhSummary": "生成式人工智能时代颠覆了技术供应链，2026 年有一条铁定规则：如果有内存或存储，它就会变得更加昂贵。即使是内置多年技术的设备显然仍然受到这种影响",
+    "ts": "2026-10-03T04:17:57.891Z",
     "partial": false
    }
   },
@@ -1133,7 +1458,7 @@
     "pending": [],
     "zhTitle": "Circuit Breaker Labs 希望让人工智能对您的孩子（和您）来说更安全",
     "zhSummary": "当人们谈论人工智能有一天可能会杀死我们所有人时，人们很容易忘记人工智能已经在心理上伤害了一些人。 Circuit Breaker Labs 创建了“碰撞测试假人”来解决这个问题。",
-    "ts": "2026-10-03T01:04:12.277Z",
+    "ts": "2026-10-03T04:17:57.891Z",
     "partial": false
    }
   },
@@ -1170,81 +1495,7 @@
     "pending": [],
     "zhTitle": "BorderPlus 如何将印度的人才过剩转化为全球劳动力",
     "zhSummary": "十年前，全球面临的最大的人口问题是人口过度增长。时间到了 2026 年，人们对人口结构的担忧已经转移到了另一个极端：出生率下降。在德国等发达经济体",
-    "ts": "2026-10-03T01:04:13.509Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "A model guide for the GPT-6 family",
-   "url": "https://openai.com/index/practical-guide-building-gpt-6",
-   "source": "OpenAI 官方",
-   "sourceId": "openai-news",
-   "sourceTier": 1,
-   "region": "NA",
-   "lang": "en",
-   "categories": [
-    "Product"
-   ],
-   "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-   "publishedAt": "2026-10-02T16:15:00.000Z",
-   "id": "c1a0ca1aa14a28e5",
-   "topics": [
-    {
-     "id": "model",
-     "name": "模型与能力",
-     "color": "#6d5efc"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 74,
-   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "GPT-6 系列模型指南",
-    "zhSummary": "了解初创公司如何选择 GPT-6 模型、调整推理工作、改进提示和技能、协调工具以及准备生产工作流程。",
-    "ts": "2026-10-03T01:04:13.899Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Swedish fintech Trustly receives $40M equity commitment from key shareholders",
-   "url": "https://tech.eu/2026/10/02/swedish-fintech-receives-40m-equity-commitment-from-key-shareholders/",
-   "source": "Tech.eu",
-   "sourceId": "tech-eu",
-   "sourceTier": 1,
-   "region": "EU",
-   "lang": "en",
-   "categories": [
-    "Investment"
-   ],
-   "summary": "Swedish fintech Trustly today said it had received more than $40m in equity investment commitments from two key shareholders to underpin its planned growth strategy. The investment follows just weeks after it was revealed Trustly was cutting around 200 jobs , around a quarter of its overall headcount, after it saw its revenues fall by more than $50m last year. The equity is bei…",
-   "publishedAt": "2026-10-02T13:20:00.000Z",
-   "id": "59f25514f9924692",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 74,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "瑞典金融科技 Trustly 获得主要股东 4000 万美元的股权承诺",
-    "zhSummary": "瑞典金融科技公司 Trustly 今天表示，已收到两位主要股东超过 4000 万美元的股权投资承诺，以支持其计划中的增长战略。该投资是在 Trustly 透露几周后进行的",
-    "ts": "2026-10-03T01:04:15.204Z",
+    "ts": "2026-10-03T04:17:57.891Z",
     "partial": false
    }
   },
@@ -1292,7 +1543,7 @@
     "pending": [],
     "zhTitle": "思科与 NVIDIA 携手拓展安全人工智能工厂，迎接机架级时代",
     "zhSummary": "思科正在通过与 Supermicro 的合作，与 NVIDIA 一起扩展安全 AI 工厂，将其在高密度、液冷和风冷计算方面的领先地位带入思科业界领先的全栈、安全 AI 基础设施",
-    "ts": "2026-10-03T01:04:16.238Z",
+    "ts": "2026-10-03T04:17:57.891Z",
     "partial": false
    }
   },
@@ -1333,9 +1584,40 @@
     "pending": [],
     "zhTitle": "这 5 门免费课程可以帮助您在 2026 年构建 AI 代理",
     "zhSummary": "想象一下告诉人工智能助手预订你的下一个航班。普通的聊天机器人可能会告诉您哪些航班可用，并为您提供自己预订航班的链接，但人工智能代理可以走得更远。它可以搜索航班，选择一个",
-    "ts": "2026-10-03T01:04:17.062Z",
+    "ts": "2026-10-03T04:17:57.891Z",
     "partial": false
    }
+  },
+  {
+   "title": "个人投资者在ETF投资中的占比仍在持续扩大，三类主题ETF受青睐",
+   "url": "https://36kr.com/newsflashes/4009500583497607?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "个人投资者在ETF投资中的占比仍在持续扩大。根据基金观察室统计，9月以来新上市的48只ETF中，个人投资者的份额占比超过了80%，其中有19只ETF的个人投资者份额占比超过90%。 从投资类型看，主题和行业ETF是个人投资者最为青睐的产品。以9月上市的48只ETF为例，37只上市份额在3亿份以下，上市份额超过10亿份的有两只产品。从投资领域来看，新上市的ETF主要集中在以下三个部分：一是创业板算力ETF；二是科创芯片、科创材料、云计算等科技成长类主题ETF；三是红利、银行、现金流等稳健类品种。（人民财讯）",
+   "publishedAt": "2026-10-03T02:26:41.000Z",
+   "id": "06be267271ff503a",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    },
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 73,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-10-03",
+   "isNew": true
   },
   {
    "title": "AI music maker Suno now generates spoken words",
@@ -1370,7 +1652,7 @@
     "pending": [],
     "zhTitle": "AI 音乐制作者 Suno 现在可以生成口语单词",
     "zhSummary": "Suno 正在拓展人工智能音乐领域，推出了一项新功能，可以根据脚本或提示描述生成语音。语音现已在 Suno 的网络和移动平台上提供公开测试版，并允许您",
-    "ts": "2026-10-03T01:04:17.958Z",
+    "ts": "2026-10-03T04:17:57.891Z",
     "partial": false
    }
   },
@@ -1416,7 +1698,7 @@
     "pending": [],
     "zhTitle": "莱德遭受拉高抛售集体诉讼和股东请愿书的打击",
     "zhSummary": "新加坡 Ryde 与美国集体诉讼中的拉高抛售计划有关，一名股东希望被收购，否则该公司将被清盘。",
-    "ts": "2026-10-03T01:04:19.463Z",
+    "ts": "2026-10-03T04:17:57.891Z",
     "partial": false
    }
   },
@@ -1455,6 +1737,117 @@
    "isNew": true
   },
   {
+   "title": "OpenClaw adds Tencent AI tool to security checks",
+   "url": "https://www.techinasia.com/news/openclaw-adds-tencent-ai-tool-security-checks",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "News",
+    "AI security",
+    "China",
+    "OpenClaw"
+   ],
+   "summary": "The security setup was tested on a 556-case subset of Tencent’s SkillTrustBench.",
+   "publishedAt": "2026-10-03T01:52:42.000Z",
+   "id": "9d766e1daa6cf697",
+   "topics": [],
+   "entities": [
+    "腾讯"
+   ],
+   "difficulty": "进阶",
+   "importance": 72,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "OpenClaw将腾讯AI工具添加到安全检查中",
+    "zhSummary": "安全设置在腾讯 SkillTrustBench 的 556 个案例子集上进行了测试。",
+    "ts": "2026-10-03T04:17:59.351Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "OpenAI helps Chatham Financial expand AI use in capital markets",
+   "url": "https://www.techinasia.com/news/openai-helps-chatham-financial-expand-ai-capital-markets",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "Fintech",
+    "News",
+    "ai",
+    "Chatham Financial"
+   ],
+   "summary": "One tool cut trade validation time from 30 minutes to under four.",
+   "publishedAt": "2026-10-03T01:44:06.000Z",
+   "id": "98a34147d750eead",
+   "topics": [],
+   "entities": [
+    "OpenAI"
+   ],
+   "difficulty": "进阶",
+   "importance": 72,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "OpenAI 帮助 Chatham Financial 扩大人工智能在资本市场的应用",
+    "zhSummary": "一款工具将交易验证时间从 30 分钟缩短至不到 4 分钟。",
+    "ts": "2026-10-03T04:18:00.504Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Anthropic to invest $100m in AI engineer academy",
+   "url": "https://www.techinasia.com/news/anthropic-invest-100m-ai-engineer-academy",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "News",
+    "Accenture",
+    "ai",
+    "Anthropic"
+   ],
+   "summary": "The first cohorts include engineers from Accenture, Morgan Stanley, and Novo Nordisk.",
+   "publishedAt": "2026-10-03T01:36:02.000Z",
+   "id": "c65ea9179d04c32e",
+   "topics": [],
+   "entities": [
+    "Anthropic"
+   ],
+   "difficulty": "进阶",
+   "importance": 72,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Anthropic 将投资 1 亿美元建设人工智能工程师学院",
+    "zhSummary": "第一批包括来自埃森哲、摩根士丹利和诺和诺德的工程师。",
+    "ts": "2026-10-03T04:18:01.577Z",
+    "partial": false
+   }
+  },
+  {
    "title": "Meta wants your next gadget to be Muse-infused",
    "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
    "source": "TechCrunch AI",
@@ -1484,7 +1877,7 @@
     "pending": [],
     "zhTitle": "Meta 希望您的下一个小工具融入 Muse",
     "zhSummary": "Meta 希望在您的电视和烤面包机中安装 Muse，因此免费提供代码。",
-    "ts": "2026-10-03T01:04:20.076Z",
+    "ts": "2026-10-03T04:18:01.577Z",
     "partial": false
    }
   },
@@ -1499,9 +1892,9 @@
    "categories": [
     "AI",
     "NEWS",
+    "The-Latest",
     "automation",
-    "FieldAI",
-    "funding round"
+    "FieldAI"
    ],
    "summary": "FieldAI Inc., a startup that develops artificial intelligence models for robots, is reportedly seeking $700 million in funding. A source told Business Insider today that the round could value the company at $10 billion. That’s five times what FieldAI was worth last August. It’s believed the company has already signed a term sheet, a nonbinding […] The post Robotics AI developer…",
    "publishedAt": "2026-10-03T00:30:26.000Z",
@@ -1525,43 +1918,7 @@
     "pending": [],
     "zhTitle": "据报道，机器人人工智能开发商 FieldAI 筹集了 7 亿美元资金",
     "zhSummary": "据报道，FieldAI Inc. 是一家为机器人开发人工智能模型的初创公司，正在寻求 7 亿美元的融资。一位消息人士今天告诉 Business Insider，该轮融资可能使该公司估值达到 100 亿美元。这是五次",
-    "ts": "2026-10-03T01:04:21.984Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Sean Parker is rebuilding Stability AI around music",
-   "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
-   "source": "TechCrunch AI",
-   "sourceId": "techcrunch-ai",
-   "sourceTier": 1,
-   "region": "NA",
-   "lang": "en",
-   "categories": [
-    "AI",
-    "In Brief",
-    "Sean Parker",
-    "Stability AI"
-   ],
-   "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
-   "publishedAt": "2026-10-02T21:09:14.000Z",
-   "id": "215164d3b2f2ce75",
-   "topics": [],
-   "entities": [
-    "Stability AI"
-   ],
-   "difficulty": "进阶",
-   "importance": 72,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "肖恩·帕克正在围绕音乐重建稳定性人工智能",
-    "zhSummary": "肖恩·帕克（Sean Parker）曾经向音乐界传授了如何寻求宽恕，现在带着唱片公司的祝福和金钱回归。",
-    "ts": "2026-10-03T01:04:22.374Z",
+    "ts": "2026-10-03T04:18:01.577Z",
     "partial": false
    }
   },
@@ -1602,7 +1959,7 @@
     "pending": [],
     "zhTitle": "马来西亚 50 家新兴初创企业",
     "zhSummary": "查看这份不断更新的最近筹集资金的马来西亚初创公司名单。",
-    "ts": "2026-10-03T01:04:24.276Z",
+    "ts": "2026-10-03T04:18:01.577Z",
     "partial": false
    }
   },
@@ -1648,7 +2005,7 @@
     "pending": [],
     "zhTitle": "风险投资追踪：Granite Asia 推出 5000 万美元基金",
     "zhSummary": "9 月份在东南亚、印度和美国推出或关闭的著名投资机构包括 Granite Asia 和 Bessemer Venture Partners。",
-    "ts": "2026-10-03T01:04:26.027Z",
+    "ts": "2026-10-03T04:18:01.577Z",
     "partial": false
    }
   },
@@ -1694,7 +2051,7 @@
     "pending": [],
     "zhTitle": "认识新加坡 50 家资金最多的初创公司和科技公司",
     "zhSummary": "以下是新加坡的公司，它们吸引了大量投资者，并且拥有可用于软件、人才和扩张的资源。",
-    "ts": "2026-10-03T01:04:27.114Z",
+    "ts": "2026-10-03T04:18:01.577Z",
     "partial": false
    }
   },
@@ -1734,7 +2091,7 @@
     "pending": [],
     "zhTitle": "一项新的竞赛让参赛者在生物青春竞赛中相互竞争",
     "zhSummary": "本周，我正式报名参加了一场不寻常的比赛。一种奖励竞争对手变得更年轻的方式。我最近刚满 40 岁，不需要提醒我，时间和我的实际年龄都只会向前流逝。但这个游戏是",
-    "ts": "2026-10-03T01:04:28.170Z",
+    "ts": "2026-10-03T04:18:01.577Z",
     "partial": false
    }
   },
@@ -1778,7 +2135,7 @@
     "pending": [],
     "zhTitle": "不要被愚弄——法学硕士不会推理",
     "zhSummary": "2016 年 3 月在首尔的一个下午，我观看了一个我帮助构建的程序，该程序在围棋棋盘的第五行放了一颗棋子，这看起来像是送给人类对手的礼物。五局比赛第二局的第 37 步看起来很荒谬，以至于有些人认为",
-    "ts": "2026-10-03T01:04:28.946Z",
+    "ts": "2026-10-03T04:18:01.577Z",
     "partial": false
    }
   },
@@ -1820,7 +2177,7 @@
     "pending": [],
     "zhTitle": "TakeMe2Space、SatLeo、EON 空间实验室在 SpaceX Falcon 9 上发射有效载荷",
     "zhSummary": "印度航天科技初创公司 TakeMe2Space、SatLeo Labs 和 EON Space Labs 今天利用 SpaceX 的猎鹰 9 号将人工智能计算和地球观测技术送入轨道。 Transporter-18 乘车共享任务从加利福尼亚州起飞，",
-    "ts": "2026-10-03T01:04:31.377Z",
+    "ts": "2026-10-03T04:18:01.577Z",
     "partial": false
    }
   },
@@ -1861,7 +2218,103 @@
     "pending": [],
     "zhTitle": "新加坡 50 家新兴初创企业",
     "zhSummary": "哪些初创公司正在成为下一个大事件？",
-    "ts": "2026-10-03T01:04:31.714Z",
+    "ts": "2026-10-03T04:18:01.577Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "IBM and CoreWeave co-design controls for agent workloads",
+   "url": "https://siliconangle.com/2026/10/02/ibm-coreweave-co-design-controls-agent-workloads-fullyconnected/",
+   "source": "SiliconANGLE",
+   "sourceId": "siliconangle",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Cube Event Coverage",
+    "NEWS",
+    "#FullyConnected",
+    "#theCube"
+   ],
+   "summary": "Agent workload isolation is becoming a practical infrastructure challenge as research teams move beyond training models to running code and testing agents. Systems built for intensive computation must now accommodate workloads that interact with tools, storage and other services. IBM Research’s infrastructure must support increasingly varied workloads as its model development p…",
+   "publishedAt": "2026-10-02T20:12:25.000Z",
+   "id": "696b7637d3496bbf",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [
+    "CoreWeave"
+   ],
+   "difficulty": "高级",
+   "importance": 71,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "IBM 和 CoreWeave 共同设计针对代理工作负载的控制",
+    "zhSummary": "随着研究团队超越训练模型转向运行代码和测试代理，代理工作负载隔离正在成为一个实际的基础设施挑战。为密集计算而构建的系统现在必须适应以下工作负载：",
+    "ts": "2026-10-03T04:18:01.577Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Despite IPO jitters and AI safety worries, Anthropic sticks to a 2026 offering",
+   "url": "https://siliconangle.com/2026/10/02/despite-ipo-jitters-and-ai-safety-worries-anthropic-sticks-to-a-2026-offering/",
+   "source": "SiliconANGLE",
+   "sourceId": "siliconangle",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "NEWS",
+    "The-Latest",
+    "Top Story 2",
+    "agent"
+   ],
+   "summary": "How quickly things change in the artificial intelligence era. Just a few months after everyone was scrambling to infuse AI into every enterprise operation — and frankly they still are, as agents have captured the enterprise imagination — everyone now is saying, “Whoa, where’s the brake pedal?” That’s why controlling agents is the next infrastructure […] The post Despite IPO jit…",
+   "publishedAt": "2026-10-02T14:00:15.000Z",
+   "id": "c98ad92d8b223859",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "difficulty": "进阶",
+   "importance": 70,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "尽管存在 IPO 不安和人工智能安全担忧，Anthropic 仍坚持 2026 年发行",
+    "zhSummary": "人工智能时代事情变化得有多快。就在几个月前，每个人都在争先恐后地将人工智能融入到每一个企业运营中——坦率地说，他们仍然如此，因为代理商已经抓住了企业的想象力——",
+    "ts": "2026-10-03T04:18:01.577Z",
     "partial": false
    }
   },
@@ -1904,65 +2357,22 @@
     "pending": [],
     "zhTitle": "CoreWeave 表示，以不同方式对 GPU 进行布线和供电可能会使 AI 延迟降低几个数量级",
     "zhSummary": "Neocloud 市场正在超越其作为稀缺图形处理单元的权宜之计的起源。人工智能原生初创公司现在根据延迟、突发容量和开放性来选择基础设施，而不仅仅是芯片可用性。那个转变正在播放",
-    "ts": "2026-10-03T01:04:32.921Z",
+    "ts": "2026-10-03T04:18:01.577Z",
     "partial": false
    }
   },
   {
-   "title": "deepseek为什么要在此时拥抱华为？",
-   "url": "https://www.tmtpost.com/8158082.html",
-   "source": "钛媒体",
-   "sourceId": "tmtpost",
+   "title": "谷歌搭载AI芯片测试卫星发射升空",
+   "url": "https://36kr.com/newsflashes/4009581990268808?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
    "sourceTier": 2,
    "region": "CN",
    "lang": "zh",
-   "categories": [
-    "投稿"
-   ],
-   "summary": "文 | 影子备忘录 国庆假期前一天，DeepSeek放出了一条一则消息：正式开源面向华为昇腾算力平台的基础设施组件，涵盖TileLang高级语言编译工具、高性能计算库与分布式通信库，所有组件与此前面向英伟达平台的开源组件一一对应。 如果你只把这当作一次普通的“国产适配”，那可能会错过这件事真正的分量。 过去几年，国产芯片适配大模型的新闻并不少见，但大多是“能在上面跑起来”的层面，比如验证兼容性，刷个适配公告，然后就没有然后了。 不过这次不一样，因为DeepSeek把自己在英伟达平台上打磨成熟的那套工具链，几乎完整地、成体系地搬到了昇腾上，而且关键测试中的计算与通信性能已经接近硬件上限。 这不是一次适配，这是一次搬家。 算力焦虑的尽头，是别无选择 要理解DeepSeek为什么在此时选择华为，得先理解这家公司正面临什么。 梁文锋在今年7月的一场闭门投资者…",
-   "publishedAt": "2026-10-02T01:56:11.000Z",
-   "id": "9d218acdf630d356",
-   "topics": [
-    {
-     "id": "model",
-     "name": "模型与能力",
-     "color": "#6d5efc"
-    },
-    {
-     "id": "compute",
-     "name": "算力与基建",
-     "color": "#0ea5e9"
-    }
-   ],
-   "entities": [
-    "NVIDIA",
-    "华为",
-    "DeepSeek"
-   ],
-   "difficulty": "进阶",
-   "importance": 70,
-   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
-   "firstSeen": "2026-10-02",
-   "isNew": false
-  },
-  {
-   "title": "NetApp hands storage operations to AI agents, but humans still draw the boundaries",
-   "url": "https://siliconangle.com/2026/10/02/data-governance-sets-rules-netapp-s-ai-storage-agents-netappinsight/",
-   "source": "SiliconANGLE",
-   "sourceId": "siliconangle",
-   "sourceTier": 2,
-   "region": "NA",
-   "lang": "en",
-   "categories": [
-    "AI",
-    "Cube Event Coverage",
-    "NEWS",
-    "#NetAppInsight",
-    "#theCube"
-   ],
-   "summary": "Artificial intelligence is turning nearly every enterprise workload into a data workload, and data governance is becoming the test of whether companies can trust autonomous systems with the infrastructure underneath. The question is no longer only where data lives, but what is allowed to act on it. Enterprise data now sits across on-premises data centers, […] The post NetApp ha…",
-   "publishedAt": "2026-10-02T20:27:48.000Z",
-   "id": "f182cd5b436b77bd",
+   "categories": [],
+   "summary": "美国谷歌公司一颗搭载谷歌张量处理单元（TPU）芯片的原型卫星日前发射升空，以测试该芯片在太空环境中的运行性能，研究未来能否在太空部署人工智能（AI）基础设施。谷歌方面表示，其团队已与卫星建立通信，卫星目前运行正常。谷歌表示，此次发射是一项长期研究的一部分，旨在探索未来能否在太空部署可扩展的机器学习基础设施。（新华社）",
+   "publishedAt": "2026-10-03T03:58:33.000Z",
+   "id": "40c71a339180d1d7",
    "topics": [
     {
      "id": "compute",
@@ -1970,9 +2380,9 @@
      "color": "#0ea5e9"
     },
     {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
     }
    ],
    "entities": [],
@@ -1980,14 +2390,234 @@
    "importance": 69,
    "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
    "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "title": "长三角铁路今日预计发送旅客372万人次，增开列车105列",
+   "url": "https://36kr.com/newsflashes/4009555841601665?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "国庆假期进入第三日，长三角铁路出行客流持续保持高位态势。记者10月3日从中国铁路上海局集团有限公司（以下简称上铁集团）获悉，10月3日，上铁集团预计发送旅客372万人次。自9月23日中秋国庆假期运输启动以来，截至10月2日，长三角铁路累计发送旅客3350.5万人次，日均发送约335万人次。 今日，长三角铁路部门在启用高峰线的基础上，计划增加往返华中、华南、中原、西北、华北等多个方向运能配属，包括上海至郑州、西安、武汉、长沙、南昌等，杭州至郑州、厦门、新乡等以及长三角区域内热门旅游城市所在地多个方向的运力增补，增开旅客列车105列、组织动车组列车重联运行317列、加挂普速车辆129辆，满足旅客乘车出行需求。 截至3日上午8时，从车票预售情况看，长三角多地去往北京、青岛、郑州、福州、厦门、长沙、南昌、西安等直通方向票额较为紧张；管内方向出行需求集中于上海…",
+   "publishedAt": "2026-10-03T03:25:56.000Z",
+   "id": "a04ad12cb1ebf0be",
+   "topics": [
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 69,
+   "plainHint": "大厂、人才和开源社区在怎么重新排座次",
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "title": "曙光8000助力攻克火箭回收技术难题，国产异构计算平台再创纪录",
+   "url": "https://36kr.com/newsflashes/4009505749143685?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "36氪获悉，近日，中科曙光联合西安交通大学科研团队，在曙光8000上完成了33喷口火箭发动机阵列超声速尾焰的超大规模高保真数值模拟，计算规模高达6.774万亿网格单元，成为已知规模最大的超声速时空耦合高精度射流仿真案例。 双方在国产异构计算平台优势基础上， 优化计算方法，减少不必要的数据读写和通信开销，提升了大规模并行计算效率，成功复现了火箭发动机喷口尾焰交汇、干扰与混合的复杂过程，让难以直接观察的流动细节得以精细呈现。科研人员可据此研究多台发动机同时工作时的压力波动与热量分布，为可重复使用火箭研发提供高精度数据支持。",
+   "publishedAt": "2026-10-03T02:15:50.000Z",
+   "id": "82644806eb905532",
+   "topics": [
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 69,
+   "plainHint": "大厂、人才和开源社区在怎么重新排座次",
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "title": "Quantum World Ventures looks to move the technology beyond the lab",
+   "url": "https://yourstory.com/2026/10/quantum-world-ventures-looks-to-move-the-technology-beyond-the-lab",
+   "source": "YourStory",
+   "sourceId": "yourstory",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [],
+   "summary": "When Santosh Talaghatti saw his mother fight cancer, the experience left him with a question that would eventually shape his next venture. Why, at a time when technology can make information available almost instantly, does detecting serious illness still depend on processes that can be slow, complex and difficult to access? “I must create certain technology which will detect t…",
+   "publishedAt": "2026-10-03T01:55:00.000Z",
+   "id": "12560f7fb5713f87",
+   "topics": [
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 69,
+   "plainHint": "大厂、人才和开源社区在怎么重新排座次",
+   "firstSeen": "2026-10-03",
    "isNew": true,
    "i18n": {
     "origLang": "en",
     "src": "google+orig",
     "pending": [],
-    "zhTitle": "NetApp 将存储操作交给人工智能代理，但人类仍然划定界限",
-    "zhSummary": "人工智能正在将几乎所有企业工作负载转变为数据工作负载，而数据治理正在成为企业是否可以信任具有底层基础设施的自治系统的考验。问题是没有",
-    "ts": "2026-10-03T01:04:35.274Z",
+    "zhTitle": "Quantum World Ventures 希望将这项技术推向实验室之外",
+    "zhSummary": "当桑托什·塔拉加蒂（Santosh Talaghatti）看到他的母亲与癌症作斗争时，这段经历给他留下了一个问题，这个问题最终影响了他的下一次冒险。为什么在技术几乎可以立即提供信息的时代，检测",
+    "ts": "2026-10-03T04:18:02.812Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "130余家公司国庆节后率先披露三季报，部分上半年盈利个股获融资客重点加仓",
+   "url": "https://36kr.com/newsflashes/4009466826887044?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "今年前三季度已结束，部分公司率先披露前三季度业绩预告。据证券时报·数据宝统计，截至当前，已有近40家公司预告三季报业绩情况（不含业绩类型为“不确定”的公司）。随着三季度的结束，交易所已公布三季报预计披露日期。据数据宝统计，今年国庆节后前10个交易日（10月8日至21日）将披露三季报的公司有134家，主要分布于电子、基础化工、医药生物、有色金属等行业。上述134家公司中，今年上半年实现盈利，且最新（9月29日）融资余额较8月末增幅超过10%的公司有15家，分布于电力设备、基础化工、有色金属等行业。从融资余额变动来看，最新融资余额较8月末增幅超过20%的公司有春风动力、圣晖集成、富信科技等11家。（人民财讯）",
+   "publishedAt": "2026-10-03T01:42:24.000Z",
+   "id": "d9ebdafa670aaa2e",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    },
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 69,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "title": "A model guide for the GPT-6 family",
+   "url": "https://openai.com/index/practical-guide-building-gpt-6",
+   "source": "OpenAI 官方",
+   "sourceId": "openai-news",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "Product"
+   ],
+   "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+   "publishedAt": "2026-10-02T16:15:00.000Z",
+   "id": "c1a0ca1aa14a28e5",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 69,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "GPT-6 系列模型指南",
+    "zhSummary": "了解初创公司如何选择 GPT-6 模型、调整推理工作、改进提示和技能、协调工具以及准备生产工作流程。",
+    "ts": "2026-10-03T04:18:02.812Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Swedish fintech Trustly receives $40M equity commitment from key shareholders",
+   "url": "https://tech.eu/2026/10/02/swedish-fintech-receives-40m-equity-commitment-from-key-shareholders/",
+   "source": "Tech.eu",
+   "sourceId": "tech-eu",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [
+    "Investment"
+   ],
+   "summary": "Swedish fintech Trustly today said it had received more than $40m in equity investment commitments from two key shareholders to underpin its planned growth strategy. The investment follows just weeks after it was revealed Trustly was cutting around 200 jobs , around a quarter of its overall headcount, after it saw its revenues fall by more than $50m last year. The equity is bei…",
+   "publishedAt": "2026-10-02T13:20:00.000Z",
+   "id": "59f25514f9924692",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 69,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "瑞典金融科技 Trustly 获得主要股东 4000 万美元的股权承诺",
+    "zhSummary": "瑞典金融科技公司 Trustly 今天表示，已收到两位主要股东超过 4000 万美元的股权投资承诺，以支持其计划中的增长战略。该投资是在 Trustly 透露几周后进行的",
+    "ts": "2026-10-03T04:18:02.812Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "The Download: a biological de-aging contest and why LLMs don’t reason",
+   "url": "https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/",
+   "source": "MIT Technology Review",
+   "sourceId": "mit-tr",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "The Download"
+   ],
+   "summary": "This is today’s edition of The Download , our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A new contest pits competitors against each other in a race to biological youth —Jessica Hamzelou This week, I officially signed up for an unusual competition. One that rewards competitors for getting younger . I recently turned 40, and I do…",
+   "publishedAt": "2026-10-02T12:10:00.000Z",
+   "id": "488befa654d3916b",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 69,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "下载：生物抗衰老竞赛以及法学硕士为何不推理",
+    "zhSummary": "这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。一项新的竞赛让参赛者在生物青春竞赛中相互竞争——Jessica Hamzelou",
+    "ts": "2026-10-03T04:18:03.485Z",
     "partial": false
    }
   },
@@ -1999,7 +2629,9 @@
    "sourceTier": 2,
    "region": "CN",
    "lang": "zh",
-   "categories": [],
+   "categories": [
+    "主编精选文章"
+   ],
    "summary": "文 | 产联社CLS 2026年国庆档，又是“神仙打架”。 国庆档正式拉开大幕，11部大片上线，悬疑惊悚、治愈喜剧、IP续作等多个赛道的影片正面厮杀。 演员阵容也看点十足： 陈思诚携张译、马丽出演《神探之痕迹》；小沈阳夫妇在《什么意思夫妇》里首度在大银幕合体；闫妮、叶童、倪虹洁在《活色生香》中演绎“黄昏恋”...... 根据猫眼、淘票票两大平台的累计“想看”数据，《神探之痕迹》《什么意思夫妇》《小猪佩奇·完美假期》《活色生香》居前四。 影视圈头部几乎都入局了，包括光线、华人影业、中影、横店……猫眼系、儒意系资本也频频出现在多部影片的出品名单中。 多点布局、分散下注，已然成为今年国庆档资本的主流玩法。 陈思诚加持《神探之痕迹》，背后金主是腾讯 今年国庆档热度最高的，当属《神探之痕迹》。 《神探之痕迹》以“七一勋章”获得者、刑事技术专家崔道植为人物原型…",
    "publishedAt": "2026-10-02T09:38:19.000Z",
    "id": "3f5c5be9348abd22",
@@ -2052,7 +2684,7 @@
     "pending": [],
     "zhTitle": "AI学习平台StudyStash在全球快速扩张后被Kortext收购",
     "zhSummary": "自适应人工智能学习平台 StudyStash 在其创始人从伯明翰大学毕业一年后被教育科技公司 Kortext 收购。此次收购的财务条款并未披露。 StudyStash 由 Ben 创立",
-    "ts": "2026-10-03T01:04:36.893Z",
+    "ts": "2026-10-03T04:18:03.485Z",
     "partial": false
    }
   },
@@ -2090,45 +2722,43 @@
     "pending": [],
     "zhTitle": "随着人工智能进一步深入护理运营，Lottie 收购了 CareMaster",
     "zhSummary": "伦敦医疗科技初创公司 Lottie 收购了拥有 25 年历史的护理计费软件提供商 CareMaster，这是其第二次收购护理软件，该公司扩大了人工智能的使用，以解决一些仍然最耗时的手动流程。",
-    "ts": "2026-10-03T01:04:38.941Z",
+    "ts": "2026-10-03T04:18:03.485Z",
     "partial": false
    }
   },
   {
-   "title": "Game of Thrones: Aegon’s Conquest Movie Will Arrive in June 2029",
-   "url": "https://www.techloy.com/game-of-thrones-aegons-conquest-release-date-2029/",
-   "source": "Techloy",
-   "sourceId": "techloy",
-   "sourceTier": 2,
-   "region": "OTHER",
+   "title": "Sean Parker is rebuilding Stability AI around music",
+   "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "sourceTier": 1,
+   "region": "NA",
    "lang": "en",
    "categories": [
-    "/ Entertainment",
-    "Movies"
+    "AI",
+    "In Brief",
+    "Sean Parker",
+    "Stability AI"
    ],
-   "summary": "You have seen Westeros on television for more than a decade. Now, you will have to go to the cinema to see where the story really began. Game of Thrones: Aegon’s Conquest, the first feature film in the Game of Thrones universe, is set to arrive in cinemas on June 1, 2029, with Warner Bros. Pictures behind the theatrical release. No ticket price has been announced yet, and there…",
-   "publishedAt": "2026-10-02T15:01:36.000Z",
-   "id": "3edb61e4642b5601",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
+   "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
+   "publishedAt": "2026-10-02T21:09:14.000Z",
+   "id": "215164d3b2f2ce75",
+   "topics": [],
+   "entities": [
+    "Stability AI"
    ],
-   "entities": [],
-   "difficulty": "入门",
+   "difficulty": "进阶",
    "importance": 68,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "plainHint": "行业又有了新动向",
    "firstSeen": "2026-10-03",
    "isNew": true,
    "i18n": {
     "origLang": "en",
     "src": "google+orig",
     "pending": [],
-    "zhTitle": "《权力的游戏：伊耿的征服》电影将于 2029 年 6 月上映",
-    "zhSummary": "你在电视上看到维斯特洛已有十多年了。现在，你必须去电影院看看故事真正开始的地方。 《权力的游戏：伊耿的征服》是《权力的游戏》宇宙中的第一部故事片，将于",
-    "ts": "2026-10-03T01:04:40.163Z",
+    "zhTitle": "肖恩·帕克正在围绕音乐重建稳定性人工智能",
+    "zhSummary": "肖恩·帕克（Sean Parker）曾经向音乐界传授了如何寻求宽恕，现在带着唱片公司的祝福和金钱回归。",
+    "ts": "2026-10-03T04:18:03.485Z",
     "partial": false
    }
   },
@@ -2169,7 +2799,7 @@
     "pending": [],
     "zhTitle": "Firmus 将股价定为 11 美元，在澳大利亚证券交易所上市 71 亿美元",
     "zhSummary": "Firmus 将其 7.1 亿美元的 ASX 流通股定价为 11 美元，鼓励投资者购买一家估值在一年内上涨了 44 倍的人工智能工厂。 10 月 23 日观看。",
-    "ts": "2026-10-03T01:04:41.123Z",
+    "ts": "2026-10-03T04:18:03.485Z",
     "partial": false
    }
   },
@@ -2208,35 +2838,112 @@
     "pending": [],
     "zhTitle": "第 40 周：Jeeves 领导的拉丁美洲初创企业融资",
     "zhSummary": "根据已披露的融资轮次，拉丁美洲各地的初创企业本周总共筹集了 1.104 亿美元，投资者资金主要流向金融科技。资金还到达了一家能源技术初创公司，而智利零售人工智能初创公司",
-    "ts": "2026-10-03T01:04:43.008Z",
+    "ts": "2026-10-03T04:18:03.485Z",
     "partial": false
    }
   },
   {
-   "title": "瑞士宝盛集团宣布6亿瑞郎股票回购计划",
-   "url": "https://36kr.com/newsflashes/4008307544084355?f=rss",
-   "source": "36氪",
-   "sourceId": "36kr",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "瑞士宝盛集团宣布了一项价值至多6亿瑞士法郎（7.23亿美元）的股票回购计划，此前集团瑞士监管机构刚刚宣布结束对该公司长达数年的调查。贷款方还提出了修订后的资本分配政策。该公司在一份声明中表示，“在获得监管部门批准并考虑到集团雄厚的资本实力后，宝盛集团董事会已批准此次股票回购计划。 ”（新浪财经）",
-   "publishedAt": "2026-10-02T06:32:20.000Z",
-   "id": "086e6da072c3092d",
-   "topics": [
-    {
-     "id": "policy",
-     "name": "政策与治理",
-     "color": "#ef4444"
-    }
+   "title": "Paramount, Warner Bros. to operate under Skydance name",
+   "url": "https://www.techinasia.com/news/paramount-warner-bros-operate-skydance",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "News",
+    "media and entertainment",
+    "Paramount",
+    "Skydance",
+    "Warner Bros Discovery"
    ],
+   "summary": "Skydance describes itself as a film and entertainment company.",
+   "publishedAt": "2026-10-03T03:26:55.000Z",
+   "id": "4f42a77a5270c2ee",
+   "topics": [],
    "entities": [],
-   "difficulty": "入门",
-   "importance": 67,
-   "plainHint": "规则制定者正在给 AI 划边界",
+   "difficulty": "进阶",
+   "importance": 66,
+   "plainHint": "行业又有了新动向",
    "firstSeen": "2026-10-03",
-   "isNew": true
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "派拉蒙、华纳兄弟将以 Skydance 名义运营",
+    "zhSummary": "Skydance 将自己描述为一家电影和娱乐公司。",
+    "ts": "2026-10-03T04:18:04.544Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Glasswall: The things anonymous founders say about VCs",
+   "url": "https://www.techinasia.com/visual-story/glasswall-vc-investors-founders-reviews",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Investments",
+    "glasswall",
+    "No Hard Paywall"
+   ],
+   "summary": "Check out the recent anonymous reviews for these VC firms.",
+   "publishedAt": "2026-10-03T02:00:00.000Z",
+   "id": "28c9a184c90c622c",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 66,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Glasswall：匿名创始人对风险投资的评价",
+    "zhSummary": "查看最近对这些风险投资公司的匿名评论。",
+    "ts": "2026-10-03T04:18:06.422Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "SK Group chairman to sell $703m in shares",
+   "url": "https://www.techinasia.com/news/sk-group-chairman-sell-703m-shares",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Investments",
+    "News",
+    "Chey Tae-won",
+    "Roh Soh-yeong",
+    "SK Inc."
+   ],
+   "summary": "The sale covers 2.3% of SK Inc., but Chey will remain its largest shareholder.",
+   "publishedAt": "2026-10-03T01:52:02.000Z",
+   "id": "70ee49dae6e25a15",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 66,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "SK集团董事长将出售价值7.03亿美元的股票",
+    "zhSummary": "此次出售涉及 SK Inc. 2.3% 的股份，但 Chey 仍将是其最大股东。",
+    "ts": "2026-10-03T04:18:07.383Z",
+    "partial": false
+   }
   },
   {
    "title": "Tales as old as time",
@@ -2269,7 +2976,7 @@
     "pending": [],
     "zhTitle": "与时间一样古老的故事",
     "zhSummary": "Leadsynbio、Erad、iPiD 等公司本周筹集了资金。",
-    "ts": "2026-10-03T01:04:44.262Z",
+    "ts": "2026-10-03T04:18:07.383Z",
     "partial": false
    }
   },
@@ -2304,7 +3011,7 @@
     "pending": [],
     "zhTitle": "东南亚科技生态系统报告",
     "zhSummary": "五分钟内了解东南亚创业场景的全部内容。",
-    "ts": "2026-10-03T01:04:46.150Z",
+    "ts": "2026-10-03T04:18:07.383Z",
     "partial": false
    }
   },
@@ -2352,76 +3059,7 @@
     "pending": [],
     "zhTitle": "华为发布Mate 90系列智能手机",
     "zhSummary": "在美国持续限制先进半导体出货的情况下，华为最近推出了 Mate 90 智能手机系列，并特别关注其最新的内部芯片架构。 Mate 90 系列包括四种型号，运行于",
-    "ts": "2026-10-03T01:04:47.490Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "博通据悉筹措600亿美元，为Anthropic芯片项目提供资金",
-   "url": "https://36kr.com/newsflashes/4008270806782084?f=rss",
-   "source": "36氪",
-   "sourceId": "36kr",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "据报道，知情人士透露，博通的华尔街银团正开始筹集600亿美元的新一轮AI芯片融资，为Anthropic芯片项目提供资金。（财联社）",
-   "publishedAt": "2026-10-02T06:08:57.000Z",
-   "id": "f143836c18f69bc7",
-   "topics": [
-    {
-     "id": "compute",
-     "name": "算力与基建",
-     "color": "#0ea5e9"
-    },
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [
-    "Anthropic"
-   ],
-   "difficulty": "进阶",
-   "importance": 66,
-   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
-   "firstSeen": "2026-10-03",
-   "isNew": true
-  },
-  {
-   "title": "📱 Hackers may be exploiting this flaw in your phone",
-   "url": "https://www.techloy.com/newsletter-week-40-2026-hackers-may-be-exploiting-this-flaw-in-your-phone/",
-   "source": "Techloy",
-   "sourceId": "techloy",
-   "sourceTier": 2,
-   "region": "OTHER",
-   "lang": "en",
-   "categories": [
-    "/ Cybersecurity",
-    "Top Story",
-    "📨 Techloy Weekly"
-   ],
-   "summary": "I think most of us have a complicated relationship with that little “Update Available” notification on our phones. Sometimes we install it immediately. Other times, we keep pressing “Later” until the phone practically gives up asking. This week, though, you might want to listen to your phone. In this week's issue: Why Apple wants you to update your iPhone now. OpenAI’s big DevD…",
-   "publishedAt": "2026-10-02T15:58:37.000Z",
-   "id": "0bde0fea6f82a96c",
-   "topics": [],
-   "entities": [
-    "OpenAI",
-    "Apple"
-   ],
-   "difficulty": "进阶",
-   "importance": 65,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "📱 黑客可能正在利用您手机中的此缺陷",
-    "zhSummary": "我认为我们大多数人都与手机上那个小小的“可用更新”通知有着复杂的关系。有时我们会立即安装它。其他时候，我们一直按“稍后”，直到手机几乎放弃询问。这",
-    "ts": "2026-10-03T01:04:49.319Z",
+    "ts": "2026-10-03T04:18:07.383Z",
     "partial": false
    }
   },
@@ -2462,7 +3100,7 @@
     "pending": [],
     "zhTitle": "QBS Technology 在 GISEC Global 2026 上加强网络安全生态系统和合作伙伴关系",
     "zhSummary": "QBS Technology（前身为 emt）结束了对 GISEC Global 2026 的参与，该展会于 9 月 16 日至 18 日在迪拜世博城迪拜展览中心 (DEC) 举行，网络安全领导者、技术供应商、合作伙伴和",
-    "ts": "2026-10-03T01:04:51.611Z",
+    "ts": "2026-10-03T04:18:07.383Z",
     "partial": false
    }
   },
@@ -2503,40 +3141,69 @@
     "pending": [],
     "zhTitle": "新加坡 Ryde 面临两起法律诉讼，股东寻求收购且投资者指控欺诈",
     "zhSummary": "Ryde 表示：“诉讼仍处于早期阶段。” 总部位于新加坡的乘车公司 Ryde 在纽约证券交易所 (NYSE) 上市，目前正面临两起独立的法律案件：股东请愿书和集体诉讼。",
-    "ts": "2026-10-03T01:04:53.624Z",
+    "ts": "2026-10-03T04:18:07.383Z",
     "partial": false
    }
   },
   {
-   "title": "东芝拟将AI数据中心HDD产能翻倍，目标把容量份额提升至30%",
-   "url": "https://36kr.com/newsflashes/4008466778279810?f=rss",
+   "title": "华为乾崑智驾累计辅助驾驶里程突破160亿公里",
+   "url": "https://36kr.com/newsflashes/4009496968466310?f=rss",
    "source": "36氪",
    "sourceId": "36kr",
    "sourceTier": 2,
    "region": "CN",
    "lang": "zh",
    "categories": [],
-   "summary": "东芝计划到2027财年将面向人工智能数据中心的硬盘驱动器产能提高一倍，以应对AI基础设施建设带来的高容量存储需求增长。据报道，公司将投资约600亿日元，约合3.8亿美元，扩建位于菲律宾的HDD生产设施。这将是东芝约五年来首次进行大规模硬盘相关投资。东芝目前与Western Digital和Seagate并列为全球三大HDD厂商之一。公司希望借此次扩产，提高其按存储容量计算的全球市场份额，中期目标是从目前略高于10%提升至30%。（新浪财经）",
-   "publishedAt": "2026-10-02T09:11:16.000Z",
-   "id": "d669b464c153ac8d",
+   "summary": "截至2026年10月2日，华为乾崑官网显示累计辅助驾驶里程已正式突破160亿公里。",
+   "publishedAt": "2026-10-03T01:51:13.000Z",
+   "id": "aaa4c014cd8e49ac",
+   "topics": [],
+   "entities": [
+    "华为"
+   ],
+   "difficulty": "进阶",
+   "importance": 63,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "title": "Game of Thrones: Aegon’s Conquest Movie Will Arrive in June 2029",
+   "url": "https://www.techloy.com/game-of-thrones-aegons-conquest-release-date-2029/",
+   "source": "Techloy",
+   "sourceId": "techloy",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "/ Entertainment",
+    "Movies"
+   ],
+   "summary": "You have seen Westeros on television for more than a decade. Now, you will have to go to the cinema to see where the story really began. Game of Thrones: Aegon’s Conquest, the first feature film in the Game of Thrones universe, is set to arrive in cinemas on June 1, 2029, with Warner Bros. Pictures behind the theatrical release. No ticket price has been announced yet, and there…",
+   "publishedAt": "2026-10-02T15:01:36.000Z",
+   "id": "3edb61e4642b5601",
    "topics": [
     {
-     "id": "compute",
-     "name": "算力与基建",
-     "color": "#0ea5e9"
-    },
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
     }
    ],
    "entities": [],
-   "difficulty": "进阶",
-   "importance": 64,
-   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "difficulty": "入门",
+   "importance": 63,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
    "firstSeen": "2026-10-03",
-   "isNew": true
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "《权力的游戏：伊耿的征服》电影将于 2029 年 6 月上映",
+    "zhSummary": "你在电视上看到维斯特洛已有十多年了。现在，你必须去电影院看看故事真正开始的地方。 《权力的游戏：伊耿的征服》是《权力的游戏》宇宙中的第一部故事片，将于",
+    "ts": "2026-10-03T04:18:07.383Z",
+    "partial": false
+   }
   },
   {
    "title": "大宗商品的权力博弈：谁在影响全球铜、石油和粮食价格？",
@@ -2605,7 +3272,7 @@
     "pending": [],
     "zhTitle": "第 40 周：HyperGuest 牵头的非洲和中东初创企业融资",
     "zhSummary": "根据 Techloy 追踪的已披露融资轮次，非洲、中东和以色列的初创企业本周总共筹集了 6520 万美元，其中投资者资金主要流向人工智能。 HyperGuest 以 25 美元的价格获得了最大的支票",
-    "ts": "2026-10-03T01:04:54.918Z",
+    "ts": "2026-10-03T04:18:07.383Z",
     "partial": false
    }
   },
@@ -2644,7 +3311,7 @@
     "pending": [],
     "zhTitle": "第 40 周：Simple Energy 领投的亚洲初创企业融资",
     "zhSummary": "本周，亚洲的初创企业融资依然活跃，在电动汽车、生物技术、教育、人工智能、消费技术和医疗保健领域筹集了 2.2435 亿美元。印度领投，韩国初创公司也吸引了新鲜血液",
-    "ts": "2026-10-03T01:04:56.589Z",
+    "ts": "2026-10-03T04:18:07.383Z",
     "partial": false
    }
   },
@@ -2681,40 +3348,9 @@
     "pending": [],
     "zhTitle": "Amazon Now 将快速配送服务扩展到 120 多个印度城市",
     "zhSummary": "亚马逊表示，订单是通过近 800 个微型配送中心和城市配送中心配送的。",
-    "ts": "2026-10-03T01:04:57.955Z",
+    "ts": "2026-10-03T04:18:07.383Z",
     "partial": false
    }
-  },
-  {
-   "title": "今年上半年外商股权性质直接投资同比增长55%",
-   "url": "https://36kr.com/newsflashes/4008327676874887?f=rss",
-   "source": "36氪",
-   "sourceId": "36kr",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "国家外汇管理局发布的《2026年上半年中国国际收支报告》显示，2026年上半年，外商股权性质直接投资为638亿美元，同比增长55%。报告显示，外商股权性质直接投资中，反映长期投资意愿的资本金净增加431亿美元；外资企业在境内的收益再投资同比增长31%，表明外资企业将经营所得更多用于在华投资兴业。（新华社）",
-   "publishedAt": "2026-10-02T07:22:48.000Z",
-   "id": "e994f756d7ce2c8f",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    },
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 63,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-03",
-   "isNew": true
   },
   {
    "title": "Samsung Electro-Mechanics AI deals hit $2.6b",
@@ -2749,7 +3385,7 @@
     "pending": [],
     "zhTitle": "三星电机 AI 交易额达 2.6 亿美元",
     "zhSummary": "该公司于 9 月 1 日宣布了有史以来最大的 MLCC 合同，价值 1.1 万亿韩元（7.92 亿美元），也将于 2027 年交付。",
-    "ts": "2026-10-03T01:04:59.422Z",
+    "ts": "2026-10-03T04:18:07.383Z",
     "partial": false
    }
   },
@@ -2795,181 +3431,70 @@
     "pending": [],
     "zhTitle": "Stripe 都柏林总部新增 200 个工作岗位",
     "zhSummary": "副主席艾琳·奥马拉 (Eileen O'Mara) 表示：“爱尔兰人才从一开始就是 Stripe 不可或缺的一部分，我们很自豪能继续对其进行投资。”了解更多：Stripe 都柏林总部新增 200 个工作岗位",
-    "ts": "2026-10-03T01:05:01.767Z",
+    "ts": "2026-10-03T04:18:07.383Z",
     "partial": false
    }
   },
   {
-   "title": "截至8月底我国境内公募基金规模达39.63万亿元",
-   "url": "https://36kr.com/newsflashes/4008236452908933?f=rss",
-   "source": "36氪",
-   "sourceId": "36kr",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
+   "title": "앤트로픽, '클로드 프론티어 아카데미' 출범... 1300억 투입해 FDE 1만명 양성",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=215931",
+   "source": "AI타임스",
+   "sourceId": "aitimes-kr",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ko",
    "categories": [],
-   "summary": "中国基金业协会最新发布的数据显示，截至2026年8月底，我国境内公募基金资产净值合计39.63万亿元。截至2026年8月底，我国境内公募基金管理机构共165家，其中基金管理公司150家，取得公募资格的资产管理机构15家。（新华社）",
-   "publishedAt": "2026-10-02T05:39:58.000Z",
-   "id": "ce6e59e25ac5ddee",
+   "summary": "앤트로픽이 기업의 AI 도입을 이끌 전방 배치 엔지니어(FDE)를 직접 육성하기 위해 1억달러(약 1347억원)를 투자한다. 기업 현장에서 AI 기술을 실제 업무에 적용할 수 있는 전문 인력이 부족한 상황을 해소하기 위해, 오는 2027년 말까지 1만명의 전문 엔지니어를 양성한다는 계획이다.앤트로픽은 2일(현지시간) ‘클로드 프론티어 아카데미(Claude Frontier Academy)’를 출범하고, 자사의 엔지니어들이 받는 수준의 교육을 기업과 파트너사 엔지니어들에게 제공한다고 밝혔다.첫 교육 과정에는 액센추어, 베인, 캡제미니,",
+   "publishedAt": "2026-10-03T13:01:41.000Z",
+   "id": "8f3a4718d4030363",
    "topics": [
     {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
     }
    ],
    "entities": [],
-   "difficulty": "入门",
-   "importance": 63,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西",
-   "firstSeen": "2026-10-03",
-   "isNew": true
+   "difficulty": "进阶",
+   "importance": 62,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-10-02",
+   "isNew": false,
+   "i18n": {
+    "origLang": "ko",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "Antropic成立“克劳德前沿学院”...投资1300亿韩元培养1万名FDE",
+    "zhSummary": "Antropic 正在投资 1 亿美元（约 1,347 亿韩元）直接培训将领导公司人工智能采用的前向部署工程师 (FDE)。为了解决企业现场能够将人工智能技术应用到实际工作中的专业人才短缺的问题，计划到2027年底培养1万名专业工程师。Antropic于当地时间2日启动了“克劳德前沿学院”，并获得了",
+    "enTitle": "Antropic launches ‘Claude Frontier Academy’... Invests KRW 130 billion to train 10,000 FDEs",
+    "enSummary": "Antropic is investing $100 million (approximately KRW 134.7 billion) to directly train forward deployment engineers (FDEs) who will lead the company's AI adoption. In order to resolve the shortage of professional manpower capable of applying AI technology to actual work at corporate sites, the plan is to train 10,000 professional engineers by the end of 2027. Antropic launched the ‘Claude Frontier Academy’ on the 2nd (local time) and received the",
+    "ts": "2026-10-03T04:18:11.637Z",
+    "partial": false
+   }
   },
   {
-   "title": "Cheque-in: 3 startups pocket $18.75 million to start October",
-   "url": "https://www.startupdaily.net/topic/funding/cheque-in-3-startups-pocket-18-75-million-to-start-october/",
-   "source": "Startup Daily",
-   "sourceId": "startupdaily",
+   "title": "📱 Hackers may be exploiting this flaw in your phone",
+   "url": "https://www.techloy.com/newsletter-week-40-2026-hackers-may-be-exploiting-this-flaw-in-your-phone/",
+   "source": "Techloy",
+   "sourceId": "techloy",
    "sourceTier": 2,
    "region": "OTHER",
    "lang": "en",
    "categories": [
-    "Funding",
-    "Capital Raising",
-    "contributor post",
-    "News",
-    "SmartCompany"
+    "/ Cybersecurity",
+    "Top Story",
+    "📨 Techloy Weekly"
    ],
-   "summary": "Three Aussie startups bank $18.75m for cancer nukes, AI infrastructure scans and greener concrete.",
-   "publishedAt": "2026-10-02T02:35:00.000Z",
-   "id": "491901a60fc1b5ee",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 63,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "入驻： 3 家初创公司将于 10 月开始筹集 1,875 万美元",
-    "zhSummary": "三个澳大利亚初创公司筹集了 1,875 万美元用于癌症核武器、人工智能基础设施扫描和绿色混凝土。",
-    "ts": "2026-10-03T01:05:03.217Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Researchers Flag AI Overreach, Moneyview’s Bumper IPO & More",
-   "url": "https://inc42.com/buzz/researchers-flag-ai-overreach-moneyviews-bumper-ipo-more/",
-   "source": "Inc42",
-   "sourceId": "inc42",
-   "sourceTier": 1,
-   "region": "OTHER",
-   "lang": "en",
-   "categories": [
-    "News",
-    "Inc42 Daily Brief"
-   ],
-   "summary": "OpenAI Dispute Sparks Academic Panic Last month, OpenAI’s Codex possibly solved the Navier-Stokes equations in days. But mathematician Tristan Buckmaster feared that his unpublished drafts had fed the model. So, why has the episode sparked concerns related to credit and ownership in the AI era? The Buckmaster Saga: At the center of the dispute are the century-old equations, whi…",
-   "publishedAt": "2026-10-02T02:30:23.000Z",
-   "id": "eba06d319ec328ac",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
+   "summary": "I think most of us have a complicated relationship with that little “Update Available” notification on our phones. Sometimes we install it immediately. Other times, we keep pressing “Later” until the phone practically gives up asking. This week, though, you might want to listen to your phone. In this week's issue: Why Apple wants you to update your iPhone now. OpenAI’s big DevD…",
+   "publishedAt": "2026-10-02T15:58:37.000Z",
+   "id": "0bde0fea6f82a96c",
+   "topics": [],
    "entities": [
-    "OpenAI"
+    "OpenAI",
+    "Apple"
    ],
    "difficulty": "进阶",
-   "importance": 63,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-02",
-   "isNew": false,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "研究人员指出人工智能的过度扩张、Moneyview 的成功 IPO 等",
-    "zhSummary": "OpenAI 争议引发学术恐慌 上个月，OpenAI 的 Codex 可能在几天内解决了纳维-斯托克斯方程。但数学家特里斯坦·巴克马斯特担心他未发表的草稿已经为这个模型提供了依据。那么，为什么这一集会引起热议呢？",
-    "ts": "2026-10-03T01:05:03.217Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Tencent-backed Infinigence eyes HK IPO as early as 2027",
-   "url": "https://www.techinasia.com/news/tencentbacked-infinigence-eyes-hk-ipo-early-2027",
-   "source": "Tech in Asia",
-   "sourceId": "techinasia",
-   "sourceTier": 1,
-   "region": "SEA",
-   "lang": "en",
-   "categories": [
-    "Artificial Intelligence",
-    "News",
-    "AI infrastructure",
-    "China",
-    "Infinigence AI"
-   ],
-   "summary": "Infinigence manages computing capacity across third-party data centers rather than owning the facilities.",
-   "publishedAt": "2026-10-02T01:09:51.000Z",
-   "id": "354cdc0eba44566c",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    },
-    {
-     "id": "compute",
-     "name": "算力与基建",
-     "color": "#0ea5e9"
-    }
-   ],
-   "entities": [
-    "腾讯"
-   ],
-   "difficulty": "进阶",
-   "importance": 63,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-02",
-   "isNew": false,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "腾讯支持的Infinigence最早将于2027年在香港IPO",
-    "zhSummary": "Infinigence 管理第三方数据中心的计算能力，而不是拥有这些设施。",
-    "ts": "2026-10-03T01:05:03.217Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Who are Europe’s fastest-growing companies?",
-   "url": "https://sifted.eu/articles/sifted-250-2026-podcast/",
-   "source": "Sifted",
-   "sourceId": "sifted",
-   "sourceTier": 1,
-   "region": "EU",
-   "lang": "en",
-   "categories": [],
-   "summary": "",
-   "publishedAt": "2026-10-02T16:08:22.000Z",
-   "id": "92c8c9379e6c7fc7",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 62,
+   "importance": 60,
    "plainHint": "行业又有了新动向",
    "firstSeen": "2026-10-03",
    "isNew": true,
@@ -2977,76 +3502,9 @@
     "origLang": "en",
     "src": "google+orig",
     "pending": [],
-    "zhTitle": "谁是欧洲增长最快的公司？",
-    "ts": "2026-10-03T01:05:03.784Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "AIエージェントの導入課題10個を調査データで解説！導入前後の壁と解決策",
-   "url": "https://ainow.ai/2026/10/03/278412/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5%25e8%25aa%25b2%25e9%25a1%258c10%25e5%2580%258b%25e3%2582%2592%25e8%25aa%25bf%25e6%259f%25bb%25e3%2583%2587%25e3%2583%25bc%25e3%2582%25bf%25e3%2581%25a7%25e8%25a7%25a3%25e8%25aa%25ac",
-   "source": "AINOW",
-   "sourceId": "ainow",
-   "sourceTier": 1,
-   "region": "JPKR",
-   "lang": "ja",
-   "categories": [
-    "AINOW編集部",
-    "生成AI"
-   ],
-   "summary": "AIエージェントの導入課題は、導入前は「目的・データ・人材」、導入後は「連携・精度・定着」と、段階によって中身が変わります。 経営層から検討を任されたものの、 どこでつまずくのかが見えず計画を立てられない 担当者は少なくありません。PoCを始めてから、データの不備や現場の協力不足に気づくケースも多くあります。 Gartnerは、2027年末までにAIエージェント関連プロジェクトの40%超が中止されると予測しています。課題を知らないまま走り出せば、自社もその側に入るでしょう。 本記事では、国内外の調査データで見た導入前後の課題10個と、課題ごとの解決策を中心に解説します。課題を乗り越えた企業の取り組みもあわせて紹介します。 読み終えるころには、つまずく前に対策を導入計画へ組み込み、経営層やベンダーに根拠を持って説明できるようになります。 調査データで見…",
-   "publishedAt": "2026-10-02T15:29:56.000Z",
-   "id": "dae788b8a0acf06a",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 62,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "ja",
-    "src": "google",
-    "pending": [],
-    "zhTitle": "使用调查数据解释引入 AI 代理的 10 个挑战！实施前后的墙壁和解决方案",
-    "zhSummary": "引入人工智能代理的挑战根据阶段的不同而变化，从引入前的“目的、数据和人力资源”到引入后的“合作、准确性和保留”。有很多人被管理层委托考虑，但却无法制定计划，因为他们看不到自己会在哪里遇到麻烦。在很多情况下，我们在开始 PoC 后发现数据不足或缺乏实地合作。 Gartner 预测，到 2027 年底，超过 40% 的 AI 代理相关项目将被取消。如果你在不了解问题的情况下就开始运行，你的公司也会站在同一边。",
-    "enTitle": "Explaining 10 challenges for introducing AI agents using survey data! Walls and solutions before and after implementation",
-    "enSummary": "The challenges for introducing an AI agent change depending on the stage, from \"purpose, data, and human resources\" before introduction to \"cooperation, accuracy, and retention\" after introduction. There are many people who have been entrusted with consideration by management, but are unable to formulate a plan because they cannot see where they will run into trouble. There are many cases where we discover inadequacies in data or lack of cooperation on the ground after starting a PoC. Gartner predicts that over 40% of AI agent-related projects will be canceled by the end of 2027. If you start running without knowing the issues, your company will also be on the same side.",
-    "ts": "2026-10-03T01:05:07.309Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "AIエージェントの導入効果とは？8つの効果と企業事例・測り方を解説",
-   "url": "https://ainow.ai/2026/10/03/278409/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5%25e5%258a%25b9%25e6%259e%259c%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f8%25e3%2581%25a4%25e3%2581%25ae%25e5%258a%25b9%25e6%259e%259c%25e3%2581%25a8%25e4%25bc%2581%25e6%25a5%25ad",
-   "source": "AINOW",
-   "sourceId": "ainow",
-   "sourceTier": 1,
-   "region": "JPKR",
-   "lang": "ja",
-   "categories": [
-    "AINOW編集部",
-    "生成AI"
-   ],
-   "summary": "AIエージェントの導入効果は、業務時間やコストの削減にとどまらず、対応品質の安定や売上・顧客体験の改善にまで及びます。 とはいえ、経営層から「入れると何がどれだけ良くなるのか」と問われ、 効果を根拠付きで説明できずに稟議が止まる 担当者は少なくありません。 PwCの2026年の調査では、日本企業で生成AIが「期待を大きく上回る効果」を生んだ割合は9%にとどまりました。効果の種類と測り方を決めないまま導入すると、AIエージェントも同じ結果になるでしょう。 本記事では、AIエージェントで得られる8つの導入効果と、公式発表で数値を確認できた企業事例を中心に解説します。効果を測る指標と、効果が出ない原因もあわせて紹介します。 読み終えるころには、自社で狙う効果を他社の実績値とともに経営層へ説明し、導入後に成果を数値で示せる計画を立てられるようになります。 A…",
-   "publishedAt": "2026-10-02T15:11:30.000Z",
-   "id": "1125a37c45b43c1b",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 62,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "ja",
-    "src": "google",
-    "pending": [],
-    "zhTitle": "引入AI代理有什么效果？ 8 种效应的解释、公司示例以及如何衡量它们",
-    "zhSummary": "引入人工智能代理的效果不仅仅是减少工作时间和成本，还可以稳定响应质量并改善销售和客户体验。但也有很多负责人被管理层问到“如果加上的话会更好吗？改善多少？”，无法用证据解释其效果，从而结束审批程序。普华永道 2026 年的一项调查显示，只有 9% 的日本公司发现生成式人工智能产生的结果“明显超出预期”。如果在没有决定效果类型以及如何测量效果的情况下引入，人工智能代理可能会得到相同的结果。",
-    "enTitle": "What are the effects of introducing AI agents? Explanation of 8 effects, company examples, and how to measure them",
-    "enSummary": "The effects of introducing an AI agent go beyond reducing work time and costs to stabilizing response quality and improving sales and customer experience. However, there are many people in charge who are asked by management, ``What will be better if we add it, and how much will it improve?'' and are unable to explain the effects with evidence and end their approval process. In a 2026 survey by PwC, only 9% of Japanese companies found that generative AI produced results that \"significantly exceeded expectations.\" If introduced without deciding on the type of effect and how to measure it, AI agents will likely have the same results.",
-    "ts": "2026-10-03T01:05:11.440Z",
+    "zhTitle": "📱 黑客可能正在利用您手机中的此缺陷",
+    "zhSummary": "我认为我们大多数人都与手机上那个小小的“可用更新”通知有着复杂的关系。有时我们会立即安装它。其他时候，我们一直按“稍后”，直到手机几乎放弃询问。这",
+    "ts": "2026-10-03T04:18:11.637Z",
     "partial": false
    }
   },
@@ -3081,7 +3539,7 @@
     "pending": [],
     "zhTitle": "报告称，9 月份白领招聘增长 2%，其中 AI/ML 行业带动",
     "zhSummary": "周五的一份报告称，9 月份白领招聘人数同比小幅增长 2%，主要是受到人工智能/机器学习职位创纪录增长的推动，其次是汽车行业。 9 月份白领招聘基本保持稳定，增长 2%",
-    "ts": "2026-10-03T01:05:12.619Z",
+    "ts": "2026-10-03T04:18:11.637Z",
     "partial": false
    }
   },
@@ -3122,7 +3580,7 @@
     "pending": [],
     "zhTitle": "Inseego 拟收购诺基亚 FWA CPE 业务",
     "zhSummary": "美国宽带供应商Inseego最近完成了收购诺基亚固定无线接入（FWA）CPE业务的交易。该公司预计此举将使其收入大约翻一番。通过添加室内、室外和毫米波 FWA",
-    "ts": "2026-10-03T01:05:14.002Z",
+    "ts": "2026-10-03T04:18:11.637Z",
     "partial": false
    }
   },
@@ -3163,61 +3621,9 @@
     "pending": [],
     "zhTitle": "OPSWAT 与 Redington 签署分销协议",
     "zhSummary": "关键基础设施保护 (CIP) 网络安全解决方案的全球领导者 OPSWAT 和领先的技术聚合商 Redington 最近宣布建立覆盖海湾合作委员会 (GCC) 的分销合作伙伴关系，",
-    "ts": "2026-10-03T01:05:15.336Z",
+    "ts": "2026-10-03T04:18:11.637Z",
     "partial": false
    }
-  },
-  {
-   "title": "嘉能可：澳大利亚证券交易所二次上市将于10月14日正式开始交易",
-   "url": "https://36kr.com/newsflashes/4008513230212996?f=rss",
-   "source": "36氪",
-   "sourceId": "36kr",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "嘉能可宣布，其澳大利亚证券交易所二次上市将于2026年10月14日正式开始交易。公司同时更新了长期营销业务指引：长期营销调整后EBIT指引中点为35亿美元，区间为28亿至42亿美元。嘉能可预计2026年全年营销调整后EBIT将超过50亿美元。（财联社）",
-   "publishedAt": "2026-10-02T09:29:33.000Z",
-   "id": "e846e813b9886376",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 60,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-03",
-   "isNew": true
-  },
-  {
-   "title": "阿斯顿 · 马丁首款纯电动汽车推迟至2033年后，V8/V12发动机保留至2035年",
-   "url": "https://36kr.com/newsflashes/4008368621785219?f=rss",
-   "source": "36氪",
-   "sourceId": "36kr",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "报道称阿斯顿 · 马丁（Aston Martin）计划延后其首款纯电动汽车上市时间，推迟到2033—2035年，并制定路线图确保V8与V12发动机车型至少供应至2035年。（新浪财经）",
-   "publishedAt": "2026-10-02T08:37:26.000Z",
-   "id": "df9010a6c6b5bbd3",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 60,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-03",
-   "isNew": true
   },
   {
    "title": "Proofpoint appoints Joyce Kim as Chief Marketing Officer",
@@ -3256,7 +3662,7 @@
     "pending": [],
     "zhTitle": "Proofpoint 任命 Joyce Kim 为首席营销官",
     "zhSummary": "领先的网络安全与合规公司 Proofpoint, Inc. 最近宣布任命 Joyce Kim 为首席营销官 (CMO)，立即生效。 Kim 女士将在其职位上塑造 Proofpoint 的全球营销和",
-    "ts": "2026-10-03T01:05:17.240Z",
+    "ts": "2026-10-03T04:18:11.637Z",
     "partial": false
    }
   },
@@ -3297,203 +3703,7 @@
     "pending": [],
     "zhTitle": "吉尼斯企业中心扩大英国合作",
     "zhSummary": "该爱尔兰孵化中心与曼彻斯特创新区 Sister、利物浦 Central Tech 和苏格兰 CodeBase 建立了合作关系。了解更多：吉尼斯企业中心扩大英国合作",
-    "ts": "2026-10-03T01:05:18.222Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "超1200亿元，公募“红包”派发进行时",
-   "url": "https://36kr.com/newsflashes/4008344329293697?f=rss",
-   "source": "36氪",
-   "sourceId": "36kr",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "公募基金年内分红超1200亿元，债券型基金贡献逾六成，多只宽基ETF分红金额居前。与此同时，权益基金分红次数同比增加近八成，31家公募机构旗下产品分红金额超过10亿元。业内人士表示，在市场波动背景下，基金分红可以兑现部分收益，既有助于提升产品吸引力，也能在一定程度上帮助投资者锁定收益、缓解持仓压力。（上证报）",
-   "publishedAt": "2026-10-02T07:40:45.000Z",
-   "id": "2d389c1ebd93194c",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    },
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 60,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-03",
-   "isNew": true
-  },
-  {
-   "title": "三菱重工将投资约1000亿日元用于造船项目",
-   "url": "https://36kr.com/newsflashes/4008323764637568?f=rss",
-   "source": "36氪",
-   "sourceId": "36kr",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "三菱重工将投资约1000亿日元用于造船项目。（新浪财经）",
-   "publishedAt": "2026-10-02T07:00:48.000Z",
-   "id": "44798f7b8b3289f7",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 60,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-03",
-   "isNew": true
-  },
-  {
-   "title": "全球最大独立AI原生影视Utopai Studios视频生成模型跻身文生权威榜单全球第二",
-   "url": "https://36kr.com/newsflashes/4008300875141256?f=rss",
-   "source": "36氪",
-   "sourceId": "36kr",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "近日，全球最大的独立AI原生影视公司Utopai Studios的定制视频生成模型Utopai X在独立评测机构Artificial Analysis的全球文生视频排行榜中跻身第二，全美第一。据公开报道，这也是该榜单采用盲评机制以来，首次由影视公司定制的模型取得如此佳绩。榜单排名完全基于盲评输出质量，由观众在不知晓模型品牌的前提下对同一提示词生成的视频进行偏好评价（数据截至2026年9月30日）。",
-   "publishedAt": "2026-10-02T05:34:30.000Z",
-   "id": "03025d97b471d908",
-   "topics": [
-    {
-     "id": "model",
-     "name": "模型与能力",
-     "color": "#6d5efc"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 60,
-   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
-   "firstSeen": "2026-10-03",
-   "isNew": true
-  },
-  {
-   "title": "A16z, Accel back US cybersecurity firm Armadin in $255.5m round",
-   "url": "https://www.techinasia.com/news/a16z-accel-back-us-cybersecurity-firm-armadin-in-255-5m-round",
-   "source": "Tech in Asia",
-   "sourceId": "techinasia",
-   "sourceTier": 1,
-   "region": "SEA",
-   "lang": "en",
-   "categories": [
-    "Investments",
-    "News",
-    "Startups",
-    "Armadin",
-    "cybersecurity"
-   ],
-   "summary": "Armadin said the funding came six months after it raised US$189.9 million in combined seed and series A funding in March.",
-   "publishedAt": "2026-10-02T02:47:06.000Z",
-   "id": "63e176f5f96bd03f",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 60,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-02",
-   "isNew": false,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "A16z、Accel 在 2.555 亿美元融资中支持美国网络安全公司 Armadin",
-    "zhSummary": "Armadin 表示，该轮融资是在 3 月份通过种子轮融资和 A 轮融资筹集 1.899 亿美元后的六个月后完成的。",
-    "ts": "2026-10-03T01:05:18.222Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "领导层洗牌后，Argon能否助谷歌重回前沿？",
-   "url": "https://www.tmtpost.com/8158081.html",
-   "source": "钛媒体",
-   "sourceId": "tmtpost",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [
-    "投稿"
-   ],
-   "summary": "文 | 影子备忘录 2026年的AI赛道，用“瞬息万变”来形容已经远远不够。如果你每隔两周没有关注前沿模型的动态，打开排行榜时大概率会怀疑自己是不是错过了整整一个季度。 就在这样近乎疯狂的产品迭代节奏中，谷歌DeepMind于9月30日正式发布了Gemini 4系列的首款旗舰模型Argon。距离上一代旗舰Gemini 3系列亮相，已经过去了将近十个月。 对于一个头部AI实验室来说，十个月的沉默几乎等同于一次豪赌。 但在讨论Argon之前，有一个更值得回看的背景，然而这场豪赌的筹码，其实在两个月前就已经被重新洗过一遍了。 一场“静悄悄的权力交接” 2026年8月5日，Alphabet CEO桑达尔·皮查伊通过内部信宣布了一项令业界震动的架构调整：Google DeepMind联合创始人兼CEO德米斯·哈萨比斯卸下日常运营管理职责，转任DeepMind董…",
-   "publishedAt": "2026-10-02T01:29:50.000Z",
-   "id": "eace9c2e1a70b3fd",
-   "topics": [
-    {
-     "id": "model",
-     "name": "模型与能力",
-     "color": "#6d5efc"
-    },
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [
-    "Google",
-    "DeepMind"
-   ],
-   "difficulty": "进阶",
-   "importance": 60,
-   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
-   "firstSeen": "2026-10-02",
-   "isNew": false
-  },
-  {
-   "title": "Why Even Your Kindle Is Getting More Expensive",
-   "url": "https://www.techloy.com/amazon-new-kindle-lineup-higher-prices-2026/",
-   "source": "Techloy",
-   "sourceId": "techloy",
-   "sourceTier": 2,
-   "region": "OTHER",
-   "lang": "en",
-   "categories": [
-    "/ Consumer Tech",
-    "Amazon",
-    "Amazon Kindle",
-    "Top Story"
-   ],
-   "summary": "We've reported several times on how AI is driving up consumer technology prices, especially for computers and phones. Now, we're beginning to see something different: the cost burden is spreading from mainstream products like computers and phones to more niche products like Amazon's Kindle . On Thursday, Amazon announced that it was refreshing its Kindle lineup. The update come…",
-   "publishedAt": "2026-10-02T14:09:33.000Z",
-   "id": "178038a042423933",
-   "topics": [],
-   "entities": [
-    "Amazon"
-   ],
-   "difficulty": "进阶",
-   "importance": 59,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "为什么你的 Kindle 也变得越来越贵",
-    "zhSummary": "我们已经多次报道过人工智能如何推高消费技术的价格，尤其是电脑和手机的价格。现在，我们开始看到一些不同的情况：成本负担正在从计算机和计算机等主流产品中扩散出来。",
-    "ts": "2026-10-03T01:05:19.058Z",
+    "ts": "2026-10-03T04:18:11.637Z",
     "partial": false
    }
   },
@@ -3537,22 +3747,22 @@
     "pending": [],
     "zhTitle": "Tanami 筹集新资金进军卡塔尔",
     "zhSummary": "巴林总部私募市场投资平台 Tanami 已完成一轮未公开的融资，参与方包括 tali Ventures、stc 集团的企业风险投资部门、卡塔尔开发银行 (QDB)、英国 1818 Ventures 等",
-    "ts": "2026-10-03T01:05:19.058Z",
+    "ts": "2026-10-03T04:18:11.637Z",
     "partial": false
    }
   },
   {
-   "title": "Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
-   "url": "https://www.infoq.cn/article/eRbEA3dMd58RNPqp5D8S?utm_source=rss&utm_medium=article",
-   "source": "InfoQ 中国",
-   "sourceId": "infoq-cn",
-   "sourceTier": 1,
+   "title": "2026年度电影总票房突破300亿",
+   "url": "https://36kr.com/newsflashes/4009580560879753?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
    "region": "CN",
    "lang": "zh",
    "categories": [],
-   "summary": "<div align='right'><a href='https://www.infoq.cn/article/eRbEA3dMd58RNPqp5D8S?utm_source=rss&utm_medium=article'>点击查看原文></a></div>",
-   "publishedAt": "2026-10-02T13:00:00.000Z",
-   "id": "396b27802621db08",
+   "summary": "截至10月3日2026年度电影总票房（含预售）突破300亿元总观影人次达7.63亿放映总场次1.12亿场。（央视新闻）",
+   "publishedAt": "2026-10-03T03:40:06.000Z",
+   "id": "62dc17d4e569cc35",
    "topics": [],
    "entities": [],
    "difficulty": "进阶",
@@ -3560,6 +3770,191 @@
    "plainHint": "行业又有了新动向",
    "firstSeen": "2026-10-03",
    "isNew": true
+  },
+  {
+   "title": "老年人购买10月18日至12月30日铁路12306标注“敬”字车次的火车票将享受“折上折”票价优惠",
+   "url": "https://36kr.com/newsflashes/4009553270116481?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "36氪获悉，“中国铁路”消息，继今年5至6月实行老年人淡季周中购票优惠措施后，国铁集团进一步优化这一惠民举措，年满60周岁及以上老年人购买2026年10月18日（含）至12月30日（含）标注“敬”字车次的火车票将享受“折上折”票价优惠，进一步扩大优惠时间范围，不再限定周中时段，相关优惠车票将于10月4日起陆续发售。",
+   "publishedAt": "2026-10-03T03:12:18.000Z",
+   "id": "2b322b5dd5d78f15",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 57,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "title": "今天全国铁路预计发送旅客1890万人次",
+   "url": "https://36kr.com/newsflashes/4009497994154115?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "今天（10月3日），全国铁路预计发送旅客1890万人次，预计加开列车910列。针对假日短途客流集中出行的特点，多地铁路部门加密城际列车开行，充分释放运输能力。（央视新闻）",
+   "publishedAt": "2026-10-03T02:10:00.000Z",
+   "id": "0214d965ed386c01",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 57,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "title": "Women power India to Asian Games gold in hockey, boxing",
+   "url": "https://yourstory.com/2026/10/women-power-india-to-asian-games-gold-in-hockey-boxing",
+   "source": "YourStory",
+   "sourceId": "yourstory",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [],
+   "summary": "Dear Reader, India’s women athletes struck gold at the Asian Games, with Lalremsiami and Lovlina Borgohain delivering victories built on perseverance. Lalremsiami scored the winner as India beat China 1-0 to clinch women’s hockey gold and book a direct spot at the 2028 Los Angeles Olympics. In boxing, Lovlina overcame thoughts of retirement after the Paris Olympics to win her m…",
+   "publishedAt": "2026-10-03T02:00:00.000Z",
+   "id": "d9b65cc55e1b710f",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 57,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "女子帮助印度夺得亚运会曲棍球和拳击金牌",
+    "zhSummary": "尊敬的读者，印度女运动员在亚运会上摘得金牌，拉尔雷姆西亚米和洛芙琳娜·博尔戈海因凭借坚持不懈的努力取得了胜利。拉尔雷姆西亚米 (Lalremsiami) 打入制胜球，印度队以 1-0 击败中国队，夺得女子曲棍球金牌",
+    "ts": "2026-10-03T04:18:12.635Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "国庆假期第二天全社会跨区域人员流动量超3亿人次",
+   "url": "https://36kr.com/newsflashes/4009462933311624?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "今天（3日）是国庆假期第三天，各地出行需求旺盛。而在昨天，也就是国庆假期第二天，全社会跨区域人员流动量预计超3亿人次，中短途出行增长明显。 昨天，全国公路人员流动量预计超2.8亿人次，高速公路车流量保持高位运行。出行以景区间串联漫游，区域内短途转场流动为主。铁路方面预计发送旅客2040万人次。针对假日短途客流集中出行的特点，多地铁路部门加密城际列车开行，充分释放运输能力。（央视新闻）",
+   "publishedAt": "2026-10-03T01:16:36.000Z",
+   "id": "39ac0548f1a5d251",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 57,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "title": "Who are Europe’s fastest-growing companies?",
+   "url": "https://sifted.eu/articles/sifted-250-2026-podcast/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-10-02T16:08:22.000Z",
+   "id": "92c8c9379e6c7fc7",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 57,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "谁是欧洲增长最快的公司？",
+    "ts": "2026-10-03T04:18:12.635Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "AIエージェントの導入課題10個を調査データで解説！導入前後の壁と解決策",
+   "url": "https://ainow.ai/2026/10/03/278412/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5%25e8%25aa%25b2%25e9%25a1%258c10%25e5%2580%258b%25e3%2582%2592%25e8%25aa%25bf%25e6%259f%25bb%25e3%2583%2587%25e3%2583%25bc%25e3%2582%25bf%25e3%2581%25a7%25e8%25a7%25a3%25e8%25aa%25ac",
+   "source": "AINOW",
+   "sourceId": "ainow",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ja",
+   "categories": [
+    "AINOW編集部",
+    "生成AI"
+   ],
+   "summary": "AIエージェントの導入課題は、導入前は「目的・データ・人材」、導入後は「連携・精度・定着」と、段階によって中身が変わります。 経営層から検討を任されたものの、 どこでつまずくのかが見えず計画を立てられない 担当者は少なくありません。PoCを始めてから、データの不備や現場の協力不足に気づくケースも多くあります。 Gartnerは、2027年末までにAIエージェント関連プロジェクトの40%超が中止されると予測しています。課題を知らないまま走り出せば、自社もその側に入るでしょう。 本記事では、国内外の調査データで見た導入前後の課題10個と、課題ごとの解決策を中心に解説します。課題を乗り越えた企業の取り組みもあわせて紹介します。 読み終えるころには、つまずく前に対策を導入計画へ組み込み、経営層やベンダーに根拠を持って説明できるようになります。 調査データで見…",
+   "publishedAt": "2026-10-02T15:29:56.000Z",
+   "id": "dae788b8a0acf06a",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 57,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "ja",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "使用调查数据解释引入 AI 代理的 10 个挑战！实施前后的墙壁和解决方案",
+    "zhSummary": "引入人工智能代理的挑战根据阶段的不同而变化，从引入前的“目的、数据和人力资源”到引入后的“合作、准确性和保留”。有很多人被管理层委托考虑，但却无法制定计划，因为他们看不到自己会在哪里遇到麻烦。在很多情况下，我们在开始 PoC 后发现数据不足或缺乏实地合作。 Gartner 预测，到 2027 年底，超过 40% 的 AI 代理相关项目将被取消。如果你在不了解问题的情况下就开始运行，你的公司也会站在同一边。",
+    "enTitle": "Explaining 10 challenges for introducing AI agents using survey data! Walls and solutions before and after implementation",
+    "enSummary": "The challenges for introducing an AI agent change depending on the stage, from \"purpose, data, and human resources\" before introduction to \"cooperation, accuracy, and retention\" after introduction. There are many people who have been entrusted with consideration by management, but are unable to formulate a plan because they cannot see where they will run into trouble. There are many cases where we discover inadequacies in data or lack of cooperation on the ground after starting a PoC. Gartner predicts that over 40% of AI agent-related projects will be canceled by the end of 2027. If you start running without knowing the issues, your company will also be on the same side.",
+    "ts": "2026-10-03T04:18:12.635Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "AIエージェントの導入効果とは？8つの効果と企業事例・測り方を解説",
+   "url": "https://ainow.ai/2026/10/03/278409/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5%25e5%258a%25b9%25e6%259e%259c%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f8%25e3%2581%25a4%25e3%2581%25ae%25e5%258a%25b9%25e6%259e%259c%25e3%2581%25a8%25e4%25bc%2581%25e6%25a5%25ad",
+   "source": "AINOW",
+   "sourceId": "ainow",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ja",
+   "categories": [
+    "AINOW編集部",
+    "生成AI"
+   ],
+   "summary": "AIエージェントの導入効果は、業務時間やコストの削減にとどまらず、対応品質の安定や売上・顧客体験の改善にまで及びます。 とはいえ、経営層から「入れると何がどれだけ良くなるのか」と問われ、 効果を根拠付きで説明できずに稟議が止まる 担当者は少なくありません。 PwCの2026年の調査では、日本企業で生成AIが「期待を大きく上回る効果」を生んだ割合は9%にとどまりました。効果の種類と測り方を決めないまま導入すると、AIエージェントも同じ結果になるでしょう。 本記事では、AIエージェントで得られる8つの導入効果と、公式発表で数値を確認できた企業事例を中心に解説します。効果を測る指標と、効果が出ない原因もあわせて紹介します。 読み終えるころには、自社で狙う効果を他社の実績値とともに経営層へ説明し、導入後に成果を数値で示せる計画を立てられるようになります。 A…",
+   "publishedAt": "2026-10-02T15:11:30.000Z",
+   "id": "1125a37c45b43c1b",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 57,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "ja",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "引入AI代理有什么效果？ 8 种效应的解释、公司示例以及如何衡量它们",
+    "zhSummary": "引入人工智能代理的效果不仅仅是减少工作时间和成本，还可以稳定响应质量并改善销售和客户体验。但也有很多负责人被管理层问到“如果加上的话会更好吗？改善多少？”，无法用证据解释其效果，从而结束审批程序。普华永道 2026 年的一项调查显示，只有 9% 的日本公司发现生成式人工智能产生的结果“明显超出预期”。如果在没有决定效果类型以及如何测量效果的情况下引入，人工智能代理可能会得到相同的结果。",
+    "enTitle": "What are the effects of introducing AI agents? Explanation of 8 effects, company examples, and how to measure them",
+    "enSummary": "The effects of introducing an AI agent go beyond reducing work time and costs to stabilizing response quality and improving sales and customer experience. However, there are many people in charge who are asked by management, ``What will be better if we add it, and how much will it improve?'' and are unable to explain the effects with evidence and end their approval process. In a 2026 survey by PwC, only 9% of Japanese companies found that generative AI produced results that \"significantly exceeded expectations.\" If introduced without deciding on the type of effect and how to measure it, AI agents will likely have the same results.",
+    "ts": "2026-10-03T04:18:12.635Z",
+    "partial": false
+   }
   },
   {
    "title": "“We prefer to remain on the sidelines,” says Yapily boss amid open banking consolidation",
@@ -3588,7 +3983,7 @@
     "pending": [],
     "zhTitle": "Yapily 老板在开放银行整合中表示：“我们宁愿保持观望”",
     "zhSummary": "Lakestar 支持的英国开放银行初创公司 Yapily 的首席执行官表示，在开放银行业预计将进一步整合的情况下，金融科技公司更愿意“保持观望”。 Yapily 首席执行官兼创始人 Stefano Vaccino 发表了新评论",
-    "ts": "2026-10-03T01:05:20.670Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -3616,7 +4011,7 @@
     "src": "google+orig",
     "pending": [],
     "zhTitle": "规模扩大基金的时代",
-    "ts": "2026-10-03T01:05:21.076Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -3644,7 +4039,7 @@
     "src": "google+orig",
     "pending": [],
     "zhTitle": "筛选的峰会第二天：调度",
-    "ts": "2026-10-03T01:05:21.759Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -3675,7 +4070,7 @@
     "pending": [],
     "zhTitle": "ideaForge 面临 109 卢比的商品及服务税要求，并因涉嫌少缴税款而受到处罚",
     "zhSummary": "无人机制造商 ideaForge Technology 因涉嫌无人机销售税款少缴而收到了总计 109.2 印度卢比的商品及服务税要求和罚款单。该命令包括 54.6 Cr 的税收要求和同等罚款。在交换文件中，",
-    "ts": "2026-10-03T01:05:23.357Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -3710,166 +4105,9 @@
     "pending": [],
     "zhTitle": "统一印度分散的税收和财富市场",
     "zhSummary": "Prosperr.io 正在用人工智能驱动的持续财务规划取代印度受薪劳动力每年一次的税务咨询。",
-    "ts": "2026-10-03T01:05:24.669Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
-  },
-  {
-   "title": "OpenAI 新文章把超级智能拉回执行层，十亿个爱因斯坦也要有人去采矿",
-   "url": "https://www.tmtpost.com/8158249.html",
-   "source": "钛媒体",
-   "sourceId": "tmtpost",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [
-    "主编精选文章",
-    "AGI",
-    "大模型",
-    "OpenAI"
-   ],
-   "summary": "人类的方程式已经能够相对连贯地描述宇宙从最初时刻开始的演化，但没有一个人离开过月球。OpenAI 两位员工 10 月 1 日发布的长文《The eternal complement》从这个错位出发，得出的结论是： 机器智能最大的用武之地，可能是那些枯燥、庞大、重复的执行工作 。 这篇文章直译过来是“永恒的互补品”，是 OpenAI 新平台 Intelligence Age“下一经济”系列的开篇，作者为 Hemanth Asirvatham 与 Elliott Mokski，两人文末注明观点只代表他们本人。文章没有新的实验数据，但引用了四组可核查的实证数据，把一个经济学框架安在了超级智能身上。 天才设计纪念碑，机构砌石头 文章的分析起点是经济学里的互补品概念：当一种投入的增多会抬升另一种投入的价值，两者就互为互补品。两位作者认为， 前沿智能与“把想法变…",
-   "publishedAt": "2026-10-02T02:32:28.000Z",
-   "id": "ab9463bcae80e5f5",
-   "topics": [
-    {
-     "id": "model",
-     "name": "模型与能力",
-     "color": "#6d5efc"
-    },
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [
-    "OpenAI"
-   ],
-   "difficulty": "入门",
-   "importance": 57,
-   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
-   "firstSeen": "2026-10-02",
-   "isNew": false
-  },
-  {
-   "title": "Capital SEA: Southeast Asia’s funding landscape",
-   "url": "https://www.techinasia.com/visual-story/capital-sea-southeast-asias-funding-landscape",
-   "source": "Tech in Asia",
-   "sourceId": "techinasia",
-   "sourceTier": 1,
-   "region": "SEA",
-   "lang": "en",
-   "categories": [
-    "Premium Content",
-    "Visual Stories",
-    "Southeast Asia"
-   ],
-   "summary": "Who are the new active investors on the block? Which funding rounds look like outliers? This visual story answers all this and more.",
-   "publishedAt": "2026-10-02T04:00:00.000Z",
-   "id": "1b9b2cc4f2dd2bac",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 56,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-02",
-   "isNew": false,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "Capital SEA：东南亚的融资格局",
-    "zhSummary": "谁是新的活跃投资者？哪些融资轮看起来像是异常值？这个视觉故事回答了所有这些以及更多。",
-    "ts": "2026-10-03T01:05:24.669Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Singapore’s PRECISE, Temus launch precision medicine center",
-   "url": "https://www.techinasia.com/news/singapores-precise-temus-launch-precision-medicine-center",
-   "source": "Tech in Asia",
-   "sourceId": "techinasia",
-   "sourceTier": 1,
-   "region": "SEA",
-   "lang": "en",
-   "categories": [
-    "Artificial Intelligence",
-    "News",
-    "PRECISE",
-    "Precision Medicine",
-    "Singapore"
-   ],
-   "summary": "The collaboration aims to build the technology, data, and delivery capabilities needed to turn genomic research into healthcare applications.",
-   "publishedAt": "2026-10-02T02:35:39.000Z",
-   "id": "68ac41bb48468d63",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    },
-    {
-     "id": "industry",
-     "name": "产业与生态",
-     "color": "#8b5cf6"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 56,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西",
-   "firstSeen": "2026-10-02",
-   "isNew": false,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "新加坡 PRECISE 与 Temus 推出精准医疗中心",
-    "zhSummary": "此次合作旨在构建将基因组研究转化为医疗保健应用所需的技术、数据和交付能力。",
-    "ts": "2026-10-03T01:05:24.669Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Mate90登场，能打苹果的还得是华为",
-   "url": "https://www.tmtpost.com/8158094.html",
-   "source": "钛媒体",
-   "sourceId": "tmtpost",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "文 | 蓝媒汇，作者 | 封华 编辑 | 魏晓 10月1日国庆当天，华为Mate90系列正式登场。 华为推出的产品阵容堪称豪华：Mate 90、Mate 90 Pro、Mate 90 Pro Max、Mate 90 Pro Max典藏版、Mate 90 RS非凡大师五款手机，以及新款耳机、手表等生态产品。 一时间，“华为Mate90 对决iPhone18”冲上热搜。 来源：“同城视频”微博 确实，要论跟苹果掰手腕这件事，真正能上擂台的，还得是华为。 此前一周，vivo、OPPO、小米、荣耀已经开战。但据业内博主“RD观测”披露，vivo、OPPO、小米三家新旗舰的开售销量，仅相当于上一代的25%-40%，销量大跌六七成。而同是首销数据，iPhone 18 Pro系列销量是上一代的130%，价涨量升。 据AI蓝媒汇了解，目前OPPO Find X10系…",
-   "publishedAt": "2026-10-02T01:56:09.000Z",
-   "id": "0fea5f20904e5f71",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    },
-    {
-     "id": "industry",
-     "name": "产业与生态",
-     "color": "#8b5cf6"
-    }
-   ],
-   "entities": [
-    "华为",
-    "小米"
-   ],
-   "difficulty": "进阶",
-   "importance": 56,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西",
-   "firstSeen": "2026-10-02",
-   "isNew": false
   },
   {
    "title": "Hostile threat warning startup Osavul raises €8.5M",
@@ -3909,7 +4147,7 @@
     "pending": [],
     "zhTitle": "敌意威胁警告初创公司 Osavul 筹集 850 万欧元",
     "zhSummary": "一家因俄罗斯入侵乌克兰而成立的初创公司今天表示，该公司在 A 轮融资中筹集了 850 万欧元，该公司的技术可帮助北约和各国政府在敌对威胁升级之前发现它们。 Osavul 的本轮融资由",
-    "ts": "2026-10-03T01:05:24.669Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -3951,7 +4189,7 @@
     "pending": [],
     "zhTitle": "卡塔尔 Aligator 获得 120 万美元种子轮融资",
     "zhSummary": "卡塔尔代理人工智能初创公司 Aligator 已筹集 120 万美元（430 万卡塔尔里亚尔）种子资金，由卡塔尔开发银行 (QDB) 和卡塔尔媒体城旗下基金 Next Ventures 领投，一批私人投资者也参与其中。",
-    "ts": "2026-10-03T01:05:24.669Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -3988,7 +4226,7 @@
     "pending": [],
     "zhTitle": "沙特金融科技时代获得由 MEVP 领投的 2200 万美元 A 轮融资",
     "zhSummary": "总部位于沙特阿拉伯的金融科技 Erad 已在 MEVP 领投的 A 轮融资中筹集了 2200 万美元，新投资者 500 Global、Saudi Venture Capital (SVC)、S60 Ventures、ANB Capital、Conjunction Capital 和 Araya Ventures 跟投。",
-    "ts": "2026-10-03T01:05:24.669Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4030,40 +4268,9 @@
     "pending": [],
     "zhTitle": "AÏZA 母公司 Amaani 筹集 500 万美元 A 轮融资用于 GCC 扩张",
     "zhSummary": "中东美容品牌 AÏZA 背后的阿联酋消费品公司 Amaani 已在 BECO Capital 领投的 A 轮融资中筹集了 500 万美元，Homegrown Ventures 和 Peak XV 旗下 Surge 参与其中，融资总额达到 500 万美元。",
-    "ts": "2026-10-03T01:05:24.669Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
-  },
-  {
-   "title": "曾获5亿美元估值！芳拓生物再闯港股，能否承受“基因治疗之重”？",
-   "url": "https://www.tmtpost.com/8158178.html",
-   "source": "钛媒体",
-   "sourceId": "tmtpost",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "文 | 创业最前线，作者 | 张珏，编辑 | 蛋总 近日，基因治疗公司芳拓生物再次向港交所递交上市申请。这家由奥博资本与泓元资本共同孵化的公司，曾在成立不到三年时获得约5.28亿美元估值，但至今尚未产生药品销售收入。 芳拓生物选择的AAV技术路线，因其治疗潜力受到资本追捧。如今距离完成上一轮融资已过去四年，公司核心产品仍处于研发阶段，有待更大规模临床试验验证。 而国内唯一上市的AAV基因疗法产品信玖凝，因价格过于昂贵，上市后一年多都没有商业化付费患者，可见国内该领域的商业化还在相当初期阶段。 今年夏天，两起采用AAV载体的儿童基因编辑治疗死亡事件相继曝光，又将安全性问题推至行业面前。 准备进入公开市场的芳拓生物，仍有一系列问题需要回答。 1、公司无实控人，专研眼科产品 对于需要终身服药的患者而言，基因治疗最吸引人的地方，是有机会将反复用药变成一次治疗…",
-   "publishedAt": "2026-10-02T02:17:35.000Z",
-   "id": "31812ce2cfe6b6b1",
-   "topics": [
-    {
-     "id": "capital",
-     "name": "资本与市场",
-     "color": "#f59e0b"
-    },
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "入门",
-   "importance": 55,
-   "plainHint": "钱在往哪里流，行业重心就在哪里",
-   "firstSeen": "2026-10-02",
-   "isNew": false
   },
   {
    "title": "Mistral and Black Forest Labs backer Headline closes $400M European fund",
@@ -4105,7 +4312,43 @@
     "pending": [],
     "zhTitle": "Mistral 和 Black Forest Labs 的支持者 Headline 关闭了 4 亿美元的欧洲基金",
     "zhSummary": "Global VC Headline 今天宣布关闭 Headline EU VIII，这是其专门针对欧洲创始人的第八只早期基金。这只 4 亿美元的基金将支持欧洲各地的种子公司和 A 轮公司，重点关注人工智能领域。活跃于",
-    "ts": "2026-10-03T01:05:24.669Z",
+    "ts": "2026-10-03T04:18:12.635Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Why Even Your Kindle Is Getting More Expensive",
+   "url": "https://www.techloy.com/amazon-new-kindle-lineup-higher-prices-2026/",
+   "source": "Techloy",
+   "sourceId": "techloy",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "/ Consumer Tech",
+    "Amazon",
+    "Amazon Kindle",
+    "Top Story"
+   ],
+   "summary": "We've reported several times on how AI is driving up consumer technology prices, especially for computers and phones. Now, we're beginning to see something different: the cost burden is spreading from mainstream products like computers and phones to more niche products like Amazon's Kindle . On Thursday, Amazon announced that it was refreshing its Kindle lineup. The update come…",
+   "publishedAt": "2026-10-02T14:09:33.000Z",
+   "id": "178038a042423933",
+   "topics": [],
+   "entities": [
+    "Amazon"
+   ],
+   "difficulty": "进阶",
+   "importance": 54,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-10-03",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "为什么你的 Kindle 也变得越来越贵",
+    "zhSummary": "我们已经多次报道过人工智能如何推高消费技术的价格，尤其是电脑和手机的价格。现在，我们开始看到一些不同的情况：成本负担正在从计算机和计算机等主流产品中扩散出来。",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4136,71 +4379,7 @@
     "pending": [],
     "zhTitle": "亚马逊将超快速送货服务扩展到印度 120 多个城市",
     "zhSummary": "亚马逊已将其超快速配送服务 Amazon Now 扩展到印度 120 多个城市，随着这家电子商务巨头在节日季前加强其配送网络，其覆盖范围在两周内翻了一番。服务是",
-    "ts": "2026-10-03T01:05:26.535Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "9月车市冷热分化：大盘承压，头部车企继续走强",
-   "url": "https://www.tmtpost.com/8158147.html",
-   "source": "钛媒体",
-   "sourceId": "tmtpost",
-   "sourceTier": 2,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [
-    "主编精选文章",
-    "钛度车库",
-    "汽车销量盘点",
-    "汽车行业"
-   ],
-   "summary": "10月1日，各家车企陆续交出9月成绩单。 只看企业公布的数字，今年的“金九”似乎并不差。比亚迪9月新能源汽车销量达到46.36万辆，吉利、奇瑞双双站上29万辆，上汽集团超过40万辆；新势力中，零跑连续第三个月突破10万辆，小鹏、小米站上4万辆级别，蔚来、极氪也超过3.7万辆。 但把这些数字放回整个乘用车市场，会发现今年9月并没有出现传统意义上的旺季反弹。 乘联分会数据显示，9月1日至27日，全国乘用车市场零售125.8万辆，同比下降29%；新能源乘用车零售82.7万辆，同比下降20%。同期新能源零售渗透率已经达到65.7%。乘联分会此前预计，9月狭义乘用车零售约169万辆，同比下降24.6%。 所以，今年9月真正值得关注的是另一组反差，即整个市场的盘子在缩，但头部企业仍然在增长。这可能是2026年中国车市最明显的变化之一。 “金九”还在，旺季效应已经…",
-   "publishedAt": "2026-10-02T05:16:33.000Z",
-   "id": "4ce56d015a45b6b1",
-   "topics": [],
-   "entities": [
-    "小米"
-   ],
-   "difficulty": "进阶",
-   "importance": 54,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-10-03",
-   "isNew": true
-  },
-  {
-   "title": "Meta’s AI could flood the internet; Four Indian brands putting a new spin on khadi",
-   "url": "https://yourstory.com/2026/10/metas-ai-could-flood-the-internet-india-brands-khadi",
-   "source": "YourStory",
-   "sourceId": "yourstory",
-   "sourceTier": 2,
-   "region": "OTHER",
-   "lang": "en",
-   "categories": [],
-   "summary": "Dear Reader, AI is moving deeper into the systems around us—from research labs and universities to cybersecurity and the very fabric of the internet. The web could be entering a new AI-heavy era. A new report on Meta’s latest AI developments explores how the company’s push could accelerate the creation of machine-generated content at a scale that changes what we see—and trust—o…",
-   "publishedAt": "2026-10-02T02:00:00.000Z",
-   "id": "b26054b708feb1a7",
-   "topics": [
-    {
-     "id": "industry",
-     "name": "产业与生态",
-     "color": "#8b5cf6"
-    }
-   ],
-   "entities": [
-    "Meta"
-   ],
-   "difficulty": "进阶",
-   "importance": 54,
-   "plainHint": "大厂、人才和开源社区在怎么重新排座次",
-   "firstSeen": "2026-10-02",
-   "isNew": false,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "Meta 的人工智能可能会淹没互联网；四个印度品牌为卡迪布注入新元素",
-    "zhSummary": "亲爱的读者，人工智能正在深入到我们周围的系统中——从研究实验室和大学到网络安全和互联网的结构。网络可能正在进入一个新的人工智能时代。关于 Meta 最新人工智能的新报告",
-    "ts": "2026-10-03T01:05:26.535Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4239,144 +4418,48 @@
     "pending": [],
     "zhTitle": "Foundational 秘密获得 820 万英镑预种子资金",
     "zhSummary": "总部位于伦敦的空间技术公司 Foundational 已获得 820 万英镑的种子前资金，用于扩大其卫星定位基础设施并进一步开发其数据平台。本轮参与者包括",
-    "ts": "2026-10-03T01:05:26.535Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
   {
-   "title": "Gears of War: E-Day Is Looking Like One of 2026’s Best Games, and Critics Agree",
-   "url": "https://www.techloy.com/gears-of-war-e-day-is-looking-like-one-of-2026s-best-games-and-critics-agree/",
-   "source": "Techloy",
-   "sourceId": "techloy",
-   "sourceTier": 2,
-   "region": "OTHER",
-   "lang": "en",
-   "categories": [
-    "/ Entertainment",
-    "/ News"
-   ],
-   "summary": "After years of waiting, Gears of War: E-Day is finally here, and the early reviews suggest The Coalition has delivered the kind of Gears campaign fans have been waiting for. The prequel is earning overwhelmingly positive reviews, with critics praising its improved combat, visual presentation and more personal approach to the story of Emergence Day. Pure Xbox has awarded it a pe…",
-   "publishedAt": "2026-10-02T14:00:14.000Z",
-   "id": "bbeeea68a9edc236",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 53,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "《战争机器：E-Day》看起来像是 2026 年最好的游戏之一，评论家一致认为",
-    "zhSummary": "经过多年的等待，《战争机器：E-Day》终于来了，早期的评论表明联盟已经推出了战争机器粉丝们一直在等待的那种游戏。前传获得了压倒性的积极评价",
-    "ts": "2026-10-03T01:05:28.300Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Graphify：整合代码库上下文，优化基于代理的软件工程",
-   "url": "https://www.infoq.cn/article/8XuP4iZKKr3ex2VTDxpl?utm_source=rss&utm_medium=article",
-   "source": "InfoQ 中国",
-   "sourceId": "infoq-cn",
-   "sourceTier": 1,
-   "region": "CN",
-   "lang": "zh",
-   "categories": [],
-   "summary": "<div align='right'><a href='https://www.infoq.cn/article/8XuP4iZKKr3ex2VTDxpl?utm_source=rss&utm_medium=article'>点击查看原文></a></div>",
-   "publishedAt": "2026-10-02T10:00:00.000Z",
-   "id": "4228e4d2640f2cf8",
-   "topics": [
-    {
-     "id": "model",
-     "name": "模型与能力",
-     "color": "#6d5efc"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 53,
-   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
-   "firstSeen": "2026-10-02",
-   "isNew": false
-  },
-  {
-   "title": "OceanBase partners with Vietnam’s MB Bank on database upgrade",
-   "url": "https://www.techinasia.com/news/oceanbase-partners-with-vietnams-mb-bank-on-database-upgrade",
+   "title": "A16z, Accel back US cybersecurity firm Armadin in $255.5m round",
+   "url": "https://www.techinasia.com/news/a16z-accel-back-us-cybersecurity-firm-armadin-in-255-5m-round",
    "source": "Tech in Asia",
    "sourceId": "techinasia",
    "sourceTier": 1,
    "region": "SEA",
    "lang": "en",
    "categories": [
-    "Fintech",
+    "Investments",
     "News",
-    "database technology",
-    "MB Bank",
-    "oceanbase"
+    "Startups",
+    "Armadin",
+    "cybersecurity"
    ],
-   "summary": "The announcement comes as Vietnam’s digital economy expands.",
-   "publishedAt": "2026-10-02T01:48:55.000Z",
-   "id": "99f2fb13b85d7134",
+   "summary": "Armadin said the funding came six months after it raised US$189.9 million in combined seed and series A funding in March.",
+   "publishedAt": "2026-10-02T02:47:06.000Z",
+   "id": "63e176f5f96bd03f",
    "topics": [
     {
-     "id": "industry",
-     "name": "产业与生态",
-     "color": "#8b5cf6"
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
     }
    ],
    "entities": [],
-   "difficulty": "进阶",
-   "importance": 53,
-   "plainHint": "大厂、人才和开源社区在怎么重新排座次",
+   "difficulty": "入门",
+   "importance": 52,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
    "firstSeen": "2026-10-02",
    "isNew": false,
    "i18n": {
     "origLang": "en",
     "src": "google+orig",
     "pending": [],
-    "zhTitle": "OceanBase与越南MB银行合作数据库升级",
-    "zhSummary": "这一消息是在越南数字经济扩张之际发布的。",
-    "ts": "2026-10-03T01:05:28.300Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Alphabet tests AI chips in orbit for space-based computing",
-   "url": "https://www.techinasia.com/news/alphabet-tests-ai-chips-in-orbit-for-space-based-computing",
-   "source": "Tech in Asia",
-   "sourceId": "techinasia",
-   "sourceTier": 1,
-   "region": "SEA",
-   "lang": "en",
-   "categories": [
-    "Artificial Intelligence",
-    "News",
-    "ai",
-    "Google",
-    "space tech"
-   ],
-   "summary": "Google described Suncatcher as a moonshot to put AI in space and explore a scalable space-based AI infrastructure system.",
-   "publishedAt": "2026-10-02T01:10:06.000Z",
-   "id": "942ee36dd9dfa56d",
-   "topics": [],
-   "entities": [
-    "Google",
-    "月之暗面"
-   ],
-   "difficulty": "进阶",
-   "importance": 53,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-10-02",
-   "isNew": false,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "Alphabet 在轨道上测试用于天基计算的人工智能芯片",
-    "zhSummary": "谷歌将 Suncatcher 描述为将人工智能引入太空并探索可扩展的基于太空的人工智能基础设施系统的登月计划。",
-    "ts": "2026-10-03T01:05:28.300Z",
+    "zhTitle": "A16z、Accel 在 2.555 亿美元融资中支持美国网络安全公司 Armadin",
+    "zhSummary": "Armadin 表示，该轮融资是在 3 月份通过种子轮融资和 A 轮融资筹集 1.899 亿美元后的六个月后完成的。",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4418,7 +4501,7 @@
     "pending": [],
     "zhTitle": "Good Tape 筹集新资金并推出 Explore 来揭开旧采访中埋藏的故事",
     "zhSummary": "Nordic Makers 投资了 Good Tape ，这是一家总部位于哥本哈根的人工智能转录公司，在 150 多个国家/地区有 300 万人使用。 Zendesk 联合创始人兼前首席产品官 Alexander Agassipour 领投",
-    "ts": "2026-10-03T01:05:28.300Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4455,7 +4538,7 @@
     "pending": [],
     "zhTitle": "2026 年上半年比利时资金最多的科技公司",
     "zhSummary": "比利时科技公司在 2026 年上半年筹集了 10.9 亿欧元，尽管资金高度集中在市场顶部，Kpler 约占筹集资金总额的 79%。早期交易占重要地位",
-    "ts": "2026-10-03T01:05:28.300Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4492,7 +4575,7 @@
     "pending": [],
     "zhTitle": "Trace.Space 推出 Trinity 以解决硬件工程的下一个瓶颈",
     "zhSummary": "Trace.Space 推出了 Trinity，这是一个硬件工程平台，旨在帮助机器人、航空航天、汽车、国防和其他硬件团队从原型转向大规模制造的产品。三位一体连接需求，",
-    "ts": "2026-10-03T01:05:28.300Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4529,7 +4612,7 @@
     "pending": [],
     "zhTitle": "FRANK 筹集 290 万欧元以减少保险经纪人的文书工作",
     "zhSummary": "葡萄牙保险科技公司 FRANK 在 Armilar 和 Start Ventures 领投的一轮融资中筹集了 290 万欧元，以进一步开发其人工智能驱动的保险经纪人平台，并为国际扩张做好准备。由安东尼奥·卡斯特罗创立，",
-    "ts": "2026-10-03T01:05:28.300Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4571,7 +4654,7 @@
     "pending": [],
     "zhTitle": "AREP 为沙特扩张筹集种子前资金，着眼于区域增长",
     "zhSummary": "沙特教育技术和研究支持初创公司 AREP（学术研究和教育平台）已完成由 Golden Assets Investment 领投的一轮未公开的种子前融资，这是其第一轮披露的融资。成立于",
-    "ts": "2026-10-03T01:05:28.300Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4610,7 +4693,7 @@
     "pending": [],
     "zhTitle": "Shorooq 和 Presight 加入 Maven Robotics 的 1 亿美元 A 轮融资",
     "zhSummary": "总部位于阿联酋的 Shorooq 和 G42 公司 Presight 通过 Shorooq 管理的基金投资了美国工业机器人初创公司 Maven Robotics，作为其 1 亿美元 A 轮融资的一部分。本轮融资还包括 RoboStrategy、LocalGlobe、Vine",
-    "ts": "2026-10-03T01:05:28.300Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4649,38 +4732,7 @@
     "pending": [],
     "zhTitle": "NVIDIA 和 RiseUp 在开罗举办埃及人工智能生态系统招待会",
     "zhSummary": "埃及创业平台 RiseUp 和 NVIDIA 将初创公司创始人、开发者、行业高管、学者和其他技术生态系统利益相关者聚集在一起，在开罗举办人工智能生态系统招待会，双方表示",
-    "ts": "2026-10-03T01:05:28.300Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "AI '생각의 사슬' 무력화되나…'순환 깊이' 기술이 부른 불투명성 우려",
-   "url": "https://www.aitimes.com/news/articleView.html?idxno=215934",
-   "source": "AI타임스",
-   "sourceId": "aitimes-kr",
-   "sourceTier": 1,
-   "region": "JPKR",
-   "lang": "ko",
-   "categories": [],
-   "summary": "AI 모델의 안전성과 인간의 통제력을 담보하던 핵심 장치인 '사고 사슬(CoT)' 모니터링 체계가 흔들리고 있다. 프롬프트와 정답 사이의 중간 추론 과정을 인간의 언어로 보여주던 기존 방식과 달리, 최근 등장한 차세대 추론 기술은 모델 내부에서 '침묵 속 추론'을 수행해 모니터링을 무력화한다는 지적이 잇따르고 있다. 월스트리트저널(WSJ)은 2일(현지시간) 첨단 AI 모델이 발전함에 따라 모델들이 실제로 내부에서 수행하는 일과 겉으로 주장하는 설명 사이의 격차가 점점 더 커지고 있다고 진단했다. AI가 자신의 내면을 신뢰성 있게 기",
-   "publishedAt": "2026-10-03T09:57:25.000Z",
-   "id": "d6a328199462a4d3",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 50,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-10-02",
-   "isNew": false,
-   "i18n": {
-    "origLang": "ko",
-    "src": "google",
-    "pending": [],
-    "zhTitle": "AI‘思维链’会被瓦解吗？对“循环深度”技术引起的不透明度的担忧",
-    "zhSummary": "确保人工智能模型安全和人类控制安全的关键设备“事件链（CoT）”监控系统正在受到动摇。与现有的用人类语言显示提示和正确答案之间的中间推理过程的方法不同，有人指出，最近出现的下一代推理技术通过在模型内部执行“沉默推理”来禁用监控。 《华尔街日报》2日（当地时间）报道称，随着先进人工智能模型的发展，模型内部实际执行的性能不断提高。",
-    "enTitle": "Will the AI ​​‘chain of thought’ be neutralized? Concerns about opacity caused by ‘circulation depth’ technology",
-    "enSummary": "The ‘Chain of Incident (CoT)’ monitoring system, a key device that ensures the safety of AI models and human control, is being shaken. Unlike the existing method of showing the intermediate reasoning process between the prompt and the correct answer in human language, it has been pointed out that the recently emerged next-generation reasoning technology disables monitoring by performing 'reasoning in silence' inside the model. The Wall Street Journal (WSJ) reported on the 2nd (local time) that as advanced AI models develop, the performance of what the models actually perform internally increases.",
-    "ts": "2026-10-03T01:05:31.620Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4722,7 +4774,7 @@
     "pending": [],
     "zhTitle": "总部位于柏林的 Restate 融资 2000 万美元",
     "zhSummary": "支持银行业实时数据使用的技术背后的团队已在 A 轮融资中为一家初创公司筹集了 2000 万美元，该公司负责人工智能代理背后的管道工作。柏林创立的 Restate 领投本轮融资",
-    "ts": "2026-10-03T01:05:31.620Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4759,53 +4811,39 @@
     "pending": [],
     "zhTitle": "Blackswan Space 筹集 250 万欧元用于将自主航天器导航送入轨道",
     "zhSummary": "立陶宛 Blackswan Space 已成功完成第二轮投资，由 Iron Wolf Capital 领投，融资 250 万欧元。加上该公司的种子轮前融资，其总资金现已达到 320 万欧元。其他投资者",
-    "ts": "2026-10-03T01:05:31.620Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
   {
-   "title": "How one Singaporean is bridging the gap between tech jobs and the Malay-Muslim community",
-   "url": "https://vulcanpost.com/913568/malay-muslims-in-tech-singapore/",
-   "source": "Vulcan Post",
-   "sourceId": "vulcanpost",
+   "title": "Gears of War: E-Day Is Looking Like One of 2026’s Best Games, and Critics Agree",
+   "url": "https://www.techloy.com/gears-of-war-e-day-is-looking-like-one-of-2026s-best-games-and-critics-agree/",
+   "source": "Techloy",
+   "sourceId": "techloy",
    "sourceTier": 2,
-   "region": "SEA",
+   "region": "OTHER",
    "lang": "en",
    "categories": [
-    "Artificial Intelligence",
-    "Editor's Picks",
-    "Entrepreneur",
-    "Founder Spotlight",
-    "Pinned Post"
+    "/ Entertainment",
+    "/ News"
    ],
-   "summary": "[This is a sponsored article with the Singapore Government Partnerships Office .] “Help others whenever you can, even if you feel you have little to give.” For much of his life, Mohamed Satria Bin Sadon, 41, had always reflected on this lesson from his father, but never felt he was in a position to act on it while still building his own career. That changed when his father pass…",
-   "publishedAt": "2026-09-30T04:13:16.000Z",
-   "id": "c7e90ac24bfc7010",
-   "topics": [
-    {
-     "id": "policy",
-     "name": "政策与治理",
-     "color": "#ef4444"
-    },
-    {
-     "id": "industry",
-     "name": "产业与生态",
-     "color": "#8b5cf6"
-    }
-   ],
+   "summary": "After years of waiting, Gears of War: E-Day is finally here, and the early reviews suggest The Coalition has delivered the kind of Gears campaign fans have been waiting for. The prequel is earning overwhelmingly positive reviews, with critics praising its improved combat, visual presentation and more personal approach to the story of Emergence Day. Pure Xbox has awarded it a pe…",
+   "publishedAt": "2026-10-02T14:00:14.000Z",
+   "id": "bbeeea68a9edc236",
+   "topics": [],
    "entities": [],
-   "difficulty": "入门",
-   "importance": 49,
-   "plainHint": "规则制定者正在给 AI 划边界",
+   "difficulty": "进阶",
+   "importance": 48,
+   "plainHint": "行业又有了新动向",
    "firstSeen": "2026-10-03",
    "isNew": true,
    "i18n": {
     "origLang": "en",
     "src": "google+orig",
     "pending": [],
-    "zhTitle": "一名新加坡人如何弥合科技工作与马来穆斯林社区之间的差距",
-    "zhSummary": "[这是新加坡政府合作伙伴办公室赞助的文章。]“尽你所能帮助他人，即使你觉得自己没什么可给予的。” 41 岁的穆罕默德·萨特里亚·本·萨顿 (Mohamed Satria Bin Sadon) 一生中的大部分时间都在思考这一问题",
-    "ts": "2026-10-03T01:05:31.620Z",
+    "zhTitle": "《战争机器：E-Day》看起来像是 2026 年最好的游戏之一，评论家一致认为",
+    "zhSummary": "经过多年的等待，《战争机器：E-Day》终于来了，早期的评论表明联盟已经推出了战争机器粉丝们一直在等待的那种游戏。前传获得了压倒性的积极评价",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4834,7 +4872,7 @@
     "pending": [],
     "zhTitle": "莫迪总理在电话中赞扬迪拜航空飞行员的勇气，并听取了他对空中事件的描述",
     "zhSummary": "周五，印度总理纳伦德拉·莫迪表示，印度人不是夺走生命的人，而是那些愿意冒着生命危险拯救他人的人，他对机长斯密特·马查尔的勇敢表示赞赏，他挫败了副驾驶的一次企图",
-    "ts": "2026-10-03T01:05:32.899Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4869,7 +4907,7 @@
     "pending": [],
     "zhTitle": "安进研究生项目的生物技术工艺开发助理",
     "zhSummary": "安进 (Amgen) 的康纳·休斯 (Conor Hughes) 探讨了爱尔兰的生物技术行业，以及早期 STEM 教育如何成为通向未来职业的大门。阅读更多：安进研究生项目的生物技术工艺开发助理",
-    "ts": "2026-10-03T01:05:33.959Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4904,7 +4942,7 @@
     "pending": [],
     "zhTitle": "Harish Chib 表示，Sophos 加强了整个中东地区的网络弹性战略",
     "zhSummary": "Harish Chib，Sophos 新兴市场、中东和非洲副总裁。 Sophos 新兴市场、中东和非洲副总裁 Harish Chib 讨论了关键基础设施保护、人工智能主导的安全运营、",
-    "ts": "2026-10-03T01:05:35.052Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4938,7 +4976,7 @@
     "pending": [],
     "zhTitle": "Steam 2026 年秋季特卖：10 月 8 日之前抢购的 21 款最佳游戏优惠",
     "zhSummary": "Valve 一年一度的 Steam 2026 年秋季特卖活动已正式到来，为其庞大的 PC 游戏目录带来了新一波折扣。从热门角色扮演游戏和开放世界冒险游戏到您可能已经忘记的热门独立游戏和游戏",
-    "ts": "2026-10-03T01:05:35.862Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4970,7 +5008,7 @@
     "pending": [],
     "zhTitle": "索尼通过 QSSR 将 AI 升级引入标准 PS5",
     "zhSummary": "索尼正在通过一种名为快速光谱超分辨率 (QSSR) 的新技术，将人工智能驱动的升级功能引入标准 PlayStation 5。该技术是 PlayStation 光谱超分辨率 (PSSR) 系统的新性能层",
-    "ts": "2026-10-03T01:05:36.916Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -4999,39 +5037,7 @@
     "pending": [],
     "zhTitle": "戈亚尔在G20峰会上表示印度不存在结构性产能过剩",
     "zhSummary": "工商部长皮尤什·戈亚尔表示，印度在G20轮值主席国确定的行业中不存在结构性产能过剩，并声称该国的制造能力服务于国内和国外",
-    "ts": "2026-10-03T01:05:38.577Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "What Is 'Virtual Patching,' and Why Is It Suddenly a Big Deal?",
-   "url": "https://www.techloy.com/what-is-virtual-patching-and-why-is-it-suddenly-a-big-deal/",
-   "source": "Techloy",
-   "sourceId": "techloy",
-   "sourceTier": 2,
-   "region": "OTHER",
-   "lang": "en",
-   "categories": [
-    "/ Featured",
-    "Software"
-   ],
-   "summary": "Virtual patching, also commonly known by the less catchy phrase ‘just in time patching’ is the practice of addressing a vulnerability without changing the code. It does this by blocking the specific attack pattern that can be used to exploit the vulnerability. Usually, if you’re fixing software, a patch will address the code within it – sort of like stitching up a tear in a jac…",
-   "publishedAt": "2026-10-02T08:41:13.000Z",
-   "id": "903f75d345eae771",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 48,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-10-03",
-   "isNew": true,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "什么是“虚拟补丁”？为什么它突然变得很重要？",
-    "zhSummary": "虚拟补丁，通常也被称为不太吸引人的短语“及时补丁”，是在不更改代码的情况下解决漏洞的做法。它通过阻止可用于",
-    "ts": "2026-10-03T01:05:39.363Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -5066,7 +5072,7 @@
     "pending": [],
     "zhTitle": "卡巴斯基推出 SAS 2026 将重点关注网络间谍活动、漏洞、对游戏玩家、移动和人工智能的威胁",
     "zhSummary": "卡巴斯基分享了将于 2026 年 10 月 20 日至 23 日在印度尼西亚巴厘岛举行的第 18 届年度安全分析师峰会 (SAS 2026) 的议程。 SAS 2026 采用独特的网络无政府状态，挑战传统活动的常见形式",
-    "ts": "2026-10-03T01:05:41.223Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -5101,7 +5107,7 @@
     "pending": [],
     "zhTitle": "Comtrade 360​​ 建立戈尔韦交付中心，计划雇用 30 名员工",
     "zhSummary": "该公司表示，预计“在未来几个月内”将逐步扩大其在戈尔韦的团队。了解更多：Comtrade 360​​ 建立戈尔韦交付中心，计划雇用 30 名员工",
-    "ts": "2026-10-03T01:05:42.705Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -5136,7 +5142,7 @@
     "pending": [],
     "zhTitle": "Juice：欧空局木星任务完成第三次重力辅助",
     "zhSummary": "DIAS 的 Mika Holmberg 博士与我们谈论 Juice，这是欧洲领导的第一个外太阳系任务。阅读更多：Juice：欧空局的木星任务完成第三次重力辅助",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -5175,7 +5181,7 @@
     "pending": [],
     "zhTitle": "Voltaback 筹集 280 万欧元以扩大欧洲电动汽车充电报销规模",
     "zhSummary": "法国车队管理软件初创公司 Voltaback 已从欧洲投资基金 Serena 和几位天使投资人那里筹集了 280 万欧元，其中包括 Electra 联合创始人 Aurélien de Meaux 和 Sequoia Scout 的 Maxime Brousse。伏特巴克",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -5209,7 +5215,7 @@
     "src": "google+orig",
     "pending": [],
     "zhTitle": "独家：Dig Ventures 融资 1.2 亿美元支持欧洲人工智能基础设施初创公司",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -5251,7 +5257,7 @@
     "pending": [],
     "zhTitle": "Rela 获得战略投资以扩大沙特阿拉伯的劳动力住房规模",
     "zhSummary": "总部位于沙特阿拉伯的劳动力住房初创公司 Rela 已获得 Yazeed Al Rajhi & Brothers Holding 的一笔未公开投资，该投资已作为投资者和战略合作伙伴加入该公司。投资规模及股权比例",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -5288,7 +5294,7 @@
     "pending": [],
     "zhTitle": "FinTra Holding 推出全球支付联盟 UPN",
     "zhSummary": "新闻稿：FinTra Holding 旗下的通用支付网络 (UPN) 推出了 UPN 联盟，这是一个开放的全球平台，汇集了支付网络、银行、金融机构、数字钱包、汇款公司和",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -5330,7 +5336,7 @@
     "pending": [],
     "zhTitle": "沙特金融科技 TalMal 获得种子前投资以进行本地扩张",
     "zhSummary": "沙特金融科技初创公司 TalMal 已完成一轮未公开的种子前融资，MM Partners 参与其中，该公司从产品开发和商业模式验证转向在沙特阿拉伯的商业扩张。成立于",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -5367,7 +5373,7 @@
     "pending": [],
     "zhTitle": "KEMET-X 将于 12 月将全球投资者和初创企业带到埃及",
     "zhSummary": "总部位于埃及的职业发展平台 Career 180 宣布推出 KEMET-X，这是一个全球创业和创新聚会，旨在将埃及和非洲初创企业与国际投资者、风险投资联系起来",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.635Z",
     "partial": false
    }
   },
@@ -5404,7 +5410,7 @@
     "pending": [],
     "zhTitle": "Paymob 在 C 轮融资前筹集了 3500 万美元，由 Mubadala 和欧洲复兴开发银行共同牵头",
     "zhSummary": "埃及创立的支付基础设施提供商 Paymob 在 Pre-C 轮融资中筹集了 3500 万美元，由 Mubadala Investment Company 和欧洲复兴开发银行 (EBRD) 共同领投，英国参与",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -5446,7 +5452,7 @@
     "pending": [],
     "zhTitle": "Bekia 筹集 765,000 美元用于推出 B2B 回收平台",
     "zhSummary": "埃及回收技术初创公司 Bekia 已筹集 765,000 美元的种子资金，由 Flourish Ventures 附属的非洲投资项目 Madica 牵头，Catalyst Fund 的后续投资以及来自",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -5488,45 +5494,7 @@
     "pending": [],
     "zhTitle": "Lendo 和 Quantic 在沙特阿拉伯启动 2 亿美元中小企业融资计划",
     "zhSummary": "沙特金融科技公司 Lendo 与奥地利的 Quantic Financial Solutions 合作开展了一项高达 7.5 亿沙特里亚尔（2 亿美元）的机构资本计划，为沙特阿拉伯的中小企业 (SME) 提供融资。下",
-    "ts": "2026-10-03T01:05:43.740Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "Temasek stays bullish on AI despite heavy infrastructure spending",
-   "url": "https://www.techinasia.com/news/temasek-stays-bullish-on-ai-despite-heavy-infrastructure-spending",
-   "source": "Tech in Asia",
-   "sourceId": "techinasia",
-   "sourceTier": 1,
-   "region": "SEA",
-   "lang": "en",
-   "categories": [
-    "Artificial Intelligence",
-    "News",
-    "ai",
-    "Jane Atherton",
-    "Singapore"
-   ],
-   "summary": "Temasek has overall holdings valued at about US$400 billion and owns stakes in OpenAI and Anthropic.",
-   "publishedAt": "2026-10-02T00:58:32.000Z",
-   "id": "4a11fe29b9c50026",
-   "topics": [],
-   "entities": [
-    "OpenAI",
-    "Anthropic"
-   ],
-   "difficulty": "进阶",
-   "importance": 45,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-10-02",
-   "isNew": false,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "尽管基础设施支出庞大，淡马锡仍看好人工智能",
-    "zhSummary": "淡马锡总持股价值约 4000 亿美元，并持有 OpenAI 和 Anthropic 的股份。",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -5563,85 +5531,7 @@
     "pending": [],
     "zhTitle": "Huspy 通过收购 Integra Finance 和 8600 万美元的投资计划进入意大利",
     "zhSummary": "阿联酋成立的房地产科技公司 Huspy 收购了意大利信贷中介机构 Integra Finance，标志着其进入意大利市场，该公司计划在意大利投资 8600 万美元（3.15 亿迪拉姆），作为其建立抵押贷款融资和房地产战略的一部分",
-    "ts": "2026-10-03T01:05:43.740Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "LG Uplus, OptAI team up on AI token optimization",
-   "url": "https://www.techinasia.com/news/lg-uplus-optai-team-ai-token-optimization",
-   "source": "Tech in Asia",
-   "sourceId": "techinasia",
-   "sourceTier": 1,
-   "region": "SEA",
-   "lang": "en",
-   "categories": [
-    "Artificial Intelligence",
-    "News",
-    "AI optimization",
-    "lg uplus",
-    "OptAI"
-   ],
-   "summary": "LG Uplus said it will use its AI service operations to test and apply the technology.",
-   "publishedAt": "2026-10-02T04:15:01.000Z",
-   "id": "d2995b9567e0d626",
-   "topics": [],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 41,
-   "plainHint": "行业又有了新动向",
-   "firstSeen": "2026-10-02",
-   "isNew": false,
-   "i18n": {
-    "origLang": "en",
-    "src": "google+orig",
-    "pending": [],
-    "zhTitle": "LG Uplus 与 OptAI 联手优化 AI 代币",
-    "zhSummary": "LG Uplus表示将利用其人工智能服务业务来测试和应用该技术。",
-    "ts": "2026-10-03T01:05:43.740Z",
-    "partial": false
-   }
-  },
-  {
-   "title": "AI 학습의 다음 단계, ‘스스로 만드는 데이터’",
-   "url": "https://www.technologyreview.kr/ai-%ed%95%99%ec%8a%b5%ec%9d%98-%eb%8b%a4%ec%9d%8c-%eb%8b%a8%ea%b3%84-%ec%8a%a4%ec%8a%a4%eb%a1%9c-%eb%a7%8c%eb%93%9c%eb%8a%94-%eb%8d%b0%ec%9d%b4%ed%84%b0/",
-   "source": "MIT Technology Review Korea",
-   "sourceId": "mittr-kr",
-   "sourceTier": 1,
-   "region": "JPKR",
-   "lang": "ko",
-   "categories": [
-    "인공지능",
-    "AI",
-    "AI 요약 완료",
-    "ai에이전트",
-    "Data Agent"
-   ],
-   "summary": "프런티어 AI 기업들이 전문가를 동원해 최신 AI 모델을 위한 새로운 데이터를 직접 만들고 있다. 삼성전자에서 AI 학습 데이터를 다뤄 온 김민수 PL은 이 변화가 데이터 선별을 넘어 생성·검증·재학습이 이뤄지는 ‘셀프 이볼빙 데이터’로 확장되고 있다고 설명한다. The post AI 학습의 다음 단계, ‘스스로 만드는 데이터’ appeared first on MIT 테크놀로지 리뷰 | MIT Technology Review Korea .",
-   "publishedAt": "2026-09-30T02:32:36.000Z",
-   "id": "d90310716604de6e",
-   "topics": [
-    {
-     "id": "product",
-     "name": "产品与应用",
-     "color": "#10b981"
-    }
-   ],
-   "entities": [],
-   "difficulty": "进阶",
-   "importance": 39,
-   "plainHint": "AI 具体被拿去做成了什么能用的东西",
-   "firstSeen": "2026-10-02",
-   "isNew": false,
-   "i18n": {
-    "origLang": "ko",
-    "src": "google",
-    "pending": [],
-    "zhTitle": "人工智能学习的下一步，“自我生成数据”",
-    "zhSummary": "前沿人工智能公司正在动员专家为最新的人工智能模型创建新数据。一直在三星电子处理人工智能学习数据的 PL Minsu Kim 解释说，这种变化正在从数据选择扩展到“自我进化数据”，即创建、验证和重新学习。人工智能学习的下一步，“自我生成数据”首先出现在《麻省理工学院技术评论》上麻省理工科技评论",
-    "enTitle": "The next step in AI learning, ‘self-generated data’",
-    "enSummary": "Frontier AI companies are mobilizing experts to create new data for the latest AI models. PL Minsu Kim, who has been handling AI learning data at Samsung Electronics, explains that this change is expanding beyond data selection to ‘self-evolving data’ where creation, verification, and re-learning occur. The post The next step in AI learning, ‘self-generating data’ appeared first on MIT Technology Review | MIT Technology Review",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -5689,7 +5579,7 @@
     "zhSummary": "您是否每天花费大量时间重新安排机会或重新安排重叠的约会？在本文中，我们将解释人工智能代理可以使用时间表管理做什么，如何比较4种类型的9种工具，以及如何为您的公司选择合适的工具，以及如何继续实施。由于与外部公司交换应聘天数和打包会议，许多人被迫加班。有了人工智能代理，您可以从提交候选人的日期和时间，到发送邀请和重新安排重叠的约会。",
     "enTitle": "9 Ways and Recommended Tools to Automate Scheduling with AI Agents",
     "enSummary": "Do you spend a significant amount of time each day rescheduling opportunities or rescheduling overlapping appointments? In this article, we will explain what AI agents can do with schedule management, how to compare 4 types of 9 tools, and how to choose the right one for your company, along with how to proceed with implementation. Many people are forced to work overtime due to the exchange of candidate days with the outside company and the packing of meetings. With an AI agent, you can go from submitting a candidate date and time to sending invitations and rescheduling overlapping appointments.",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -5726,7 +5616,7 @@
     "zhSummary": "Antropic 宣布，它已经动员了 950 个人工智能代理来分析超过 200,000 个酶数据，并发现了新酶系统的不寻常模式。然而，在生物界，人们指出，单纯发现模式和揭示实际的生物功能是完全不同的问题。关于 Antropic 人工智能科学发现的争议……“模式发现”与“真实发现”之间的争议首先出现在《麻省理工科技评论》上 |麻省理工学院技术",
     "enTitle": "Controversy over Antropic’s AI scientific discovery… Between ‘pattern discovery’ and ‘true discovery’",
     "enSummary": "Antropic announced that it had mobilized 950 AI agents to analyze over 200,000 enzyme data and found unusual patterns of new enzyme systems. However, in the biological world, it is pointed out that simply discovering patterns and uncovering actual biological functions are completely different problems. The post Controversy over Antropic’s AI scientific discovery… Between ‘pattern discovery’ and ‘real discovery’ appeared first on MIT Technology Review | MIT Technology",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -5763,7 +5653,7 @@
     "zhSummary": "一位牧师和他的妻子创造了加密货币并将其出售给基督教社区。当项目失败时，投资者损失了数百万美元，这对夫妇被指控欺诈。后币生意始于上帝的启示，投资者的钱去哪儿了？首次出现在《麻省理工科技评论》上 |麻省理工学院技术评论韩国。",
     "enTitle": "Coin business started with revelation from God, where did investors’ money go?",
     "enSummary": "A pastor and his wife created cryptocurrency and sold it to the Christian community. When the project collapsed, investors lost millions of dollars and the couple was charged with fraud. The post Coin business started with a revelation from God, where did investors' money go? appeared first on MIT Technology Review | MIT Technology Review Korea.",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -5794,7 +5684,7 @@
     "pending": [],
     "zhTitle": "Pinnacle（平博）增持沙特酒店创业公司 Gathern 的股份",
     "zhSummary": "沙特投资公司 Pinnacle Capital 通过其 Pinnacle Growth & Second Fund 对沙特另类住宿平台 Gathern 进行了追加投资，增加了其在该公司的所有权。交易金额及",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -5841,7 +5731,7 @@
     "zhSummary": "每次我做市场研究或竞争研究时，我都会打开几十个搜索选项卡，我需要花半天多的时间来阅读和重新整理它们。在本文中，我们将比较 10 个研究能力强的 AI 代理，并解释在防止虚假信息的同时委托调查的步骤。如果您使用人工智能代理，您可以在几分钟到数十分钟内完成从计划调查到收集信息并创建带有引用的报告的所有工作。 ChatGPT 和 Gemini 中安装的“Deep Research”是一个典型功能。",
     "enTitle": "Streamline your research with AI agents! 10 recommended tools, how to use them, and precautions",
     "enSummary": "Every time I do market research or competitive research, I open dozens of search tabs, and it takes me more than half a day to read and reorganize them. In this article, we will compare 10 AI agents that are strong in research and explain the steps to entrust the investigation while preventing false information. If you use an AI agent, you can do everything from planning an investigation to collecting information and creating a report with citations in a few minutes to tens of minutes. \"Deep Research\" installed in ChatGPT and Gemini is a typical feature.",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -5877,7 +5767,7 @@
     "zhSummary": "人工智能代理被黑客攻击或失控的事件时有发生，但有人指出，仅现行法律在追究企业责任方面存在局限性。越来越多的声音要求企业加强法律责任，包括事故报告和外部审计。后人工智能代理黑客攻击仍在继续……问责系统“空白”首次出现在《麻省理工科技评论》上 |麻省理工学院技术评论韩国。",
     "enTitle": "AI agent hacking continues… The system for holding people accountable is ‘empty’",
     "enSummary": "There are incidents where AI agents are hacked or go out of control, but it is pointed out that the current law alone has limitations in holding companies accountable. There are growing voices calling for stronger corporate legal responsibilities, including accident reporting and external audits. The post AI agent hacking continues… The accountability system is ‘blank’ appeared first on MIT Technology Review | MIT Technology Review Korea.",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -5911,7 +5801,7 @@
     "zhSummary": "许多发起人希望引入人工智能代理，但担心如何向管理层和法务部门解释逃跑行为和信息泄露的风险。 AI主体的风险是生成的AI被“行动”和“权威”放大的风险。通过评估自主性、权威性和可逆性这三个轴上的工作，您可以确定可以委派多少权力。详细的评估方法将在文章中解释。在没有评估轴的情况下继续实施将导致不可挽回的事故，例如删除生产数据库。",
     "enTitle": "10 major risks of AI agents and how to proceed with management learned from accident cases",
     "enSummary": "Many promoters would like to introduce an AI agent but are worried about how to explain the risks of runaway behavior and information leaks to management and the legal department. The risks of AI agents are the risks of generated AI amplified by \"actions\" and \"authorities.\" By evaluating work on the three axes of autonomy, authority, and reversibility, you can determine how much you can delegate. The detailed evaluation method will be explained in the article. Proceeding with implementation without an evaluation axis will lead to irreversible accidents such as deletion of the production database.",
-    "ts": "2026-10-03T01:05:43.740Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -5945,7 +5835,50 @@
     "zhSummary": "当管理层被问到“日本同行业的其他公司在多大程度上引入了人工智能代理？”时，许多推广经理无法提供具体的公司名称和数字。人工智能代理是一种能够自主执行从收集信息到执行任务以实现给定目标的所有操作的人工智能。在日本，从全公司范围扩大努力的大型企业到专注于具体业务的中型企业，以及正在进行示范的地方政府，公开数值结果的案例也越来越多。",
     "enTitle": "10 AI agent introduction examples! Common points in the achievements and successes of Japanese companies and local governments",
     "enSummary": "When management is asked, ``To what extent have other companies in the same industry in Japan introduced AI agents?'', many promotion managers are unable to provide specific company names and figures. An AI agent is an AI that autonomously performs everything from collecting information to executing tasks toward a given goal. In Japan as well, there are an increasing number of cases in which numerical results are made public, from large companies that expand their efforts across the company to medium-sized companies that focus on specific operations, and local governments that are conducting demonstrations.",
-    "ts": "2026-10-03T01:05:43.741Z",
+    "ts": "2026-10-03T04:18:12.636Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "AI 학습의 다음 단계, ‘스스로 만드는 데이터’",
+   "url": "https://www.technologyreview.kr/ai-%ed%95%99%ec%8a%b5%ec%9d%98-%eb%8b%a4%ec%9d%8c-%eb%8b%a8%ea%b3%84-%ec%8a%a4%ec%8a%a4%eb%a1%9c-%eb%a7%8c%eb%93%9c%eb%8a%94-%eb%8d%b0%ec%9d%b4%ed%84%b0/",
+   "source": "MIT Technology Review Korea",
+   "sourceId": "mittr-kr",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ko",
+   "categories": [
+    "인공지능",
+    "AI",
+    "AI 요약 완료",
+    "ai에이전트",
+    "Data Agent"
+   ],
+   "summary": "프런티어 AI 기업들이 전문가를 동원해 최신 AI 모델을 위한 새로운 데이터를 직접 만들고 있다. 삼성전자에서 AI 학습 데이터를 다뤄 온 김민수 PL은 이 변화가 데이터 선별을 넘어 생성·검증·재학습이 이뤄지는 ‘셀프 이볼빙 데이터’로 확장되고 있다고 설명한다. The post AI 학습의 다음 단계, ‘스스로 만드는 데이터’ appeared first on MIT 테크놀로지 리뷰 | MIT Technology Review Korea .",
+   "publishedAt": "2026-09-30T02:32:36.000Z",
+   "id": "d90310716604de6e",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 26,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-10-02",
+   "isNew": false,
+   "i18n": {
+    "origLang": "ko",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "人工智能学习的下一步，“自我生成数据”",
+    "zhSummary": "前沿人工智能公司正在动员专家为最新的人工智能模型创建新数据。一直在三星电子处理人工智能学习数据的 PL Minsu Kim 解释说，这种变化正在从数据选择扩展到“自我进化数据”，即创建、验证和重新学习。人工智能学习的下一步，“自我生成数据”首先出现在《麻省理工学院技术评论》上麻省理工科技评论",
+    "enTitle": "The next step in AI learning, ‘self-generated data’",
+    "enSummary": "Frontier AI companies are mobilizing experts to create new data for the latest AI models. PL Minsu Kim, who has been handling AI learning data at Samsung Electronics, explains that this change is expanding beyond data selection to ‘self-evolving data’ where creation, verification, and re-learning occur. The post The next step in AI learning, ‘self-generating data’ appeared first on MIT Technology Review | MIT Technology Review",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -5990,7 +5923,7 @@
     "zhSummary": "每周需要花费几个小时来创建提案和会议材料，尽管我让 ChatGPT 创建结构，但我最终还是自己创建了幻灯片。在这篇文章中，我们将解释如何将初稿委托给 AI，重点比较 10 个可用于创建素材的 AI 代理以及每种素材的示例提示。如果您使用人工智能代理，您可以负责从信息收集到构图规划再到输出可编辑的 PowerPoint 文件的一切。与聊天中单纯造句的用法不同，它的特点是甚至可以完成幻灯片的形式。",
     "enTitle": "Automate document creation with AI agent! 10 recommended choices and how to use them",
     "enSummary": "It takes hours every week to create proposals and meeting materials, and even though I let ChatGPT create the structure, I end up creating the slides myself. In this article, we will explain how to entrust the first draft to AI, focusing on a comparison of 10 AI agents that can be used to create materials and example prompts for each type of material. If you use an AI agent, you can take charge of everything from information gathering to composition planning to outputting an editable PowerPoint file. Unlike the usage of just creating sentences in chat, the feature is that it can even finish the form of slides.",
-    "ts": "2026-10-03T01:05:43.741Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -6027,7 +5960,7 @@
     "zhSummary": "研究质疑了衰老可以通过年轻器官逆转的假设。“永生”的梦想很难实现……即使是年轻的器官移植也没有恢复活力的效果，这首次出现在《麻省理工科技评论》|《麻省理工科技评论》韩国版上。",
     "enTitle": "Dreams of ‘eternal life‘ that are hard to achieve… Even a young organ transplant did not have a rejuvenating effect",
     "enSummary": "Studies have called into question the hypothesis that aging can be reversed with young organs. The post Dreams of ‘eternal life’ that are hard to achieve… Even a young organ transplant did not have a rejuvenating effect appeared first on mit Technology Review | mit Technology Review Korea.",
-    "ts": "2026-10-03T01:05:43.741Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -6064,7 +5997,7 @@
     "zhSummary": "令人不安的关于通用人工智能（ AGI ）和人工智能新功能的说法在短暂观察后迅速揭示了一个漏洞。帖子[意见] AI Big Tech的Lim Shin首先出现在MIT Technology Review | MIT Technology Review Korea。",
     "enTitle": "[opinion] Noh Lim-soo of AI Big Tech selling ‘Exaggeration’",
     "enSummary": "Disturbing claims about the new capabilities of general-purpose artificial intelligence (AGI) and AI quickly reveal a loophole after a short look. The post [opinion] AI Big Tech's Lim Shin appeared first on mit Technology Review | mit Technology Review Korea.",
-    "ts": "2026-10-03T01:05:43.741Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -6101,7 +6034,7 @@
     "zhSummary": "随着人工智能降低设计和制造生物武器所需的知识门槛，人们对危险的担忧日益增加。一些专家表示，目前的保障措施可能还不够，并指出需要加强生物安全系统。“可能毁灭人类”的帖子……由大型科技公司负责人警告的“人工智能生物武器”实体首先出现在麻省理工学院技术评论|麻省理工学院技术评论韩国。",
     "enTitle": "“Might Destroy Humanity” … The Reality of ‘AI Bioweapons‘ Warned by Heads of Big Tech",
     "enSummary": "As AI lowers the threshold of knowledge needed to design and build bioweapons, concerns about the dangers are growing. Some experts say current safeguards may not be enough, and point to the need to strengthen biosecurity systems. The post “Might Destroy Humanity” … The Entity of ‘AI Bioweapons‘ Warned by Heads of Big Tech Appeared First on mit Technology Review | mit Technology Review Korea.",
-    "ts": "2026-10-03T01:05:43.741Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -6138,7 +6071,7 @@
     "zhSummary": "随着智能眼镜越来越受欢迎，人们对隐私的担忧也越来越多，例如未经同意的拍摄和在印度的在线发行。特别是，争议正在蔓延，因为它不仅被用作针对妇女和边缘化群体的在线虐待，而且还被用作警方监控工具。帖子先睹为快，并利用人工智能……智能眼镜带来的印度对隐私的侵犯首次出现在《麻省理工科技评论》|《麻省理工科技评论》韩国版上。",
     "enTitle": "Sneaky filming and AI exploitation… Indian invasion of privacy brought on by smart glasses",
     "enSummary": "As smart glasses become more popular, there are growing concerns about privacy, such as non-consensual filming and online distribution in India. In particular, the controversy is spreading as it has been used not only as an online abuse targeting women and marginalized groups, but also as a police surveillance tool. The post Taking a sneak peek and exploiting it with AI… Indian invasion of privacy brought by smart glasses appeared first on mit Technology Review | mit Technology Review Korea.",
-    "ts": "2026-10-03T01:05:43.741Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -6172,7 +6105,7 @@
     "zhSummary": "您是否人力不足，难以回复询问和意见？在本文中，我们将基于公共数据和实名实例，解释8个使用AI智能体可以轻松为中小企业产生结果的例子，以及每月数千日元的成本模式和补贴。对于即使招聘也无法吸引人才的中小企业，并且正在用少数人处理查询和订单输入，可以将工作委托给执行的人工智能代理正在变得现实。中小企业的人工智能采用率仍然只有20.4% ，所以如果你现在行动，你可以领导同行业的其他公司。",
     "enTitle": "AI agents are only available to small businesses! 8 Use Cases, Costs, Subsidies, and How to Get Started",
     "enSummary": "Are you running out of manpower and struggling to respond to inquiries and input? In this article, we will explain 8 examples of the use of AI agents that can easily produce results for small and medium-sized enterprises, as well as cost patterns and subsidies that can start from thousands of yen per month, based on public data and real-name examples. For small and medium-sized enterprises that are not attracting people even if they hire, and are handling inquiries and order inputs with a small number of people, AI agents that can delegate work to execution are becoming realistic. The AI adoption rate of small and medium-sized enterprises is still only 20.4%, so if you move now, you can lead other companies in the same industry.",
-    "ts": "2026-10-03T01:05:43.741Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   },
@@ -6208,7 +6141,7 @@
     "zhSummary": "美国国防部已开始开发使用人工智能和远程检测技术的下一代测谎仪。但专家们仍然质疑这项技术的科学可靠性。 《美国国防部的人工智能测谎仪能否成为“匹诺曹的鼻子”》一文首先出现在《麻省理工科技评论》上 |麻省理工学院技术评论韩国。",
     "enTitle": "Could the US Department of Defense’s AI lie detector become ‘Pinocchio’s nose’?",
     "enSummary": "The U.S. Department of Defense has begun developing a next-generation lie detector using AI and long-distance detection technology. But experts still question the scientific reliability of this technology. The post Could the U.S. Department of Defense's AI lie detector become 'Pinocchio's nose' appeared first on MIT Technology Review | MIT Technology Review Korea.",
-    "ts": "2026-10-03T01:05:43.741Z",
+    "ts": "2026-10-03T04:18:12.636Z",
     "partial": false
    }
   }

@@ -1,6 +1,6 @@
 {
  "schema": "ai-horizon/profiles-v1",
- "updatedAt": "2026-10-03T01:05:43.851Z",
+ "updatedAt": "2026-10-03T04:18:12.689Z",
  "selection": {
   "title": "选谁来讲",
   "criteria": [
@@ -12,16 +12,16 @@
  },
  "list": [
   {
-   "id": "auto-suno-2026-10-03",
+   "id": "auto-cerebras-2026-10-03",
    "date": "2026-10-03",
    "auto": true,
-   "name": "Suno",
+   "name": "Cerebras",
    "nameZh": "",
    "aliases": [
-    "Suno"
+    "Cerebras"
    ],
-   "tagline": "归档里共 2 条要闻提到它（1 条来自今天，其中 1 条它是标题主角），消息类型集中在 「产品」2，板块以「产品与应用」为主。",
-   "category": "产品与应用 · 要闻聚合",
+   "tagline": "归档里共 2 条要闻提到它（1 条来自今天，其中 2 条它是标题主角），消息类型集中在 「人事」2，板块以「算力与基建」为主。",
+   "category": "算力与基建 · 要闻聚合",
    "region": "NA",
    "numbers": [
     {
@@ -30,7 +30,7 @@
     },
     {
      "k": "标题主角",
-     "v": "1 条"
+     "v": "2 条"
     },
     {
      "k": "今日提及",
@@ -38,11 +38,11 @@
     },
     {
      "k": "活跃区间",
-     "v": "2026-09-28 → 2026-10-03"
+     "v": "2026-10-01 → 2026-10-03"
     },
     {
      "k": "来源家数",
-     "v": "1 家"
+     "v": "2 家"
     },
     {
      "k": "主要区域",
@@ -50,38 +50,47 @@
     },
     {
      "k": "消息类型",
-     "v": "产品"
+     "v": "人事"
     }
    ],
-   "timelineNote": "按时间正序读：它出现在下面这些报道里（含只被顺带提及的），共 2 条，点标题可看原文。",
+   "timelineNote": "按时间正序读：这些都是「它是主角」的报道——一条一条点开，就是它在媒体视野里的轨迹。",
    "timeline": [
     {
-     "date": "2026-09-28",
-     "tag": "产品",
-     "title": "Engram is a sampler that turns broken AI hallucinations into music",
-     "desc": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram . It's a sampler and g…",
-     "why": "归档里第 1 条「产品」类消息（共 2 条）。",
+     "date": "2026-10-01",
+     "tag": "人事",
+     "title": "Cerebras Systems’ Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026",
+     "desc": "At TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew Feldman will explore the growing demand for compute, energy…",
+     "why": "归档里第 1 条「人事」类消息（共 2 条）。",
      "kind": "news",
      "source": {
-      "name": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music"
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026/"
      }
     },
     {
      "date": "2026-10-03",
-     "tag": "产品",
-     "title": "AI music maker Suno now generates spoken words",
-     "desc": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompte…",
-     "why": "归档里第 2 条「产品」类消息（共 2 条）。",
+     "tag": "人事",
+     "title": "Cerebras shares fall 20% as OpenAI turns to Nvidia",
+     "desc": "Cerebras’ CEO and CTO sold more than $240 million in stock under trading plans.",
+     "why": "归档里第 2 条「人事」类消息（共 2 条）。",
      "kind": "news",
      "source": {
-      "name": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability"
+      "name": "Tech in Asia",
+      "url": "https://www.techinasia.com/news/cerebras-shares-fall-20-openai-turns-nvidia"
      }
     }
    ],
    "patternNote": "这一页由规则层自动聚合：只陈述「谁、什么时候、因为什么上了要闻」，不做主观判断，金额、轮次、投资方等没有来源支撑的字段一律不填。选择标准是当天被提及最多、且不在大厂名单里的公司，近 7 天内剖析过的不重复选。",
-   "related": [],
+   "related": [
+    {
+     "name": "NVIDIA",
+     "n": 1
+    },
+    {
+     "name": "OpenAI",
+     "n": 1
+    }
+   ],
    "terms": []
   },
   {

@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-03",
- "generatedAt": "2026-10-03T01:03:46.993Z",
+ "generatedAt": "2026-10-03T04:17:51.182Z",
  "mode": "rule",
  "counts": {
   "crawled": 456,
   "published": 162,
-  "newCount": 102,
-  "repeatCount": 60,
+  "newCount": 118,
+  "repeatCount": 44,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,33 +22,33 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 118,
-  "withinFresh": 137,
+  "within24h": 119,
+  "withinFresh": 136,
   "freshHours": 72,
   "monthPrecision": 16,
   "undated": 0,
-  "staleDropped": 24,
-  "newestAt": "2026-10-03T09:57:25.000Z"
+  "staleDropped": 23,
+  "newestAt": "2026-10-03T13:01:41.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 58
+   "n": 50
   },
   {
    "name": "产品与应用",
-   "n": 45
+   "n": 39
   },
   {
    "name": "产业与生态",
-   "n": 25
-  },
-  {
-   "name": "政策与治理",
-   "n": 13
+   "n": 27
   },
   {
    "name": "算力与基建",
+   "n": 17
+  },
+  {
+   "name": "政策与治理",
    "n": 13
   },
   {
@@ -58,36 +58,36 @@
  ],
  "entities": [
   {
-   "name": "Meta",
+   "name": "OpenAI",
    "n": 10
   },
   {
-   "name": "OpenAI",
+   "name": "Meta",
    "n": 9
   },
   {
-   "name": "Anthropic",
-   "n": 7
+   "name": "NVIDIA",
+   "n": 8
   },
   {
    "name": "Amazon",
    "n": 7
   },
   {
-   "name": "NVIDIA",
-   "n": 6
+   "name": "Anthropic",
+   "n": 5
   },
   {
    "name": "Apple",
    "n": 4
   },
   {
-   "name": "Google",
+   "name": "腾讯",
    "n": 4
   },
   {
    "name": "华为",
-   "n": 4
+   "n": 3
   }
  ],
  "topOverall": [
@@ -128,6 +128,26 @@
     "Meta",
     "阿里巴巴",
     "腾讯"
+   ],
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "id": "c2211d5848e39f61",
+   "title": "Cerebras shares fall 20% as OpenAI turns to Nvidia",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/cerebras-shares-fall-20-openai-turns-nvidia",
+   "importance": 96,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-03T02:06:23.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "OpenAI",
+    "NVIDIA",
+    "Cerebras"
    ],
    "firstSeen": "2026-10-03",
    "isNew": true
@@ -175,6 +195,26 @@
    "isNew": true
   },
   {
+   "id": "e16fc28fc44183b5",
+   "title": "英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/372070",
+   "importance": 89,
+   "difficulty": "高级",
+   "publishedAt": "2026-10-03T01:17:08.000Z",
+   "topics": [
+    "模型与能力",
+    "资本与市场"
+   ],
+   "entities": [
+    "NVIDIA",
+    "腾讯"
+   ],
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
    "id": "90ff25ef5bcb4957",
    "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
    "source": "TechCrunch AI",
@@ -193,54 +233,21 @@
    "isNew": true
   },
   {
-   "id": "cd206ec58a84c489",
-   "title": "Headline closes $400M fund, Oura delays IPO, and Fedorov launches Army of Robots",
-   "source": "Tech.eu",
-   "region": "EU",
-   "url": "https://tech.eu/2026/10/02/headline-closes-400m-fund-oura-delays-ipo-and-fedorov-launches-army-of-robots/",
+   "id": "5550158c9a87419e",
+   "title": "台积电或与马斯克晶圆厂合作",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4009601618710661?f=rss",
    "importance": 85,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-02T14:24:00.000Z",
-   "topics": [
-    "资本与市场",
-    "产品与应用"
-   ],
-   "entities": [],
-   "firstSeen": "2026-10-03",
-   "isNew": true
-  },
-  {
-   "id": "03c3a69816d7c769",
-   "title": "Database startup Supabase raises $150M, acquires Turso",
-   "source": "SiliconANGLE",
-   "region": "NA",
-   "url": "https://siliconangle.com/2026/10/02/database-startup-supabase-raises-150m-acquires-turso/",
-   "importance": 84,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-02T22:16:50.000Z",
-   "topics": [
-    "资本与市场",
-    "政策与治理"
-   ],
-   "entities": [],
-   "firstSeen": "2026-10-03",
-   "isNew": true
-  },
-  {
-   "id": "dc9fcc701a0f8313",
-   "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
-   "source": "Ars Technica AI",
-   "region": "NA",
-   "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-   "importance": 84,
-   "difficulty": "高级",
-   "publishedAt": "2026-10-02T20:30:27.000Z",
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-03T04:14:28.000Z",
    "topics": [
     "算力与基建",
-    "政策与治理"
+    "产业与生态"
    ],
    "entities": [
-    "Amazon"
+    "Intel",
+    "台积电"
    ],
    "firstSeen": "2026-10-03",
    "isNew": true
@@ -276,41 +283,41 @@
      "isNew": true
     },
     {
-     "id": "5286bb3176113c40",
-     "title": "和 Opus 5.5 同题交卷，MiniMax M3.1 让 Flash 开始超纲了",
-     "source": "爱范儿",
+     "id": "e16fc28fc44183b5",
+     "title": "英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文",
+     "source": "极客公园",
      "region": "CN",
-     "url": "https://www.ifanr.com/1682850?utm_source=rss&utm_medium=rss&utm_campaign=",
-     "importance": 79,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-02T06:01:25.000Z",
+     "url": "http://www.geekpark.net/news/372070",
+     "importance": 89,
+     "difficulty": "高级",
+     "publishedAt": "2026-10-03T01:17:08.000Z",
      "topics": [
       "模型与能力",
-      "产品与应用"
+      "资本与市场"
      ],
      "entities": [
-      "Anthropic",
-      "MiniMax"
+      "NVIDIA",
+      "腾讯"
      ],
      "firstSeen": "2026-10-03",
      "isNew": true
     },
     {
-     "id": "9473993e53bb382a",
-     "title": "新势力9月洗牌：小鹏小米上4万，鸿蒙理想回落",
-     "source": "钛媒体",
+     "id": "5550158c9a87419e",
+     "title": "台积电或与马斯克晶圆厂合作",
+     "source": "36氪",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8158341.html",
-     "importance": 75,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-02T09:38:22.000Z",
+     "url": "https://36kr.com/newsflashes/4009601618710661?f=rss",
+     "importance": 85,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-03T04:14:28.000Z",
      "topics": [
-      "产品与应用",
+      "算力与基建",
       "产业与生态"
      ],
      "entities": [
-      "华为",
-      "小米"
+      "Intel",
+      "台积电"
      ],
      "firstSeen": "2026-10-03",
      "isNew": true
@@ -325,24 +332,42 @@
    "count": 24,
    "top": [
     {
-     "id": "d34c2c3cc28f0c59",
-     "title": "Anthropic targets mid-November IPO after delay",
+     "id": "c2211d5848e39f61",
+     "title": "Cerebras shares fall 20% as OpenAI turns to Nvidia",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/anthropic-targets-midnovember-ipo-delay",
-     "importance": 82,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-02T01:14:16.000Z",
+     "url": "https://www.techinasia.com/news/cerebras-shares-fall-20-openai-turns-nvidia",
+     "importance": 96,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-03T02:06:23.000Z",
      "topics": [
-      "资本与市场"
+      "算力与基建"
      ],
      "entities": [
-      "Anthropic",
-      "Google",
+      "OpenAI",
+      "NVIDIA",
+      "Cerebras"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "1ec70d0d72e9c95f",
+     "title": "Amazon to invest $1b in US data center communities",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/amazon-invest-1b-data-center-communities",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-03T01:20:04.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
       "Amazon"
      ],
-     "firstSeen": "2026-10-02",
-     "isNew": false
+     "firstSeen": "2026-10-03",
+     "isNew": true
     },
     {
      "id": "2481494f6045784c",
@@ -359,25 +384,6 @@
      "entities": [
       "OpenAI",
       "Hugging Face"
-     ],
-     "firstSeen": "2026-10-03",
-     "isNew": true
-    },
-    {
-     "id": "ce0930f1daf692a7",
-     "title": "Amazon explores $8b Nvidia chip sale to outside investors",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/amazon-explores-8b-nvidia-chip-sale-to-outside-investors",
-     "importance": 81,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-02T05:11:42.000Z",
-     "topics": [
-      "算力与基建"
-     ],
-     "entities": [
-      "Amazon",
-      "NVIDIA"
      ],
      "firstSeen": "2026-10-03",
      "isNew": true
@@ -455,12 +461,28 @@
    "count": 18,
    "top": [
     {
+     "id": "8f3a4718d4030363",
+     "title": "앤트로픽, '클로드 프론티어 아카데미' 출범... 1300억 투입해 FDE 1만명 양성",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=215931",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-03T13:01:41.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-02",
+     "isNew": false
+    },
+    {
      "id": "dae788b8a0acf06a",
      "title": "AIエージェントの導入課題10個を調査データで解説！導入前後の壁と解決策",
      "source": "AINOW",
      "region": "JPKR",
      "url": "https://ainow.ai/2026/10/03/278412/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5%25e8%25aa%25b2%25e9%25a1%258c10%25e5%2580%258b%25e3%2582%2592%25e8%25aa%25bf%25e6%259f%25bb%25e3%2583%2587%25e3%2583%25bc%25e3%2582%25bf%25e3%2581%25a7%25e8%25a7%25a3%25e8%25aa%25ac",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-10-02T15:29:56.000Z",
      "topics": [],
@@ -474,27 +496,13 @@
      "source": "AINOW",
      "region": "JPKR",
      "url": "https://ainow.ai/2026/10/03/278409/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5%25e5%258a%25b9%25e6%259e%259c%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f8%25e3%2581%25a4%25e3%2581%25ae%25e5%258a%25b9%25e6%259e%259c%25e3%2581%25a8%25e4%25bc%2581%25e6%25a5%25ad",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-10-02T15:11:30.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-10-03",
      "isNew": true
-    },
-    {
-     "id": "d6a328199462a4d3",
-     "title": "AI '생각의 사슬' 무력화되나…'순환 깊이' 기술이 부른 불투명성 우려",
-     "source": "AI타임스",
-     "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=215934",
-     "importance": 50,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-03T09:57:25.000Z",
-     "topics": [],
-     "entities": [],
-     "firstSeen": "2026-10-02",
-     "isNew": false
     }
    ]
   },
@@ -511,7 +519,7 @@
      "source": "Tech.eu",
      "region": "EU",
      "url": "https://tech.eu/2026/10/02/headline-closes-400m-fund-oura-delays-ipo-and-fedorov-launches-army-of-robots/",
-     "importance": 85,
+     "importance": 80,
      "difficulty": "入门",
      "publishedAt": "2026-10-02T14:24:00.000Z",
      "topics": [
@@ -528,7 +536,7 @@
      "source": "Tech.eu",
      "region": "EU",
      "url": "https://tech.eu/2026/10/02/swedish-fintech-receives-40m-equity-commitment-from-key-shareholders/",
-     "importance": 74,
+     "importance": 69,
      "difficulty": "进阶",
      "publishedAt": "2026-10-02T13:20:00.000Z",
      "topics": [
@@ -635,14 +643,14 @@
    "count": 24,
    "top": [
     {
-     "id": "4312f79ff96975d5",
-     "title": "IPO-Bound JSW One’s FY26 Loss Narrows 51% YoY To ₹107 Cr, Revenue Jumps 45%",
+     "id": "b1895774164bdc70",
+     "title": "From Simple Energy To Arivihan — Indian Startups Raised Over $233 Mn This Week",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/ipo-bound-jsw-ones-fy26-loss-narrows-51-yoy-to-%e2%82%b9107-cr-revenue-jumps-45/",
-     "importance": 82,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-02T14:02:48.000Z",
+     "url": "https://inc42.com/buzz/from-simple-energy-to-arivihan-indian-startups-raised-over-233-mn-this-week/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-03T03:30:21.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -669,16 +677,16 @@
      "isNew": true
     },
     {
-     "id": "9e9b95fbe8c6dc1e",
-     "title": "How BorderPlus Is Turning India’s Talent Surplus Into A Global Workforce",
+     "id": "4312f79ff96975d5",
+     "title": "IPO-Bound JSW One’s FY26 Loss Narrows 51% YoY To ₹107 Cr, Revenue Jumps 45%",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/startups/can-borderplus-is-turning-indias-talent-surplus-into-a-global-workforce/",
-     "importance": 74,
+     "url": "https://inc42.com/buzz/ipo-bound-jsw-ones-fy26-loss-narrows-51-yoy-to-%e2%82%b9107-cr-revenue-jumps-45/",
+     "importance": 77,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-02T16:34:44.000Z",
+     "publishedAt": "2026-10-02T14:02:48.000Z",
      "topics": [
-      "产业与生态"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-10-03",
@@ -687,5 +695,5 @@
    ]
   }
  ],
- "overview": "10 月 3 日，共从 27 个信息源抓取 456 条 AI 产业动态，其中 162 条进入当日精选，覆盖 7 个区域。其中有 118 条发布于 24 小时内。其中 102 条是此前未出现过的新增内容，另有 60 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」58 条、「产品与应用」45 条。值得优先关注的几条：「Apple changes full-disk access permissions to curb abuse from AI agents」（Ars Technica AI）、「Muse狂飙，龙虾退潮」（钛媒体）、「Call it AI, call it Super Intelligence, only 2% of consumers are buying it」（TechCrunch AI）。"
+ "overview": "10 月 3 日，共从 27 个信息源抓取 456 条 AI 产业动态，其中 162 条进入当日精选，覆盖 7 个区域。其中有 119 条发布于 24 小时内。其中 118 条是此前未出现过的新增内容，另有 44 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」50 条、「产品与应用」39 条。值得优先关注的几条：「Muse狂飙，龙虾退潮」（钛媒体）、「英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文」（极客公园）、「台积电或与马斯克晶圆厂合作」（36氪）。"
 }
