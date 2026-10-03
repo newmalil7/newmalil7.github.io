@@ -1,0 +1,691 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-03",
+ "generatedAt": "2026-10-03T01:03:46.993Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 456,
+  "published": 162,
+  "newCount": 102,
+  "repeatCount": 60,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 18,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 27,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 118,
+  "withinFresh": 137,
+  "freshHours": 72,
+  "monthPrecision": 16,
+  "undated": 0,
+  "staleDropped": 24,
+  "newestAt": "2026-10-03T09:57:25.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 58
+  },
+  {
+   "name": "产品与应用",
+   "n": 45
+  },
+  {
+   "name": "产业与生态",
+   "n": 25
+  },
+  {
+   "name": "政策与治理",
+   "n": 13
+  },
+  {
+   "name": "算力与基建",
+   "n": 13
+  },
+  {
+   "name": "模型与能力",
+   "n": 12
+  }
+ ],
+ "entities": [
+  {
+   "name": "Meta",
+   "n": 10
+  },
+  {
+   "name": "OpenAI",
+   "n": 9
+  },
+  {
+   "name": "Anthropic",
+   "n": 7
+  },
+  {
+   "name": "Amazon",
+   "n": 7
+  },
+  {
+   "name": "NVIDIA",
+   "n": 6
+  },
+  {
+   "name": "Apple",
+   "n": 4
+  },
+  {
+   "name": "Google",
+   "n": 4
+  },
+  {
+   "name": "华为",
+   "n": 4
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "9fa1745f8495b7fb",
+   "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+   "source": "Ars Technica AI",
+   "region": "NA",
+   "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+   "importance": 97,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-02T23:03:16.000Z",
+   "topics": [
+    "产品与应用",
+    "政策与治理"
+   ],
+   "entities": [
+    "Meta",
+    "Apple"
+   ],
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "id": "95aea923a8d6c1b9",
+   "title": "Muse狂飙，龙虾退潮",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8158280.html",
+   "importance": 97,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-02T09:10:20.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Meta",
+    "阿里巴巴",
+    "腾讯"
+   ],
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "id": "2563cc307052b82b",
+   "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+   "importance": 96,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-02T17:56:00.000Z",
+   "topics": [
+    "资本与市场",
+    "政策与治理"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "Meta"
+   ],
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "id": "91cb24ef65b43c28",
+   "title": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+   "importance": 96,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-02T17:48:16.000Z",
+   "topics": [
+    "资本与市场",
+    "政策与治理"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "Meta"
+   ],
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "id": "90ff25ef5bcb4957",
+   "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+   "importance": 87,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-02T18:11:27.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "Apple"
+   ],
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "id": "cd206ec58a84c489",
+   "title": "Headline closes $400M fund, Oura delays IPO, and Fedorov launches Army of Robots",
+   "source": "Tech.eu",
+   "region": "EU",
+   "url": "https://tech.eu/2026/10/02/headline-closes-400m-fund-oura-delays-ipo-and-fedorov-launches-army-of-robots/",
+   "importance": 85,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-02T14:24:00.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [],
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "id": "03c3a69816d7c769",
+   "title": "Database startup Supabase raises $150M, acquires Turso",
+   "source": "SiliconANGLE",
+   "region": "NA",
+   "url": "https://siliconangle.com/2026/10/02/database-startup-supabase-raises-150m-acquires-turso/",
+   "importance": 84,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-02T22:16:50.000Z",
+   "topics": [
+    "资本与市场",
+    "政策与治理"
+   ],
+   "entities": [],
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  },
+  {
+   "id": "dc9fcc701a0f8313",
+   "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
+   "source": "Ars Technica AI",
+   "region": "NA",
+   "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+   "importance": 84,
+   "difficulty": "高级",
+   "publishedAt": "2026-10-02T20:30:27.000Z",
+   "topics": [
+    "算力与基建",
+    "政策与治理"
+   ],
+   "entities": [
+    "Amazon"
+   ],
+   "firstSeen": "2026-10-03",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "95aea923a8d6c1b9",
+     "title": "Muse狂飙，龙虾退潮",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8158280.html",
+     "importance": 97,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-02T09:10:20.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Meta",
+      "阿里巴巴",
+      "腾讯"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "5286bb3176113c40",
+     "title": "和 Opus 5.5 同题交卷，MiniMax M3.1 让 Flash 开始超纲了",
+     "source": "爱范儿",
+     "region": "CN",
+     "url": "https://www.ifanr.com/1682850?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 79,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-02T06:01:25.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "Anthropic",
+      "MiniMax"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "9473993e53bb382a",
+     "title": "新势力9月洗牌：小鹏小米上4万，鸿蒙理想回落",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8158341.html",
+     "importance": 75,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-02T09:38:22.000Z",
+     "topics": [
+      "产品与应用",
+      "产业与生态"
+     ],
+     "entities": [
+      "华为",
+      "小米"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "d34c2c3cc28f0c59",
+     "title": "Anthropic targets mid-November IPO after delay",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/anthropic-targets-midnovember-ipo-delay",
+     "importance": 82,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-02T01:14:16.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Anthropic",
+      "Google",
+      "Amazon"
+     ],
+     "firstSeen": "2026-10-02",
+     "isNew": false
+    },
+    {
+     "id": "2481494f6045784c",
+     "title": "OpenAI notified 100+ organizations over AI agent activity",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/openai-notified-100-organizations-over-ai-agent-activity",
+     "importance": 81,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T10:00:57.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Hugging Face"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "ce0930f1daf692a7",
+     "title": "Amazon explores $8b Nvidia chip sale to outside investors",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/amazon-explores-8b-nvidia-chip-sale-to-outside-investors",
+     "importance": 81,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T05:11:42.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Amazon",
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "b17215a313ef58e0",
+     "title": "Cisco expands secure AI factory with NVIDIA for the rack-scale era",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/channel/cisco-expands-secure-ai-factory-with-nvidia-for-the-rack-scale-era/",
+     "importance": 74,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T11:47:08.000Z",
+     "topics": [
+      "算力与基建",
+      "政策与治理"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "1aff3188e9df87fc",
+     "title": "Huawei unveils its Mate 90 smartphone series",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/huawei-unveils-its-mate-90-smartphone-series/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T10:36:50.000Z",
+     "topics": [
+      "算力与基建",
+      "资本与市场"
+     ],
+     "entities": [
+      "华为"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "f86c68753c826052",
+     "title": "QBS Technology strengthens cybersecurity ecosystem and partnerships at GISEC Global 2026",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/enterprise/qbs-technology-strengthens-cybersecurity-ecosystem-and-partnerships-at-gisec-global-2026/",
+     "importance": 64,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T11:56:48.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 18,
+   "top": [
+    {
+     "id": "dae788b8a0acf06a",
+     "title": "AIエージェントの導入課題10個を調査データで解説！導入前後の壁と解決策",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/03/278412/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5%25e8%25aa%25b2%25e9%25a1%258c10%25e5%2580%258b%25e3%2582%2592%25e8%25aa%25bf%25e6%259f%25bb%25e3%2583%2587%25e3%2583%25bc%25e3%2582%25bf%25e3%2581%25a7%25e8%25a7%25a3%25e8%25aa%25ac",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T15:29:56.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "1125a37c45b43c1b",
+     "title": "AIエージェントの導入効果とは？8つの効果と企業事例・測り方を解説",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/03/278409/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5%25e5%258a%25b9%25e6%259e%259c%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f8%25e3%2581%25a4%25e3%2581%25ae%25e5%258a%25b9%25e6%259e%259c%25e3%2581%25a8%25e4%25bc%2581%25e6%25a5%25ad",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T15:11:30.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "d6a328199462a4d3",
+     "title": "AI '생각의 사슬' 무력화되나…'순환 깊이' 기술이 부른 불투명성 우려",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=215934",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-03T09:57:25.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-02",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "cd206ec58a84c489",
+     "title": "Headline closes $400M fund, Oura delays IPO, and Fedorov launches Army of Robots",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/02/headline-closes-400m-fund-oura-delays-ipo-and-fedorov-launches-army-of-robots/",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-02T14:24:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "59f25514f9924692",
+     "title": "Swedish fintech Trustly receives $40M equity commitment from key shareholders",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/02/swedish-fintech-receives-40m-equity-commitment-from-key-shareholders/",
+     "importance": 74,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T13:20:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "3c303de8d1656409",
+     "title": "AI study platform StudyStash acquired by Kortext after rapid global expansion",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/02/ai-study-platform-studystash-acquired-by-kortext-after-rapid-global-expansion/",
+     "importance": 69,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T08:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "9fa1745f8495b7fb",
+     "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+     "source": "Ars Technica AI",
+     "region": "NA",
+     "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+     "importance": 97,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-02T23:03:16.000Z",
+     "topics": [
+      "产品与应用",
+      "政策与治理"
+     ],
+     "entities": [
+      "Meta",
+      "Apple"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "2563cc307052b82b",
+     "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+     "importance": 96,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T17:56:00.000Z",
+     "topics": [
+      "资本与市场",
+      "政策与治理"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "Meta"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "91cb24ef65b43c28",
+     "title": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+     "importance": 96,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T17:48:16.000Z",
+     "topics": [
+      "资本与市场",
+      "政策与治理"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "Meta"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "4312f79ff96975d5",
+     "title": "IPO-Bound JSW One’s FY26 Loss Narrows 51% YoY To ₹107 Cr, Revenue Jumps 45%",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/ipo-bound-jsw-ones-fy26-loss-narrows-51-yoy-to-%e2%82%b9107-cr-revenue-jumps-45/",
+     "importance": 82,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T14:02:48.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "67ceb4e5b50fb931",
+     "title": "Inside ixigo’s Full-Stack Model: How Trains, Flights And Buses Are Funding Its Next Bets",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/features/inside-ixigos-full-stack-model-how-trains-flights-and-buses-are-funding-its-next-bets/",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-02T08:17:44.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Meta"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    },
+    {
+     "id": "9e9b95fbe8c6dc1e",
+     "title": "How BorderPlus Is Turning India’s Talent Surplus Into A Global Workforce",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/startups/can-borderplus-is-turning-indias-talent-surplus-into-a-global-workforce/",
+     "importance": 74,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T16:34:44.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 3 日，共从 27 个信息源抓取 456 条 AI 产业动态，其中 162 条进入当日精选，覆盖 7 个区域。其中有 118 条发布于 24 小时内。其中 102 条是此前未出现过的新增内容，另有 60 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」58 条、「产品与应用」45 条。值得优先关注的几条：「Apple changes full-disk access permissions to curb abuse from AI agents」（Ars Technica AI）、「Muse狂飙，龙虾退潮」（钛媒体）、「Call it AI, call it Super Intelligence, only 2% of consumers are buying it」（TechCrunch AI）。"
+}
