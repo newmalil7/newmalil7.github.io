@@ -1,10 +1,10 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-04",
- "generatedAt": "2026-10-04T03:58:08.097Z",
+ "generatedAt": "2026-10-04T05:56:17.034Z",
  "mode": "rule",
  "counts": {
-  "crawled": 452,
+  "crawled": 439,
   "published": 159,
   "newCount": 63,
   "repeatCount": 96,
@@ -17,35 +17,35 @@
    "NA": 24,
    "OTHER": 24
   },
-  "sourceOk": 27,
+  "sourceOk": 26,
   "sourceTotal": 30,
   "regions": 7
  },
  "freshness": {
-  "within24h": 55,
+  "within24h": 56,
   "withinFresh": 129,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
-  "staleDropped": 26,
+  "staleDropped": 24,
   "newestAt": "2026-10-04T11:44:13.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 60
+   "n": 57
   },
   {
    "name": "产品与应用",
-   "n": 46
+   "n": 44
   },
   {
    "name": "产业与生态",
-   "n": 18
+   "n": 20
   },
   {
    "name": "政策与治理",
-   "n": 16
+   "n": 19
   },
   {
    "name": "算力与基建",
@@ -53,91 +53,47 @@
   },
   {
    "name": "模型与能力",
-   "n": 13
+   "n": 11
   }
  ],
  "entities": [
   {
    "name": "OpenAI",
-   "n": 15
-  },
-  {
-   "name": "Meta",
-   "n": 6
-  },
-  {
-   "name": "Amazon",
-   "n": 6
+   "n": 14
   },
   {
    "name": "NVIDIA",
-   "n": 6
+   "n": 7
   },
   {
    "name": "Apple",
    "n": 5
   },
   {
-   "name": "Anthropic",
-   "n": 4
+   "name": "Amazon",
+   "n": 5
+  },
+  {
+   "name": "Meta",
+   "n": 5
   },
   {
    "name": "Google",
    "n": 3
   },
   {
-   "name": "腾讯",
+   "name": "Anthropic",
+   "n": 3
+  },
+  {
+   "name": "Hugging Face",
    "n": 2
   }
  ],
  "topOverall": [
   {
-   "id": "24bcb56295948946",
-   "title": "中国等不来Muse",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8158821.html",
-   "importance": 99,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-04T03:19:38.000Z",
-   "topics": [
-    "产品与应用",
-    "模型与能力"
-   ],
-   "entities": [
-    "Meta",
-    "阿里巴巴",
-    "腾讯",
-    "字节跳动"
-   ],
-   "firstSeen": "2026-10-04",
-   "isNew": true
-  },
-  {
-   "id": "e4a1e75900dc328f",
-   "title": "【数智周报】中国大模型首次进入OpenAI企业付费结算体系；AMD斥资82亿美元收购李飞飞世界模型公司；Anthropic上市文件披露对亚马逊、谷歌依赖加深，2025年营收近46亿美元……",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8158700.html",
-   "importance": 98,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-04T03:16:19.000Z",
-   "topics": [
-    "模型与能力",
-    "资本与市场"
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic",
-    "Amazon",
-    "AMD"
-   ],
-   "firstSeen": "2026-10-04",
-   "isNew": true
-  },
-  {
-   "id": "e514ddc79e0f686d",
-   "title": "OpenAI safety employee resigns over company culture concerns",
+   "id": "0266a8e0817b8420",
+   "title": "OpenAI safety lead resigns, calling company culture broken",
    "source": "Tech in Asia",
    "region": "SEA",
    "url": "https://www.techinasia.com/news/openai-safety-employee-resigns-company-culture-concerns",
@@ -170,25 +126,6 @@
    "entities": [
     "Google",
     "Apple"
-   ],
-   "firstSeen": "2026-10-04",
-   "isNew": true
-  },
-  {
-   "id": "1de71b00c9e8bc72",
-   "title": "李飞飞不等了",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8158797.html",
-   "importance": 86,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-04T00:38:00.000Z",
-   "topics": [
-    "资本与市场",
-    "模型与能力"
-   ],
-   "entities": [
-    "AMD"
    ],
    "firstSeen": "2026-10-04",
    "isNew": true
@@ -231,19 +168,72 @@
    "isNew": true
   },
   {
-   "id": "932d761bc6b72ae9",
-   "title": "女掌门人带队，3年吸金21亿，河南爆火景区要IPO了",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8158804.html",
+   "id": "2b08ccf67e1a38a4",
+   "title": "Mapping SEA’s leading cleantech players",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/visual-story/mapping-sea-cleantech",
    "importance": 81,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-04T00:00:00.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [],
+   "firstSeen": "2026-10-04",
+   "isNew": true
+  },
+  {
+   "id": "719f3e09a46d883a",
+   "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+   "importance": 80,
    "difficulty": "进阶",
-   "publishedAt": "2026-10-04T03:19:36.000Z",
+   "publishedAt": "2026-10-03T18:43:57.000Z",
+   "topics": [
+    "算力与基建",
+    "政策与治理"
+   ],
+   "entities": [
+    "Amazon"
+   ],
+   "firstSeen": "2026-10-04",
+   "isNew": true
+  },
+  {
+   "id": "b4a1480722d41bc1",
+   "title": "IPO-Bound Kuku Technologies Turns Profitable In FY26, Revenue Surges 6X To ₹1,484 Cr",
+   "source": "Inc42",
+   "region": "OTHER",
+   "url": "https://inc42.com/buzz/ipo-bound-kuku-technologies-turns-profitable-in-fy26-revenue-surges-6x-to-%e2%82%b91484-cr/",
+   "importance": 80,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-03T14:32:16.000Z",
    "topics": [
     "资本与市场",
     "产品与应用"
    ],
    "entities": [],
+   "firstSeen": "2026-10-04",
+   "isNew": true
+  },
+  {
+   "id": "237748bcd95c894e",
+   "title": "AceVector IPO: SoftBank Pockets ₹88 Cr, Most Selling Shareholders Book Losses",
+   "source": "Inc42",
+   "region": "OTHER",
+   "url": "https://inc42.com/buzz/acevector-ipo-softbank-to-pocket-%e2%82%b988-cr-individual-investors-book-up-to-5-4x-return/",
+   "importance": 79,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-03T06:19:44.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "软银"
+   ],
    "firstSeen": "2026-10-04",
    "isNew": true
   }
@@ -257,64 +247,54 @@
    "count": 24,
    "top": [
     {
-     "id": "24bcb56295948946",
-     "title": "中国等不来Muse",
-     "source": "钛媒体",
+     "id": "5e3241f8db79f3f7",
+     "title": "OpenAI安全部门员工辞职",
+     "source": "36氪",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8158821.html",
-     "importance": 99,
+     "url": "https://36kr.com/newsflashes/4010972834598793?f=rss",
+     "importance": 82,
      "difficulty": "入门",
-     "publishedAt": "2026-10-04T03:19:38.000Z",
+     "publishedAt": "2026-10-04T03:44:18.000Z",
      "topics": [
       "产品与应用",
-      "模型与能力"
+      "政策与治理"
      ],
      "entities": [
-      "Meta",
-      "阿里巴巴",
-      "腾讯",
-      "字节跳动"
+      "OpenAI"
      ],
      "firstSeen": "2026-10-04",
      "isNew": true
     },
     {
-     "id": "e4a1e75900dc328f",
-     "title": "【数智周报】中国大模型首次进入OpenAI企业付费结算体系；AMD斥资82亿美元收购李飞飞世界模型公司；Anthropic上市文件披露对亚马逊、谷歌依赖加深，2025年营收近46亿美元……",
-     "source": "钛媒体",
+     "id": "fa3d083b469fa879",
+     "title": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+     "source": "InfoQ 中国",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8158700.html",
-     "importance": 98,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-04T03:16:19.000Z",
+     "url": "https://www.infoq.cn/article/M4mgbKf4RDv5AKTwQvFH?utm_source=rss&utm_medium=article",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-04T10:00:00.000Z",
      "topics": [
-      "模型与能力",
-      "资本与市场"
+      "产品与应用"
      ],
-     "entities": [
-      "OpenAI",
-      "Anthropic",
-      "Amazon",
-      "AMD"
-     ],
+     "entities": [],
      "firstSeen": "2026-10-04",
      "isNew": true
     },
     {
-     "id": "1de71b00c9e8bc72",
-     "title": "李飞飞不等了",
-     "source": "钛媒体",
+     "id": "c7828bfed35ef0b5",
+     "title": "苹果确认美版 iPhone 18 Pro Max 有问题；OpenAI 每天烧超 50 万美元查 AI 入侵事故；求职者吐槽 AI 面试「恐怖谷」上热搜｜极客早知道",
+     "source": "极客公园",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8158797.html",
-     "importance": 86,
+     "url": "http://www.geekpark.net/news/372073",
+     "importance": 78,
      "difficulty": "入门",
-     "publishedAt": "2026-10-04T00:38:00.000Z",
+     "publishedAt": "2026-10-04T00:33:38.000Z",
      "topics": [
-      "资本与市场",
-      "模型与能力"
+      "产品与应用"
      ],
      "entities": [
-      "AMD"
+      "OpenAI"
      ],
      "firstSeen": "2026-10-04",
      "isNew": true
@@ -329,8 +309,8 @@
    "count": 24,
    "top": [
     {
-     "id": "e514ddc79e0f686d",
-     "title": "OpenAI safety employee resigns over company culture concerns",
+     "id": "0266a8e0817b8420",
+     "title": "OpenAI safety lead resigns, calling company culture broken",
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/openai-safety-employee-resigns-company-culture-concerns",
@@ -596,7 +576,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-     "importance": 80,
+     "importance": 75,
      "difficulty": "进阶",
      "publishedAt": "2026-10-03T16:30:01.000Z",
      "topics": [
@@ -690,5 +670,5 @@
    ]
   }
  ],
- "overview": "10 月 4 日，共从 27 个信息源抓取 452 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 55 条发布于 24 小时内。其中 63 条是此前未出现过的新增内容，另有 96 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」60 条、「产品与应用」46 条。值得优先关注的几条：「中国等不来Muse」（钛媒体）、「【数智周报】中国大模型首次进入OpenAI企业付费结算体系；AMD斥资82亿美元收购李飞飞世界模型公司；Anthropic上市文件披露对亚马逊、谷歌依赖加深，2025年营收近46亿美元……」（钛媒体）、「李飞飞不等了」（钛媒体）。"
+ "overview": "10 月 4 日，共从 26 个信息源抓取 439 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 56 条发布于 24 小时内。其中 63 条是此前未出现过的新增内容，另有 96 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」57 条、「产品与应用」44 条。值得优先关注的几条：「OpenAI safety lead resigns, calling company culture broken」（Tech in Asia）、「Jack Dorsey’s Bitchat Goes Offline In India, Apple Cites MeitY Order」（Inc42）、「OpenAI安全部门员工辞职」（36氪）。"
 }
