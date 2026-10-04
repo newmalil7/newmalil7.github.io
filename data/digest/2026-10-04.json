@@ -1,0 +1,694 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-04",
+ "generatedAt": "2026-10-04T03:58:08.097Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 452,
+  "published": 159,
+  "newCount": 63,
+  "repeatCount": 96,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 15,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 27,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 55,
+  "withinFresh": 129,
+  "freshHours": 72,
+  "monthPrecision": 20,
+  "undated": 0,
+  "staleDropped": 26,
+  "newestAt": "2026-10-04T11:44:13.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 60
+  },
+  {
+   "name": "产品与应用",
+   "n": 46
+  },
+  {
+   "name": "产业与生态",
+   "n": 18
+  },
+  {
+   "name": "政策与治理",
+   "n": 16
+  },
+  {
+   "name": "算力与基建",
+   "n": 16
+  },
+  {
+   "name": "模型与能力",
+   "n": 13
+  }
+ ],
+ "entities": [
+  {
+   "name": "OpenAI",
+   "n": 15
+  },
+  {
+   "name": "Meta",
+   "n": 6
+  },
+  {
+   "name": "Amazon",
+   "n": 6
+  },
+  {
+   "name": "NVIDIA",
+   "n": 6
+  },
+  {
+   "name": "Apple",
+   "n": 5
+  },
+  {
+   "name": "Anthropic",
+   "n": 4
+  },
+  {
+   "name": "Google",
+   "n": 3
+  },
+  {
+   "name": "腾讯",
+   "n": 2
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "24bcb56295948946",
+   "title": "中国等不来Muse",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8158821.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-04T03:19:38.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "Meta",
+    "阿里巴巴",
+    "腾讯",
+    "字节跳动"
+   ],
+   "firstSeen": "2026-10-04",
+   "isNew": true
+  },
+  {
+   "id": "e4a1e75900dc328f",
+   "title": "【数智周报】中国大模型首次进入OpenAI企业付费结算体系；AMD斥资82亿美元收购李飞飞世界模型公司；Anthropic上市文件披露对亚马逊、谷歌依赖加深，2025年营收近46亿美元……",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8158700.html",
+   "importance": 98,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-04T03:16:19.000Z",
+   "topics": [
+    "模型与能力",
+    "资本与市场"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "Amazon",
+    "AMD"
+   ],
+   "firstSeen": "2026-10-04",
+   "isNew": true
+  },
+  {
+   "id": "e514ddc79e0f686d",
+   "title": "OpenAI safety employee resigns over company culture concerns",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/openai-safety-employee-resigns-company-culture-concerns",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-04T00:39:10.000Z",
+   "topics": [
+    "产品与应用",
+    "政策与治理"
+   ],
+   "entities": [
+    "OpenAI",
+    "Hugging Face"
+   ],
+   "firstSeen": "2026-10-04",
+   "isNew": true
+  },
+  {
+   "id": "2fbef2e733d97a0e",
+   "title": "Jack Dorsey’s Bitchat Goes Offline In India, Apple Cites MeitY Order",
+   "source": "Inc42",
+   "region": "OTHER",
+   "url": "https://inc42.com/buzz/jack-dorseys-bitchat-goes-offline-in-india-apple-cites-meity-order/",
+   "importance": 89,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-03T19:35:25.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "Google",
+    "Apple"
+   ],
+   "firstSeen": "2026-10-04",
+   "isNew": true
+  },
+  {
+   "id": "1de71b00c9e8bc72",
+   "title": "李飞飞不等了",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8158797.html",
+   "importance": 86,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-04T00:38:00.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "AMD"
+   ],
+   "firstSeen": "2026-10-04",
+   "isNew": true
+  },
+  {
+   "id": "5e3241f8db79f3f7",
+   "title": "OpenAI安全部门员工辞职",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4010972834598793?f=rss",
+   "importance": 82,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-04T03:44:18.000Z",
+   "topics": [
+    "产品与应用",
+    "政策与治理"
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "firstSeen": "2026-10-04",
+   "isNew": true
+  },
+  {
+   "id": "4a2d3a371afddc8e",
+   "title": "NSW National Parks web app accessed by OpenAI agent",
+   "source": "iTnews Australia",
+   "region": "OTHER",
+   "url": "https://www.itnews.com.au/news/nsw-national-parks-web-app-accessed-by-openai-agent-629402?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+   "importance": 82,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-04T02:11:00.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "firstSeen": "2026-10-04",
+   "isNew": true
+  },
+  {
+   "id": "932d761bc6b72ae9",
+   "title": "女掌门人带队，3年吸金21亿，河南爆火景区要IPO了",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8158804.html",
+   "importance": 81,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-04T03:19:36.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [],
+   "firstSeen": "2026-10-04",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "24bcb56295948946",
+     "title": "中国等不来Muse",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8158821.html",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-04T03:19:38.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "Meta",
+      "阿里巴巴",
+      "腾讯",
+      "字节跳动"
+     ],
+     "firstSeen": "2026-10-04",
+     "isNew": true
+    },
+    {
+     "id": "e4a1e75900dc328f",
+     "title": "【数智周报】中国大模型首次进入OpenAI企业付费结算体系；AMD斥资82亿美元收购李飞飞世界模型公司；Anthropic上市文件披露对亚马逊、谷歌依赖加深，2025年营收近46亿美元……",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8158700.html",
+     "importance": 98,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-04T03:16:19.000Z",
+     "topics": [
+      "模型与能力",
+      "资本与市场"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "Amazon",
+      "AMD"
+     ],
+     "firstSeen": "2026-10-04",
+     "isNew": true
+    },
+    {
+     "id": "1de71b00c9e8bc72",
+     "title": "李飞飞不等了",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8158797.html",
+     "importance": 86,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-04T00:38:00.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "AMD"
+     ],
+     "firstSeen": "2026-10-04",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "e514ddc79e0f686d",
+     "title": "OpenAI safety employee resigns over company culture concerns",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/openai-safety-employee-resigns-company-culture-concerns",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-04T00:39:10.000Z",
+     "topics": [
+      "产品与应用",
+      "政策与治理"
+     ],
+     "entities": [
+      "OpenAI",
+      "Hugging Face"
+     ],
+     "firstSeen": "2026-10-04",
+     "isNew": true
+    },
+    {
+     "id": "2b08ccf67e1a38a4",
+     "title": "Mapping SEA’s leading cleantech players",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/visual-story/mapping-sea-cleantech",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-04T00:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-04",
+     "isNew": true
+    },
+    {
+     "id": "b5ffc0a79d5720d4",
+     "title": "Apple to tighten Full Disk Access rules for Mac apps",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/apple-tighten-mac-data-access-meta-muse-backlash",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-03T06:34:13.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Apple"
+     ],
+     "firstSeen": "2026-10-04",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "3f105720a885bc49",
+     "title": "Tanami raises new funding to expand into Qatar",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/09/tanami-raises-new-funding-expand-qatar",
+     "importance": 58,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": false
+    },
+    {
+     "id": "a431428229916443",
+     "title": "Qatar’s Aligator raises $1.2 million seed round",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/09/qatar-aligator-raises-1-2-million-seed-round",
+     "importance": 56,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": false
+    },
+    {
+     "id": "cfc97320b09a9b2a",
+     "title": "Saudi fintech erad raises $22 million Series A led by MEVP",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/09/saudi-fintech-erad-raises-22-million-series-led-mevp",
+     "importance": 56,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 15,
+   "top": [
+    {
+     "id": "dbdcd7abbd347b21",
+     "title": "오픈AI 내부 모델, 종료 일정 알아채고 '생존 조치' 모색",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=215950",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-04T11:44:13.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": false
+    },
+    {
+     "id": "b7560fd4dd6ced8a",
+     "title": "AIエージェントでスケジュール管理を自動化する方法とおすすめツール9選",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/09/28/278395/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a7%25e3%2582%25b9%25e3%2582%25b1%25e3%2582%25b8%25e3%2583%25a5%25e3%2583%25bc%25e3%2583%25ab%25e7%25ae%25a1%25e7%2590%2586%25e3%2582%2592%25e8%2587%25aa%25e5%258b%2595%25e5%258c%2596%25e3%2581%2599%25e3%2582%258b%25e6%2596%25b9",
+     "importance": 38,
+     "difficulty": "进阶",
+     "publishedAt": "2026-09-28T13:49:18.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "Google",
+      "Microsoft"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": false
+    },
+    {
+     "id": "dae788b8a0acf06a",
+     "title": "AIエージェントの導入課題10個を調査データで解説！導入前後の壁と解決策",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/03/278412/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5%25e8%25aa%25b2%25e9%25a1%258c10%25e5%2580%258b%25e3%2582%2592%25e8%25aa%25bf%25e6%259f%25bb%25e3%2583%2587%25e3%2583%25bc%25e3%2582%25bf%25e3%2581%25a7%25e8%25a7%25a3%25e8%25aa%25ac",
+     "importance": 33,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-02T15:29:56.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "cd206ec58a84c489",
+     "title": "Headline closes $400M fund, Oura delays IPO, and Fedorov launches Army of Robots",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/02/headline-closes-400m-fund-oura-delays-ipo-and-fedorov-launches-army-of-robots/",
+     "importance": 56,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-02T14:24:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": false
+    },
+    {
+     "id": "f94021e8060144b1",
+     "title": "Hostile threat warning startup Osavul raises €8.5M",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/01/hostile-threat-warning-startup-osavul-raises-8-5m/",
+     "importance": 50,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T09:20:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-03",
+     "isNew": false
+    },
+    {
+     "id": "10ab27983ef17fe2",
+     "title": "Mistral and Black Forest Labs backer Headline closes $400M European fund",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/01/mistral-and-black-forest-labs-backer-headline-closes-400m-european-fund/",
+     "importance": 49,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-01T08:28:45.000Z",
+     "topics": [
+      "产业与生态",
+      "资本与市场"
+     ],
+     "entities": [
+      "Mistral AI"
+     ],
+     "firstSeen": "2026-10-03",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "719f3e09a46d883a",
+     "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+     "importance": 80,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-03T18:43:57.000Z",
+     "topics": [
+      "算力与基建",
+      "政策与治理"
+     ],
+     "entities": [
+      "Amazon"
+     ],
+     "firstSeen": "2026-10-04",
+     "isNew": true
+    },
+    {
+     "id": "3b4e0f4a87c2ce51",
+     "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+     "importance": 80,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-03T16:30:01.000Z",
+     "topics": [
+      "政策与治理"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-10-04",
+     "isNew": true
+    },
+    {
+     "id": "b675f5dcfe8fe2c0",
+     "title": "All the AI agents that can live in your text messages",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+     "importance": 73,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-03T14:00:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-04",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "2fbef2e733d97a0e",
+     "title": "Jack Dorsey’s Bitchat Goes Offline In India, Apple Cites MeitY Order",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/jack-dorseys-bitchat-goes-offline-in-india-apple-cites-meity-order/",
+     "importance": 89,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-03T19:35:25.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Google",
+      "Apple"
+     ],
+     "firstSeen": "2026-10-04",
+     "isNew": true
+    },
+    {
+     "id": "4a2d3a371afddc8e",
+     "title": "NSW National Parks web app accessed by OpenAI agent",
+     "source": "iTnews Australia",
+     "region": "OTHER",
+     "url": "https://www.itnews.com.au/news/nsw-national-parks-web-app-accessed-by-openai-agent-629402?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+     "importance": 82,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-04T02:11:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-10-04",
+     "isNew": true
+    },
+    {
+     "id": "b4a1480722d41bc1",
+     "title": "IPO-Bound Kuku Technologies Turns Profitable In FY26, Revenue Surges 6X To ₹1,484 Cr",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/ipo-bound-kuku-technologies-turns-profitable-in-fy26-revenue-surges-6x-to-%e2%82%b91484-cr/",
+     "importance": 80,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-03T14:32:16.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-04",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 4 日，共从 27 个信息源抓取 452 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 55 条发布于 24 小时内。其中 63 条是此前未出现过的新增内容，另有 96 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」60 条、「产品与应用」46 条。值得优先关注的几条：「中国等不来Muse」（钛媒体）、「【数智周报】中国大模型首次进入OpenAI企业付费结算体系；AMD斥资82亿美元收购李飞飞世界模型公司；Anthropic上市文件披露对亚马逊、谷歌依赖加深，2025年营收近46亿美元……」（钛媒体）、「李飞飞不等了」（钛媒体）。"
+}
