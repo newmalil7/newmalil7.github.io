@@ -1,0 +1,667 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-06",
+ "generatedAt": "2026-10-06T01:05:11.113Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 443,
+  "published": 156,
+  "newCount": 117,
+  "repeatCount": 39,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 12,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 27,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 125,
+  "withinFresh": 127,
+  "freshHours": 72,
+  "monthPrecision": 16,
+  "undated": 0,
+  "staleDropped": 38,
+  "newestAt": "2026-10-06T01:01:18.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 56
+  },
+  {
+   "name": "产品与应用",
+   "n": 42
+  },
+  {
+   "name": "产业与生态",
+   "n": 23
+  },
+  {
+   "name": "算力与基建",
+   "n": 17
+  },
+  {
+   "name": "政策与治理",
+   "n": 15
+  },
+  {
+   "name": "模型与能力",
+   "n": 12
+  }
+ ],
+ "entities": [
+  {
+   "name": "OpenAI",
+   "n": 12
+  },
+  {
+   "name": "NVIDIA",
+   "n": 5
+  },
+  {
+   "name": "Apple",
+   "n": 4
+  },
+  {
+   "name": "Google",
+   "n": 4
+  },
+  {
+   "name": "华为",
+   "n": 3
+  },
+  {
+   "name": "Meta",
+   "n": 3
+  },
+  {
+   "name": "阿里巴巴",
+   "n": 2
+  },
+  {
+   "name": "CoreWeave",
+   "n": 2
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "9b36168282f4e638",
+   "title": "机房紧缺，资本反而开始“挑剔”数据中心？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8159481.html",
+   "importance": 94,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-05T07:43:00.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "OpenAI",
+    "软银",
+    "Oracle"
+   ],
+   "firstSeen": "2026-10-06",
+   "isNew": true
+  },
+  {
+   "id": "03f37dfc52d5a6e6",
+   "title": "OpenAI launches visual ads that appear alongside image generation results",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+   "importance": 91,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-05T15:14:24.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "firstSeen": "2026-10-06",
+   "isNew": true
+  },
+  {
+   "id": "6b5809867e3691ba",
+   "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+   "importance": 89,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-05T18:29:00.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [],
+   "firstSeen": "2026-10-06",
+   "isNew": true
+  },
+  {
+   "id": "08198ee7fe4ae16a",
+   "title": "快手的视频Agent，会不会来晚了？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8159522.html",
+   "importance": 89,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-05T09:36:30.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "字节跳动",
+    "MiniMax"
+   ],
+   "firstSeen": "2026-10-06",
+   "isNew": true
+  },
+  {
+   "id": "37aba713598bbb17",
+   "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-05T20:36:48.000Z",
+   "topics": [
+    "政策与治理"
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "firstSeen": "2026-10-06",
+   "isNew": true
+  },
+  {
+   "id": "7da82ba533cd7df6",
+   "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+   "importance": 88,
+   "difficulty": "高级",
+   "publishedAt": "2026-10-05T19:33:53.000Z",
+   "topics": [
+    "算力与基建",
+    "模型与能力"
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-10-06",
+   "isNew": true
+  },
+  {
+   "id": "3c5e240aa16f9147",
+   "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
+   "source": "Ars Technica AI",
+   "region": "NA",
+   "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+   "importance": 87,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-05T19:14:44.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "Apple"
+   ],
+   "firstSeen": "2026-10-06",
+   "isNew": true
+  },
+  {
+   "id": "b8cdd7f3d955eab1",
+   "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+   "importance": 86,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-05T14:35:09.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯"
+   ],
+   "firstSeen": "2026-10-06",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "9b36168282f4e638",
+     "title": "机房紧缺，资本反而开始“挑剔”数据中心？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8159481.html",
+     "importance": 94,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-05T07:43:00.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "OpenAI",
+      "软银",
+      "Oracle"
+     ],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "08198ee7fe4ae16a",
+     "title": "快手的视频Agent，会不会来晚了？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8159522.html",
+     "importance": 89,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-05T09:36:30.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "阿里巴巴",
+      "字节跳动",
+      "MiniMax"
+     ],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "222ca67988a3aac7",
+     "title": "全球IPO市场透视：融资盛宴与破发寒流并存的第三季",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8159361.html",
+     "importance": 79,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-05T06:27:09.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "ae36bb31e48828fa",
+     "title": "Singapore data center operator DayOne files for IPO",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/singapore-data-center-operator-dayone-files-ipo",
+     "importance": 82,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-06T00:43:33.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "05f852f43474ee28",
+     "title": "GCash gets reality check with IPO",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/gcash-gets-reality-check-with-ipo",
+     "importance": 82,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-06T00:30:10.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "297840cd4db22ffa",
+     "title": "Kraken parent Payward integrates Singapore Gulf Bank network",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/kraken-parent-payward-integrates-singapore-gulf-bank-network",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-06T00:58:21.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "3f11a666a9f5b429",
+     "title": "Deriv and BITS Pilani Dubai Campus sign MoU to strengthen AI and talent partnership",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/news/deriv-and-bits-pilani-dubai-campus-sign-mou-to-strengthen-ai-and-talent-partnership/",
+     "importance": 73,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-05T14:16:48.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "8f3995ac7280a50d",
+     "title": "Saudi Project Suppliers raises $1 million pre-seed",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/saudi-project-suppliers-raises-1-million-pre-seed",
+     "importance": 68,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "91f924cdb41a799e",
+     "title": "Core42 launches a partner program to expand sovereign enabled cloud and AI choice in the UAE",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/enterprise/core42-launches-a-partner-program-to-expand-sovereign-enabled-cloud-and-ai-choice-in-the-uae/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-05T12:10:53.000Z",
+     "topics": [
+      "算力与基建",
+      "产品与应用"
+     ],
+     "entities": [
+      "G42"
+     ],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 12,
+   "top": [
+    {
+     "id": "9d540d3b7fa501ad",
+     "title": "이제 AI에게 내 생각도 들키나…AI ‘마음 읽기’ 기술 개발돼",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%eb%87%8c-%ec%8a%a4%ec%ba%94%eb%a7%8c%ec%9c%bc%eb%a1%9c-%ec%82%ac%eb%9e%8c%ec%9d%b4-%eb%b3%b8-%ec%9d%b4%eb%af%b8%ec%a7%80-%ec%9e%ac%ea%b5%ac%ec%84%b1-ai-%eb%a7%88%ec%9d%8c-%ec%9d%bd%ea%b8%b0/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-05T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "b56c254122d4be13",
+     "title": "클로드, 3개월 간 논문 36편 작성…새로운 'AI 과학 연구법' 조명",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=215979",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-05T20:48:07.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-05",
+     "isNew": false
+    },
+    {
+     "id": "beccd6175f606288",
+     "title": "잇단 AI 해킹에 입 연 오픈AI… “AI 위험은 통제할 수 있다”",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ec%9e%87%eb%8b%a8-ai-%ed%95%b4%ed%82%b9%ec%97%90-%ec%9e%85-%ec%97%b0-%ec%98%a4%ed%94%88ai-ai-%ec%9c%84%ed%97%98%ec%9d%80-%ed%86%b5%ec%a0%9c%ed%95%a0-%ec%88%98-%ec%9e%88%eb%8b%a4/",
+     "importance": 57,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-05T04:38:56.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "b864812ee0375ecf",
+     "title": "Namespace raises $42M Series B, seven months after Series A",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/05/namespace-raises-42m-ssries-b-seven-months-after-series-a/",
+     "importance": 80,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-05T13:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "61e20c3fa0d7aa05",
+     "title": "Buntar Aerospace raises $16M to scale Ukrainian defence autonomy",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/05/buntar-aerospace-raises-16m-to-scale-ukrainian-defence-autonomy/",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-05T12:00:14.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "53eb28d44d40095b",
+     "title": "Fleuret AI raises €4M to advance AI-powered offensive cybersecurity in Europe",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/05/fleuret-ai-raises-eur4m-to-advance-ai-powered-offensive-cybersecurity-in-europe/",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-05T08:50:56.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "03f37dfc52d5a6e6",
+     "title": "OpenAI launches visual ads that appear alongside image generation results",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+     "importance": 91,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-05T15:14:24.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "6b5809867e3691ba",
+     "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+     "importance": 89,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-05T18:29:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "37aba713598bbb17",
+     "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-05T20:36:48.000Z",
+     "topics": [
+      "政策与治理"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "ceb9269ac555dc25",
+     "title": "Exclusive: Leverage Edu Eyes ₹500 Cr Pre-IPO Funding, Targets ₹600 Cr Revenue In FY27",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/exclusive-leverage-edu-eyes-%e2%82%b9500-cr-pre-ipo-funding-targets-%e2%82%b9600-cr-revenue-in-fy27/",
+     "importance": 84,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-05T07:53:06.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "bc03d6ae0d78efd2",
+     "title": "Razorpay Partners With OpenAI To Help Indian Brands Advertise On ChatGPT",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/razorpay-partners-with-openai-to-help-indian-brands-advertise-on-chatgpt/",
+     "importance": 82,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-05T11:35:44.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    },
+    {
+     "id": "707a65fe2dfcdf48",
+     "title": "OpenAI’s Sam Altman says a little bit of bad is the price you pay for good AI",
+     "source": "Startup Daily",
+     "region": "OTHER",
+     "url": "https://www.startupdaily.net/topic/artificial-intelligence-machine-learning/openais-sam-altman-says-a-little-bit-of-bad-is-the-price-you-pay-for-good-ai/",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-06T00:10:04.000Z",
+     "topics": [
+      "政策与治理"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-10-06",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 6 日，共从 27 个信息源抓取 443 条 AI 产业动态，其中 156 条进入当日精选，覆盖 7 个区域。其中有 125 条发布于 24 小时内。其中 117 条是此前未出现过的新增内容，另有 39 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」56 条、「产品与应用」42 条。值得优先关注的几条：「机房紧缺，资本反而开始“挑剔”数据中心？」（钛媒体）、「快手的视频Agent，会不会来晚了？」（钛媒体）。"
+}
