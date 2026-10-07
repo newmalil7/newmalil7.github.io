@@ -1,0 +1,687 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-07",
+ "generatedAt": "2026-10-07T01:07:20.318Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 430,
+  "published": 158,
+  "newCount": 129,
+  "repeatCount": 29,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 14,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 27,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 132,
+  "withinFresh": 134,
+  "freshHours": 72,
+  "monthPrecision": 17,
+  "undated": 0,
+  "staleDropped": 49,
+  "newestAt": "2026-10-07T09:00:00.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 58
+  },
+  {
+   "name": "产品与应用",
+   "n": 46
+  },
+  {
+   "name": "产业与生态",
+   "n": 27
+  },
+  {
+   "name": "模型与能力",
+   "n": 19
+  },
+  {
+   "name": "政策与治理",
+   "n": 16
+  },
+  {
+   "name": "算力与基建",
+   "n": 14
+  }
+ ],
+ "entities": [
+  {
+   "name": "OpenAI",
+   "n": 15
+  },
+  {
+   "name": "Meta",
+   "n": 5
+  },
+  {
+   "name": "NVIDIA",
+   "n": 5
+  },
+  {
+   "name": "月之暗面",
+   "n": 4
+  },
+  {
+   "name": "AMD",
+   "n": 4
+  },
+  {
+   "name": "Anthropic",
+   "n": 4
+  },
+  {
+   "name": "Mistral AI",
+   "n": 4
+  },
+  {
+   "name": "SAP",
+   "n": 3
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "db440a616d6b709f",
+   "title": "派拉蒙 1100 亿美元收购时代华纳，好莱坞诞生新巨无霸；月之暗面被曝完成 500 亿美元 PreIPO 融资；微软、Meta 被曝要求员工减少使用 Claude",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/372089",
+   "importance": 98,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-07T00:39:21.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "Meta",
+    "NVIDIA",
+    "月之暗面"
+   ],
+   "firstSeen": "2026-10-07",
+   "isNew": true
+  },
+  {
+   "id": "f491ee63e7cf2ade",
+   "title": "DeepSeek被爆最新融资800亿，正为冲击IPO做准备",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8159961.html",
+   "importance": 93,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-06T13:10:48.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "腾讯",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-07",
+   "isNew": true
+  },
+  {
+   "id": "4cb4f6da7a2c617f",
+   "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+   "importance": 92,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-06T20:00:30.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-10-07",
+   "isNew": true
+  },
+  {
+   "id": "75c745baeaec8f82",
+   "title": "OKX raised more funding at $25b valuation",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/okx-raised-funding-25b-valuation",
+   "importance": 91,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-07T00:34:40.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "Arm"
+   ],
+   "firstSeen": "2026-10-07",
+   "isNew": true
+  },
+  {
+   "id": "825b8f0c70ab952e",
+   "title": "Samsung Q3 profit seen up nearly 9x on AI chip demand",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/samsung-q3-profit-9x-ai-chip-demand",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-07T00:51:00.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "三星",
+    "SK 海力士"
+   ],
+   "firstSeen": "2026-10-07",
+   "isNew": true
+  },
+  {
+   "id": "caeba42a0513a5d6",
+   "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+   "source": "Ars Technica AI",
+   "region": "NA",
+   "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+   "importance": 87,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-06T20:50:32.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "firstSeen": "2026-10-07",
+   "isNew": true
+  },
+  {
+   "id": "39b4aca9022cbec8",
+   "title": "Vinci reels in $250M for its engineering simulation platform",
+   "source": "SiliconANGLE",
+   "region": "NA",
+   "url": "https://siliconangle.com/2026/10/06/vinci-reels-in-250m-for-its-engineering-simulation-platform/",
+   "importance": 86,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-06T22:18:27.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "AMD"
+   ],
+   "firstSeen": "2026-10-07",
+   "isNew": true
+  },
+  {
+   "id": "3ff17bb0095baef6",
+   "title": "Meta teams up with Bret Taylor’s Sierra Technologies on new standards for AI agent commerce",
+   "source": "SiliconANGLE",
+   "region": "NA",
+   "url": "https://siliconangle.com/2026/10/06/meta-teams-up-with-bret-taylors-sierra-technologies-on-new-standards-for-ai-agent-commerce/",
+   "importance": 85,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-07T00:54:21.000Z",
+   "topics": [
+    "政策与治理",
+    "产品与应用"
+   ],
+   "entities": [
+    "Meta",
+    "Salesforce"
+   ],
+   "firstSeen": "2026-10-07",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "db440a616d6b709f",
+     "title": "派拉蒙 1100 亿美元收购时代华纳，好莱坞诞生新巨无霸；月之暗面被曝完成 500 亿美元 PreIPO 融资；微软、Meta 被曝要求员工减少使用 Claude",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/372089",
+     "importance": 98,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-07T00:39:21.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "Meta",
+      "NVIDIA",
+      "月之暗面"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "f491ee63e7cf2ade",
+     "title": "DeepSeek被爆最新融资800亿，正为冲击IPO做准备",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8159961.html",
+     "importance": 93,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-06T13:10:48.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "腾讯",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "e1004d34998cfcdd",
+     "title": "软银支持的DayOne数据中心拟在美国IPO募资至多50亿美元",
+     "source": "36氪",
+     "region": "CN",
+     "url": "https://36kr.com/newsflashes/4014060799955080?f=rss",
+     "importance": 82,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-06T07:52:31.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "软银"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "75c745baeaec8f82",
+     "title": "OKX raised more funding at $25b valuation",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/okx-raised-funding-25b-valuation",
+     "importance": 91,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-07T00:34:40.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "825b8f0c70ab952e",
+     "title": "Samsung Q3 profit seen up nearly 9x on AI chip demand",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/samsung-q3-profit-9x-ai-chip-demand",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-07T00:51:00.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "三星",
+      "SK 海力士"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "d1a69487c623a7b3",
+     "title": "OpenAI, Atlassian expand partnership with GPT-6",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/openai-atlassian-expand-partnership-gpt6",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-07T00:36:11.000Z",
+     "topics": [
+      "模型与能力",
+      "产业与生态"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "aaae2603e8ee0581",
+     "title": "Huawei and Qualcomm reach patent licensing deal",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/huawei-and-qualcomm-reach-patent-licensing-deal/",
+     "importance": 72,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-06T06:35:33.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "华为",
+      "高通"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "1ed98e0024c47899",
+     "title": "ASUS advances practical enterprise AI adoption",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/features/asus-advances-practical-enterprise-ai-adoption/",
+     "importance": 63,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-06T12:31:21.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "aac8da55b56ffb55",
+     "title": "NetApp to showcase AI-ready data infrastructure as CEO George Kurian takes the stage at Ai Everything Abu Dhabi 2026",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/news/netapp-to-showcase-ai-ready-data-infrastructure-as-ceo-george-kurian-takes-the-stage-at-ai-everything-abu-dhabi-2026/",
+     "importance": 63,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-06T06:05:03.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 14,
+   "top": [
+    {
+     "id": "ff6908139beda6f8",
+     "title": "AIエージェント導入支援とは？支援内容・費用相場・選び方と補助金を解説",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/07/278418/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e5%25b0%258e%25e5%2585%25a5%25e6%2594%25af%25e6%258f%25b4%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e6%2594%25af%25e6%258f%25b4%25e5%2586%2585%25e5%25ae%25b9%25e3%2583%25bb%25e8%25b2%25bb%25e7%2594%25a8%25e7%259b%25b8%25e5%25a0%25b4",
+     "importance": 74,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-06T16:00:12.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "efdd56231be4b7b4",
+     "title": "[OPINION] 속지 말자… AI 모델은 추론하지 않는다",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/opinion-%ec%86%8d%ec%a7%80-%eb%a7%90%ec%9e%90-ai-%eb%aa%a8%eb%8d%b8%ec%9d%80-%ec%b6%94%eb%a1%a0%ed%95%98%ec%a7%80-%ec%95%8a%eb%8a%94%eb%8b%a4/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-06T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "8498a129df39f72c",
+     "title": "대기오염 줄이고 전기요금 낮추고… ‘소형 분산형 배터리’가 뜬다",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%eb%8c%80%ea%b8%b0%ec%98%a4%ec%97%bc-%ec%a4%84%ec%9d%b4%ea%b3%a0-%ec%a0%84%ea%b8%b0%ec%9a%94%ea%b8%88-%eb%82%ae%ec%b6%94%ea%b3%a0%ec%86%8c%ed%98%95-%eb%b6%84%ec%82%b0%ed%98%95-%eb%b0%b0/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-06T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "948aae6af47206ff",
+     "title": "SAP to acquire AI startup TechWolf for undisclosed sum",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/sap-techwolf-acquisition-deal/",
+     "importance": 83,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-06T15:23:05.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "SAP"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "061ca2c4fc6102cd",
+     "title": "Cleavr bags €8M to scale AI-powered invoice collection across Europe",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/06/cleavr-bags-eur8m-to-scale-ai-powered-invoice-collection-across-europe/",
+     "importance": 82,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-06T06:30:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Scale AI"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "c115d47d08786efe",
+     "title": "Spiko raises $90m in Series B backed by Index Ventures and Speedinvest",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/spiko-series-b-fundraise-index-speedinvest/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-06T16:28:02.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "4cb4f6da7a2c617f",
+     "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+     "importance": 92,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-06T20:00:30.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "caeba42a0513a5d6",
+     "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+     "source": "Ars Technica AI",
+     "region": "NA",
+     "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-06T20:50:32.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "39b4aca9022cbec8",
+     "title": "Vinci reels in $250M for its engineering simulation platform",
+     "source": "SiliconANGLE",
+     "region": "NA",
+     "url": "https://siliconangle.com/2026/10/06/vinci-reels-in-250m-for-its-engineering-simulation-platform/",
+     "importance": 86,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-06T22:18:27.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "AMD"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "376df57180063026",
+     "title": "Exclusive: IPO-Bound StockGro Raises ₹110 Cr From Existing Backers",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/exclusive-ahead-of-ipo-stockgro-looks-to-raise-%e2%82%b9110-cr-from-existing-backers/",
+     "importance": 85,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-06T11:56:32.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "8b3f446dab995e42",
+     "title": "Amazon Hires Former Copilot CTO to Take on OpenAI and Meta",
+     "source": "Techloy",
+     "region": "OTHER",
+     "url": "https://www.techloy.com/amazon-former-microsoft-copilot-cto-ai-agents/",
+     "importance": 82,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-06T10:18:32.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Meta",
+      "Amazon"
+     ],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    },
+    {
+     "id": "81fd2530f35c35ff",
+     "title": "Exclusive: AI Research Startup FYDY In Talks To Raise $12 Mn From Lightspeed, General Catalyst",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/fydy-in-talks-to-raise-12-mn-from-lightspeed-general-catalyst/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-06T13:41:30.000Z",
+     "topics": [
+      "产业与生态",
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-07",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 7 日，共从 27 个信息源抓取 430 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 132 条发布于 24 小时内。其中 129 条是此前未出现过的新增内容，另有 29 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」58 条、「产品与应用」46 条。值得优先关注的几条：「派拉蒙 1100 亿美元收购时代华纳，好莱坞诞生新巨无霸；月之暗面被曝完成 500 亿美元 PreIPO 融资；微软、Meta 被曝要求员工减少使用 Claude」（极客公园）、「DeepSeek被爆最新融资800亿，正为冲击IPO做准备」（钛媒体）。"
+}
