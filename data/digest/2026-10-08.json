@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-08",
- "generatedAt": "2026-10-08T01:07:27.773Z",
+ "generatedAt": "2026-10-08T04:18:09.032Z",
  "mode": "rule",
  "counts": {
-  "crawled": 415,
+  "crawled": 417,
   "published": 159,
-  "newCount": 126,
-  "repeatCount": 33,
+  "newCount": 128,
+  "repeatCount": 31,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,47 +22,55 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 128,
+  "within24h": 130,
   "withinFresh": 138,
   "freshHours": 72,
   "monthPrecision": 18,
   "undated": 0,
-  "staleDropped": 66,
-  "newestAt": "2026-10-08T07:00:00.000Z"
+  "staleDropped": 64,
+  "newestAt": "2026-10-08T12:58:02.000Z"
  },
  "themes": [
   {
-   "name": "资本与市场",
-   "n": 54
+   "name": "产品与应用",
+   "n": 51
   },
   {
-   "name": "产品与应用",
-   "n": 45
+   "name": "资本与市场",
+   "n": 50
+  },
+  {
+   "name": "算力与基建",
+   "n": 25
   },
   {
    "name": "产业与生态",
-   "n": 22
+   "n": 24
   },
   {
    "name": "模型与能力",
    "n": 19
   },
   {
-   "name": "算力与基建",
-   "n": 19
-  },
-  {
    "name": "政策与治理",
-   "n": 13
+   "n": 14
   }
  ],
  "entities": [
   {
-   "name": "OpenAI",
-   "n": 12
+   "name": "NVIDIA",
+   "n": 17
   },
   {
-   "name": "NVIDIA",
+   "name": "OpenAI",
+   "n": 13
+  },
+  {
+   "name": "Microsoft",
+   "n": 10
+  },
+  {
+   "name": "Meta",
    "n": 10
   },
   {
@@ -70,27 +78,39 @@
    "n": 9
   },
   {
-   "name": "Microsoft",
-   "n": 7
-  },
-  {
-   "name": "Meta",
-   "n": 7
-  },
-  {
    "name": "Anthropic",
    "n": 7
   },
   {
-   "name": "Apple",
-   "n": 5
+   "name": "三星",
+   "n": 4
   },
   {
-   "name": "Mistral AI",
+   "name": "Apple",
    "n": 4
   }
  ],
  "topOverall": [
+  {
+   "id": "8ae9ea9de167d7fe",
+   "title": "GPT-6全球上线、Claude Haiku 5.5降价，这个假期AI圈也没停",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8160689.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-08T01:51:00.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-08",
+   "isNew": true
+  },
   {
    "id": "3f0a3c18e1bf076c",
    "title": "Microsoft unveils Surface Laptop Ultra with Nvidia AI",
@@ -135,6 +155,67 @@
    "isNew": true
   },
   {
+   "id": "eebc6ad6f74304b6",
+   "title": "90后站上C位：姚顺雨、罗福莉、刘大一恒、陈宇森、周畅们接管国产大模型",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8160735.html",
+   "importance": 98,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-08T02:43:42.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "小米",
+    "通义千问"
+   ],
+   "firstSeen": "2026-10-08",
+   "isNew": true
+  },
+  {
+   "id": "c8018c64b8391509",
+   "title": "Zuckerberg-backed Biohub’s AI biology effort hits $1.8b",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/zuckerberg-backed-biohubs-ai-biology-effort-hits-1-8b",
+   "importance": 96,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-08T02:49:50.000Z",
+   "topics": [
+    "产业与生态"
+   ],
+   "entities": [
+    "Google",
+    "DeepMind",
+    "Meta"
+   ],
+   "firstSeen": "2026-10-08",
+   "isNew": true
+  },
+  {
+   "id": "26a02abb42cddb2f",
+   "title": "Haiku 5.5发布，Anthropic开始撒钱",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8160574.html",
+   "importance": 96,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-08T01:29:52.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-08",
+   "isNew": true
+  },
+  {
    "id": "ba8f5ea7afe0e839",
    "title": "Meta’s Muse launches on iPad just a month after its mobile debut",
    "source": "TechCrunch AI",
@@ -153,97 +234,21 @@
    "isNew": true
   },
   {
-   "id": "ed12d1388c1c59f3",
-   "title": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
-   "importance": 91,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-07T16:53:46.000Z",
-   "topics": [
-    "产品与应用",
-    "政策与治理"
-   ],
-   "entities": [
-    "Meta"
-   ],
-   "firstSeen": "2026-10-08",
-   "isNew": true
-  },
-  {
-   "id": "2cac3dcd7812d8f7",
-   "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
-   "source": "Ars Technica AI",
-   "region": "NA",
-   "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
-   "importance": 90,
+   "id": "5f2fad3c63e0d627",
+   "title": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
+   "source": "InfoQ 中国",
+   "region": "CN",
+   "url": "https://www.infoq.cn/article/0wk4G4cZwbHgYdeNoQPV?utm_source=rss&utm_medium=article",
+   "importance": 94,
    "difficulty": "进阶",
-   "publishedAt": "2026-10-07T21:56:42.000Z",
+   "publishedAt": "2026-10-08T10:35:29.000Z",
    "topics": [
+    "模型与能力",
     "产业与生态"
    ],
    "entities": [
-    "Anthropic",
-    "Adobe"
-   ],
-   "firstSeen": "2026-10-08",
-   "isNew": true
-  },
-  {
-   "id": "1225aa5c3d9d82b4",
-   "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-   "importance": 90,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-07T20:22:37.000Z",
-   "topics": [
-    "模型与能力",
-    "算力与基建"
-   ],
-   "entities": [
-    "Microsoft",
-    "NVIDIA"
-   ],
-   "firstSeen": "2026-10-08",
-   "isNew": true
-  },
-  {
-   "id": "91db420a32e2402a",
-   "title": "博通据悉计划为OpenAI定制芯片项目融资逾500亿美元",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4016409686183811?f=rss",
-   "importance": 89,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-08T00:19:11.000Z",
-   "topics": [
-    "算力与基建",
-    "资本与市场"
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic"
-   ],
-   "firstSeen": "2026-10-08",
-   "isNew": true
-  },
-  {
-   "id": "bc4c81fe7d24728a",
-   "title": "CoreWeave plans 240 MW India data center with AdaniConneX",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/coreweave-plans-240-mw-india-data-center-adaniconnex",
-   "importance": 88,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-08T00:58:44.000Z",
-   "topics": [
-    "算力与基建"
-   ],
-   "entities": [
-    "CoreWeave"
+    "Mistral AI",
+    "DeepSeek"
    ],
    "firstSeen": "2026-10-08",
    "isNew": true
@@ -257,6 +262,26 @@
    "flag": "🇨🇳",
    "count": 24,
    "top": [
+    {
+     "id": "8ae9ea9de167d7fe",
+     "title": "GPT-6全球上线、Claude Haiku 5.5降价，这个假期AI圈也没停",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8160689.html",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-08T01:51:00.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-08",
+     "isNew": true
+    },
     {
      "id": "726163fc7783275a",
      "title": "早报｜苹果一大波新品曝光，最快下周发布/全球纯汽油车份额首次跌破50%/2599 美元起，Surface Laptop Ultra发布",
@@ -280,41 +305,22 @@
      "isNew": true
     },
     {
-     "id": "91db420a32e2402a",
-     "title": "博通据悉计划为OpenAI定制芯片项目融资逾500亿美元",
-     "source": "36氪",
+     "id": "eebc6ad6f74304b6",
+     "title": "90后站上C位：姚顺雨、罗福莉、刘大一恒、陈宇森、周畅们接管国产大模型",
+     "source": "钛媒体",
      "region": "CN",
-     "url": "https://36kr.com/newsflashes/4016409686183811?f=rss",
-     "importance": 89,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-08T00:19:11.000Z",
-     "topics": [
-      "算力与基建",
-      "资本与市场"
-     ],
-     "entities": [
-      "OpenAI",
-      "Anthropic"
-     ],
-     "firstSeen": "2026-10-08",
-     "isNew": true
-    },
-    {
-     "id": "53f26f3b8887283a",
-     "title": "中信证券：AI产业重心逐步转向推理、货币化，看好结构性机会",
-     "source": "36氪",
-     "region": "CN",
-     "url": "https://36kr.com/newsflashes/4016492125130883?f=rss",
-     "importance": 88,
+     "url": "https://www.tmtpost.com/8160735.html",
+     "importance": 98,
      "difficulty": "入门",
-     "publishedAt": "2026-10-08T00:27:04.000Z",
+     "publishedAt": "2026-10-08T02:43:42.000Z",
      "topics": [
-      "产品与应用",
-      "模型与能力"
+      "模型与能力",
+      "产品与应用"
      ],
      "entities": [
-      "OpenAI",
-      "Anthropic"
+      "阿里巴巴",
+      "小米",
+      "通义千问"
      ],
      "firstSeen": "2026-10-08",
      "isNew": true
@@ -350,38 +356,40 @@
      "isNew": true
     },
     {
-     "id": "bc4c81fe7d24728a",
-     "title": "CoreWeave plans 240 MW India data center with AdaniConneX",
+     "id": "c8018c64b8391509",
+     "title": "Zuckerberg-backed Biohub’s AI biology effort hits $1.8b",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/coreweave-plans-240-mw-india-data-center-adaniconnex",
-     "importance": 88,
+     "url": "https://www.techinasia.com/news/zuckerberg-backed-biohubs-ai-biology-effort-hits-1-8b",
+     "importance": 96,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-08T00:58:44.000Z",
+     "publishedAt": "2026-10-08T02:49:50.000Z",
      "topics": [
-      "算力与基建"
+      "产业与生态"
      ],
      "entities": [
-      "CoreWeave"
+      "Google",
+      "DeepMind",
+      "Meta"
      ],
      "firstSeen": "2026-10-08",
      "isNew": true
     },
     {
-     "id": "c9d18e6067a88c5e",
-     "title": "Traveloka’s profit puzzle",
+     "id": "f866d0906b66d1f0",
+     "title": "AMD explores Samsung memory, foundry partnerships",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/travelokas-profit-puzzle",
-     "importance": 88,
+     "url": "https://www.techinasia.com/news/amd-explores-samsung-memory-foundry-partnerships",
+     "importance": 90,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-08T00:30:43.000Z",
+     "publishedAt": "2026-10-08T01:52:06.000Z",
      "topics": [
-      "资本与市场",
-      "产品与应用"
+      "产业与生态"
      ],
      "entities": [
-      "月之暗面"
+      "AMD",
+      "三星"
      ],
      "firstSeen": "2026-10-08",
      "isNew": true
@@ -477,7 +485,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/ai%eb%8a%94-%ec%8b%ab%ec%a7%80%eb%a7%8c-%ec%b1%97gpt%eb%8a%94-%ec%93%b4%eb%8b%a4ai%eb%a5%bc-%ed%96%a5%ed%95%9c-%ec%95%a0%ec%a6%9d%ec%9d%98-%ed%99%95%ec%82%b0/",
-     "importance": 78,
+     "importance": 74,
      "difficulty": "进阶",
      "publishedAt": "2026-10-07T21:00:00.000Z",
      "topics": [
@@ -488,18 +496,20 @@
      "isNew": true
     },
     {
-     "id": "feaff24a4835a4de",
-     "title": "AI를 효율의 도구에서 ‘창작의 도구’로…IDEO가 다시 쓰는 디자인",
-     "source": "MIT Technology Review Korea",
+     "id": "678aca747ba43f22",
+     "title": "스페이스X, AI 칩 구매에 53조 조달 추진...GPU 121만개 확보 나선다",
+     "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.technologyreview.kr/ai%eb%a5%bc-%ed%9a%a8%ec%9c%a8%ec%9d%98-%eb%8f%84%ea%b5%ac%ec%97%90%ec%84%9c-%ec%b0%bd%ec%9e%91%ec%9d%98-%eb%8f%84%ea%b5%ac%eb%a1%9cideo%ea%b0%80-%eb%8b%a4%ec%8b%9c-%ec%93%b0%eb%8a%94/",
-     "importance": 66,
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216061",
+     "importance": 62,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-07T21:00:00.000Z",
-     "topics": [],
+     "publishedAt": "2026-10-08T12:58:02.000Z",
+     "topics": [
+      "算力与基建"
+     ],
      "entities": [],
-     "firstSeen": "2026-10-08",
-     "isNew": true
+     "firstSeen": "2026-10-07",
+     "isNew": false
     }
    ]
   },
@@ -510,6 +520,22 @@
    "flag": "🇪🇺",
    "count": 24,
    "top": [
+    {
+     "id": "c378ab5e9b833542",
+     "title": "Exclusive: Weight loss startup Yazen raises €50m led by Verdane",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/yazen-funding-round-verdane-series-b/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-08T05:00:44.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-08",
+     "isNew": true
+    },
     {
      "id": "d6ce0618feabb341",
      "title": "Aleph Alpha and Mistral releases raise hopes for Europe’s sovereign AI ambitions",
@@ -526,22 +552,6 @@
       "Mistral AI",
       "Aleph Alpha"
      ],
-     "firstSeen": "2026-10-08",
-     "isNew": true
-    },
-    {
-     "id": "f71018ca50a5baa9",
-     "title": "Owkin alum raises $25m seed to build world model for human cells",
-     "source": "Sifted",
-     "region": "EU",
-     "url": "https://sifted.eu/articles/rivercell-world-model-drug-discovery-seed-round/",
-     "importance": 77,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-07T14:00:57.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
      "firstSeen": "2026-10-08",
      "isNew": true
     },
@@ -608,20 +618,22 @@
      "isNew": true
     },
     {
-     "id": "2cac3dcd7812d8f7",
-     "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
-     "source": "Ars Technica AI",
+     "id": "ebf7ef52ef7e1029",
+     "title": "Google debuts SynthID Detector tool for flagging AI-generated content, but it’s far from perfect",
+     "source": "SiliconANGLE",
      "region": "NA",
-     "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
-     "importance": 90,
+     "url": "https://siliconangle.com/2026/10/07/google-debuts-synthid-detector-tool-for-flagging-ai-generated-content-but-its-far-from-perfect/",
+     "importance": 87,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-07T21:56:42.000Z",
+     "publishedAt": "2026-10-08T02:49:25.000Z",
      "topics": [
-      "产业与生态"
+      "模型与能力",
+      "算力与基建"
      ],
      "entities": [
-      "Anthropic",
-      "Adobe"
+      "OpenAI",
+      "Google",
+      "NVIDIA"
      ],
      "firstSeen": "2026-10-08",
      "isNew": true
@@ -654,17 +666,16 @@
      "isNew": true
     },
     {
-     "id": "1aba0a99a5b567aa",
-     "title": "Exclusive: Swish Pilots Swish Go To Take On Swiggy, Zomato",
+     "id": "2faa1d4d2f8d47c9",
+     "title": "Late Stage Funding Dips, Swish Takes On Zomato & More",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/exclusive-swish-pilots-swish-go-to-take-on-swiggy-zomato/",
-     "importance": 82,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-07T15:20:56.000Z",
+     "url": "https://inc42.com/buzz/late-stage-funding-dips-swish-takes-on-zomato-more/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-08T02:30:21.000Z",
      "topics": [
-      "产品与应用",
-      "算力与基建"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-10-08",
@@ -689,5 +700,5 @@
    ]
   }
  ],
- "overview": "10 月 8 日，共从 27 个信息源抓取 415 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 128 条发布于 24 小时内。其中 126 条是此前未出现过的新增内容，另有 33 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」54 条、「产品与应用」45 条。值得优先关注的几条：「早报｜苹果一大波新品曝光，最快下周发布/全球纯汽油车份额首次跌破50%/2599 美元起，Surface Laptop Ultra发布」（爱范儿）、「博通据悉计划为OpenAI定制芯片项目融资逾500亿美元」（36氪）。"
+ "overview": "10 月 8 日，共从 27 个信息源抓取 417 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 130 条发布于 24 小时内。其中 128 条是此前未出现过的新增内容，另有 31 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」51 条、「资本与市场」50 条。值得优先关注的几条：「GPT-6全球上线、Claude Haiku 5.5降价，这个假期AI圈也没停」（钛媒体）、「早报｜苹果一大波新品曝光，最快下周发布/全球纯汽油车份额首次跌破50%/2599 美元起，Surface Laptop Ultra发布」（爱范儿）、「90后站上C位：姚顺雨、罗福莉、刘大一恒、陈宇森、周畅们接管国产大模型」（钛媒体）。"
 }
