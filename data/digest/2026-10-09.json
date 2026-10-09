@@ -1,0 +1,694 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-09",
+ "generatedAt": "2026-10-09T01:10:24.715Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 436,
+  "published": 158,
+  "newCount": 122,
+  "repeatCount": 36,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 14,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 27,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 126,
+  "withinFresh": 138,
+  "freshHours": 72,
+  "monthPrecision": 16,
+  "undated": 0,
+  "staleDropped": 45,
+  "newestAt": "2026-10-09T09:00:00.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 53
+  },
+  {
+   "name": "产品与应用",
+   "n": 52
+  },
+  {
+   "name": "产业与生态",
+   "n": 26
+  },
+  {
+   "name": "模型与能力",
+   "n": 22
+  },
+  {
+   "name": "政策与治理",
+   "n": 16
+  },
+  {
+   "name": "算力与基建",
+   "n": 12
+  }
+ ],
+ "entities": [
+  {
+   "name": "Anthropic",
+   "n": 14
+  },
+  {
+   "name": "OpenAI",
+   "n": 10
+  },
+  {
+   "name": "NVIDIA",
+   "n": 8
+  },
+  {
+   "name": "Google",
+   "n": 7
+  },
+  {
+   "name": "Microsoft",
+   "n": 6
+  },
+  {
+   "name": "腾讯",
+   "n": 6
+  },
+  {
+   "name": "Meta",
+   "n": 5
+  },
+  {
+   "name": "Apple",
+   "n": 3
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "7240bcbda53db1da",
+   "title": "Google Cloud announces Gemini agent for work",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/google-cloud-announces-gemini-agent-work",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-09T00:45:51.000Z",
+   "topics": [
+    "模型与能力",
+    "算力与基建"
+   ],
+   "entities": [
+    "Anthropic",
+    "Google",
+    "Microsoft"
+   ],
+   "firstSeen": "2026-10-09",
+   "isNew": true
+  },
+  {
+   "id": "1e267f6aede414c6",
+   "title": "TSMC Q3 sales hit record, beating forecasts",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/tsmc-q3-sales-hit-record-beating-forecasts",
+   "importance": 95,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-08T09:40:43.000Z",
+   "topics": [
+    "算力与基建",
+    "资本与市场"
+   ],
+   "entities": [
+    "Apple",
+    "NVIDIA",
+    "台积电"
+   ],
+   "firstSeen": "2026-10-09",
+   "isNew": true
+  },
+  {
+   "id": "89cfbf828887e56f",
+   "title": "早报｜苹果定档10月13日发布新品/三星手机业务或减产30%/保时捷计划削减9000个岗位",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1683244?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-09T00:51:15.000Z",
+   "topics": [
+    "模型与能力",
+    "资本与市场"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "三星",
+    "小米"
+   ],
+   "firstSeen": "2026-10-09",
+   "isNew": true
+  },
+  {
+   "id": "ebd376b4b3d24133",
+   "title": "China’s Manus raises over $500M in first funding round since split with Meta",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+   "importance": 93,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-08T13:20:32.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "Meta",
+    "腾讯"
+   ],
+   "firstSeen": "2026-10-09",
+   "isNew": true
+  },
+  {
+   "id": "5201c340ac3fa1f5",
+   "title": "SCI Ecommerce’s troubles run deep",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/sci-ecommerces-troubles-run-deep",
+   "importance": 89,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-09T00:30:56.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [],
+   "firstSeen": "2026-10-09",
+   "isNew": true
+  },
+  {
+   "id": "130e0e47e98a7e4e",
+   "title": "谷歌云发布 Gemini Agent；Manus 官宣五亿美元融资；小鹏上线 Robotaxi 打车小程序",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/372143",
+   "importance": 88,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-09T00:35:13.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [],
+   "firstSeen": "2026-10-09",
+   "isNew": true
+  },
+  {
+   "id": "d377842e85098646",
+   "title": "UK quantum startup raises $100m, expands to Singapore",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/uk-quantum-startup-raises-100m-expands-singapore",
+   "importance": 87,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-09T01:06:18.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "Arm"
+   ],
+   "firstSeen": "2026-10-09",
+   "isNew": true
+  },
+  {
+   "id": "9afec9573c860de0",
+   "title": "Anthropic launches cyber program for critical infrastructure",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/anthropic-launches-cyber-program-critical-infrastructure",
+   "importance": 87,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-08T23:43:00.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-09",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "89cfbf828887e56f",
+     "title": "早报｜苹果定档10月13日发布新品/三星手机业务或减产30%/保时捷计划削减9000个岗位",
+     "source": "爱范儿",
+     "region": "CN",
+     "url": "https://www.ifanr.com/1683244?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-09T00:51:15.000Z",
+     "topics": [
+      "模型与能力",
+      "资本与市场"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "三星",
+      "小米"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    },
+    {
+     "id": "130e0e47e98a7e4e",
+     "title": "谷歌云发布 Gemini Agent；Manus 官宣五亿美元融资；小鹏上线 Robotaxi 打车小程序",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/372143",
+     "importance": 88,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-09T00:35:13.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    },
+    {
+     "id": "05c9344ea32ffd80",
+     "title": "Claude Haiku 5.5 降本背后：操作能力暴涨，复杂编程为何仍差一截？",
+     "source": "雷峰网",
+     "region": "CN",
+     "url": "https://www.leiphone.com/category/ai/n2GjuJRnM4utgaun.html",
+     "importance": 86,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-08T15:37:00.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "7240bcbda53db1da",
+     "title": "Google Cloud announces Gemini agent for work",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/google-cloud-announces-gemini-agent-work",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-09T00:45:51.000Z",
+     "topics": [
+      "模型与能力",
+      "算力与基建"
+     ],
+     "entities": [
+      "Anthropic",
+      "Google",
+      "Microsoft"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    },
+    {
+     "id": "1e267f6aede414c6",
+     "title": "TSMC Q3 sales hit record, beating forecasts",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/tsmc-q3-sales-hit-record-beating-forecasts",
+     "importance": 95,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-08T09:40:43.000Z",
+     "topics": [
+      "算力与基建",
+      "资本与市场"
+     ],
+     "entities": [
+      "Apple",
+      "NVIDIA",
+      "台积电"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    },
+    {
+     "id": "5201c340ac3fa1f5",
+     "title": "SCI Ecommerce’s troubles run deep",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/sci-ecommerces-troubles-run-deep",
+     "importance": 89,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-09T00:30:56.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "89261fa8ea6bee74",
+     "title": "Nvidia highlights open-source AI findings",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/insight/nvidia-highlights-open-source-ai-findings/",
+     "importance": 72,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-08T10:58:22.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA",
+      "软银"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    },
+    {
+     "id": "cd2efa7163a99749",
+     "title": "Seclore targets regional growth through AI-ready data protection",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/features/seclore-targets-regional-growth-through-ai-ready-data-protection/",
+     "importance": 69,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-08T10:34:05.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Meta"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    },
+    {
+     "id": "57f27a6b8476e738",
+     "title": "Apple collaborates with LG on security accessories",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/channel/apple-collaborates-with-lg-on-security-accessories/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-08T10:43:04.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [
+      "Apple"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 14,
+   "top": [
+    {
+     "id": "fda9411ba032a98a",
+     "title": "AIエージェントの導入方法4パターン！自社に合う選び方と進め方",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/08/278424/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5%25e6%2596%25b9%25e6%25b3%25954%25e3%2583%2591%25e3%2582%25bf%25e3%2583%25bc%25e3%2583%25b3%25ef%25bc%2581%25e8%2587%25aa%25e7%25a4%25be%25e3%2581%25ab%25e5%2590%2588%25e3%2581%2586",
+     "importance": 51,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-07T18:42:03.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Microsoft"
+     ],
+     "firstSeen": "2026-10-08",
+     "isNew": false
+    },
+    {
+     "id": "bf5e3284da545c89",
+     "title": "[AI리더의 서가] 이너 프롬프트",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=215960",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-09T09:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-08",
+     "isNew": false
+    },
+    {
+     "id": "4567c7647c13b459",
+     "title": "AI는 싫지만 챗GPT는 쓴다…AI를 향한 ‘애증’의 확산",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/ai%eb%8a%94-%ec%8b%ab%ec%a7%80%eb%a7%8c-%ec%b1%97gpt%eb%8a%94-%ec%93%b4%eb%8b%a4ai%eb%a5%bc-%ed%96%a5%ed%95%9c-%ec%95%a0%ec%a6%9d%ec%9d%98-%ed%99%95%ec%82%b0/",
+     "importance": 45,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-07T21:00:00.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-08",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "f9c04ca7d27e200a",
+     "title": "AI start-up Manus raises $500m after Meta’s failed acquisition",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/start-ups/ai-start-up-manus-fundraising-500m-post-meta-failed-acquisition",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-08T08:39:44.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Meta"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    },
+    {
+     "id": "214e53685c371f2f",
+     "title": "University of Sussex spinout Universal Quantum raises “record” $100M Series A",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/08/university-of-sussex-quantum-spinout-raises-record-ps100m-series-a/",
+     "importance": 80,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-08T09:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    },
+    {
+     "id": "8f8cb4818f708b09",
+     "title": "Dutch startup Innercrowd raises €750K to turn festival fans into marketers",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/08/dutch-startup-innercrowd-raises-eur750k-to-turn-festival-fans-into-marketers/",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-08T08:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "ebd376b4b3d24133",
+     "title": "China’s Manus raises over $500M in first funding round since split with Meta",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+     "importance": 93,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-08T13:20:32.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Meta",
+      "腾讯"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    },
+    {
+     "id": "e0515bd5de97e1d3",
+     "title": "Google brings agentic AI to Gemini, starting with businesses",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-08T18:18:00.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    },
+    {
+     "id": "840a144e2c10de35",
+     "title": "AI agent developer Manus raises $500M+ at reported $4B valuation",
+     "source": "SiliconANGLE",
+     "region": "NA",
+     "url": "https://siliconangle.com/2026/10/08/ai-agent-developer-manus-raises-500m-at-reported-4b-valuation/",
+     "importance": 86,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-08T20:25:46.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "腾讯"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "d9cd364b9c095203",
+     "title": "Australian Nvidia-backed AI data centre operator Firmus shelves IPO",
+     "source": "iTnews Australia",
+     "region": "OTHER",
+     "url": "https://www.itnews.com.au/news/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-629529?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+     "importance": 79,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-09T01:21:00.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    },
+    {
+     "id": "631b3f0f0298e9b0",
+     "title": "CoreWeave Enters India, Partners AdaniConneX For 240 MW Data Centre Capacity",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/coreweave-enters-india-partners-adaniconnex-for-240-mw-data-centre-capacity/",
+     "importance": 79,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-08T06:50:26.000Z",
+     "topics": [
+      "产业与生态",
+      "算力与基建"
+     ],
+     "entities": [
+      "CoreWeave"
+     ],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    },
+    {
+     "id": "9352c9c8daf6e387",
+     "title": "D2C Lifestyle Brand DailyObjects Raises ₹332 Cr To Expand Offline Presence",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/d2c-lifestyle-brand-dailyobjects-raises-%e2%82%b9332-cr-to-expand-offline-presence/",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-08T12:44:56.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-09",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 9 日，共从 27 个信息源抓取 436 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 126 条发布于 24 小时内。其中 122 条是此前未出现过的新增内容，另有 36 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」53 条、「产品与应用」52 条。值得优先关注的几条：「早报｜苹果定档10月13日发布新品/三星手机业务或减产30%/保时捷计划削减9000个岗位」（爱范儿）、「谷歌云发布 Gemini Agent；Manus 官宣五亿美元融资；小鹏上线 Robotaxi 打车小程序」（极客公园）。"
+}
