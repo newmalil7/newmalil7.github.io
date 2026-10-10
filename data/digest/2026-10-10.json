@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-10",
- "generatedAt": "2026-10-10T01:08:07.462Z",
+ "generatedAt": "2026-10-10T04:16:47.756Z",
  "mode": "rule",
  "counts": {
-  "crawled": 443,
+  "crawled": 444,
   "published": 157,
-  "newCount": 117,
-  "repeatCount": 40,
+  "newCount": 121,
+  "repeatCount": 36,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,18 +22,18 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 127,
-  "withinFresh": 133,
+  "within24h": 126,
+  "withinFresh": 131,
   "freshHours": 72,
-  "monthPrecision": 18,
+  "monthPrecision": 19,
   "undated": 0,
-  "staleDropped": 37,
-  "newestAt": "2026-10-10T10:06:05.000Z"
+  "staleDropped": 36,
+  "newestAt": "2026-10-10T11:48:28.000Z"
  },
  "themes": [
   {
    "name": "产品与应用",
-   "n": 53
+   "n": 51
   },
   {
    "name": "资本与市场",
@@ -41,56 +41,118 @@
   },
   {
    "name": "产业与生态",
-   "n": 24
-  },
-  {
-   "name": "模型与能力",
-   "n": 16
+   "n": 18
   },
   {
    "name": "算力与基建",
-   "n": 16
+   "n": 18
+  },
+  {
+   "name": "模型与能力",
+   "n": 15
   },
   {
    "name": "政策与治理",
-   "n": 9
+   "n": 10
   }
  ],
  "entities": [
   {
    "name": "OpenAI",
-   "n": 11
+   "n": 15
   },
   {
    "name": "Anthropic",
-   "n": 8
+   "n": 10
   },
   {
    "name": "Amazon",
-   "n": 7
+   "n": 8
+  },
+  {
+   "name": "阿里巴巴",
+   "n": 5
   },
   {
    "name": "Meta",
-   "n": 7
+   "n": 5
   },
   {
-   "name": "NVIDIA",
-   "n": 7
+   "name": "腾讯",
+   "n": 4
   },
   {
    "name": "Google",
    "n": 4
   },
   {
-   "name": "Microsoft",
+   "name": "NVIDIA",
    "n": 4
-  },
-  {
-   "name": "字节跳动",
-   "n": 3
   }
  ],
  "topOverall": [
+  {
+   "id": "03e0160a9bbeeb26",
+   "title": "还是别太期待国产Muse了",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8162951.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-10T01:11:21.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "字节跳动"
+   ],
+   "firstSeen": "2026-10-10",
+   "isNew": true
+  },
+  {
+   "id": "c60a481a42dddd5c",
+   "title": "硅谷大模型不装了：Claude卷价格，GPT学豆包",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8163462.html",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-10T01:10:22.000Z",
+   "topics": [
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-10",
+   "isNew": true
+  },
+  {
+   "id": "8dfc43a851376a77",
+   "title": "Manus，没能逃出巨头的游戏",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8163447.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-10T01:09:41.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Meta",
+    "阿里巴巴",
+    "腾讯"
+   ],
+   "firstSeen": "2026-10-10",
+   "isNew": true
+  },
   {
    "id": "6562d918527a459d",
    "title": "早报｜供应链回应iPhone 18 Pro砍单传闻/小米、华为手机同日调价/山姆拟限制亲友卡换绑",
@@ -136,22 +198,42 @@
    "isNew": true
   },
   {
-   "id": "ed6b948a6a4d951f",
-   "title": "英伟达没能捧出澳洲的AI估值神话",
+   "id": "13c0515b53629f07",
+   "title": "China’s Personal AI Agents Stall on Ecosystem Access, Not Model Power",
    "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8162777.html",
+   "url": "https://www.tmtpost.com/8163541.html",
    "importance": 94,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-09T09:41:16.000Z",
+   "difficulty": "入门",
+   "publishedAt": "2026-10-10T02:08:03.000Z",
    "topics": [
-    "算力与基建",
-    "资本与市场"
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "字节跳动",
+    "通义千问"
+   ],
+   "firstSeen": "2026-10-10",
+   "isNew": true
+  },
+  {
+   "id": "cccb179c6aff8ee2",
+   "title": "Muse发布一个月，Personal Agent让新 BAT 集体上头",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8163156.html",
+   "importance": 93,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-10T01:08:54.000Z",
+   "topics": [
+    "产品与应用",
+    "算力与基建"
    ],
    "entities": [
     "OpenAI",
-    "Meta",
-    "NVIDIA"
+    "Meta"
    ],
    "firstSeen": "2026-10-10",
    "isNew": true
@@ -174,87 +256,6 @@
    ],
    "firstSeen": "2026-10-10",
    "isNew": true
-  },
-  {
-   "id": "14e762305c560ff9",
-   "title": "再裁员5000人！保时捷明确回归燃油车，高端车型计划涨价20%；腾讯拟发行50亿美元离岸债券，或筹钱加码AI；OpenAI全面上线GPT-6",
-   "source": "雷峰网",
-   "region": "CN",
-   "url": "https://www.leiphone.com/category/zaobao/GGmq1RiBgXY2GSVL.html",
-   "importance": 89,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-09T05:45:00.000Z",
-   "topics": [
-    "资本与市场",
-    "产品与应用"
-   ],
-   "entities": [
-    "OpenAI",
-    "NVIDIA",
-    "阿里巴巴",
-    "腾讯"
-   ],
-   "firstSeen": "2026-10-10",
-   "isNew": true
-  },
-  {
-   "id": "edc3634ee7ac87cc",
-   "title": "8点1氪丨特朗普买入Meta股票；山姆宣布拟限制亲友卡绑定；豆包开通水、电、燃气等生活缴费功能",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/p/4019297973735560?f=rss",
-   "importance": 88,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-10T00:04:26.000Z",
-   "topics": [
-    "政策与治理",
-    "产品与应用"
-   ],
-   "entities": [
-    "Anthropic",
-    "Meta"
-   ],
-   "firstSeen": "2026-10-10",
-   "isNew": true
-  },
-  {
-   "id": "172bf3b3b35d03e1",
-   "title": "美股三大指数集体收涨，热门中概股普涨",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4019349126860932?f=rss",
-   "importance": 87,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-10T01:00:00.000Z",
-   "topics": [
-    "算力与基建"
-   ],
-   "entities": [
-    "Meta",
-    "NVIDIA",
-    "阿里巴巴",
-    "百度"
-   ],
-   "firstSeen": "2026-10-10",
-   "isNew": true
-  },
-  {
-   "id": "beb72174bd5bf743",
-   "title": "Universal Quantum raises $100M, SAP buys TechWolf, and European startups raise five times more funding in September than August",
-   "source": "Tech.eu",
-   "region": "EU",
-   "url": "https://tech.eu/2026/10/09/universal-quantum-raises-100m-sap-buys-techwolf-and-european-startups-raise-five-times-more-funding-in-september-than-august/",
-   "importance": 87,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-09T14:39:24.000Z",
-   "topics": [
-    "资本与市场"
-   ],
-   "entities": [
-    "SAP"
-   ],
-   "firstSeen": "2026-10-10",
-   "isNew": true
   }
  ],
  "regions": [
@@ -266,63 +267,63 @@
    "count": 24,
    "top": [
     {
-     "id": "6562d918527a459d",
-     "title": "早报｜供应链回应iPhone 18 Pro砍单传闻/小米、华为手机同日调价/山姆拟限制亲友卡换绑",
-     "source": "爱范儿",
-     "region": "CN",
-     "url": "https://www.ifanr.com/1683465?utm_source=rss&utm_medium=rss&utm_campaign=",
-     "importance": 95,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-10T00:14:25.000Z",
-     "topics": [
-      "资本与市场",
-      "模型与能力"
-     ],
-     "entities": [
-      "OpenAI",
-      "字节跳动",
-      "华为",
-      "小米"
-     ],
-     "firstSeen": "2026-10-10",
-     "isNew": true
-    },
-    {
-     "id": "ed6b948a6a4d951f",
-     "title": "英伟达没能捧出澳洲的AI估值神话",
+     "id": "03e0160a9bbeeb26",
+     "title": "还是别太期待国产Muse了",
      "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8162777.html",
-     "importance": 94,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-09T09:41:16.000Z",
-     "topics": [
-      "算力与基建",
-      "资本与市场"
-     ],
-     "entities": [
-      "OpenAI",
-      "Meta",
-      "NVIDIA"
-     ],
-     "firstSeen": "2026-10-10",
-     "isNew": true
-    },
-    {
-     "id": "186f3272899ad149",
-     "title": "我使用国产「个人 AI 助手」的十天｜AI 上新",
-     "source": "极客公园",
-     "region": "CN",
-     "url": "http://www.geekpark.net/news/372163",
-     "importance": 91,
+     "url": "https://www.tmtpost.com/8162951.html",
+     "importance": 99,
      "difficulty": "入门",
-     "publishedAt": "2026-10-09T04:34:12.000Z",
+     "publishedAt": "2026-10-10T01:11:21.000Z",
      "topics": [
       "产品与应用"
      ],
      "entities": [
+      "阿里巴巴",
+      "腾讯",
+      "字节跳动"
+     ],
+     "firstSeen": "2026-10-10",
+     "isNew": true
+    },
+    {
+     "id": "c60a481a42dddd5c",
+     "title": "硅谷大模型不装了：Claude卷价格，GPT学豆包",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8163462.html",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-10T01:10:22.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [
       "OpenAI",
-      "Meta"
+      "Anthropic",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-10",
+     "isNew": true
+    },
+    {
+     "id": "8dfc43a851376a77",
+     "title": "Manus，没能逃出巨头的游戏",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8163447.html",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-10T01:09:41.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Meta",
+      "阿里巴巴",
+      "腾讯"
      ],
      "firstSeen": "2026-10-10",
      "isNew": true
@@ -359,32 +360,33 @@
      "isNew": true
     },
     {
-     "id": "9599484ada83f291",
-     "title": "Surviving the funding game: how timing can make or break your startup",
+     "id": "a77b08170b199309",
+     "title": "Firmus explores $3b private funding round after IPO withdrawal",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/visual-story/time-between-funding-stages",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-10T00:00:00.000Z",
+     "url": "https://www.techinasia.com/news/firmus-grid-explores-2b3b-ipo-pull",
+     "importance": 86,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-10T01:35:02.000Z",
      "topics": [
-      "资本与市场"
+      "资本与市场",
+      "算力与基建"
      ],
      "entities": [],
      "firstSeen": "2026-10-10",
      "isNew": true
     },
     {
-     "id": "c0bb198eb6704e63",
-     "title": "Singapore data center operator DayOne explores $500m bond",
+     "id": "a101512750b9f7c1",
+     "title": "Panorama JTB, Spun form Indonesia visa venture",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/singapore-data-center-operator-dayone-explores-500m-bond",
-     "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-10T01:05:08.000Z",
+     "url": "https://www.techinasia.com/news/panorama-jtb-spun-form-indonesia-visa-venture",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-10T01:29:02.000Z",
      "topics": [
-      "算力与基建"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-10-10",
@@ -481,14 +483,14 @@
      "isNew": true
     },
     {
-     "id": "f90f032a6ca05b1f",
-     "title": "구글, '제미나이 4 아르곤' 후속 '카본' 내부 테스트…\"클로드 오퍼스 5.5 수준\"",
+     "id": "ed6efdc93b688f0f",
+     "title": "타입세이프, '제브' 출시 3주 만에 대규모 투자 유치...기업가치 10조 등극",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=216109",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216111",
      "importance": 50,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-10T10:06:05.000Z",
+     "publishedAt": "2026-10-10T11:48:28.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-10-09",
@@ -522,24 +524,6 @@
    "count": 24,
    "top": [
     {
-     "id": "beb72174bd5bf743",
-     "title": "Universal Quantum raises $100M, SAP buys TechWolf, and European startups raise five times more funding in September than August",
-     "source": "Tech.eu",
-     "region": "EU",
-     "url": "https://tech.eu/2026/10/09/universal-quantum-raises-100m-sap-buys-techwolf-and-european-startups-raise-five-times-more-funding-in-september-than-august/",
-     "importance": 87,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-09T14:39:24.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [
-      "SAP"
-     ],
-     "firstSeen": "2026-10-10",
-     "isNew": true
-    },
-    {
      "id": "70877ccfd35c0eab",
      "title": "Nvidia defends open source AI alliance, saying hundreds and hundreds of companies being vetted",
      "source": "Tech.eu",
@@ -557,6 +541,24 @@
       "NVIDIA",
       "Mistral AI",
       "Hugging Face"
+     ],
+     "firstSeen": "2026-10-10",
+     "isNew": true
+    },
+    {
+     "id": "beb72174bd5bf743",
+     "title": "Universal Quantum raises $100M, SAP buys TechWolf, and European startups raise five times more funding in September than August",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/09/universal-quantum-raises-100m-sap-buys-techwolf-and-european-startups-raise-five-times-more-funding-in-september-than-august/",
+     "importance": 82,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-09T14:39:24.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "SAP"
      ],
      "firstSeen": "2026-10-10",
      "isNew": true
@@ -627,19 +629,20 @@
      "isNew": true
     },
     {
-     "id": "9c6d98588bedcfda",
-     "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+     "id": "dc5090bb94f85308",
+     "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
      "source": "TechCrunch AI",
      "region": "NA",
-     "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-     "importance": 85,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-09T21:41:29.000Z",
+     "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-10T00:18:32.000Z",
      "topics": [
-      "模型与能力",
       "产品与应用"
      ],
-     "entities": [],
+     "entities": [
+      "Anthropic"
+     ],
      "firstSeen": "2026-10-10",
      "isNew": true
     }
@@ -688,23 +691,26 @@
      "isNew": true
     },
     {
-     "id": "73153a3f05b033b5",
-     "title": "Peak XV Sells Awfis Shares Via ₹30 Cr Bulk Deal",
+     "id": "354052889d217611",
+     "title": "Amazon Layoffs: At Least 100 Employees In India Hit By Latest Global Job Cuts",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/peak-xv-sells-awfis-shares-via-%e2%82%b930-cr-bulk-deal/",
+     "url": "https://inc42.com/buzz/amazon-layoffs-at-least-100-employees-in-india-hit-by-latest-global-job-cuts/",
      "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-09T20:15:55.000Z",
+     "difficulty": "入门",
+     "publishedAt": "2026-10-09T10:52:22.000Z",
      "topics": [
+      "资本与市场",
       "产业与生态"
      ],
-     "entities": [],
+     "entities": [
+      "Amazon"
+     ],
      "firstSeen": "2026-10-10",
      "isNew": true
     }
    ]
   }
  ],
- "overview": "10 月 10 日，共从 27 个信息源抓取 443 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 127 条发布于 24 小时内。其中 117 条是此前未出现过的新增内容，另有 40 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」53 条、「资本与市场」50 条。值得优先关注的几条：「早报｜供应链回应iPhone 18 Pro砍单传闻/小米、华为手机同日调价/山姆拟限制亲友卡换绑」（爱范儿）、「英伟达没能捧出澳洲的AI估值神话」（钛媒体）、「我使用国产「个人 AI 助手」的十天｜AI 上新」（极客公园）。"
+ "overview": "10 月 10 日，共从 27 个信息源抓取 444 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 126 条发布于 24 小时内。其中 121 条是此前未出现过的新增内容，另有 36 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」51 条、「资本与市场」50 条。值得优先关注的几条：「还是别太期待国产Muse了」（钛媒体）、「硅谷大模型不装了：Claude卷价格，GPT学豆包」（钛媒体）、「Manus，没能逃出巨头的游戏」（钛媒体）。"
 }
