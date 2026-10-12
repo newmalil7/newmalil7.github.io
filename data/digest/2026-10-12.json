@@ -1,0 +1,684 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-12",
+ "generatedAt": "2026-10-12T01:11:35.111Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 444,
+  "published": 158,
+  "newCount": 54,
+  "repeatCount": 104,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 14,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 27,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 57,
+  "withinFresh": 126,
+  "freshHours": 72,
+  "monthPrecision": 20,
+  "undated": 0,
+  "staleDropped": 35,
+  "newestAt": "2026-10-12T09:03:08.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 51
+  },
+  {
+   "name": "产品与应用",
+   "n": 38
+  },
+  {
+   "name": "产业与生态",
+   "n": 20
+  },
+  {
+   "name": "算力与基建",
+   "n": 19
+  },
+  {
+   "name": "模型与能力",
+   "n": 15
+  },
+  {
+   "name": "政策与治理",
+   "n": 9
+  }
+ ],
+ "entities": [
+  {
+   "name": "Amazon",
+   "n": 7
+  },
+  {
+   "name": "Meta",
+   "n": 6
+  },
+  {
+   "name": "Anthropic",
+   "n": 6
+  },
+  {
+   "name": "Google",
+   "n": 4
+  },
+  {
+   "name": "OpenAI",
+   "n": 4
+  },
+  {
+   "name": "Microsoft",
+   "n": 4
+  },
+  {
+   "name": "NVIDIA",
+   "n": 3
+  },
+  {
+   "name": "腾讯",
+   "n": 3
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "dc5415301411d8a5",
+   "title": "全球芯片股反弹之际，韩国存储双雄跑输美光科技",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4022152619167881?f=rss",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-12T00:33:26.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "NVIDIA",
+    "台积电",
+    "三星"
+   ],
+   "firstSeen": "2026-10-12",
+   "isNew": true
+  },
+  {
+   "id": "d5d05cc4ab1ce9de",
+   "title": "Manus被AI大厂重新定价",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8164195.html",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-11T04:38:00.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [
+    "Meta",
+    "腾讯",
+    "Scale AI"
+   ],
+   "firstSeen": "2026-10-12",
+   "isNew": true
+  },
+  {
+   "id": "7305c08607dee785",
+   "title": "Will the HomeView be Apple’s first smart home success?",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+   "importance": 87,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-11T21:14:40.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "Apple"
+   ],
+   "firstSeen": "2026-10-12",
+   "isNew": true
+  },
+  {
+   "id": "65ea10708d093638",
+   "title": "【钛晨报】剑指“重上市、轻验证”，四部门联合发文划清汽车安全底线；经销商联谊会“批量”解散？茅台回应；蚂蚁“灵光”小范围内测，新版对标“Meta Muse”",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8164570.html",
+   "importance": 86,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-11T23:20:00.000Z",
+   "topics": [
+    "产品与应用",
+    "政策与治理"
+   ],
+   "entities": [
+    "Meta"
+   ],
+   "firstSeen": "2026-10-12",
+   "isNew": true
+  },
+  {
+   "id": "719656935957deb5",
+   "title": "3D 芯片堆得上去，未必堆得划算：量产卡在良率与成本",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8163821.html",
+   "importance": 86,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-11T04:27:20.000Z",
+   "topics": [
+    "算力与基建",
+    "产品与应用"
+   ],
+   "entities": [
+    "AMD",
+    "台积电",
+    "华为"
+   ],
+   "firstSeen": "2026-10-12",
+   "isNew": true
+  },
+  {
+   "id": "f800403825b02725",
+   "title": "Manus恢复“单身”身价再涨，但战场已“大变天”",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8163955.html",
+   "importance": 85,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-11T13:07:50.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [
+    "Meta",
+    "腾讯",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-12",
+   "isNew": true
+  },
+  {
+   "id": "82b5993189347cd9",
+   "title": "请来Claude老祖，谷歌能借Agent翻身吗？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8164268.html",
+   "importance": 83,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-11T04:50:00.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "Google",
+    "Meta"
+   ],
+   "firstSeen": "2026-10-12",
+   "isNew": true
+  },
+  {
+   "id": "6ae807a489d64761",
+   "title": "8点1氪丨尊界公布踏板升级时间；大闸蟹全线崩盘？中小规格跌至5元一只；世卫组织：俄不明原因肺炎事件，无持续传播证据",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4022129475948680?f=rss",
+   "importance": 82,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-12T00:04:23.000Z",
+   "topics": [
+    "产品与应用",
+    "产业与生态"
+   ],
+   "entities": [
+    "月之暗面"
+   ],
+   "firstSeen": "2026-10-12",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "dc5415301411d8a5",
+     "title": "全球芯片股反弹之际，韩国存储双雄跑输美光科技",
+     "source": "36氪",
+     "region": "CN",
+     "url": "https://36kr.com/newsflashes/4022152619167881?f=rss",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-12T00:33:26.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA",
+      "台积电",
+      "三星"
+     ],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "d5d05cc4ab1ce9de",
+     "title": "Manus被AI大厂重新定价",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8164195.html",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-11T04:38:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "Meta",
+      "腾讯",
+      "Scale AI"
+     ],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "65ea10708d093638",
+     "title": "【钛晨报】剑指“重上市、轻验证”，四部门联合发文划清汽车安全底线；经销商联谊会“批量”解散？茅台回应；蚂蚁“灵光”小范围内测，新版对标“Meta Muse”",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8164570.html",
+     "importance": 86,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-11T23:20:00.000Z",
+     "topics": [
+      "产品与应用",
+      "政策与治理"
+     ],
+     "entities": [
+      "Meta"
+     ],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "bbaf146ecdb8cf5d",
+     "title": "Meet the 20 top-funded startups and tech companies in Hong Kong",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/meet-20-topfunded-startups-tech-companies-hong-kong",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-11T09:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "f5c752563af8584c",
+     "title": "Singapore’s top-funded tech companies in the last decade",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/visual-story/singapores-topfunded-tech-companies-decade",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-11T07:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "1e66440568134a2c",
+     "title": "Xpeng says it can adapt driver-assist AI with little data",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/xpeng-adapt-driverassist-ai-data",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-12T00:38:25.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "831133affe79b981",
+     "title": "Saudi autotech Autobia raises $12 million Series A led by Artal Capital",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/saudi-autotech-autobia-raises-12-million-series-a-led-artal-capital",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "64928d30c3343726",
+     "title": "Ecocoast connects marine protection with real-time environmental intelligence",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/ecocoast-connects-marine-protection-with-real-time-environmental-intelligence/",
+     "importance": 65,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-11T17:11:13.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "a431428229916443",
+     "title": "Qatar’s Aligator raises $1.2 million seed round",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/09/qatar-aligator-raises-1-2-million-seed-round",
+     "importance": 56,
+     "difficulty": "入门",
+     "publishedAt": "2026-09-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-11",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 14,
+   "top": [
+    {
+     "id": "de3df9543f891c37",
+     "title": "과학의 다음 질문, 이제 AI가 고른다",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ea%b3%bc%ed%95%99%ec%9d%98-%eb%8b%a4%ec%9d%8c-%ec%a7%88%eb%ac%b8-%ec%9d%b4%ec%a0%9c-ai%ea%b0%80-%ea%b3%a0%eb%a5%b8%eb%8b%a4/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-11T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "b9ebc49d7a59cbf7",
+     "title": "[AI리더의 서가] 핸즈온 머신러닝 with 사이킷런. 파이토치",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216139",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-12T09:03:08.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-11",
+     "isNew": false
+    },
+    {
+     "id": "7cff735b8f79e6fa",
+     "title": "AIエージェント開発とは？進め方8ステップと費用相場・失敗しないコツ",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/10/278427/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e9%2596%258b%25e7%2599%25ba%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e9%2580%25b2%25e3%2582%2581%25e6%2596%25b98%25e3%2582%25b9%25e3%2583%2586%25e3%2583%2583%25e3%2583%2597%25e3%2581%25a8%25e8%25b2%25bb%25e7%2594%25a8",
+     "importance": 39,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-09T18:55:03.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-11",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "70877ccfd35c0eab",
+     "title": "Nvidia defends open source AI alliance, saying hundreds and hundreds of companies being vetted",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/09/nvidia-defends-open-secure-ai-alliance-saying-hundreds-and-hundreds-of-companies-being-vetted/",
+     "importance": 57,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-09T09:57:21.000Z",
+     "topics": [
+      "算力与基建",
+      "政策与治理"
+     ],
+     "entities": [
+      "OpenAI",
+      "NVIDIA",
+      "Mistral AI",
+      "Hugging Face"
+     ],
+     "firstSeen": "2026-10-11",
+     "isNew": false
+    },
+    {
+     "id": "beb72174bd5bf743",
+     "title": "Universal Quantum raises $100M, SAP buys TechWolf, and European startups raise five times more funding in September than August",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/09/universal-quantum-raises-100m-sap-buys-techwolf-and-european-startups-raise-five-times-more-funding-in-september-than-august/",
+     "importance": 52,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-09T14:39:24.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "SAP"
+     ],
+     "firstSeen": "2026-10-11",
+     "isNew": false
+    },
+    {
+     "id": "724feae846352c31",
+     "title": "Spanish Autentic AI raises €1.5M to accelerate AI-powered market research",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/09/spanish-autentic-ai-raises-eur15m-to-accelerate-ai-powered-market-research/",
+     "importance": 46,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-09T07:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-11",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "7305c08607dee785",
+     "title": "Will the HomeView be Apple’s first smart home success?",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-11T21:14:40.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Apple"
+     ],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "21a0e2e9cada62a1",
+     "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+     "importance": 80,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-11T16:52:33.000Z",
+     "topics": [
+      "算力与基建",
+      "政策与治理"
+     ],
+     "entities": [
+      "Amazon"
+     ],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "1989ae6cbebb0ae0",
+     "title": "Report: Amazon in talks with AI startup Decart over possible $7B acquisition",
+     "source": "SiliconANGLE",
+     "region": "NA",
+     "url": "https://siliconangle.com/2026/10/11/report-amazon-in-talks-with-ai-startup-decart-over-possible-7b-acquisition/",
+     "importance": 75,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-12T00:31:19.000Z",
+     "topics": [
+      "模型与能力",
+      "算力与基建"
+     ],
+     "entities": [
+      "Amazon"
+     ],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "72caf2400959ca29",
+     "title": "TechSparks masterclass: Gemini, AI, and the business of building better",
+     "source": "YourStory",
+     "region": "OTHER",
+     "url": "https://yourstory.com/2026/10/techsparks-masterclass-gemini-ai-and-the-business-of-building-better",
+     "importance": 60,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-11T06:16:34.000Z",
+     "topics": [
+      "模型与能力",
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "809f4762dc173348",
+     "title": "Anthropic discloses fake tip to police among new rogue AI incidents",
+     "source": "iTnews Australia",
+     "region": "OTHER",
+     "url": "https://www.itnews.com.au/news/anthropic-discloses-fake-tip-to-police-among-new-rogue-ai-incidents-629568?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+     "importance": 59,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-11T15:56:00.000Z",
+     "topics": [],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "edc7e24be1f04ac7",
+     "title": "CBA uses Atlassian tool to stay focused on $400m AI goal",
+     "source": "iTnews Australia",
+     "region": "OTHER",
+     "url": "https://www.itnews.com.au/news/cba-uses-atlassian-tool-to-stay-focused-on-400m-ai-goal-629566?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+     "importance": 57,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-11T20:48:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 12 日，共从 27 个信息源抓取 444 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 57 条发布于 24 小时内。其中 54 条是此前未出现过的新增内容，另有 104 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」51 条、「产品与应用」38 条。值得优先关注的几条：「全球芯片股反弹之际，韩国存储双雄跑输美光科技」（36氪）、「Manus被AI大厂重新定价」（钛媒体）、「【钛晨报】剑指“重上市、轻验证”，四部门联合发文划清汽车安全底线；经销商联谊会“批量”解散？茅台回应；蚂蚁“灵光”小范围内测，新版对标“Meta Muse”」（钛媒体）。"
+}
