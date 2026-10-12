@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-12",
- "generatedAt": "2026-10-12T01:11:35.111Z",
+ "generatedAt": "2026-10-12T04:19:36.522Z",
  "mode": "rule",
  "counts": {
-  "crawled": 444,
+  "crawled": 446,
   "published": 158,
-  "newCount": 54,
-  "repeatCount": 104,
+  "newCount": 67,
+  "repeatCount": 91,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,130 +22,135 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 57,
-  "withinFresh": 126,
+  "within24h": 67,
+  "withinFresh": 127,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
   "staleDropped": 35,
-  "newestAt": "2026-10-12T09:03:08.000Z"
+  "newestAt": "2026-10-12T12:58:17.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 51
+   "n": 50
   },
   {
    "name": "产品与应用",
-   "n": 38
+   "n": 41
   },
   {
    "name": "产业与生态",
-   "n": 20
+   "n": 18
   },
   {
    "name": "算力与基建",
-   "n": 19
-  },
-  {
-   "name": "模型与能力",
-   "n": 15
+   "n": 17
   },
   {
    "name": "政策与治理",
-   "n": 9
+   "n": 13
+  },
+  {
+   "name": "模型与能力",
+   "n": 13
   }
  ],
  "entities": [
   {
    "name": "Amazon",
-   "n": 7
-  },
-  {
-   "name": "Meta",
-   "n": 6
+   "n": 8
   },
   {
    "name": "Anthropic",
    "n": 6
   },
   {
+   "name": "OpenAI",
+   "n": 5
+  },
+  {
+   "name": "Microsoft",
+   "n": 5
+  },
+  {
+   "name": "Meta",
+   "n": 4
+  },
+  {
+   "name": "腾讯",
+   "n": 4
+  },
+  {
    "name": "Google",
    "n": 4
   },
   {
-   "name": "OpenAI",
-   "n": 4
-  },
-  {
-   "name": "Microsoft",
-   "n": 4
-  },
-  {
-   "name": "NVIDIA",
-   "n": 3
-  },
-  {
-   "name": "腾讯",
-   "n": 3
+   "name": "字节跳动",
+   "n": 2
   }
  ],
  "topOverall": [
   {
-   "id": "dc5415301411d8a5",
-   "title": "全球芯片股反弹之际，韩国存储双雄跑输美光科技",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4022152619167881?f=rss",
-   "importance": 99,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-12T00:33:26.000Z",
-   "topics": [
-    "算力与基建"
-   ],
-   "entities": [
-    "NVIDIA",
-    "台积电",
-    "三星"
-   ],
-   "firstSeen": "2026-10-12",
-   "isNew": true
-  },
-  {
-   "id": "d5d05cc4ab1ce9de",
-   "title": "Manus被AI大厂重新定价",
+   "id": "a5e4802bad42fa28",
+   "title": "Meta Muse引爆的这场“代理人战争”，字节和腾讯都坐不住了",
    "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8164195.html",
-   "importance": 90,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-11T04:38:00.000Z",
+   "url": "https://www.tmtpost.com/8164600.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-12T02:58:14.000Z",
    "topics": [
-    "资本与市场",
-    "产品与应用"
+    "产品与应用",
+    "模型与能力"
    ],
    "entities": [
+    "OpenAI",
     "Meta",
     "腾讯",
-    "Scale AI"
+    "字节跳动"
    ],
    "firstSeen": "2026-10-12",
    "isNew": true
   },
   {
-   "id": "7305c08607dee785",
-   "title": "Will the HomeView be Apple’s first smart home success?",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-   "importance": 87,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-11T21:14:40.000Z",
+   "id": "b23c1497403c86f2",
+   "title": "PCB周期走到哪了，不妨看看这家龙头的近况",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8164916.html",
+   "importance": 95,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-12T02:58:05.000Z",
    "topics": [
-    "产品与应用"
+    "算力与基建",
+    "资本与市场"
    ],
    "entities": [
-    "Apple"
+    "阿里巴巴",
+    "腾讯",
+    "字节跳动",
+    "百度"
+   ],
+   "firstSeen": "2026-10-12",
+   "isNew": true
+  },
+  {
+   "id": "ac02890de1e731ed",
+   "title": "Dropbox launches data access governance tool in Singapore",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/dropbox-launches-data-access-governance-tool-singapore",
+   "importance": 93,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-12T03:40:07.000Z",
+   "topics": [
+    "产品与应用",
+    "政策与治理"
+   ],
+   "entities": [
+    "Google",
+    "Microsoft"
    ],
    "firstSeen": "2026-10-12",
    "isNew": true
@@ -165,27 +170,6 @@
    ],
    "entities": [
     "Meta"
-   ],
-   "firstSeen": "2026-10-12",
-   "isNew": true
-  },
-  {
-   "id": "719656935957deb5",
-   "title": "3D 芯片堆得上去，未必堆得划算：量产卡在良率与成本",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8163821.html",
-   "importance": 86,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-11T04:27:20.000Z",
-   "topics": [
-    "算力与基建",
-    "产品与应用"
-   ],
-   "entities": [
-    "AMD",
-    "台积电",
-    "华为"
    ],
    "firstSeen": "2026-10-12",
    "isNew": true
@@ -212,40 +196,57 @@
    "isNew": true
   },
   {
-   "id": "82b5993189347cd9",
-   "title": "请来Claude老祖，谷歌能借Agent翻身吗？",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8164268.html",
+   "id": "7305c08607dee785",
+   "title": "Will the HomeView be Apple’s first smart home success?",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
    "importance": 83,
    "difficulty": "入门",
-   "publishedAt": "2026-10-11T04:50:00.000Z",
+   "publishedAt": "2026-10-11T21:14:40.000Z",
    "topics": [
-    "模型与能力",
     "产品与应用"
    ],
    "entities": [
-    "Google",
-    "Meta"
+    "Apple"
    ],
    "firstSeen": "2026-10-12",
    "isNew": true
   },
   {
-   "id": "6ae807a489d64761",
-   "title": "8点1氪丨尊界公布踏板升级时间；大闸蟹全线崩盘？中小规格跌至5元一只；世卫组织：俄不明原因肺炎事件，无持续传播证据",
+   "id": "32d3d2509853bc23",
+   "title": "宇树科技王兴兴：过去犯的最大错误是对AI还不够相信",
    "source": "36氪",
    "region": "CN",
-   "url": "https://36kr.com/p/4022129475948680?f=rss",
+   "url": "https://36kr.com/newsflashes/4022367230349440?f=rss",
    "importance": 82,
    "difficulty": "入门",
-   "publishedAt": "2026-10-12T00:04:23.000Z",
+   "publishedAt": "2026-10-12T04:03:32.000Z",
    "topics": [
     "产品与应用",
-    "产业与生态"
+    "模型与能力"
    ],
    "entities": [
-    "月之暗面"
+    "宇树科技"
+   ],
+   "firstSeen": "2026-10-12",
+   "isNew": true
+  },
+  {
+   "id": "9aca898bfb76fde3",
+   "title": "“欧拉万象”完成数亿元天使轮+融资",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4022315023404930?f=rss",
+   "importance": 82,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-12T04:00:00.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [
+    "华为"
    ],
    "firstSeen": "2026-10-12",
    "isNew": true
@@ -260,42 +261,45 @@
    "count": 24,
    "top": [
     {
-     "id": "dc5415301411d8a5",
-     "title": "全球芯片股反弹之际，韩国存储双雄跑输美光科技",
-     "source": "36氪",
+     "id": "a5e4802bad42fa28",
+     "title": "Meta Muse引爆的这场“代理人战争”，字节和腾讯都坐不住了",
+     "source": "钛媒体",
      "region": "CN",
-     "url": "https://36kr.com/newsflashes/4022152619167881?f=rss",
+     "url": "https://www.tmtpost.com/8164600.html",
      "importance": 99,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-12T00:33:26.000Z",
+     "difficulty": "入门",
+     "publishedAt": "2026-10-12T02:58:14.000Z",
      "topics": [
-      "算力与基建"
+      "产品与应用",
+      "模型与能力"
      ],
      "entities": [
-      "NVIDIA",
-      "台积电",
-      "三星"
+      "OpenAI",
+      "Meta",
+      "腾讯",
+      "字节跳动"
      ],
      "firstSeen": "2026-10-12",
      "isNew": true
     },
     {
-     "id": "d5d05cc4ab1ce9de",
-     "title": "Manus被AI大厂重新定价",
+     "id": "b23c1497403c86f2",
+     "title": "PCB周期走到哪了，不妨看看这家龙头的近况",
      "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8164195.html",
-     "importance": 90,
+     "url": "https://www.tmtpost.com/8164916.html",
+     "importance": 95,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-11T04:38:00.000Z",
+     "publishedAt": "2026-10-12T02:58:05.000Z",
      "topics": [
-      "资本与市场",
-      "产品与应用"
+      "算力与基建",
+      "资本与市场"
      ],
      "entities": [
-      "Meta",
+      "阿里巴巴",
       "腾讯",
-      "Scale AI"
+      "字节跳动",
+      "百度"
      ],
      "firstSeen": "2026-10-12",
      "isNew": true
@@ -329,31 +333,34 @@
    "count": 24,
    "top": [
     {
-     "id": "bbaf146ecdb8cf5d",
-     "title": "Meet the 20 top-funded startups and tech companies in Hong Kong",
+     "id": "ac02890de1e731ed",
+     "title": "Dropbox launches data access governance tool in Singapore",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/meet-20-topfunded-startups-tech-companies-hong-kong",
-     "importance": 72,
+     "url": "https://www.techinasia.com/news/dropbox-launches-data-access-governance-tool-singapore",
+     "importance": 93,
      "difficulty": "入门",
-     "publishedAt": "2026-10-11T09:00:00.000Z",
+     "publishedAt": "2026-10-12T03:40:07.000Z",
      "topics": [
-      "资本与市场",
-      "产业与生态"
+      "产品与应用",
+      "政策与治理"
      ],
-     "entities": [],
+     "entities": [
+      "Google",
+      "Microsoft"
+     ],
      "firstSeen": "2026-10-12",
      "isNew": true
     },
     {
-     "id": "f5c752563af8584c",
-     "title": "Singapore’s top-funded tech companies in the last decade",
+     "id": "bfda6a263ade2556",
+     "title": "South Korea’s startup funding, as explained in charts",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/visual-story/singapores-topfunded-tech-companies-decade",
-     "importance": 72,
+     "url": "https://www.techinasia.com/visual-story/capital-south-korea-south-koreas-funding-landscape",
+     "importance": 81,
      "difficulty": "入门",
-     "publishedAt": "2026-10-11T07:00:00.000Z",
+     "publishedAt": "2026-10-12T04:00:00.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -362,15 +369,17 @@
      "isNew": true
     },
     {
-     "id": "1e66440568134a2c",
-     "title": "Xpeng says it can adapt driver-assist AI with little data",
+     "id": "f76c73e3332d56b5",
+     "title": "JPMorgan, Syfe launch multi-asset income portfolio",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/xpeng-adapt-driverassist-ai-data",
-     "importance": 66,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-12T00:38:25.000Z",
-     "topics": [],
+     "url": "https://www.techinasia.com/news/jpmorgan-syfe-launch-multiasset-income-portfolio",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-12T02:46:53.000Z",
+     "topics": [
+      "产品与应用"
+     ],
      "entities": [],
      "firstSeen": "2026-10-12",
      "isNew": true
@@ -450,7 +459,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ea%b3%bc%ed%95%99%ec%9d%98-%eb%8b%a4%ec%9d%8c-%ec%a7%88%eb%ac%b8-%ec%9d%b4%ec%a0%9c-ai%ea%b0%80-%ea%b3%a0%eb%a5%b8%eb%8b%a4/",
-     "importance": 66,
+     "importance": 62,
      "difficulty": "进阶",
      "publishedAt": "2026-10-11T21:00:00.000Z",
      "topics": [],
@@ -459,18 +468,18 @@
      "isNew": true
     },
     {
-     "id": "b9ebc49d7a59cbf7",
-     "title": "[AI리더의 서가] 핸즈온 머신러닝 with 사이킷런. 파이토치",
+     "id": "858b2456a7d0b09c",
+     "title": "AI로 복제한 어도비 무료 대안 '아트크래프트' 등장…저작권 논란",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=216139",
-     "importance": 62,
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216149",
+     "importance": 56,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-12T09:03:08.000Z",
-     "topics": [
-      "模型与能力"
+     "publishedAt": "2026-10-12T12:58:17.000Z",
+     "topics": [],
+     "entities": [
+      "Adobe"
      ],
-     "entities": [],
      "firstSeen": "2026-10-11",
      "isNew": false
     },
@@ -500,61 +509,48 @@
    "count": 24,
    "top": [
     {
-     "id": "70877ccfd35c0eab",
-     "title": "Nvidia defends open source AI alliance, saying hundreds and hundreds of companies being vetted",
-     "source": "Tech.eu",
+     "id": "ab3018a7a4e0cc05",
+     "title": "Europe’s fastest-growing fintechs are queueing up for growth-stage funding rounds",
+     "source": "Sifted",
      "region": "EU",
-     "url": "https://tech.eu/2026/10/09/nvidia-defends-open-secure-ai-alliance-saying-hundreds-and-hundreds-of-companies-being-vetted/",
-     "importance": 57,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-09T09:57:21.000Z",
-     "topics": [
-      "算力与基建",
-      "政策与治理"
-     ],
-     "entities": [
-      "OpenAI",
-      "NVIDIA",
-      "Mistral AI",
-      "Hugging Face"
-     ],
-     "firstSeen": "2026-10-11",
-     "isNew": false
-    },
-    {
-     "id": "beb72174bd5bf743",
-     "title": "Universal Quantum raises $100M, SAP buys TechWolf, and European startups raise five times more funding in September than August",
-     "source": "Tech.eu",
-     "region": "EU",
-     "url": "https://tech.eu/2026/10/09/universal-quantum-raises-100m-sap-buys-techwolf-and-european-startups-raise-five-times-more-funding-in-september-than-august/",
-     "importance": 52,
+     "url": "https://sifted.eu/articles/europes-fastest-growing-fintechs-are-queueing-up-for-growth-stage-funding-rounds/",
+     "importance": 81,
      "difficulty": "入门",
-     "publishedAt": "2026-10-09T14:39:24.000Z",
+     "publishedAt": "2026-10-12T05:00:58.000Z",
      "topics": [
       "资本与市场"
      ],
-     "entities": [
-      "SAP"
-     ],
-     "firstSeen": "2026-10-11",
-     "isNew": false
+     "entities": [],
+     "firstSeen": "2026-10-12",
+     "isNew": true
     },
     {
-     "id": "724feae846352c31",
-     "title": "Spanish Autentic AI raises €1.5M to accelerate AI-powered market research",
-     "source": "Tech.eu",
+     "id": "51ae27a078e013b4",
+     "title": "The ‘biggest threat’ China poses for European startups isn’t what you think",
+     "source": "Sifted",
      "region": "EU",
-     "url": "https://tech.eu/2026/10/09/spanish-autentic-ai-raises-eur15m-to-accelerate-ai-powered-market-research/",
-     "importance": 46,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-09T07:00:00.000Z",
-     "topics": [
-      "资本与市场",
-      "产业与生态"
-     ],
+     "url": "https://sifted.eu/articles/threat-china-european-startups-supply-chain/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-12T05:00:56.000Z",
+     "topics": [],
      "entities": [],
-     "firstSeen": "2026-10-11",
-     "isNew": false
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "da6a623b5187daf7",
+     "title": "Exclusive: Project Europe cofounders step down as fund readies next chapter",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/project-europe-founders-step-down-reshuffle/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-12T05:00:35.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-12",
+     "isNew": true
     }
    ]
   },
@@ -571,7 +567,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-     "importance": 87,
+     "importance": 83,
      "difficulty": "入门",
      "publishedAt": "2026-10-11T21:14:40.000Z",
      "topics": [
@@ -631,6 +627,39 @@
    "count": 24,
    "top": [
     {
+     "id": "262cc7fe04b4b083",
+     "title": "India’s Cleantech Funding Boom, The AI Safety Drill & More",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/indias-cleantech-funding-boom-the-ai-safety-drill-more/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-12T02:30:03.000Z",
+     "topics": [
+      "资本与市场",
+      "政策与治理"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
+     "id": "791db8b8074b7aeb",
+     "title": "Ecomm festive sales hit Rs 24,000 Cr in two days; VC funding drops as large deals dry up",
+     "source": "YourStory",
+     "region": "OTHER",
+     "url": "https://yourstory.com/2026/10/ecomm-festive-sales-hit-rs-24000-cr-in-two-days",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-12T02:25:35.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-12",
+     "isNew": true
+    },
+    {
      "id": "72caf2400959ca29",
      "title": "TechSparks masterclass: Gemini, AI, and the business of building better",
      "source": "YourStory",
@@ -646,39 +675,9 @@
      "entities": [],
      "firstSeen": "2026-10-12",
      "isNew": true
-    },
-    {
-     "id": "809f4762dc173348",
-     "title": "Anthropic discloses fake tip to police among new rogue AI incidents",
-     "source": "iTnews Australia",
-     "region": "OTHER",
-     "url": "https://www.itnews.com.au/news/anthropic-discloses-fake-tip-to-police-among-new-rogue-ai-incidents-629568?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-     "importance": 59,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-11T15:56:00.000Z",
-     "topics": [],
-     "entities": [
-      "Anthropic"
-     ],
-     "firstSeen": "2026-10-12",
-     "isNew": true
-    },
-    {
-     "id": "edc7e24be1f04ac7",
-     "title": "CBA uses Atlassian tool to stay focused on $400m AI goal",
-     "source": "iTnews Australia",
-     "region": "OTHER",
-     "url": "https://www.itnews.com.au/news/cba-uses-atlassian-tool-to-stay-focused-on-400m-ai-goal-629566?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-     "importance": 57,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-11T20:48:00.000Z",
-     "topics": [],
-     "entities": [],
-     "firstSeen": "2026-10-12",
-     "isNew": true
     }
    ]
   }
  ],
- "overview": "10 月 12 日，共从 27 个信息源抓取 444 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 57 条发布于 24 小时内。其中 54 条是此前未出现过的新增内容，另有 104 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」51 条、「产品与应用」38 条。值得优先关注的几条：「全球芯片股反弹之际，韩国存储双雄跑输美光科技」（36氪）、「Manus被AI大厂重新定价」（钛媒体）、「【钛晨报】剑指“重上市、轻验证”，四部门联合发文划清汽车安全底线；经销商联谊会“批量”解散？茅台回应；蚂蚁“灵光”小范围内测，新版对标“Meta Muse”」（钛媒体）。"
+ "overview": "10 月 12 日，共从 27 个信息源抓取 446 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 67 条发布于 24 小时内。其中 67 条是此前未出现过的新增内容，另有 91 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」50 条、「产品与应用」41 条。值得优先关注的几条：「Meta Muse引爆的这场“代理人战争”，字节和腾讯都坐不住了」（钛媒体）、「PCB周期走到哪了，不妨看看这家龙头的近况」（钛媒体）、「【钛晨报】剑指“重上市、轻验证”，四部门联合发文划清汽车安全底线；经销商联谊会“批量”解散？茅台回应；蚂蚁“灵光”小范围内测，新版对标“Meta Muse”」（钛媒体）。"
 }
