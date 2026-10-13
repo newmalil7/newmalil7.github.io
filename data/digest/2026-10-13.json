@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-13",
- "generatedAt": "2026-10-13T01:11:26.646Z",
+ "generatedAt": "2026-10-13T04:20:28.491Z",
  "mode": "rule",
  "counts": {
-  "crawled": 443,
+  "crawled": 411,
   "published": 159,
-  "newCount": 118,
-  "repeatCount": 41,
+  "newCount": 130,
+  "repeatCount": 29,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -17,27 +17,27 @@
    "NA": 24,
    "OTHER": 24
   },
-  "sourceOk": 27,
+  "sourceOk": 25,
   "sourceTotal": 30,
   "regions": 7
  },
  "freshness": {
-  "within24h": 127,
-  "withinFresh": 132,
+  "within24h": 132,
+  "withinFresh": 135,
   "freshHours": 72,
   "monthPrecision": 14,
   "undated": 0,
-  "staleDropped": 34,
-  "newestAt": "2026-10-13T09:00:00.000Z"
+  "staleDropped": 27,
+  "newestAt": "2026-10-13T11:58:00.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 59
+   "n": 63
   },
   {
    "name": "产品与应用",
-   "n": 45
+   "n": 42
   },
   {
    "name": "产业与生态",
@@ -45,15 +45,15 @@
   },
   {
    "name": "模型与能力",
-   "n": 18
+   "n": 20
   },
   {
    "name": "算力与基建",
-   "n": 15
+   "n": 16
   },
   {
    "name": "政策与治理",
-   "n": 14
+   "n": 11
   }
  ],
  "entities": [
@@ -62,73 +62,92 @@
    "n": 8
   },
   {
-   "name": "Microsoft",
-   "n": 7
-  },
-  {
-   "name": "NVIDIA",
+   "name": "Anthropic",
    "n": 6
   },
   {
-   "name": "字节跳动",
-   "n": 5
+   "name": "Microsoft",
+   "n": 6
   },
   {
-   "name": "腾讯",
+   "name": "OpenAI",
    "n": 5
-  },
-  {
-   "name": "DeepSeek",
-   "n": 3
   },
   {
    "name": "Google",
-   "n": 3
+   "n": 4
   },
   {
-   "name": "Amazon",
+   "name": "阿里巴巴",
+   "n": 4
+  },
+  {
+   "name": "NVIDIA",
+   "n": 4
+  },
+  {
+   "name": "字节跳动",
    "n": 3
   }
  ],
  "topOverall": [
   {
-   "id": "8f0b6e256cf0cf18",
-   "title": "新版TRAE实测：让开发的归开发，办公的归办公",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8165800.html",
+   "id": "330b030a26206416",
+   "title": "Meta launches Muse Wonder to rival OpenAI, Anthropic",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/meta-launches-muse-rival-openai-anthropic",
    "importance": 99,
    "difficulty": "入门",
-   "publishedAt": "2026-10-13T00:26:00.000Z",
+   "publishedAt": "2026-10-13T03:11:18.000Z",
    "topics": [
-    "产品与应用",
-    "模型与能力"
+    "产品与应用"
    ],
    "entities": [
-    "字节跳动",
-    "DeepSeek"
+    "OpenAI",
+    "Anthropic",
+    "Meta"
    ],
    "firstSeen": "2026-10-13",
    "isNew": true
   },
   {
-   "id": "fb3ecd3f910c7312",
-   "title": "曝梁文锋密集见机器人创业者；影石出货量累计突破1000万台；Meta发布Muse Wonder模型｜极客早知道",
-   "source": "极客公园",
+   "id": "4616d87e55720471",
+   "title": "Muse Wonder肘击Astra，Meta杀回模型前沿",
+   "source": "钛媒体",
    "region": "CN",
-   "url": "http://www.geekpark.net/news/372264",
-   "importance": 98,
+   "url": "https://www.tmtpost.com/8166180.html",
+   "importance": 99,
    "difficulty": "入门",
-   "publishedAt": "2026-10-13T00:27:49.000Z",
+   "publishedAt": "2026-10-13T02:12:00.000Z",
    "topics": [
     "模型与能力",
     "产品与应用"
    ],
    "entities": [
-    "Meta",
-    "腾讯",
-    "DeepSeek",
-    "宇树科技"
+    "OpenAI",
+    "Anthropic",
+    "Meta"
+   ],
+   "firstSeen": "2026-10-13",
+   "isNew": true
+  },
+  {
+   "id": "bb6606e0cec5acec",
+   "title": "Meta、OpenAI、Google集体杀入，个人Agent一夜爆红：YC CEO说真正的 AGI 已经在你电脑里",
+   "source": "InfoQ 中国",
+   "region": "CN",
+   "url": "https://www.infoq.cn/article/pkFg3POvaTwJt9lei8Vj?utm_source=rss&utm_medium=article",
+   "importance": 96,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-13T11:45:54.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Google",
+    "Meta"
    ],
    "firstSeen": "2026-10-13",
    "isNew": true
@@ -156,101 +175,79 @@
    "isNew": true
   },
   {
-   "id": "4b0e6ba1b91043dd",
-   "title": "大厂围堵下，Manus值不值40亿美元？",
+   "id": "50607c3e4a1a4058",
+   "title": "“大模型时代的谷歌，可能永远不会出现”",
    "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8165857.html",
-   "importance": 90,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-13T00:55:00.000Z",
+   "url": "https://www.tmtpost.com/8166394.html",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-13T02:42:00.000Z",
    "topics": [
-    "产品与应用",
+    "模型与能力",
     "资本与市场"
    ],
    "entities": [
-    "Meta"
+    "OpenAI",
+    "Anthropic",
+    "Meta",
+    "阿里巴巴"
    ],
    "firstSeen": "2026-10-13",
    "isNew": true
   },
   {
-   "id": "6a9a68fc705fa0fb",
-   "title": "Microsoft debuts multichiplet Maia 300 inference accelerator",
-   "source": "SiliconANGLE",
-   "region": "NA",
-   "url": "https://siliconangle.com/2026/10/12/microsoft-debuts-multichiplet-maia-300-inference-accelerator/",
-   "importance": 89,
+   "id": "d0c448e6031078a0",
+   "title": "人均代码产出提升 14.6%，亚信科技万人 AI Coding 跃迁之路",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8164914.html",
+   "importance": 91,
    "difficulty": "进阶",
-   "publishedAt": "2026-10-12T20:11:12.000Z",
+   "publishedAt": "2026-10-13T02:10:35.000Z",
+   "topics": [
+    "产品与应用",
+    "产业与生态"
+   ],
+   "entities": [
+    "阿里巴巴"
+   ],
+   "firstSeen": "2026-10-13",
+   "isNew": true
+  },
+  {
+   "id": "655c60955ab88a2c",
+   "title": "Intel, Broadcom warn financing could constrain AI growth",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/intel-broadcom-warn-financing-constrain-ai-growth",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-13T04:19:06.000Z",
    "topics": [
     "算力与基建"
    ],
    "entities": [
-    "Microsoft",
-    "NVIDIA"
+    "Intel",
+    "博通"
    ],
    "firstSeen": "2026-10-13",
    "isNew": true
   },
   {
-   "id": "f837e4842e0b2fef",
-   "title": "AI 办公大战，盯上了企业的人力预算",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8165026.html",
+   "id": "2f09747730c4dbdf",
+   "title": "Mesa School Bags ₹110 Cr To Launch New On-Campus Courses",
+   "source": "Inc42",
+   "region": "OTHER",
+   "url": "https://inc42.com/buzz/mesa-school-bags-%e2%82%b9110-cr-to-launch-new-on-campus-courses/",
    "importance": 89,
    "difficulty": "入门",
-   "publishedAt": "2026-10-12T09:45:21.000Z",
-   "topics": [
-    "产品与应用",
-    "产业与生态"
-   ],
-   "entities": [
-    "阿里巴巴",
-    "腾讯",
-    "Salesforce"
-   ],
-   "firstSeen": "2026-10-13",
-   "isNew": true
-  },
-  {
-   "id": "c2f32737690aee25",
-   "title": "美的太子孵化的机器人，烧光6亿后破产了？",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8165609.html",
-   "importance": 88,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-13T00:00:00.000Z",
-   "topics": [
-    "资本与市场",
-    "产业与生态"
-   ],
-   "entities": [
-    "字节跳动",
-    "小米"
-   ],
-   "firstSeen": "2026-10-13",
-   "isNew": true
-  },
-  {
-   "id": "108ccc33e0f39995",
-   "title": "【钛晨报】证监会：探索更加适配创新型中小企业的制度和实践；两部门：明年4月起，将新能源汽车的增值税出口退税率由13%下调至9%；十余个品牌发文祝贺郑钦文中网夺冠，一年收入约达1.5亿元",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8165963.html",
-   "importance": 88,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-12T23:20:00.000Z",
+   "publishedAt": "2026-10-13T00:30:58.000Z",
    "topics": [
     "资本与市场",
     "产品与应用"
    ],
-   "entities": [
-    "NVIDIA",
-    "腾讯"
-   ],
+   "entities": [],
    "firstSeen": "2026-10-13",
    "isNew": true
   }
@@ -264,43 +261,42 @@
    "count": 24,
    "top": [
     {
-     "id": "8f0b6e256cf0cf18",
-     "title": "新版TRAE实测：让开发的归开发，办公的归办公",
+     "id": "4616d87e55720471",
+     "title": "Muse Wonder肘击Astra，Meta杀回模型前沿",
      "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8165800.html",
+     "url": "https://www.tmtpost.com/8166180.html",
      "importance": 99,
      "difficulty": "入门",
-     "publishedAt": "2026-10-13T00:26:00.000Z",
-     "topics": [
-      "产品与应用",
-      "模型与能力"
-     ],
-     "entities": [
-      "字节跳动",
-      "DeepSeek"
-     ],
-     "firstSeen": "2026-10-13",
-     "isNew": true
-    },
-    {
-     "id": "fb3ecd3f910c7312",
-     "title": "曝梁文锋密集见机器人创业者；影石出货量累计突破1000万台；Meta发布Muse Wonder模型｜极客早知道",
-     "source": "极客公园",
-     "region": "CN",
-     "url": "http://www.geekpark.net/news/372264",
-     "importance": 98,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-13T00:27:49.000Z",
+     "publishedAt": "2026-10-13T02:12:00.000Z",
      "topics": [
       "模型与能力",
       "产品与应用"
      ],
      "entities": [
-      "Meta",
-      "腾讯",
-      "DeepSeek",
-      "宇树科技"
+      "OpenAI",
+      "Anthropic",
+      "Meta"
+     ],
+     "firstSeen": "2026-10-13",
+     "isNew": true
+    },
+    {
+     "id": "bb6606e0cec5acec",
+     "title": "Meta、OpenAI、Google集体杀入，个人Agent一夜爆红：YC CEO说真正的 AGI 已经在你电脑里",
+     "source": "InfoQ 中国",
+     "region": "CN",
+     "url": "https://www.infoq.cn/article/pkFg3POvaTwJt9lei8Vj?utm_source=rss&utm_medium=article",
+     "importance": 96,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-13T11:45:54.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Google",
+      "Meta"
      ],
      "firstSeen": "2026-10-13",
      "isNew": true
@@ -337,56 +333,57 @@
    "count": 24,
    "top": [
     {
-     "id": "2624074cc7969921",
-     "title": "Inside OGP’s startup-style gov’t team",
+     "id": "330b030a26206416",
+     "title": "Meta launches Muse Wonder to rival OpenAI, Anthropic",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/ogps-startupstyle-govt-team",
-     "importance": 81,
+     "url": "https://www.techinasia.com/news/meta-launches-muse-rival-openai-anthropic",
+     "importance": 99,
      "difficulty": "入门",
-     "publishedAt": "2026-10-13T00:30:10.000Z",
+     "publishedAt": "2026-10-13T03:11:18.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "Meta"
+     ],
+     "firstSeen": "2026-10-13",
+     "isNew": true
+    },
+    {
+     "id": "655c60955ab88a2c",
+     "title": "Intel, Broadcom warn financing could constrain AI growth",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/intel-broadcom-warn-financing-constrain-ai-growth",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-13T04:19:06.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Intel",
+      "博通"
+     ],
+     "firstSeen": "2026-10-13",
+     "isNew": true
+    },
+    {
+     "id": "cbe1c33772a2dce7",
+     "title": "Neu Battery Materials raises $7.6m to scale LFP recycling",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/neu-battery-materials-raises-76m-scale-lfp-recycling",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-13T03:35:47.000Z",
      "topics": [
       "资本与市场"
      ],
      "entities": [],
-     "firstSeen": "2026-10-13",
-     "isNew": true
-    },
-    {
-     "id": "3c592f2654bf3a0c",
-     "title": "Nvidia weighs investing in or buying Reflection AI",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/nvidia-weighs-investing-buying-reflection-ai",
-     "importance": 81,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-12T10:22:46.000Z",
-     "topics": [
-      "算力与基建",
-      "产品与应用"
-     ],
-     "entities": [
-      "DeepMind",
-      "NVIDIA"
-     ],
-     "firstSeen": "2026-10-13",
-     "isNew": true
-    },
-    {
-     "id": "3c807a482b51362f",
-     "title": "Moonshot faces $700m shareholder dispute ahead of HK IPO",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/moonshot-faces-700m-shareholder-dispute-hk-ipo",
-     "importance": 79,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-12T06:13:09.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [
-      "月之暗面"
-     ],
      "firstSeen": "2026-10-13",
      "isNew": true
     }
@@ -496,18 +493,20 @@
      "isNew": true
     },
     {
-     "id": "48067066b80fc737",
-     "title": "위고비·마운자로, 체중 감량 넘어 노화도 늦출까",
-     "source": "MIT Technology Review Korea",
+     "id": "936038edd36528e5",
+     "title": "카르파시가 진단한 AI 활용 격차...\"날카로운 깔때기 형태로 벌어져\"",
+     "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.technologyreview.kr/%eb%b9%84%eb%a7%8c-%ec%b9%98%eb%a3%8c%ec%a0%9c%ea%b0%80-%ec%83%9d%eb%ac%bc%ed%95%99%ec%a0%81-%eb%85%b8%ed%99%94%eb%a5%bc-%eb%8a%a6%ec%b6%9c-%ec%88%98-%ec%9e%88%ec%9d%84%ec%a7%80%eb%8f%84-%eb%aa%a8/",
-     "importance": 66,
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216191",
+     "importance": 62,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-12T21:00:00.000Z",
-     "topics": [],
+     "publishedAt": "2026-10-13T11:58:00.000Z",
+     "topics": [
+      "模型与能力"
+     ],
      "entities": [],
-     "firstSeen": "2026-10-13",
-     "isNew": true
+     "firstSeen": "2026-10-12",
+     "isNew": false
     }
    ]
   },
@@ -524,7 +523,7 @@
      "source": "Sifted",
      "region": "EU",
      "url": "https://sifted.eu/articles/energy-unicorn-1komma5-raises-e70m-as-ipo-plans-remain-on-ice/",
-     "importance": 85,
+     "importance": 80,
      "difficulty": "入门",
      "publishedAt": "2026-10-12T15:03:56.000Z",
      "topics": [
@@ -577,25 +576,6 @@
    "count": 24,
    "top": [
     {
-     "id": "6a9a68fc705fa0fb",
-     "title": "Microsoft debuts multichiplet Maia 300 inference accelerator",
-     "source": "SiliconANGLE",
-     "region": "NA",
-     "url": "https://siliconangle.com/2026/10/12/microsoft-debuts-multichiplet-maia-300-inference-accelerator/",
-     "importance": 89,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-12T20:11:12.000Z",
-     "topics": [
-      "算力与基建"
-     ],
-     "entities": [
-      "Microsoft",
-      "NVIDIA"
-     ],
-     "firstSeen": "2026-10-13",
-     "isNew": true
-    },
-    {
      "id": "79ec02a5852e0401",
      "title": "Meta releases its first frontier model, Muse Wonder",
      "source": "TechCrunch AI",
@@ -615,19 +595,39 @@
      "isNew": true
     },
     {
-     "id": "69a54bf5d50abe00",
-     "title": "Microsoft president says UK is best placed to drive AI regulation",
-     "source": "TechCrunch AI",
+     "id": "6a9a68fc705fa0fb",
+     "title": "Microsoft debuts multichiplet Maia 300 inference accelerator",
+     "source": "SiliconANGLE",
      "region": "NA",
-     "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
-     "importance": 87,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-12T15:31:19.000Z",
+     "url": "https://siliconangle.com/2026/10/12/microsoft-debuts-multichiplet-maia-300-inference-accelerator/",
+     "importance": 85,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-12T20:11:12.000Z",
      "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Microsoft",
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-13",
+     "isNew": true
+    },
+    {
+     "id": "42d96b84e74792af",
+     "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
+     "source": "Ars Technica AI",
+     "region": "NA",
+     "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-12T18:21:36.000Z",
+     "topics": [
+      "模型与能力",
       "政策与治理"
      ],
      "entities": [
-      "Microsoft"
+      "Anthropic"
      ],
      "firstSeen": "2026-10-13",
      "isNew": true
@@ -642,32 +642,31 @@
    "count": 24,
    "top": [
     {
-     "id": "dd3a3bd54862965d",
-     "title": "Microsoft president says milk faces more regulation than AI",
-     "source": "iTnews Australia",
+     "id": "2f09747730c4dbdf",
+     "title": "Mesa School Bags ₹110 Cr To Launch New On-Campus Courses",
+     "source": "Inc42",
      "region": "OTHER",
-     "url": "https://www.itnews.com.au/news/microsoft-president-says-milk-faces-more-regulation-than-ai-629587?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-     "importance": 82,
+     "url": "https://inc42.com/buzz/mesa-school-bags-%e2%82%b9110-cr-to-launch-new-on-campus-courses/",
+     "importance": 89,
      "difficulty": "入门",
-     "publishedAt": "2026-10-12T20:24:00.000Z",
+     "publishedAt": "2026-10-13T00:30:58.000Z",
      "topics": [
-      "政策与治理"
+      "资本与市场",
+      "产品与应用"
      ],
-     "entities": [
-      "Microsoft"
-     ],
+     "entities": [],
      "firstSeen": "2026-10-13",
      "isNew": true
     },
     {
-     "id": "88f44585a5d3a15e",
-     "title": "Whizzo To Raise $26 Mn From Aavishkaar Capital, Bertelsmann",
-     "source": "Inc42",
+     "id": "91bc7fc18df9d9b6",
+     "title": "Agentic video startup Clueso raises $10M in Series A funding round",
+     "source": "YourStory",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/manufacturing-startup-whizzo-to-raise-26-mn-from-aavishkar-capital-bertelsmann/",
-     "importance": 81,
+     "url": "https://yourstory.com/2026/10/agentic-video-startup-clueso-raises-series-a-funding",
+     "importance": 80,
      "difficulty": "入门",
-     "publishedAt": "2026-10-12T15:32:18.000Z",
+     "publishedAt": "2026-10-13T02:30:00.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -694,5 +693,5 @@
    ]
   }
  ],
- "overview": "10 月 13 日，共从 27 个信息源抓取 443 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 127 条发布于 24 小时内。其中 118 条是此前未出现过的新增内容，另有 41 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」59 条、「产品与应用」45 条。值得优先关注的几条：「新版TRAE实测：让开发的归开发，办公的归办公」（钛媒体）、「曝梁文锋密集见机器人创业者；影石出货量累计突破1000万台；Meta发布Muse Wonder模型｜极客早知道」（极客公园）、「早报｜对话库克：Apple Watch要做「个人守护者」/华为折叠屏出货量突破2000万台/DeepSeek拟入局具身智能」（爱范儿）。"
+ "overview": "10 月 13 日，共从 25 个信息源抓取 411 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 132 条发布于 24 小时内。其中 130 条是此前未出现过的新增内容，另有 29 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」63 条、「产品与应用」42 条。值得优先关注的几条：「Muse Wonder肘击Astra，Meta杀回模型前沿」（钛媒体）、「Meta、OpenAI、Google集体杀入，个人Agent一夜爆红：YC CEO说真正的 AGI 已经在你电脑里」（InfoQ 中国）、「早报｜对话库克：Apple Watch要做「个人守护者」/华为折叠屏出货量突破2000万台/DeepSeek拟入局具身智能」（爱范儿）。"
 }
