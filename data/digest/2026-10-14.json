@@ -1,0 +1,682 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-14",
+ "generatedAt": "2026-10-14T01:23:08.156Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 438,
+  "published": 156,
+  "newCount": 125,
+  "repeatCount": 31,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 12,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 27,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 127,
+  "withinFresh": 131,
+  "freshHours": 72,
+  "monthPrecision": 19,
+  "undated": 0,
+  "staleDropped": 40,
+  "newestAt": "2026-10-14T09:00:00.000Z"
+ },
+ "themes": [
+  {
+   "name": "产品与应用",
+   "n": 67
+  },
+  {
+   "name": "资本与市场",
+   "n": 52
+  },
+  {
+   "name": "模型与能力",
+   "n": 20
+  },
+  {
+   "name": "产业与生态",
+   "n": 15
+  },
+  {
+   "name": "算力与基建",
+   "n": 15
+  },
+  {
+   "name": "政策与治理",
+   "n": 11
+  }
+ ],
+ "entities": [
+  {
+   "name": "Google",
+   "n": 11
+  },
+  {
+   "name": "Apple",
+   "n": 7
+  },
+  {
+   "name": "字节跳动",
+   "n": 6
+  },
+  {
+   "name": "NVIDIA",
+   "n": 6
+  },
+  {
+   "name": "阿里巴巴",
+   "n": 4
+  },
+  {
+   "name": "Meta",
+   "n": 4
+  },
+  {
+   "name": "腾讯",
+   "n": 3
+  },
+  {
+   "name": "OpenAI",
+   "n": 3
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "78a2b5b512a762fc",
+   "title": "8点1氪丨茶百道涉IPO欺诈，被暂停交易；苹果连夜发布3款智能家居新品，总市值再创历史新高；DeepSeek将完成1000亿元融资",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4025027267580036?f=rss",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-14T01:11:48.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "腾讯",
+    "字节跳动",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-14",
+   "isNew": true
+  },
+  {
+   "id": "9eb510043e4462e3",
+   "title": "早报｜苹果发布十多款「果家」新品/Gemini 4来了，写代码更省心/3999元，阶跃智能体手机发布",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1684137?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-14T00:08:24.000Z",
+   "topics": [
+    "产品与应用",
+    "算力与基建"
+   ],
+   "entities": [
+    "Apple",
+    "NVIDIA",
+    "阿里巴巴",
+    "字节跳动"
+   ],
+   "firstSeen": "2026-10-14",
+   "isNew": true
+  },
+  {
+   "id": "014d57d2afdaa77a",
+   "title": "独家丨字节最早天使投资人，投了一家 AI 音乐硬件公司",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/weiwu/i0pZU5QKhkvoVvig.html",
+   "importance": 93,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-13T09:20:00.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [
+    "字节跳动",
+    "百度",
+    "华为"
+   ],
+   "firstSeen": "2026-10-14",
+   "isNew": true
+  },
+  {
+   "id": "377571e28205bece",
+   "title": "【钛晨报】“求索”4.0上线！国内首个人工智能全产业链评测基准发布；重庆市委原副书记、市政府原市长黄奇帆被查；DeepSeek据称将完成1000亿元融资",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8167674.html",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-13T23:20:00.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-14",
+   "isNew": true
+  },
+  {
+   "id": "c38e68156b308e29",
+   "title": "手机解锁先见 AI，不再先找 App：阶跃星辰首款智能体手机来了，定价 3999",
+   "source": "InfoQ 中国",
+   "region": "CN",
+   "url": "https://www.infoq.cn/article/p2TobACROBC8UBPlRKXx?utm_source=rss&utm_medium=article",
+   "importance": 91,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-13T22:26:45.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "阶跃星辰"
+   ],
+   "firstSeen": "2026-10-14",
+   "isNew": true
+  },
+  {
+   "id": "caad3210c98e87c9",
+   "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-13T20:36:44.000Z",
+   "topics": [
+    "政策与治理",
+    "产业与生态"
+   ],
+   "entities": [
+    "OpenAI",
+    "Apple"
+   ],
+   "firstSeen": "2026-10-14",
+   "isNew": true
+  },
+  {
+   "id": "fb9f927bbea46c93",
+   "title": "所有App都在塞AI，但用户已经烦了",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8167377.html",
+   "importance": 88,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-14T01:02:43.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [],
+   "firstSeen": "2026-10-14",
+   "isNew": true
+  },
+  {
+   "id": "513c464ec0d6ac1f",
+   "title": "Facebook is giving users more control over their algorithm",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-13T18:05:24.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "Meta"
+   ],
+   "firstSeen": "2026-10-14",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "78a2b5b512a762fc",
+     "title": "8点1氪丨茶百道涉IPO欺诈，被暂停交易；苹果连夜发布3款智能家居新品，总市值再创历史新高；DeepSeek将完成1000亿元融资",
+     "source": "36氪",
+     "region": "CN",
+     "url": "https://36kr.com/p/4025027267580036?f=rss",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-14T01:11:48.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "腾讯",
+      "字节跳动",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "9eb510043e4462e3",
+     "title": "早报｜苹果发布十多款「果家」新品/Gemini 4来了，写代码更省心/3999元，阶跃智能体手机发布",
+     "source": "爱范儿",
+     "region": "CN",
+     "url": "https://www.ifanr.com/1684137?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-14T00:08:24.000Z",
+     "topics": [
+      "产品与应用",
+      "算力与基建"
+     ],
+     "entities": [
+      "Apple",
+      "NVIDIA",
+      "阿里巴巴",
+      "字节跳动"
+     ],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "014d57d2afdaa77a",
+     "title": "独家丨字节最早天使投资人，投了一家 AI 音乐硬件公司",
+     "source": "雷峰网",
+     "region": "CN",
+     "url": "https://www.leiphone.com/category/weiwu/i0pZU5QKhkvoVvig.html",
+     "importance": 93,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-13T09:20:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "字节跳动",
+      "百度",
+      "华为"
+     ],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "ff1c899c3bd3bc2e",
+     "title": "Tencent raises $5.7b in bonds as AI spending grows",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/tencent-raises-57b-bonds-ai-spending-grows",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-14T01:17:21.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "腾讯"
+     ],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "9a5e71dd30b98e68",
+     "title": "Jio Platforms draws $20b in bids for planned IPO",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/jio-platforms-draws-20b-bids-planned-ipo",
+     "importance": 86,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-13T23:52:27.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "f5cf3dd5d2e9d8c3",
+     "title": "Bumble to go private in $1.3b deal as revenue falls",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/bumble-private-13b-deal-revenue-falls",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-14T01:01:10.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "2adb904b7ff1451a",
+     "title": "Companies must rethink how they build and scale intelligence, says AMD official",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/companies-must-rethink-how-they-build-and-scale-intelligence-says-amd-official/",
+     "importance": 69,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-13T05:36:34.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "AMD"
+     ],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "3950499be51eb024",
+     "title": "Enterprise AI needs capacity planning, not just more GPUs: Mohamed Yasser",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/enterprise-ai-needs-capacity-planning-not-just-more-gpus-says-mohamed-yasser/",
+     "importance": 65,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-13T18:29:03.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "c1698553b3dd4ce9",
+     "title": "Mannai explores sports tech and the Gulf’s connected future",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/features/mannai-explores-sports-tech-and-the-gulfs-connected-future/",
+     "importance": 63,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-13T11:46:07.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 12,
+   "top": [
+    {
+     "id": "a6ac3662a010b00c",
+     "title": "AI 안전을 지키는 ‘거부’의 역설",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/ai-%ec%95%88%ec%a0%84%ec%9d%84-%ec%a7%80%ed%82%a4%eb%8a%94-%ea%b1%b0%eb%b6%80%ec%9d%98-%ec%97%ad%ec%84%a4/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-13T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "d057c6a663cf5ba3",
+     "title": "스타트업 '유연한', 글로벌 지원사업 선정…AI 기반 프로그램 운영 플랫폼 개발 박차",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216218",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-14T09:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-13",
+     "isNew": false
+    },
+    {
+     "id": "d1a7fe08527ffaec",
+     "title": "AIエージェントを自作する3つの方法！初心者でも無料から始められる手順",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/12/278433/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2582%2592%25e8%2587%25aa%25e4%25bd%259c%25e3%2581%2599%25e3%2582%258b3%25e3%2581%25a4%25e3%2581%25ae%25e6%2596%25b9%25e6%25b3%2595%25ef%25bc%2581%25e5%2588%259d%25e5%25bf%2583%25e8%2580%2585%25e3%2581%25a7%25e3%2582%2582",
+     "importance": 49,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-12T13:00:55.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-13",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "480d09ad20d8a2e4",
+     "title": "Nvidia announces billion-dollar investments in European tech",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/nvidia-announces-billion-dollar-investments-in-european-tech/",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-13T21:09:39.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "7a1ffde557e69a28",
+     "title": "UK launches refugee-focused venture fund with initial £300,000 investment",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/13/uk-launches-refugee-focused-venture-fund-with-initial-ps300000-investment/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-13T23:01:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "b4eb1a9fcf187b6e",
+     "title": "Accenture acquires UK customer intelligence firm Sagacity to strengthen AI and data capabilities",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/13/accenture-acquires-uk-customer-intelligence-firm-sagacity-to-strengthen-ai-and-data-capabilities/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-13T14:36:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "caad3210c98e87c9",
+     "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-13T20:36:44.000Z",
+     "topics": [
+      "政策与治理",
+      "产业与生态"
+     ],
+     "entities": [
+      "OpenAI",
+      "Apple"
+     ],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "513c464ec0d6ac1f",
+     "title": "Facebook is giving users more control over their algorithm",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-13T18:05:24.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Meta"
+     ],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "1bfdfc0b69a23f42",
+     "title": "Google wants to host your personal vibe-coded apps in the Play Store",
+     "source": "Ars Technica AI",
+     "region": "NA",
+     "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-13T17:00:39.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "b01ce5fc1f6a0407",
+     "title": "GreenCell Mobility Raises ₹330 Cr To Expand Electric Bus Fleet",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/greencell-mobility-raises-%e2%82%b9330-cr-to-expand-electric-bus-fleet/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-13T14:15:29.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "59a987f9c4518f5a",
+     "title": "Visibility In The AI Age, Zetwerk’s IPO & More",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/visibility-in-the-ai-age-zetwerks-ipo-more/",
+     "importance": 79,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-13T02:30:29.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    },
+    {
+     "id": "4baba10db95e5df0",
+     "title": "Freshworks To Acquire Torii To Expand AI Spend Governance Offerings",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/freshworks-to-acquire-torii-to-expand-ai-spend-governance-offerings/",
+     "importance": 77,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-13T16:27:21.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-14",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 14 日，共从 27 个信息源抓取 438 条 AI 产业动态，其中 156 条进入当日精选，覆盖 7 个区域。其中有 127 条发布于 24 小时内。其中 125 条是此前未出现过的新增内容，另有 31 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」67 条、「资本与市场」52 条。值得优先关注的几条：「8点1氪丨茶百道涉IPO欺诈，被暂停交易；苹果连夜发布3款智能家居新品，总市值再创历史新高；DeepSeek将完成1000亿元融资」（36氪）、「早报｜苹果发布十多款「果家」新品/Gemini 4来了，写代码更省心/3999元，阶跃智能体手机发布」（爱范儿）、「独家丨字节最早天使投资人，投了一家 AI 音乐硬件公司」（雷峰网）。"
+}
