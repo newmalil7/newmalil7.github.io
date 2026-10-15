@@ -1,0 +1,715 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-15",
+ "generatedAt": "2026-10-15T01:22:18.980Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 438,
+  "published": 155,
+  "newCount": 135,
+  "repeatCount": 20,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 11,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 27,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 134,
+  "withinFresh": 138,
+  "freshHours": 72,
+  "monthPrecision": 15,
+  "undated": 0,
+  "staleDropped": 40,
+  "newestAt": "2026-10-15T09:05:00.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 57
+  },
+  {
+   "name": "产品与应用",
+   "n": 43
+  },
+  {
+   "name": "模型与能力",
+   "n": 28
+  },
+  {
+   "name": "政策与治理",
+   "n": 20
+  },
+  {
+   "name": "产业与生态",
+   "n": 19
+  },
+  {
+   "name": "算力与基建",
+   "n": 18
+  }
+ ],
+ "entities": [
+  {
+   "name": "OpenAI",
+   "n": 11
+  },
+  {
+   "name": "Anthropic",
+   "n": 10
+  },
+  {
+   "name": "Google",
+   "n": 8
+  },
+  {
+   "name": "NVIDIA",
+   "n": 6
+  },
+  {
+   "name": "阿里巴巴",
+   "n": 6
+  },
+  {
+   "name": "腾讯",
+   "n": 6
+  },
+  {
+   "name": "Arm",
+   "n": 6
+  },
+  {
+   "name": "DeepSeek",
+   "n": 5
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "359bcf8b188fc3e2",
+   "title": "Anthropic尽调后放弃，亚马逊为何还在追Decart？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8168709.html",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-15T00:44:00.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "Anthropic",
+    "NVIDIA",
+    "Nebius"
+   ],
+   "firstSeen": "2026-10-15",
+   "isNew": true
+  },
+  {
+   "id": "1b05020f2f1a7a6b",
+   "title": "腾讯上线「绿泡泡」短剧，主打免费好看；特斯拉 Roadster 跑车明日发布；豆包工作支持一键导入 GPT、Claude 对话 | 极客早知道",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/372366",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-15T00:29:12.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-15",
+   "isNew": true
+  },
+  {
+   "id": "1eb87ae401a57135",
+   "title": "8点1氪丨微信、淘宝、美团等应用，拒绝接入豆包手机助手；苹果成为全球第二家市值破5万亿美元企业；美国9月CPI同比增长3.7%，高于预期",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4026385299165321?f=rss",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-15T00:13:46.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "阿里巴巴",
+    "腾讯",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-15",
+   "isNew": true
+  },
+  {
+   "id": "e8acbb6be6582e5b",
+   "title": "早报｜iPhone Duo完成大模型备案，有望12月上线/企业微信与WorkBuddy打通/OPPO与Manus官宣合作",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1684374?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-15T00:13:28.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "小米",
+    "ASML"
+   ],
+   "firstSeen": "2026-10-15",
+   "isNew": true
+  },
+  {
+   "id": "4403b79caef92733",
+   "title": "茶百道涉IPO欺诈，被暂停交易；字节Seed单独设立大模型安全与对齐部门；华为披露下一代麒麟芯片进展，已进入测试阶段丨雷峰早报",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/zaobao/CKsYHgrcdIkO3hvO.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-14T15:48:00.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "字节跳动",
+    "华为",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-15",
+   "isNew": true
+  },
+  {
+   "id": "23d1534dfa92ef44",
+   "title": "Nvidia says Synopsys, Siemens adopt CUDA-X for chipmaking",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/nvidia-synopsys-siemens-adopt-cudax-chipmaking",
+   "importance": 94,
+   "difficulty": "高级",
+   "publishedAt": "2026-10-15T00:54:47.000Z",
+   "topics": [
+    "算力与基建",
+    "产业与生态"
+   ],
+   "entities": [
+    "NVIDIA",
+    "Siemens"
+   ],
+   "firstSeen": "2026-10-15",
+   "isNew": true
+  },
+  {
+   "id": "adb516bf22b31481",
+   "title": "Salience Labs secures $125M to scale photonic chips for AI data centres",
+   "source": "Tech.eu",
+   "region": "EU",
+   "url": "https://tech.eu/2026/10/14/salience-labs-secures-125m-to-scale-photonic-chips-for-ai-data-centres/",
+   "importance": 93,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-14T14:00:00.000Z",
+   "topics": [
+    "资本与市场",
+    "产业与生态"
+   ],
+   "entities": [
+    "Intel",
+    "AMD"
+   ],
+   "firstSeen": "2026-10-15",
+   "isNew": true
+  },
+  {
+   "id": "ba1d2b226174419c",
+   "title": "Anthropic Q3 revenue jumps 45% to $16.8b: source",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/anthropic-q3-revenue-jumps-45-to-16-8b-source",
+   "importance": 92,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-15T01:14:18.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-15",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "359bcf8b188fc3e2",
+     "title": "Anthropic尽调后放弃，亚马逊为何还在追Decart？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8168709.html",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-15T00:44:00.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "Anthropic",
+      "NVIDIA",
+      "Nebius"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "1b05020f2f1a7a6b",
+     "title": "腾讯上线「绿泡泡」短剧，主打免费好看；特斯拉 Roadster 跑车明日发布；豆包工作支持一键导入 GPT、Claude 对话 | 极客早知道",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/372366",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-15T00:29:12.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "阿里巴巴",
+      "腾讯",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "1eb87ae401a57135",
+     "title": "8点1氪丨微信、淘宝、美团等应用，拒绝接入豆包手机助手；苹果成为全球第二家市值破5万亿美元企业；美国9月CPI同比增长3.7%，高于预期",
+     "source": "36氪",
+     "region": "CN",
+     "url": "https://36kr.com/p/4026385299165321?f=rss",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-15T00:13:46.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "阿里巴巴",
+      "腾讯",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "23d1534dfa92ef44",
+     "title": "Nvidia says Synopsys, Siemens adopt CUDA-X for chipmaking",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/nvidia-synopsys-siemens-adopt-cudax-chipmaking",
+     "importance": 94,
+     "difficulty": "高级",
+     "publishedAt": "2026-10-15T00:54:47.000Z",
+     "topics": [
+      "算力与基建",
+      "产业与生态"
+     ],
+     "entities": [
+      "NVIDIA",
+      "Siemens"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "ba1d2b226174419c",
+     "title": "Anthropic Q3 revenue jumps 45% to $16.8b: source",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/anthropic-q3-revenue-jumps-45-to-16-8b-source",
+     "importance": 92,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-15T01:14:18.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "bd7408def8ede505",
+     "title": "China’s YMTC revenue to grow 6x faster than peers: report",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/chinas-ymtc-revenue-grow-6x-faster-peers-report",
+     "importance": 86,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-15T00:34:13.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "d4a3ee0384bc5c6c",
+     "title": "Nvidia shows interest in start-up Reflection AI",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/nvidia-shows-interest-in-start-up-reflection-ai/",
+     "importance": 73,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-14T10:26:25.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "fa366265652b7700",
+     "title": "Microsoft showcases new Maia 300 custom AI chip",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/microsoft-showcases-new-maia-300-custom-ai-chip/",
+     "importance": 72,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-14T08:24:43.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Microsoft",
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "23256b67d2c48cba",
+     "title": "UAE's JustAd attracts $5 million to expand into new markets",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/uae-justad-attracts-5-million-expand-new-markets",
+     "importance": 68,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 11,
+   "top": [
+    {
+     "id": "d7d3525f7ef59270",
+     "title": "AIエージェントを自作する方法7選！無料で始める手順と費用の目安",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/14/278439/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2582%2592%25e8%2587%25aa%25e4%25bd%259c%25e3%2581%2599%25e3%2582%258b%25e6%2596%25b9%25e6%25b3%25957%25e9%2581%25b8%25ef%25bc%2581%25e7%2584%25a1%25e6%2596%2599%25e3%2581%25a7%25e5%25a7%258b%25e3%2582%2581%25e3%2582%258b",
+     "importance": 73,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-14T12:30:49.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "ff4baf72646d6935",
+     "title": "AIエージェントの作り方を初心者向けに解説！Geminiで無料作成する5ステップ",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/14/278436/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e4%25bd%259c%25e3%2582%258a%25e6%2596%25b9%25e3%2582%2592%25e5%2588%259d%25e5%25bf%2583%25e8%2580%2585%25e5%2590%2591%25e3%2581%2591%25e3%2581%25ab%25e8%25a7%25a3%25e8%25aa%25ac%25ef%25bc%2581gemini%25e3%2581%25a7",
+     "importance": 73,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-14T12:06:50.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "f3ebe0fc9208364e",
+     "title": "비만 치료제의 두 얼굴…노화 지연 가능성과 새로운 부작용",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%eb%b9%84%eb%a7%8c-%ec%b9%98%eb%a3%8c%ec%a0%9c%ec%9d%98-%eb%91%90-%ec%96%bc%ea%b5%b4%eb%85%b8%ed%99%94-%ec%a7%80%ec%97%b0-%ea%b0%80%eb%8a%a5%ec%84%b1%ea%b3%bc-%ec%83%88%eb%a1%9c%ec%9a%b4/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-14T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "adb516bf22b31481",
+     "title": "Salience Labs secures $125M to scale photonic chips for AI data centres",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/14/salience-labs-secures-125m-to-scale-photonic-chips-for-ai-data-centres/",
+     "importance": 93,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-14T14:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [
+      "Intel",
+      "AMD"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "2ccac5f95ac71a38",
+     "title": "Google to provide 200 European scientists access to its frontier models",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/14/google-to-provide-200-european-scientists-access-to-its-frontier-models/",
+     "importance": 85,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-14T10:51:00.000Z",
+     "topics": [
+      "算力与基建",
+      "模型与能力"
+     ],
+     "entities": [
+      "Google",
+      "DeepMind"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "7f83f597a48c5641",
+     "title": "Skeleton Technologies surpasses $1B valuation with Siemens backing for US expansion",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/14/skeleton-technologies-surpasses-1b-valuation-with-siemens-backing-for-us-expansion/",
+     "importance": 80,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-14T13:31:40.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Siemens"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "fc97b4c5c4e91288",
+     "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
+     "source": "Ars Technica AI",
+     "region": "NA",
+     "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+     "importance": 88,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-14T11:00:30.000Z",
+     "topics": [
+      "政策与治理",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Google"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "cc8042f5dd8cdddb",
+     "title": "Grok Voice 3.0 from SpaceXSI outscores OpenAI and Google on speech-to-speech index",
+     "source": "SiliconANGLE",
+     "region": "NA",
+     "url": "https://siliconangle.com/2026/10/14/grok-voice-3-0-from-spacexsi-outscores-openai-and-google-on-speech-to-speech-index/",
+     "importance": 87,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-14T22:27:54.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Google",
+      "xAI"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "c2781c4848e1f647",
+     "title": "Shares of Oracle, neoclouds drop on CoreWeave debt concerns",
+     "source": "SiliconANGLE",
+     "region": "NA",
+     "url": "https://siliconangle.com/2026/10/14/shares-of-oracle-neoclouds-drop-on-coreweave-debt-concerns/",
+     "importance": 85,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-14T22:20:46.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "CoreWeave",
+      "Oracle"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "4260cfaa535664f7",
+     "title": "Zetwerk Raises ₹2,251 Cr From Anchor Investors Ahead Of IPO",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/zetwerk-raises-%e2%82%b92251-cr-from-anchor-investors-ahead-of-ipo/",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-14T16:22:57.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "849888f85501563d",
+     "title": "Jio Platforms IPO To Open For Subscription On October 21",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/jio-ipo-to-open-for-subscription-on-october-21/",
+     "importance": 84,
+     "difficulty": "高级",
+     "publishedAt": "2026-10-14T13:54:42.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    },
+    {
+     "id": "b31c0991471c9acd",
+     "title": "Google.org Commits $15 Mn To The/Nudge To Expand Credit Access For Indian MSMEs",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/google-org-commits-15-mn-to-the-nudge-to-expand-credit-access-for-indian-msmes/",
+     "importance": 84,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-14T13:06:58.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Google",
+      "Arm"
+     ],
+     "firstSeen": "2026-10-15",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 15 日，共从 27 个信息源抓取 438 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 134 条发布于 24 小时内。其中 135 条是此前未出现过的新增内容，另有 20 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」57 条、「产品与应用」43 条。值得优先关注的几条：「Anthropic尽调后放弃，亚马逊为何还在追Decart？」（钛媒体）、「腾讯上线「绿泡泡」短剧，主打免费好看；特斯拉 Roadster 跑车明日发布；豆包工作支持一键导入 GPT、Claude 对话 | 极客早知道」（极客公园）、「8点1氪丨微信、淘宝、美团等应用，拒绝接入豆包手机助手；苹果成为全球第二家市值破5万亿美元企业；美国9月CPI同比增长3.7%，高于预期」（36氪）。"
+}
