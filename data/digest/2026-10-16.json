@@ -1,10 +1,10 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-16",
- "generatedAt": "2026-10-16T01:21:08.886Z",
+ "generatedAt": "2026-10-16T04:28:15.395Z",
  "mode": "rule",
  "counts": {
-  "crawled": 445,
+  "crawled": 448,
   "published": 156,
   "newCount": 123,
   "repeatCount": 33,
@@ -27,33 +27,33 @@
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
-  "staleDropped": 36,
-  "newestAt": "2026-10-16T09:00:00.000Z"
+  "staleDropped": 34,
+  "newestAt": "2026-10-16T13:17:19.000Z"
  },
  "themes": [
   {
-   "name": "产品与应用",
-   "n": 48
+   "name": "资本与市场",
+   "n": 52
   },
   {
-   "name": "资本与市场",
-   "n": 45
+   "name": "产品与应用",
+   "n": 51
   },
   {
    "name": "模型与能力",
-   "n": 30
+   "n": 28
   },
   {
    "name": "产业与生态",
-   "n": 26
+   "n": 25
   },
   {
    "name": "算力与基建",
-   "n": 16
+   "n": 15
   },
   {
    "name": "政策与治理",
-   "n": 11
+   "n": 12
   }
  ],
  "entities": [
@@ -62,35 +62,99 @@
    "n": 9
   },
   {
-   "name": "Meta",
-   "n": 9
-  },
-  {
-   "name": "Google",
+   "name": "Apple",
    "n": 8
   },
   {
-   "name": "Apple",
-   "n": 7
+   "name": "阿里巴巴",
+   "n": 6
   },
   {
-   "name": "Amazon",
+   "name": "腾讯",
    "n": 6
+  },
+  {
+   "name": "Google",
+   "n": 6
+  },
+  {
+   "name": "Anthropic",
+   "n": 5
   },
   {
    "name": "台积电",
    "n": 5
   },
   {
-   "name": "Anthropic",
-   "n": 4
-  },
-  {
-   "name": "OpenAI",
-   "n": 4
+   "name": "Meta",
+   "n": 5
   }
  ],
  "topOverall": [
+  {
+   "id": "a4e869d03cffb5b2",
+   "title": "当企业微信遇上WorkBuddy，AI 办公真正的王炸组合出现了",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8170778.html",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-16T04:05:39.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "字节跳动"
+   ],
+   "firstSeen": "2026-10-16",
+   "isNew": true
+  },
+  {
+   "id": "fb4b07085d345f30",
+   "title": "第一款 AI 手机，被半个互联网「拒」了",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/372436",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-16T02:18:36.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-16",
+   "isNew": true
+  },
+  {
+   "id": "f3e33f39b27b66b2",
+   "title": "从规模驱动到技术信仰，20位定义中国商业新叙事的人",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8170760.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-16T02:13:08.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "月之暗面",
+    "智谱AI",
+    "DeepSeek",
+    "宇树科技"
+   ],
+   "firstSeen": "2026-10-16",
+   "isNew": true
+  },
   {
    "id": "27457abfb244d991",
    "title": "早报｜库克确认苹果AI国行本月推出/《GTA6》全新宣传片发布/特努斯：AI不会让iPhone消失",
@@ -114,6 +178,26 @@
    "isNew": true
   },
   {
+   "id": "1be0737e003a0330",
+   "title": "看懂 WorkBuddy 打通企微，上下文只是前菜",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8170374.html",
+   "importance": 96,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-16T01:52:56.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "Google",
+    "腾讯"
+   ],
+   "firstSeen": "2026-10-16",
+   "isNew": true
+  },
+  {
    "id": "57f8d0fddb442b2d",
    "title": "Adobe, Nvidia expand pact for faster Photoshop, Premiere",
    "source": "Tech in Asia",
@@ -129,27 +213,6 @@
    "entities": [
     "NVIDIA",
     "Adobe"
-   ],
-   "firstSeen": "2026-10-16",
-   "isNew": true
-  },
-  {
-   "id": "3575f075beb5abc9",
-   "title": "OpenAI广告收入或难以达标，大举招揽谷歌、Meta人才",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4027822795166337?f=rss",
-   "importance": 94,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-16T00:41:09.000Z",
-   "topics": [
-    "产品与应用",
-    "模型与能力"
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic",
-    "Meta"
    ],
    "firstSeen": "2026-10-16",
    "isNew": true
@@ -176,48 +239,6 @@
    "isNew": true
   },
   {
-   "id": "5fc992a4e44686c3",
-   "title": "腾讯字节阿里，争抢下一个AI入口",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8169930.html",
-   "importance": 94,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-15T09:32:00.000Z",
-   "topics": [
-    "产品与应用",
-    "算力与基建"
-   ],
-   "entities": [
-    "Meta",
-    "阿里巴巴",
-    "腾讯",
-    "字节跳动"
-   ],
-   "firstSeen": "2026-10-16",
-   "isNew": true
-  },
-  {
-   "id": "6497f9d126298f89",
-   "title": "Meta launches an open-weight AI model that runs on Macs",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-   "importance": 93,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-15T20:04:53.000Z",
-   "topics": [
-    "模型与能力",
-    "产品与应用"
-   ],
-   "entities": [
-    "Meta",
-    "Apple"
-   ],
-   "firstSeen": "2026-10-16",
-   "isNew": true
-  },
-  {
    "id": "d208531b7ca7222a",
    "title": "微信、淘宝、美团等151款APP拒绝豆包手机助手GUI自动化代操作；对标字节红果，腾讯上线绿泡泡短剧；OpenAI 一工程师被捕，涉嫌窃听机密",
    "source": "雷峰网",
@@ -238,27 +259,6 @@
    ],
    "firstSeen": "2026-10-16",
    "isNew": true
-  },
-  {
-   "id": "16a0c07e2898abdd",
-   "title": "8点1氪丨三部门联合调查“尊界V800汽车刹车踏板支架断裂问题”；国内一半AI算力被指在造爽剧；台积电第三季度净利润7631亿元台币",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/p/4027802678186372?f=rss",
-   "importance": 91,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-16T00:15:26.000Z",
-   "topics": [
-    "算力与基建",
-    "产品与应用"
-   ],
-   "entities": [
-    "台积电",
-    "阿里巴巴",
-    "百度"
-   ],
-   "firstSeen": "2026-10-16",
-   "isNew": true
   }
  ],
  "regions": [
@@ -270,65 +270,65 @@
    "count": 24,
    "top": [
     {
-     "id": "27457abfb244d991",
-     "title": "早报｜库克确认苹果AI国行本月推出/《GTA6》全新宣传片发布/特努斯：AI不会让iPhone消失",
-     "source": "爱范儿",
+     "id": "a4e869d03cffb5b2",
+     "title": "当企业微信遇上WorkBuddy，AI 办公真正的王炸组合出现了",
+     "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.ifanr.com/1684579?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "url": "https://www.tmtpost.com/8170778.html",
      "importance": 99,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-16T00:07:20.000Z",
-     "topics": [
-      "资本与市场",
-      "算力与基建"
-     ],
-     "entities": [
-      "Anthropic",
-      "Apple",
-      "NVIDIA",
-      "台积电"
-     ],
-     "firstSeen": "2026-10-16",
-     "isNew": true
-    },
-    {
-     "id": "3575f075beb5abc9",
-     "title": "OpenAI广告收入或难以达标，大举招揽谷歌、Meta人才",
-     "source": "36氪",
-     "region": "CN",
-     "url": "https://36kr.com/newsflashes/4027822795166337?f=rss",
-     "importance": 94,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-16T00:41:09.000Z",
+     "publishedAt": "2026-10-16T04:05:39.000Z",
      "topics": [
       "产品与应用",
       "模型与能力"
      ],
      "entities": [
-      "OpenAI",
-      "Anthropic",
-      "Meta"
+      "阿里巴巴",
+      "腾讯",
+      "字节跳动"
      ],
      "firstSeen": "2026-10-16",
      "isNew": true
     },
     {
-     "id": "b55c2e82aa52a4fb",
-     "title": "【钛晨报】潘功胜：全球失衡不能依靠汇率调节；DeepSeek发布补偿通知：将按账号7日内的消耗金额以赠金形式全额返还；工信部等三部门联合调查有关车辆刹车踏板支架断裂问题",
-     "source": "钛媒体",
+     "id": "fb4b07085d345f30",
+     "title": "第一款 AI 手机，被半个互联网「拒」了",
+     "source": "极客公园",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8170437.html",
-     "importance": 94,
+     "url": "http://www.geekpark.net/news/372436",
+     "importance": 99,
      "difficulty": "入门",
-     "publishedAt": "2026-10-15T23:20:00.000Z",
+     "publishedAt": "2026-10-16T02:18:36.000Z",
      "topics": [
-      "政策与治理",
-      "产业与生态"
+      "产品与应用",
+      "模型与能力"
      ],
      "entities": [
-      "台积电",
+      "阿里巴巴",
       "腾讯",
       "DeepSeek"
+     ],
+     "firstSeen": "2026-10-16",
+     "isNew": true
+    },
+    {
+     "id": "f3e33f39b27b66b2",
+     "title": "从规模驱动到技术信仰，20位定义中国商业新叙事的人",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8170760.html",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-16T02:13:08.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "月之暗面",
+      "智谱AI",
+      "DeepSeek",
+      "宇树科技"
      ],
      "firstSeen": "2026-10-16",
      "isNew": true
@@ -363,6 +363,25 @@
      "isNew": true
     },
     {
+     "id": "5e1f59b1881eff63",
+     "title": "Nvidia-backed AI drug developer Iambic raises $150m in IPO",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/nvidiabacked-ai-drug-developer-iambic-raises-150m-ipo",
+     "importance": 92,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-16T03:20:57.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-16",
+     "isNew": true
+    },
+    {
      "id": "1d732b3cdb172e52",
      "title": "Google updates AI Overviews, AI Mode to surface more links",
      "source": "Tech in Asia",
@@ -376,26 +395,6 @@
      ],
      "entities": [
       "Google"
-     ],
-     "firstSeen": "2026-10-16",
-     "isNew": true
-    },
-    {
-     "id": "67c9000c13706b82",
-     "title": "Protecting creator voices from unauthorized AI training",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/protecting-creator-voices-unauthorized-ai-training",
-     "importance": 87,
-     "difficulty": "高级",
-     "publishedAt": "2026-10-15T07:00:33.000Z",
-     "topics": [
-      "模型与能力"
-     ],
-     "entities": [
-      "Google",
-      "Microsoft",
-      "三星"
      ],
      "firstSeen": "2026-10-16",
      "isNew": true
@@ -471,34 +470,34 @@
    "count": 12,
    "top": [
     {
+     "id": "5303ae4fdb0069d0",
+     "title": "앤트로픽, 첫 투자자 설명회 뒤 IPO 기대 하향…“몸값 2조→1.5조 논의”",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216328",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-16T13:17:19.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-15",
+     "isNew": false
+    },
+    {
      "id": "fc6b2b0b77c27402",
      "title": "문 닫은 스타트업 데이터에 가격표가 붙기 시작했다",
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%eb%ac%b8-%eb%8b%ab%ec%9d%80-%ec%8a%a4%ed%83%80%ed%8a%b8%ec%97%85%ec%9d%98-%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%97%90-%ea%b0%80%ea%b2%a9%ed%91%9c%ea%b0%80-%eb%b6%99%ea%b8%b0-%ec%8b%9c%ec%9e%91%ed%96%88/",
-     "importance": 66,
+     "importance": 62,
      "difficulty": "进阶",
      "publishedAt": "2026-10-15T21:00:00.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-10-16",
      "isNew": true
-    },
-    {
-     "id": "87a236e5793e2a17",
-     "title": "[AI리더의 서가] 벡터 데이터베이스",
-     "source": "AI타임스",
-     "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=216146",
-     "importance": 62,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-16T09:00:00.000Z",
-     "topics": [
-      "模型与能力"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-15",
-     "isNew": false
     },
     {
      "id": "d7d3525f7ef59270",
@@ -526,24 +525,6 @@
    "count": 24,
    "top": [
     {
-     "id": "8a149b437e655dc2",
-     "title": "Jensen Huang wants Europe to dream bigger — with Nvidia’s help",
-     "source": "Sifted",
-     "region": "EU",
-     "url": "https://sifted.eu/articles/jensen-huang-london-2026/",
-     "importance": 80,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-15T16:16:43.000Z",
-     "topics": [
-      "算力与基建"
-     ],
-     "entities": [
-      "NVIDIA"
-     ],
-     "firstSeen": "2026-10-16",
-     "isNew": true
-    },
-    {
      "id": "fc1518e161feda2f",
      "title": "Nebius says struck deals with UK AI labs, welcomes non-compete changes",
      "source": "Tech.eu",
@@ -563,14 +544,30 @@
      "isNew": true
     },
     {
-     "id": "c4b8ddf43a887a1d",
-     "title": "Rabot Energy secures $50M to transform homes into a virtual power plant",
-     "source": "Tech.eu",
+     "id": "1329734ada59b0cf",
+     "title": "Are open-weight AI models safe?",
+     "source": "Sifted",
      "region": "EU",
-     "url": "https://tech.eu/2026/10/15/rabot-energy-secures-50m-to-transform-homes-into-a-virtual-power-plant/",
-     "importance": 76,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-15T12:10:00.000Z",
+     "url": "https://sifted.eu/articles/open-weight-models-sovereignty-ai-safety/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-16T05:00:57.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-16",
+     "isNew": true
+    },
+    {
+     "id": "a637d10bf941e09f",
+     "title": "The 'blurry' world of defence tech revenue",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/blurry-world-defence-tech-revenue-arr-vc/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-16T05:00:52.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -593,7 +590,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-     "importance": 93,
+     "importance": 89,
      "difficulty": "入门",
      "publishedAt": "2026-10-15T20:04:53.000Z",
      "topics": [
@@ -608,21 +605,21 @@
      "isNew": true
     },
     {
-     "id": "a8306287996d8736",
-     "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
-     "source": "Ars Technica AI",
+     "id": "2d7ce588659a5792",
+     "title": "Mueon nabs $65M in funding to develop 3D computing modules",
+     "source": "SiliconANGLE",
      "region": "NA",
-     "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-     "importance": 90,
+     "url": "https://siliconangle.com/2026/10/15/mueon-nabs-65m-in-funding-to-develop-3d-computing-modules/",
+     "importance": 85,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-15T15:43:24.000Z",
+     "publishedAt": "2026-10-16T00:27:32.000Z",
      "topics": [
-      "政策与治理",
-      "模型与能力"
+      "算力与基建",
+      "资本与市场"
      ],
      "entities": [
-      "OpenAI",
-      "Anthropic"
+      "Intel",
+      "Arm"
      ],
      "firstSeen": "2026-10-16",
      "isNew": true
@@ -633,7 +630,7 @@
      "source": "SiliconANGLE",
      "region": "NA",
      "url": "https://siliconangle.com/2026/10/15/tsmc-posts-strong-third-quarter-results-but-shares-drop-amid-ai-selloff/",
-     "importance": 89,
+     "importance": 85,
      "difficulty": "进阶",
      "publishedAt": "2026-10-15T20:23:44.000Z",
      "topics": [
@@ -656,12 +653,29 @@
    "count": 24,
    "top": [
     {
+     "id": "708c7177f6583310",
+     "title": "Shop Pay’s India Debut, Zetwerk IPO Day 1 & More",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/shop-pays-india-debut-zetwerk-ipo-day-1-more/",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-16T02:30:11.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-16",
+     "isNew": true
+    },
+    {
      "id": "0d42f70ee1313c4e",
      "title": "Inside SEBI’s 10 Key Proposed Changes To SME IPO Rules",
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/buzz/inside-sebis-10-key-proposed-changes-to-sme-ipo-rules/",
-     "importance": 86,
+     "importance": 82,
      "difficulty": "进阶",
      "publishedAt": "2026-10-15T21:49:36.000Z",
      "topics": [
@@ -687,25 +701,9 @@
      "entities": [],
      "firstSeen": "2026-10-16",
      "isNew": true
-    },
-    {
-     "id": "b3ce16cfc8674ea5",
-     "title": "Flipkart Group FY26: Revenue Nears ₹1.5 Lakh Cr, Loss Narrows To ₹8,468 Cr",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/flipkart-group-fy26-revenue-nears-%e2%82%b91-5-lakh-cr-loss-narrows-to-%e2%82%b98468-cr/",
-     "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-15T20:00:47.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-16",
-     "isNew": true
     }
    ]
   }
  ],
- "overview": "10 月 16 日，共从 27 个信息源抓取 445 条 AI 产业动态，其中 156 条进入当日精选，覆盖 7 个区域。其中有 126 条发布于 24 小时内。其中 123 条是此前未出现过的新增内容，另有 33 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」48 条、「资本与市场」45 条。值得优先关注的几条：「早报｜库克确认苹果AI国行本月推出/《GTA6》全新宣传片发布/特努斯：AI不会让iPhone消失」（爱范儿）、「OpenAI广告收入或难以达标，大举招揽谷歌、Meta人才」（36氪）、「【钛晨报】潘功胜：全球失衡不能依靠汇率调节；DeepSeek发布补偿通知：将按账号7日内的消耗金额以赠金形式全额返还；工信部等三部门联合调查有关车辆刹车踏板支架断裂问题」（钛媒体）。"
+ "overview": "10 月 16 日，共从 27 个信息源抓取 448 条 AI 产业动态，其中 156 条进入当日精选，覆盖 7 个区域。其中有 126 条发布于 24 小时内。其中 123 条是此前未出现过的新增内容，另有 33 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」52 条、「产品与应用」51 条。值得优先关注的几条：「当企业微信遇上WorkBuddy，AI 办公真正的王炸组合出现了」（钛媒体）、「第一款 AI 手机，被半个互联网「拒」了」（极客公园）、「从规模驱动到技术信仰，20位定义中国商业新叙事的人」（钛媒体）。"
 }
