@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-17",
- "generatedAt": "2026-10-17T01:22:38.011Z",
+ "generatedAt": "2026-10-17T04:25:03.016Z",
  "mode": "rule",
  "counts": {
   "crawled": 443,
   "published": 156,
-  "newCount": 107,
-  "repeatCount": 49,
+  "newCount": 115,
+  "repeatCount": 41,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -28,7 +28,7 @@
   "monthPrecision": 14,
   "undated": 0,
   "staleDropped": 36,
-  "newestAt": "2026-10-17T10:05:00.000Z"
+  "newestAt": "2026-10-17T12:05:55.000Z"
  },
  "themes": [
   {
@@ -37,15 +37,15 @@
   },
   {
    "name": "产品与应用",
-   "n": 49
+   "n": 43
   },
   {
    "name": "模型与能力",
-   "n": 31
+   "n": 30
   },
   {
    "name": "产业与生态",
-   "n": 22
+   "n": 23
   },
   {
    "name": "算力与基建",
@@ -59,34 +59,34 @@
  "entities": [
   {
    "name": "NVIDIA",
-   "n": 13
-  },
-  {
-   "name": "Meta",
    "n": 11
   },
   {
    "name": "Anthropic",
-   "n": 7
+   "n": 10
   },
   {
    "name": "OpenAI",
-   "n": 7
+   "n": 8
   },
   {
-   "name": "阿里巴巴",
-   "n": 6
+   "name": "Meta",
+   "n": 8
   },
   {
    "name": "腾讯",
    "n": 5
   },
   {
-   "name": "DeepSeek",
+   "name": "阿里巴巴",
    "n": 4
   },
   {
    "name": "AMD",
+   "n": 3
+  },
+  {
+   "name": "Arm",
    "n": 3
   }
  ],
@@ -136,49 +136,6 @@
    "isNew": true
   },
   {
-   "id": "f920c4a8b7922121",
-   "title": "硅谷AI杀疯了，DeepSeek们的性价比还剩多少？",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8170871.html",
-   "importance": 97,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-16T08:58:45.000Z",
-   "topics": [
-    "模型与能力",
-    "产品与应用"
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic",
-    "DeepSeek"
-   ],
-   "firstSeen": "2026-10-17",
-   "isNew": true
-  },
-  {
-   "id": "e9e821d0e65a65b1",
-   "title": "字节腾讯阿里扎堆个人Agent：谁先跑出中国版Muse？",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8170874.html",
-   "importance": 97,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-16T08:39:55.000Z",
-   "topics": [
-    "产品与应用",
-    "模型与能力"
-   ],
-   "entities": [
-    "Meta",
-    "阿里巴巴",
-    "腾讯",
-    "字节跳动"
-   ],
-   "firstSeen": "2026-10-17",
-   "isNew": true
-  },
-  {
    "id": "5de3c2790951b7d6",
    "title": "为什么 Anthropic 不做 Personal AI",
    "source": "极客公园",
@@ -200,12 +157,71 @@
    "isNew": true
   },
   {
+   "id": "3531acae275641e3",
+   "title": "CoreWeave stock, bonds slide as rate fears hit AI bets",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/coreweave-stock-bonds-slide-rate-fears-hit-ai-bets",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-17T01:37:36.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "CoreWeave"
+   ],
+   "firstSeen": "2026-10-17",
+   "isNew": true
+  },
+  {
+   "id": "03b354cce76e7315",
+   "title": "论人情世故，腾讯这批闯祸的Agent上大分了",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8171428.html",
+   "importance": 87,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-17T01:38:09.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "阿里巴巴",
+    "腾讯"
+   ],
+   "firstSeen": "2026-10-17",
+   "isNew": true
+  },
+  {
+   "id": "c9344323fffb017a",
+   "title": "Anthropic据悉向美议员推介AI安全方案，拟为模型发布设置门槛",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4029281854755459?f=rss",
+   "importance": 86,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-17T02:06:22.000Z",
+   "topics": [
+    "政策与治理",
+    "模型与能力"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-17",
+   "isNew": true
+  },
+  {
    "id": "0172162d04664b59",
    "title": "Replit is no longer working with Anthropic, CEO says",
    "source": "TechCrunch AI",
    "region": "NA",
    "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-   "importance": 90,
+   "importance": 86,
    "difficulty": "进阶",
    "publishedAt": "2026-10-16T21:22:28.000Z",
    "topics": [
@@ -219,41 +235,23 @@
    "isNew": true
   },
   {
-   "id": "9e0e5b7cdaea1e08",
-   "title": "OpenAI models hacked a crypto wallet and breached more websites",
-   "source": "Ars Technica AI",
-   "region": "NA",
-   "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-   "importance": 88,
+   "id": "c0dd38c96a031fee",
+   "title": "英伟达RTX Spark笔记本首发实测，我实现了WorkBuddy额度自由",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1684682?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 86,
    "difficulty": "进阶",
-   "publishedAt": "2026-10-16T20:59:01.000Z",
+   "publishedAt": "2026-10-16T12:08:15.000Z",
    "topics": [
-    "模型与能力",
+    "算力与基建",
     "产品与应用"
    ],
    "entities": [
-    "OpenAI"
-   ],
-   "firstSeen": "2026-10-17",
-   "isNew": true
-  },
-  {
-   "id": "137c832266dc2af4",
-   "title": "美股三大指数集体收跌，热门中概股普跌",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4029247467033216?f=rss",
-   "importance": 87,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-17T01:00:00.000Z",
-   "topics": [
-    "算力与基建"
-   ],
-   "entities": [
-    "Meta",
     "NVIDIA",
-    "阿里巴巴",
-    "百度"
+    "Intel",
+    "AMD",
+    "Arm"
    ],
    "firstSeen": "2026-10-17",
    "isNew": true
@@ -312,22 +310,22 @@
      "isNew": true
     },
     {
-     "id": "f920c4a8b7922121",
-     "title": "硅谷AI杀疯了，DeepSeek们的性价比还剩多少？",
-     "source": "钛媒体",
+     "id": "5de3c2790951b7d6",
+     "title": "为什么 Anthropic 不做 Personal AI",
+     "source": "极客公园",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8170871.html",
-     "importance": 97,
+     "url": "http://www.geekpark.net/news/372461",
+     "importance": 93,
      "difficulty": "入门",
-     "publishedAt": "2026-10-16T08:58:45.000Z",
+     "publishedAt": "2026-10-16T06:50:02.000Z",
      "topics": [
-      "模型与能力",
-      "产品与应用"
+      "产品与应用",
+      "模型与能力"
      ],
      "entities": [
       "OpenAI",
       "Anthropic",
-      "DeepSeek"
+      "Meta"
      ],
      "firstSeen": "2026-10-17",
      "isNew": true
@@ -342,55 +340,55 @@
    "count": 24,
    "top": [
     {
-     "id": "47abcd2224d312c7",
-     "title": "Nvidia launches open Nemotron model for enterprise AI agents",
+     "id": "3531acae275641e3",
+     "title": "CoreWeave stock, bonds slide as rate fears hit AI bets",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/nvidia-launches-open-nemotron-model-enterprise-ai-agents",
-     "importance": 79,
+     "url": "https://www.techinasia.com/news/coreweave-stock-bonds-slide-rate-fears-hit-ai-bets",
+     "importance": 88,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-16T04:44:06.000Z",
-     "topics": [
-      "产品与应用",
-      "算力与基建"
-     ],
-     "entities": [
-      "NVIDIA"
-     ],
-     "firstSeen": "2026-10-17",
-     "isNew": true
-    },
-    {
-     "id": "7159741b44d05f43",
-     "title": "What’s next after a company’s Mega Evolution?",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/whats-next-after-a-companys-mega-evolution",
-     "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-17T00:30:26.000Z",
+     "publishedAt": "2026-10-17T01:37:36.000Z",
      "topics": [
       "资本与市场"
      ],
-     "entities": [],
+     "entities": [
+      "CoreWeave"
+     ],
      "firstSeen": "2026-10-17",
      "isNew": true
     },
     {
-     "id": "c7a1ffdb637d314a",
-     "title": "Asus to launch ProArt P16 AI laptop in Singapore",
+     "id": "9dfb873f6df74f70",
+     "title": "US AI coding startup Replit ends work with Anthropic",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/asus-launch-proart-p16-ai-laptop-singapore",
-     "importance": 75,
+     "url": "https://www.techinasia.com/news/ai-coding-startup-replit-ends-work-anthropic-ceo",
+     "importance": 84,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-16T12:00:05.000Z",
+     "publishedAt": "2026-10-17T02:06:51.000Z",
      "topics": [
-      "算力与基建",
-      "产品与应用"
+      "资本与市场"
      ],
      "entities": [
-      "NVIDIA"
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-17",
+     "isNew": true
+    },
+    {
+     "id": "6f656407cceb487e",
+     "title": "OKX managing partner Rafique to leave by year-end",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/okx-managing-partner-rafique-leave-yearend",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-17T01:30:40.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [
+      "Microsoft"
      ],
      "firstSeen": "2026-10-17",
      "isNew": true
@@ -469,7 +467,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%eb%af%b8%eb%9e%98%ec%9d%98-%ec%a7%81%ec%97%85-%eb%b0%b0%eb%8b%ac-%eb%93%9c%eb%a1%a0-%ea%b4%80%ec%a0%9c%ec%82%ac/",
-     "importance": 66,
+     "importance": 62,
      "difficulty": "进阶",
      "publishedAt": "2026-10-16T21:00:00.000Z",
      "topics": [],
@@ -478,14 +476,14 @@
      "isNew": true
     },
     {
-     "id": "f53177f24273694d",
-     "title": "[내면 지도 그리기] 38 Inner Mapping: 나를 찾는 지도",
+     "id": "1df3664d8fb05133",
+     "title": "앤트로픽, 미 의회에 자체 AI 안전 법안 제안…\"정부 개입 제한·일부 주법 대체\"",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=216357",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216352",
      "importance": 50,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-17T10:05:00.000Z",
+     "publishedAt": "2026-10-17T12:05:55.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-10-16",
@@ -522,7 +520,7 @@
      "source": "Tech.eu",
      "region": "EU",
      "url": "https://tech.eu/2026/10/16/id-finance-lands-545m-uk-launches-refugee-focused-vc-fund-and-the-race-to-save-eu-inc/",
-     "importance": 77,
+     "importance": 72,
      "difficulty": "入门",
      "publishedAt": "2026-10-16T14:26:02.000Z",
      "topics": [
@@ -539,7 +537,7 @@
      "source": "Tech.eu",
      "region": "EU",
      "url": "https://tech.eu/2026/10/16/dj-reinier-zonneveld-launches-ai-music-startup-gaslab-with-1m-pre-seed-funding/",
-     "importance": 77,
+     "importance": 72,
      "difficulty": "入门",
      "publishedAt": "2026-10-16T14:23:30.000Z",
      "topics": [
@@ -581,7 +579,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-     "importance": 90,
+     "importance": 86,
      "difficulty": "进阶",
      "publishedAt": "2026-10-16T21:22:28.000Z",
      "topics": [
@@ -600,7 +598,7 @@
      "source": "Ars Technica AI",
      "region": "NA",
      "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-     "importance": 88,
+     "importance": 84,
      "difficulty": "进阶",
      "publishedAt": "2026-10-16T20:59:01.000Z",
      "topics": [
@@ -614,19 +612,21 @@
      "isNew": true
     },
     {
-     "id": "9f7f5447fc06b847",
-     "title": "RapidCanvas raises $29M to develop custom AI applications for enterprises",
-     "source": "SiliconANGLE",
+     "id": "ad442ffdc62ecf52",
+     "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+     "source": "TechCrunch AI",
      "region": "NA",
-     "url": "https://siliconangle.com/2026/10/16/rapidcanvas-raises-29m-to-develop-custom-ai-applications-for-enterprises/",
+     "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
      "importance": 80,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-16T20:19:25.000Z",
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-16T16:30:00.000Z",
      "topics": [
-      "资本与市场",
-      "产业与生态"
+      "模型与能力",
+      "算力与基建"
      ],
-     "entities": [],
+     "entities": [
+      "NVIDIA"
+     ],
      "firstSeen": "2026-10-17",
      "isNew": true
     }
@@ -640,33 +640,16 @@
    "count": 24,
    "top": [
     {
-     "id": "2d9c510c5b208da5",
-     "title": "Cult.fit Gets SEBI Clearance For ₹950 Cr+ IPO",
+     "id": "abf055176ec2d497",
+     "title": "From Boldfit To Origin — Indian Startups Raised About $236 Mn This Week",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/cult-fit-gets-sebi-clearance-for-%e2%82%b9950-cr-ipo/",
-     "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-16T14:21:30.000Z",
+     "url": "https://inc42.com/buzz/from-boldfit-to-origin-indian-startups-raised-about-236-mn-this-week/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-17T03:30:52.000Z",
      "topics": [
       "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-17",
-     "isNew": true
-    },
-    {
-     "id": "9790ce6b5bf89261",
-     "title": "Snabbit Spent ₹16 To Earn Every Rupee In Operating Revenue In FY26",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/snabbit-spent-%e2%82%b916-to-earn-every-rupee-in-operating-revenue-in-fy26/",
-     "importance": 77,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-16T14:09:54.000Z",
-     "topics": [
-      "资本与市场",
-      "产品与应用"
      ],
      "entities": [],
      "firstSeen": "2026-10-17",
@@ -687,9 +670,26 @@
      "entities": [],
      "firstSeen": "2026-10-17",
      "isNew": true
+    },
+    {
+     "id": "de0d28ee416a4624",
+     "title": "Enterprise AI Startup RapidCanvas Nets $29 Mn To Expand GTM Teams",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/enterprise-ai-startup-rapidcanvas-nets-29-mn-to-expand-gtm-teams/",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-16T10:27:02.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-17",
+     "isNew": true
     }
    ]
   }
  ],
- "overview": "10 月 17 日，共从 27 个信息源抓取 443 条 AI 产业动态，其中 156 条进入当日精选，覆盖 7 个区域。其中有 118 条发布于 24 小时内。其中 107 条是此前未出现过的新增内容，另有 49 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」52 条、「产品与应用」49 条。值得优先关注的几条：「早报｜iPhone Duo开启预购，发货排到明年/特斯拉超跑发布会现场飞了/华为阔直板出货量超71万台」（爱范儿）、「大厂没有安全感」（钛媒体）、「硅谷AI杀疯了，DeepSeek们的性价比还剩多少？」（钛媒体）。"
+ "overview": "10 月 17 日，共从 27 个信息源抓取 443 条 AI 产业动态，其中 156 条进入当日精选，覆盖 7 个区域。其中有 118 条发布于 24 小时内。其中 115 条是此前未出现过的新增内容，另有 41 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」52 条、「产品与应用」43 条。值得优先关注的几条：「早报｜iPhone Duo开启预购，发货排到明年/特斯拉超跑发布会现场飞了/华为阔直板出货量超71万台」（爱范儿）、「大厂没有安全感」（钛媒体）、「为什么 Anthropic 不做 Personal AI」（极客公园）。"
 }
