@@ -1,0 +1,687 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-18",
+ "generatedAt": "2026-10-18T01:22:19.502Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 443,
+  "published": 156,
+  "newCount": 65,
+  "repeatCount": 91,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 12,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 27,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 60,
+  "withinFresh": 132,
+  "freshHours": 72,
+  "monthPrecision": 14,
+  "undated": 0,
+  "staleDropped": 36,
+  "newestAt": "2026-10-18T09:17:00.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 51
+  },
+  {
+   "name": "产品与应用",
+   "n": 41
+  },
+  {
+   "name": "模型与能力",
+   "n": 26
+  },
+  {
+   "name": "产业与生态",
+   "n": 25
+  },
+  {
+   "name": "算力与基建",
+   "n": 14
+  },
+  {
+   "name": "政策与治理",
+   "n": 6
+  }
+ ],
+ "entities": [
+  {
+   "name": "Anthropic",
+   "n": 10
+  },
+  {
+   "name": "Meta",
+   "n": 8
+  },
+  {
+   "name": "NVIDIA",
+   "n": 7
+  },
+  {
+   "name": "DeepSeek",
+   "n": 4
+  },
+  {
+   "name": "OpenAI",
+   "n": 4
+  },
+  {
+   "name": "Google",
+   "n": 3
+  },
+  {
+   "name": "Arm",
+   "n": 3
+  },
+  {
+   "name": "腾讯",
+   "n": 2
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "caadc57506ccad05",
+   "title": "DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/372512",
+   "importance": 95,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-18T00:39:02.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "腾讯",
+    "华为",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-18",
+   "isNew": true
+  },
+  {
+   "id": "bb08e7948404a4f8",
+   "title": "夹在字节缝隙中的AI融资明星们",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8171535.html",
+   "importance": 93,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-17T07:38:37.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [
+    "腾讯",
+    "字节跳动",
+    "生数科技"
+   ],
+   "firstSeen": "2026-10-18",
+   "isNew": true
+  },
+  {
+   "id": "aefa3b476629bc8e",
+   "title": "DeepSeek rolls out V4.1-Flash update with faster outputs",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/deepseek-rolls-v41flash-update-faster-outputs",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-18T00:09:58.000Z",
+   "topics": [
+    "模型与能力",
+    "算力与基建"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-18",
+   "isNew": true
+  },
+  {
+   "id": "6c09d368c9227285",
+   "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+   "importance": 86,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-17T18:48:08.000Z",
+   "topics": [
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-18",
+   "isNew": true
+  },
+  {
+   "id": "148537e0f6c08efb",
+   "title": "估值暴跌3.5万亿，Anthropic错过上市最佳时机？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8171993.html",
+   "importance": 82,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-17T09:29:00.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-18",
+   "isNew": true
+  },
+  {
+   "id": "d6bb4f92e2006a83",
+   "title": "Aspire 13.6 新增持久化仪表盘遥测功能，并支持第一方 Java 和 Rust 托管",
+   "source": "InfoQ 中国",
+   "region": "CN",
+   "url": "https://www.infoq.cn/article/4BUR4DmMxSBxyzYh6Fxz?utm_source=rss&utm_medium=article",
+   "importance": 81,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-18T09:17:00.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [],
+   "firstSeen": "2026-10-18",
+   "isNew": true
+  },
+  {
+   "id": "fb85290f69a7e619",
+   "title": "Mapping India’s cleantech key players",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/visual-story/india-clean-tech-landscape-map",
+   "importance": 81,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-18T00:00:00.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [],
+   "firstSeen": "2026-10-18",
+   "isNew": true
+  },
+  {
+   "id": "6f043dacb7193885",
+   "title": "上下文争夺，为何成了办公AI新战场？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8171629.html",
+   "importance": 81,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-17T09:29:19.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-18",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "caadc57506ccad05",
+     "title": "DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/372512",
+     "importance": 95,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-18T00:39:02.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "腾讯",
+      "华为",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    },
+    {
+     "id": "bb08e7948404a4f8",
+     "title": "夹在字节缝隙中的AI融资明星们",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8171535.html",
+     "importance": 93,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-17T07:38:37.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "腾讯",
+      "字节跳动",
+      "生数科技"
+     ],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    },
+    {
+     "id": "148537e0f6c08efb",
+     "title": "估值暴跌3.5万亿，Anthropic错过上市最佳时机？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8171993.html",
+     "importance": 82,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-17T09:29:00.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "aefa3b476629bc8e",
+     "title": "DeepSeek rolls out V4.1-Flash update with faster outputs",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/deepseek-rolls-v41flash-update-faster-outputs",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-18T00:09:58.000Z",
+     "topics": [
+      "模型与能力",
+      "算力与基建"
+     ],
+     "entities": [
+      "阿里巴巴",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    },
+    {
+     "id": "fb85290f69a7e619",
+     "title": "Mapping India’s cleantech key players",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/visual-story/india-clean-tech-landscape-map",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-18T00:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    },
+    {
+     "id": "159556ccdbe877d7",
+     "title": "Mapping the firms leaving a mark in China’s fintech race",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/visual-story/mapping-chinas-notable-fintech-players",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-17T11:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "阿里巴巴"
+     ],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "831133affe79b981",
+     "title": "Saudi autotech Autobia raises $12 million Series A led by Artal Capital",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/saudi-autotech-autobia-raises-12-million-series-a-led-artal-capital",
+     "importance": 62,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-10-17",
+     "isNew": false
+    },
+    {
+     "id": "719133614fcb8de2",
+     "title": "Salam maps Kingdom’s route from data corridor to AI destination, says Amjad Arab",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/salam-maps-kingdoms-route-from-data-corridor-to-ai-destination-says-amjad-arab/",
+     "importance": 60,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-17T13:19:42.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    },
+    {
+     "id": "2c43db294dbb1703",
+     "title": "Endeavor Catalyst raises $320 million to back startups beyond Silicon Valley",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/endeavor-catalyst-raises-320-million-startups-silicon-valley",
+     "importance": 54,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-10-17",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 12,
+   "top": [
+    {
+     "id": "67b6e5614a5ef339",
+     "title": "딥시크, 코딩 성능 높인 ‘V4.1 플래시’ 업데이트…검색 API도 공개",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216370",
+     "importance": 68,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-18T09:03:13.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-17",
+     "isNew": false
+    },
+    {
+     "id": "61202eec13022dd2",
+     "title": "미래의 직업: 배달 드론 관제사",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%eb%af%b8%eb%9e%98%ec%9d%98-%ec%a7%81%ec%97%85-%eb%b0%b0%eb%8b%ac-%eb%93%9c%eb%a1%a0-%ea%b4%80%ec%a0%9c%ec%82%ac/",
+     "importance": 33,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-16T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-17",
+     "isNew": false
+    },
+    {
+     "id": "d7d3525f7ef59270",
+     "title": "AIエージェントを自作する方法7選！無料で始める手順と費用の目安",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/14/278439/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2582%2592%25e8%2587%25aa%25e4%25bd%259c%25e3%2581%2599%25e3%2582%258b%25e6%2596%25b9%25e6%25b3%25957%25e9%2581%25b8%25ef%25bc%2581%25e7%2584%25a1%25e6%2596%2599%25e3%2581%25a7%25e5%25a7%258b%25e3%2582%2581%25e3%2582%258b",
+     "importance": 30,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-14T12:30:49.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-17",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "fc1518e161feda2f",
+     "title": "Nebius says struck deals with UK AI labs, welcomes non-compete changes",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/15/nebius-says-struck-deals-with-uk-ai-labs-welcomes-non-compete-changes/",
+     "importance": 49,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-15T10:46:00.000Z",
+     "topics": [
+      "算力与基建",
+      "产业与生态"
+     ],
+     "entities": [
+      "Nebius"
+     ],
+     "firstSeen": "2026-10-17",
+     "isNew": false
+    },
+    {
+     "id": "511662cba2db9d29",
+     "title": "ID Finance lands €545M, UK launches refugee-focused VC fund, and the race to save EU Inc",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/16/id-finance-lands-545m-uk-launches-refugee-focused-vc-fund-and-the-race-to-save-eu-inc/",
+     "importance": 48,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-16T14:26:02.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-17",
+     "isNew": false
+    },
+    {
+     "id": "6e295aa8bce6ed58",
+     "title": "DJ Reinier Zonneveld launches AI music startup GasLab with $1M pre-seed funding",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/16/dj-reinier-zonneveld-launches-ai-music-startup-gaslab-with-1m-pre-seed-funding/",
+     "importance": 48,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-16T14:23:30.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-17",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "6c09d368c9227285",
+     "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+     "importance": 86,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-17T18:48:08.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    },
+    {
+     "id": "b558ba3454d974b4",
+     "title": "Websites are closing their doors to AI agents",
+     "source": "The Verge AI",
+     "region": "NA",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-17T13:00:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Google",
+      "Meta",
+      "xAI"
+     ],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    },
+    {
+     "id": "237f0377fe39256d",
+     "title": "Meta removes language that raised scraping and AI training concerns",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+     "importance": 72,
+     "difficulty": "高级",
+     "publishedAt": "2026-10-17T21:31:32.000Z",
+     "topics": [],
+     "entities": [
+      "Meta"
+     ],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "cf408a7d9722e4d1",
+     "title": "Burma Burma Parent’s FY26 Loss Surges 31X YoY To ₹15 Cr",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/burma-burma-parents-fy26-loss-surges-31x-yoy-to-%e2%82%b915-cr/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-17T22:08:29.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    },
+    {
+     "id": "4fba2891d047aeb2",
+     "title": "Flipkart’s Logistics Arm Ekart Cuts FY26 Loss By 98% To ₹26 Cr",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/ekart-fy26-loss-narrows-by-98-to-%e2%82%b926-cr-despite-a-fall-in-top-line/",
+     "importance": 75,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-17T11:23:41.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    },
+    {
+     "id": "c574c558d21fe442",
+     "title": "Burma Burma Parent Files DRHP For IPO With ₹150 Cr Fresh Issue",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/burma-burma-parent-files-drhp-for-ipo-with-%e2%82%b9150-cr-fresh-issue/",
+     "importance": 73,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-17T06:52:42.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 18 日，共从 27 个信息源抓取 443 条 AI 产业动态，其中 156 条进入当日精选，覆盖 7 个区域。其中有 60 条发布于 24 小时内。其中 65 条是此前未出现过的新增内容，另有 91 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」51 条、「产品与应用」41 条。值得优先关注的几条：「DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道」（极客公园）、「夹在字节缝隙中的AI融资明星们」（钛媒体）、「估值暴跌3.5万亿，Anthropic错过上市最佳时机？」（钛媒体）。"
+}
