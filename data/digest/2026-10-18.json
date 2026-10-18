@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-18",
- "generatedAt": "2026-10-18T01:22:19.502Z",
+ "generatedAt": "2026-10-18T04:25:55.100Z",
  "mode": "rule",
  "counts": {
-  "crawled": 443,
+  "crawled": 446,
   "published": 156,
-  "newCount": 65,
-  "repeatCount": 91,
+  "newCount": 71,
+  "repeatCount": 85,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,30 +22,30 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 60,
+  "within24h": 59,
   "withinFresh": 132,
   "freshHours": 72,
   "monthPrecision": 14,
   "undated": 0,
   "staleDropped": 36,
-  "newestAt": "2026-10-18T09:17:00.000Z"
+  "newestAt": "2026-10-18T10:00:00.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 51
+   "n": 56
   },
   {
    "name": "产品与应用",
-   "n": 41
+   "n": 42
   },
   {
    "name": "模型与能力",
-   "n": 26
+   "n": 28
   },
   {
    "name": "产业与生态",
-   "n": 25
+   "n": 24
   },
   {
    "name": "算力与基建",
@@ -59,23 +59,23 @@
  "entities": [
   {
    "name": "Anthropic",
-   "n": 10
+   "n": 9
   },
   {
    "name": "Meta",
-   "n": 8
+   "n": 9
   },
   {
    "name": "NVIDIA",
    "n": 7
   },
   {
-   "name": "DeepSeek",
-   "n": 4
+   "name": "OpenAI",
+   "n": 5
   },
   {
-   "name": "OpenAI",
-   "n": 4
+   "name": "华为",
+   "n": 3
   },
   {
    "name": "Google",
@@ -91,6 +91,26 @@
   }
  ],
  "topOverall": [
+  {
+   "id": "d4e1587bba79a215",
+   "title": "当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8171909.html",
+   "importance": 96,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-18T01:57:28.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "Anthropic",
+    "Meta"
+   ],
+   "firstSeen": "2026-10-18",
+   "isNew": true
+  },
   {
    "id": "caadc57506ccad05",
    "title": "DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道",
@@ -113,22 +133,20 @@
    "isNew": true
   },
   {
-   "id": "bb08e7948404a4f8",
-   "title": "夹在字节缝隙中的AI融资明星们",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8171535.html",
-   "importance": 93,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-17T07:38:37.000Z",
+   "id": "09305b03534ca74b",
+   "title": "China’s CXMT expects up to $8.2b Q3 profit on AI demand",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/cxmt-expects-821b-q3-profit-ai-demand",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-18T01:23:55.000Z",
    "topics": [
-    "资本与市场",
-    "产品与应用"
+    "资本与市场"
    ],
    "entities": [
-    "腾讯",
-    "字节跳动",
-    "生数科技"
+    "三星",
+    "SK 海力士"
    ],
    "firstSeen": "2026-10-18",
    "isNew": true
@@ -154,6 +172,25 @@
    "isNew": true
   },
   {
+   "id": "cf132846288fe230",
+   "title": "为AI这碟醋，腾讯包上了“绿泡泡”这盘“饺子”",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8172155.html",
+   "importance": 86,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-18T01:57:07.000Z",
+   "topics": [
+    "产品与应用",
+    "产业与生态"
+   ],
+   "entities": [
+    "腾讯"
+   ],
+   "firstSeen": "2026-10-18",
+   "isNew": true
+  },
+  {
    "id": "6c09d368c9227285",
    "title": "Replit makes OpenAI its default over Anthropic, CEO says",
    "source": "TechCrunch AI",
@@ -173,50 +210,16 @@
    "isNew": true
   },
   {
-   "id": "148537e0f6c08efb",
-   "title": "估值暴跌3.5万亿，Anthropic错过上市最佳时机？",
-   "source": "钛媒体",
+   "id": "8cb5a031b1fa945c",
+   "title": "央行副行长宣昌能出席全球主权债务圆桌会等会议并会见相关机构负责人",
+   "source": "36氪",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8171993.html",
-   "importance": 82,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-17T09:29:00.000Z",
-   "topics": [
-    "资本与市场",
-    "模型与能力"
-   ],
-   "entities": [
-    "Anthropic"
-   ],
-   "firstSeen": "2026-10-18",
-   "isNew": true
-  },
-  {
-   "id": "d6bb4f92e2006a83",
-   "title": "Aspire 13.6 新增持久化仪表盘遥测功能，并支持第一方 Java 和 Rust 托管",
-   "source": "InfoQ 中国",
-   "region": "CN",
-   "url": "https://www.infoq.cn/article/4BUR4DmMxSBxyzYh6Fxz?utm_source=rss&utm_medium=article",
-   "importance": 81,
+   "url": "https://36kr.com/newsflashes/4030804625265029?f=rss",
+   "importance": 84,
    "difficulty": "入门",
-   "publishedAt": "2026-10-18T09:17:00.000Z",
+   "publishedAt": "2026-10-18T03:06:30.000Z",
    "topics": [
-    "产品与应用"
-   ],
-   "entities": [],
-   "firstSeen": "2026-10-18",
-   "isNew": true
-  },
-  {
-   "id": "fb85290f69a7e619",
-   "title": "Mapping India’s cleantech key players",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/visual-story/india-clean-tech-landscape-map",
-   "importance": 81,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-18T00:00:00.000Z",
-   "topics": [
+    "产业与生态",
     "资本与市场"
    ],
    "entities": [],
@@ -224,20 +227,20 @@
    "isNew": true
   },
   {
-   "id": "6f043dacb7193885",
-   "title": "上下文争夺，为何成了办公AI新战场？",
-   "source": "钛媒体",
+   "id": "1041a5e7d2e8f28c",
+   "title": "前华为车BU世界模型基模负责人创业，杭州具身大脑公司获近亿元融资｜硬氪首发",
+   "source": "36氪",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8171629.html",
-   "importance": 81,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-17T09:29:19.000Z",
+   "url": "https://36kr.com/p/4025325566054529?f=rss",
+   "importance": 83,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-18T01:30:00.000Z",
    "topics": [
-    "模型与能力",
-    "产品与应用"
+    "资本与市场",
+    "模型与能力"
    ],
    "entities": [
-    "Anthropic"
+    "华为"
    ],
    "firstSeen": "2026-10-18",
    "isNew": true
@@ -251,6 +254,26 @@
    "flag": "🇨🇳",
    "count": 24,
    "top": [
+    {
+     "id": "d4e1587bba79a215",
+     "title": "当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8171909.html",
+     "importance": 96,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-18T01:57:28.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "Anthropic",
+      "Meta"
+     ],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    },
     {
      "id": "caadc57506ccad05",
      "title": "DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道",
@@ -273,41 +296,20 @@
      "isNew": true
     },
     {
-     "id": "bb08e7948404a4f8",
-     "title": "夹在字节缝隙中的AI融资明星们",
+     "id": "cf132846288fe230",
+     "title": "为AI这碟醋，腾讯包上了“绿泡泡”这盘“饺子”",
      "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8171535.html",
-     "importance": 93,
+     "url": "https://www.tmtpost.com/8172155.html",
+     "importance": 86,
      "difficulty": "入门",
-     "publishedAt": "2026-10-17T07:38:37.000Z",
+     "publishedAt": "2026-10-18T01:57:07.000Z",
      "topics": [
-      "资本与市场",
-      "产品与应用"
+      "产品与应用",
+      "产业与生态"
      ],
      "entities": [
-      "腾讯",
-      "字节跳动",
-      "生数科技"
-     ],
-     "firstSeen": "2026-10-18",
-     "isNew": true
-    },
-    {
-     "id": "148537e0f6c08efb",
-     "title": "估值暴跌3.5万亿，Anthropic错过上市最佳时机？",
-     "source": "钛媒体",
-     "region": "CN",
-     "url": "https://www.tmtpost.com/8171993.html",
-     "importance": 82,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-17T09:29:00.000Z",
-     "topics": [
-      "资本与市场",
-      "模型与能力"
-     ],
-     "entities": [
-      "Anthropic"
+      "腾讯"
      ],
      "firstSeen": "2026-10-18",
      "isNew": true
@@ -321,6 +323,25 @@
    "flag": "🌏",
    "count": 24,
    "top": [
+    {
+     "id": "09305b03534ca74b",
+     "title": "China’s CXMT expects up to $8.2b Q3 profit on AI demand",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/cxmt-expects-821b-q3-profit-ai-demand",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-18T01:23:55.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "三星",
+      "SK 海力士"
+     ],
+     "firstSeen": "2026-10-18",
+     "isNew": true
+    },
     {
      "id": "aefa3b476629bc8e",
      "title": "DeepSeek rolls out V4.1-Flash update with faster outputs",
@@ -342,36 +363,18 @@
      "isNew": true
     },
     {
-     "id": "fb85290f69a7e619",
-     "title": "Mapping India’s cleantech key players",
+     "id": "2de7f42b95f3cdd1",
+     "title": "India’s startup funding, as explained in charts",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/visual-story/india-clean-tech-landscape-map",
+     "url": "https://www.techinasia.com/visual-story/capital-india-indias-funding-landscape",
      "importance": 81,
      "difficulty": "入门",
-     "publishedAt": "2026-10-18T00:00:00.000Z",
+     "publishedAt": "2026-10-18T04:00:00.000Z",
      "topics": [
       "资本与市场"
      ],
      "entities": [],
-     "firstSeen": "2026-10-18",
-     "isNew": true
-    },
-    {
-     "id": "159556ccdbe877d7",
-     "title": "Mapping the firms leaving a mark in China’s fintech race",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/visual-story/mapping-chinas-notable-fintech-players",
-     "importance": 78,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-17T11:00:00.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [
-      "阿里巴巴"
-     ],
      "firstSeen": "2026-10-18",
      "isNew": true
     }
@@ -447,20 +450,16 @@
    "count": 12,
    "top": [
     {
-     "id": "67b6e5614a5ef339",
-     "title": "딥시크, 코딩 성능 높인 ‘V4.1 플래시’ 업데이트…검색 API도 공개",
+     "id": "28b85463be552f44",
+     "title": "순천만천문대 ‘밤새워 내 별 찾기’…초등교사 2년 연속 참여",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=216370",
-     "importance": 68,
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216316",
+     "importance": 50,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-18T09:03:13.000Z",
-     "topics": [
-      "模型与能力"
-     ],
-     "entities": [
-      "DeepSeek"
-     ],
+     "publishedAt": "2026-10-18T09:50:00.000Z",
+     "topics": [],
+     "entities": [],
      "firstSeen": "2026-10-17",
      "isNew": false
     },
@@ -611,7 +610,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-     "importance": 72,
+     "importance": 68,
      "difficulty": "高级",
      "publishedAt": "2026-10-17T21:31:32.000Z",
      "topics": [],
@@ -631,16 +630,16 @@
    "count": 24,
    "top": [
     {
-     "id": "cf408a7d9722e4d1",
-     "title": "Burma Burma Parent’s FY26 Loss Surges 31X YoY To ₹15 Cr",
-     "source": "Inc42",
+     "id": "3401efb280706489",
+     "title": "How art platforms, exhibitions and awards strengthen the creative economy",
+     "source": "YourStory",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/burma-burma-parents-fy26-loss-surges-31x-yoy-to-%e2%82%b915-cr/",
-     "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-17T22:08:29.000Z",
+     "url": "https://yourstory.com/2026/10/art-platforms-exhibitions-awards-creative-economy-photography",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-18T03:12:43.000Z",
      "topics": [
-      "资本与市场"
+      "产品与应用"
      ],
      "entities": [],
      "firstSeen": "2026-10-18",
@@ -665,14 +664,14 @@
      "isNew": true
     },
     {
-     "id": "c574c558d21fe442",
-     "title": "Burma Burma Parent Files DRHP For IPO With ₹150 Cr Fresh Issue",
+     "id": "cf408a7d9722e4d1",
+     "title": "Burma Burma Parent’s FY26 Loss Surges 31X YoY To ₹15 Cr",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/burma-burma-parent-files-drhp-for-ipo-with-%e2%82%b9150-cr-fresh-issue/",
-     "importance": 73,
+     "url": "https://inc42.com/buzz/burma-burma-parents-fy26-loss-surges-31x-yoy-to-%e2%82%b915-cr/",
+     "importance": 74,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-17T06:52:42.000Z",
+     "publishedAt": "2026-10-17T22:08:29.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -683,5 +682,5 @@
    ]
   }
  ],
- "overview": "10 月 18 日，共从 27 个信息源抓取 443 条 AI 产业动态，其中 156 条进入当日精选，覆盖 7 个区域。其中有 60 条发布于 24 小时内。其中 65 条是此前未出现过的新增内容，另有 91 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」51 条、「产品与应用」41 条。值得优先关注的几条：「DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道」（极客公园）、「夹在字节缝隙中的AI融资明星们」（钛媒体）、「估值暴跌3.5万亿，Anthropic错过上市最佳时机？」（钛媒体）。"
+ "overview": "10 月 18 日，共从 27 个信息源抓取 446 条 AI 产业动态，其中 156 条进入当日精选，覆盖 7 个区域。其中有 59 条发布于 24 小时内。其中 71 条是此前未出现过的新增内容，另有 85 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」56 条、「产品与应用」42 条。值得优先关注的几条：「当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家」（钛媒体）、「DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道」（极客公园）、「为AI这碟醋，腾讯包上了“绿泡泡”这盘“饺子”」（钛媒体）。"
 }
