@@ -1,0 +1,685 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-20",
+ "generatedAt": "2026-10-20T01:24:22.214Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 452,
+  "published": 157,
+  "newCount": 122,
+  "repeatCount": 35,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 13,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 27,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 118,
+  "withinFresh": 121,
+  "freshHours": 72,
+  "monthPrecision": 20,
+  "undated": 0,
+  "staleDropped": 26,
+  "newestAt": "2026-10-20T07:00:00.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 49
+  },
+  {
+   "name": "产品与应用",
+   "n": 48
+  },
+  {
+   "name": "模型与能力",
+   "n": 25
+  },
+  {
+   "name": "产业与生态",
+   "n": 20
+  },
+  {
+   "name": "算力与基建",
+   "n": 20
+  },
+  {
+   "name": "政策与治理",
+   "n": 12
+  }
+ ],
+ "entities": [
+  {
+   "name": "Anthropic",
+   "n": 9
+  },
+  {
+   "name": "NVIDIA",
+   "n": 8
+  },
+  {
+   "name": "OpenAI",
+   "n": 7
+  },
+  {
+   "name": "DeepSeek",
+   "n": 7
+  },
+  {
+   "name": "阿里巴巴",
+   "n": 4
+  },
+  {
+   "name": "Microsoft",
+   "n": 3
+  },
+  {
+   "name": "Arm",
+   "n": 3
+  },
+  {
+   "name": "Amazon",
+   "n": 2
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "6ef84a6c69e372c2",
+   "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+   "importance": 96,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-19T22:04:28.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "Microsoft"
+   ],
+   "firstSeen": "2026-10-20",
+   "isNew": true
+  },
+  {
+   "id": "2d3cc82bb37e35e9",
+   "title": "中信建投：建议关注企业级AI应用、算力服务及国产芯片和超节点",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4033473310135169?f=rss",
+   "importance": 93,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-20T00:56:01.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "智谱AI",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-20",
+   "isNew": true
+  },
+  {
+   "id": "34ebed073f03fd7d",
+   "title": "早报｜苹果定档下周发布新品，触屏MacBook Pro或将亮相/华为苹果拿下中国手机四成份额/杨立昆锐评特斯拉飞车，马斯克：放屁",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1684957?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-20T00:07:06.000Z",
+   "topics": [
+    "算力与基建",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "NVIDIA",
+    "Intel"
+   ],
+   "firstSeen": "2026-10-20",
+   "isNew": true
+  },
+  {
+   "id": "b14a44a66415b4b9",
+   "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-19T20:09:24.000Z",
+   "topics": [
+    "算力与基建",
+    "产品与应用"
+   ],
+   "entities": [
+    "Amazon",
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-10-20",
+   "isNew": true
+  },
+  {
+   "id": "25e6cf1cdf7e1a69",
+   "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-19T23:39:38.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-20",
+   "isNew": true
+  },
+  {
+   "id": "0fb28e0283247934",
+   "title": "MiniMax launches M3.1 Flash for coding, agentic tasks",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/minimax-launches-m31-flash-coding-agentic-tasks",
+   "importance": 87,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-20T01:18:15.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "MiniMax"
+   ],
+   "firstSeen": "2026-10-20",
+   "isNew": true
+  },
+  {
+   "id": "68a4a4a9f5563539",
+   "title": "DeepSeek 新模型登顶开源模型榜首；国内 55% 算力用于视频和短剧？豆包发言人辟谣；微信发起公众号小说改编微短剧激励｜极客早知道",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/372568",
+   "importance": 87,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-20T01:01:44.000Z",
+   "topics": [
+    "模型与能力",
+    "算力与基建"
+   ],
+   "entities": [
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-20",
+   "isNew": true
+  },
+  {
+   "id": "26fca562af495098",
+   "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+   "source": "Ars Technica AI",
+   "region": "NA",
+   "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+   "importance": 87,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-19T14:45:43.000Z",
+   "topics": [
+    "政策与治理",
+    "资本与市场"
+   ],
+   "entities": [
+    "Character.AI"
+   ],
+   "firstSeen": "2026-10-20",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "2d3cc82bb37e35e9",
+     "title": "中信建投：建议关注企业级AI应用、算力服务及国产芯片和超节点",
+     "source": "36氪",
+     "region": "CN",
+     "url": "https://36kr.com/newsflashes/4033473310135169?f=rss",
+     "importance": 93,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-20T00:56:01.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "智谱AI",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "34ebed073f03fd7d",
+     "title": "早报｜苹果定档下周发布新品，触屏MacBook Pro或将亮相/华为苹果拿下中国手机四成份额/杨立昆锐评特斯拉飞车，马斯克：放屁",
+     "source": "爱范儿",
+     "region": "CN",
+     "url": "https://www.ifanr.com/1684957?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 91,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-20T00:07:06.000Z",
+     "topics": [
+      "算力与基建",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "NVIDIA",
+      "Intel"
+     ],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "68a4a4a9f5563539",
+     "title": "DeepSeek 新模型登顶开源模型榜首；国内 55% 算力用于视频和短剧？豆包发言人辟谣；微信发起公众号小说改编微短剧激励｜极客早知道",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/372568",
+     "importance": 87,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-20T01:01:44.000Z",
+     "topics": [
+      "模型与能力",
+      "算力与基建"
+     ],
+     "entities": [
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "0fb28e0283247934",
+     "title": "MiniMax launches M3.1 Flash for coding, agentic tasks",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/minimax-launches-m31-flash-coding-agentic-tasks",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-20T01:18:15.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "MiniMax"
+     ],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "1b8dfabf73cb8e18",
+     "title": "Samsung, Checkout.com expand digital payments partnership",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/samsung-checkoutcom-expand-digital-payments-partnership",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-20T00:16:25.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [
+      "三星"
+     ],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "1519d26a1957c555",
+     "title": "US software firm Boomi acquires Israeli data startup for $45m",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/software-firm-boomi-acquires-israeli-data-startup-45m",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-20T00:10:55.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "831133affe79b981",
+     "title": "Saudi autotech Autobia raises $12 million Series A led by Artal Capital",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/saudi-autotech-autobia-raises-12-million-series-a-led-artal-capital",
+     "importance": 62,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-10-19",
+     "isNew": false
+    },
+    {
+     "id": "fce8bb928a89a9bc",
+     "title": "Egyptian proptech Aqar Exit attracts investment at $2 million valuation",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/egyptian-proptech-aqar-exit-attracts-investment-2-million-valuation",
+     "importance": 61,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "2acdfb844c87751b",
+     "title": "Tactful AI attracts fresh investment from Hatem Dowidar ahead of 2027 Series A",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/tactful-ai-attracts-fresh-investment-hatem-dowidar-ahead-2027-series-a",
+     "importance": 61,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 13,
+   "top": [
+    {
+     "id": "ddef59eca4c343d2",
+     "title": "AIエージェントおすすめ17選！料金・無料枠・セキュリティを種類別に比較",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/20/278446/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%258a%25e3%2581%2599%25e3%2581%2599%25e3%2582%258117%25e9%2581%25b8%25ef%25bc%2581%25e6%2596%2599%25e9%2587%2591%25e3%2583%25bb%25e7%2584%25a1%25e6%2596%2599%25e6%259e%25a0%25e3%2583%25bb%25e3%2582%25bb%25e3%2582%25ad",
+     "importance": 74,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-19T16:45:43.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "826ff10f4a8bd3da",
+     "title": "AIエージェントの種類一覧！5つの分類軸と代表サービス・選び方を解説",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/20/278443/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e7%25a8%25ae%25e9%25a1%259e%25e4%25b8%2580%25e8%25a6%25a7%25ef%25bc%25815%25e3%2581%25a4%25e3%2581%25ae%25e5%2588%2586%25e9%25a1%259e%25e8%25bb%25b8%25e3%2581%25a8%25e4%25bb%25a3%25e8%25a1%25a8%25e3%2582%25b5",
+     "importance": 74,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-19T16:16:13.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "ef3b67ac2f5ab6bb",
+     "title": "개방형 AI 모델의 딜레마…기술 민주화와 안전성 논란 사이",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ea%b0%9c%eb%b0%a9%ed%98%95-ai-%eb%aa%a8%eb%8d%b8%ec%9d%98-%eb%94%9c%eb%a0%88%eb%a7%88%ea%b8%b0%ec%88%a0-%eb%af%bc%ec%a3%bc%ed%99%94%ec%99%80-%ec%95%88%ec%a0%84%ec%84%b1-%ec%82%ac%ec%9d%b4/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-19T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "c2ed14055a7a6b6f",
+     "title": "NOVUS secures eight-figure funding to take its electric Lightbike from Germany to California",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/19/novus-secures-eight-figure-funding-to-take-its-electric-lightbike-from-germany-to-california/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-19T21:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "bbcc678617874bb3",
+     "title": "Vessla exits stealth with $3.3M to bring AI agents to property management",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/19/vessla-exits-stealth-with-33m-to-bring-ai-agents-to-property-management/",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-19T07:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "2ceee7cb56fa4102",
+     "title": "German VCs call for €15B annual funding boost to build the next generation of tech giants",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/19/german-vcs-call-for-eur15b-annual-funding-boost-to-build-the-next-generation-of-tech-giants/",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-19T10:46:06.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "6ef84a6c69e372c2",
+     "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+     "importance": 96,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-19T22:04:28.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "Microsoft"
+     ],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "b14a44a66415b4b9",
+     "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-19T20:09:24.000Z",
+     "topics": [
+      "算力与基建",
+      "产品与应用"
+     ],
+     "entities": [
+      "Amazon",
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "25e6cf1cdf7e1a69",
+     "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-19T23:39:38.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "62cd80d0bbcdb4fb",
+     "title": "Even Healthcare Raises $50 Mn To Expand Hospital Network Across Bengaluru",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/even-healthcare-raises-50-mn-to-expand-hospital-network-across-bengaluru/",
+     "importance": 80,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-19T08:05:42.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "604b77bacc2eea64",
+     "title": "[Update] Zetwerk’s IPO Closes With 3.06X Subscription",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/zetwerks-ipo-fully-subscribed-on-day-3-gets-muted-response-from-retail-investors/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-19T15:05:10.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    },
+    {
+     "id": "df8113dd2b466a0c",
+     "title": "[Update] Tonbo Imaging IPO Closes With 135.9X Oversubscription",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/tonbo-imaging-ipo-oversubscribed-40x-on-day-3-till-now/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-19T13:46:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 20 日，共从 27 个信息源抓取 452 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 118 条发布于 24 小时内。其中 122 条是此前未出现过的新增内容，另有 35 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」49 条、「产品与应用」48 条。值得优先关注的几条：「中信建投：建议关注企业级AI应用、算力服务及国产芯片和超节点」（36氪）、「早报｜苹果定档下周发布新品，触屏MacBook Pro或将亮相/华为苹果拿下中国手机四成份额/杨立昆锐评特斯拉飞车，马斯克：放屁」（爱范儿）、「DeepSeek 新模型登顶开源模型榜首；国内 55% 算力用于视频和短剧？豆包发言人辟谣；微信发起公众号小说改编微短剧激励｜极客早知道」（极客公园）。"
+}
