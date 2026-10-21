@@ -1,0 +1,693 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-21",
+ "generatedAt": "2026-10-21T01:25:34.973Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 453,
+  "published": 157,
+  "newCount": 117,
+  "repeatCount": 40,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 13,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 27,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 125,
+  "withinFresh": 132,
+  "freshHours": 72,
+  "monthPrecision": 19,
+  "undated": 0,
+  "staleDropped": 27,
+  "newestAt": "2026-10-21T09:21:00.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 55
+  },
+  {
+   "name": "产品与应用",
+   "n": 44
+  },
+  {
+   "name": "产业与生态",
+   "n": 22
+  },
+  {
+   "name": "算力与基建",
+   "n": 16
+  },
+  {
+   "name": "模型与能力",
+   "n": 15
+  },
+  {
+   "name": "政策与治理",
+   "n": 12
+  }
+ ],
+ "entities": [
+  {
+   "name": "Anthropic",
+   "n": 10
+  },
+  {
+   "name": "OpenAI",
+   "n": 10
+  },
+  {
+   "name": "Google",
+   "n": 7
+  },
+  {
+   "name": "Meta",
+   "n": 7
+  },
+  {
+   "name": "DeepSeek",
+   "n": 5
+  },
+  {
+   "name": "NVIDIA",
+   "n": 5
+  },
+  {
+   "name": "小米",
+   "n": 3
+  },
+  {
+   "name": "Arm",
+   "n": 3
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "24b0d50e8598b8a8",
+   "title": "早报｜小天才回应封闭社交争议/车灯新规拟禁止显示文字/马斯克回应SpaceX与特斯拉合并",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1685079?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-21T00:21:51.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "Anthropic",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-21",
+   "isNew": true
+  },
+  {
+   "id": "52119f7bc8267154",
+   "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+   "importance": 96,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-20T18:38:24.000Z",
+   "topics": [
+    "算力与基建",
+    "产品与应用"
+   ],
+   "entities": [
+    "Google",
+    "Amazon",
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-10-21",
+   "isNew": true
+  },
+  {
+   "id": "74ef9f8a6f5834a6",
+   "title": "曝高通启动全球裁员；上线 40 天，Muse 下载量突破 1000 万次；ChatGPT 上线幻灯片工具",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/372650",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-21T00:37:07.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-21",
+   "isNew": true
+  },
+  {
+   "id": "33e52a2addeb228a",
+   "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+   "source": "Ars Technica AI",
+   "region": "NA",
+   "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+   "importance": 92,
+   "difficulty": "高级",
+   "publishedAt": "2026-10-20T17:40:20.000Z",
+   "topics": [
+    "政策与治理"
+   ],
+   "entities": [
+    "Meta"
+   ],
+   "firstSeen": "2026-10-21",
+   "isNew": true
+  },
+  {
+   "id": "bfa1b8d2da72ec2e",
+   "title": "北大博士、零一万物联创黄文灏加入字节 Seed 两年后离职，下一步或创业",
+   "source": "InfoQ 中国",
+   "region": "CN",
+   "url": "https://www.infoq.cn/article/Xkjg7bLE3o6l9qCidVX0?utm_source=rss&utm_medium=article",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-21T00:35:12.000Z",
+   "topics": [
+    "产业与生态"
+   ],
+   "entities": [
+    "字节跳动",
+    "零一万物"
+   ],
+   "firstSeen": "2026-10-21",
+   "isNew": true
+  },
+  {
+   "id": "2281accd2aed8920",
+   "title": "OpenCode陷入“密钥泄露”风波，AI时代如何守住安全红线？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8174735.html",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-20T09:29:55.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "Google"
+   ],
+   "firstSeen": "2026-10-21",
+   "isNew": true
+  },
+  {
+   "id": "8157f56bcecbb416",
+   "title": "Inception says Mercury 3 beats GPT-6 Luna and Claude Haiku 5.5 at up to 8x the speed",
+   "source": "SiliconANGLE",
+   "region": "NA",
+   "url": "https://siliconangle.com/2026/10/20/inception-says-mercury-3-beats-gpt-6-luna-and-claude-haiku-5-5-at-up-to-8x-the-speed/",
+   "importance": 89,
+   "difficulty": "高级",
+   "publishedAt": "2026-10-20T22:45:02.000Z",
+   "topics": [
+    "模型与能力",
+    "资本与市场"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-21",
+   "isNew": true
+  },
+  {
+   "id": "e95f2eb323137e6b",
+   "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-20T23:01:23.000Z",
+   "topics": [
+    "政策与治理"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-21",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "24b0d50e8598b8a8",
+     "title": "早报｜小天才回应封闭社交争议/车灯新规拟禁止显示文字/马斯克回应SpaceX与特斯拉合并",
+     "source": "爱范儿",
+     "region": "CN",
+     "url": "https://www.ifanr.com/1685079?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-21T00:21:51.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "Anthropic",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "74ef9f8a6f5834a6",
+     "title": "曝高通启动全球裁员；上线 40 天，Muse 下载量突破 1000 万次；ChatGPT 上线幻灯片工具",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/372650",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-21T00:37:07.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "bfa1b8d2da72ec2e",
+     "title": "北大博士、零一万物联创黄文灏加入字节 Seed 两年后离职，下一步或创业",
+     "source": "InfoQ 中国",
+     "region": "CN",
+     "url": "https://www.infoq.cn/article/Xkjg7bLE3o6l9qCidVX0?utm_source=rss&utm_medium=article",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-21T00:35:12.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [
+      "字节跳动",
+      "零一万物"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "026456ae9ab60560",
+     "title": "SoftBank credit risk highest since 2022 on AI worries",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/softbank-credit-risk-highest-2022-ai-worries",
+     "importance": 88,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-20T07:22:39.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "OpenAI",
+      "软银"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "cb843bfddcabccdf",
+     "title": "SEA funding round sizes over the past 5 years",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/visual-story/sea-funding-sizes-5-years",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-21T00:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "8bd18b01dec30560",
+     "title": "Sea plans IPO for financial services arm Monee: source",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/sea-plans-ipo-financial-services-arm-monee-source",
+     "importance": 79,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-20T07:04:21.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "df727f2e9d2fe037",
+     "title": "Databuddy Analytics raises $500,000 from Y Combinator",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/databuddy-analytics-raises-500000-y-combinator",
+     "importance": 68,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "94756b162e6f06aa",
+     "title": "VAST and Hyperfusion target faster deployment of sovereign AI inference",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/vast-and-hyperfusion-target-faster-deployment-of-sovereign-ai-inference/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-20T06:16:23.000Z",
+     "topics": [
+      "政策与治理"
+     ],
+     "entities": [
+      "VAST Data"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "12828df128a8d902",
+     "title": "CapQuest closes $1 million pre-Seed funding to expand globally",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/capquest-closes-1-million-pre-seed-funding-expand-globally",
+     "importance": 64,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 13,
+   "top": [
+    {
+     "id": "5ac5c09f32c02527",
+     "title": "인지적 영생을 얻기 위한 6가지 기발한 발상",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ec%9d%b8%ec%a7%80%ec%a0%81-%ec%98%81%ec%83%9d%ec%9d%84-%ec%96%bb%ea%b8%b0-%ec%9c%84%ed%95%9c-6%ea%b0%80%ec%a7%80-%ea%b8%b0%eb%b0%9c%ed%95%9c-%eb%b0%9c%ec%83%81/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-20T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "37811e9baea0ab1a",
+     "title": "[AI리더의 서가] LLM을 활용한 데이터 분석",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216343",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-21T09:00:00.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": false
+    },
+    {
+     "id": "ddef59eca4c343d2",
+     "title": "AIエージェントおすすめ17選！料金・無料枠・セキュリティを種類別に比較",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/20/278446/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%258a%25e3%2581%2599%25e3%2581%2599%25e3%2582%258117%25e9%2581%25b8%25ef%25bc%2581%25e6%2596%2599%25e9%2587%2591%25e3%2583%25bb%25e7%2584%25a1%25e6%2596%2599%25e6%259e%25a0%25e3%2583%25bb%25e3%2582%25bb%25e3%2582%25ad",
+     "importance": 45,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-19T16:45:43.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-20",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "31fa78b7305327a1",
+     "title": "Former Google DeepMind top researcher launches London “compute-efficient” AI company",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/20/former-google-deepmind-top-researcher-launches-london-compute-efficient-ai-company/",
+     "importance": 87,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-20T06:46:00.000Z",
+     "topics": [
+      "模型与能力",
+      "算力与基建"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "DeepMind"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "6fd1a56678143a0e",
+     "title": "Daytona hits $1B valuation with $60M Series B for AI agent cloud",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/20/daytona-hits-1b-valuation-with-60m-series-b-for-ai-agent-cloud/",
+     "importance": 82,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-20T14:08:42.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "bdcf5041ee5d99cd",
+     "title": "Coherence Quantum raises €2.78M to tackle quantum computer scaling challenges",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/10/20/coherence-quantum-raises-eur278m-to-tackle-quantum-computer-scaling-challenges/",
+     "importance": 82,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-20T08:51:33.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [
+      "Cohere"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "52119f7bc8267154",
+     "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+     "importance": 96,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-20T18:38:24.000Z",
+     "topics": [
+      "算力与基建",
+      "产品与应用"
+     ],
+     "entities": [
+      "Google",
+      "Amazon",
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "33e52a2addeb228a",
+     "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+     "source": "Ars Technica AI",
+     "region": "NA",
+     "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+     "importance": 92,
+     "difficulty": "高级",
+     "publishedAt": "2026-10-20T17:40:20.000Z",
+     "topics": [
+      "政策与治理"
+     ],
+     "entities": [
+      "Meta"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "8157f56bcecbb416",
+     "title": "Inception says Mercury 3 beats GPT-6 Luna and Claude Haiku 5.5 at up to 8x the speed",
+     "source": "SiliconANGLE",
+     "region": "NA",
+     "url": "https://siliconangle.com/2026/10/20/inception-says-mercury-3-beats-gpt-6-luna-and-claude-haiku-5-5-at-up-to-8x-the-speed/",
+     "importance": 89,
+     "difficulty": "高级",
+     "publishedAt": "2026-10-20T22:45:02.000Z",
+     "topics": [
+      "模型与能力",
+      "资本与市场"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "5321d8d1dcc0b521",
+     "title": "Optus chasing \"near real-time\" data as regulatory pressure looms",
+     "source": "iTnews Australia",
+     "region": "OTHER",
+     "url": "https://www.itnews.com.au/news/optus-chasing-near-real-time-data-as-regulatory-pressure-looms-629064?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-20T20:35:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Oracle"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "3ed066a7f95c4730",
+     "title": "Redmi K100 Gets a 10,000mAh Battery, the Brand's Biggest Yet",
+     "source": "Techloy",
+     "region": "OTHER",
+     "url": "https://www.techloy.com/redmi-k100-price-launch-date/",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-20T15:03:49.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "小米"
+     ],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    },
+    {
+     "id": "3c1500bbd3371fec",
+     "title": "Hunar.AI raises Rs 40 Cr in Series A funding round led by Blume Ventures",
+     "source": "YourStory",
+     "region": "OTHER",
+     "url": "https://yourstory.com/2026/10/hunarai-raises-rs-40-crore-in-series-a-led-by-blume-ventures",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-20T13:45:57.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-21",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 21 日，共从 27 个信息源抓取 453 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 125 条发布于 24 小时内。其中 117 条是此前未出现过的新增内容，另有 40 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」55 条、「产品与应用」44 条。值得优先关注的几条：「早报｜小天才回应封闭社交争议/车灯新规拟禁止显示文字/马斯克回应SpaceX与特斯拉合并」（爱范儿）、「曝高通启动全球裁员；上线 40 天，Muse 下载量突破 1000 万次；ChatGPT 上线幻灯片工具」（极客公园）、「北大博士、零一万物联创黄文灏加入字节 Seed 两年后离职，下一步或创业」（InfoQ 中国）。"
+}
