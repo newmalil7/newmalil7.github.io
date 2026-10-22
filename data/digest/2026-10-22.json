@@ -1,92 +1,92 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-22",
- "generatedAt": "2026-10-22T01:23:50.537Z",
+ "generatedAt": "2026-10-22T04:30:04.314Z",
  "mode": "rule",
  "counts": {
-  "crawled": 456,
-  "published": 153,
-  "newCount": 123,
-  "repeatCount": 30,
+  "crawled": 457,
+  "published": 155,
+  "newCount": 126,
+  "repeatCount": 29,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
    "ME": 24,
-   "JPKR": 9,
+   "JPKR": 11,
    "EU": 24,
    "NA": 24,
    "OTHER": 24
   },
-  "sourceOk": 26,
+  "sourceOk": 27,
   "sourceTotal": 30,
   "regions": 7
  },
  "freshness": {
   "within24h": 124,
-  "withinFresh": 130,
+  "withinFresh": 132,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
-  "staleDropped": 13,
-  "newestAt": "2026-10-22T09:11:00.000Z"
+  "staleDropped": 23,
+  "newestAt": "2026-10-22T13:14:35.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 63
+   "n": 60
   },
   {
    "name": "产品与应用",
-   "n": 40
+   "n": 45
   },
   {
    "name": "产业与生态",
-   "n": 25
+   "n": 24
   },
   {
    "name": "算力与基建",
-   "n": 22
+   "n": 20
   },
   {
    "name": "模型与能力",
-   "n": 19
+   "n": 18
   },
   {
    "name": "政策与治理",
-   "n": 11
+   "n": 9
   }
  ],
  "entities": [
   {
    "name": "OpenAI",
-   "n": 16
-  },
-  {
-   "name": "Meta",
-   "n": 10
+   "n": 13
   },
   {
    "name": "Google",
    "n": 10
   },
   {
+   "name": "Meta",
+   "n": 8
+  },
+  {
    "name": "NVIDIA",
    "n": 8
   },
   {
-   "name": "Anthropic",
-   "n": 5
-  },
-  {
-   "name": "DeepSeek",
+   "name": "腾讯",
    "n": 4
   },
   {
-   "name": "腾讯",
+   "name": "Anthropic",
    "n": 3
   },
   {
-   "name": "Apple",
+   "name": "DeepSeek",
+   "n": 3
+  },
+  {
+   "name": "Amazon",
    "n": 3
   }
  ],
@@ -100,27 +100,6 @@
    "importance": 99,
    "difficulty": "入门",
    "publishedAt": "2026-10-22T00:48:32.000Z",
-   "topics": [
-    "产品与应用",
-    "模型与能力"
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic",
-    "Meta"
-   ],
-   "firstSeen": "2026-10-22",
-   "isNew": true
-  },
-  {
-   "id": "e29136f99b8f4072",
-   "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-   "source": "The Verge AI",
-   "region": "NA",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-   "importance": 98,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-21T19:53:20.000Z",
    "topics": [
     "产品与应用",
     "模型与能力"
@@ -176,43 +155,61 @@
    "isNew": true
   },
   {
-   "id": "ffc39f7747a10d52",
-   "title": "智能体手机加速爆发？换机困境、端侧AI与下一代入口之争",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8176382.html",
+   "id": "e29136f99b8f4072",
+   "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+   "source": "The Verge AI",
+   "region": "NA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
    "importance": 94,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-21T09:36:18.000Z",
+   "difficulty": "入门",
+   "publishedAt": "2026-10-21T19:53:20.000Z",
    "topics": [
     "产品与应用",
-    "算力与基建"
+    "模型与能力"
    ],
    "entities": [
     "OpenAI",
-    "三星",
-    "小米",
-    "阶跃星辰"
+    "Anthropic",
+    "Meta"
    ],
    "firstSeen": "2026-10-22",
    "isNew": true
   },
   {
-   "id": "819ab4d2c6c15f4d",
-   "title": "Walmart is inviting AI agents to shop for you",
-   "source": "The Verge AI",
-   "region": "NA",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
-   "importance": 91,
+   "id": "9ce289e180bf7caf",
+   "title": "Siemens taps Nvidia AI to cut board inspection prep",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/siemens-taps-nvidia-ai-cut-board-inspection-prep",
+   "importance": 90,
    "difficulty": "进阶",
-   "publishedAt": "2026-10-21T19:30:00.000Z",
+   "publishedAt": "2026-10-22T03:53:35.000Z",
    "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "NVIDIA",
+    "Siemens"
+   ],
+   "firstSeen": "2026-10-22",
+   "isNew": true
+  },
+  {
+   "id": "df9bf52f06e46499",
+   "title": "Nvidia, Vast Data announce AI agent sandbox",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/nvidia-vast-data-announce-ai-agent-sandbox",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-22T02:06:34.000Z",
+   "topics": [
+    "算力与基建",
     "产品与应用"
    ],
    "entities": [
-    "Meta",
-    "Amazon",
-    "Perplexity"
+    "NVIDIA",
+    "VAST Data"
    ],
    "firstSeen": "2026-10-22",
    "isNew": true
@@ -238,16 +235,17 @@
    "isNew": true
   },
   {
-   "id": "713918026475b566",
-   "title": "Inside Critical PHP Vulnerabilities That Have 70% Of The Internet At Risk",
-   "source": "Inc42",
-   "region": "OTHER",
-   "url": "https://inc42.com/features/inside-critical-php-vulnerabilities-that-have-70-of-the-internet-at-risk/",
-   "importance": 90,
+   "id": "07fa61e8c3ceb666",
+   "title": "OpenAI models are coming to Google Cloud",
+   "source": "OpenAI 官方",
+   "region": "NA",
+   "url": "https://openai.com/index/openai-models-google-cloud",
+   "importance": 89,
    "difficulty": "进阶",
-   "publishedAt": "2026-10-21T21:29:50.000Z",
+   "publishedAt": "2026-10-21T12:00:00.000Z",
    "topics": [
-    "政策与治理"
+    "模型与能力",
+    "算力与基建"
    ],
    "entities": [
     "OpenAI",
@@ -309,23 +307,21 @@
      "isNew": true
     },
     {
-     "id": "ffc39f7747a10d52",
-     "title": "智能体手机加速爆发？换机困境、端侧AI与下一代入口之争",
-     "source": "钛媒体",
+     "id": "9761ffc729a4adf6",
+     "title": "DeepSeek据悉完成1000亿元融资，宁德时代和腾讯参投",
+     "source": "36氪",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8176382.html",
-     "importance": 94,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-21T09:36:18.000Z",
+     "url": "https://36kr.com/newsflashes/4036464546403463?f=rss",
+     "importance": 88,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-22T03:04:04.000Z",
      "topics": [
-      "产品与应用",
-      "算力与基建"
+      "资本与市场",
+      "模型与能力"
      ],
      "entities": [
-      "OpenAI",
-      "三星",
-      "小米",
-      "阶跃星辰"
+      "腾讯",
+      "DeepSeek"
      ],
      "firstSeen": "2026-10-22",
      "isNew": true
@@ -339,6 +335,45 @@
    "flag": "🌏",
    "count": 24,
    "top": [
+    {
+     "id": "9ce289e180bf7caf",
+     "title": "Siemens taps Nvidia AI to cut board inspection prep",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/siemens-taps-nvidia-ai-cut-board-inspection-prep",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-22T03:53:35.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA",
+      "Siemens"
+     ],
+     "firstSeen": "2026-10-22",
+     "isNew": true
+    },
+    {
+     "id": "df9bf52f06e46499",
+     "title": "Nvidia, Vast Data announce AI agent sandbox",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/nvidia-vast-data-announce-ai-agent-sandbox",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-22T02:06:34.000Z",
+     "topics": [
+      "算力与基建",
+      "产品与应用"
+     ],
+     "entities": [
+      "NVIDIA",
+      "VAST Data"
+     ],
+     "firstSeen": "2026-10-22",
+     "isNew": true
+    },
     {
      "id": "3203154d80ba9b77",
      "title": "OpenAI to bring AI models, Codex to Google Cloud",
@@ -355,46 +390,6 @@
      "entities": [
       "OpenAI",
       "Google"
-     ],
-     "firstSeen": "2026-10-22",
-     "isNew": true
-    },
-    {
-     "id": "157f9d770bb00d02",
-     "title": "DeepSeek open-sources tool to cut AI costs",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/deepseek-opensources-tool-cut-ai-costs",
-     "importance": 87,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-21T05:58:27.000Z",
-     "topics": [
-      "模型与能力",
-      "算力与基建"
-     ],
-     "entities": [
-      "NVIDIA",
-      "华为",
-      "DeepSeek"
-     ],
-     "firstSeen": "2026-10-22",
-     "isNew": true
-    },
-    {
-     "id": "b369c68eb2b23145",
-     "title": "Nvidia unveils OpenShell reference architecture",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/nvidia-unveils-openshell-reference-architecture",
-     "importance": 84,
-     "difficulty": "高级",
-     "publishedAt": "2026-10-22T00:22:12.000Z",
-     "topics": [
-      "算力与基建",
-      "产品与应用"
-     ],
-     "entities": [
-      "NVIDIA"
      ],
      "firstSeen": "2026-10-22",
      "isNew": true
@@ -468,7 +463,7 @@
    "name": "日韩",
    "short": "日韩",
    "flag": "🗾",
-   "count": 9,
+   "count": 11,
    "top": [
     {
      "id": "a7eb74d4e3261347",
@@ -476,7 +471,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/ai%eb%8a%94-%ed%98%bc%ec%9e%90-%eb%82%a8%ea%b2%a8%ec%a7%80%eb%a9%b4-%eb%ac%b4%ec%97%87%ec%9d%84-%ed%95%a0%ea%b9%8c%ed%81%b4%eb%a1%9c%eb%93%9c%eb%a5%bc-%ea%b0%80%ec%83%81-%eb%ac%b4%ec%9d%b8/",
-     "importance": 66,
+     "importance": 62,
      "difficulty": "进阶",
      "publishedAt": "2026-10-21T21:00:00.000Z",
      "topics": [],
@@ -490,7 +485,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%eb%b3%b5%ec%a0%9c%ed%95%98%ea%b3%a0-%eb%83%89%eb%8f%99-%eb%b3%b4%ec%a1%b4%ed%95%98%eb%8a%94-%ec%8b%9c%eb%8c%80%eb%b0%98%eb%a0%a4%eb%8f%99%eb%ac%bc%ec%9d%98-%ec%a3%bd%ec%9d%8c%ea%b3%bc/",
-     "importance": 66,
+     "importance": 62,
      "difficulty": "进阶",
      "publishedAt": "2026-10-21T21:00:00.000Z",
      "topics": [],
@@ -499,14 +494,14 @@
      "isNew": true
     },
     {
-     "id": "f933dba393ec0eb9",
-     "title": "[10월21일] 코어위브 위기에 젠슨 황이 직접 나선 이유",
+     "id": "09466d1f337ec149",
+     "title": "아모데이 “안전 기준 높이려면 선두에 있어야”…AI 개발 경쟁 지속 의지",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=216463",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216522",
      "importance": 50,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-22T07:00:00.000Z",
+     "publishedAt": "2026-10-22T13:14:35.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-10-21",
@@ -527,7 +522,7 @@
      "source": "Tech.eu",
      "region": "EU",
      "url": "https://tech.eu/2026/10/21/legoras-valuation-leaps-to-88bn-as-raises-550m/",
-     "importance": 85,
+     "importance": 80,
      "difficulty": "入门",
      "publishedAt": "2026-10-21T14:23:19.000Z",
      "topics": [
@@ -543,7 +538,7 @@
      "source": "Sifted",
      "region": "EU",
      "url": "https://sifted.eu/articles/legora-funding-round-series-e-legal-tech/",
-     "importance": 81,
+     "importance": 76,
      "difficulty": "入门",
      "publishedAt": "2026-10-21T14:14:55.000Z",
      "topics": [
@@ -559,7 +554,7 @@
      "source": "Tech.eu",
      "region": "EU",
      "url": "https://tech.eu/2026/10/21/mika-games-gets-10m-boost-to-support-mobile-game-developers/",
-     "importance": 81,
+     "importance": 76,
      "difficulty": "入门",
      "publishedAt": "2026-10-21T14:00:00.000Z",
      "topics": [
@@ -578,27 +573,6 @@
    "flag": "🌎",
    "count": 24,
    "top": [
-    {
-     "id": "e29136f99b8f4072",
-     "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-     "source": "The Verge AI",
-     "region": "NA",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-     "importance": 98,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-21T19:53:20.000Z",
-     "topics": [
-      "产品与应用",
-      "模型与能力"
-     ],
-     "entities": [
-      "OpenAI",
-      "Anthropic",
-      "Meta"
-     ],
-     "firstSeen": "2026-10-22",
-     "isNew": true
-    },
     {
      "id": "436c713085ba6c70",
      "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
@@ -620,21 +594,42 @@
      "isNew": true
     },
     {
-     "id": "819ab4d2c6c15f4d",
-     "title": "Walmart is inviting AI agents to shop for you",
+     "id": "e29136f99b8f4072",
+     "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
      "source": "The Verge AI",
      "region": "NA",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
-     "importance": 91,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-21T19:30:00.000Z",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-21T19:53:20.000Z",
      "topics": [
-      "产品与应用"
+      "产品与应用",
+      "模型与能力"
      ],
      "entities": [
-      "Meta",
-      "Amazon",
-      "Perplexity"
+      "OpenAI",
+      "Anthropic",
+      "Meta"
+     ],
+     "firstSeen": "2026-10-22",
+     "isNew": true
+    },
+    {
+     "id": "07fa61e8c3ceb666",
+     "title": "OpenAI models are coming to Google Cloud",
+     "source": "OpenAI 官方",
+     "region": "NA",
+     "url": "https://openai.com/index/openai-models-google-cloud",
+     "importance": 89,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-21T12:00:00.000Z",
+     "topics": [
+      "模型与能力",
+      "算力与基建"
+     ],
+     "entities": [
+      "OpenAI",
+      "Google"
      ],
      "firstSeen": "2026-10-22",
      "isNew": true
@@ -654,7 +649,7 @@
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/features/inside-critical-php-vulnerabilities-that-have-70-of-the-internet-at-risk/",
-     "importance": 90,
+     "importance": 86,
      "difficulty": "进阶",
      "publishedAt": "2026-10-21T21:29:50.000Z",
      "topics": [
@@ -662,25 +657,6 @@
      ],
      "entities": [
       "OpenAI",
-      "Google"
-     ],
-     "firstSeen": "2026-10-22",
-     "isNew": true
-    },
-    {
-     "id": "c5ca3c2df235e0d1",
-     "title": "Peak XV-Backed AI Startup Blacksmith Nets $66 Mn At A Unicorn Valuation",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/peak-xv-backed-ai-startup-blacksmith-nets-66-mn-at-a-unicorn-valuation/",
-     "importance": 87,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-21T16:00:27.000Z",
-     "topics": [
-      "资本与市场",
-      "产业与生态"
-     ],
-     "entities": [
       "Google"
      ],
      "firstSeen": "2026-10-22",
@@ -701,9 +677,25 @@
      "entities": [],
      "firstSeen": "2026-10-22",
      "isNew": true
+    },
+    {
+     "id": "0b4e20929d71bc07",
+     "title": "Eternal’s Q2 Profit Run, Jio IPO Day 1 & More",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/eternals-q2-profit-run-jio-ipo-day-1-more/",
+     "importance": 82,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-22T02:30:10.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-22",
+     "isNew": true
     }
    ]
   }
  ],
- "overview": "10 月 22 日，共从 26 个信息源抓取 456 条 AI 产业动态，其中 153 条进入当日精选，覆盖 7 个区域。其中有 124 条发布于 24 小时内。其中 123 条是此前未出现过的新增内容，另有 30 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」63 条、「产品与应用」40 条。值得优先关注的几条：「微软员工数十年来首次下降；沃尔玛/山姆推出 Agent 购物接口；推动 SpaceX 和特斯拉合并，马斯克财富有望暴涨」（极客公园）、「早报｜iPhone Duo限购两台/雷军：汽车没有安全其他都是0/宝马员工争相离职挤崩系统」（爱范儿）、「智能体手机加速爆发？换机困境、端侧AI与下一代入口之争」（钛媒体）。"
+ "overview": "10 月 22 日，共从 27 个信息源抓取 457 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 124 条发布于 24 小时内。其中 126 条是此前未出现过的新增内容，另有 29 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」60 条、「产品与应用」45 条。值得优先关注的几条：「微软员工数十年来首次下降；沃尔玛/山姆推出 Agent 购物接口；推动 SpaceX 和特斯拉合并，马斯克财富有望暴涨」（极客公园）、「早报｜iPhone Duo限购两台/雷军：汽车没有安全其他都是0/宝马员工争相离职挤崩系统」（爱范儿）。"
 }
