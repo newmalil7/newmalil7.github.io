@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-23",
- "generatedAt": "2026-10-23T01:27:47.582Z",
+ "generatedAt": "2026-10-23T04:29:32.717Z",
  "mode": "rule",
  "counts": {
-  "crawled": 432,
+  "crawled": 437,
   "published": 155,
-  "newCount": 109,
-  "repeatCount": 46,
+  "newCount": 111,
+  "repeatCount": 44,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,44 +22,48 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 113,
+  "within24h": 115,
   "withinFresh": 129,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
   "staleDropped": 25,
-  "newestAt": "2026-10-23T09:05:00.000Z"
+  "newestAt": "2026-10-23T12:39:20.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 62
+   "n": 60
   },
   {
    "name": "产品与应用",
-   "n": 46
+   "n": 45
   },
   {
    "name": "模型与能力",
-   "n": 22
+   "n": 24
   },
   {
    "name": "产业与生态",
-   "n": 18
+   "n": 19
   },
   {
    "name": "算力与基建",
-   "n": 14
+   "n": 13
   },
   {
    "name": "政策与治理",
-   "n": 7
+   "n": 9
   }
  ],
  "entities": [
   {
    "name": "OpenAI",
-   "n": 16
+   "n": 17
+  },
+  {
+   "name": "Meta",
+   "n": 9
   },
   {
    "name": "Anthropic",
@@ -68,10 +72,6 @@
   {
    "name": "Google",
    "n": 8
-  },
-  {
-   "name": "Meta",
-   "n": 7
   },
   {
    "name": "NVIDIA",
@@ -83,10 +83,10 @@
   },
   {
    "name": "Microsoft",
-   "n": 4
+   "n": 5
   },
   {
-   "name": "腾讯",
+   "name": "Hugging Face",
    "n": 3
   }
  ],
@@ -153,6 +153,47 @@
    "isNew": true
   },
   {
+   "id": "3fa2f1e435942aa4",
+   "title": "MiniMax shares fall below IPO price as AI competition grows",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/minimax-shares-fall-below-ipo-price-as-ai-competition-grows",
+   "importance": 94,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-23T03:22:46.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "MiniMax",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-10-23",
+   "isNew": true
+  },
+  {
+   "id": "254a0e41acd2765a",
+   "title": "从开源社区走出，想用Token计费重写安全生意定价权，「链式反应」完成数百万元种子轮融资",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4037822855058307?f=rss",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-23T02:25:48.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "Hugging Face"
+   ],
+   "firstSeen": "2026-10-23",
+   "isNew": true
+  },
+  {
    "id": "f1c0cb422b93d9a2",
    "title": "Anthropic Takes On OpenAI, Meta With New Proactive AI Agent Claude Duet",
    "source": "Inc42",
@@ -169,26 +210,6 @@
     "OpenAI",
     "Anthropic",
     "Meta"
-   ],
-   "firstSeen": "2026-10-23",
-   "isNew": true
-  },
-  {
-   "id": "4cd37f49b5c0d154",
-   "title": "美国IPO市场陷入“瘫痪”，Anthropic被寄望打破僵局",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4037747341497218?f=rss",
-   "importance": 93,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-23T01:09:52.000Z",
-   "topics": [
-    "资本与市场",
-    "算力与基建"
-   ],
-   "entities": [
-    "Anthropic",
-    "CoreWeave"
    ],
    "firstSeen": "2026-10-23",
    "isNew": true
@@ -214,37 +235,21 @@
    "isNew": true
   },
   {
-   "id": "986273359b9563a3",
-   "title": "OpenAI nears $1.2t valuation in UAE-Coatue round",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/openai-nears-12t-valuation-uaecoatue",
+   "id": "9e5dcd954b3ef660",
+   "title": "产品观察丨前OPPO老兵做了款AI旅行眼鏡，众筹超40万美元",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4037858588284034?f=rss",
    "importance": 92,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-23T00:12:28.000Z",
+   "difficulty": "入门",
+   "publishedAt": "2026-10-23T02:43:56.000Z",
    "topics": [
-    "资本与市场"
+    "产品与应用",
+    "模型与能力"
    ],
    "entities": [
-    "OpenAI"
-   ],
-   "firstSeen": "2026-10-23",
-   "isNew": true
-  },
-  {
-   "id": "a900f6d6d86b813e",
-   "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-   "importance": 92,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-22T22:08:24.000Z",
-   "topics": [
-    "资本与市场"
-   ],
-   "entities": [
-    "OpenAI"
+    "Google",
+    "Meta"
    ],
    "firstSeen": "2026-10-23",
    "isNew": true
@@ -281,21 +286,22 @@
      "isNew": true
     },
     {
-     "id": "4cd37f49b5c0d154",
-     "title": "美国IPO市场陷入“瘫痪”，Anthropic被寄望打破僵局",
+     "id": "254a0e41acd2765a",
+     "title": "从开源社区走出，想用Token计费重写安全生意定价权，「链式反应」完成数百万元种子轮融资",
      "source": "36氪",
      "region": "CN",
-     "url": "https://36kr.com/newsflashes/4037747341497218?f=rss",
-     "importance": 93,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-23T01:09:52.000Z",
+     "url": "https://36kr.com/p/4037822855058307?f=rss",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-23T02:25:48.000Z",
      "topics": [
-      "资本与市场",
-      "算力与基建"
+      "模型与能力",
+      "产品与应用"
      ],
      "entities": [
+      "OpenAI",
       "Anthropic",
-      "CoreWeave"
+      "Hugging Face"
      ],
      "firstSeen": "2026-10-23",
      "isNew": true
@@ -351,6 +357,26 @@
      "isNew": true
     },
     {
+     "id": "3fa2f1e435942aa4",
+     "title": "MiniMax shares fall below IPO price as AI competition grows",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/minimax-shares-fall-below-ipo-price-as-ai-competition-grows",
+     "importance": 94,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-23T03:22:46.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "MiniMax",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-10-23",
+     "isNew": true
+    },
+    {
      "id": "986273359b9563a3",
      "title": "OpenAI nears $1.2t valuation in UAE-Coatue round",
      "source": "Tech in Asia",
@@ -364,24 +390,6 @@
      ],
      "entities": [
       "OpenAI"
-     ],
-     "firstSeen": "2026-10-23",
-     "isNew": true
-    },
-    {
-     "id": "4ceb877e99c34a2e",
-     "title": "Ex-Meta founders’ AI wearable startup Nirva raises $25m",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/exmeta-founders-ai-wearable-startup-nirva-raises-25m",
-     "importance": 91,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-23T00:40:33.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [
-      "Meta"
      ],
      "firstSeen": "2026-10-23",
      "isNew": true
@@ -459,34 +467,34 @@
    "count": 11,
    "top": [
     {
+     "id": "2c79f60827d4a307",
+     "title": "딥시크, IPO 앞두고 20조 대규모 투자 유치...상하이 증시 상장 가속",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216571",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-23T12:39:20.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-22",
+     "isNew": false
+    },
+    {
      "id": "aee12a46d1dea07b",
      "title": "“우리가 잘못 보고 있었다”…AI 신경망에 대한 통념 뒤흔든 주장",
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ec%9a%b0%eb%a6%ac%ea%b0%80-%ec%9e%98%eb%aa%bb-%eb%b3%b4%ea%b3%a0-%ec%9e%88%ec%97%88%eb%8b%a4-ai-%ec%97%85%ea%b3%84%eb%a5%bc-%eb%92%a4%ed%9d%94%eb%93%a0-%ed%8c%8c%ea%b2%a9%ec%a0%81%ec%9d%b8/",
-     "importance": 66,
+     "importance": 62,
      "difficulty": "进阶",
      "publishedAt": "2026-10-22T21:00:00.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-10-23",
      "isNew": true
-    },
-    {
-     "id": "6f07dea959bb9f65",
-     "title": "[AI리더의 서가] 클로드 코드로 완성하는 에이전틱 코딩 자동화",
-     "source": "AI타임스",
-     "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=216346",
-     "importance": 62,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-23T09:00:00.000Z",
-     "topics": [
-      "模型与能力"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-22",
-     "isNew": false
     },
     {
      "id": "a7eb74d4e3261347",
@@ -512,12 +520,30 @@
    "count": 24,
    "top": [
     {
+     "id": "4f95f65715c8b456",
+     "title": "Nvidia funds European startups. They spend it on Nvidia",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/nvidia-european-investments-2026/",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-23T05:00:55.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-23",
+     "isNew": true
+    },
+    {
      "id": "ecdc34cb0b1fb217",
      "title": "DeepSeek reportedly closes $15bn raise in race to IPO",
      "source": "Silicon Republic",
      "region": "EU",
      "url": "https://www.siliconrepublic.com/business/deepseek-reportedly-closes-15bn-raise-in-race-to-ipo",
-     "importance": 82,
+     "importance": 77,
      "difficulty": "入门",
      "publishedAt": "2026-10-22T13:47:13.000Z",
      "topics": [
@@ -543,22 +569,6 @@
      "entities": [
       "DeepMind"
      ],
-     "firstSeen": "2026-10-23",
-     "isNew": true
-    },
-    {
-     "id": "3d0d32f66f56d440",
-     "title": "AI legal-tech Legora valued at $8.8bn after $550m Series E",
-     "source": "Silicon Republic",
-     "region": "EU",
-     "url": "https://www.siliconrepublic.com/start-ups/swedish-ai-legal-tech-legora-raises-550m-series-e",
-     "importance": 67,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-22T08:15:19.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
      "firstSeen": "2026-10-23",
      "isNew": true
     }
@@ -590,14 +600,14 @@
      "isNew": true
     },
     {
-     "id": "a900f6d6d86b813e",
-     "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-     "source": "TechCrunch AI",
+     "id": "5c6ddb9caafd68cf",
+     "title": "Report: OpenAI closing on $30B ‘bridge’ funding round to tide it over before IPO",
+     "source": "SiliconANGLE",
      "region": "NA",
-     "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-     "importance": 92,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-22T22:08:24.000Z",
+     "url": "https://siliconangle.com/2026/10/22/report-openai-closing-on-30b-bridge-funding-round-to-tide-it-over-before-ipo/",
+     "importance": 90,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-23T00:47:28.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -608,14 +618,14 @@
      "isNew": true
     },
     {
-     "id": "5c6ddb9caafd68cf",
-     "title": "Report: OpenAI closing on $30B ‘bridge’ funding round to tide it over before IPO",
-     "source": "SiliconANGLE",
+     "id": "a900f6d6d86b813e",
+     "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+     "source": "TechCrunch AI",
      "region": "NA",
-     "url": "https://siliconangle.com/2026/10/22/report-openai-closing-on-30b-bridge-funding-round-to-tide-it-over-before-ipo/",
-     "importance": 90,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-23T00:47:28.000Z",
+     "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-22T22:08:24.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -656,22 +666,6 @@
      "isNew": true
     },
     {
-     "id": "f85a19e789b87088",
-     "title": "Zetwerk IPO: Kae Capital, Kalysta Bag 38.3X Returns, Lightspeed Pockets ₹440 Cr",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/zetwerk-ipo-kae-capital-kalysta-bag-38-3x-returns-lightspeed-pockets-%e2%82%b9440-cr/",
-     "importance": 82,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-22T13:29:58.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-23",
-     "isNew": true
-    },
-    {
      "id": "1b44f34caa8aa08b",
      "title": "Japanese-Themed Dining Chain Harajuku Tokyo Café Raises $3 Mn",
      "source": "Inc42",
@@ -686,9 +680,29 @@
      "entities": [],
      "firstSeen": "2026-10-23",
      "isNew": true
+    },
+    {
+     "id": "292567f63f64dcdf",
+     "title": "Meta’s AI Push Continues as $9.9 Billion Legal Charge Hits Operating Income",
+     "source": "Techloy",
+     "region": "OTHER",
+     "url": "https://www.techloy.com/meta-earnings-legal-costs-ai-spending/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-22T13:09:51.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [
+      "OpenAI",
+      "Google",
+      "Meta"
+     ],
+     "firstSeen": "2026-10-23",
+     "isNew": true
     }
    ]
   }
  ],
- "overview": "10 月 23 日，共从 26 个信息源抓取 432 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 113 条发布于 24 小时内。其中 109 条是此前未出现过的新增内容，另有 46 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」62 条、「产品与应用」46 条。值得优先关注的几条：「8点1氪丨iPhone Duo约八成应用未适配；DeepSeek据悉完成1000亿元融资；长实集团再发澄清公告：李嘉诚健康情况良好」（36氪）、「美国IPO市场陷入“瘫痪”，Anthropic被寄望打破僵局」（36氪）、「DeepSeek 据悉完成 1000 亿元新一轮融资；特斯拉三季度利润大跌 43%；微信称已完成适配 iPhone Duo | 极客早知道」（极客公园）。"
+ "overview": "10 月 23 日，共从 26 个信息源抓取 437 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 115 条发布于 24 小时内。其中 111 条是此前未出现过的新增内容，另有 44 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」60 条、「产品与应用」45 条。值得优先关注的几条：「8点1氪丨iPhone Duo约八成应用未适配；DeepSeek据悉完成1000亿元融资；长实集团再发澄清公告：李嘉诚健康情况良好」（36氪）、「从开源社区走出，想用Token计费重写安全生意定价权，「链式反应」完成数百万元种子轮融资」（36氪）、「DeepSeek 据悉完成 1000 亿元新一轮融资；特斯拉三季度利润大跌 43%；微信称已完成适配 iPhone Duo | 极客早知道」（极客公园）。"
 }
