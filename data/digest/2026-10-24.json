@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-24",
- "generatedAt": "2026-10-24T01:29:28.503Z",
+ "generatedAt": "2026-10-24T04:26:24.090Z",
  "mode": "rule",
  "counts": {
-  "crawled": 434,
+  "crawled": 437,
   "published": 157,
-  "newCount": 113,
-  "repeatCount": 44,
+  "newCount": 115,
+  "repeatCount": 42,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,38 +22,38 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 119,
+  "within24h": 112,
   "withinFresh": 137,
   "freshHours": 72,
   "monthPrecision": 14,
   "undated": 0,
   "staleDropped": 22,
-  "newestAt": "2026-10-24T09:05:59.000Z"
+  "newestAt": "2026-10-24T11:49:09.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 53
+   "n": 54
   },
   {
    "name": "产品与应用",
-   "n": 35
+   "n": 29
+  },
+  {
+   "name": "产业与生态",
+   "n": 22
   },
   {
    "name": "模型与能力",
    "n": 21
   },
   {
-   "name": "产业与生态",
-   "n": 19
-  },
-  {
    "name": "算力与基建",
-   "n": 16
+   "n": 15
   },
   {
    "name": "政策与治理",
-   "n": 12
+   "n": 14
   }
  ],
  "entities": [
@@ -67,52 +67,30 @@
   },
   {
    "name": "NVIDIA",
-   "n": 5
+   "n": 4
   },
   {
-   "name": "Meta",
-   "n": 4
+   "name": "三星",
+   "n": 3
   },
   {
    "name": "Intel",
    "n": 3
   },
   {
-   "name": "阿里巴巴",
+   "name": "Meta",
+   "n": 3
+  },
+  {
+   "name": "华为",
    "n": 2
   },
   {
-   "name": "腾讯",
-   "n": 2
-  },
-  {
-   "name": "字节跳动",
+   "name": "Anthropic",
    "n": 2
   }
  ],
  "topOverall": [
-  {
-   "id": "6bac55a60cbbf3ce",
-   "title": "188天就退场，大厂AI 产品正在加速洗牌",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8179714.html",
-   "importance": 99,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-24T00:26:00.000Z",
-   "topics": [
-    "产品与应用",
-    "模型与能力"
-   ],
-   "entities": [
-    "阿里巴巴",
-    "腾讯",
-    "字节跳动",
-    "百度"
-   ],
-   "firstSeen": "2026-10-24",
-   "isNew": true
-  },
   {
    "id": "236d961019f29006",
    "title": "早报｜微信初步适配iPhone Duo，仍不能平板登录/全球PC出货下降21%/何刚出任华为董事",
@@ -135,21 +113,40 @@
    "isNew": true
   },
   {
-   "id": "1e79567bce45d98f",
-   "title": "Agent、机器人与制药，谁先被GPT-6 Astra改写？",
-   "source": "钛媒体",
+   "id": "c9a8a67e8fabae81",
+   "title": "英国承诺出资1亿英镑设立生物安全实验室，OpenAI、Anthropic 参与合作",
+   "source": "36氪",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8179692.html",
-   "importance": 93,
+   "url": "https://36kr.com/newsflashes/4039227569804420?f=rss",
+   "importance": 95,
    "difficulty": "进阶",
-   "publishedAt": "2026-10-24T00:14:00.000Z",
+   "publishedAt": "2026-10-24T02:38:37.000Z",
    "topics": [
-    "模型与能力",
-    "产品与应用"
+    "产业与生态",
+    "模型与能力"
    ],
    "entities": [
     "OpenAI",
-    "Meta"
+    "Anthropic",
+    "DeepMind"
+   ],
+   "firstSeen": "2026-10-24",
+   "isNew": true
+  },
+  {
+   "id": "47a79f8c3c67b564",
+   "title": "双11购物车里的AI暗战",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8180252.html",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-24T04:00:38.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "阿里巴巴"
    ],
    "firstSeen": "2026-10-24",
    "isNew": true
@@ -194,19 +191,20 @@
    "isNew": true
   },
   {
-   "id": "c8ba6fd1eb1dbe85",
-   "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-   "source": "Ars Technica AI",
-   "region": "NA",
-   "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-   "importance": 88,
+   "id": "ecacc830950eed18",
+   "title": "阿里云与火山重分汽车云",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8179879.html",
+   "importance": 87,
    "difficulty": "进阶",
-   "publishedAt": "2026-10-23T20:19:55.000Z",
+   "publishedAt": "2026-10-24T01:30:00.000Z",
    "topics": [
-    "政策与治理"
+    "产品与应用",
+    "算力与基建"
    ],
    "entities": [
-    "Google"
+    "阿里巴巴"
    ],
    "firstSeen": "2026-10-24",
    "isNew": true
@@ -260,28 +258,6 @@
    "count": 24,
    "top": [
     {
-     "id": "6bac55a60cbbf3ce",
-     "title": "188天就退场，大厂AI 产品正在加速洗牌",
-     "source": "钛媒体",
-     "region": "CN",
-     "url": "https://www.tmtpost.com/8179714.html",
-     "importance": 99,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-24T00:26:00.000Z",
-     "topics": [
-      "产品与应用",
-      "模型与能力"
-     ],
-     "entities": [
-      "阿里巴巴",
-      "腾讯",
-      "字节跳动",
-      "百度"
-     ],
-     "firstSeen": "2026-10-24",
-     "isNew": true
-    },
-    {
      "id": "236d961019f29006",
      "title": "早报｜微信初步适配iPhone Duo，仍不能平板登录/全球PC出货下降21%/何刚出任华为董事",
      "source": "爱范儿",
@@ -303,21 +279,40 @@
      "isNew": true
     },
     {
-     "id": "1e79567bce45d98f",
-     "title": "Agent、机器人与制药，谁先被GPT-6 Astra改写？",
-     "source": "钛媒体",
+     "id": "c9a8a67e8fabae81",
+     "title": "英国承诺出资1亿英镑设立生物安全实验室，OpenAI、Anthropic 参与合作",
+     "source": "36氪",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8179692.html",
-     "importance": 93,
+     "url": "https://36kr.com/newsflashes/4039227569804420?f=rss",
+     "importance": 95,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-24T00:14:00.000Z",
+     "publishedAt": "2026-10-24T02:38:37.000Z",
      "topics": [
-      "模型与能力",
-      "产品与应用"
+      "产业与生态",
+      "模型与能力"
      ],
      "entities": [
       "OpenAI",
-      "Meta"
+      "Anthropic",
+      "DeepMind"
+     ],
+     "firstSeen": "2026-10-24",
+     "isNew": true
+    },
+    {
+     "id": "47a79f8c3c67b564",
+     "title": "双11购物车里的AI暗战",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8180252.html",
+     "importance": 90,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-24T04:00:38.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "阿里巴巴"
      ],
      "firstSeen": "2026-10-24",
      "isNew": true
@@ -460,7 +455,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%eb%8c%80%ed%98%95%ec%96%b8%ec%96%b4%eb%aa%a8%eb%8d%b8-%eb%8b%ac-%ed%83%90%ec%82%ac-%eb%82%98%ec%84%a0%eb%8b%a4%ea%b7%b9%ed%95%9c-%ed%99%98%ea%b2%bd%ec%84%9c-ai-%ec%84%b1%eb%8a%a5-%ec%8b%9c/",
-     "importance": 78,
+     "importance": 74,
      "difficulty": "进阶",
      "publishedAt": "2026-10-23T21:00:00.000Z",
      "topics": [
@@ -546,16 +541,16 @@
      "isNew": true
     },
     {
-     "id": "572ed88c2d72ed3b",
-     "title": "How Ireland can become a leader in sovereign AI inferencing",
+     "id": "c9f39b067f321dfc",
+     "title": "TUD graduate’s AI start-up Marc bags $5m to fund US expansion",
      "source": "Silicon Republic",
      "region": "EU",
-     "url": "https://www.siliconrepublic.com/machines/ai-inferencing-ireland-organisations-europe-ambitions-skills-workforce-dell",
-     "importance": 65,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-23T14:43:46.000Z",
+     "url": "https://www.siliconrepublic.com/start-ups/tud-graduates-ai-start-up-marc-bags-5m-to-fund-us-expansion",
+     "importance": 63,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-23T08:01:09.000Z",
      "topics": [
-      "政策与治理"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-10-24",
@@ -594,7 +589,7 @@
      "source": "Ars Technica AI",
      "region": "NA",
      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-     "importance": 88,
+     "importance": 84,
      "difficulty": "进阶",
      "publishedAt": "2026-10-23T20:19:55.000Z",
      "topics": [
@@ -607,19 +602,20 @@
      "isNew": true
     },
     {
-     "id": "251bc6c36930afeb",
-     "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-     "source": "TechCrunch AI",
+     "id": "f1cfa1e2236d3e87",
+     "title": "Moonshot AI launches new flagship Kim K3.1 Pro model with 3T parameters",
+     "source": "SiliconANGLE",
      "region": "NA",
-     "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-     "importance": 84,
+     "url": "https://siliconangle.com/2026/10/23/moonshot-ai-launches-new-flagship-kim-k3-1-pro-model-with-3t-parameters/",
+     "importance": 83,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-23T21:59:19.000Z",
+     "publishedAt": "2026-10-24T00:55:53.000Z",
      "topics": [
-      "算力与基建"
+      "模型与能力",
+      "产品与应用"
      ],
      "entities": [
-      "NVIDIA"
+      "月之暗面"
      ],
      "firstSeen": "2026-10-24",
      "isNew": true
@@ -634,12 +630,28 @@
    "count": 24,
    "top": [
     {
+     "id": "9b86618589acdefa",
+     "title": "From Even Health To The Pant Project— Indian Startups Raised Over $184 Mn This Week",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/from-even-health-to-the-pant-project-indian-startups-raised-over-184-mn-this-week/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-24T03:30:36.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-24",
+     "isNew": true
+    },
+    {
      "id": "ccac08fedebd21f1",
      "title": "[Update] Jio Platforms IPO Subscribed 22.19X On Final Day, QIB Portion Booked 70.55X",
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/buzz/jio-platforms-ipo-booked-6-76x-on-day-3-so-far-qib-portion-subscribed-14-18x/",
-     "importance": 84,
+     "importance": 79,
      "difficulty": "进阶",
      "publishedAt": "2026-10-23T14:20:32.000Z",
      "topics": [
@@ -666,25 +678,9 @@
      "entities": [],
      "firstSeen": "2026-10-24",
      "isNew": true
-    },
-    {
-     "id": "41e238f81e148c3d",
-     "title": "Y Combinator-Backed Firstwork Nets $15 Mn To Expand Footprint Across US And Europe",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/y-combinator-backed-firstwork-nets-15-mn-to-expand-footprint-across-us-and-europe/",
-     "importance": 76,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-23T11:56:11.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-24",
-     "isNew": true
     }
    ]
   }
  ],
- "overview": "10 月 24 日，共从 26 个信息源抓取 434 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 119 条发布于 24 小时内。其中 113 条是此前未出现过的新增内容，另有 44 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」53 条、「产品与应用」35 条。值得优先关注的几条：「188天就退场，大厂AI 产品正在加速洗牌」（钛媒体）、「早报｜微信初步适配iPhone Duo，仍不能平板登录/全球PC出货下降21%/何刚出任华为董事」（爱范儿）、「Agent、机器人与制药，谁先被GPT-6 Astra改写？」（钛媒体）。"
+ "overview": "10 月 24 日，共从 26 个信息源抓取 437 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 112 条发布于 24 小时内。其中 115 条是此前未出现过的新增内容，另有 42 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」54 条、「产品与应用」29 条。值得优先关注的几条：「早报｜微信初步适配iPhone Duo，仍不能平板登录/全球PC出货下降21%/何刚出任华为董事」（爱范儿）、「英国承诺出资1亿英镑设立生物安全实验室，OpenAI、Anthropic 参与合作」（36氪）、「双11购物车里的AI暗战」（钛媒体）。"
 }
