@@ -1,51 +1,51 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-25",
- "generatedAt": "2026-10-25T01:22:55.273Z",
+ "generatedAt": "2026-10-25T04:28:10.331Z",
  "mode": "rule",
  "counts": {
-  "crawled": 419,
-  "published": 157,
-  "newCount": 64,
-  "repeatCount": 93,
+  "crawled": 405,
+  "published": 153,
+  "newCount": 72,
+  "repeatCount": 81,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
-   "ME": 24,
+   "ME": 20,
    "JPKR": 13,
    "EU": 24,
    "NA": 24,
    "OTHER": 24
   },
-  "sourceOk": 25,
+  "sourceOk": 24,
   "sourceTotal": 30,
   "regions": 7
  },
  "freshness": {
-  "within24h": 56,
-  "withinFresh": 129,
+  "within24h": 60,
+  "withinFresh": 125,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
   "staleDropped": 23,
-  "newestAt": "2026-10-25T10:08:35.000Z"
+  "newestAt": "2026-10-25T11:40:00.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 52
+   "n": 53
   },
   {
    "name": "产品与应用",
-   "n": 31
+   "n": 30
   },
   {
    "name": "产业与生态",
-   "n": 18
+   "n": 17
   },
   {
    "name": "模型与能力",
-   "n": 18
+   "n": 16
   },
   {
    "name": "政策与治理",
@@ -59,22 +59,22 @@
  "entities": [
   {
    "name": "OpenAI",
-   "n": 8
+   "n": 9
   },
   {
    "name": "NVIDIA",
-   "n": 5
-  },
-  {
-   "name": "Apple",
-   "n": 3
+   "n": 4
   },
   {
    "name": "DeepSeek",
    "n": 3
   },
   {
-   "name": "Microsoft",
+   "name": "Apple",
+   "n": 2
+  },
+  {
+   "name": "软银",
    "n": 2
   },
   {
@@ -86,7 +86,7 @@
    "n": 2
   },
   {
-   "name": "Intel",
+   "name": "月之暗面",
    "n": 2
   }
  ],
@@ -107,6 +107,24 @@
     "OpenAI",
     "Microsoft",
     "Apple"
+   ],
+   "firstSeen": "2026-10-25",
+   "isNew": true
+  },
+  {
+   "id": "c3a3a6f32dbbacef",
+   "title": "SoftBank-backed OPay targets $4.4b US IPO valuation",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/softbankbacked-opay-targets-44b-ipo-valuation",
+   "importance": 96,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-25T02:32:42.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "软银"
    ],
    "firstSeen": "2026-10-25",
    "isNew": true
@@ -151,33 +169,51 @@
    "isNew": true
   },
   {
-   "id": "93838f1c34b4e210",
-   "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+   "id": "d4cf558f058da625",
+   "title": "AWS sells out cloud capacity through 2027 as AI demand grows",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/aws-sells-cloud-capacity-2027-ai-demand-grows",
    "importance": 84,
    "difficulty": "进阶",
-   "publishedAt": "2026-10-24T15:00:00.000Z",
+   "publishedAt": "2026-10-25T02:24:01.000Z",
    "topics": [
-    "模型与能力",
-    "政策与治理"
+    "算力与基建"
    ],
    "entities": [
-    "OpenAI"
+    "Amazon"
    ],
    "firstSeen": "2026-10-25",
    "isNew": true
   },
   {
-   "id": "d75ec97fd18e51b0",
-   "title": "Hot or not: What SEA investors are betting on and what they’re ignoring",
+   "id": "f03acc1abcb27219",
+   "title": "三星Exynos 2700内部测试得分超过高通",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4040647382717573?f=rss",
+   "importance": 83,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-25T02:45:52.000Z",
+   "topics": [
+    "产品与应用",
+    "算力与基建"
+   ],
+   "entities": [
+    "三星"
+   ],
+   "firstSeen": "2026-10-25",
+   "isNew": true
+  },
+  {
+   "id": "414198abc6d64b64",
+   "title": "Instacart reportedly explores sale talks with DoorDash, Uber",
    "source": "Tech in Asia",
    "region": "SEA",
-   "url": "https://www.techinasia.com/visual-story/funding-overview",
-   "importance": 81,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-25T00:00:00.000Z",
+   "url": "https://www.techinasia.com/news/instacart-reportedly-explores-sale-talks-doordash-uber",
+   "importance": 82,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-25T03:53:13.000Z",
    "topics": [
     "资本与市场"
    ],
@@ -186,59 +222,19 @@
    "isNew": true
   },
   {
-   "id": "af5f8f1a2beef69b",
-   "title": "OpenAI resumes AI training without internet access",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/openai-resumes-ai-training-internet-access",
-   "importance": 81,
-   "difficulty": "高级",
-   "publishedAt": "2026-10-24T07:52:23.000Z",
-   "topics": [
-    "模型与能力",
-    "政策与治理"
-   ],
-   "entities": [
-    "OpenAI",
-    "Hugging Face"
-   ],
-   "firstSeen": "2026-10-25",
-   "isNew": true
-  },
-  {
-   "id": "ef9da17803b1e75b",
-   "title": "Nvidia backs AI video startup Higgsfield in series B extension",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/nvidia-backs-ai-video-startup-higgsfield-series-addon",
-   "importance": 79,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-24T09:03:08.000Z",
-   "topics": [
-    "资本与市场",
-    "算力与基建"
-   ],
-   "entities": [
-    "NVIDIA"
-   ],
-   "firstSeen": "2026-10-25",
-   "isNew": true
-  },
-  {
-   "id": "2116a85a10678029",
-   "title": "苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机",
-   "source": "极客公园",
+   "id": "6bb47d3a4c565c3d",
+   "title": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
+   "source": "InfoQ 中国",
    "region": "CN",
-   "url": "http://www.geekpark.net/news/372860",
-   "importance": 78,
+   "url": "https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB?utm_source=rss&utm_medium=article",
+   "importance": 81,
    "difficulty": "入门",
-   "publishedAt": "2026-10-25T00:52:41.000Z",
+   "publishedAt": "2026-10-25T10:30:00.000Z",
    "topics": [
-    "资本与市场"
+    "产品与应用",
+    "产业与生态"
    ],
-   "entities": [
-    "Apple"
-   ],
+   "entities": [],
    "firstSeen": "2026-10-25",
    "isNew": true
   }
@@ -291,19 +287,20 @@
      "isNew": true
     },
     {
-     "id": "2116a85a10678029",
-     "title": "苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机",
-     "source": "极客公园",
+     "id": "f03acc1abcb27219",
+     "title": "三星Exynos 2700内部测试得分超过高通",
+     "source": "36氪",
      "region": "CN",
-     "url": "http://www.geekpark.net/news/372860",
-     "importance": 78,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-25T00:52:41.000Z",
+     "url": "https://36kr.com/newsflashes/4040647382717573?f=rss",
+     "importance": 83,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-25T02:45:52.000Z",
      "topics": [
-      "资本与市场"
+      "产品与应用",
+      "算力与基建"
      ],
      "entities": [
-      "Apple"
+      "三星"
      ],
      "firstSeen": "2026-10-25",
      "isNew": true
@@ -318,57 +315,54 @@
    "count": 24,
    "top": [
     {
-     "id": "d75ec97fd18e51b0",
-     "title": "Hot or not: What SEA investors are betting on and what they’re ignoring",
+     "id": "c3a3a6f32dbbacef",
+     "title": "SoftBank-backed OPay targets $4.4b US IPO valuation",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/visual-story/funding-overview",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-25T00:00:00.000Z",
+     "url": "https://www.techinasia.com/news/softbankbacked-opay-targets-44b-ipo-valuation",
+     "importance": 96,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-25T02:32:42.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "软银"
+     ],
+     "firstSeen": "2026-10-25",
+     "isNew": true
+    },
+    {
+     "id": "d4cf558f058da625",
+     "title": "AWS sells out cloud capacity through 2027 as AI demand grows",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/aws-sells-cloud-capacity-2027-ai-demand-grows",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-25T02:24:01.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Amazon"
+     ],
+     "firstSeen": "2026-10-25",
+     "isNew": true
+    },
+    {
+     "id": "414198abc6d64b64",
+     "title": "Instacart reportedly explores sale talks with DoorDash, Uber",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/instacart-reportedly-explores-sale-talks-doordash-uber",
+     "importance": 82,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-25T03:53:13.000Z",
      "topics": [
       "资本与市场"
      ],
      "entities": [],
-     "firstSeen": "2026-10-25",
-     "isNew": true
-    },
-    {
-     "id": "af5f8f1a2beef69b",
-     "title": "OpenAI resumes AI training without internet access",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/openai-resumes-ai-training-internet-access",
-     "importance": 81,
-     "difficulty": "高级",
-     "publishedAt": "2026-10-24T07:52:23.000Z",
-     "topics": [
-      "模型与能力",
-      "政策与治理"
-     ],
-     "entities": [
-      "OpenAI",
-      "Hugging Face"
-     ],
-     "firstSeen": "2026-10-25",
-     "isNew": true
-    },
-    {
-     "id": "ef9da17803b1e75b",
-     "title": "Nvidia backs AI video startup Higgsfield in series B extension",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/nvidia-backs-ai-video-startup-higgsfield-series-addon",
-     "importance": 79,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-24T09:03:08.000Z",
-     "topics": [
-      "资本与市场",
-      "算力与基建"
-     ],
-     "entities": [
-      "NVIDIA"
-     ],
      "firstSeen": "2026-10-25",
      "isNew": true
     }
@@ -379,7 +373,7 @@
    "name": "中东",
    "short": "中东",
    "flag": "🕌",
-   "count": 24,
+   "count": 20,
    "top": [
     {
      "id": "4438cf92c6589c65",
@@ -443,14 +437,14 @@
    "count": 13,
    "top": [
     {
-     "id": "2b47dfd4bf6e30e3",
-     "title": "머스크 “AI 에이전트로 통신 수요 1000배 증가”…기지국 8만곳 확보 추진",
+     "id": "798221e8dff7c9c7",
+     "title": "프랑스, 태양광 계약 조기 종료·매입가격 인하 제동",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=216624",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216557",
      "importance": 50,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-25T10:08:35.000Z",
+     "publishedAt": "2026-10-25T11:40:00.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-10-24",
@@ -585,7 +579,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-     "importance": 84,
+     "importance": 79,
      "difficulty": "进阶",
      "publishedAt": "2026-10-24T15:00:00.000Z",
      "topics": [
@@ -604,7 +598,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-     "importance": 78,
+     "importance": 73,
      "difficulty": "进阶",
      "publishedAt": "2026-10-24T14:00:00.000Z",
      "topics": [
@@ -624,12 +618,44 @@
    "count": 24,
    "top": [
     {
+     "id": "238b4b56b5fe7e0a",
+     "title": "Node2Shell flaw embedded in apps and dev tools far beyond Node.js",
+     "source": "iTnews Australia",
+     "region": "OTHER",
+     "url": "https://www.itnews.com.au/news/node2shell-flaw-embedded-in-apps-and-dev-tools-far-beyond-nodejs-629874?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-25T04:08:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-25",
+     "isNew": true
+    },
+    {
+     "id": "5b7a56b789986a54",
+     "title": "Discover how Superminis, Nayam by Lakshita and Broadstar are scaling nationally with Myntra’s platform capabilities",
+     "source": "YourStory",
+     "region": "OTHER",
+     "url": "https://yourstory.com/2026/10/discover-how-superminis-nayam-by-lakshita-and-broadstar-are-scaling-nationally-with-myntras-platform-capabilities",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-25T03:30:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-25",
+     "isNew": true
+    },
+    {
      "id": "999815bccb5d3d3d",
      "title": "Myntra Slips Into The Red In FY26, Reports ₹582 Cr Loss",
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/buzz/myntra-slips-into-the-red-in-fy26-reports-%e2%82%b9582-cr-loss/",
-     "importance": 74,
+     "importance": 69,
      "difficulty": "进阶",
      "publishedAt": "2026-10-24T14:37:28.000Z",
      "topics": [
@@ -638,41 +664,9 @@
      "entities": [],
      "firstSeen": "2026-10-25",
      "isNew": true
-    },
-    {
-     "id": "f043df8914b0891e",
-     "title": "Flipkart-Backed super.money’s FY26 Revenue Triples To ₹292 Cr",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/flipkart-backed-super-moneys-fy26-revenue-triples-to-%e2%82%b9292-cr/",
-     "importance": 69,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-24T12:58:50.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-25",
-     "isNew": true
-    },
-    {
-     "id": "ab8eb9610d96db91",
-     "title": "How art festivals benefit when galleries across cities collaborate",
-     "source": "YourStory",
-     "region": "OTHER",
-     "url": "https://yourstory.com/2026/10/contemporary-now-art-festival-gallery-creativity-photography",
-     "importance": 67,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-24T05:49:19.000Z",
-     "topics": [
-      "产品与应用"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-25",
-     "isNew": true
     }
    ]
   }
  ],
- "overview": "10 月 25 日，共从 25 个信息源抓取 419 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 56 条发布于 24 小时内。其中 64 条是此前未出现过的新增内容，另有 93 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」52 条、「产品与应用」31 条。值得优先关注的几条：「拿到2亿美金融资，Today AI回答了Personal AI的十个核心问题」（36氪）、「“更懂你、会办事”，支付宝携手科大讯飞升级智能座舱服务」（雷峰网）、「苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机」（极客公园）。"
+ "overview": "10 月 25 日，共从 24 个信息源抓取 405 条 AI 产业动态，其中 153 条进入当日精选，覆盖 7 个区域。其中有 60 条发布于 24 小时内。其中 72 条是此前未出现过的新增内容，另有 81 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」53 条、「产品与应用」30 条。值得优先关注的几条：「拿到2亿美金融资，Today AI回答了Personal AI的十个核心问题」（36氪）、「“更懂你、会办事”，支付宝携手科大讯飞升级智能座舱服务」（雷峰网）、「三星Exynos 2700内部测试得分超过高通」（36氪）。"
 }
