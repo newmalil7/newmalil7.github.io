@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-26",
- "generatedAt": "2026-10-26T01:32:14.150Z",
+ "generatedAt": "2026-10-26T04:32:04.493Z",
  "mode": "rule",
  "counts": {
   "crawled": 437,
   "published": 157,
-  "newCount": 54,
-  "repeatCount": 103,
+  "newCount": 63,
+  "repeatCount": 94,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -27,55 +27,59 @@
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
-  "staleDropped": 24,
-  "newestAt": "2026-10-26T09:00:00.000Z"
+  "staleDropped": 25,
+  "newestAt": "2026-10-26T13:12:52.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 58
+   "n": 54
   },
   {
    "name": "产品与应用",
-   "n": 34
-  },
-  {
-   "name": "模型与能力",
-   "n": 19
+   "n": 33
   },
   {
    "name": "产业与生态",
-   "n": 15
+   "n": 17
+  },
+  {
+   "name": "模型与能力",
+   "n": 16
   },
   {
    "name": "算力与基建",
-   "n": 14
+   "n": 15
   },
   {
    "name": "政策与治理",
-   "n": 13
+   "n": 10
   }
  ],
  "entities": [
   {
    "name": "OpenAI",
-   "n": 9
+   "n": 8
   },
   {
    "name": "NVIDIA",
    "n": 7
   },
   {
+   "name": "字节跳动",
+   "n": 3
+  },
+  {
+   "name": "Arm",
+   "n": 3
+  },
+  {
    "name": "Google",
    "n": 3
   },
   {
-   "name": "腾讯",
-   "n": 2
-  },
-  {
-   "name": "字节跳动",
-   "n": 2
+   "name": "Oracle",
+   "n": 3
   },
   {
    "name": "DeepSeek",
@@ -84,31 +88,64 @@
   {
    "name": "软银",
    "n": 2
-  },
-  {
-   "name": "Amazon",
-   "n": 2
   }
  ],
  "topOverall": [
   {
-   "id": "e7169213064ef115",
-   "title": "国内互联网能与字节一战的，只剩腾讯了",
+   "id": "2168ca8deef499b6",
+   "title": "硅谷AI精英相亲局：男方交800美元，只为查验女方的“AI公司成分”",
    "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8180978.html",
-   "importance": 89,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-25T10:50:17.000Z",
+   "url": "https://www.tmtpost.com/8180998.html",
+   "importance": 95,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-26T02:59:00.000Z",
    "topics": [
-    "产品与应用",
-    "资本与市场"
+    "算力与基建",
+    "模型与能力"
    ],
    "entities": [
-    "阿里巴巴",
-    "腾讯",
-    "字节跳动",
-    "百度"
+    "OpenAI",
+    "Anthropic",
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-10-26",
+   "isNew": true
+  },
+  {
+   "id": "2b48bd5ffda8b1c6",
+   "title": "IPO暂缓，智元机器人何去何从？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8181407.html",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-26T01:48:33.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "智元机器人"
+   ],
+   "firstSeen": "2026-10-26",
+   "isNew": true
+  },
+  {
+   "id": "a903239de2851870",
+   "title": "Samsung, SK Hynix shares fall before earnings on AI doubts",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/samsung-sk-hynix-shares-fall-earnings-ai-doubts",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-26T01:38:19.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "三星",
+    "SK 海力士"
    ],
    "firstSeen": "2026-10-26",
    "isNew": true
@@ -154,6 +191,25 @@
    "isNew": true
   },
   {
+   "id": "86e9b090dc48a4f6",
+   "title": "Musk says SpaceX closes $40b debt deal for Nvidia AI chips",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/musk-spacex-closes-40b-debt-deal-nvidia-ai-chips",
+   "importance": 84,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-26T01:39:07.000Z",
+   "topics": [
+    "算力与基建",
+    "产品与应用"
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-10-26",
+   "isNew": true
+  },
+  {
    "id": "be644bd76eb8fca2",
    "title": "SoftBank eyes $50b AI investment in Malaysia",
    "source": "Tech in Asia",
@@ -172,73 +228,21 @@
    "isNew": true
   },
   {
-   "id": "03d9edf79eb5d083",
-   "title": "中信证券：GPT-6 Astra进入机器人控制，物理AI迎来重大拐点",
-   "source": "36氪",
+   "id": "fa0f60d47eddc3fc",
+   "title": "字节掀桌，巨头抱团，短剧出海打响“内战”",
+   "source": "钛媒体",
    "region": "CN",
-   "url": "https://36kr.com/newsflashes/4041976290055045?f=rss",
-   "importance": 83,
-   "difficulty": "高级",
-   "publishedAt": "2026-10-26T00:59:58.000Z",
-   "topics": [
-    "模型与能力",
-    "算力与基建"
-   ],
-   "entities": [
-    "NVIDIA"
-   ],
-   "firstSeen": "2026-10-26",
-   "isNew": true
-  },
-  {
-   "id": "fe3fa30a65831d3f",
-   "title": "CircleCI 正式发布 Machine Runner Orchestrator",
-   "source": "InfoQ 中国",
-   "region": "CN",
-   "url": "https://www.infoq.cn/article/y7YQmP1p42Uj69H1C6uf?utm_source=rss&utm_medium=article",
-   "importance": 81,
+   "url": "https://www.tmtpost.com/8181419.html",
+   "importance": 82,
    "difficulty": "入门",
-   "publishedAt": "2026-10-26T09:00:00.000Z",
-   "topics": [
-    "产品与应用"
-   ],
-   "entities": [],
-   "firstSeen": "2026-10-26",
-   "isNew": true
-  },
-  {
-   "id": "dd8dbc4621f27841",
-   "title": "华泰证券：物理AI加速从概念走向落地，全产业链环节均有望受益",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4041953665193088?f=rss",
-   "importance": 79,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-26T00:30:58.000Z",
+   "publishedAt": "2026-10-26T02:54:32.000Z",
    "topics": [
     "产品与应用",
-    "模型与能力"
+    "产业与生态"
    ],
    "entities": [
-    "OpenAI"
+    "字节跳动"
    ],
-   "firstSeen": "2026-10-26",
-   "isNew": true
-  },
-  {
-   "id": "0d7bdb6000fa1206",
-   "title": "中信证券：算力产业仍在增长但将回归理性",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4041977313432706?f=rss",
-   "importance": 77,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-26T01:03:01.000Z",
-   "topics": [
-    "资本与市场",
-    "算力与基建"
-   ],
-   "entities": [],
    "firstSeen": "2026-10-26",
    "isNew": true
   }
@@ -252,23 +256,41 @@
    "count": 24,
    "top": [
     {
-     "id": "e7169213064ef115",
-     "title": "国内互联网能与字节一战的，只剩腾讯了",
+     "id": "2168ca8deef499b6",
+     "title": "硅谷AI精英相亲局：男方交800美元，只为查验女方的“AI公司成分”",
      "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8180978.html",
-     "importance": 89,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-25T10:50:17.000Z",
+     "url": "https://www.tmtpost.com/8180998.html",
+     "importance": 95,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T02:59:00.000Z",
      "topics": [
-      "产品与应用",
-      "资本与市场"
+      "算力与基建",
+      "模型与能力"
      ],
      "entities": [
-      "阿里巴巴",
-      "腾讯",
-      "字节跳动",
-      "百度"
+      "OpenAI",
+      "Anthropic",
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-26",
+     "isNew": true
+    },
+    {
+     "id": "2b48bd5ffda8b1c6",
+     "title": "IPO暂缓，智元机器人何去何从？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8181407.html",
+     "importance": 90,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-26T01:48:33.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "智元机器人"
      ],
      "firstSeen": "2026-10-26",
      "isNew": true
@@ -292,26 +314,6 @@
      ],
      "firstSeen": "2026-10-26",
      "isNew": true
-    },
-    {
-     "id": "126fe63bacc8b1a2",
-     "title": "8点1氪丨金价连日大跌，深圳水贝被挤爆；开售仅两天，苹果iPhone Duo破发；德明利：前三季度净利润87.46亿元 同比增长32399.91%",
-     "source": "36氪",
-     "region": "CN",
-     "url": "https://36kr.com/p/4041951412343942?f=rss",
-     "importance": 85,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-26T00:08:18.000Z",
-     "topics": [
-      "模型与能力",
-      "算力与基建"
-     ],
-     "entities": [
-      "MiniMax",
-      "DeepSeek"
-     ],
-     "firstSeen": "2026-10-26",
-     "isNew": true
     }
    ]
   },
@@ -322,6 +324,44 @@
    "flag": "🌏",
    "count": 24,
    "top": [
+    {
+     "id": "a903239de2851870",
+     "title": "Samsung, SK Hynix shares fall before earnings on AI doubts",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/samsung-sk-hynix-shares-fall-earnings-ai-doubts",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T01:38:19.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "三星",
+      "SK 海力士"
+     ],
+     "firstSeen": "2026-10-26",
+     "isNew": true
+    },
+    {
+     "id": "86e9b090dc48a4f6",
+     "title": "Musk says SpaceX closes $40b debt deal for Nvidia AI chips",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/musk-spacex-closes-40b-debt-deal-nvidia-ai-chips",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T01:39:07.000Z",
+     "topics": [
+      "算力与基建",
+      "产品与应用"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-26",
+     "isNew": true
+    },
     {
      "id": "be644bd76eb8fca2",
      "title": "SoftBank eyes $50b AI investment in Malaysia",
@@ -337,38 +377,6 @@
      "entities": [
       "软银"
      ],
-     "firstSeen": "2026-10-26",
-     "isNew": true
-    },
-    {
-     "id": "3eaca870d1de55e6",
-     "title": "These are the most active investors in Korea’s startups",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/active-investors-koreas-startups",
-     "importance": 72,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-25T09:00:00.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-26",
-     "isNew": true
-    },
-    {
-     "id": "b16957ca679e4c44",
-     "title": "Series SEA: Who’s investing in the region’s health startups?",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/top-sea-investors-health",
-     "importance": 72,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-25T07:00:00.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
      "firstSeen": "2026-10-26",
      "isNew": true
     }
@@ -401,20 +409,6 @@
      "isNew": false
     },
     {
-     "id": "421a3ac797405ed1",
-     "title": "AVEVA connects industrial data to drive smarter energy operations",
-     "source": "TahawulTech",
-     "region": "ME",
-     "url": "https://www.tahawultech.com/home-slide/aveva-connects-industrial-data-to-drive-smarter-energy-operations/",
-     "importance": 53,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-25T14:34:52.000Z",
-     "topics": [],
-     "entities": [],
-     "firstSeen": "2026-10-26",
-     "isNew": true
-    },
-    {
      "id": "7c311233424ee724",
      "title": "INVE raises $300,000 from Outliers VC to scale eventtech platform across GCC",
      "source": "Wamda",
@@ -430,6 +424,22 @@
      "entities": [],
      "firstSeen": "2026-10-25",
      "isNew": false
+    },
+    {
+     "id": "df727f2e9d2fe037",
+     "title": "Databuddy Analytics raises $500,000 from Y Combinator",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/databuddy-analytics-raises-500000-y-combinator",
+     "importance": 52,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-25",
+     "isNew": false
     }
    ]
   },
@@ -441,36 +451,32 @@
    "count": 13,
    "top": [
     {
-     "id": "f1e9da0402ccb341",
-     "title": "[AI리더의 서가] AI 자율학습 AI 에이전트 개발 입문",
-     "source": "AI타임스",
-     "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=216577",
-     "importance": 68,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-26T09:00:00.000Z",
-     "topics": [
-      "模型与能力"
-     ],
-     "entities": [
-      "OpenAI"
-     ],
-     "firstSeen": "2026-10-25",
-     "isNew": false
-    },
-    {
      "id": "21d12a24c7bd31d3",
      "title": "미래를 바꿀 혁신 기술 어디까지 왔나",
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%eb%af%b8%eb%9e%98%eb%a5%bc-%eb%b0%94%ea%bf%80-%ed%98%81%ec%8b%a0-%ea%b8%b0%ec%88%a0-%ec%96%b4%eb%94%94%ea%b9%8c%ec%a7%80-%ec%99%94%eb%82%98/",
-     "importance": 66,
+     "importance": 62,
      "difficulty": "进阶",
      "publishedAt": "2026-10-25T21:00:00.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-10-26",
      "isNew": true
+    },
+    {
+     "id": "9ab416e196248fd5",
+     "title": "클로드, 선거 앞두고 조지아주 유권자 데이터 무단 접근 논란",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216638",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T13:12:52.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-25",
+     "isNew": false
     },
     {
      "id": "d5a93aba711b9a35",
@@ -555,22 +561,6 @@
    "count": 24,
    "top": [
     {
-     "id": "4b150064a0ad9e6e",
-     "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-     "source": "TechCrunch AI",
-     "region": "NA",
-     "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-     "importance": 72,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-25T21:31:16.000Z",
-     "topics": [],
-     "entities": [
-      "xAI"
-     ],
-     "firstSeen": "2026-10-26",
-     "isNew": true
-    },
-    {
      "id": "1c10b7cca9fa71c3",
      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
      "source": "TechCrunch AI",
@@ -606,6 +596,22 @@
      "entities": [],
      "firstSeen": "2026-10-26",
      "isNew": true
+    },
+    {
+     "id": "4b150064a0ad9e6e",
+     "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+     "importance": 68,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-25T21:31:16.000Z",
+     "topics": [],
+     "entities": [
+      "xAI"
+     ],
+     "firstSeen": "2026-10-26",
+     "isNew": true
     }
    ]
   },
@@ -616,6 +622,22 @@
    "flag": "🌐",
    "count": 24,
    "top": [
+    {
+     "id": "1e74d19ad3618fde",
+     "title": "Canva launches a home-grown AI image generation model",
+     "source": "Startup Daily",
+     "region": "OTHER",
+     "url": "https://www.startupdaily.net/topic/artificial-intelligence-machine-learning/canva-launches-a-home-grown-ai-image-generation-model/",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-26T02:57:43.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-26",
+     "isNew": true
+    },
     {
      "id": "8010ba8ac66184b0",
      "title": "Flipkart’s Summer Of Discontent",
@@ -633,33 +655,16 @@
      "isNew": true
     },
     {
-     "id": "87d13f3b0a58c8a4",
-     "title": "Five IPOs to open next week; companies eye close to Rs 2,600 Cr",
+     "id": "248b22bfdfb3036f",
+     "title": "Startup funding falls below $100M; Deeptech startups look to go global",
      "source": "YourStory",
      "region": "OTHER",
-     "url": "https://yourstory.com/2026/10/five-ipos-to-open-next-week-companies-eye-close-to-rs-2600-cr",
-     "importance": 67,
+     "url": "https://yourstory.com/2026/10/startup-funding-falls-below-100m",
+     "importance": 72,
      "difficulty": "入门",
-     "publishedAt": "2026-10-25T09:04:17.000Z",
+     "publishedAt": "2026-10-26T02:00:00.000Z",
      "topics": [
-      "资本与市场",
-      "产品与应用"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-26",
-     "isNew": true
-    },
-    {
-     "id": "79dfb32c3e4a9b88",
-     "title": "Art and design: how this award-winning Bengaluru airport elevates passenger experience",
-     "source": "YourStory",
-     "region": "OTHER",
-     "url": "https://yourstory.com/2026/10/art-design-bengaluru-airport-creativity-photography",
-     "importance": 67,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-25T06:00:43.000Z",
-     "topics": [
-      "产品与应用"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-10-26",
@@ -668,5 +673,5 @@
    ]
   }
  ],
- "overview": "10 月 26 日，共从 26 个信息源抓取 437 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 64 条发布于 24 小时内。其中 54 条是此前未出现过的新增内容，另有 103 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」58 条、「产品与应用」34 条。值得优先关注的几条：「国内互联网能与字节一战的，只剩腾讯了」（钛媒体）、「早报｜iPhone Duo破发/企业微信回应色情引流信息/曝触屏MacBook Pro周四登场」（爱范儿）、「8点1氪丨金价连日大跌，深圳水贝被挤爆；开售仅两天，苹果iPhone Duo破发；德明利：前三季度净利润87.46亿元 同比增长32399.91%」（36氪）。"
+ "overview": "10 月 26 日，共从 26 个信息源抓取 437 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 64 条发布于 24 小时内。其中 63 条是此前未出现过的新增内容，另有 94 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」54 条、「产品与应用」33 条。值得优先关注的几条：「硅谷AI精英相亲局：男方交800美元，只为查验女方的“AI公司成分”」（钛媒体）、「IPO暂缓，智元机器人何去何从？」（钛媒体）、「早报｜iPhone Duo破发/企业微信回应色情引流信息/曝触屏MacBook Pro周四登场」（爱范儿）。"
 }
