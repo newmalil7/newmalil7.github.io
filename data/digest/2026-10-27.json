@@ -1,0 +1,696 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-27",
+ "generatedAt": "2026-10-27T01:30:57.541Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 442,
+  "published": 157,
+  "newCount": 121,
+  "repeatCount": 36,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 13,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 26,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 120,
+  "withinFresh": 122,
+  "freshHours": 72,
+  "monthPrecision": 16,
+  "undated": 0,
+  "staleDropped": 17,
+  "newestAt": "2026-10-27T09:14:00.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 63
+  },
+  {
+   "name": "产品与应用",
+   "n": 33
+  },
+  {
+   "name": "模型与能力",
+   "n": 25
+  },
+  {
+   "name": "产业与生态",
+   "n": 22
+  },
+  {
+   "name": "算力与基建",
+   "n": 19
+  },
+  {
+   "name": "政策与治理",
+   "n": 11
+  }
+ ],
+ "entities": [
+  {
+   "name": "Anthropic",
+   "n": 17
+  },
+  {
+   "name": "OpenAI",
+   "n": 9
+  },
+  {
+   "name": "Apple",
+   "n": 6
+  },
+  {
+   "name": "NVIDIA",
+   "n": 6
+  },
+  {
+   "name": "腾讯",
+   "n": 5
+  },
+  {
+   "name": "Amazon",
+   "n": 2
+  },
+  {
+   "name": "Google",
+   "n": 2
+  },
+  {
+   "name": "DeepSeek",
+   "n": 2
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "b77d95bbbe027d0a",
+   "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+   "importance": 99,
+   "difficulty": "高级",
+   "publishedAt": "2026-10-27T01:12:21.000Z",
+   "topics": [
+    "模型与能力"
+   ],
+   "entities": [
+    "Cohere",
+    "阿里巴巴",
+    "通义千问"
+   ],
+   "firstSeen": "2026-10-27",
+   "isNew": true
+  },
+  {
+   "id": "0fe8436d7b86a20d",
+   "title": "苹果回应 iPhone 折叠屏问题：可申请换机；传腾讯绿泡泡短剧月活过亿；；Anthropic或下月上市｜极客早知道",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/372952",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-27T00:26:51.000Z",
+   "topics": [
+    "资本与市场",
+    "产业与生态"
+   ],
+   "entities": [
+    "Anthropic",
+    "腾讯"
+   ],
+   "firstSeen": "2026-10-27",
+   "isNew": true
+  },
+  {
+   "id": "385f5ca6383d2974",
+   "title": "早报｜苹果回应iPhone Duo内屏开裂/Anthropic公开上市申请，冲击史上最大IPO/小鹏Robotaxi获批L4级示范运营",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1685979?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 98,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-27T00:06:21.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "Apple",
+    "华为"
+   ],
+   "firstSeen": "2026-10-27",
+   "isNew": true
+  },
+  {
+   "id": "899e3140d209861b",
+   "title": "半年亏掉807亿美元，Anthropic公开递交招股书：它凭什么值2万亿？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8182734.html",
+   "importance": 96,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-26T14:24:00.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-27",
+   "isNew": true
+  },
+  {
+   "id": "9da0f38c2a40b4cb",
+   "title": "Blackstone, banks to fund $63b Broadcom chip deal for Anthropic",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/blackstone-banks-fund-63b-broadcom-chip-deal-anthropic",
+   "importance": 94,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-27T01:25:42.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "Anthropic",
+    "博通"
+   ],
+   "firstSeen": "2026-10-27",
+   "isNew": true
+  },
+  {
+   "id": "b061c210628d2dc7",
+   "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+   "importance": 93,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-26T16:49:42.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "Anthropic",
+    "Amazon"
+   ],
+   "firstSeen": "2026-10-27",
+   "isNew": true
+  },
+  {
+   "id": "dcb87d5bc64f3de6",
+   "title": "Anthropic officially files for its public debut",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-26T14:35:22.000Z",
+   "topics": [
+    "资本与市场",
+    "政策与治理"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-27",
+   "isNew": true
+  },
+  {
+   "id": "b9727dd6e602831c",
+   "title": "OpenAI launches GPT-6.1 Terra at 50% lower API prices",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/openai-launches-gpt61-terra-50-api-prices",
+   "importance": 87,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-27T01:02:16.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "firstSeen": "2026-10-27",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "0fe8436d7b86a20d",
+     "title": "苹果回应 iPhone 折叠屏问题：可申请换机；传腾讯绿泡泡短剧月活过亿；；Anthropic或下月上市｜极客早知道",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/372952",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-27T00:26:51.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [
+      "Anthropic",
+      "腾讯"
+     ],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "385f5ca6383d2974",
+     "title": "早报｜苹果回应iPhone Duo内屏开裂/Anthropic公开上市申请，冲击史上最大IPO/小鹏Robotaxi获批L4级示范运营",
+     "source": "爱范儿",
+     "region": "CN",
+     "url": "https://www.ifanr.com/1685979?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 98,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-27T00:06:21.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "Apple",
+      "华为"
+     ],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "899e3140d209861b",
+     "title": "半年亏掉807亿美元，Anthropic公开递交招股书：它凭什么值2万亿？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8182734.html",
+     "importance": 96,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-26T14:24:00.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "9da0f38c2a40b4cb",
+     "title": "Blackstone, banks to fund $63b Broadcom chip deal for Anthropic",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/blackstone-banks-fund-63b-broadcom-chip-deal-anthropic",
+     "importance": 94,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-27T01:25:42.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Anthropic",
+      "博通"
+     ],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "b9727dd6e602831c",
+     "title": "OpenAI launches GPT-6.1 Terra at 50% lower API prices",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/openai-launches-gpt61-terra-50-api-prices",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-27T01:02:16.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "c20d22c3764ad09e",
+     "title": "Anthropic files for Nasdaq IPO",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/anthropic-files-nasdaq-ipo",
+     "importance": 79,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T13:30:37.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "eb0129dc643c79b5",
+     "title": "YouTube allows in-video product sale for viewers in KSA, UAE and Egypt",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/youtube-allows-video-product-sale-viewers-ksa-uae-egypt",
+     "importance": 70,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "产品与应用",
+      "产业与生态"
+     ],
+     "entities": [
+      "Amazon"
+     ],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "c8c360e000d43c5e",
+     "title": "Nvidia is looking to invest $2 billion in European AI",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/enterprise/nvidia-is-looking-to-invest-2-billion-in-european-ai/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T10:16:10.000Z",
+     "topics": [
+      "算力与基建",
+      "资本与市场"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "6ad311d9aca909e9",
+     "title": "AI sovereignty demands control beyond data residency, says Abdelilah Nejjari",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/ai-sovereignty-demands-control-beyond-data-residency-says-abdelilah-nejjari/",
+     "importance": 60,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T11:30:18.000Z",
+     "topics": [
+      "产品与应用",
+      "政策与治理"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 13,
+   "top": [
+    {
+     "id": "fd8b12addd8ddd77",
+     "title": "無料で使えるAIエージェントおすすめ10選！無料枠の上限と業務で試すときの注意点",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/10/27/278478/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%2584%25a1%25e6%2596%2599%25e3%2581%25a7%25e4%25bd%25bf%25e3%2581%2588%25e3%2582%258bai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%258a%25e3%2581%2599%25e3%2581%2599%25e3%2582%258110%25e9%2581%25b8%25ef%25bc%2581%25e7%2584%25a1%25e6%2596%2599%25e6%259e%25a0",
+     "importance": 74,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T19:14:31.000Z",
+     "topics": [
+      "政策与治理"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "37df4af785a4e515",
+     "title": "실명 위기에 놓인 황반변성 환자에게 희소식…인공 망막 상용화 성큼",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ec%8b%a4%eb%aa%85-%ec%9c%84%ea%b8%b0%ec%97%90-%eb%86%93%ec%9d%b8-%ed%99%a9%eb%b0%98%eb%b3%80%ec%84%b1-%ed%99%98%ec%9e%90%ec%97%90%ea%b2%8c-%eb%b9%9b%ec%9d%84%ec%9d%b8%ea%b3%b5-%eb%a7%9d/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "d821ba3a63d98665",
+     "title": "AI 에이전트의 등장, 인터넷의 질서가 흔들린다",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/ai-%ec%97%90%ec%9d%b4%ec%a0%84%ed%8a%b8%ec%9d%98-%eb%93%b1%ec%9e%a5-%ec%9d%b8%ed%84%b0%eb%84%b7%ec%9d%98-%ec%a7%88%ec%84%9c%ea%b0%80-%ed%9d%94%eb%93%a4%eb%a6%b0%eb%8b%a4/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "c6d17e759f97f18a",
+     "title": "Exclusive: General Catalyst-backed Strawberry launches first full product, 'the European alternative' to US agents",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/strawberry-browser-1-0/",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-26T05:00:08.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "d1ab5cb97c226833",
+     "title": "Evertrace acquires Veck to strengthen early founder detection",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/evertrace-acquires-veck-brnd/",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-26T10:54:21.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "c1fc3e4bf67f6758",
+     "title": "Exclusive: Heartcore Capital leads $17m raise for AI agent startup Nous",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/nous-ai-agent-funding-round-monzo-tom-blomfield/",
+     "importance": 69,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T05:00:14.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "b77d95bbbe027d0a",
+     "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+     "importance": 99,
+     "difficulty": "高级",
+     "publishedAt": "2026-10-27T01:12:21.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [
+      "Cohere",
+      "阿里巴巴",
+      "通义千问"
+     ],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "b061c210628d2dc7",
+     "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+     "importance": 93,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-26T16:49:42.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "Anthropic",
+      "Amazon"
+     ],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "dcb87d5bc64f3de6",
+     "title": "Anthropic officially files for its public debut",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T14:35:22.000Z",
+     "topics": [
+      "资本与市场",
+      "政策与治理"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "2d2a617bc5c7134a",
+     "title": "Pune Police Ask Google, Apple To Remove Rapido App Over Bike Taxi Operations",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/pune-police-ask-google-apple-to-remove-rapido-app-over-bike-taxi-operations/",
+     "importance": 84,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-26T11:53:18.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Google",
+      "Apple"
+     ],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "c6af8e8747976a0b",
+     "title": "News Publishers Move SC To Challenge The DPDP Act",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/news-publishers-move-sc-to-challenge-the-dpdp-act/",
+     "importance": 82,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-26T20:14:46.000Z",
+     "topics": [
+      "政策与治理"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    },
+    {
+     "id": "faa2e32499422c68",
+     "title": "Protectt.ai To Acquire Controlling Stake In Bosch’s AIShield",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/protectt-ai-to-acquire-controlling-stake-in-boschs-aishield/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-27T00:30:38.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-27",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 27 日，共从 26 个信息源抓取 442 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 120 条发布于 24 小时内。其中 121 条是此前未出现过的新增内容，另有 36 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」63 条、「产品与应用」33 条。值得优先关注的几条：「苹果回应 iPhone 折叠屏问题：可申请换机；传腾讯绿泡泡短剧月活过亿；；Anthropic或下月上市｜极客早知道」（极客公园）、「早报｜苹果回应iPhone Duo内屏开裂/Anthropic公开上市申请，冲击史上最大IPO/小鹏Robotaxi获批L4级示范运营」（爱范儿）、「半年亏掉807亿美元，Anthropic公开递交招股书：它凭什么值2万亿？」（钛媒体）。"
+}
