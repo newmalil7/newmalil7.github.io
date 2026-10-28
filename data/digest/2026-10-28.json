@@ -1,10 +1,10 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-28",
- "generatedAt": "2026-10-28T01:42:25.853Z",
+ "generatedAt": "2026-10-28T04:40:25.301Z",
  "mode": "rule",
  "counts": {
-  "crawled": 444,
+  "crawled": 443,
   "published": 157,
   "newCount": 125,
   "repeatCount": 32,
@@ -28,24 +28,24 @@
   "monthPrecision": 12,
   "undated": 0,
   "staleDropped": 18,
-  "newestAt": "2026-10-28T09:00:00.000Z"
+  "newestAt": "2026-10-28T12:50:22.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 60
+   "n": 55
   },
   {
    "name": "产品与应用",
-   "n": 42
+   "n": 44
+  },
+  {
+   "name": "模型与能力",
+   "n": 27
   },
   {
    "name": "产业与生态",
    "n": 22
-  },
-  {
-   "name": "模型与能力",
-   "n": 21
   },
   {
    "name": "算力与基建",
@@ -59,27 +59,27 @@
  "entities": [
   {
    "name": "Anthropic",
-   "n": 13
+   "n": 18
   },
   {
    "name": "OpenAI",
-   "n": 12
+   "n": 13
   },
   {
    "name": "Google",
    "n": 10
   },
   {
-   "name": "NVIDIA",
-   "n": 10
-  },
-  {
    "name": "Meta",
-   "n": 10
+   "n": 8
   },
   {
-   "name": "DeepMind",
-   "n": 4
+   "name": "NVIDIA",
+   "n": 7
+  },
+  {
+   "name": "DeepSeek",
+   "n": 5
   },
   {
    "name": "Amazon",
@@ -87,30 +87,10 @@
   },
   {
    "name": "AMD",
-   "n": 3
+   "n": 4
   }
  ],
  "topOverall": [
-  {
-   "id": "64bf6a3d0d56f8ff",
-   "title": "US robotics startup Physical Intelligence eyes $20b valuation",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/robotics-startup-physical-intelligence-eyes-20b-valuation",
-   "importance": 99,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-28T01:18:10.000Z",
-   "topics": [
-    "资本与市场"
-   ],
-   "entities": [
-    "Google",
-    "DeepMind",
-    "Physical Intelligence"
-   ],
-   "firstSeen": "2026-10-28",
-   "isNew": true
-  },
   {
    "id": "c545853c2a6e4c28",
    "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
@@ -132,39 +112,64 @@
    "isNew": true
   },
   {
-   "id": "e22c11cb4690a839",
-   "title": "Akamai launches beta AI inference, agent sandbox tools",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/akamai-launches-beta-ai-inference-agent-sandbox-tools",
-   "importance": 94,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-28T01:21:42.000Z",
+   "id": "efdeaf65f62c5e52",
+   "title": "对话星连资本张鸣晨：在清华挖宝，看教授的虎气、猴气与熊气",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/3997098817310595?f=rss",
+   "importance": 98,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-28T02:25:15.000Z",
    "topics": [
-    "产品与应用",
-    "算力与基建"
+    "资本与市场"
    ],
    "entities": [
-    "OpenAI",
-    "NVIDIA"
+    "智谱AI",
+    "生数科技",
+    "面壁智能"
    ],
    "firstSeen": "2026-10-28",
    "isNew": true
   },
   {
-   "id": "c88800d8721e60f4",
-   "title": "小微灰度的第130天：小程序正在被拆成零件，交给微信的AI",
-   "source": "钛媒体",
+   "id": "2e3b942aedce3a0b",
+   "title": "微软向6万员工发出自愿离职邀请，补偿至少N+2；身家2800亿的梁文锋，被曝长期在北京租房；苹果否认iPhone Duo为赶产能放宽质检",
+   "source": "雷峰网",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8183962.html",
-   "importance": 94,
+   "url": "https://www.leiphone.com/category/zaobao/SXb4aJpFWlpTjfkN.html",
+   "importance": 98,
    "difficulty": "入门",
-   "publishedAt": "2026-10-28T01:03:00.000Z",
+   "publishedAt": "2026-10-28T01:11:00.000Z",
    "topics": [
+    "模型与能力",
     "产品与应用"
    ],
    "entities": [
-    "腾讯"
+    "OpenAI",
+    "阿里巴巴",
+    "腾讯",
+    "字节跳动"
+   ],
+   "firstSeen": "2026-10-28",
+   "isNew": true
+  },
+  {
+   "id": "a1a336b9167f9a30",
+   "title": "Oracle expands AI chip lineup with Nvidia, Google, Cerebras",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/oracle-expands-ai-chip-lineup-nvidia-google-cerebras",
+   "importance": 96,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-28T01:57:38.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "Google",
+    "NVIDIA",
+    "Oracle",
+    "Cerebras"
    ],
    "firstSeen": "2026-10-28",
    "isNew": true
@@ -212,19 +217,21 @@
    "isNew": true
   },
   {
-   "id": "d0a596b8d31fb15c",
-   "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
-   "source": "Ars Technica AI",
-   "region": "NA",
-   "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+   "id": "ca53aee60132667f",
+   "title": "医疗AI诊断：为什么很难成为一门独立生意？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8184268.html",
    "importance": 92,
-   "difficulty": "进阶",
-   "publishedAt": "2026-10-27T21:31:14.000Z",
+   "difficulty": "入门",
+   "publishedAt": "2026-10-28T03:08:47.000Z",
    "topics": [
-    "资本与市场"
+    "模型与能力",
+    "政策与治理"
    ],
    "entities": [
-    "Anthropic"
+    "DeepSeek",
+    "Tempus AI"
    ],
    "firstSeen": "2026-10-28",
    "isNew": true
@@ -260,19 +267,43 @@
    "count": 24,
    "top": [
     {
-     "id": "c88800d8721e60f4",
-     "title": "小微灰度的第130天：小程序正在被拆成零件，交给微信的AI",
-     "source": "钛媒体",
+     "id": "efdeaf65f62c5e52",
+     "title": "对话星连资本张鸣晨：在清华挖宝，看教授的虎气、猴气与熊气",
+     "source": "36氪",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8183962.html",
-     "importance": 94,
+     "url": "https://36kr.com/p/3997098817310595?f=rss",
+     "importance": 98,
      "difficulty": "入门",
-     "publishedAt": "2026-10-28T01:03:00.000Z",
+     "publishedAt": "2026-10-28T02:25:15.000Z",
      "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "智谱AI",
+      "生数科技",
+      "面壁智能"
+     ],
+     "firstSeen": "2026-10-28",
+     "isNew": true
+    },
+    {
+     "id": "2e3b942aedce3a0b",
+     "title": "微软向6万员工发出自愿离职邀请，补偿至少N+2；身家2800亿的梁文锋，被曝长期在北京租房；苹果否认iPhone Duo为赶产能放宽质检",
+     "source": "雷峰网",
+     "region": "CN",
+     "url": "https://www.leiphone.com/category/zaobao/SXb4aJpFWlpTjfkN.html",
+     "importance": 98,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-28T01:11:00.000Z",
+     "topics": [
+      "模型与能力",
       "产品与应用"
      ],
      "entities": [
-      "腾讯"
+      "OpenAI",
+      "阿里巴巴",
+      "腾讯",
+      "字节跳动"
      ],
      "firstSeen": "2026-10-28",
      "isNew": true
@@ -297,27 +328,6 @@
      ],
      "firstSeen": "2026-10-28",
      "isNew": true
-    },
-    {
-     "id": "636e185e9e2eaac5",
-     "title": "中国版Muse能管事！我把宠物保单、双11算价和周末旅行全交给了灵光2.0",
-     "source": "爱范儿",
-     "region": "CN",
-     "url": "https://www.ifanr.com/1686050?utm_source=rss&utm_medium=rss&utm_campaign=",
-     "importance": 93,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-27T05:02:30.000Z",
-     "topics": [
-      "产品与应用",
-      "模型与能力"
-     ],
-     "entities": [
-      "OpenAI",
-      "Anthropic",
-      "Meta"
-     ],
-     "firstSeen": "2026-10-28",
-     "isNew": true
     }
    ]
   },
@@ -329,59 +339,60 @@
    "count": 24,
    "top": [
     {
-     "id": "64bf6a3d0d56f8ff",
-     "title": "US robotics startup Physical Intelligence eyes $20b valuation",
+     "id": "a1a336b9167f9a30",
+     "title": "Oracle expands AI chip lineup with Nvidia, Google, Cerebras",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/robotics-startup-physical-intelligence-eyes-20b-valuation",
-     "importance": 99,
+     "url": "https://www.techinasia.com/news/oracle-expands-ai-chip-lineup-nvidia-google-cerebras",
+     "importance": 96,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-28T01:18:10.000Z",
+     "publishedAt": "2026-10-28T01:57:38.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Google",
+      "NVIDIA",
+      "Oracle",
+      "Cerebras"
+     ],
+     "firstSeen": "2026-10-28",
+     "isNew": true
+    },
+    {
+     "id": "5d414b9e86f88325",
+     "title": "AMD to invest $1b in Meta as AI chip partnership grows",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/amd-invest-1b-meta-ai-chip-partnership-grows",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-28T02:02:15.000Z",
+     "topics": [
+      "算力与基建",
+      "产业与生态"
+     ],
+     "entities": [
+      "Meta",
+      "AMD"
+     ],
+     "firstSeen": "2026-10-28",
+     "isNew": true
+    },
+    {
+     "id": "9be2ac7c9b137b99",
+     "title": "Anthropic IPO to open to Australian retail investors",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/anthropic-ipo-to-open-to-australian-retail-investors",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-28T02:31:41.000Z",
      "topics": [
       "资本与市场"
      ],
      "entities": [
-      "Google",
-      "DeepMind",
-      "Physical Intelligence"
-     ],
-     "firstSeen": "2026-10-28",
-     "isNew": true
-    },
-    {
-     "id": "e22c11cb4690a839",
-     "title": "Akamai launches beta AI inference, agent sandbox tools",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/akamai-launches-beta-ai-inference-agent-sandbox-tools",
-     "importance": 94,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-28T01:21:42.000Z",
-     "topics": [
-      "产品与应用",
-      "算力与基建"
-     ],
-     "entities": [
-      "OpenAI",
-      "NVIDIA"
-     ],
-     "firstSeen": "2026-10-28",
-     "isNew": true
-    },
-    {
-     "id": "fe9f6d75ff58d5ed",
-     "title": "Meta launches AI agent Muse in Singapore",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/meta-launches-ai-agent-muse-singapore",
-     "importance": 91,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-28T00:00:36.000Z",
-     "topics": [
-      "产品与应用"
-     ],
-     "entities": [
-      "Meta"
+      "Anthropic"
      ],
      "firstSeen": "2026-10-28",
      "isNew": true
@@ -466,7 +477,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ec%95%a4%ed%8a%b8%eb%a1%9c%ed%94%bd%ec%9d%b4-%eb%a7%8c%eb%93%a4%ec%96%b4%eb%82%b8-%ec%8b%a0%ed%99%94-%ea%b7%b8-%eb%92%a4%ec%97%90-%ec%88%a8%ec%9d%80-%ec%a7%84%ec%8b%a4/",
-     "importance": 82,
+     "importance": 78,
      "difficulty": "进阶",
      "publishedAt": "2026-10-27T21:00:00.000Z",
      "topics": [
@@ -477,17 +488,15 @@
      "isNew": true
     },
     {
-     "id": "13371800ca9aa907",
-     "title": "[AI리더의 서가] 머신러닝 플랫폼 엔지니어링",
+     "id": "4679b66a6bd6d900",
+     "title": "메타, 33조 주식 공모에 주문 5배 폭주…자금 조달 규모 소폭 확대",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=216583",
-     "importance": 62,
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216743",
+     "importance": 50,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-28T09:00:00.000Z",
-     "topics": [
-      "模型与能力"
-     ],
+     "publishedAt": "2026-10-28T12:50:22.000Z",
+     "topics": [],
      "entities": [],
      "firstSeen": "2026-10-27",
      "isNew": false
@@ -537,20 +546,6 @@
      "isNew": true
     },
     {
-     "id": "dbf043e56b10ba5f",
-     "title": "Revolut faces Bank of England scrutiny over product approval process, reports say",
-     "source": "Sifted",
-     "region": "EU",
-     "url": "https://sifted.eu/articles/revolut-faces-bank-of-england-scrutiny-over-product-approval-process-reports-say/",
-     "importance": 66,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-27T22:38:01.000Z",
-     "topics": [],
-     "entities": [],
-     "firstSeen": "2026-10-28",
-     "isNew": true
-    },
-    {
      "id": "76581cfb3e1906d8",
      "title": "Revolut Ventures to launch in 2027",
      "source": "Silicon Republic",
@@ -562,6 +557,20 @@
      "topics": [
       "产品与应用"
      ],
+     "entities": [],
+     "firstSeen": "2026-10-28",
+     "isNew": true
+    },
+    {
+     "id": "dbf043e56b10ba5f",
+     "title": "Revolut faces Bank of England scrutiny over product approval process, reports say",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/revolut-faces-bank-of-england-scrutiny-over-product-approval-process-reports-say/",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-27T22:38:01.000Z",
+     "topics": [],
      "entities": [],
      "firstSeen": "2026-10-28",
      "isNew": true
@@ -596,24 +605,6 @@
      "isNew": true
     },
     {
-     "id": "d0a596b8d31fb15c",
-     "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
-     "source": "Ars Technica AI",
-     "region": "NA",
-     "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
-     "importance": 92,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-27T21:31:14.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [
-      "Anthropic"
-     ],
-     "firstSeen": "2026-10-28",
-     "isNew": true
-    },
-    {
      "id": "9f41e506929bb05a",
      "title": "Oracle brings Google’s TPUs to its cloud, adds ChatGPT integrations",
      "source": "SiliconANGLE",
@@ -633,6 +624,25 @@
      ],
      "firstSeen": "2026-10-28",
      "isNew": true
+    },
+    {
+     "id": "afec6317b26c3fe3",
+     "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+     "importance": 89,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-27T18:55:35.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "ElevenLabs",
+      "Groq"
+     ],
+     "firstSeen": "2026-10-28",
+     "isNew": true
     }
    ]
   },
@@ -643,6 +653,24 @@
    "flag": "🌐",
    "count": 24,
    "top": [
+    {
+     "id": "91a691832a9c37a2",
+     "title": "Jio Platforms Lists At 21.36% Premium After India’s Largest IPO",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/jio-platforms-lists-at-21-36-premium-after-indias-largest-ipo/",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-28T04:35:32.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-10-28",
+     "isNew": true
+    },
     {
      "id": "9fc22dda9d0137a0",
      "title": "Cent Raises $15 Mn To Scale AI-Led Preventive Healthcare Platform",
@@ -680,28 +708,9 @@
      ],
      "firstSeen": "2026-10-28",
      "isNew": true
-    },
-    {
-     "id": "c9103847d5b672ab",
-     "title": "Live2.ai Raises ₹130 Cr To Scale AI Marketing SaaS Platform",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/live2-ai-raises-%e2%82%b9130-cr-to-scale-ai-marketing-saas-platform/",
-     "importance": 86,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-27T12:34:34.000Z",
-     "topics": [
-      "资本与市场",
-      "产品与应用"
-     ],
-     "entities": [
-      "Scale AI"
-     ],
-     "firstSeen": "2026-10-28",
-     "isNew": true
     }
    ]
   }
  ],
- "overview": "10 月 28 日，共从 26 个信息源抓取 444 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 123 条发布于 24 小时内。其中 125 条是此前未出现过的新增内容，另有 32 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」60 条、「产品与应用」42 条。值得优先关注的几条：「小微灰度的第130天：小程序正在被拆成零件，交给微信的AI」（钛媒体）、「OCR 3.0 时代来了！文心 Unlimited OCR 2 开源发布，超长文档解析迎来“页数自由”」（雷峰网）、「中国版Muse能管事！我把宠物保单、双11算价和周末旅行全交给了灵光2.0」（爱范儿）。"
+ "overview": "10 月 28 日，共从 26 个信息源抓取 443 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 123 条发布于 24 小时内。其中 125 条是此前未出现过的新增内容，另有 32 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」55 条、「产品与应用」44 条。值得优先关注的几条：「对话星连资本张鸣晨：在清华挖宝，看教授的虎气、猴气与熊气」（36氪）、「微软向6万员工发出自愿离职邀请，补偿至少N+2；身家2800亿的梁文锋，被曝长期在北京租房；苹果否认iPhone Duo为赶产能放宽质检」（雷峰网）、「OCR 3.0 时代来了！文心 Unlimited OCR 2 开源发布，超长文档解析迎来“页数自由”」（雷峰网）。"
 }
