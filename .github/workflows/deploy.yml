@@ -48,6 +48,15 @@ jobs:
           # 未翻的会在后续几天自动补上（译文有缓存，不会重复消耗额度）。
           TRANSLATE_DE_EMAIL: ${{ secrets.TRANSLATE_DE_EMAIL }}
           TRANSLATE_BUDGET: '45000'
+          # 每条新闻的要点用你自己的 LLM 中转端点生成（OpenAI 兼容）。
+          # 在仓库 Settings → Secrets and variables → Actions 里加三个 secret：
+          #   LLM_BASE_URL 如 https://api.example.com/v1（不含 /chat/completions）
+          #   LLM_API_KEY  你的令牌
+          #   LLM_MODEL    模型名
+          # 不配也能跑：要点层会回落「抽取式要点」（从中文摘要切句），只是质量机械些。
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
         run: node scripts/fetch_news.mjs
 
       # 归档提交失败不应阻断部署：站点当天照常更新，只是少存一天归档
@@ -58,7 +67,7 @@ jobs:
           git config user.name "ai-horizon-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B main
-          git add -f data/news-latest.json data/archive data/archive-index.json data/digest data/digests.json data/companies.json data/profiles.json data/i18n-cache.json
+          git add -f data/news-latest.json data/archive data/archive-index.json data/digest data/digests.json data/companies.json data/profiles.json data/i18n-cache.json data/summary-cache.json
           if git diff --cached --quiet; then
             echo "本日数据无变化，跳过提交"
             exit 0

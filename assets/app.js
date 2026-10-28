@@ -495,10 +495,20 @@ function cardHTML(it, idx) {
 
   const plain = it.plain
     ? `<div class="plain"><span class="lb">白话解读</span>${esc(it.plain)}</div>` : '';
-  const why = it.why
-    ? `<div class="why"><span class="lb">为什么重要</span>${esc(it.why)}</div>` : '';
 
-  const showSummary = !compact && it.summary;
+  // 要点：LLM 生成（src=llm:*）或抽取兜底（src=fallback）；有要点时摘要段落让位，避免重复
+  const tk = it.takeaways || null;
+  const tkPoints = tk && Array.isArray(tk.points) ? tk.points : [];
+  const pointsBlock = tkPoints.length
+    ? `<div class="points" title="${tk.src === 'fallback' ? '从摘要抽取的要点' : 'AI 生成的要点，仅供参考，以原文为准'}">
+        <div class="pts-hd">📌 要点${tk.src === 'fallback' ? '<i class="pts-src">抽取</i>' : '<i class="pts-src ai">AI</i>'}</div>
+        <ul>${tkPoints.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>
+      </div>` : '';
+  const whyShow = it.why || (tk && tk.why) || '';
+  const why = whyShow
+    ? `<div class="why"><span class="lb">为什么重要</span>${esc(whyShow)}</div>` : '';
+
+  const showSummary = !compact && it.summary && !tkPoints.length;
 
   // 时间：源没给日期时只按链接里的年月估算，别显示成一个假的具体时间；超过一周的标「较旧」
   const isMonthPrec = it.datePrecision === 'month';
@@ -531,6 +541,7 @@ function cardHTML(it, idx) {
     ${enBlock}
     ${origBlock}
     ${plain}
+    ${pointsBlock}
     ${why}
     ${showSummary ? `<p class="summary">${esc(i18n.zhSummary || it.summary)}</p>` : ''}
     ${compact ? '' : `<div class="tags">${topics}${dif}${ents}${gls}

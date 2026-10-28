@@ -23,6 +23,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { Translator, buildI18n } from './translate.mjs';
+import { SummaryCache, attachTakeaways, llmConfig } from './summarize.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -1298,6 +1299,31 @@ async function attachTranslations(items, date) {
 }
 
 /**
+ * 每条新闻要点（LLM 生成，可选）：LLM 端点没配或调用失败时回落抽取式要点，绝不断更。
+ * - 结果进缓存跨天复用，只生成新增；按重要度顺序生成，预算不足先保重要的
+ */
+const SUMMARY_CACHE = path.join(DATA, 'summary-cache.json');
+
+async function attachNewsTakeaways(items, date) {
+  if (process.env.SUMMARY_OFF === '1') return { need: 0, done: 0, off: true };
+  const cfg = llmConfig();
+  const cache = new SummaryCache(SUMMARY_CACHE);
+  try {
+    const stat = await attachTakeaways(items, { cache });
+    cache.save();
+    console.log(
+      `  📌 要点：需 ${stat.need} 条 → 完成 ${stat.done} 条` +
+        `（LLM ${stat.llm} · 兜底 ${stat.fallback} · 缓存 ${stat.cached}）· 用时 ${stat.secs}s` +
+        (cfg.ok ? '' : ' · ⚠ 未配置 LLM（LLM_BASE_URL/API_KEY/MODEL），全部走抽取兜底')
+    );
+    return stat;
+  } catch (e) {
+    console.warn('  ⚠ 要点层异常（不影响出刊）：', e.message);
+    return { need: 0, done: 0, error: String((e && e.message) || e) };
+  }
+}
+
+/**
  * 策展 + 落盘：去重 → 分类打分 → 区域配平（新鲜优先）→ 写 raw/归档/最新/每日总结。
  * 独立成函数，是为了让「用历史 raw 重跑同一条管线」成为可能（--rebuild-from-raw）。
  */
@@ -1441,6 +1467,15 @@ async function curateDay({ items: rawItems, regions, sourceTotal, failures = [],
     i18n = { total: 0, done: 0, error: String((e && e.message) || e) };
   }
 
+  // 每条新闻要点（LLM，可选）：没配端点就回落抽取式，绝不阻断出刊
+  let takeaways = null;
+  try {
+    takeaways = await attachNewsTakeaways(curated, date);
+  } catch (e) {
+    console.warn('  ⚠ 要点层异常（不影响出刊）：', e.message);
+    takeaways = { need: 0, done: 0, error: String((e && e.message) || e) };
+  }
+
   const fullPayload = { ...base, curated: false, items };
   const curatedPayload = {
     ...base,
@@ -1457,6 +1492,13 @@ async function curateDay({ items: rawItems, regions, sourceTotal, failures = [],
         need: (i18n && i18n.total) || 0,
         done: (i18n && i18n.done) || 0,
         pending: (i18n && i18n.pending) || 0,
+      },
+      // 要点覆盖率：LLM 生成的条数与兜底条数，前端据此提示
+      takeaways: {
+        need: (takeaways && takeaways.need) || 0,
+        done: (takeaways && takeaways.done) || 0,
+        llm: (takeaways && takeaways.llm) || 0,
+        fallback: (takeaways && takeaways.fallback) || 0,
       },
     },
     items: curated,
@@ -1476,7 +1518,7 @@ async function curateDay({ items: rawItems, regions, sourceTotal, failures = [],
   // 每日剖析（规则层）：同样由 CI 每天产出，公司每天自动轮换
   const profile = saveDailyProfile(buildDailyProfile({ date, curated, regions }));
 
-  return { date, items, curated, freshness, byRegion, digest, profile, i18n };
+  return { date, items, curated, freshness, byRegion, digest, profile, i18n, takeaways };
 }
 
 /** 按归档重建每日剖析（升序处理，保证「近 N 天不重复」的轮换顺序正确） */

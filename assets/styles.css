@@ -320,6 +320,33 @@ html[data-theme="dark"] .mini.on { background: #3b2f14; border-color: #7a5f21; c
 }
 .why .lb { font-size: 11px; font-weight: 700; color: var(--accent); display: block; margin-bottom: 2px; letter-spacing: .3px; }
 
+/* ---- 每条新闻要点（LLM 生成 / 抽取兜底） ---- */
+.points {
+  background: var(--surface-3); border-left: 3px solid var(--brand);
+  border-radius: 0 9px 9px 0; padding: 9px 12px; margin: 9px 0;
+}
+.points .pts-hd {
+  font-size: 11px; font-weight: 700; color: var(--brand);
+  letter-spacing: .3px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;
+}
+.points .pts-src {
+  font-style: normal; font-size: 10px; font-weight: 600;
+  padding: 0 5px; border-radius: 5px; line-height: 16px;
+  background: color-mix(in srgb, var(--brand) 14%, transparent); color: var(--brand);
+}
+.points .pts-src.ai {
+  background: color-mix(in srgb, var(--accent) 16%, transparent); color: var(--accent);
+}
+.points ul { margin: 0; padding: 0; list-style: none; }
+.points li {
+  font-size: 13.5px; color: var(--text); line-height: 1.62;
+  padding: 2px 0 2px 15px; position: relative;
+}
+.points li::before {
+  content: ''; position: absolute; left: 2px; top: 10px;
+  width: 5px; height: 5px; border-radius: 50%; background: var(--brand); opacity: .55;
+}
+
 .summary { font-size: 13px; color: var(--muted); margin: 8px 0 0; line-height: 1.66; }
 .card.expanded .summary { color: var(--text-2); }
 
