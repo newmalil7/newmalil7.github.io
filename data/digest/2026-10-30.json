@@ -1,0 +1,689 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-10-30",
+ "generatedAt": "2026-10-30T06:33:36.252Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 409,
+  "published": 158,
+  "newCount": 127,
+  "repeatCount": 31,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 14,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 25,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 120,
+  "withinFresh": 136,
+  "freshHours": 72,
+  "monthPrecision": 16,
+  "undated": 0,
+  "staleDropped": 30,
+  "newestAt": "2026-10-30T12:47:16.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 48
+  },
+  {
+   "name": "产品与应用",
+   "n": 43
+  },
+  {
+   "name": "产业与生态",
+   "n": 34
+  },
+  {
+   "name": "模型与能力",
+   "n": 22
+  },
+  {
+   "name": "算力与基建",
+   "n": 18
+  },
+  {
+   "name": "政策与治理",
+   "n": 11
+  }
+ ],
+ "entities": [
+  {
+   "name": "OpenAI",
+   "n": 8
+  },
+  {
+   "name": "Google",
+   "n": 8
+  },
+  {
+   "name": "Anthropic",
+   "n": 7
+  },
+  {
+   "name": "NVIDIA",
+   "n": 5
+  },
+  {
+   "name": "Arm",
+   "n": 5
+  },
+  {
+   "name": "Amazon",
+   "n": 5
+  },
+  {
+   "name": "Hugging Face",
+   "n": 4
+  },
+  {
+   "name": "腾讯",
+   "n": 4
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "f3bd7e5cf615c759",
+   "title": "Anthropic上市前夜，大模型生意如何算账？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8186936.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-30T04:28:06.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "firstSeen": "2026-10-30",
+   "isNew": true
+  },
+  {
+   "id": "90efc45a80c5f18d",
+   "title": "Anthropic赌万亿未来，智谱算眼前毛利，谁能活过AI下半场？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8186459.html",
+   "importance": 97,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-30T02:33:47.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "Anthropic",
+    "智谱AI"
+   ],
+   "firstSeen": "2026-10-30",
+   "isNew": true
+  },
+  {
+   "id": "67be8875f190de1e",
+   "title": "Nvidia weighs credit guarantees for Anthropic data center",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/nvidia-weighs-credit-guarantees-anthropic-data-center",
+   "importance": 94,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-30T02:17:52.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "Anthropic",
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-10-30",
+   "isNew": true
+  },
+  {
+   "id": "5a15965816c23c64",
+   "title": "8点1氪丨外交部回应三丽鸥取消Vivant联名；科创50指数创新低；上海一宜家餐厅开始实行“消费入座”，周二、周四有保安劝离",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4047618190883331?f=rss",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-30T00:12:47.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "NVIDIA",
+    "Hugging Face",
+    "宇树科技"
+   ],
+   "firstSeen": "2026-10-30",
+   "isNew": true
+  },
+  {
+   "id": "ce1eb203a158066f",
+   "title": "预制数据中心，突然火了",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8186452.html",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-30T03:48:31.000Z",
+   "topics": [
+    "算力与基建",
+    "产品与应用"
+   ],
+   "entities": [
+    "华为"
+   ],
+   "firstSeen": "2026-10-30",
+   "isNew": true
+  },
+  {
+   "id": "43202294050f5512",
+   "title": "Canadian AI firm Cohere targets $5b in series E funding",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/canadian-ai-firm-cohere-targets-5b-series-funding",
+   "importance": 91,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-30T00:40:24.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "Cohere"
+   ],
+   "firstSeen": "2026-10-30",
+   "isNew": true
+  },
+  {
+   "id": "79c7a3e35e7b2a1a",
+   "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+   "source": "InfoQ 中国",
+   "region": "CN",
+   "url": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-30T10:04:10.000Z",
+   "topics": [
+    "产业与生态"
+   ],
+   "entities": [
+    "腾讯",
+    "字节跳动"
+   ],
+   "firstSeen": "2026-10-30",
+   "isNew": true
+  },
+  {
+   "id": "becac84f6d2794e4",
+   "title": "Qoder背后，阿里云的应用难题",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8186917.html",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-30T03:48:21.000Z",
+   "topics": [
+    "产品与应用",
+    "资本与市场"
+   ],
+   "entities": [
+    "阿里巴巴"
+   ],
+   "firstSeen": "2026-10-30",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "f3bd7e5cf615c759",
+     "title": "Anthropic上市前夜，大模型生意如何算账？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8186936.html",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-30T04:28:06.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "90efc45a80c5f18d",
+     "title": "Anthropic赌万亿未来，智谱算眼前毛利，谁能活过AI下半场？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8186459.html",
+     "importance": 97,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-30T02:33:47.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "Anthropic",
+      "智谱AI"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "5a15965816c23c64",
+     "title": "8点1氪丨外交部回应三丽鸥取消Vivant联名；科创50指数创新低；上海一宜家餐厅开始实行“消费入座”，周二、周四有保安劝离",
+     "source": "36氪",
+     "region": "CN",
+     "url": "https://36kr.com/p/4047618190883331?f=rss",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-30T00:12:47.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "NVIDIA",
+      "Hugging Face",
+      "宇树科技"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "67be8875f190de1e",
+     "title": "Nvidia weighs credit guarantees for Anthropic data center",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/nvidia-weighs-credit-guarantees-anthropic-data-center",
+     "importance": 94,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-30T02:17:52.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Anthropic",
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "43202294050f5512",
+     "title": "Canadian AI firm Cohere targets $5b in series E funding",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/canadian-ai-firm-cohere-targets-5b-series-funding",
+     "importance": 91,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-30T00:40:24.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Cohere"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "4e1e3c21b87f1b8a",
+     "title": "OpenAI updates GPT behavior rules around five core values",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/openai-updates-gpt-behavior-rules-core-values",
+     "importance": 90,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-30T02:20:11.000Z",
+     "topics": [
+      "模型与能力",
+      "政策与治理"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "3f79a6a184a5b654",
+     "title": "Morocco's ABA Life secures $40 million investment from Admaius Capital Partners",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/morocco-aba-life-secures-40-million-investment-admaius-capital-partners",
+     "importance": 67,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "8ce6f14c0c5510c2",
+     "title": "Energy sector AI returns grow as infrastructure pressures mount, says ADNOC, XRG and Microsoft research",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/energy-sector-ai-returns-grow-as-infrastructure-pressures-mount-says-adnoc-xrg-and-microsoft-research/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-29T15:56:18.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [
+      "Microsoft"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "8a83b196ca69ccbe",
+     "title": "SUSE advances multi-Linux management and agentic AI capabilities",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/industry/technology/suse-advances-multi-linux-management-and-agentic-ai-capabilities/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-29T08:33:29.000Z",
+     "topics": [
+      "算力与基建",
+      "政策与治理"
+     ],
+     "entities": [
+      "Oracle"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 14,
+   "top": [
+    {
+     "id": "0382df417a50a8f4",
+     "title": "AI 전력 폭증의 새 대안, 왜 ‘반도체 변압기’인가",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/ai-%ec%a0%84%eb%a0%a5-%ed%8f%ad%ec%a6%9d%ec%9d%98-%ec%83%88-%eb%8c%80%ec%95%88-%ec%99%9c-%eb%b0%98%eb%8f%84%ec%b2%b4-%eb%b3%80%ec%95%95%ea%b8%b0%ec%9d%b8%ea%b0%80/",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-29T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "6ff9c7f382f98fff",
+     "title": "LG CNS, 3분기 매출 1.7조원…AI·클라우드 성장 견인",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216831",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-30T12:47:16.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-29",
+     "isNew": false
+    },
+    {
+     "id": "bb2407bd3f364bc7",
+     "title": "앤트로픽은 과연 어떤 기업인가…IPO가 드러낼 실체",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ec%95%a4%ed%8a%b8%eb%a1%9c%ed%94%bd%ec%9d%b4-%eb%a7%8c%eb%93%a4%ec%96%b4%eb%82%b8-%ec%8b%a0%ed%99%94-%ea%b7%b8-%eb%92%a4%ec%97%90-%ec%88%a8%ec%9d%80-%ec%a7%84%ec%8b%a4/",
+     "importance": 43,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-27T21:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-29",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "d41e7a971377195b",
+     "title": "Talent tops European AI startups’ concerns as funding pressures mount",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/talent-tops-european-ai-startups-concerns-as-funding-pressures-mount/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-30T05:00:59.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "2b539de7a29a6a94",
+     "title": "Why Creandum and USV co-led a $40m seed into Machenta, a robotics lab with no product",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/creandum-usv-40m-seed-uk-robotics-lab-no-product/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-30T05:00:27.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "044e29578292f13f",
+     "title": "Bots bouncers: the startups deciding what AI agents can do",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/the-european-startups-making-agents-secure/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-30T05:00:04.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "cd4cca5995e1de96",
+     "title": "We urgently need to monitor AI agents’ actions in real time",
+     "source": "MIT Technology Review",
+     "region": "NA",
+     "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+     "importance": 88,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-29T10:11:12.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Hugging Face"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "2b7294ba29c9a93d",
+     "title": "Meta quietly launches an AI fashion app called Style Sketch",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-29T19:14:36.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Meta"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "5c20b560dd4eeca6",
+     "title": "Wabi reels in $55M for its consumer-focused AI assistant",
+     "source": "SiliconANGLE",
+     "region": "NA",
+     "url": "https://siliconangle.com/2026/10/29/wabi-reels-in-55m-for-its-consumer-focused-ai-assistant/",
+     "importance": 84,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-29T21:35:06.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "Amazon",
+      "Salesforce"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "ec3b4072ced29986",
+     "title": "ASIC probes brokers over the failed $44 billion Firmus float",
+     "source": "Startup Daily",
+     "region": "OTHER",
+     "url": "https://www.startupdaily.net/topic/asx/asic-probes-brokers-over-the-failed-44-billion-firmus-float/",
+     "importance": 73,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-30T01:19:48.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "723f64eb49eb32f9",
+     "title": "Bengaluru-based Inkle acquires Finally’s bookkeeping arm, expands team to 160",
+     "source": "YourStory",
+     "region": "OTHER",
+     "url": "https://yourstory.com/2026/10/cpa-firm-inkle-buys-finally-bookkeeping-arm-headcount-160",
+     "importance": 73,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-29T10:43:44.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    },
+    {
+     "id": "25c46e00e85d46fa",
+     "title": "MW4 Loadout Planning: Choosing Weapons and Prioritizing Unlocks",
+     "source": "Techloy",
+     "region": "OTHER",
+     "url": "https://www.techloy.com/mw4-loadout-planning-choosing-weapons-and-prioritizing-unlocks/",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-30T06:10:15.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-30",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "10 月 30 日，共从 25 个信息源抓取 409 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 120 条发布于 24 小时内。其中 127 条是此前未出现过的新增内容，另有 31 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」48 条、「产品与应用」43 条。值得优先关注的几条：「Anthropic上市前夜，大模型生意如何算账？」（钛媒体）、「Anthropic赌万亿未来，智谱算眼前毛利，谁能活过AI下半场？」（钛媒体）、「8点1氪丨外交部回应三丽鸥取消Vivant联名；科创50指数创新低；上海一宜家餐厅开始实行“消费入座”，周二、周四有保安劝离」（36氪）。"
+}
