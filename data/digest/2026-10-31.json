@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-10-31",
- "generatedAt": "2026-10-31T06:23:26.840Z",
+ "generatedAt": "2026-10-31T10:16:31.687Z",
  "mode": "rule",
  "counts": {
-  "crawled": 438,
+  "crawled": 439,
   "published": 158,
-  "newCount": 104,
-  "repeatCount": 54,
+  "newCount": 107,
+  "repeatCount": 51,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,18 +22,18 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 114,
+  "within24h": 107,
   "withinFresh": 137,
   "freshHours": 72,
   "monthPrecision": 15,
   "undated": 0,
   "staleDropped": 23,
-  "newestAt": "2026-10-31T10:48:02.000Z"
+  "newestAt": "2026-10-31T18:05:26.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 54
+   "n": 52
   },
   {
    "name": "产品与应用",
@@ -41,32 +41,32 @@
   },
   {
    "name": "产业与生态",
-   "n": 26
+   "n": 24
   },
   {
    "name": "算力与基建",
-   "n": 18
-  },
-  {
-   "name": "政策与治理",
-   "n": 11
+   "n": 19
   },
   {
    "name": "模型与能力",
+   "n": 11
+  },
+  {
+   "name": "政策与治理",
    "n": 9
   }
  ],
  "entities": [
   {
-   "name": "Anthropic",
-   "n": 10
-  },
-  {
-   "name": "Apple",
+   "name": "OpenAI",
    "n": 9
   },
   {
-   "name": "OpenAI",
+   "name": "Apple",
+   "n": 8
+  },
+  {
+   "name": "Anthropic",
    "n": 8
   },
   {
@@ -75,19 +75,19 @@
   },
   {
    "name": "NVIDIA",
-   "n": 4
-  },
-  {
-   "name": "阿里巴巴",
-   "n": 4
+   "n": 5
   },
   {
    "name": "Google",
-   "n": 4
+   "n": 5
   },
   {
    "name": "Microsoft",
    "n": 4
+  },
+  {
+   "name": "阿里巴巴",
+   "n": 3
   }
  ],
  "topOverall": [
@@ -108,27 +108,6 @@
     "NVIDIA",
     "Scale AI",
     "Baseten"
-   ],
-   "firstSeen": "2026-10-31",
-   "isNew": true
-  },
-  {
-   "id": "5e9e85f9f49769ac",
-   "title": "Apple, Alibaba to roll out Qwen-powered AI features in China",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/apple-alibaba-roll-qwenpowered-ai-features-china",
-   "importance": 99,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-31T03:54:51.000Z",
-   "topics": [
-    "模型与能力",
-    "产品与应用"
-   ],
-   "entities": [
-    "Apple",
-    "阿里巴巴",
-    "通义千问"
    ],
    "firstSeen": "2026-10-31",
    "isNew": true
@@ -177,21 +156,22 @@
    "isNew": true
   },
   {
-   "id": "85e0e374db9a097b",
-   "title": "苹果和阿里巴巴达成合作，千问集成到Apple智能",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4049121165556227?f=rss",
-   "importance": 96,
+   "id": "5e9e85f9f49769ac",
+   "title": "Apple, Alibaba to roll out Qwen-powered AI features in China",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/apple-alibaba-roll-qwenpowered-ai-features-china",
+   "importance": 95,
    "difficulty": "入门",
-   "publishedAt": "2026-10-31T01:39:03.000Z",
+   "publishedAt": "2026-10-31T03:54:51.000Z",
    "topics": [
-    "产品与应用",
-    "产业与生态"
+    "模型与能力",
+    "产品与应用"
    ],
    "entities": [
     "Apple",
-    "阿里巴巴"
+    "阿里巴巴",
+    "通义千问"
    ],
    "firstSeen": "2026-10-31",
    "isNew": true
@@ -202,7 +182,7 @@
    "source": "爱范儿",
    "region": "CN",
    "url": "https://www.ifanr.com/1687012?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "importance": 94,
+   "importance": 90,
    "difficulty": "入门",
    "publishedAt": "2026-10-31T01:37:05.000Z",
    "topics": [
@@ -215,38 +195,60 @@
    "isNew": true
   },
   {
-   "id": "75cb308860037eaa",
-   "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-   "importance": 91,
+   "id": "e804939cd6b2abd6",
+   "title": "早报｜iPhone国行AI官宣！千问接入Siri/DeepSeek千亿融资曝光/于东来建议支持「消费入座」",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1686979?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 90,
    "difficulty": "入门",
-   "publishedAt": "2026-10-30T21:52:03.000Z",
+   "publishedAt": "2026-10-31T00:14:24.000Z",
    "topics": [
+    "模型与能力",
     "资本与市场"
    ],
    "entities": [
-    "Anthropic"
+    "OpenAI",
+    "腾讯",
+    "DeepSeek"
    ],
    "firstSeen": "2026-10-31",
    "isNew": true
   },
   {
-   "id": "b40571cd5abdba82",
-   "title": "市值回升1180亿后，王兴兴杀入VC",
-   "source": "钛媒体",
+   "id": "bb42e2a8b556803b",
+   "title": "三星高管会见OpenAI首席执行官，探讨人工智能转型",
+   "source": "36氪",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8187851.html",
-   "importance": 90,
-   "difficulty": "入门",
-   "publishedAt": "2026-10-31T02:55:00.000Z",
+   "url": "https://36kr.com/newsflashes/4049541789750153?f=rss",
+   "importance": 89,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-31T08:46:55.000Z",
    "topics": [
-    "资本与市场",
-    "产品与应用"
+    "产品与应用",
+    "产业与生态"
    ],
    "entities": [
-    "宇树科技"
+    "OpenAI",
+    "三星"
+   ],
+   "firstSeen": "2026-10-31",
+   "isNew": true
+  },
+  {
+   "id": "f768d26425b54069",
+   "title": "OpenAI奥特曼谈内存短缺：全球DRAM应优先供给数据中心，闲置在玩家PC里是浪费",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4049538395739272?f=rss",
+   "importance": 87,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-31T08:43:28.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "OpenAI"
    ],
    "firstSeen": "2026-10-31",
    "isNew": true
@@ -304,21 +306,19 @@
      "isNew": true
     },
     {
-     "id": "85e0e374db9a097b",
-     "title": "苹果和阿里巴巴达成合作，千问集成到Apple智能",
-     "source": "36氪",
+     "id": "c4428212987d1fc4",
+     "title": "刚刚，国行 Apple 智能官宣，但满血 SiriAI 还得等",
+     "source": "爱范儿",
      "region": "CN",
-     "url": "https://36kr.com/newsflashes/4049121165556227?f=rss",
-     "importance": 96,
+     "url": "https://www.ifanr.com/1687012?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 90,
      "difficulty": "入门",
-     "publishedAt": "2026-10-31T01:39:03.000Z",
+     "publishedAt": "2026-10-31T01:37:05.000Z",
      "topics": [
-      "产品与应用",
-      "产业与生态"
+      "产品与应用"
      ],
      "entities": [
-      "Apple",
-      "阿里巴巴"
+      "Apple"
      ],
      "firstSeen": "2026-10-31",
      "isNew": true
@@ -359,7 +359,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/apple-alibaba-roll-qwenpowered-ai-features-china",
-     "importance": 99,
+     "importance": 95,
      "difficulty": "入门",
      "publishedAt": "2026-10-31T03:54:51.000Z",
      "topics": [
@@ -375,19 +375,19 @@
      "isNew": true
     },
     {
-     "id": "0674f5df8fec93a7",
-     "title": "Anthropic may miss investment-grade rating after IPO: report",
+     "id": "825f422ac742f268",
+     "title": "OpenAI cuts fundraising target to $20b as valuation falls",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/anthropic-may-miss-investment-rating-ipo",
-     "importance": 88,
+     "url": "https://www.techinasia.com/news/openai-cuts-fundraising-target-20b-valuation-falls",
+     "importance": 84,
      "difficulty": "进阶",
-     "publishedAt": "2026-10-31T02:49:11.000Z",
+     "publishedAt": "2026-10-31T04:42:16.000Z",
      "topics": [
       "资本与市场"
      ],
      "entities": [
-      "Anthropic"
+      "OpenAI"
      ],
      "firstSeen": "2026-10-31",
      "isNew": true
@@ -465,34 +465,32 @@
    "count": 14,
    "top": [
     {
-     "id": "867a6a857e10302b",
-     "title": "엔비디아, 엔스케일 자금난에 지원 검토…앤트로픽 60조 데이터센터 신용 보증",
-     "source": "AI타임스",
-     "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=216838",
-     "importance": 62,
-     "difficulty": "进阶",
-     "publishedAt": "2026-10-31T10:48:02.000Z",
-     "topics": [
-      "算力与基建"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-30",
-     "isNew": false
-    },
-    {
      "id": "8f75db25e4b7b09c",
      "title": "영구동토층에 대해 알아야 할 세 가지",
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ec%98%81%ea%b5%ac%eb%8f%99%ed%86%a0%ec%b8%b5%ec%97%90-%eb%8c%80%ed%95%b4-%ec%95%8c%ec%95%84%ec%95%bc-%ed%95%a0-%ec%84%b8-%ea%b0%80%ec%a7%80/",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-10-30T21:00:00.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-10-31",
      "isNew": true
+    },
+    {
+     "id": "bb9466d81f4f0acd",
+     "title": "구글, 우주 데이터센터 위성에서 첫 AI 추론 성공…시 생성해 지구 전송",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216837",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-31T18:05:26.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-30",
+     "isNew": false
     },
     {
      "id": "0382df417a50a8f4",
@@ -582,7 +580,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-     "importance": 91,
+     "importance": 86,
      "difficulty": "入门",
      "publishedAt": "2026-10-30T21:52:03.000Z",
      "topics": [
@@ -600,7 +598,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-     "importance": 88,
+     "importance": 84,
      "difficulty": "进阶",
      "publishedAt": "2026-10-31T01:20:05.000Z",
      "topics": [
@@ -613,23 +611,19 @@
      "isNew": true
     },
     {
-     "id": "4d10af9bf1a8a46a",
-     "title": "The biggest names in AI are backing a new way to opt out of scraping",
-     "source": "The Verge AI",
+     "id": "47011b0c60bc83f7",
+     "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+     "source": "TechCrunch AI",
      "region": "NA",
-     "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
-     "importance": 83,
-     "difficulty": "高级",
-     "publishedAt": "2026-10-30T20:26:10.000Z",
+     "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-30T22:56:13.000Z",
      "topics": [
+      "产品与应用",
       "政策与治理"
      ],
-     "entities": [
-      "OpenAI",
-      "Anthropic",
-      "Google",
-      "Microsoft"
-     ],
+     "entities": [],
      "firstSeen": "2026-10-31",
      "isNew": true
     }
@@ -643,12 +637,44 @@
    "count": 24,
    "top": [
     {
+     "id": "e6f276a4a9ea82c2",
+     "title": "Exclusive: D2C Skincare Brand Numour In Talks To Raise $3.1 Mn From Sharrp Ventures",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/numour-in-talks-to-raise-3-1-mn-from-sharrp-ventures/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-31T08:52:47.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-31",
+     "isNew": true
+    },
+    {
+     "id": "78158160464979f3",
+     "title": "Walmart Probes Flipkart Employees Over Alleged ₹150 Cr Kickbacks: Report",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/walmart-probes-flipkart-employees-over-alleged-%e2%82%b9150-cr-kickbacks-report/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-31T08:26:18.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-31",
+     "isNew": true
+    },
+    {
      "id": "9db261aef9a9f05c",
      "title": "Exclusive: upliance.ai In Talks To Raise Up To $4 Mn For R&D, Global Expansion",
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/buzz/exclusive-upliance-ai-in-talks-to-raise-up-to-4-mn-for-rd-global-expansion-2/",
-     "importance": 85,
+     "importance": 81,
      "difficulty": "入门",
      "publishedAt": "2026-10-31T02:30:48.000Z",
      "topics": [
@@ -657,42 +683,9 @@
      "entities": [],
      "firstSeen": "2026-10-31",
      "isNew": true
-    },
-    {
-     "id": "d6f072bac5a812bf",
-     "title": "From To Cent to Matiks — Indian Startups Raised Over $132 Mn This Week",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/from-to-cent-to-matiks-indian-startups-raised-over-132-mn-this-week/",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-31T03:30:12.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-31",
-     "isNew": true
-    },
-    {
-     "id": "1595ee672e1bec96",
-     "title": "[Update] CCI Clears Navi’s $100 Mn Investment From Prosus",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/ipo-bound-navi-raises-100-mn-from-prosus-in-maiden-institutional-round/",
-     "importance": 80,
-     "difficulty": "入门",
-     "publishedAt": "2026-10-30T14:25:27.000Z",
-     "topics": [
-      "资本与市场",
-      "产品与应用"
-     ],
-     "entities": [],
-     "firstSeen": "2026-10-31",
-     "isNew": true
     }
    ]
   }
  ],
- "overview": "10 月 31 日，共从 26 个信息源抓取 438 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 114 条发布于 24 小时内。其中 104 条是此前未出现过的新增内容，另有 54 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」54 条、「产品与应用」43 条。值得优先关注的几条：「苹果官宣 Apple 智能接入阿里千问；DeepSeek 完成第二轮 1055 亿元融资，估值达 6155 亿元；英特尔股价开盘跌超 30%｜极客早知道」（极客公园）、「阿里巴巴与 Apple 达成合作，将千问集成至 Apple 智能」（雷峰网）、「苹果和阿里巴巴达成合作，千问集成到Apple智能」（36氪）。"
+ "overview": "10 月 31 日，共从 26 个信息源抓取 439 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 107 条发布于 24 小时内。其中 107 条是此前未出现过的新增内容，另有 51 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」52 条、「产品与应用」43 条。值得优先关注的几条：「苹果官宣 Apple 智能接入阿里千问；DeepSeek 完成第二轮 1055 亿元融资，估值达 6155 亿元；英特尔股价开盘跌超 30%｜极客早知道」（极客公园）、「阿里巴巴与 Apple 达成合作，将千问集成至 Apple 智能」（雷峰网）、「刚刚，国行 Apple 智能官宣，但满血 SiriAI 还得等」（爱范儿）。"
 }
