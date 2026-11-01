@@ -1,0 +1,694 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-11-01",
+ "generatedAt": "2026-11-01T06:55:45.825Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 439,
+  "published": 158,
+  "newCount": 68,
+  "repeatCount": 90,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 14,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 26,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 62,
+  "withinFresh": 127,
+  "freshHours": 72,
+  "monthPrecision": 20,
+  "undated": 0,
+  "staleDropped": 21,
+  "newestAt": "2026-11-01T12:16:28.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 44
+  },
+  {
+   "name": "产品与应用",
+   "n": 35
+  },
+  {
+   "name": "产业与生态",
+   "n": 28
+  },
+  {
+   "name": "算力与基建",
+   "n": 16
+  },
+  {
+   "name": "政策与治理",
+   "n": 14
+  },
+  {
+   "name": "模型与能力",
+   "n": 11
+  }
+ ],
+ "entities": [
+  {
+   "name": "OpenAI",
+   "n": 7
+  },
+  {
+   "name": "Anthropic",
+   "n": 5
+  },
+  {
+   "name": "Google",
+   "n": 5
+  },
+  {
+   "name": "NVIDIA",
+   "n": 4
+  },
+  {
+   "name": "DeepSeek",
+   "n": 4
+  },
+  {
+   "name": "Apple",
+   "n": 3
+  },
+  {
+   "name": "Meta",
+   "n": 3
+  },
+  {
+   "name": "Amazon",
+   "n": 3
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "132aa310a062d0a8",
+   "title": "【数智周报】张一鸣以6700亿元登顶中国首富，刷新中国首富财富纪录；阿里巴巴与Apple达成合作，将千问集成至Apple智能；Anthropic提交IPO注册文件，拟以“ANT”为代码在纳斯达克上市",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8188997.html",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-01T03:32:27.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "Anthropic",
+    "Apple",
+    "NVIDIA",
+    "阿里巴巴"
+   ],
+   "firstSeen": "2026-11-01",
+   "isNew": true
+  },
+  {
+   "id": "badec8f4acd005c8",
+   "title": "DeepSeek 公布 Super Agent 架构；苹果超越英伟达，重回市值第一；传 Meta 与傅利叶打造 Muse 机器人",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/373243",
+   "importance": 95,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-01T00:29:48.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "Meta",
+    "NVIDIA",
+    "DeepSeek",
+    "傅利叶智能"
+   ],
+   "firstSeen": "2026-11-01",
+   "isNew": true
+  },
+  {
+   "id": "ee22451df64fb654",
+   "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/373244",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-01T01:41:45.000Z",
+   "topics": [
+    "产品与应用",
+    "资本与市场"
+   ],
+   "entities": [
+    "Meta"
+   ],
+   "firstSeen": "2026-11-01",
+   "isNew": true
+  },
+  {
+   "id": "9371864627b6b9fd",
+   "title": "DeepSeek，怎么就变成了一条「大肥鱼」",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/373245",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-01T01:46:08.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-11-01",
+   "isNew": true
+  },
+  {
+   "id": "3c781aba2071c2fc",
+   "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-10-31T21:17:03.000Z",
+   "topics": [
+    "政策与治理",
+    "算力与基建"
+   ],
+   "entities": [
+    "xAI"
+   ],
+   "firstSeen": "2026-11-01",
+   "isNew": true
+  },
+  {
+   "id": "e93bbd76bd2752b2",
+   "title": "DeepSeek builds ‘super-agent’ for autonomous coding",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/deepseek-builds-superagent-autonomous-coding",
+   "importance": 84,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-01T01:39:50.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-11-01",
+   "isNew": true
+  },
+  {
+   "id": "751a1dfdbc80ba54",
+   "title": "前三季度净利腰斩，出让动力子公司控制权的欣旺达叫停港股IPO",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8188862.html",
+   "importance": 83,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-01T02:57:20.000Z",
+   "topics": [
+    "资本与市场",
+    "产业与生态"
+   ],
+   "entities": [
+    "小米"
+   ],
+   "firstSeen": "2026-11-01",
+   "isNew": true
+  },
+  {
+   "id": "77dc5bda2367f981",
+   "title": "OpenAI reportedly lowers funding target for new round",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+   "importance": 78,
+   "difficulty": "入门",
+   "publishedAt": "2026-10-31T16:12:55.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "firstSeen": "2026-11-01",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "132aa310a062d0a8",
+     "title": "【数智周报】张一鸣以6700亿元登顶中国首富，刷新中国首富财富纪录；阿里巴巴与Apple达成合作，将千问集成至Apple智能；Anthropic提交IPO注册文件，拟以“ANT”为代码在纳斯达克上市",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8188997.html",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-01T03:32:27.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "Anthropic",
+      "Apple",
+      "NVIDIA",
+      "阿里巴巴"
+     ],
+     "firstSeen": "2026-11-01",
+     "isNew": true
+    },
+    {
+     "id": "badec8f4acd005c8",
+     "title": "DeepSeek 公布 Super Agent 架构；苹果超越英伟达，重回市值第一；传 Meta 与傅利叶打造 Muse 机器人",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/373243",
+     "importance": 95,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-01T00:29:48.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "Meta",
+      "NVIDIA",
+      "DeepSeek",
+      "傅利叶智能"
+     ],
+     "firstSeen": "2026-11-01",
+     "isNew": true
+    },
+    {
+     "id": "ee22451df64fb654",
+     "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/373244",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T01:41:45.000Z",
+     "topics": [
+      "产品与应用",
+      "资本与市场"
+     ],
+     "entities": [
+      "Meta"
+     ],
+     "firstSeen": "2026-11-01",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "e93bbd76bd2752b2",
+     "title": "DeepSeek builds ‘super-agent’ for autonomous coding",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/deepseek-builds-superagent-autonomous-coding",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-01T01:39:50.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-11-01",
+     "isNew": true
+    },
+    {
+     "id": "56eb1aa35404fc44",
+     "title": "Reddit sinks 29% on Q4 outlook as Google AI cuts traffic",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/reddit-sinks-29-q4-outlook-google-ai-cuts-traffic",
+     "importance": 72,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-01T04:20:14.000Z",
+     "topics": [],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-11-01",
+     "isNew": true
+    },
+    {
+     "id": "2c63c0a600575c63",
+     "title": "US AI inference startup Baseten targets $30b valuation",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/ai-inference-startup-baseten-targets-30b-valuation",
+     "importance": 67,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-31T04:47:55.000Z",
+     "topics": [
+      "算力与基建",
+      "资本与市场"
+     ],
+     "entities": [
+      "NVIDIA",
+      "Scale AI",
+      "Baseten"
+     ],
+     "firstSeen": "2026-10-31",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "87dbf9fe9ca4835b",
+     "title": "theQA raises over $550,000 to scale AI-driven consumer research in Kuwait",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/theqa-raises-550000-scale-ai-driven-consumer-research-kuwait",
+     "importance": 58,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [
+      "Scale AI"
+     ],
+     "firstSeen": "2026-10-31",
+     "isNew": false
+    },
+    {
+     "id": "eb0129dc643c79b5",
+     "title": "YouTube allows in-video product sale for viewers in KSA, UAE and Egypt",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/youtube-allows-video-product-sale-viewers-ksa-uae-egypt",
+     "importance": 54,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "产品与应用",
+      "产业与生态"
+     ],
+     "entities": [
+      "Amazon"
+     ],
+     "firstSeen": "2026-10-31",
+     "isNew": false
+    },
+    {
+     "id": "7c311233424ee724",
+     "title": "INVE raises $300,000 from Outliers VC to scale eventtech platform across GCC",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "http://wamda.com/2026/10/inve-raises-300000-outliers-vc-scale-eventtech-platform-gcc",
+     "importance": 52,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-31",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 14,
+   "top": [
+    {
+     "id": "3df6d33dcf867ff1",
+     "title": "젠슨 황 주변 중국 스파이 의혹, 싱가포르·대만까지 번져",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216858",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-01T12:16:28.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-31",
+     "isNew": false
+    },
+    {
+     "id": "8f75db25e4b7b09c",
+     "title": "영구동토층에 대해 알아야 할 세 가지",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ec%98%81%ea%b5%ac%eb%8f%99%ed%86%a0%ec%b8%b5%ec%97%90-%eb%8c%80%ed%95%b4-%ec%95%8c%ec%95%84%ec%95%bc-%ed%95%a0-%ec%84%b8-%ea%b0%80%ec%a7%80/",
+     "importance": 33,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-30T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-10-31",
+     "isNew": false
+    },
+    {
+     "id": "bb2407bd3f364bc7",
+     "title": "앤트로픽은 과연 어떤 기업인가…IPO가 드러낼 실체",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ec%95%a4%ed%8a%b8%eb%a1%9c%ed%94%bd%ec%9d%b4-%eb%a7%8c%eb%93%a4%ec%96%b4%eb%82%b8-%ec%8b%a0%ed%99%94-%ea%b7%b8-%eb%92%a4%ec%97%90-%ec%88%a8%ec%9d%80-%ec%a7%84%ec%8b%a4/",
+     "importance": 30,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-27T21:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-31",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "6a0a74f490c1c677",
+     "title": "Exclusive: Fractile raises £540m in new Series C funding, filings show",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/exclusive-fractile-series-c/",
+     "importance": 46,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-29T13:51:26.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-31",
+     "isNew": false
+    },
+    {
+     "id": "2a6ec71f7a45203a",
+     "title": "Ex-EQT investor Doreen Huber joins Interface Capital with eye for cyber deals amid ‘extremely scary’ AI agent boom",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/eqt-doreen-huber-interface-capital-cyber-startups-scary-ai-agents/",
+     "importance": 45,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-30T10:45:43.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-10-31",
+     "isNew": false
+    },
+    {
+     "id": "70dce894503ebb9c",
+     "title": "Canada’s Cohere targets C$7bn Series E for its sovereign AI",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/start-ups/canadas-cohere-targets-c7bn-series-e-for-its-sovereign-ai",
+     "importance": 45,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-30T09:25:54.000Z",
+     "topics": [
+      "资本与市场",
+      "政策与治理"
+     ],
+     "entities": [
+      "Cohere"
+     ],
+     "firstSeen": "2026-10-31",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "3c781aba2071c2fc",
+     "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-31T21:17:03.000Z",
+     "topics": [
+      "政策与治理",
+      "算力与基建"
+     ],
+     "entities": [
+      "xAI"
+     ],
+     "firstSeen": "2026-11-01",
+     "isNew": true
+    },
+    {
+     "id": "77dc5bda2367f981",
+     "title": "OpenAI reportedly lowers funding target for new round",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-31T16:12:55.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-11-01",
+     "isNew": true
+    },
+    {
+     "id": "cd4cca5995e1de96",
+     "title": "We urgently need to monitor AI agents’ actions in real time",
+     "source": "MIT Technology Review",
+     "region": "NA",
+     "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+     "importance": 74,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-29T10:11:12.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Hugging Face"
+     ],
+     "firstSeen": "2026-11-01",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "df0358d312b3647d",
+     "title": "IPO-Bound StockGro’s FY26 Profit Jumps 3.3X YoY To ₹113 Cr, Revenue Doubles",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/ipo-bound-stockgros-fy26-profit-jumps-3-3x-yoy-to-%e2%82%b9113-cr-revenue-doubles/",
+     "importance": 77,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-31T16:20:30.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-01",
+     "isNew": true
+    },
+    {
+     "id": "d27604e8f74db0bb",
+     "title": "CapGrid Secures ₹50 Cr Funding To Deepen Its Manufacturing Play",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/capgrid-secures-%e2%82%b950-cr-funding-to-deepen-its-manufacturing-play/",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-31T13:46:37.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-01",
+     "isNew": true
+    },
+    {
+     "id": "6ef15a658f30e37d",
+     "title": "eMudhra Has Quit TLS. The Accountability Questions Haven’t",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/features/emudhra-has-quit-tls-the-accountability-questions-havent/",
+     "importance": 75,
+     "difficulty": "进阶",
+     "publishedAt": "2026-10-31T10:32:51.000Z",
+     "topics": [
+      "政策与治理"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-11-01",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "11 月 1 日，共从 26 个信息源抓取 439 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 62 条发布于 24 小时内。其中 68 条是此前未出现过的新增内容，另有 90 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」44 条、「产品与应用」35 条。值得优先关注的几条：「【数智周报】张一鸣以6700亿元登顶中国首富，刷新中国首富财富纪录；阿里巴巴与Apple达成合作，将千问集成至Apple智能；Anthropic提交IPO注册文件，拟以“ANT”为代码在纳斯达克上市」（钛媒体）、「DeepSeek 公布 Super Agent 架构；苹果超越英伟达，重回市值第一；传 Meta 与傅利叶打造 Muse 机器人」（极客公园）、「个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新」（极客公园）。"
+}
