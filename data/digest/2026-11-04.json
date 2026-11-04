@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-04",
- "generatedAt": "2026-11-04T07:02:05.650Z",
+ "generatedAt": "2026-11-04T11:58:31.820Z",
  "mode": "rule",
  "counts": {
-  "crawled": 436,
+  "crawled": 431,
   "published": 159,
-  "newCount": 133,
-  "repeatCount": 26,
+  "newCount": 140,
+  "repeatCount": 19,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,115 +22,93 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 122,
-  "withinFresh": 139,
+  "within24h": 123,
+  "withinFresh": 141,
   "freshHours": 72,
   "monthPrecision": 17,
   "undated": 0,
-  "staleDropped": 26,
-  "newestAt": "2026-11-04T15:47:06.000Z"
+  "staleDropped": 30,
+  "newestAt": "2026-11-04T19:53:34.000Z"
  },
  "themes": [
   {
-   "name": "资本与市场",
-   "n": 51
-  },
-  {
    "name": "产品与应用",
-   "n": 49
+   "n": 56
   },
   {
-   "name": "算力与基建",
-   "n": 26
+   "name": "资本与市场",
+   "n": 44
   },
   {
    "name": "产业与生态",
-   "n": 25
+   "n": 32
   },
   {
    "name": "模型与能力",
    "n": 19
   },
   {
+   "name": "算力与基建",
+   "n": 18
+  },
+  {
    "name": "政策与治理",
-   "n": 9
+   "n": 10
   }
  ],
  "entities": [
   {
    "name": "Apple",
+   "n": 8
+  },
+  {
+   "name": "Anthropic",
+   "n": 8
+  },
+  {
+   "name": "腾讯",
+   "n": 7
+  },
+  {
+   "name": "Google",
    "n": 7
   },
   {
    "name": "Amazon",
-   "n": 7
-  },
-  {
-   "name": "腾讯",
-   "n": 6
-  },
-  {
-   "name": "Google",
-   "n": 6
-  },
-  {
-   "name": "Anthropic",
-   "n": 6
-  },
-  {
-   "name": "百度",
    "n": 5
   },
   {
    "name": "OpenAI",
-   "n": 5
+   "n": 4
   },
   {
    "name": "阿里巴巴",
-   "n": 4
+   "n": 3
+  },
+  {
+   "name": "字节跳动",
+   "n": 3
   }
  ],
  "topOverall": [
   {
-   "id": "5a918188c65b61f9",
-   "title": "华为、阿里等20家单位：共建智能体互联基础设施 加速智能体赋能千行百业",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4055077609182342?f=rss",
-   "importance": 99,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-04T06:38:15.000Z",
-   "topics": [
-    "产品与应用",
-    "政策与治理"
-   ],
-   "entities": [
-    "阿里巴巴",
-    "腾讯",
-    "百度",
-    "华为"
-   ],
-   "firstSeen": "2026-11-04",
-   "isNew": true
-  },
-  {
-   "id": "a88f602ba5b7afda",
-   "title": "AI被“催收”的财报季，腾讯、阿里开启智力产能重估",
+   "id": "9d9e6a4e5088d4f0",
+   "title": "为什么大家都学腾讯，把对手的模型请进来？",
    "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8192640.html",
-   "importance": 99,
+   "url": "https://www.tmtpost.com/8192671.html",
+   "importance": 98,
    "difficulty": "入门",
-   "publishedAt": "2026-11-04T04:03:00.000Z",
+   "publishedAt": "2026-11-04T10:44:14.000Z",
    "topics": [
-    "资本与市场",
-    "产业与生态"
+    "模型与能力",
+    "产品与应用"
    ],
    "entities": [
-    "Meta",
-    "阿里巴巴",
     "腾讯",
-    "字节跳动"
+    "小米",
+    "DeepSeek",
+    "阶跃星辰"
    ],
    "firstSeen": "2026-11-04",
    "isNew": true
@@ -152,26 +130,6 @@
     "Apple",
     "阿里巴巴",
     "腾讯"
-   ],
-   "firstSeen": "2026-11-04",
-   "isNew": true
-  },
-  {
-   "id": "996c898fe0e120a5",
-   "title": "哪里电便宜，算力就往哪里跑？没那么简单",
-   "source": "雷峰网",
-   "region": "CN",
-   "url": "https://www.leiphone.com/category/chips/pXuAy8TH7q2u0Q9T.html",
-   "importance": 97,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-04T03:56:00.000Z",
-   "topics": [
-    "算力与基建",
-    "模型与能力"
-   ],
-   "entities": [
-    "Google",
-    "NVIDIA"
    ],
    "firstSeen": "2026-11-04",
    "isNew": true
@@ -199,58 +157,99 @@
    "isNew": true
   },
   {
-   "id": "653dd8c95e4ac878",
-   "title": "AI视频的下一场竞争",
+   "id": "cf879acd13618e83",
+   "title": "AI记忆值个天价",
    "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8192972.html",
+   "url": "https://www.tmtpost.com/8193344.html",
    "importance": 94,
    "difficulty": "入门",
-   "publishedAt": "2026-11-04T05:23:00.000Z",
+   "publishedAt": "2026-11-04T09:07:03.000Z",
    "topics": [
+    "模型与能力",
     "产品与应用"
    ],
    "entities": [
-    "字节跳动"
+    "OpenAI",
+    "Anthropic",
+    "阿里巴巴"
    ],
    "firstSeen": "2026-11-04",
    "isNew": true
   },
   {
-   "id": "cd323647c89f19e2",
-   "title": "AI绑架美股七姐妹",
-   "source": "钛媒体",
+   "id": "996c898fe0e120a5",
+   "title": "哪里电便宜，算力就往哪里跑？没那么简单",
+   "source": "雷峰网",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8192790.html",
+   "url": "https://www.leiphone.com/category/chips/pXuAy8TH7q2u0Q9T.html",
    "importance": 93,
    "difficulty": "进阶",
-   "publishedAt": "2026-11-04T04:26:00.000Z",
+   "publishedAt": "2026-11-04T03:56:00.000Z",
    "topics": [
-    "资本与市场",
-    "算力与基建"
+    "算力与基建",
+    "模型与能力"
    ],
    "entities": [
-    "Meta",
+    "Google",
     "NVIDIA"
    ],
    "firstSeen": "2026-11-04",
    "isNew": true
   },
   {
-   "id": "f39aceb8773bebae",
-   "title": "ElevenLabs CEO eyes IPO preparations in 2028",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/elevenlabs-ceo-eyes-ipo-preparations-2028",
+   "id": "e7fcad7a0a8585e0",
+   "title": "实测腾讯Hy4：我用它复刻《王者荣耀》，WorkBuddy 真能接大活了",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1687613?utm_source=rss&utm_medium=rss&utm_campaign=",
    "importance": 91,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-04T03:01:45.000Z",
+   "difficulty": "高级",
+   "publishedAt": "2026-11-04T08:37:32.000Z",
    "topics": [
-    "资本与市场",
+    "模型与能力",
     "产品与应用"
    ],
    "entities": [
-    "ElevenLabs"
+    "腾讯"
+   ],
+   "firstSeen": "2026-11-04",
+   "isNew": true
+  },
+  {
+   "id": "7b987dec0ce6c28a",
+   "title": "360参与发起《智能体发展自律公约》，助力构建可信智能体生态",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/industrynews/UB25ocDFu1ntNMtz.html",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-04T09:42:00.000Z",
+   "topics": [
+    "产品与应用",
+    "产业与生态"
+   ],
+   "entities": [
+    "华为"
+   ],
+   "firstSeen": "2026-11-04",
+   "isNew": true
+  },
+  {
+   "id": "422ac73c8e116585",
+   "title": "字节新规：限制使用Claude、Codex等外部AI工具",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8191863.html",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-04T08:59:26.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "字节跳动"
    ],
    "firstSeen": "2026-11-04",
    "isNew": true
@@ -265,45 +264,23 @@
    "count": 24,
    "top": [
     {
-     "id": "5a918188c65b61f9",
-     "title": "华为、阿里等20家单位：共建智能体互联基础设施 加速智能体赋能千行百业",
-     "source": "36氪",
-     "region": "CN",
-     "url": "https://36kr.com/newsflashes/4055077609182342?f=rss",
-     "importance": 99,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-04T06:38:15.000Z",
-     "topics": [
-      "产品与应用",
-      "政策与治理"
-     ],
-     "entities": [
-      "阿里巴巴",
-      "腾讯",
-      "百度",
-      "华为"
-     ],
-     "firstSeen": "2026-11-04",
-     "isNew": true
-    },
-    {
-     "id": "a88f602ba5b7afda",
-     "title": "AI被“催收”的财报季，腾讯、阿里开启智力产能重估",
+     "id": "9d9e6a4e5088d4f0",
+     "title": "为什么大家都学腾讯，把对手的模型请进来？",
      "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8192640.html",
-     "importance": 99,
+     "url": "https://www.tmtpost.com/8192671.html",
+     "importance": 98,
      "difficulty": "入门",
-     "publishedAt": "2026-11-04T04:03:00.000Z",
+     "publishedAt": "2026-11-04T10:44:14.000Z",
      "topics": [
-      "资本与市场",
-      "产业与生态"
+      "模型与能力",
+      "产品与应用"
      ],
      "entities": [
-      "Meta",
-      "阿里巴巴",
       "腾讯",
-      "字节跳动"
+      "小米",
+      "DeepSeek",
+      "阶跃星辰"
      ],
      "firstSeen": "2026-11-04",
      "isNew": true
@@ -328,6 +305,28 @@
      ],
      "firstSeen": "2026-11-04",
      "isNew": true
+    },
+    {
+     "id": "84d11d89b7859f4e",
+     "title": "早报｜国行苹果AI开测，Siri接入千问/中兴否认出售手机业务传闻/多所高校免费发Token",
+     "source": "爱范儿",
+     "region": "CN",
+     "url": "https://www.ifanr.com/1687477?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 95,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-04T00:26:05.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "DeepMind"
+     ],
+     "firstSeen": "2026-11-04",
+     "isNew": true
     }
    ]
   },
@@ -344,7 +343,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/elevenlabs-ceo-eyes-ipo-preparations-2028",
-     "importance": 91,
+     "importance": 87,
      "difficulty": "入门",
      "publishedAt": "2026-11-04T03:01:45.000Z",
      "topics": [
@@ -363,7 +362,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/us-voters-could-move-ais-next-piece",
-     "importance": 90,
+     "importance": 86,
      "difficulty": "进阶",
      "publishedAt": "2026-11-04T02:00:55.000Z",
      "topics": [
@@ -377,22 +376,19 @@
      "isNew": true
     },
     {
-     "id": "1efaa95dbee2aff2",
-     "title": "AMD forecasts 2027 growth above estimates on data center chips",
+     "id": "2582ca6c00af6301",
+     "title": "Revolut completes funding round at $115b valuation",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/amd-forecasts-2027-growth-estimates-data-center-chips",
-     "importance": 90,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-04T01:20:33.000Z",
+     "url": "https://www.techinasia.com/news/revolut-completes-funding-115b-valuation",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-04T09:50:33.000Z",
      "topics": [
-      "算力与基建",
-      "资本与市场"
+      "资本与市场",
+      "产品与应用"
      ],
-     "entities": [
-      "Microsoft",
-      "AMD"
-     ],
+     "entities": [],
      "firstSeen": "2026-11-04",
      "isNew": true
     }
@@ -405,6 +401,38 @@
    "flag": "🕌",
    "count": 24,
    "top": [
+    {
+     "id": "883e7a657abd0e23",
+     "title": "Journify raises $12 million at fourfold valuation increase",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/journify-raises-12-million-fourfold-valuation-increase",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-04",
+     "isNew": true
+    },
+    {
+     "id": "1b3b0b8455556129",
+     "title": "RUCKUS Networks™ and Westcon: Powering Saudi Arabia’s digital transformation through channel innovation",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/features/ruckus-networks-and-westcon-powering-saudi-arabias-digital-transformation-through-channel-innovation/",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-04T10:16:11.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-04",
+     "isNew": true
+    },
     {
      "id": "27151036fd9f2a75",
      "title": "YouTube allows in-video product sale for viewers in KSA, UAE and Egypt",
@@ -421,39 +449,6 @@
      "entities": [
       "Amazon"
      ],
-     "firstSeen": "2026-11-04",
-     "isNew": true
-    },
-    {
-     "id": "e6bc86be22bba5bd",
-     "title": "Syrian foodtech Percent Labs closes seed round at over $1 million valuation",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/syrian-foodtech-percent-labs-closes-seed-round-1-million-valuation",
-     "importance": 69,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "资本与市场",
-      "算力与基建"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-04",
-     "isNew": true
-    },
-    {
-     "id": "16a543f84624f28a",
-     "title": "Saudi Aramco acquires 49% of HUMAIN with $2.6 billion cash injection",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/saudi-aramco-acquires-49-humain-2-6-billion-cash-injection",
-     "importance": 68,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
      "firstSeen": "2026-11-04",
      "isNew": true
     }
@@ -502,18 +497,20 @@
      "isNew": true
     },
     {
-     "id": "f252850e5abd340c",
-     "title": "로봇의 AI 혁신, 당신의 삶을 바꾸려면 아직 멀었다",
-     "source": "MIT Technology Review Korea",
+     "id": "bf228fbd9f1b16f6",
+     "title": "앤트로픽 \"RSI 가속에 AI 안전 대책 뒤처질 수도\"…통제 강화 검토",
+     "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.technologyreview.kr/%eb%a1%9c%eb%b4%87%ec%9d%98-ai-%ed%98%81%ec%8b%a0-%eb%8b%b9%ec%8b%a0%ec%9d%98-%ec%82%b6%ec%9d%84-%eb%b0%94%ea%be%b8%eb%a0%a4%eb%a9%b4-%ec%95%84%ec%a7%81-%eb%a9%80%ec%97%88%eb%8b%a4/",
-     "importance": 62,
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216984",
+     "importance": 66,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-03T20:55:10.000Z",
-     "topics": [],
+     "publishedAt": "2026-11-04T18:24:21.000Z",
+     "topics": [
+      "资本与市场"
+     ],
      "entities": [],
-     "firstSeen": "2026-11-04",
-     "isNew": true
+     "firstSeen": "2026-11-03",
+     "isNew": false
     }
    ]
   },
@@ -525,6 +522,39 @@
    "count": 24,
    "top": [
     {
+     "id": "9b99c519b5ae5998",
+     "title": "Revolut hits $115bn valuation amid global expansion drive",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/business/revolut-hits-115bn-valuation-amid-global-expansion-drive",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-04T11:18:12.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-04",
+     "isNew": true
+    },
+    {
+     "id": "e5fbd21e503493e6",
+     "title": "Irish-founded Juritas raises €1.4m for contract intelligence tech",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/start-ups/irish-founded-juritas-raises-e1-4m-for-contract-intelligence-tech",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-04T09:40:21.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-04",
+     "isNew": true
+    },
+    {
      "id": "76328e65f44b3f52",
      "title": "Lovable apps expose sensitive user data, researchers find",
      "source": "Sifted",
@@ -535,38 +565,6 @@
      "publishedAt": "2026-11-03T13:20:44.000Z",
      "topics": [
       "产品与应用"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-04",
-     "isNew": true
-    },
-    {
-     "id": "b578e338f1161964",
-     "title": "The UCD physicist stacking quantum materials like Lego",
-     "source": "Silicon Republic",
-     "region": "EU",
-     "url": "https://www.siliconrepublic.com/machines/ucd-physicist-stacking-quantum-materials-lego-women-invent",
-     "importance": 69,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-04T07:00:08.000Z",
-     "topics": [
-      "产业与生态"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-04",
-     "isNew": true
-    },
-    {
-     "id": "0602607501f96211",
-     "title": "Professor James Whittington and Dr Ruairidh Battleday unveil breakthrough from stealth frontier AI lab",
-     "source": "Sifted",
-     "region": "EU",
-     "url": "https://sifted.eu/articles/breakthrough-from-stealth-frontier-ai-lab-brnd/",
-     "importance": 69,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-03T12:40:06.000Z",
-     "topics": [
-      "产业与生态"
      ],
      "entities": [],
      "firstSeen": "2026-11-04",
@@ -587,7 +585,7 @@
      "source": "SiliconANGLE",
      "region": "NA",
      "url": "https://siliconangle.com/2026/11/03/ai-cloud-startup-applied-compute-raises-350m-after-reaching-key-revenue-milestone/",
-     "importance": 87,
+     "importance": 83,
      "difficulty": "进阶",
      "publishedAt": "2026-11-04T01:19:08.000Z",
      "topics": [
@@ -601,35 +599,39 @@
      "isNew": true
     },
     {
-     "id": "788cc32ecfc6193b",
-     "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
-     "source": "Ars Technica AI",
+     "id": "f4a5375dd98522c0",
+     "title": "Exclusive: Cogent Security’s VR-1.1 model outscores Claude Code and Codex on vulnerability repair",
+     "source": "SiliconANGLE",
      "region": "NA",
-     "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
-     "importance": 82,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-03T20:39:55.000Z",
+     "url": "https://siliconangle.com/2026/11/03/exclusive-cogent-securitys-vr-1-1-model-outscores-claude-code-and-codex-on-vulnerability-repair/",
+     "importance": 80,
+     "difficulty": "高级",
+     "publishedAt": "2026-11-03T14:00:00.000Z",
      "topics": [
-      "算力与基建"
+      "模型与能力",
+      "产品与应用"
      ],
-     "entities": [],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
      "firstSeen": "2026-11-04",
      "isNew": true
     },
     {
-     "id": "2018333cb7600576",
-     "title": "Apple starts giving Siri AI access to third-party apps",
-     "source": "The Verge AI",
+     "id": "141f808fd59b71db",
+     "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+     "source": "TechCrunch AI",
      "region": "NA",
-     "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
-     "importance": 82,
+     "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+     "importance": 78,
      "difficulty": "入门",
-     "publishedAt": "2026-11-03T20:16:17.000Z",
+     "publishedAt": "2026-11-03T16:30:34.000Z",
      "topics": [
       "产品与应用"
      ],
      "entities": [
-      "Apple"
+      "Google"
      ],
      "firstSeen": "2026-11-04",
      "isNew": true
@@ -644,14 +646,31 @@
    "count": 24,
    "top": [
     {
-     "id": "f3415bda7fb100d7",
-     "title": "Razorpay Gets SEBI Nod For ₹6,000 Cr IPO",
+     "id": "e090abe5f583d5bd",
+     "title": "Pine Labs Partners With Stripe To Unify Online, In-Store Payments In Singapore",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%e2%82%b96000-cr-ipo/",
-     "importance": 82,
+     "url": "https://inc42.com/buzz/pine-labs-partners-with-stripe-to-unify-online-in-store-payments-in-singapore/",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-04T10:07:41.000Z",
+     "topics": [
+      "产业与生态",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-04",
+     "isNew": true
+    },
+    {
+     "id": "2f2f41520c7c0414",
+     "title": "Nykaa’s Q2 Profit More Than Triples To ₹101 Cr, Revenue Up 28% YoY",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/nykaas-q2-profit-more-than-triples-to-%e2%82%b9101-cr-revenue-up-28-yoy/",
+     "importance": 78,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-04T05:38:13.000Z",
+     "publishedAt": "2026-11-04T10:42:21.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -660,34 +679,16 @@
      "isNew": true
     },
     {
-     "id": "618355dd8c41ba94",
-     "title": "EloElo Group Bags $80 Mn From NBCUniversal, Others To Take Its Microdrama Biz Global",
+     "id": "158c9b33a78eeed1",
+     "title": "Lenskart Q2 Profit Jumps 125% YoY To ₹233 Cr, Revenue Rises 36%",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/eloelo-group-bags-80-mn-to-take-its-microdrama-biz-global/",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-04T05:15:28.000Z",
+     "url": "https://inc42.com/buzz/lenskart-q2-profit-jumps-125-yoy-to-%e2%82%b9233-cr-revenue-rises-36/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-04T10:26:21.000Z",
      "topics": [
-      "资本与市场",
-      "产业与生态"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-04",
-     "isNew": true
-    },
-    {
-     "id": "6efd9441838c6cef",
-     "title": "Soket Labs & ZenteiQ Launch Indigenous AI Models",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/soket-labs-zenteiq-launch-indigenous-ai-models/",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-03T19:02:27.000Z",
-     "topics": [
-      "模型与能力",
-      "产品与应用"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-11-04",
@@ -696,5 +697,5 @@
    ]
   }
  ],
- "overview": "11 月 4 日，共从 26 个信息源抓取 436 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 122 条发布于 24 小时内。其中 133 条是此前未出现过的新增内容，另有 26 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」51 条、「产品与应用」49 条。值得优先关注的几条：「华为、阿里等20家单位：共建智能体互联基础设施 加速智能体赋能千行百业」（36氪）、「AI被“催收”的财报季，腾讯、阿里开启智力产能重估」（钛媒体）、「国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道」（极客公园）。"
+ "overview": "11 月 4 日，共从 26 个信息源抓取 431 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 123 条发布于 24 小时内。其中 140 条是此前未出现过的新增内容，另有 19 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」56 条、「资本与市场」44 条。值得优先关注的几条：「为什么大家都学腾讯，把对手的模型请进来？」（钛媒体）、「国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道」（极客公园）、「早报｜国行苹果AI开测，Siri接入千问/中兴否认出售手机业务传闻/多所高校免费发Token」（爱范儿）。"
 }
