@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-07",
- "generatedAt": "2026-11-07T06:39:57.161Z",
+ "generatedAt": "2026-11-07T10:57:39.609Z",
  "mode": "rule",
  "counts": {
-  "crawled": 430,
+  "crawled": 432,
   "published": 159,
-  "newCount": 92,
-  "repeatCount": 67,
+  "newCount": 98,
+  "repeatCount": 61,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,38 +22,38 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 117,
-  "withinFresh": 136,
+  "within24h": 100,
+  "withinFresh": 132,
   "freshHours": 72,
-  "monthPrecision": 16,
+  "monthPrecision": 20,
   "undated": 0,
-  "staleDropped": 29,
-  "newestAt": "2026-11-07T10:44:58.000Z"
+  "staleDropped": 28,
+  "newestAt": "2026-11-07T19:05:17.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 50
+   "n": 45
   },
   {
    "name": "产品与应用",
-   "n": 32
+   "n": 33
   },
   {
    "name": "算力与基建",
-   "n": 25
+   "n": 27
   },
   {
    "name": "产业与生态",
-   "n": 23
+   "n": 25
   },
   {
    "name": "模型与能力",
-   "n": 8
+   "n": 9
   },
   {
    "name": "政策与治理",
-   "n": 5
+   "n": 4
   }
  ],
  "entities": [
@@ -63,22 +63,14 @@
   },
   {
    "name": "Meta",
-   "n": 7
+   "n": 8
   },
   {
    "name": "NVIDIA",
    "n": 6
   },
   {
-   "name": "Google",
-   "n": 5
-  },
-  {
    "name": "Anthropic",
-   "n": 4
-  },
-  {
-   "name": "腾讯",
    "n": 4
   },
   {
@@ -88,80 +80,35 @@
   {
    "name": "Amazon",
    "n": 4
+  },
+  {
+   "name": "腾讯",
+   "n": 3
+  },
+  {
+   "name": "Google",
+   "n": 3
   }
  ],
  "topOverall": [
   {
-   "id": "da997d0893c24dbf",
-   "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-   "importance": 97,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-06T22:53:46.000Z",
-   "topics": [
-    "资本与市场"
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic"
-   ],
-   "firstSeen": "2026-11-07",
-   "isNew": true
-  },
-  {
-   "id": "a871211db673d436",
-   "title": "深度聊聊“字节时间”",
+   "id": "deeed017c08a8a34",
+   "title": "一张桌子坐了20家巨头，桌子外面站着155个“不”",
    "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8196953.html",
-   "importance": 96,
+   "url": "https://www.tmtpost.com/8196715.html",
+   "importance": 98,
    "difficulty": "入门",
-   "publishedAt": "2026-11-07T01:54:27.000Z",
+   "publishedAt": "2026-11-07T08:36:21.000Z",
    "topics": [
-    "产品与应用"
+    "产品与应用",
+    "产业与生态"
    ],
    "entities": [
+    "阿里巴巴",
     "腾讯",
-    "字节跳动"
-   ],
-   "firstSeen": "2026-11-07",
-   "isNew": true
-  },
-  {
-   "id": "7c8b7392d68a3c88",
-   "title": "OpenAI raises $11b at $1.25t valuation in funding round",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/openai-raises-11b-125t-valuation-funding",
-   "importance": 95,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-07T01:13:15.000Z",
-   "topics": [
-    "资本与市场"
-   ],
-   "entities": [
-    "OpenAI"
-   ],
-   "firstSeen": "2026-11-07",
-   "isNew": true
-  },
-  {
-   "id": "74ff0c4af5403924",
-   "title": "TSMC weighs making memory chips at Nvidia’s request",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/tsmc-weighs-making-memory-chips-nvidias-request",
-   "importance": 94,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-07T01:05:49.000Z",
-   "topics": [
-    "算力与基建"
-   ],
-   "entities": [
-    "NVIDIA",
-    "台积电"
+    "百度",
+    "华为"
    ],
    "firstSeen": "2026-11-07",
    "isNew": true
@@ -187,26 +134,6 @@
    "isNew": true
   },
   {
-   "id": "62c617088bc14ac4",
-   "title": "台积电据悉考虑进军先进存储芯片领域，为英伟达生产3D DRAM",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4059024621392777?f=rss",
-   "importance": 93,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-07T03:58:13.000Z",
-   "topics": [
-    "算力与基建",
-    "资本与市场"
-   ],
-   "entities": [
-    "NVIDIA",
-    "台积电"
-   ],
-   "firstSeen": "2026-11-07",
-   "isNew": true
-  },
-  {
    "id": "3496fffd416c27cb",
    "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
    "source": "The Verge AI",
@@ -226,19 +153,96 @@
    "isNew": true
   },
   {
-   "id": "0c84d7b1d1cbe323",
-   "title": "Meta adds Spaces to Muse AI agents for organizing projects",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/meta-adds-spaces-muse-ai-agents-organizing-projects",
-   "importance": 91,
+   "id": "da997d0893c24dbf",
+   "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "importance": 92,
    "difficulty": "入门",
-   "publishedAt": "2026-11-07T01:32:48.000Z",
+   "publishedAt": "2026-11-06T22:53:46.000Z",
    "topics": [
-    "产品与应用"
+    "资本与市场"
    ],
    "entities": [
-    "Meta"
+    "OpenAI",
+    "Anthropic"
+   ],
+   "firstSeen": "2026-11-07",
+   "isNew": true
+  },
+  {
+   "id": "15d4879edc2356a8",
+   "title": "当芯片抢着上太空，半导体下一轮增量有了？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8197078.html",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-07T09:33:06.000Z",
+   "topics": [
+    "算力与基建",
+    "模型与能力"
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-11-07",
+   "isNew": true
+  },
+  {
+   "id": "7c8b7392d68a3c88",
+   "title": "OpenAI raises $11b at $1.25t valuation in funding round",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/openai-raises-11b-125t-valuation-funding",
+   "importance": 91,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-07T01:13:15.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "firstSeen": "2026-11-07",
+   "isNew": true
+  },
+  {
+   "id": "74ff0c4af5403924",
+   "title": "TSMC weighs making memory chips at Nvidia’s request",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/tsmc-weighs-making-memory-chips-nvidias-request",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-07T01:05:49.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "NVIDIA",
+    "台积电"
+   ],
+   "firstSeen": "2026-11-07",
+   "isNew": true
+  },
+  {
+   "id": "266fc4bf977ebb51",
+   "title": "英伟达四处替客户找钱买芯片",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8197111.html",
+   "importance": 89,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-07T09:32:20.000Z",
+   "topics": [
+    "算力与基建",
+    "资本与市场"
+   ],
+   "entities": [
+    "OpenAI",
+    "NVIDIA"
    ],
    "firstSeen": "2026-11-07",
    "isNew": true
@@ -253,59 +257,62 @@
    "count": 24,
    "top": [
     {
-     "id": "a871211db673d436",
-     "title": "深度聊聊“字节时间”",
+     "id": "deeed017c08a8a34",
+     "title": "一张桌子坐了20家巨头，桌子外面站着155个“不”",
      "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8196953.html",
-     "importance": 96,
+     "url": "https://www.tmtpost.com/8196715.html",
+     "importance": 98,
      "difficulty": "入门",
-     "publishedAt": "2026-11-07T01:54:27.000Z",
+     "publishedAt": "2026-11-07T08:36:21.000Z",
      "topics": [
-      "产品与应用"
+      "产品与应用",
+      "产业与生态"
      ],
      "entities": [
+      "阿里巴巴",
       "腾讯",
-      "字节跳动"
+      "百度",
+      "华为"
      ],
      "firstSeen": "2026-11-07",
      "isNew": true
     },
     {
-     "id": "62c617088bc14ac4",
-     "title": "台积电据悉考虑进军先进存储芯片领域，为英伟达生产3D DRAM",
-     "source": "36氪",
+     "id": "15d4879edc2356a8",
+     "title": "当芯片抢着上太空，半导体下一轮增量有了？",
+     "source": "钛媒体",
      "region": "CN",
-     "url": "https://36kr.com/newsflashes/4059024621392777?f=rss",
-     "importance": 93,
+     "url": "https://www.tmtpost.com/8197078.html",
+     "importance": 91,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-07T03:58:13.000Z",
+     "publishedAt": "2026-11-07T09:33:06.000Z",
+     "topics": [
+      "算力与基建",
+      "模型与能力"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-07",
+     "isNew": true
+    },
+    {
+     "id": "266fc4bf977ebb51",
+     "title": "英伟达四处替客户找钱买芯片",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8197111.html",
+     "importance": 89,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-07T09:32:20.000Z",
      "topics": [
       "算力与基建",
       "资本与市场"
      ],
      "entities": [
-      "NVIDIA",
-      "台积电"
-     ],
-     "firstSeen": "2026-11-07",
-     "isNew": true
-    },
-    {
-     "id": "194afd95cad2bbc8",
-     "title": "9点1氪丨豆包工作个人版取消5小时额度限制；人类低温纪录被打破；美科技股反弹，SpaceX市值一夜暴涨9653亿",
-     "source": "36氪",
-     "region": "CN",
-     "url": "https://36kr.com/p/4058997417563266?f=rss",
-     "importance": 90,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-07T01:10:18.000Z",
-     "topics": [
-      "资本与市场",
-      "模型与能力"
-     ],
-     "entities": [
-      "OpenAI"
+      "OpenAI",
+      "NVIDIA"
      ],
      "firstSeen": "2026-11-07",
      "isNew": true
@@ -325,7 +332,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/openai-raises-11b-125t-valuation-funding",
-     "importance": 95,
+     "importance": 91,
      "difficulty": "入门",
      "publishedAt": "2026-11-07T01:13:15.000Z",
      "topics": [
@@ -343,7 +350,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/tsmc-weighs-making-memory-chips-nvidias-request",
-     "importance": 94,
+     "importance": 90,
      "difficulty": "进阶",
      "publishedAt": "2026-11-07T01:05:49.000Z",
      "topics": [
@@ -362,7 +369,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/meta-adds-spaces-muse-ai-agents-organizing-projects",
-     "importance": 91,
+     "importance": 87,
      "difficulty": "入门",
      "publishedAt": "2026-11-07T01:32:48.000Z",
      "topics": [
@@ -450,7 +457,7 @@
      "source": "AINOW",
      "region": "JPKR",
      "url": "https://ainow.ai/2026/11/07/278503/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e4%25be%258b10%25e9%2581%25b8%25ef%25bc%2581%25e8%25ba%25ab%25e8%25bf%2591%25e3%2581%25aa%25e3%2583%2584%25e3%2583%25bc%25e3%2583%25ab%25e3%2581%258b%25e3%2582%2589%25e6%25a5%25ad%25e5%258b%2599%25e5%2588%25a5",
-     "importance": 74,
+     "importance": 69,
      "difficulty": "进阶",
      "publishedAt": "2026-11-06T18:53:48.000Z",
      "topics": [
@@ -466,7 +473,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ea%b8%b0%ed%9b%84-%ec%98%88%ec%b8%a1-%eb%aa%a8%eb%8d%b8%ec%9d%b4-%eb%86%93%ec%b9%98%ea%b3%a0-%ec%9e%88%eb%8a%94-%ec%9c%84%ed%97%98%ed%95%9c-%ec%82%ac%ea%b0%81%ec%a7%80%eb%8c%80-2/",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-11-06T21:00:00.000Z",
      "topics": [],
@@ -480,7 +487,7 @@
      "source": "AINOW",
      "region": "JPKR",
      "url": "https://ainow.ai/2026/11/07/278506/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25aeroi%25e3%2581%25ae%25e7%25ae%2597%25e5%2587%25ba%25e6%2596%25b9%25e6%25b3%2595%25e3%2582%2592%25e8%25a7%25a3%25e8%25aa%25ac%25ef%25bc%2581%25e8%25a8%2588%25e7%25ae%2597%25e5%25bc%258f%25e3%2581%25a8kpi%25e8%25a8%25ad",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-11-06T19:11:32.000Z",
      "topics": [],
@@ -526,18 +533,20 @@
      "isNew": true
     },
     {
-     "id": "005ad017da75de6a",
-     "title": "UK neobank Monzo reportedly eyeing raise at £7.5bn valuation",
+     "id": "584a0db709a71ad3",
+     "title": "China blocks SoftBank’s $5.4bn ABB robotics unit acquisition",
      "source": "Silicon Republic",
      "region": "EU",
-     "url": "https://www.siliconrepublic.com/business/uk-neobank-monzo-reportedly-eyeing-raise-at-7-5bn-valuation",
-     "importance": 55,
+     "url": "https://www.siliconrepublic.com/business/china-softbank-abb-robotics-japan-data-ai-investment",
+     "importance": 49,
      "difficulty": "入门",
-     "publishedAt": "2026-11-06T08:49:17.000Z",
+     "publishedAt": "2026-11-05T11:15:54.000Z",
      "topics": [
       "资本与市场"
      ],
-     "entities": [],
+     "entities": [
+      "软银"
+     ],
      "firstSeen": "2026-11-06",
      "isNew": false
     }
@@ -550,25 +559,6 @@
    "flag": "🌎",
    "count": 24,
    "top": [
-    {
-     "id": "da997d0893c24dbf",
-     "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-     "source": "TechCrunch AI",
-     "region": "NA",
-     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-     "importance": 97,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-06T22:53:46.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [
-      "OpenAI",
-      "Anthropic"
-     ],
-     "firstSeen": "2026-11-07",
-     "isNew": true
-    },
     {
      "id": "65b6ef8eb796ebd1",
      "title": "OpenAI reportedly raises $11B in new funding at $1.25T valuation",
@@ -598,6 +588,25 @@
      "importance": 92,
      "difficulty": "入门",
      "publishedAt": "2026-11-06T23:46:18.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-07",
+     "isNew": true
+    },
+    {
+     "id": "da997d0893c24dbf",
+     "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+     "importance": 92,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-06T22:53:46.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -643,7 +652,7 @@
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/buzz/oyo-parent-prisms-profit-jumps-17-yoy-to-%e2%82%b9353-cr-in-q1/",
-     "importance": 82,
+     "importance": 78,
      "difficulty": "进阶",
      "publishedAt": "2026-11-07T01:30:12.000Z",
      "topics": [
@@ -659,7 +668,7 @@
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/buzz/from-giva-to-eloelo-group-indian-startups-raised-255-mn-this-week/",
-     "importance": 81,
+     "importance": 77,
      "difficulty": "入门",
      "publishedAt": "2026-11-07T03:30:37.000Z",
      "topics": [
@@ -672,5 +681,5 @@
    ]
   }
  ],
- "overview": "11 月 7 日，共从 26 个信息源抓取 430 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 117 条发布于 24 小时内。其中 92 条是此前未出现过的新增内容，另有 67 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」50 条、「产品与应用」32 条。值得优先关注的几条：「深度聊聊“字节时间”」（钛媒体）、「台积电据悉考虑进军先进存储芯片领域，为英伟达生产3D DRAM」（36氪）。"
+ "overview": "11 月 7 日，共从 26 个信息源抓取 432 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 100 条发布于 24 小时内。其中 98 条是此前未出现过的新增内容，另有 61 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」45 条、「产品与应用」33 条。值得优先关注的几条：「一张桌子坐了20家巨头，桌子外面站着155个“不”」（钛媒体）、「当芯片抢着上太空，半导体下一轮增量有了？」（钛媒体）、「英伟达四处替客户找钱买芯片」（钛媒体）。"
 }
