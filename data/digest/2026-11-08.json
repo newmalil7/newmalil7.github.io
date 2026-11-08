@@ -1,0 +1,670 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-11-08",
+ "generatedAt": "2026-11-08T06:45:50.070Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 433,
+  "published": 159,
+  "newCount": 55,
+  "repeatCount": 104,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 15,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 26,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 44,
+  "withinFresh": 127,
+  "freshHours": 72,
+  "monthPrecision": 20,
+  "undated": 0,
+  "staleDropped": 26,
+  "newestAt": "2026-11-08T12:08:58.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 46
+  },
+  {
+   "name": "产品与应用",
+   "n": 41
+  },
+  {
+   "name": "算力与基建",
+   "n": 22
+  },
+  {
+   "name": "产业与生态",
+   "n": 20
+  },
+  {
+   "name": "政策与治理",
+   "n": 10
+  },
+  {
+   "name": "模型与能力",
+   "n": 8
+  }
+ ],
+ "entities": [
+  {
+   "name": "OpenAI",
+   "n": 14
+  },
+  {
+   "name": "NVIDIA",
+   "n": 7
+  },
+  {
+   "name": "Anthropic",
+   "n": 7
+  },
+  {
+   "name": "Microsoft",
+   "n": 4
+  },
+  {
+   "name": "Meta",
+   "n": 4
+  },
+  {
+   "name": "Amazon",
+   "n": 3
+  },
+  {
+   "name": "Arm",
+   "n": 3
+  },
+  {
+   "name": "AMD",
+   "n": 2
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "f0557c6ad3a1641d",
+   "title": "宇树跟红杉都不想自己“努力”了？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8197415.html",
+   "importance": 98,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-08T02:17:16.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [
+    "DeepSeek",
+    "宇树科技",
+    "银河通用",
+    "星海图"
+   ],
+   "firstSeen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "id": "ac4680d28f7e056f",
+   "title": "Nvidia-backed Groq seeks $8b valuation in new round",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/nvidiabacked-groq-seeks-8b-valuation",
+   "importance": 94,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-08T01:23:28.000Z",
+   "topics": [
+    "算力与基建",
+    "资本与市场"
+   ],
+   "entities": [
+    "NVIDIA",
+    "Groq"
+   ],
+   "firstSeen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "id": "b159345a5aae4561",
+   "title": "收购 EA 后，银湖资本与沙特基金 250 亿美元报价 Unity；超10万款应用已适配iPhone Duo；美国再发生 NVIDIA AI 设备失窃案",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/373649",
+   "importance": 83,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-08T00:57:46.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "id": "7d09db571c9d0250",
+   "title": "全球首个通报评议人才培养国际标准发布",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4060673695749252?f=rss",
+   "importance": 80,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-08T05:39:47.000Z",
+   "topics": [
+    "产业与生态",
+    "产品与应用"
+   ],
+   "entities": [],
+   "firstSeen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "id": "c975e8b6d410284a",
+   "title": "实控人离婚给超8亿“分手费”，智能装备龙头三季报增收不增利",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8197382.html",
+   "importance": 80,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-08T02:20:08.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [],
+   "firstSeen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "id": "c5165264400baca6",
+   "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+   "importance": 80,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-07T22:07:22.000Z",
+   "topics": [
+    "算力与基建",
+    "政策与治理"
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "firstSeen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "id": "123e18dcd0930d21",
+   "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+   "importance": 80,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-07T21:17:08.000Z",
+   "topics": [
+    "算力与基建",
+    "政策与治理"
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-11-08",
+   "isNew": true
+  },
+  {
+   "id": "b6588c3d1ba23f1c",
+   "title": "自动路由真能省钱吗？便宜模型出错后，人类修一小时可能更贵",
+   "source": "InfoQ 中国",
+   "region": "CN",
+   "url": "https://www.infoq.cn/article/gOcDmZM2MPAQhWtNb6IJ?utm_source=rss&utm_medium=article",
+   "importance": 78,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-08T09:00:00.000Z",
+   "topics": [
+    "模型与能力"
+   ],
+   "entities": [],
+   "firstSeen": "2026-11-08",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "f0557c6ad3a1641d",
+     "title": "宇树跟红杉都不想自己“努力”了？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8197415.html",
+     "importance": 98,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-08T02:17:16.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "DeepSeek",
+      "宇树科技",
+      "银河通用",
+      "星海图"
+     ],
+     "firstSeen": "2026-11-08",
+     "isNew": true
+    },
+    {
+     "id": "b159345a5aae4561",
+     "title": "收购 EA 后，银湖资本与沙特基金 250 亿美元报价 Unity；超10万款应用已适配iPhone Duo；美国再发生 NVIDIA AI 设备失窃案",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/373649",
+     "importance": 83,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-08T00:57:46.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-08",
+     "isNew": true
+    },
+    {
+     "id": "7d09db571c9d0250",
+     "title": "全球首个通报评议人才培养国际标准发布",
+     "source": "36氪",
+     "region": "CN",
+     "url": "https://36kr.com/newsflashes/4060673695749252?f=rss",
+     "importance": 80,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-08T05:39:47.000Z",
+     "topics": [
+      "产业与生态",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-08",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "ac4680d28f7e056f",
+     "title": "Nvidia-backed Groq seeks $8b valuation in new round",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/nvidiabacked-groq-seeks-8b-valuation",
+     "importance": 94,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-08T01:23:28.000Z",
+     "topics": [
+      "算力与基建",
+      "资本与市场"
+     ],
+     "entities": [
+      "NVIDIA",
+      "Groq"
+     ],
+     "firstSeen": "2026-11-08",
+     "isNew": true
+    },
+    {
+     "id": "8149cc0eacdbffd0",
+     "title": "A cheat sheet of M&As in China",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/visual-story/cheat-sheet-mas-china",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-08T02:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-08",
+     "isNew": true
+    },
+    {
+     "id": "768d781af2c4a8f1",
+     "title": "US Treasury moves to restrict MEXC over alleged $16b flows",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/treasury-moves-restrict-mexc-alleged-16b-flows",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-08T01:02:37.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-08",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "883e7a657abd0e23",
+     "title": "Journify raises $12 million at fourfold valuation increase",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/journify-raises-12-million-fourfold-valuation-increase",
+     "importance": 60,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-07",
+     "isNew": false
+    },
+    {
+     "id": "27151036fd9f2a75",
+     "title": "YouTube allows in-video product sale for viewers in KSA, UAE and Egypt",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/10/youtube-allows-video-product-sale-viewers-ksa-uae-egypt",
+     "importance": 54,
+     "difficulty": "入门",
+     "publishedAt": "2026-10-01T12:00:00.000Z",
+     "topics": [
+      "产品与应用",
+      "产业与生态"
+     ],
+     "entities": [
+      "Amazon"
+     ],
+     "firstSeen": "2026-11-07",
+     "isNew": false
+    },
+    {
+     "id": "e6bc86be22bba5bd",
+     "title": "Syrian foodtech Percent Labs closes seed round at over $1 million valuation",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/syrian-foodtech-percent-labs-closes-seed-round-1-million-valuation",
+     "importance": 53,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-07",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 15,
+   "top": [
+    {
+     "id": "09dbdd9191cdb0f0",
+     "title": "앤트로픽, 클로드로 40년 미스터리 단백질 연구 돌파구…3D 구조 첫 규명",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217145",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-08T12:08:58.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-07",
+     "isNew": false
+    },
+    {
+     "id": "b9ba44cef7dbf961",
+     "title": "AIエージェントの例10選！身近なツールから業務別の動きまで解説",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/11/07/278503/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e4%25be%258b10%25e9%2581%25b8%25ef%25bc%2581%25e8%25ba%25ab%25e8%25bf%2591%25e3%2581%25aa%25e3%2583%2584%25e3%2583%25bc%25e3%2583%25ab%25e3%2581%258b%25e3%2582%2589%25e6%25a5%25ad%25e5%258b%2599%25e5%2588%25a5",
+     "importance": 45,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-06T18:53:48.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-07",
+     "isNew": false
+    },
+    {
+     "id": "fbac8b0fe2cd6dbf",
+     "title": "기후 예측 모델이 놓치고 있는 위험한 사각지대",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ea%b8%b0%ed%9b%84-%ec%98%88%ec%b8%a1-%eb%aa%a8%eb%8d%b8%ec%9d%b4-%eb%86%93%ec%b9%98%ea%b3%a0-%ec%9e%88%eb%8a%94-%ec%9c%84%ed%97%98%ed%95%9c-%ec%82%ac%ea%b0%81%ec%a7%80%eb%8c%80-2/",
+     "importance": 33,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-06T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-07",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "005ad017da75de6a",
+     "title": "UK neobank Monzo reportedly eyeing raise at £7.5bn valuation",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/business/uk-neobank-monzo-reportedly-eyeing-raise-at-7-5bn-valuation",
+     "importance": 47,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-06T08:49:17.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-07",
+     "isNew": false
+    },
+    {
+     "id": "584a0db709a71ad3",
+     "title": "China blocks SoftBank’s $5.4bn ABB robotics unit acquisition",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/business/china-softbank-abb-robotics-japan-data-ai-investment",
+     "importance": 43,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-05T11:15:54.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "软银"
+     ],
+     "firstSeen": "2026-11-07",
+     "isNew": false
+    },
+    {
+     "id": "6d242b31098c7ef5",
+     "title": "€40m in funding to be allocated to 19 higher education institutions",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/careers/funding-allocated-higher-education-institutions-career-research",
+     "importance": 39,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-06T11:32:06.000Z",
+     "topics": [
+      "资本与市场",
+      "政策与治理"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-07",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "c5165264400baca6",
+     "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+     "importance": 80,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-07T22:07:22.000Z",
+     "topics": [
+      "算力与基建",
+      "政策与治理"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-11-08",
+     "isNew": true
+    },
+    {
+     "id": "123e18dcd0930d21",
+     "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+     "importance": 80,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-07T21:17:08.000Z",
+     "topics": [
+      "算力与基建",
+      "政策与治理"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-08",
+     "isNew": true
+    },
+    {
+     "id": "da997d0893c24dbf",
+     "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+     "importance": 68,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-06T22:53:46.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-07",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "5aa95a2dee5efc21",
+     "title": "Artist Bhagya Ajaikumar explains how good curation balances individual expression and collective vision",
+     "source": "YourStory",
+     "region": "OTHER",
+     "url": "https://yourstory.com/2026/11/bhagya-ajaikumar-art-curation-creativity-exhibition-photography",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-08T02:10:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-08",
+     "isNew": true
+    },
+    {
+     "id": "6a450d7aac0b5759",
+     "title": "Pronto’s Second Shift",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/features/prontos-second-shift/",
+     "importance": 66,
+     "difficulty": "高级",
+     "publishedAt": "2026-11-08T05:30:13.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-08",
+     "isNew": true
+    },
+    {
+     "id": "5c80a771d9f73887",
+     "title": "Stockal’s US Trading Row: Missing Consent, A Chinese Microcap, And Unanswered Questions",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/features/stockals-us-trading-row-missing-consent-a-chinese-microcap-and-unanswered-questions/",
+     "importance": 63,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-06T13:17:12.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Apple",
+      "Amazon",
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-07",
+     "isNew": false
+    }
+   ]
+  }
+ ],
+ "overview": "11 月 8 日，共从 26 个信息源抓取 433 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 44 条发布于 24 小时内。其中 55 条是此前未出现过的新增内容，另有 104 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」46 条、「产品与应用」41 条。值得优先关注的几条：「宇树跟红杉都不想自己“努力”了？」（钛媒体）、「收购 EA 后，银湖资本与沙特基金 250 亿美元报价 Unity；超10万款应用已适配iPhone Duo；美国再发生 NVIDIA AI 设备失窃案」（极客公园）、「全球首个通报评议人才培养国际标准发布」（36氪）。"
+}
