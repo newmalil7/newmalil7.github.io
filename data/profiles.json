@@ -1,6 +1,6 @@
 {
  "schema": "ai-horizon/profiles-v1",
- "updatedAt": "2026-11-09T07:18:54.320Z",
+ "updatedAt": "2026-11-09T12:43:38.576Z",
  "selection": {
   "title": "选谁来讲",
   "criteria": [
@@ -12,25 +12,25 @@
  },
  "list": [
   {
-   "id": "auto-suno-2026-11-09",
+   "id": "auto-minimax-2026-11-09",
    "date": "2026-11-09",
    "auto": true,
-   "name": "Suno",
+   "name": "MiniMax",
    "nameZh": "",
    "aliases": [
-    "Suno"
+    "MiniMax"
    ],
-   "tagline": "归档里共 4 条要闻提到它（1 条来自今天，其中 2 条它是标题主角），消息类型集中在 「产品」2、「动态」1、「融资」1，板块以「产品与应用、政策与治理」为主。",
-   "category": "产品与应用 · 政策与治理 · 要闻聚合",
-   "region": "NA",
+   "tagline": "归档里共 17 条要闻提到它（1 条来自今天，其中 10 条它是标题主角），消息类型集中在 「产品」6、「动态」4、「融资」4，板块以「模型与能力、产品与应用」为主。",
+   "category": "模型与能力 · 产品与应用 · 要闻聚合",
+   "region": "CN",
    "numbers": [
     {
      "k": "归档提及",
-     "v": "4 条"
+     "v": "17 条"
     },
     {
      "k": "标题主角",
-     "v": "2 条"
+     "v": "10 条"
     },
     {
      "k": "今日提及",
@@ -38,15 +38,15 @@
     },
     {
      "k": "活跃区间",
-     "v": "2026-09-28 → 2026-11-09"
+     "v": "2026-10-03 → 2026-11-09"
     },
     {
      "k": "来源家数",
-     "v": "2 家"
+     "v": "7 家"
     },
     {
      "k": "主要区域",
-     "v": "🌎 北美"
+     "v": "🇨🇳 中国国内"
     },
     {
      "k": "消息类型",
@@ -58,53 +58,149 @@
     {
      "date": "2026-10-03",
      "tag": "产品",
-     "title": "AI music maker Suno now generates spoken words",
-     "desc": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompte…",
-     "why": "归档里第 2 条「产品」类消息（共 2 条）。",
+     "title": "和 Opus 5.5 同题交卷，MiniMax M3.1 让 Flash 开始超纲了",
+     "desc": "中秋刚过，国庆又到，AI 圈却没有跟着放假。 新模型依然一个接一个地上线。旗舰模型忙着刷新能力上限，主打速度和性价比的模型则在争夺用户的日常工作。不过，随着后者的能力不断提升，两者之间的分工也开始变得模糊。 过去需要请出旗舰模型的任务，如今交给一个名字里带着…",
+     "why": "归档里第 1 条「产品」类消息（共 6 条）。",
      "kind": "news",
      "source": {
-      "name": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability"
+      "name": "爱范儿",
+      "url": "https://www.ifanr.com/1682850?utm_source=rss&utm_medium=rss&utm_campaign="
+     }
+    },
+    {
+     "date": "2026-10-20",
+     "tag": "产品",
+     "title": "MiniMax launches M3.1 Flash model, says it cuts AI agent costs by 70%",
+     "desc": "Chinese artificial intelligence developer MiniMax Group Inc. today released M3.1 Flash, a faster and cheaper update to the M3 larg…",
+     "why": "归档里第 3 条「产品」类消息（共 6 条）。",
+     "kind": "news",
+     "source": {
+      "name": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/10/19/minimax-launches-m3-1-flash-model-says-it-cuts-ai-agent-costs-by-70/"
+     }
+    },
+    {
+     "date": "2026-10-20",
+     "tag": "产品",
+     "title": "MiniMax launches M3.1 Flash for coding, agentic tasks",
+     "desc": "MiniMax said Space Bunny, which processed 200T+ tokens anonymously, was an early M3.1 Flash.",
+     "why": "归档里第 4 条「产品」类消息（共 6 条）。",
+     "kind": "news",
+     "source": {
+      "name": "Tech in Asia",
+      "url": "https://www.techinasia.com/news/minimax-launches-m31-flash-coding-agentic-tasks"
+     }
+    },
+    {
+     "date": "2026-10-21",
+     "tag": "动态",
+     "title": "比 Opus 5.5 便宜 88 倍！MiniMax M3.1 Flash “杀“回王座，顺手拿了个 Agent 国模第一",
+     "desc": "点击查看原文>",
+     "why": "归档里第 1 条「动态」类消息（共 4 条）。",
+     "kind": "news",
+     "source": {
+      "name": "InfoQ 中国",
+      "url": "https://www.infoq.cn/article/7Twa7KBWIzi8JGOdVwCK?utm_source=rss&utm_medium=article"
+     }
+    },
+    {
+     "date": "2026-10-23",
+     "tag": "融资",
+     "title": "MiniMax shares fall below IPO price as AI competition grows",
+     "desc": "The stock fell to HK$159.3 (US$20), below its HK$165 (US$21) offering price, wiping out all gains since its trading debut.",
+     "why": "归档里第 2 条「融资」类消息（共 4 条）。",
+     "kind": "news",
+     "source": {
+      "name": "Tech in Asia",
+      "url": "https://www.techinasia.com/news/minimax-shares-fall-below-ipo-price-as-ai-competition-grows"
+     }
+    },
+    {
+     "date": "2026-10-24",
+     "tag": "动态",
+     "title": "DeepSeek, MiniMax get China’s global AI approval: report",
+     "desc": "China’s commerce ministry said most AI technologies would remain exportable.",
+     "why": "归档里第 2 条「动态」类消息（共 4 条）。",
+     "kind": "news",
+     "source": {
+      "name": "Tech in Asia",
+      "url": "https://www.techinasia.com/news/deepseek-minimax-chinas-global-ai-approval-report"
+     }
+    },
+    {
+     "date": "2026-10-24",
+     "tag": "融资",
+     "title": "MiniMax shares fall below IPO price as AI competition grows",
+     "desc": "The stock fell to HK$159.3 (US$20), below its HK$165 (US$21) offering price, wiping out all gains since its trading debut.",
+     "why": "归档里第 3 条「融资」类消息（共 4 条）。",
+     "kind": "news",
+     "source": {
+      "name": "Tech in Asia",
+      "url": "https://www.techinasia.com/news/minimax-shares-fall-below-ipo-price-as-ai-competition-grows"
+     }
+    },
+    {
+     "date": "2026-10-25",
+     "tag": "动态",
+     "title": "DeepSeek, MiniMax get China’s global AI approval: report",
+     "desc": "China’s commerce ministry said most AI technologies would remain exportable.",
+     "why": "归档里第 3 条「动态」类消息（共 4 条）。",
+     "kind": "news",
+     "source": {
+      "name": "Tech in Asia",
+      "url": "https://www.techinasia.com/news/deepseek-minimax-chinas-global-ai-approval-report"
+     }
+    },
+    {
+     "date": "2026-10-30",
+     "tag": "产品",
+     "title": "MiniMax H3 开源生态持续拓展，英伟达团队开源 4K 视频增强方案",
+     "desc": "近日，由英伟达与麻省理工学院研究人员组成的 Efficient-Large-Model 团队，在 Hugging Face 发布视频增强项目 Open-H3-Regenerate-2K 的模型权重，配套推理代码已在 NVlabs/Sana 仓库开放。该方案基于…",
+     "why": "归档里第 6 条「产品」类消息（共 6 条）。",
+     "kind": "news",
+     "source": {
+      "name": "雷峰网",
+      "url": "https://www.leiphone.com/category/industrynews/eJ3swacisd2iTByo.html"
      }
     },
     {
      "date": "2026-11-09",
      "tag": "动态",
-     "title": "Elvis and Eminem rights holders are suing Suno",
-     "desc": "Suno is facing yet another pair of lawsuits . A group of rights holders of Elvis Presley's music and the publisher of some of Emin…",
-     "why": "",
+     "title": "MiniMax affiliate forms AI software unit in China’s Zhuhai",
+     "desc": "Its business scope includes AI application software, AI basic software, and AI theory and algorithm software development.",
+     "why": "归档里第 4 条「动态」类消息（共 4 条）。",
      "kind": "news",
      "source": {
-      "name": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+      "name": "Tech in Asia",
+      "url": "https://www.techinasia.com/news/minimax-affiliate-forms-ai-software-unit-chinas-zhuhai"
      }
     }
    ],
    "patternNote": "这一页由规则层自动聚合：只陈述「谁、什么时候、因为什么上了要闻」，不做主观判断，金额、轮次、投资方等没有来源支撑的字段一律不填。选择标准是当天被提及最多、且不在大厂名单里的公司，近 7 天内剖析过的不重复选。",
    "related": [
     {
-     "name": "Anthropic",
-     "n": 1
-    },
-    {
      "name": "DeepSeek",
-     "n": 1
+     "n": 6
     },
     {
-     "name": "Google",
-     "n": 1
+     "name": "字节跳动",
+     "n": 4
     },
     {
      "name": "NVIDIA",
-     "n": 1
+     "n": 3
     },
     {
-     "name": "OpenAI",
-     "n": 1
+     "name": "阿里巴巴",
+     "n": 3
+    },
+    {
+     "name": "Anthropic",
+     "n": 2
     },
     {
      "name": "华为",
-     "n": 1
+     "n": 2
     }
    ],
    "terms": []
