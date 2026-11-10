@@ -1,0 +1,686 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-11-10",
+ "generatedAt": "2026-11-10T07:49:44.400Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 431,
+  "published": 159,
+  "newCount": 104,
+  "repeatCount": 55,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 15,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 26,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 116,
+  "withinFresh": 122,
+  "freshHours": 72,
+  "monthPrecision": 20,
+  "undated": 0,
+  "staleDropped": 29,
+  "newestAt": "2026-11-10T16:47:29.000Z"
+ },
+ "themes": [
+  {
+   "name": "产品与应用",
+   "n": 45
+  },
+  {
+   "name": "资本与市场",
+   "n": 39
+  },
+  {
+   "name": "算力与基建",
+   "n": 27
+  },
+  {
+   "name": "模型与能力",
+   "n": 18
+  },
+  {
+   "name": "产业与生态",
+   "n": 16
+  },
+  {
+   "name": "政策与治理",
+   "n": 15
+  }
+ ],
+ "entities": [
+  {
+   "name": "NVIDIA",
+   "n": 20
+  },
+  {
+   "name": "Anthropic",
+   "n": 12
+  },
+  {
+   "name": "Arm",
+   "n": 7
+  },
+  {
+   "name": "Google",
+   "n": 6
+  },
+  {
+   "name": "Meta",
+   "n": 5
+  },
+  {
+   "name": "OpenAI",
+   "n": 5
+  },
+  {
+   "name": "软银",
+   "n": 4
+  },
+  {
+   "name": "Microsoft",
+   "n": 3
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "a34d41c28b8ed97e",
+   "title": "上海戴家小妹，31年前创立的公司市值1.8万亿",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8199571.html",
+   "importance": 97,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-10T05:40:49.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "NVIDIA",
+    "xAI"
+   ],
+   "firstSeen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "id": "fb71cbf41099042a",
+   "title": "早报｜苹果国行AI备案新增iPad和笔记本/Claude Fable 5.2发布，价格降20%/曝玛莎拉蒂拟与尊界合作，新车将由江淮生产",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1688654?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-10T00:47:46.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "Anthropic",
+    "Apple",
+    "NVIDIA",
+    "字节跳动"
+   ],
+   "firstSeen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "id": "a88b778ec710a5e1",
+   "title": "41年爱妻人设崩塌！黄仁勋一夜损失3万亿，或被英伟达免职；曝一汽大众取消两年「年终奖」，有人称合计约20万；豆包新图像模型价格下降",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/zaobao/zcxkdPkvpprE36Zv.html",
+   "importance": 92,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-10T02:23:00.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "NVIDIA",
+    "阿里巴巴"
+   ],
+   "firstSeen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "id": "df3a41297899f07d",
+   "title": "Google unveils 2 new AI chips to rival Nvidia",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/google-unveils-2-ai-chips-rival-nvidia",
+   "importance": 92,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-10T01:40:44.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "Google",
+    "NVIDIA",
+    "AMD"
+   ],
+   "firstSeen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "id": "411071bc0ebc522e",
+   "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+   "importance": 92,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-09T20:09:06.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "Anthropic",
+    "NVIDIA",
+    "ElevenLabs"
+   ],
+   "firstSeen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "id": "c9ce79ee244cc858",
+   "title": "美股AI巨震，如何把握港A的AI产业链分化机遇？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8198218.html",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-10T03:16:02.000Z",
+   "topics": [
+    "算力与基建",
+    "资本与市场"
+   ],
+   "entities": [
+    "NVIDIA",
+    "AMD",
+    "Arm"
+   ],
+   "firstSeen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "id": "cc4173fcaefc6b89",
+   "title": "Anthropic IPO倒计时：最早11月16日上市",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8199231.html",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-10T03:15:00.000Z",
+   "topics": [
+    "资本与市场",
+    "政策与治理"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-11-10",
+   "isNew": true
+  },
+  {
+   "id": "7fe08699bac1e0e5",
+   "title": "成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5",
+   "source": "InfoQ 中国",
+   "region": "CN",
+   "url": "https://www.infoq.cn/article/Ou4l4aD7zvUzXWXsWJfY?utm_source=rss&utm_medium=article",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-10T15:22:09.000Z",
+   "topics": [
+    "模型与能力"
+   ],
+   "entities": [
+    "Meta"
+   ],
+   "firstSeen": "2026-11-10",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "a34d41c28b8ed97e",
+     "title": "上海戴家小妹，31年前创立的公司市值1.8万亿",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8199571.html",
+     "importance": 97,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-10T05:40:49.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA",
+      "xAI"
+     ],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    },
+    {
+     "id": "fb71cbf41099042a",
+     "title": "早报｜苹果国行AI备案新增iPad和笔记本/Claude Fable 5.2发布，价格降20%/曝玛莎拉蒂拟与尊界合作，新车将由江淮生产",
+     "source": "爱范儿",
+     "region": "CN",
+     "url": "https://www.ifanr.com/1688654?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-10T00:47:46.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "Anthropic",
+      "Apple",
+      "NVIDIA",
+      "字节跳动"
+     ],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    },
+    {
+     "id": "a88b778ec710a5e1",
+     "title": "41年爱妻人设崩塌！黄仁勋一夜损失3万亿，或被英伟达免职；曝一汽大众取消两年「年终奖」，有人称合计约20万；豆包新图像模型价格下降",
+     "source": "雷峰网",
+     "region": "CN",
+     "url": "https://www.leiphone.com/category/zaobao/zcxkdPkvpprE36Zv.html",
+     "importance": 92,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-10T02:23:00.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "NVIDIA",
+      "阿里巴巴"
+     ],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "df3a41297899f07d",
+     "title": "Google unveils 2 new AI chips to rival Nvidia",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/google-unveils-2-ai-chips-rival-nvidia",
+     "importance": 92,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-10T01:40:44.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Google",
+      "NVIDIA",
+      "AMD"
+     ],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    },
+    {
+     "id": "df8216c25357048c",
+     "title": "Google.org grants $2.3m for Indian AI disease-screening app",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/googleorg-grants-23m-indian-ai-diseasescreening-app",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-10T07:35:33.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    },
+    {
+     "id": "421cb64569316529",
+     "title": "ByteDance launches Seedream 5.5 with 100-round image editing",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/bytedance-launches-seedream-55-100round-image-editing",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-10T07:22:37.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "字节跳动"
+     ],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "883e7a657abd0e23",
+     "title": "Journify raises $12 million at fourfold valuation increase",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/journify-raises-12-million-fourfold-valuation-increase",
+     "importance": 60,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-09",
+     "isNew": false
+    },
+    {
+     "id": "e651c97b2986a703",
+     "title": "UAE's Soter Insure secures fresh Series B investment from SC Ventures, SBI Group",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/uae-soter-insure-secures-fresh-series-b-investment-sc-ventures-sbi-group",
+     "importance": 58,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-11-09",
+     "isNew": false
+    },
+    {
+     "id": "e40a8a234b29d4ad",
+     "title": "Alphabet Group confirms their stake in Qualcomm",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/alphabet-group-confirms-their-stake-in-qualcomm/",
+     "importance": 56,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-09T09:22:14.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [
+      "Google",
+      "高通"
+     ],
+     "firstSeen": "2026-11-09",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 15,
+   "top": [
+    {
+     "id": "cdd759f209a0e0e0",
+     "title": "휴머노이드 로봇에 집 청소 맡겨보니…MIT 테크놀로지 리뷰 기자가 경험한 미래",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ed%9c%b4%eb%a8%b8%eb%85%b8%ec%9d%b4%eb%93%9c-%eb%a1%9c%eb%b4%87%ec%9c%bc%eb%a1%9c-%ec%a7%91-%ec%b2%ad%ec%86%8c%ed%95%b4%eb%b3%b8-%ec%86%94%ec%a7%81%ed%95%9c-%ed%9b%84%ea%b8%b0/",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-09T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    },
+    {
+     "id": "ae82eb068e101ed9",
+     "title": "우주 인프라 시대…한국 민간 로켓은 틈새 발사 시장에서 기회를 찾는다",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ec%9a%b0%ec%a3%bc-%ec%9d%b8%ed%94%84%eb%9d%bc-%ec%8b%9c%eb%8c%80%ed%95%9c%ea%b5%ad-%eb%af%bc%ea%b0%84-%eb%a1%9c%ec%bc%93%ec%9d%80-%ed%8b%88%ec%83%88-%eb%b0%9c%ec%82%ac-%ec%8b%9c%ec%9e%a5/",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-09T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    },
+    {
+     "id": "1a41d32d1aff202c",
+     "title": "디즈니, 어도비와 전용 AI 모델 공동 개발…영화·테마파크로 확대",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217221",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-10T16:47:29.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-09",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "a13fbe9221460630",
+     "title": "AI accounting startup Sumary raises $25m seed",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/sumary-seed-fundraise/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-10T06:00:22.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    },
+    {
+     "id": "3b1fb3a9eac96e06",
+     "title": "Gabriel Attal: the French presidential candidate wooing the tech world",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/gabriel-attal-presidential-candidate-french-tech/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-10T05:00:52.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    },
+    {
+     "id": "bb64b933e2880cbb",
+     "title": "10 private markets startups to watch, according to VCs",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/private-markets-startups-to-watch/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-10T05:00:05.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "411071bc0ebc522e",
+     "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+     "importance": 92,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-09T20:09:06.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Anthropic",
+      "NVIDIA",
+      "ElevenLabs"
+     ],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    },
+    {
+     "id": "378e1096045d2bd4",
+     "title": "Anthropic reportedly plans to move forward with IPO plans",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-10T01:27:12.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    },
+    {
+     "id": "495db5f11afbdad4",
+     "title": "Otter AI can now follow conversations across 30+ languages",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-10T07:00:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "9688df509ca6c916",
+     "title": "SEBI Clears MakeMyTrip’s India IPO",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/sebi-clears-makemytrips-india-ipo/",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-10T06:07:44.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    },
+    {
+     "id": "fb38f08cb6fc7e2a",
+     "title": "InMobi Secures Naming Rights For Bengaluru’s Ibbaluru Metro Station For ₹65 Cr",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/inmobi-secures-naming-rights-for-bengalurus-ibbaluru-metro-station-for-%e2%82%b965-cr/",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-10T06:37:10.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    },
+    {
+     "id": "0e83026f27a23df9",
+     "title": "Sarvam Ropes In Google Cloud India MD Sashikumar Sreedharan As President & CBO",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/sarvam-ropes-in-google-cloud-india-md-sashikumar-sreedharan-as-president-cbo/",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-10T07:00:39.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-11-10",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "11 月 10 日，共从 26 个信息源抓取 431 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 116 条发布于 24 小时内。其中 104 条是此前未出现过的新增内容，另有 55 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」45 条、「资本与市场」39 条。值得优先关注的几条：「上海戴家小妹，31年前创立的公司市值1.8万亿」（钛媒体）、「早报｜苹果国行AI备案新增iPad和笔记本/Claude Fable 5.2发布，价格降20%/曝玛莎拉蒂拟与尊界合作，新车将由江淮生产」（爱范儿）、「41年爱妻人设崩塌！黄仁勋一夜损失3万亿，或被英伟达免职；曝一汽大众取消两年「年终奖」，有人称合计约20万；豆包新图像模型价格下降」（雷峰网）。"
+}
