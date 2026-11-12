@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-12",
- "generatedAt": "2026-11-12T07:48:22.365Z",
+ "generatedAt": "2026-11-12T12:26:55.640Z",
  "mode": "rule",
  "counts": {
-  "crawled": 436,
+  "crawled": 432,
   "published": 159,
-  "newCount": 112,
-  "repeatCount": 47,
+  "newCount": 123,
+  "repeatCount": 36,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,26 +22,26 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 118,
+  "within24h": 121,
   "withinFresh": 131,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
-  "staleDropped": 23,
-  "newestAt": "2026-11-12T16:40:22.000Z"
+  "staleDropped": 26,
+  "newestAt": "2026-11-12T18:00:53.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 50
+   "n": 48
   },
   {
    "name": "算力与基建",
-   "n": 38
+   "n": 41
   },
   {
    "name": "产品与应用",
-   "n": 34
+   "n": 37
   },
   {
    "name": "模型与能力",
@@ -49,48 +49,132 @@
   },
   {
    "name": "产业与生态",
-   "n": 20
+   "n": 17
   },
   {
    "name": "政策与治理",
-   "n": 16
+   "n": 11
   }
  ],
  "entities": [
   {
    "name": "NVIDIA",
-   "n": 27
+   "n": 24
   },
   {
    "name": "Anthropic",
-   "n": 10
+   "n": 9
   },
   {
-   "name": "字节跳动",
-   "n": 7
+   "name": "阿里巴巴",
+   "n": 8
   },
   {
    "name": "Google",
    "n": 7
   },
   {
-   "name": "Arm",
-   "n": 5
+   "name": "字节跳动",
+   "n": 6
   },
   {
-   "name": "Meta",
-   "n": 4
-  },
-  {
-   "name": "腾讯",
-   "n": 4
+   "name": "百度",
+   "n": 6
   },
   {
    "name": "OpenAI",
-   "n": 4
+   "n": 5
+  },
+  {
+   "name": "Arm",
+   "n": 5
   }
  ],
  "topOverall": [
+  {
+   "id": "5f9265c62dc866e5",
+   "title": "BAT新旗舰杀回第一阵营，压力来到字节这边",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8203160.html",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-12T10:36:08.000Z",
+   "topics": [
+    "模型与能力",
+    "产业与生态"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "字节跳动",
+    "百度"
+   ],
+   "firstSeen": "2026-11-12",
+   "isNew": true
+  },
+  {
+   "id": "0845cbe2a5f647c7",
+   "title": "两城双子星，正在完成中国AI产业闭环。",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8202784.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-12T10:22:22.000Z",
+   "topics": [
+    "模型与能力",
+    "资本与市场"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "firstSeen": "2026-11-12",
+   "isNew": true
+  },
+  {
+   "id": "90872c1d9344f9f5",
+   "title": "聊聊中国版MUSE：蚂蚁灵光2.0，支付宝，超级App的生态优势与挑战",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8203056.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-12T09:42:22.000Z",
+   "topics": [
+    "产品与应用",
+    "产业与生态"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "firstSeen": "2026-11-12",
+   "isNew": true
+  },
+  {
+   "id": "1cf2fc607e2eebbb",
+   "title": "想做AI视频，不知道用哪款模型？我们帮你测完了",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8202837.html",
+   "importance": 98,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-12T08:41:39.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "百度",
+    "生数科技"
+   ],
+   "firstSeen": "2026-11-12",
+   "isNew": true
+  },
   {
    "id": "8c456fc9e957e74f",
    "title": "突发！黄仁勋被曝与高管有新婚外情，英伟达启动罢免，猎头已物色其接班人；百度发布文心全新开源模型；余承东官宣华为子品牌「星芒」",
@@ -114,23 +198,20 @@
    "isNew": true
   },
   {
-   "id": "3df857ce0da92187",
-   "title": "早报｜苹果支持社区将关停/曝英伟达董事会考虑罢免黄仁勋/余承东官宣华为子品牌OSTA星芒",
-   "source": "爱范儿",
+   "id": "3dc1779e17b46ec4",
+   "title": "懂组织、高可靠、自进化，库库企业版如何覆盖超60万组织？",
+   "source": "雷峰网",
    "region": "CN",
-   "url": "https://www.ifanr.com/1689051?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "importance": 95,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-12T00:24:22.000Z",
+   "url": "https://www.leiphone.com/category/industrynews/Nzg2vNxG99TT4bob.html",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-12T07:57:00.000Z",
    "topics": [
-    "资本与市场",
-    "算力与基建"
+    "产品与应用",
+    "政策与治理"
    ],
    "entities": [
-    "Anthropic",
-    "NVIDIA",
-    "腾讯",
-    "字节跳动"
+    "百度"
    ],
    "firstSeen": "2026-11-12",
    "isNew": true
@@ -158,67 +239,6 @@
    "isNew": true
   },
   {
-   "id": "c7c9fbb7634398e6",
-   "title": "张一鸣再发声谈字节AI：追平OpenAI与Anthropic“最早2029年或2030年”",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4066443364734084?f=rss",
-   "importance": 91,
-   "difficulty": "高级",
-   "publishedAt": "2026-11-12T07:20:06.000Z",
-   "topics": [
-    "模型与能力",
-    "产业与生态"
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic",
-    "字节跳动"
-   ],
-   "firstSeen": "2026-11-12",
-   "isNew": true
-  },
-  {
-   "id": "57b5ecb88d4fb60c",
-   "title": "联想为何要做词元生意？｜最前线",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/p/4066221891196036?f=rss",
-   "importance": 91,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-12T03:35:37.000Z",
-   "topics": [
-    "算力与基建",
-    "模型与能力"
-   ],
-   "entities": [
-    "NVIDIA"
-   ],
-   "firstSeen": "2026-11-12",
-   "isNew": true
-  },
-  {
-   "id": "6418712a81485577",
-   "title": "36氪首发丨海光创始核心技术团队创业AGI架构芯片，获清华系等基金数亿投资",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/p/4066136377873286?f=rss",
-   "importance": 91,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-12T02:08:06.000Z",
-   "topics": [
-    "资本与市场",
-    "算力与基建"
-   ],
-   "entities": [
-    "阿里巴巴",
-    "字节跳动",
-    "百度"
-   ],
-   "firstSeen": "2026-11-12",
-   "isNew": true
-  },
-  {
    "id": "50d6fa5d9f76bf23",
    "title": "黄仁勋被指控涉嫌欺诈股东！若离婚，妻子或可分走5000亿元；女子称90分钟被星巴克提醒下单5次：让她倍感困扰；京东两大事业群正式成立",
    "source": "雷峰网",
@@ -239,27 +259,6 @@
    ],
    "firstSeen": "2026-11-12",
    "isNew": true
-  },
-  {
-   "id": "3fd44145be6666c2",
-   "title": "8点1氪丨黄仁勋已回英伟达上班，就最近的风波向员工致歉；贾国龙质押西贝全部股份；Anthropic IPO获数倍超额认购",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/p/4066019497464960?f=rss",
-   "importance": 91,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-12T00:12:23.000Z",
-   "topics": [
-    "资本与市场",
-    "算力与基建"
-   ],
-   "entities": [
-    "Anthropic",
-    "NVIDIA",
-    "阿里巴巴"
-   ],
-   "firstSeen": "2026-11-12",
-   "isNew": true
   }
  ],
  "regions": [
@@ -271,21 +270,21 @@
    "count": 24,
    "top": [
     {
-     "id": "8c456fc9e957e74f",
-     "title": "突发！黄仁勋被曝与高管有新婚外情，英伟达启动罢免，猎头已物色其接班人；百度发布文心全新开源模型；余承东官宣华为子品牌「星芒」",
-     "source": "雷峰网",
+     "id": "5f9265c62dc866e5",
+     "title": "BAT新旗舰杀回第一阵营，压力来到字节这边",
+     "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.leiphone.com/category/zaobao/eX3oZsWdbpVbMcto.html",
-     "importance": 98,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-12T01:23:00.000Z",
+     "url": "https://www.tmtpost.com/8203160.html",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-12T10:36:08.000Z",
      "topics": [
-      "产品与应用",
-      "模型与能力"
+      "模型与能力",
+      "产业与生态"
      ],
      "entities": [
-      "Meta",
-      "NVIDIA",
+      "阿里巴巴",
+      "腾讯",
       "字节跳动",
       "百度"
      ],
@@ -293,45 +292,41 @@
      "isNew": true
     },
     {
-     "id": "3df857ce0da92187",
-     "title": "早报｜苹果支持社区将关停/曝英伟达董事会考虑罢免黄仁勋/余承东官宣华为子品牌OSTA星芒",
-     "source": "爱范儿",
+     "id": "0845cbe2a5f647c7",
+     "title": "两城双子星，正在完成中国AI产业闭环。",
+     "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.ifanr.com/1689051?utm_source=rss&utm_medium=rss&utm_campaign=",
-     "importance": 95,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-12T00:24:22.000Z",
+     "url": "https://www.tmtpost.com/8202784.html",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-12T10:22:22.000Z",
      "topics": [
-      "资本与市场",
-      "算力与基建"
+      "模型与能力",
+      "资本与市场"
      ],
      "entities": [
-      "Anthropic",
-      "NVIDIA",
-      "腾讯",
-      "字节跳动"
+      "OpenAI",
+      "Anthropic"
      ],
      "firstSeen": "2026-11-12",
      "isNew": true
     },
     {
-     "id": "813bdd241cc88105",
-     "title": "苹果突然永久关闭官方「支持社区」；字节即将推出个人 AI 助手；华为新品牌星芒 OSTA 曝光 | 极客早知道",
-     "source": "极客公园",
+     "id": "90872c1d9344f9f5",
+     "title": "聊聊中国版MUSE：蚂蚁灵光2.0，支付宝，超级App的生态优势与挑战",
+     "source": "钛媒体",
      "region": "CN",
-     "url": "http://www.geekpark.net/news/373839",
-     "importance": 94,
+     "url": "https://www.tmtpost.com/8203056.html",
+     "importance": 99,
      "difficulty": "入门",
-     "publishedAt": "2026-11-12T00:39:27.000Z",
+     "publishedAt": "2026-11-12T09:42:22.000Z",
      "topics": [
       "产品与应用",
       "产业与生态"
      ],
      "entities": [
-      "Meta",
-      "Apple",
-      "字节跳动",
-      "华为"
+      "OpenAI",
+      "Anthropic"
      ],
      "firstSeen": "2026-11-12",
      "isNew": true
@@ -346,33 +341,14 @@
    "count": 24,
    "top": [
     {
-     "id": "946270f76accb3a0",
-     "title": "Nvidia, autonomous driving startup Autobrains expand AI tie-up",
+     "id": "71dccf99a7e3ed48",
+     "title": "Naver signs $1.5b AI infrastructure deal, seeks Nvidia chips",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/nvidia-autonomous-driving-startup-autobrains-expand-ai-tie-up",
+     "url": "https://www.techinasia.com/news/naver-signs-1-5b-ai-infrastructure-deal-seeks-nvidia-chips",
      "importance": 84,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-12T03:34:05.000Z",
-     "topics": [
-      "算力与基建",
-      "产品与应用"
-     ],
-     "entities": [
-      "NVIDIA"
-     ],
-     "firstSeen": "2026-11-12",
-     "isNew": true
-    },
-    {
-     "id": "1ceb437ad3583ae4",
-     "title": "Silicon Valley backs Nvidia CEO Jensen Huang after ouster report",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/silicon-valley-backs-nvidia-ceo-jensen-huang-after-ouster-report",
-     "importance": 84,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-12T02:54:11.000Z",
+     "publishedAt": "2026-11-12T09:36:34.000Z",
      "topics": [
       "算力与基建"
      ],
@@ -383,20 +359,36 @@
      "isNew": true
     },
     {
-     "id": "075b7bfe5504692f",
-     "title": "Japanese cybersecurity startup Tempura joins Nvidia Inception",
+     "id": "7ecac364e0955903",
+     "title": "Nvidia shares fall 8% on reports of Huang’s possible exit",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/japanese-cybersecurity-startup-tempura-joins-nvidia-inception",
+     "url": "https://www.techinasia.com/news/nvidia-shares-fall-8-reports-huangs-exit",
      "importance": 84,
-     "difficulty": "高级",
-     "publishedAt": "2026-11-12T02:07:32.000Z",
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-12T01:04:46.000Z",
      "topics": [
       "算力与基建"
      ],
      "entities": [
       "NVIDIA"
      ],
+     "firstSeen": "2026-11-12",
+     "isNew": true
+    },
+    {
+     "id": "2fcbf772a4974b69",
+     "title": "Indonesia’s top-funded tech companies in the last decade",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/visual-story/indonesias-topfunded-tech-companies-decade",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-12T07:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
      "firstSeen": "2026-11-12",
      "isNew": true
     }
@@ -409,6 +401,41 @@
    "flag": "🕌",
    "count": 24,
    "top": [
+    {
+     "id": "df2846013fb2bd71",
+     "title": "Ring Security launches a robotics division",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/ring-security-launches-a-robotics-division/",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-12T10:34:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Amazon"
+     ],
+     "firstSeen": "2026-11-12",
+     "isNew": true
+    },
+    {
+     "id": "265b5c16abf93464",
+     "title": "HUMAIN partners with VUZ to advance a new generation of immersive AI streaming and learning by launching HUMAIN Plus",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/channel/humain-partners-with-vuz-to-advance-a-new-generation-of-immersive-ai-streaming-and-learning-by-launching-humain-plus/",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-12T11:47:40.000Z",
+     "topics": [
+      "产业与生态",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-12",
+     "isNew": true
+    },
     {
      "id": "fa094c468ed12a6e",
      "title": "CE-Ventures backs UK's Oyster Therapeutics in $60 million Series A round",
@@ -426,39 +453,6 @@
      ],
      "firstSeen": "2026-11-12",
      "isNew": true
-    },
-    {
-     "id": "8e0328e7b352026f",
-     "title": "SUSE solidifies position as platform for AI workloads",
-     "source": "TahawulTech",
-     "region": "ME",
-     "url": "https://www.tahawultech.com/industry/technology/suse-solidifies-position-as-platform-for-ai-workloads/",
-     "importance": 69,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-12T07:37:05.000Z",
-     "topics": [
-      "政策与治理"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-12",
-     "isNew": true
-    },
-    {
-     "id": "0a45436219de2b1c",
-     "title": "OmniOps unveils Bunyan Inference Hub to simplify AI deployment in Saudi Arabia",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/omniops-unveils-bunyan-inference-hub-simplify-ai-deployment-saudi-arabia",
-     "importance": 64,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "模型与能力",
-      "产品与应用"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-12",
-     "isNew": true
     }
    ]
   },
@@ -470,16 +464,16 @@
    "count": 15,
    "top": [
     {
-     "id": "f05fe0790e96b0f2",
-     "title": "중국 AI주 급락 속 알리바바, 반도체 자회사 'T-헤드' 홍콩 상장 추진",
+     "id": "ff52d21fe6c4ebb4",
+     "title": "메타, AI 데이터 처리 최대 45배 빠르게 하는 'e-민즈' 공개",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=217335",
-     "importance": 66,
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217327",
+     "importance": 62,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-12T16:40:22.000Z",
+     "publishedAt": "2026-11-12T18:00:53.000Z",
      "topics": [
-      "资本与市场"
+      "算力与基建"
      ],
      "entities": [],
      "firstSeen": "2026-11-11",
@@ -491,7 +485,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%84%bc%ed%84%b0%ec%97%90-%eb%8c%80%ed%95%9c-%eb%b0%98%eb%b0%9c-%ea%b2%b0%ea%b5%ad-%ec%a0%84%eb%a0%a5-%eb%95%8c%eb%ac%b8%ec%9d%b8%ea%b0%80/",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-11-11T21:00:00.000Z",
      "topics": [],
@@ -523,12 +517,29 @@
    "count": 24,
    "top": [
     {
+     "id": "a2607782864dd959",
+     "title": "Drone startup Uforce raises $700m backed by Valor Equity Partners, UK National Wealth Fund",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/drone-startup-uforce-fundraise-uk-national-wealth-fund-scoop/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-12T10:10:54.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-12",
+     "isNew": true
+    },
+    {
      "id": "fd3ac349e32e2f07",
      "title": "European chips funding almost quadruples as investors back Nvidia’s inference challengers",
      "source": "Sifted",
      "region": "EU",
      "url": "https://sifted.eu/articles/european-chips-funding-almost-quadruples-as-investors-back-nvidias-inference-challengers/",
-     "importance": 84,
+     "importance": 80,
      "difficulty": "进阶",
      "publishedAt": "2026-11-12T05:00:38.000Z",
      "topics": [
@@ -542,36 +553,18 @@
      "isNew": true
     },
     {
-     "id": "83be4baded6d422e",
-     "title": "Exclusive: Orakl Oncology raises $34m to test cancer drugs on ‘virtual patients’",
+     "id": "b2b1b4e50b4a0596",
+     "title": "Accel leads $30m Series A for spatial AI defence startup SE3",
      "source": "Sifted",
      "region": "EU",
-     "url": "https://sifted.eu/articles/exclusive-orakl-oncology-fundraise/",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-12T05:00:39.000Z",
+     "url": "https://sifted.eu/articles/accel-30m-spatial-ai-defence-startup-se3/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-12T09:14:59.000Z",
      "topics": [
       "资本与市场"
      ],
      "entities": [],
-     "firstSeen": "2026-11-12",
-     "isNew": true
-    },
-    {
-     "id": "d51d9145b02f2051",
-     "title": "Exclusive: Nvidia and Unity join Emulate’s $700m fundraise",
-     "source": "Sifted",
-     "region": "EU",
-     "url": "https://sifted.eu/articles/exclusive-unity-nvidia-emulate/",
-     "importance": 75,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-11T13:40:55.000Z",
-     "topics": [
-      "算力与基建"
-     ],
-     "entities": [
-      "NVIDIA"
-     ],
      "firstSeen": "2026-11-12",
      "isNew": true
     }
@@ -605,20 +598,18 @@
      "isNew": true
     },
     {
-     "id": "ca5c1c49112fe623",
-     "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
-     "source": "TechCrunch AI",
+     "id": "b770a0f34e2647fd",
+     "title": "Holiday Extras is rethinking what it can build with Codex",
+     "source": "OpenAI 官方",
      "region": "NA",
-     "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-     "importance": 84,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-12T03:13:10.000Z",
+     "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-12T09:30:00.000Z",
      "topics": [
-      "算力与基建"
+      "产品与应用"
      ],
-     "entities": [
-      "NVIDIA"
-     ],
+     "entities": [],
      "firstSeen": "2026-11-12",
      "isNew": true
     },
@@ -651,6 +642,22 @@
    "count": 24,
    "top": [
     {
+     "id": "d64964b1c81a28f9",
+     "title": "Exclusive: Sofina To Lead PlatinumRx’s $32 Mn Funding At $200 Mn Valuation",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/sofina-to-lead-platinumrxs-32-mn-funding-at-200-mn-valuation/",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-12T11:46:26.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-12",
+     "isNew": true
+    },
+    {
      "id": "9f736ec371a44c62",
      "title": "CCPA Fines Ola ₹10 Lakh For Advance Tipping Prompts",
      "source": "Inc42",
@@ -667,40 +674,26 @@
      "isNew": true
     },
     {
-     "id": "c629597d2159929e",
-     "title": "GoKwik’s ESOP Twist, New CEO At Unacademy & More",
-     "source": "Inc42",
+     "id": "18519aac81410de4",
+     "title": "Google’s November Pixel Drop brings new Gemini features to 23 Pixel devices",
+     "source": "Techloy",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/gokwiks-esop-twist-new-ceo-at-unacademy-more/",
+     "url": "https://www.techloy.com/november-pixel-drop-android-17-qpr2/",
      "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-12T02:30:11.000Z",
+     "difficulty": "入门",
+     "publishedAt": "2026-11-12T11:50:24.000Z",
      "topics": [
-      "政策与治理",
-      "产业与生态"
+      "模型与能力",
+      "产品与应用"
      ],
-     "entities": [],
-     "firstSeen": "2026-11-12",
-     "isNew": true
-    },
-    {
-     "id": "a018e17ea3e3dfd6",
-     "title": "Kunal Shah’s big plans for WhatsApp; Gaurav Munjal steps down as Unacademy CEO",
-     "source": "YourStory",
-     "region": "OTHER",
-     "url": "https://yourstory.com/2026/11/kunal-shah-plans-for-whatsapp-gaurav-munjal-steps-down-unacademy-ceo",
-     "importance": 77,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-12T02:00:00.000Z",
-     "topics": [
-      "资本与市场"
+     "entities": [
+      "Google"
      ],
-     "entities": [],
      "firstSeen": "2026-11-12",
      "isNew": true
     }
    ]
   }
  ],
- "overview": "11 月 12 日，共从 26 个信息源抓取 436 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 118 条发布于 24 小时内。其中 112 条是此前未出现过的新增内容，另有 47 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」50 条、「算力与基建」38 条。值得优先关注的几条：「突发！黄仁勋被曝与高管有新婚外情，英伟达启动罢免，猎头已物色其接班人；百度发布文心全新开源模型；余承东官宣华为子品牌「星芒」」（雷峰网）、「早报｜苹果支持社区将关停/曝英伟达董事会考虑罢免黄仁勋/余承东官宣华为子品牌OSTA星芒」（爱范儿）、「苹果突然永久关闭官方「支持社区」；字节即将推出个人 AI 助手；华为新品牌星芒 OSTA 曝光 | 极客早知道」（极客公园）。"
+ "overview": "11 月 12 日，共从 26 个信息源抓取 432 条 AI 产业动态，其中 159 条进入当日精选，覆盖 7 个区域。其中有 121 条发布于 24 小时内。其中 123 条是此前未出现过的新增内容，另有 36 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」48 条、「算力与基建」41 条。值得优先关注的几条：「BAT新旗舰杀回第一阵营，压力来到字节这边」（钛媒体）、「两城双子星，正在完成中国AI产业闭环。」（钛媒体）、「聊聊中国版MUSE：蚂蚁灵光2.0，支付宝，超级App的生态优势与挑战」（钛媒体）。"
 }
