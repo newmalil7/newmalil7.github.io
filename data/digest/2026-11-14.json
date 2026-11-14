@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-14",
- "generatedAt": "2026-11-14T07:06:11.269Z",
+ "generatedAt": "2026-11-14T11:19:35.049Z",
  "mode": "rule",
  "counts": {
-  "crawled": 435,
+  "crawled": 434,
   "published": 158,
-  "newCount": 91,
-  "repeatCount": 67,
+  "newCount": 99,
+  "repeatCount": 59,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,13 +22,13 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 107,
+  "within24h": 99,
   "withinFresh": 131,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
   "staleDropped": 26,
-  "newestAt": "2026-11-14T15:00:00.000Z"
+  "newestAt": "2026-11-14T19:19:23.000Z"
  },
  "themes": [
   {
@@ -37,37 +37,37 @@
   },
   {
    "name": "产品与应用",
-   "n": 39
+   "n": 42
   },
   {
    "name": "算力与基建",
-   "n": 38
+   "n": 36
   },
   {
    "name": "产业与生态",
-   "n": 18
+   "n": 21
   },
   {
    "name": "模型与能力",
-   "n": 11
+   "n": 12
   },
   {
    "name": "政策与治理",
-   "n": 6
+   "n": 8
   }
  ],
  "entities": [
   {
    "name": "NVIDIA",
-   "n": 28
+   "n": 26
   },
   {
    "name": "Microsoft",
-   "n": 7
+   "n": 6
   },
   {
    "name": "OpenAI",
-   "n": 6
+   "n": 5
   },
   {
    "name": "Amazon",
@@ -82,51 +82,54 @@
    "n": 4
   },
   {
-   "name": "Google",
-   "n": 4
+   "name": "软银",
+   "n": 3
   },
   {
-   "name": "Apple",
-   "n": 3
+   "name": "字节跳动",
+   "n": 2
   }
  ],
  "topOverall": [
   {
-   "id": "31f333ce393ae369",
-   "title": "Token生意火了，但头部中间商还没赚到钱",
-   "source": "钛媒体",
+   "id": "42e78b1c30a340cc",
+   "title": "早报｜英伟达员工请愿黄仁勋回归/余承东重申华为与赛力斯分工/Microsoft 365故障延续至48小时",
+   "source": "爱范儿",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8205178.html",
-   "importance": 97,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-14T06:49:31.000Z",
+   "url": "https://www.ifanr.com/1689450?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-14T00:00:42.000Z",
    "topics": [
-    "资本与市场",
+    "产品与应用",
     "模型与能力"
    ],
    "entities": [
-    "无问芯穹",
-    "硅基流动"
+    "OpenAI",
+    "Microsoft",
+    "NVIDIA",
+    "华为"
    ],
    "firstSeen": "2026-11-14",
    "isNew": true
   },
   {
-   "id": "75b6c202b1b85fdb",
-   "title": "英伟达“跌倒”，会是平头哥和昆仑芯的窗口期吗？",
+   "id": "4946197b24549724",
+   "title": "字节的2029与腾讯的“一半人”",
    "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8204784.html",
-   "importance": 93,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-14T02:25:00.000Z",
+   "url": "https://www.tmtpost.com/8201267.html",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-14T08:39:41.000Z",
    "topics": [
-    "资本与市场",
-    "算力与基建"
+    "模型与能力",
+    "产品与应用"
    ],
    "entities": [
-    "NVIDIA",
-    "阿里巴巴"
+    "阿里巴巴",
+    "腾讯",
+    "字节跳动"
    ],
    "firstSeen": "2026-11-14",
    "isNew": true
@@ -153,12 +156,31 @@
    "isNew": true
   },
   {
+   "id": "943ccdf5ed01e7c1",
+   "title": "特斯拉和SpaceX最快12月合并？没那么简单，还有3.47万亿美元卡在弃权票上",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8205220.html",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-14T07:13:00.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "xAI"
+   ],
+   "firstSeen": "2026-11-14",
+   "isNew": true
+  },
+  {
    "id": "5d424f3621e60fcf",
    "title": "9点1氪丨马斯克在X平台公开表态，将参与要求黄仁勋重返英伟达的请愿活动",
    "source": "36氪",
    "region": "CN",
    "url": "https://36kr.com/p/4068905666859912?f=rss",
-   "importance": 91,
+   "importance": 87,
    "difficulty": "进阶",
    "publishedAt": "2026-11-14T01:15:03.000Z",
    "topics": [
@@ -174,12 +196,50 @@
    "isNew": true
   },
   {
+   "id": "287c263e92bb5c3a",
+   "title": "微软称服务已全面恢复",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4069263558694023?f=rss",
+   "importance": 86,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-14T09:34:43.000Z",
+   "topics": [
+    "产品与应用",
+    "产业与生态"
+   ],
+   "entities": [
+    "Microsoft"
+   ],
+   "firstSeen": "2026-11-14",
+   "isNew": true
+  },
+  {
+   "id": "a247a3a6557b9cef",
+   "title": "黄仁勋传",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8204575.html",
+   "importance": 85,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-14T07:57:00.000Z",
+   "topics": [
+    "算力与基建"
+   ],
+   "entities": [
+    "NVIDIA",
+    "SAP"
+   ],
+   "firstSeen": "2026-11-14",
+   "isNew": true
+  },
+  {
    "id": "fdd14153eaee5b5c",
    "title": "Chinese investors face limits on Anthropic’s $1.4t IPO",
    "source": "Tech in Asia",
    "region": "SEA",
    "url": "https://www.techinasia.com/news/chinese-investors-face-limits-anthropics-14t-ipo",
-   "importance": 88,
+   "importance": 84,
    "difficulty": "进阶",
    "publishedAt": "2026-11-14T01:54:52.000Z",
    "topics": [
@@ -187,66 +247,6 @@
    ],
    "entities": [
     "Anthropic"
-   ],
-   "firstSeen": "2026-11-14",
-   "isNew": true
-  },
-  {
-   "id": "4ab61e69601e3098",
-   "title": "Microsoft’s global outage; Vidya Balan’s call to put child safety first",
-   "source": "YourStory",
-   "region": "OTHER",
-   "url": "https://yourstory.com/2026/11/microsofts-global-outage-vidya-balan-call-child-safety-first",
-   "importance": 87,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-14T02:00:00.000Z",
-   "topics": [
-    "算力与基建",
-    "政策与治理"
-   ],
-   "entities": [
-    "Microsoft",
-    "NVIDIA",
-    "AMD",
-    "Arm"
-   ],
-   "firstSeen": "2026-11-14",
-   "isNew": true
-  },
-  {
-   "id": "16ea2d408a6e7c97",
-   "title": "字节跳动4000亿估值回购：不上市的巨头，正在用现金“定价”自己",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8204099.html",
-   "importance": 86,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-14T06:44:47.000Z",
-   "topics": [
-    "资本与市场"
-   ],
-   "entities": [
-    "字节跳动"
-   ],
-   "firstSeen": "2026-11-14",
-   "isNew": true
-  },
-  {
-   "id": "f79f0988f7e19095",
-   "title": "苹果不想一直“躺赢”",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8204097.html",
-   "importance": 85,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-14T02:17:00.000Z",
-   "topics": [
-    "模型与能力",
-    "算力与基建"
-   ],
-   "entities": [
-    "Apple",
-    "阿里巴巴"
    ],
    "firstSeen": "2026-11-14",
    "isNew": true
@@ -261,62 +261,63 @@
    "count": 24,
    "top": [
     {
-     "id": "31f333ce393ae369",
-     "title": "Token生意火了，但头部中间商还没赚到钱",
-     "source": "钛媒体",
+     "id": "42e78b1c30a340cc",
+     "title": "早报｜英伟达员工请愿黄仁勋回归/余承东重申华为与赛力斯分工/Microsoft 365故障延续至48小时",
+     "source": "爱范儿",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8205178.html",
-     "importance": 97,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-14T06:49:31.000Z",
+     "url": "https://www.ifanr.com/1689450?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-14T00:00:42.000Z",
      "topics": [
-      "资本与市场",
+      "产品与应用",
       "模型与能力"
      ],
      "entities": [
-      "无问芯穹",
-      "硅基流动"
+      "OpenAI",
+      "Microsoft",
+      "NVIDIA",
+      "华为"
      ],
      "firstSeen": "2026-11-14",
      "isNew": true
     },
     {
-     "id": "75b6c202b1b85fdb",
-     "title": "英伟达“跌倒”，会是平头哥和昆仑芯的窗口期吗？",
+     "id": "4946197b24549724",
+     "title": "字节的2029与腾讯的“一半人”",
      "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8204784.html",
-     "importance": 93,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-14T02:25:00.000Z",
+     "url": "https://www.tmtpost.com/8201267.html",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-14T08:39:41.000Z",
      "topics": [
-      "资本与市场",
-      "算力与基建"
+      "模型与能力",
+      "产品与应用"
      ],
      "entities": [
-      "NVIDIA",
-      "阿里巴巴"
+      "阿里巴巴",
+      "腾讯",
+      "字节跳动"
      ],
      "firstSeen": "2026-11-14",
      "isNew": true
     },
     {
-     "id": "5d424f3621e60fcf",
-     "title": "9点1氪丨马斯克在X平台公开表态，将参与要求黄仁勋重返英伟达的请愿活动",
-     "source": "36氪",
+     "id": "943ccdf5ed01e7c1",
+     "title": "特斯拉和SpaceX最快12月合并？没那么简单，还有3.47万亿美元卡在弃权票上",
+     "source": "钛媒体",
      "region": "CN",
-     "url": "https://36kr.com/p/4068905666859912?f=rss",
+     "url": "https://www.tmtpost.com/8205220.html",
      "importance": 91,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-14T01:15:03.000Z",
+     "publishedAt": "2026-11-14T07:13:00.000Z",
      "topics": [
       "资本与市场",
       "算力与基建"
      ],
      "entities": [
-      "OpenAI",
-      "Anthropic",
-      "NVIDIA"
+      "xAI"
      ],
      "firstSeen": "2026-11-14",
      "isNew": true
@@ -357,7 +358,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/chinese-investors-face-limits-anthropics-14t-ipo",
-     "importance": 88,
+     "importance": 84,
      "difficulty": "进阶",
      "publishedAt": "2026-11-14T01:54:52.000Z",
      "topics": [
@@ -370,20 +371,18 @@
      "isNew": true
     },
     {
-     "id": "bca8a98ef25b7dd7",
-     "title": "OpenAI unveils ChatGPT Wallet for AI agent purchases",
+     "id": "876582f302b96921",
+     "title": "20 largest exits in Japan",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/openai-unveils-chatgpt-wallet-ai-agent-purchases",
-     "importance": 84,
+     "url": "https://www.techinasia.com/20-largest-exits-japan",
+     "importance": 82,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-14T02:04:56.000Z",
+     "publishedAt": "2026-11-14T09:00:00.000Z",
      "topics": [
-      "产品与应用"
+      "资本与市场"
      ],
-     "entities": [
-      "OpenAI"
-     ],
+     "entities": [],
      "firstSeen": "2026-11-14",
      "isNew": true
     }
@@ -490,21 +489,18 @@
      "isNew": true
     },
     {
-     "id": "1a446c598af420b8",
-     "title": "딥시크·문샷 등 중국 4개사, 수출 통제 '블랙웰' 사용 흔적 발견",
-     "source": "AI타임스",
+     "id": "8402c3271dce46bd",
+     "title": "AIエージェントの労務活用 入退社・社会保険手続きの自動化範囲と導入手順を解説",
+     "source": "AINOW",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=217397",
-     "importance": 62,
+     "url": "https://ainow.ai/2026/11/14/278518/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%258a%25b4%25e5%258b%2599%25e6%25b4%25bb%25e7%2594%25a8-%25e5%2585%25a5%25e9%2580%2580%25e7%25a4%25be%25e3%2583%25bb%25e7%25a4%25be%25e4%25bc%259a%25e4%25bf%259d%25e9%2599%25ba%25e6%2589%258b%25e7%25b6%259a",
+     "importance": 57,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-14T11:18:31.000Z",
-     "topics": [
-      "算力与基建",
-      "产业与生态"
-     ],
+     "publishedAt": "2026-11-13T17:19:08.000Z",
+     "topics": [],
      "entities": [],
-     "firstSeen": "2026-11-13",
-     "isNew": false
+     "firstSeen": "2026-11-14",
+     "isNew": true
     }
    ]
   },
@@ -537,7 +533,7 @@
      "source": "Silicon Republic",
      "region": "EU",
      "url": "https://www.siliconrepublic.com/business/bloomberg-anthropic-ipo-six-times-oversubscribed-ai",
-     "importance": 65,
+     "importance": 57,
      "difficulty": "入门",
      "publishedAt": "2026-11-13T09:16:18.000Z",
      "topics": [
@@ -582,7 +578,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-     "importance": 84,
+     "importance": 79,
      "difficulty": "进阶",
      "publishedAt": "2026-11-13T22:43:00.000Z",
      "topics": [
@@ -596,39 +592,38 @@
      "isNew": true
     },
     {
-     "id": "a7ea197a0a6f2431",
-     "title": "AI agent startup LangChain hits $3B valuation",
+     "id": "7bbc6129a782f173",
+     "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
      "source": "TechCrunch AI",
      "region": "NA",
-     "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-     "importance": 80,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-13T19:37:57.000Z",
+     "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-13T14:44:48.000Z",
      "topics": [
-      "资本与市场",
       "产品与应用"
      ],
      "entities": [
-      "LangChain"
+      "ElevenLabs"
      ],
      "firstSeen": "2026-11-14",
      "isNew": true
     },
     {
-     "id": "6f4dd258e3973bb4",
-     "title": "Mirendil raises $1B in funding to speed up AI model development",
-     "source": "SiliconANGLE",
+     "id": "ea9c3a7ca408ad5a",
+     "title": "Amazon has a plan to index the world’s online shopping data",
+     "source": "The Verge AI",
      "region": "NA",
-     "url": "https://siliconangle.com/2026/11/13/mirendil-raises-1b-in-funding-to-speed-up-ai-model-development/",
-     "importance": 79,
+     "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+     "importance": 77,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-13T21:22:49.000Z",
+     "publishedAt": "2026-11-13T23:49:11.000Z",
      "topics": [
-      "资本与市场",
-      "模型与能力"
+      "产业与生态"
      ],
      "entities": [
-      "Google"
+      "Google",
+      "Amazon"
      ],
      "firstSeen": "2026-11-14",
      "isNew": true
@@ -648,7 +643,7 @@
      "source": "YourStory",
      "region": "OTHER",
      "url": "https://yourstory.com/2026/11/microsofts-global-outage-vidya-balan-call-child-safety-first",
-     "importance": 87,
+     "importance": 83,
      "difficulty": "进阶",
      "publishedAt": "2026-11-14T02:00:00.000Z",
      "topics": [
@@ -665,30 +660,30 @@
      "isNew": true
     },
     {
-     "id": "614136f8f774bd18",
-     "title": "From Greenjoules To mistEO — Indian Startups Raised Over $25 Mn This Week",
+     "id": "072ba4c5e6bbab2f",
+     "title": "Mahadev Betting App: CBI Searches Multiple Locations, ED Arrests Saurabh Chandrakar",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/from-greenjoules-to-misteo-indian-startups-raised-over-25-mn-this-week/",
+     "url": "https://inc42.com/buzz/mahadev-betting-app-cbi-searches-multiple-locations-ed-arrests-saurabh-chandrakar/",
      "importance": 81,
      "difficulty": "入门",
-     "publishedAt": "2026-11-14T03:30:14.000Z",
+     "publishedAt": "2026-11-14T07:42:52.000Z",
      "topics": [
-      "资本与市场"
+      "产品与应用"
      ],
      "entities": [],
      "firstSeen": "2026-11-14",
      "isNew": true
     },
     {
-     "id": "f974685c6271b3fb",
-     "title": "[Update] Razorpay Gets SEBI Nod For ₹6,000 Cr IPO",
+     "id": "e43f4a471f608400",
+     "title": "Indian Listed New-Age Tech Company Tracker: Market Cap, Revenue & More",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%e2%82%b96000-cr-ipo/",
+     "url": "https://inc42.com/features/indian-listed-new-age-tech-company-tracker-market-cap-revenue-more/",
      "importance": 78,
-     "difficulty": "高级",
-     "publishedAt": "2026-11-13T19:55:13.000Z",
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-14T11:10:59.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -699,5 +694,5 @@
    ]
   }
  ],
- "overview": "11 月 14 日，共从 26 个信息源抓取 435 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 107 条发布于 24 小时内。其中 91 条是此前未出现过的新增内容，另有 67 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」53 条、「产品与应用」39 条。值得优先关注的几条：「Token生意火了，但头部中间商还没赚到钱」（钛媒体）、「英伟达“跌倒”，会是平头哥和昆仑芯的窗口期吗？」（钛媒体）、「9点1氪丨马斯克在X平台公开表态，将参与要求黄仁勋重返英伟达的请愿活动」（36氪）。"
+ "overview": "11 月 14 日，共从 26 个信息源抓取 434 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 99 条发布于 24 小时内。其中 99 条是此前未出现过的新增内容，另有 59 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」53 条、「产品与应用」42 条。值得优先关注的几条：「早报｜英伟达员工请愿黄仁勋回归/余承东重申华为与赛力斯分工/Microsoft 365故障延续至48小时」（爱范儿）、「字节的2029与腾讯的“一半人”」（钛媒体）、「特斯拉和SpaceX最快12月合并？没那么简单，还有3.47万亿美元卡在弃权票上」（钛媒体）。"
 }
