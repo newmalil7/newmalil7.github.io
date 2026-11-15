@@ -1,0 +1,685 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-11-15",
+ "generatedAt": "2026-11-15T07:17:24.977Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 431,
+  "published": 158,
+  "newCount": 65,
+  "repeatCount": 93,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 14,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 26,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 62,
+  "withinFresh": 127,
+  "freshHours": 72,
+  "monthPrecision": 20,
+  "undated": 0,
+  "staleDropped": 28,
+  "newestAt": "2026-11-15T15:00:00.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 52
+  },
+  {
+   "name": "算力与基建",
+   "n": 39
+  },
+  {
+   "name": "产品与应用",
+   "n": 34
+  },
+  {
+   "name": "产业与生态",
+   "n": 17
+  },
+  {
+   "name": "政策与治理",
+   "n": 12
+  },
+  {
+   "name": "模型与能力",
+   "n": 9
+  }
+ ],
+ "entities": [
+  {
+   "name": "NVIDIA",
+   "n": 23
+  },
+  {
+   "name": "OpenAI",
+   "n": 6
+  },
+  {
+   "name": "Microsoft",
+   "n": 6
+  },
+  {
+   "name": "Google",
+   "n": 6
+  },
+  {
+   "name": "Arm",
+   "n": 4
+  },
+  {
+   "name": "Anthropic",
+   "n": 3
+  },
+  {
+   "name": "阿里巴巴",
+   "n": 3
+  },
+  {
+   "name": "Apple",
+   "n": 3
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "6f0a0f41f3443112",
+   "title": "【数智周报】黄仁勋辞任英伟达CEO ，CFO克雷斯任临时CEO；阿里拟分拆平头哥港股独立上市；Anthropic启动IPO路演，估值较峰值近腰斩……",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8205592.html",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-15T06:19:18.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "Anthropic",
+    "NVIDIA",
+    "阿里巴巴",
+    "百度"
+   ],
+   "firstSeen": "2026-11-15",
+   "isNew": true
+  },
+  {
+   "id": "4d6c273b96bd94c4",
+   "title": "黄仁勋和“平头哥”，都在等一个厉娜！",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8205553.html",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-15T02:30:50.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "NVIDIA",
+    "阿里巴巴",
+    "百度"
+   ],
+   "firstSeen": "2026-11-15",
+   "isNew": true
+  },
+  {
+   "id": "bf0d1d4db8feba2e",
+   "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+   "source": "TechCrunch AI",
+   "region": "NA",
+   "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-14T17:30:00.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Microsoft",
+    "Apple"
+   ],
+   "firstSeen": "2026-11-15",
+   "isNew": true
+  },
+  {
+   "id": "928b75374ec7d7cd",
+   "title": "Kimi估值500亿美元，月之暗面为什么急着拆掉海外架构？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8205584.html",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-15T02:30:39.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [
+    "月之暗面"
+   ],
+   "firstSeen": "2026-11-15",
+   "isNew": true
+  },
+  {
+   "id": "f45776966cbe7951",
+   "title": "黄仁勋离职风波冷思考：中国AI自主化与海外依赖张力之辩",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8205600.html",
+   "importance": 87,
+   "difficulty": "高级",
+   "publishedAt": "2026-11-15T02:50:20.000Z",
+   "topics": [
+    "算力与基建",
+    "模型与能力"
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-11-15",
+   "isNew": true
+  },
+  {
+   "id": "2774f17a93fed5a3",
+   "title": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
+   "source": "InfoQ 中国",
+   "region": "CN",
+   "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article",
+   "importance": 85,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-15T09:00:00.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [],
+   "firstSeen": "2026-11-15",
+   "isNew": true
+  },
+  {
+   "id": "294eddedd86c5f63",
+   "title": "OpenAI folds standalone robotics team into main units",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/openai-folds-standalone-robotics-team-main-units",
+   "importance": 84,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-15T05:11:36.000Z",
+   "topics": [
+    "产业与生态"
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "firstSeen": "2026-11-15",
+   "isNew": true
+  },
+  {
+   "id": "56a65b435e42b1e5",
+   "title": "Japan’s top-funded tech companies in the last decade",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/visual-story/japans-topfunded-tech-companies-decade",
+   "importance": 81,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-15T07:00:00.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [],
+   "firstSeen": "2026-11-15",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "6f0a0f41f3443112",
+     "title": "【数智周报】黄仁勋辞任英伟达CEO ，CFO克雷斯任临时CEO；阿里拟分拆平头哥港股独立上市；Anthropic启动IPO路演，估值较峰值近腰斩……",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8205592.html",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-15T06:19:18.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "Anthropic",
+      "NVIDIA",
+      "阿里巴巴",
+      "百度"
+     ],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    },
+    {
+     "id": "4d6c273b96bd94c4",
+     "title": "黄仁勋和“平头哥”，都在等一个厉娜！",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8205553.html",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-15T02:30:50.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA",
+      "阿里巴巴",
+      "百度"
+     ],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    },
+    {
+     "id": "928b75374ec7d7cd",
+     "title": "Kimi估值500亿美元，月之暗面为什么急着拆掉海外架构？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8205584.html",
+     "importance": 91,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-15T02:30:39.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "月之暗面"
+     ],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "294eddedd86c5f63",
+     "title": "OpenAI folds standalone robotics team into main units",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/openai-folds-standalone-robotics-team-main-units",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-15T05:11:36.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    },
+    {
+     "id": "56a65b435e42b1e5",
+     "title": "Japan’s top-funded tech companies in the last decade",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/visual-story/japans-topfunded-tech-companies-decade",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-15T07:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    },
+    {
+     "id": "208daf1cd8d13361",
+     "title": "Nvidia scrutiny, US curbs put $3b in China AI projects at risk",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/nvidia-scrutiny-curbs-put-3b-china-ai-projects-risk",
+     "importance": 80,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-15T00:42:43.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "883e7a657abd0e23",
+     "title": "Journify raises $12 million at fourfold valuation increase",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/journify-raises-12-million-fourfold-valuation-increase",
+     "importance": 60,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-14",
+     "isNew": false
+    },
+    {
+     "id": "fa094c468ed12a6e",
+     "title": "CE-Ventures backs UK's Oyster Therapeutics in $60 million Series A round",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/ce-ventures-backs-uk-oyster-therapeutics-60-million-series-a-round",
+     "importance": 58,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-11-14",
+     "isNew": false
+    },
+    {
+     "id": "e651c97b2986a703",
+     "title": "UAE's Soter Insure secures fresh Series B investment from SC Ventures, SBI Group",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/uae-soter-insure-secures-fresh-series-b-investment-sc-ventures-sbi-group",
+     "importance": 58,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-11-14",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 14,
+   "top": [
+    {
+     "id": "799d27aa391145e3",
+     "title": "구글, 제미나이에 '월렛' 연결…개인 소비 분석부터 저축 계획까지",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217415",
+     "importance": 56,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-15T12:54:46.000Z",
+     "topics": [],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-11-14",
+     "isNew": false
+    },
+    {
+     "id": "d55fe8630d740541",
+     "title": "AIエージェントを人事・採用に活用！自動化できる4つの業務と注意点",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/11/14/278521/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2582%2592%25e4%25ba%25ba%25e4%25ba%258b%25e3%2583%25bb%25e6%258e%25a1%25e7%2594%25a8%25e3%2581%25ab%25e6%25b4%25bb%25e7%2594%25a8%25ef%25bc%2581%25e8%2587%25aa%25e5%258b%2595%25e5%258c%2596%25e3%2581%25a7%25e3%2581%258d%25e3%2582%258b",
+     "importance": 45,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-13T17:27:33.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-14",
+     "isNew": false
+    },
+    {
+     "id": "d5064f8d219d3e4a",
+     "title": "AI面接官とは？人事向けに導入手順とツール比較・費用を解説",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/11/14/278515/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e9%259d%25a2%25e6%258e%25a5%25e5%25ae%2598%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e4%25ba%25ba%25e4%25ba%258b%25e5%2590%2591%25e3%2581%2591%25e3%2581%25ab%25e5%25b0%258e%25e5%2585%25a5%25e6%2589%258b%25e9%25a0%2586%25e3%2581%25a8%25e3%2583%2584%25e3%2583%25bc%25e3%2583%25ab%25e6%25af%2594%25e8%25bc%2583%25e3%2583%25bb",
+     "importance": 45,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-13T17:12:40.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-14",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "38000d9f4730829e",
+     "title": "Bloomberg: Anthropic IPO six-times oversubscribed",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/business/bloomberg-anthropic-ipo-six-times-oversubscribed-ai",
+     "importance": 57,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-13T09:16:18.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-14",
+     "isNew": false
+    },
+    {
+     "id": "2187c9c8b6b39192",
+     "title": "Germany’s Agile Robots raises $500m at $8.5bn valuation",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/start-ups/germanys-agile-robots-raises-500m-at-8-5bn-valuation",
+     "importance": 47,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-13T13:29:13.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-14",
+     "isNew": false
+    },
+    {
+     "id": "6692c9517952e6d5",
+     "title": "Jensen Huang’s Nvidia exit shakes European tech",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/jensen-huangs-nvidia-exit-shakes-european-tech/",
+     "importance": 45,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-12T17:19:55.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-14",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "bf0d1d4db8feba2e",
+     "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-14T17:30:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Microsoft",
+      "Apple"
+     ],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    },
+    {
+     "id": "1ee7f33eb0408d41",
+     "title": "Where was Nvidia’s security team?",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+     "importance": 80,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-15T00:08:07.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    },
+    {
+     "id": "1ac94264c296c754",
+     "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+     "importance": 80,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-14T21:41:22.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "77d923c2a9332c44",
+     "title": "Jensen Huang’s Exit: How Deep Does NVIDIA’s AI Ecosystem Run In India?",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/features/jensen-huangs-exit-how-deep-does-nvidias-ai-ecosystem-run-in-india/",
+     "importance": 79,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-14T14:57:02.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    },
+    {
+     "id": "f25870ccae0b30f0",
+     "title": "How the art ecosystem opens up a wide range of opportunities beyond creation of artworks",
+     "source": "YourStory",
+     "region": "OTHER",
+     "url": "https://yourstory.com/2026/11/art-ecosystem-roles-opportunities-creativity-exhibition-photography",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-15T02:50:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    },
+    {
+     "id": "b081bb9de96358c8",
+     "title": "DPDP Act Implementation: MeitY Opens Consent Manager Registration Portal",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/dpdp-act-implementation-meity-opens-consent-manager-registration-portal/",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-14T14:54:15.000Z",
+     "topics": [
+      "产品与应用",
+      "政策与治理"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "11 月 15 日，共从 26 个信息源抓取 431 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 62 条发布于 24 小时内。其中 65 条是此前未出现过的新增内容，另有 93 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」52 条、「算力与基建」39 条。值得优先关注的几条：「【数智周报】黄仁勋辞任英伟达CEO ，CFO克雷斯任临时CEO；阿里拟分拆平头哥港股独立上市；Anthropic启动IPO路演，估值较峰值近腰斩……」（钛媒体）、「黄仁勋和“平头哥”，都在等一个厉娜！」（钛媒体）、「Kimi估值500亿美元，月之暗面为什么急着拆掉海外架构？」（钛媒体）。"
+}
