@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-15",
- "generatedAt": "2026-11-15T07:17:24.977Z",
+ "generatedAt": "2026-11-15T11:51:23.386Z",
  "mode": "rule",
  "counts": {
   "crawled": 431,
   "published": 158,
-  "newCount": 65,
-  "repeatCount": 93,
+  "newCount": 72,
+  "repeatCount": 86,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,71 +22,71 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 62,
-  "withinFresh": 127,
+  "within24h": 57,
+  "withinFresh": 118,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
-  "staleDropped": 28,
-  "newestAt": "2026-11-15T15:00:00.000Z"
+  "staleDropped": 29,
+  "newestAt": "2026-11-15T18:59:15.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 52
+   "n": 54
   },
   {
    "name": "算力与基建",
-   "n": 39
+   "n": 36
   },
   {
    "name": "产品与应用",
-   "n": 34
+   "n": 35
   },
   {
    "name": "产业与生态",
-   "n": 17
+   "n": 15
   },
   {
    "name": "政策与治理",
-   "n": 12
+   "n": 10
   },
   {
    "name": "模型与能力",
-   "n": 9
+   "n": 8
   }
  ],
  "entities": [
   {
    "name": "NVIDIA",
-   "n": 23
+   "n": 24
   },
   {
    "name": "OpenAI",
-   "n": 6
+   "n": 7
+  },
+  {
+   "name": "Google",
+   "n": 7
   },
   {
    "name": "Microsoft",
    "n": 6
   },
   {
-   "name": "Google",
-   "n": 6
+   "name": "Anthropic",
+   "n": 4
   },
   {
    "name": "Arm",
    "n": 4
   },
   {
-   "name": "Anthropic",
-   "n": 3
-  },
-  {
-   "name": "阿里巴巴",
-   "n": 3
-  },
-  {
    "name": "Apple",
+   "n": 3
+  },
+  {
+   "name": "Meta",
    "n": 3
   }
  ],
@@ -114,12 +114,34 @@
    "isNew": true
   },
   {
+   "id": "1d8cf88c0abde29c",
+   "title": "当Gemini被戏称为“美国豆包”，张一鸣也活成了“中国布林”",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8205798.html",
+   "importance": 95,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-15T08:06:47.000Z",
+   "topics": [
+    "模型与能力",
+    "产业与生态"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "字节跳动"
+   ],
+   "firstSeen": "2026-11-15",
+   "isNew": true
+  },
+  {
    "id": "4d6c273b96bd94c4",
    "title": "黄仁勋和“平头哥”，都在等一个厉娜！",
    "source": "钛媒体",
    "region": "CN",
    "url": "https://www.tmtpost.com/8205553.html",
-   "importance": 99,
+   "importance": 95,
    "difficulty": "进阶",
    "publishedAt": "2026-11-15T02:30:50.000Z",
    "topics": [
@@ -160,7 +182,7 @@
    "source": "钛媒体",
    "region": "CN",
    "url": "https://www.tmtpost.com/8205584.html",
-   "importance": 91,
+   "importance": 87,
    "difficulty": "进阶",
    "publishedAt": "2026-11-15T02:30:39.000Z",
    "topics": [
@@ -174,20 +196,20 @@
    "isNew": true
   },
   {
-   "id": "f45776966cbe7951",
-   "title": "黄仁勋离职风波冷思考：中国AI自主化与海外依赖张力之辩",
+   "id": "d4f45ba646ef60a8",
+   "title": "T-EDGE 2026前瞻①｜AI如何重写影视业的成本、资本与权力",
    "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8205600.html",
-   "importance": 87,
-   "difficulty": "高级",
-   "publishedAt": "2026-11-15T02:50:20.000Z",
+   "url": "https://www.tmtpost.com/8205257.html",
+   "importance": 86,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-15T07:37:00.000Z",
    "topics": [
-    "算力与基建",
-    "模型与能力"
+    "产品与应用",
+    "资本与市场"
    ],
    "entities": [
-    "NVIDIA"
+    "生数科技"
    ],
    "firstSeen": "2026-11-15",
    "isNew": true
@@ -209,36 +231,21 @@
    "isNew": true
   },
   {
-   "id": "294eddedd86c5f63",
-   "title": "OpenAI folds standalone robotics team into main units",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/openai-folds-standalone-robotics-team-main-units",
-   "importance": 84,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-15T05:11:36.000Z",
+   "id": "f45776966cbe7951",
+   "title": "黄仁勋离职风波冷思考：中国AI自主化与海外依赖张力之辩",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8205600.html",
+   "importance": 83,
+   "difficulty": "高级",
+   "publishedAt": "2026-11-15T02:50:20.000Z",
    "topics": [
-    "产业与生态"
+    "算力与基建",
+    "模型与能力"
    ],
    "entities": [
-    "OpenAI"
+    "NVIDIA"
    ],
-   "firstSeen": "2026-11-15",
-   "isNew": true
-  },
-  {
-   "id": "56a65b435e42b1e5",
-   "title": "Japan’s top-funded tech companies in the last decade",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/visual-story/japans-topfunded-tech-companies-decade",
-   "importance": 81,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-15T07:00:00.000Z",
-   "topics": [
-    "资本与市场"
-   ],
-   "entities": [],
    "firstSeen": "2026-11-15",
    "isNew": true
   }
@@ -274,12 +281,34 @@
      "isNew": true
     },
     {
+     "id": "1d8cf88c0abde29c",
+     "title": "当Gemini被戏称为“美国豆包”，张一鸣也活成了“中国布林”",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8205798.html",
+     "importance": 95,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-15T08:06:47.000Z",
+     "topics": [
+      "模型与能力",
+      "产业与生态"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "字节跳动"
+     ],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    },
+    {
      "id": "4d6c273b96bd94c4",
      "title": "黄仁勋和“平头哥”，都在等一个厉娜！",
      "source": "钛媒体",
      "region": "CN",
      "url": "https://www.tmtpost.com/8205553.html",
-     "importance": 99,
+     "importance": 95,
      "difficulty": "进阶",
      "publishedAt": "2026-11-15T02:30:50.000Z",
      "topics": [
@@ -290,25 +319,6 @@
       "NVIDIA",
       "阿里巴巴",
       "百度"
-     ],
-     "firstSeen": "2026-11-15",
-     "isNew": true
-    },
-    {
-     "id": "928b75374ec7d7cd",
-     "title": "Kimi估值500亿美元，月之暗面为什么急着拆掉海外架构？",
-     "source": "钛媒体",
-     "region": "CN",
-     "url": "https://www.tmtpost.com/8205584.html",
-     "importance": 91,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-15T02:30:39.000Z",
-     "topics": [
-      "资本与市场",
-      "产品与应用"
-     ],
-     "entities": [
-      "月之暗面"
      ],
      "firstSeen": "2026-11-15",
      "isNew": true
@@ -323,24 +333,6 @@
    "count": 24,
    "top": [
     {
-     "id": "294eddedd86c5f63",
-     "title": "OpenAI folds standalone robotics team into main units",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/openai-folds-standalone-robotics-team-main-units",
-     "importance": 84,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-15T05:11:36.000Z",
-     "topics": [
-      "产业与生态"
-     ],
-     "entities": [
-      "OpenAI"
-     ],
-     "firstSeen": "2026-11-15",
-     "isNew": true
-    },
-    {
      "id": "56a65b435e42b1e5",
      "title": "Japan’s top-funded tech companies in the last decade",
      "source": "Tech in Asia",
@@ -353,6 +345,24 @@
       "资本与市场"
      ],
      "entities": [],
+     "firstSeen": "2026-11-15",
+     "isNew": true
+    },
+    {
+     "id": "294eddedd86c5f63",
+     "title": "OpenAI folds standalone robotics team into main units",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/openai-folds-standalone-robotics-team-main-units",
+     "importance": 80,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-15T05:11:36.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
      "firstSeen": "2026-11-15",
      "isNew": true
     },
@@ -445,18 +455,16 @@
    "count": 14,
    "top": [
     {
-     "id": "799d27aa391145e3",
-     "title": "구글, 제미나이에 '월렛' 연결…개인 소비 분석부터 저축 계획까지",
+     "id": "1ef516a7948dce1a",
+     "title": "[기고] 채점이 편한 시험은 AI에도 편하다",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=217415",
-     "importance": 56,
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217423",
+     "importance": 50,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-15T12:54:46.000Z",
+     "publishedAt": "2026-11-15T18:59:15.000Z",
      "topics": [],
-     "entities": [
-      "Google"
-     ],
+     "entities": [],
      "firstSeen": "2026-11-14",
      "isNew": false
     },
@@ -507,7 +515,7 @@
      "source": "Silicon Republic",
      "region": "EU",
      "url": "https://www.siliconrepublic.com/business/bloomberg-anthropic-ipo-six-times-oversubscribed-ai",
-     "importance": 57,
+     "importance": 51,
      "difficulty": "入门",
      "publishedAt": "2026-11-13T09:16:18.000Z",
      "topics": [
@@ -606,7 +614,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-     "importance": 80,
+     "importance": 75,
      "difficulty": "进阶",
      "publishedAt": "2026-11-14T21:41:22.000Z",
      "topics": [
@@ -646,40 +654,41 @@
      "isNew": true
     },
     {
-     "id": "f25870ccae0b30f0",
-     "title": "How the art ecosystem opens up a wide range of opportunities beyond creation of artworks",
-     "source": "YourStory",
+     "id": "b6c3eea762862cc6",
+     "title": "EaseMyTrip Q2: Loss Narrows 98% YoY To ₹57 Lakh, Revenue Up 34%",
+     "source": "Inc42",
      "region": "OTHER",
-     "url": "https://yourstory.com/2026/11/art-ecosystem-roles-opportunities-creativity-exhibition-photography",
-     "importance": 76,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-15T02:50:00.000Z",
+     "url": "https://inc42.com/buzz/easemytrip-q2-loss-narrows-98-yoy-to-%e2%82%b957-lakh-revenue-up-34/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-15T07:45:37.000Z",
      "topics": [
-      "产品与应用"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-11-15",
      "isNew": true
     },
     {
-     "id": "b081bb9de96358c8",
-     "title": "DPDP Act Implementation: MeitY Opens Consent Manager Registration Portal",
-     "source": "Inc42",
+     "id": "2cd1fd9cb416ee0c",
+     "title": "Measure AI by results, not number of agents deployed: Oracle senior executive",
+     "source": "YourStory",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/dpdp-act-implementation-meity-opens-consent-manager-registration-portal/",
-     "importance": 72,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-14T14:54:15.000Z",
+     "url": "https://yourstory.com/2026/11/measure-ai-results-not-number-agents-deployed-oracles-natalia-rachelson",
+     "importance": 75,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-15T09:31:47.000Z",
      "topics": [
-      "产品与应用",
-      "政策与治理"
+      "产品与应用"
      ],
-     "entities": [],
+     "entities": [
+      "Oracle"
+     ],
      "firstSeen": "2026-11-15",
      "isNew": true
     }
    ]
   }
  ],
- "overview": "11 月 15 日，共从 26 个信息源抓取 431 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 62 条发布于 24 小时内。其中 65 条是此前未出现过的新增内容，另有 93 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」52 条、「算力与基建」39 条。值得优先关注的几条：「【数智周报】黄仁勋辞任英伟达CEO ，CFO克雷斯任临时CEO；阿里拟分拆平头哥港股独立上市；Anthropic启动IPO路演，估值较峰值近腰斩……」（钛媒体）、「黄仁勋和“平头哥”，都在等一个厉娜！」（钛媒体）、「Kimi估值500亿美元，月之暗面为什么急着拆掉海外架构？」（钛媒体）。"
+ "overview": "11 月 15 日，共从 26 个信息源抓取 431 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 57 条发布于 24 小时内。其中 72 条是此前未出现过的新增内容，另有 86 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」54 条、「算力与基建」36 条。值得优先关注的几条：「【数智周报】黄仁勋辞任英伟达CEO ，CFO克雷斯任临时CEO；阿里拟分拆平头哥港股独立上市；Anthropic启动IPO路演，估值较峰值近腰斩……」（钛媒体）、「当Gemini被戏称为“美国豆包”，张一鸣也活成了“中国布林”」（钛媒体）、「黄仁勋和“平头哥”，都在等一个厉娜！」（钛媒体）。"
 }
