@@ -1,96 +1,116 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-16",
- "generatedAt": "2026-11-16T07:23:16.491Z",
+ "generatedAt": "2026-11-16T12:34:18.099Z",
  "mode": "rule",
  "counts": {
-  "crawled": 427,
-  "published": 156,
-  "newCount": 83,
-  "repeatCount": 73,
+  "crawled": 426,
+  "published": 155,
+  "newCount": 99,
+  "repeatCount": 56,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
    "ME": 24,
-   "JPKR": 12,
+   "JPKR": 11,
    "EU": 24,
    "NA": 24,
    "OTHER": 24
   },
-  "sourceOk": 26,
+  "sourceOk": 25,
   "sourceTotal": 30,
   "regions": 7
  },
  "freshness": {
-  "within24h": 89,
-  "withinFresh": 115,
+  "within24h": 98,
+  "withinFresh": 112,
   "freshHours": 72,
-  "monthPrecision": 18,
+  "monthPrecision": 19,
   "undated": 0,
   "staleDropped": 34,
-  "newestAt": "2026-11-16T16:16:13.000Z"
+  "newestAt": "2026-11-16T16:42:41.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 49
-  },
-  {
-   "name": "算力与基建",
-   "n": 40
+   "n": 47
   },
   {
    "name": "产品与应用",
+   "n": 43
+  },
+  {
+   "name": "算力与基建",
    "n": 36
   },
   {
-   "name": "产业与生态",
-   "n": 14
+   "name": "模型与能力",
+   "n": 17
   },
   {
-   "name": "模型与能力",
-   "n": 14
+   "name": "产业与生态",
+   "n": 15
   },
   {
    "name": "政策与治理",
-   "n": 5
+   "n": 6
   }
  ],
  "entities": [
   {
    "name": "NVIDIA",
-   "n": 25
+   "n": 21
   },
   {
    "name": "OpenAI",
-   "n": 11
+   "n": 6
   },
   {
-   "name": "华为",
-   "n": 5
+   "name": "腾讯",
+   "n": 4
+  },
+  {
+   "name": "阿里巴巴",
+   "n": 4
+  },
+  {
+   "name": "Microsoft",
+   "n": 4
   },
   {
    "name": "DeepSeek",
    "n": 3
   },
   {
-   "name": "Apple",
+   "name": "华为",
    "n": 3
   },
   {
-   "name": "Anthropic",
-   "n": 3
-  },
-  {
-   "name": "Arm",
-   "n": 3
-  },
-  {
-   "name": "Meta",
+   "name": "三星",
    "n": 3
   }
  ],
  "topOverall": [
+  {
+   "id": "86a4d0a8c05adc6a",
+   "title": "实测腾讯 Hy4 flash：花两毛钱，就能让 AI 从零做个 3D 交互网页",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1689653?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-16T09:53:01.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "腾讯",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-11-16",
+   "isNew": true
+  },
   {
    "id": "78b9b7e01ee48e41",
    "title": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
@@ -117,7 +137,7 @@
    "source": "雷峰网",
    "region": "CN",
    "url": "https://www.leiphone.com/category/industrynews/tDhzNl3D84AjopSh.html",
-   "importance": 96,
+   "importance": 92,
    "difficulty": "入门",
    "publishedAt": "2026-11-16T04:08:00.000Z",
    "topics": [
@@ -132,12 +152,72 @@
    "isNew": true
   },
   {
+   "id": "ae615573e54a1112",
+   "title": "华为云发布CloudRobo具身世界模型的同时也打出了三张底牌",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8206773.html",
+   "importance": 91,
+   "difficulty": "高级",
+   "publishedAt": "2026-11-16T10:36:51.000Z",
+   "topics": [
+    "模型与能力",
+    "算力与基建"
+   ],
+   "entities": [
+    "NVIDIA",
+    "阿里巴巴",
+    "腾讯",
+    "华为"
+   ],
+   "firstSeen": "2026-11-16",
+   "isNew": true
+  },
+  {
+   "id": "49522a1bf72478f1",
+   "title": "智算接棒：物理AI的下一个风口，在于计算基础设施",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/chips/yYPDwzuTBbcMSCSx.html",
+   "importance": 91,
+   "difficulty": "高级",
+   "publishedAt": "2026-11-16T08:04:00.000Z",
+   "topics": [
+    "算力与基建",
+    "模型与能力"
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-11-16",
+   "isNew": true
+  },
+  {
+   "id": "b67c8a83619c988d",
+   "title": "Intel faces shareholder lawsuit after nearly 29% stock plunge",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/intel-faces-shareholder-lawsuit-29-stock-plunge",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-16T08:00:57.000Z",
+   "topics": [
+    "政策与治理",
+    "算力与基建"
+   ],
+   "entities": [
+    "Intel"
+   ],
+   "firstSeen": "2026-11-16",
+   "isNew": true
+  },
+  {
    "id": "8fabf5884bac33fe",
    "title": "The NVIDIA Fallout, Weekly Funding Rundown & More",
    "source": "Inc42",
    "region": "OTHER",
    "url": "https://inc42.com/buzz/the-nvidia-fallout-weekly-funding-rundown-more/",
-   "importance": 92,
+   "importance": 88,
    "difficulty": "进阶",
    "publishedAt": "2026-11-16T02:30:41.000Z",
    "topics": [
@@ -151,97 +231,19 @@
    "isNew": true
   },
   {
-   "id": "26d73a96a85a5400",
-   "title": "Alibaba launches Qwen4-Max AI model, cutting task costs 60%",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/alibaba-launches-qwen4max-ai-model-cutting-task-costs-60",
-   "importance": 91,
+   "id": "00fb38d2f470b710",
+   "title": "腾讯混元发布Hy4 flash，单任务成本仅为 Hy4 的 5%",
+   "source": "InfoQ 中国",
+   "region": "CN",
+   "url": "https://www.infoq.cn/article/ejVJGwMvIIvplY8yio5r?utm_source=rss&utm_medium=article",
+   "importance": 87,
    "difficulty": "入门",
-   "publishedAt": "2026-11-16T04:23:17.000Z",
-   "topics": [
-    "模型与能力",
-    "产品与应用"
-   ],
-   "entities": [
-    "阿里巴巴"
-   ],
-   "firstSeen": "2026-11-16",
-   "isNew": true
-  },
-  {
-   "id": "f0d06550b875d3c3",
-   "title": "百度世界2026｜让金融AI用得起、更专业，度小满“轩辕”探索中小机构落地新路径",
-   "source": "雷峰网",
-   "region": "CN",
-   "url": "https://www.leiphone.com/category/industrynews/JDoXug7VZqSjkQrQ.html",
-   "importance": 91,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-16T04:00:00.000Z",
-   "topics": [
-    "产品与应用",
-    "模型与能力"
-   ],
-   "entities": [
-    "百度"
-   ],
-   "firstSeen": "2026-11-16",
-   "isNew": true
-  },
-  {
-   "id": "d946b3afbf55157a",
-   "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
-   "source": "雷峰网",
-   "region": "CN",
-   "url": "https://www.leiphone.com/category/industrynews/TRw4D5Bw5HsTmC1G.html",
-   "importance": 91,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-16T03:33:00.000Z",
-   "topics": [
-    "产品与应用",
-    "模型与能力"
-   ],
-   "entities": [
-    "阿里巴巴"
-   ],
-   "firstSeen": "2026-11-16",
-   "isNew": true
-  },
-  {
-   "id": "5ae9c95bb98d08d8",
-   "title": "Apple launches new app to study how people use AI for health",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
-   "importance": 91,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-16T01:30:00.000Z",
+   "publishedAt": "2026-11-16T14:23:27.000Z",
    "topics": [
     "产品与应用"
    ],
    "entities": [
-    "Apple"
-   ],
-   "firstSeen": "2026-11-16",
-   "isNew": true
-  },
-  {
-   "id": "4708acd7915e4964",
-   "title": "早报｜黄仁勋考虑重返英伟达担任CEO/曝苹果智能眼镜明年6月发布/微软全球大宕机结束，持续超30小时",
-   "source": "爱范儿",
-   "region": "CN",
-   "url": "https://www.ifanr.com/1689521?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "importance": 91,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-15T23:55:30.000Z",
-   "topics": [
-    "算力与基建",
-    "产品与应用"
-   ],
-   "entities": [
-    "Anthropic",
-    "NVIDIA",
-    "华为"
+    "腾讯"
    ],
    "firstSeen": "2026-11-16",
    "isNew": true
@@ -255,6 +257,26 @@
    "flag": "🇨🇳",
    "count": 24,
    "top": [
+    {
+     "id": "86a4d0a8c05adc6a",
+     "title": "实测腾讯 Hy4 flash：花两毛钱，就能让 AI 从零做个 3D 交互网页",
+     "source": "爱范儿",
+     "region": "CN",
+     "url": "https://www.ifanr.com/1689653?utm_source=rss&utm_medium=rss&utm_campaign=",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-16T09:53:01.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "腾讯",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-11-16",
+     "isNew": true
+    },
     {
      "id": "78b9b7e01ee48e41",
      "title": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
@@ -281,7 +303,7 @@
      "source": "雷峰网",
      "region": "CN",
      "url": "https://www.leiphone.com/category/industrynews/tDhzNl3D84AjopSh.html",
-     "importance": 96,
+     "importance": 92,
      "difficulty": "入门",
      "publishedAt": "2026-11-16T04:08:00.000Z",
      "topics": [
@@ -291,25 +313,6 @@
      "entities": [
       "MiniMax",
       "DeepSeek"
-     ],
-     "firstSeen": "2026-11-16",
-     "isNew": true
-    },
-    {
-     "id": "f0d06550b875d3c3",
-     "title": "百度世界2026｜让金融AI用得起、更专业，度小满“轩辕”探索中小机构落地新路径",
-     "source": "雷峰网",
-     "region": "CN",
-     "url": "https://www.leiphone.com/category/industrynews/JDoXug7VZqSjkQrQ.html",
-     "importance": 91,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-16T04:00:00.000Z",
-     "topics": [
-      "产品与应用",
-      "模型与能力"
-     ],
-     "entities": [
-      "百度"
      ],
      "firstSeen": "2026-11-16",
      "isNew": true
@@ -324,12 +327,31 @@
    "count": 24,
    "top": [
     {
+     "id": "b67c8a83619c988d",
+     "title": "Intel faces shareholder lawsuit after nearly 29% stock plunge",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/intel-faces-shareholder-lawsuit-29-stock-plunge",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-16T08:00:57.000Z",
+     "topics": [
+      "政策与治理",
+      "算力与基建"
+     ],
+     "entities": [
+      "Intel"
+     ],
+     "firstSeen": "2026-11-16",
+     "isNew": true
+    },
+    {
      "id": "26d73a96a85a5400",
      "title": "Alibaba launches Qwen4-Max AI model, cutting task costs 60%",
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/alibaba-launches-qwen4max-ai-model-cutting-task-costs-60",
-     "importance": 91,
+     "importance": 87,
      "difficulty": "入门",
      "publishedAt": "2026-11-16T04:23:17.000Z",
      "topics": [
@@ -348,7 +370,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/tencent-cloud-signs-ai-deal-capital-logistics-arm",
-     "importance": 90,
+     "importance": 86,
      "difficulty": "进阶",
      "publishedAt": "2026-11-16T03:15:22.000Z",
      "topics": [
@@ -358,25 +380,6 @@
      "entities": [
       "腾讯",
       "Arm"
-     ],
-     "firstSeen": "2026-11-16",
-     "isNew": true
-    },
-    {
-     "id": "f9561220d88da3cd",
-     "title": "Firmus plans $3b fundraising after pulling IPO plans: source",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/firmus-plans-3b-fundraising-pulling-ipo-plans-source",
-     "importance": 88,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-16T01:27:54.000Z",
-     "topics": [
-      "资本与市场",
-      "算力与基建"
-     ],
-     "entities": [
-      "Meta"
      ],
      "firstSeen": "2026-11-16",
      "isNew": true
@@ -390,6 +393,38 @@
    "flag": "🕌",
    "count": 24,
    "top": [
+    {
+     "id": "c05bd9668caecd8d",
+     "title": "Sabika secures new investment to expand gold and silver trading platform",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/sabika-secures-new-investment-expand-gold-silver-trading-platform",
+     "importance": 64,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-16",
+     "isNew": true
+    },
+    {
+     "id": "352351a0c2d16fe7",
+     "title": "Security measures to take in the event of an outage",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/insight/security-measures-to-take-in-the-event-of-an-outage/",
+     "importance": 63,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-16T09:41:33.000Z",
+     "topics": [],
+     "entities": [
+      "Microsoft"
+     ],
+     "firstSeen": "2026-11-16",
+     "isNew": true
+    },
     {
      "id": "883e7a657abd0e23",
      "title": "Journify raises $12 million at fourfold valuation increase",
@@ -405,42 +440,6 @@
      "entities": [],
      "firstSeen": "2026-11-15",
      "isNew": false
-    },
-    {
-     "id": "fa094c468ed12a6e",
-     "title": "CE-Ventures backs UK's Oyster Therapeutics in $60 million Series A round",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/ce-ventures-backs-uk-oyster-therapeutics-60-million-series-a-round",
-     "importance": 58,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [
-      "Arm"
-     ],
-     "firstSeen": "2026-11-15",
-     "isNew": false
-    },
-    {
-     "id": "e651c97b2986a703",
-     "title": "UAE's Soter Insure secures fresh Series B investment from SC Ventures, SBI Group",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/uae-soter-insure-secures-fresh-series-b-investment-sc-ventures-sbi-group",
-     "importance": 58,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [
-      "Arm"
-     ],
-     "firstSeen": "2026-11-15",
-     "isNew": false
     }
    ]
   },
@@ -449,7 +448,7 @@
    "name": "日韩",
    "short": "日韩",
    "flag": "🗾",
-   "count": 12,
+   "count": 11,
    "top": [
     {
      "id": "ab9fa1f6e028f521",
@@ -457,27 +456,13 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/opinion-%ea%b8%b0%ed%9b%84%eb%a5%bc-%ea%b5%ac%ed%95%98%ea%b2%a0%eb%8b%a4%eb%8a%94-ai-%ed%98%84%ec%8b%a4%ec%9d%80-%eb%8b%ac%eb%9e%90%eb%8b%a4/",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-11-15T21:00:00.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-11-16",
      "isNew": true
-    },
-    {
-     "id": "8b6958d5a815c4f3",
-     "title": "AI 가수 '자니아 모네', 첫 AI 음악상 4관왕…'AI판 그래미' 시동",
-     "source": "AI타임스",
-     "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=217461",
-     "importance": 50,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-16T16:16:13.000Z",
-     "topics": [],
-     "entities": [],
-     "firstSeen": "2026-11-15",
-     "isNew": false
     },
     {
      "id": "d55fe8630d740541",
@@ -488,6 +473,22 @@
      "importance": 39,
      "difficulty": "进阶",
      "publishedAt": "2026-11-13T17:27:33.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-15",
+     "isNew": false
+    },
+    {
+     "id": "d5064f8d219d3e4a",
+     "title": "AI面接官とは？人事向けに導入手順とツール比較・費用を解説",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/11/14/278515/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e9%259d%25a2%25e6%258e%25a5%25e5%25ae%2598%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e4%25ba%25ba%25e4%25ba%258b%25e5%2590%2591%25e3%2581%2591%25e3%2581%25ab%25e5%25b0%258e%25e5%2585%25a5%25e6%2589%258b%25e9%25a0%2586%25e3%2581%25a8%25e3%2583%2584%25e3%2583%25bc%25e3%2583%25ab%25e6%25af%2594%25e8%25bc%2583%25e3%2583%25bb",
+     "importance": 39,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-13T17:12:40.000Z",
      "topics": [
       "产业与生态"
      ],
@@ -526,7 +527,7 @@
      "source": "Sifted",
      "region": "EU",
      "url": "https://sifted.eu/articles/robotics-software-ai-funding-round-mosaico/",
-     "importance": 81,
+     "importance": 77,
      "difficulty": "入门",
      "publishedAt": "2026-11-16T05:00:44.000Z",
      "topics": [
@@ -537,15 +538,17 @@
      "isNew": true
     },
     {
-     "id": "a4b79ed781adf461",
-     "title": "Why a ban on non-competes could hurt startups",
-     "source": "Sifted",
+     "id": "0289fe9d362e7da6",
+     "title": "Auxilion to create 50 new jobs in Dublin, Belfast and Sheffield",
+     "source": "Silicon Republic",
      "region": "EU",
-     "url": "https://sifted.eu/articles/uk-non-compete-rules-change-against/",
-     "importance": 66,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-16T05:00:57.000Z",
-     "topics": [],
+     "url": "https://www.siliconrepublic.com/jobs-news/auxilion-create-50-new-jobs-dublin-belfast-sheffield-careers",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-16T09:52:10.000Z",
+     "topics": [
+      "资本与市场"
+     ],
      "entities": [],
      "firstSeen": "2026-11-16",
      "isNew": true
@@ -565,7 +568,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
-     "importance": 91,
+     "importance": 87,
      "difficulty": "入门",
      "publishedAt": "2026-11-16T01:30:00.000Z",
      "topics": [
@@ -578,38 +581,38 @@
      "isNew": true
     },
     {
-     "id": "1fcf365f7301f1f6",
-     "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
-     "source": "TechCrunch AI",
+     "id": "1bad5babb675c603",
+     "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+     "source": "OpenAI 官方",
      "region": "NA",
-     "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
-     "importance": 80,
+     "url": "https://openai.com/index/lvmh-media-division-partnership",
+     "importance": 84,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-15T21:56:35.000Z",
+     "publishedAt": "2026-11-16T09:00:00.000Z",
      "topics": [
-      "算力与基建",
-      "政策与治理"
+      "产业与生态"
      ],
      "entities": [
-      "NVIDIA"
+      "OpenAI"
      ],
      "firstSeen": "2026-11-16",
      "isNew": true
     },
     {
-     "id": "cdc4b851c222d0ac",
-     "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
-     "source": "TechCrunch AI",
+     "id": "1e17fc31f764f62a",
+     "title": "The King’s Trust and OpenAI launch £1m partnership",
+     "source": "OpenAI 官方",
      "region": "NA",
-     "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
-     "importance": 80,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-15T20:20:57.000Z",
+     "url": "https://openai.com/index/the-kings-trust-and-openai",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-16T00:00:00.000Z",
      "topics": [
-      "算力与基建"
+      "产品与应用",
+      "产业与生态"
      ],
      "entities": [
-      "NVIDIA"
+      "OpenAI"
      ],
      "firstSeen": "2026-11-16",
      "isNew": true
@@ -629,7 +632,7 @@
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/buzz/the-nvidia-fallout-weekly-funding-rundown-more/",
-     "importance": 92,
+     "importance": 88,
      "difficulty": "进阶",
      "publishedAt": "2026-11-16T02:30:41.000Z",
      "topics": [
@@ -643,41 +646,45 @@
      "isNew": true
     },
     {
-     "id": "ed17227e8e933fb2",
-     "title": "Bharat Semi Raises $24 Mn To Build Smart Sensors For Physical AI",
+     "id": "f2679d49eebb78cb",
+     "title": "Jio Stops New Signups For Free Google AI Pro Subscription",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/bharat-semi-raises-24-mn-to-build-smart-sensors-for-physical-ai/",
-     "importance": 82,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-16T05:54:07.000Z",
+     "url": "https://inc42.com/buzz/jio-ends-new-sign-ups-for-free-google-ai-pro-subscription/",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-16T10:21:02.000Z",
      "topics": [
-      "资本与市场",
-      "算力与基建"
+      "模型与能力",
+      "产品与应用"
      ],
-     "entities": [],
+     "entities": [
+      "Google"
+     ],
      "firstSeen": "2026-11-16",
      "isNew": true
     },
     {
-     "id": "6a8195b98a401771",
-     "title": "Jio In Talks With ISRO, Skyroot For 1,600-Satellite Constellation: Report",
-     "source": "Inc42",
+     "id": "f6f2ad1e124d5c88",
+     "title": "Claude Fable 5.2 vs Meta Muse Ember",
+     "source": "Techloy",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/jio-in-talks-with-isro-skyroot-for-1600-satellite-constellation-report/",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-16T07:10:12.000Z",
+     "url": "https://www.techloy.com/claude-fable-5-2-vs-muse-ember/",
+     "importance": 85,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-16T10:00:48.000Z",
      "topics": [
-      "产品与应用",
-      "产业与生态"
+      "模型与能力"
      ],
-     "entities": [],
+     "entities": [
+      "Anthropic",
+      "Meta"
+     ],
      "firstSeen": "2026-11-16",
      "isNew": true
     }
    ]
   }
  ],
- "overview": "11 月 16 日，共从 26 个信息源抓取 427 条 AI 产业动态，其中 156 条进入当日精选，覆盖 7 个区域。其中有 89 条发布于 24 小时内。其中 83 条是此前未出现过的新增内容，另有 73 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」49 条、「算力与基建」40 条。值得优先关注的几条：「DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%」（InfoQ 中国）、「模型选择自由！千问办公上线Qwen4、Kimi-K3.1、GLM-5.3等10款模型」（雷峰网）、「百度世界2026｜让金融AI用得起、更专业，度小满“轩辕”探索中小机构落地新路径」（雷峰网）。"
+ "overview": "11 月 16 日，共从 25 个信息源抓取 426 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 98 条发布于 24 小时内。其中 99 条是此前未出现过的新增内容，另有 56 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」47 条、「产品与应用」43 条。值得优先关注的几条：「实测腾讯 Hy4 flash：花两毛钱，就能让 AI 从零做个 3D 交互网页」（爱范儿）、「DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%」（InfoQ 中国）、「模型选择自由！千问办公上线Qwen4、Kimi-K3.1、GLM-5.3等10款模型」（雷峰网）。"
 }
