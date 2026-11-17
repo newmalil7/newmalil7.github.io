@@ -1,0 +1,689 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-11-17",
+ "generatedAt": "2026-11-17T08:36:07.292Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 434,
+  "published": 157,
+  "newCount": 110,
+  "repeatCount": 47,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 13,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 26,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 111,
+  "withinFresh": 119,
+  "freshHours": 72,
+  "monthPrecision": 20,
+  "undated": 0,
+  "staleDropped": 26,
+  "newestAt": "2026-11-17T16:57:30.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 53
+  },
+  {
+   "name": "产品与应用",
+   "n": 44
+  },
+  {
+   "name": "算力与基建",
+   "n": 28
+  },
+  {
+   "name": "产业与生态",
+   "n": 17
+  },
+  {
+   "name": "模型与能力",
+   "n": 17
+  },
+  {
+   "name": "政策与治理",
+   "n": 14
+  }
+ ],
+ "entities": [
+  {
+   "name": "NVIDIA",
+   "n": 17
+  },
+  {
+   "name": "OpenAI",
+   "n": 10
+  },
+  {
+   "name": "腾讯",
+   "n": 7
+  },
+  {
+   "name": "阿里巴巴",
+   "n": 5
+  },
+  {
+   "name": "Anthropic",
+   "n": 5
+  },
+  {
+   "name": "Amazon",
+   "n": 5
+  },
+  {
+   "name": "Google",
+   "n": 5
+  },
+  {
+   "name": "Meta",
+   "n": 3
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "076e2058f8c778aa",
+   "title": "腾讯 Hy4 flash 实测：快速、实惠、聪明，国模进入过日子时代",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/374083",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-17T07:12:48.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "腾讯",
+    "DeepSeek",
+    "OpenRouter"
+   ],
+   "firstSeen": "2026-11-17",
+   "isNew": true
+  },
+  {
+   "id": "5c7b8b41c7544b63",
+   "title": "8点1氪丨DeepSeek因算力不足限额；英伟达董事会没考虑让黄仁勋回公司担任CEO；AI演员代言美瞳广告被罚6.82万",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4073099271230601?f=rss",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-17T00:11:01.000Z",
+   "topics": [
+    "算力与基建",
+    "产品与应用"
+   ],
+   "entities": [
+    "NVIDIA",
+    "三星",
+    "阿里巴巴",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-11-17",
+   "isNew": true
+  },
+  {
+   "id": "84626ca5e92e9829",
+   "title": "OpenAI 和 Meta 联手，打通了 Agent 商业「最后一公里」",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/374075",
+   "importance": 96,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-17T06:24:52.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Meta"
+   ],
+   "firstSeen": "2026-11-17",
+   "isNew": true
+  },
+  {
+   "id": "dcb2b16e12dacf76",
+   "title": "早报｜iPhone Duo新增外屏人脸解锁/曝英伟达董事会无意请回黄仁勋/华为Mate X8定档11月24日",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1689760?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-17T00:18:50.000Z",
+   "topics": [
+    "模型与能力",
+    "资本与市场"
+   ],
+   "entities": [
+    "NVIDIA",
+    "阿里巴巴",
+    "腾讯",
+    "百度"
+   ],
+   "firstSeen": "2026-11-17",
+   "isNew": true
+  },
+  {
+   "id": "07feed94daa0997c",
+   "title": "美国纳管AI算力远程获取，海外数据中心出租算力将须许可",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8207829.html",
+   "importance": 93,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-17T03:32:00.000Z",
+   "topics": [
+    "算力与基建",
+    "政策与治理"
+   ],
+   "entities": [
+    "NVIDIA",
+    "阿里巴巴"
+   ],
+   "firstSeen": "2026-11-17",
+   "isNew": true
+  },
+  {
+   "id": "34e96746cd46efd8",
+   "title": "谷歌DeepMind战略主管Jasjeet Sekhon跳槽加入Anthropic",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4073585107784836?f=rss",
+   "importance": 89,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-17T08:25:03.000Z",
+   "topics": [
+    "产业与生态",
+    "模型与能力"
+   ],
+   "entities": [
+    "Anthropic",
+    "DeepMind"
+   ],
+   "firstSeen": "2026-11-17",
+   "isNew": true
+  },
+  {
+   "id": "4ddee71639bc9644",
+   "title": "Agent演示惊艳，一进生产就不好用：SAP直指企业AI落地的最大幻觉",
+   "source": "InfoQ 中国",
+   "region": "CN",
+   "url": "https://www.infoq.cn/article/AsfcqUsutpSlPIBE1ok9?utm_source=rss&utm_medium=article",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-17T15:00:05.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "SAP"
+   ],
+   "firstSeen": "2026-11-17",
+   "isNew": true
+  },
+  {
+   "id": "d7eeffdd2c582f00",
+   "title": "Open AI hit with lawsuit in California over Hugging Face rogue agent incident",
+   "source": "SiliconANGLE",
+   "region": "NA",
+   "url": "https://siliconangle.com/2026/11/16/open-ai-hit-with-lawsuit-in-california-over-hugging-face-rogue-agent-incident/",
+   "importance": 88,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-17T01:56:05.000Z",
+   "topics": [
+    "政策与治理",
+    "产品与应用"
+   ],
+   "entities": [
+    "OpenAI",
+    "Hugging Face"
+   ],
+   "firstSeen": "2026-11-17",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "076e2058f8c778aa",
+     "title": "腾讯 Hy4 flash 实测：快速、实惠、聪明，国模进入过日子时代",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/374083",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T07:12:48.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "腾讯",
+      "DeepSeek",
+      "OpenRouter"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "5c7b8b41c7544b63",
+     "title": "8点1氪丨DeepSeek因算力不足限额；英伟达董事会没考虑让黄仁勋回公司担任CEO；AI演员代言美瞳广告被罚6.82万",
+     "source": "36氪",
+     "region": "CN",
+     "url": "https://36kr.com/p/4073099271230601?f=rss",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-17T00:11:01.000Z",
+     "topics": [
+      "算力与基建",
+      "产品与应用"
+     ],
+     "entities": [
+      "NVIDIA",
+      "三星",
+      "阿里巴巴",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "84626ca5e92e9829",
+     "title": "OpenAI 和 Meta 联手，打通了 Agent 商业「最后一公里」",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/374075",
+     "importance": 96,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T06:24:52.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Meta"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "1e83447384005195",
+     "title": "India’s Velocity unveils AI tool for D2C shipping",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/indias-velocity-unveils-ai-tool-d2c-shipping",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T07:26:48.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "6d1fb2991f61742f",
+     "title": "Tencent launches lower-cost Hy4 Flash AI model",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/tencent-launches-lowercost-hy4-flash-ai-model",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T05:09:29.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "腾讯"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "7eb1445ba42ae7e3",
+     "title": "The app reshaping how we control screen time",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/app-reshaping-control-screen-time",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T03:00:44.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "acffa3b274acb5d5",
+     "title": "UAE's Vision Makers secures $4 million in a dual round",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/uae-vision-makers-secures-4-million-dual-round",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "74c3e56cb4cec2ad",
+     "title": "Magna AI powers sovereign AI adoption from experimentation to deployment",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/home-slide/magna-ai-powers-sovereign-ai-adoption-from-experimentation-to-deployment/",
+     "importance": 68,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-16T21:04:03.000Z",
+     "topics": [
+      "政策与治理",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "883e7a657abd0e23",
+     "title": "Journify raises $12 million at fourfold valuation increase",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/journify-raises-12-million-fourfold-valuation-increase",
+     "importance": 60,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-16",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 13,
+   "top": [
+    {
+     "id": "f189b2d425ac2c20",
+     "title": "오픈소스 진영, 젠슨 황 복귀 촉구…하지만 ‘악재’ 줄줄이",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ec%98%a4%ed%94%88%ec%86%8c%ec%8a%a4-%ec%a7%84%ec%98%81-%ec%a0%a0%ec%8a%a8-%ed%99%a9-%eb%b3%b5%ea%b7%80-%ec%b4%89%ea%b5%ac%ed%95%98%ec%a7%80%eb%a7%8c-%ec%95%85%ec%9e%ac-%ec%a4%84/",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-16T23:58:10.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "b1cd63b7ae75c619",
+     "title": "미래를 예측한다던 실리콘밸리 거물들은 왜 정치의 미래를 읽지 못했나",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%eb%af%b8%eb%9e%98%eb%a5%bc-%ea%bf%b0%eb%9a%ab%eb%8a%94%eb%8b%a4%eb%8d%98-%ec%8b%a4%eb%a6%ac%ec%bd%98%eb%b0%b8%eb%a6%ac%eb%8a%94-%ec%99%9c-%eb%af%b8%ea%b5%ad-%ec%a4%91%ea%b0%84%ec%84%a0%ea%b1%b0/",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-16T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "abc1d3fcbaca4dbb",
+     "title": "젠슨 황 딸, 직급 넘는 영향력 행사…아버지 퇴진 후 권한 조정 과제",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217503",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-17T16:57:30.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-15",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "08339e38673debc5",
+     "title": "Legora’s revenue chief on hiring at speed, keeping culture intact and the need for ‘extreme urgency’",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/legoras-revenue-vp-leonard-schreij-interview/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-17T05:00:40.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "bf3f20be14690c8f",
+     "title": "Irish co-founded Pretxt raises $5m seed to supervise AI agents",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/start-ups/pretxt-dublin-security-ai-cybersecurity-agents-colorado-us",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T08:00:54.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "9330184b9fa666ba",
+     "title": "Europe's world models startups: mapped",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/europe-world-models-mapped/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-17T05:00:47.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "d7eeffdd2c582f00",
+     "title": "Open AI hit with lawsuit in California over Hugging Face rogue agent incident",
+     "source": "SiliconANGLE",
+     "region": "NA",
+     "url": "https://siliconangle.com/2026/11/16/open-ai-hit-with-lawsuit-in-california-over-hugging-face-rogue-agent-incident/",
+     "importance": 88,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T01:56:05.000Z",
+     "topics": [
+      "政策与治理",
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Hugging Face"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "40f65194779cd286",
+     "title": "California sues OpenAI over rogue AI hacking incidents",
+     "source": "The Verge AI",
+     "region": "NA",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+     "importance": 81,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-16T20:46:01.000Z",
+     "topics": [
+      "政策与治理",
+      "产品与应用"
+     ],
+     "entities": [
+      "OpenAI",
+      "Hugging Face"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "f074c5a44e4279c5",
+     "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+     "importance": 81,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-16T18:11:10.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "OpenAI",
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "8e4c50428457f9d9",
+     "title": "D2C’s ‘Red Label’ Test",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/features/d2cs-red-label-test/",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T05:31:40.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Amazon"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "d0242bdb56e3974e",
+     "title": "Ranveer Singh, Aman Gupta Launch Men’s Personal Care Brand H.I.M",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/ranveer-singh-aman-gupta-team-up-to-launch-mens-grooming-brand-h-i-m/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T07:26:51.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "9187ec57562e553e",
+     "title": "Instagram Tightens Recommendations For Sexually Suggestive, Violent Content In India",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/instagram-tightens-recommendations-for-sexually-suggestive-violent-content-in-india/",
+     "importance": 72,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-17T07:40:32.000Z",
+     "topics": [],
+     "entities": [
+      "Meta"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "11 月 17 日，共从 26 个信息源抓取 434 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 111 条发布于 24 小时内。其中 110 条是此前未出现过的新增内容，另有 47 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」53 条、「产品与应用」44 条。值得优先关注的几条：「腾讯 Hy4 flash 实测：快速、实惠、聪明，国模进入过日子时代」（极客公园）、「8点1氪丨DeepSeek因算力不足限额；英伟达董事会没考虑让黄仁勋回公司担任CEO；AI演员代言美瞳广告被罚6.82万」（36氪）、「OpenAI 和 Meta 联手，打通了 Agent 商业「最后一公里」」（极客公园）。"
+}
