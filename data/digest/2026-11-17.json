@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-17",
- "generatedAt": "2026-11-17T08:36:07.292Z",
+ "generatedAt": "2026-11-17T12:59:11.418Z",
  "mode": "rule",
  "counts": {
-  "crawled": 434,
+  "crawled": 430,
   "published": 157,
-  "newCount": 110,
-  "repeatCount": 47,
+  "newCount": 123,
+  "repeatCount": 34,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,48 +22,52 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 111,
-  "withinFresh": 119,
+  "within24h": 120,
+  "withinFresh": 130,
   "freshHours": 72,
-  "monthPrecision": 20,
+  "monthPrecision": 15,
   "undated": 0,
-  "staleDropped": 26,
-  "newestAt": "2026-11-17T16:57:30.000Z"
+  "staleDropped": 28,
+  "newestAt": "2026-11-17T18:53:07.000Z"
  },
  "themes": [
   {
-   "name": "资本与市场",
-   "n": 53
+   "name": "产品与应用",
+   "n": 47
   },
   {
-   "name": "产品与应用",
-   "n": 44
+   "name": "资本与市场",
+   "n": 46
   },
   {
    "name": "算力与基建",
-   "n": 28
+   "n": 23
   },
   {
    "name": "产业与生态",
-   "n": 17
+   "n": 22
   },
   {
    "name": "模型与能力",
-   "n": 17
+   "n": 20
   },
   {
    "name": "政策与治理",
-   "n": 14
+   "n": 13
   }
  ],
  "entities": [
   {
    "name": "NVIDIA",
-   "n": 17
+   "n": 13
   },
   {
    "name": "OpenAI",
-   "n": 10
+   "n": 13
+  },
+  {
+   "name": "Google",
+   "n": 9
   },
   {
    "name": "腾讯",
@@ -71,18 +75,14 @@
   },
   {
    "name": "阿里巴巴",
+   "n": 6
+  },
+  {
+   "name": "DeepSeek",
    "n": 5
   },
   {
    "name": "Anthropic",
-   "n": 5
-  },
-  {
-   "name": "Amazon",
-   "n": 5
-  },
-  {
-   "name": "Google",
    "n": 5
   },
   {
@@ -113,12 +113,51 @@
    "isNew": true
   },
   {
+   "id": "51a2176f36889579",
+   "title": "纳芯微拟4.87亿控股隔空智能：268%评估增值零对赌，感知赛道再落子 ｜并购一线",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8208705.html",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-17T12:05:09.000Z",
+   "topics": [
+    "资本与市场",
+    "产业与生态"
+   ],
+   "entities": [
+    "小米"
+   ],
+   "firstSeen": "2026-11-17",
+   "isNew": true
+  },
+  {
+   "id": "56b05765828c71c1",
+   "title": "Sarvam AI Opens Token Factory To Run Global AI Models On Indian Servers",
+   "source": "Inc42",
+   "region": "OTHER",
+   "url": "https://inc42.com/buzz/sarvam-ai-opens-token-factory-to-run-global-ai-models-on-indian-servers/",
+   "importance": 94,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-17T09:50:00.000Z",
+   "topics": [
+    "模型与能力",
+    "算力与基建"
+   ],
+   "entities": [
+    "Google",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-11-17",
+   "isNew": true
+  },
+  {
    "id": "5c7b8b41c7544b63",
    "title": "8点1氪丨DeepSeek因算力不足限额；英伟达董事会没考虑让黄仁勋回公司担任CEO；AI演员代言美瞳广告被罚6.82万",
    "source": "36氪",
    "region": "CN",
    "url": "https://36kr.com/p/4073099271230601?f=rss",
-   "importance": 99,
+   "importance": 94,
    "difficulty": "进阶",
    "publishedAt": "2026-11-17T00:11:01.000Z",
    "topics": [
@@ -140,7 +179,7 @@
    "source": "极客公园",
    "region": "CN",
    "url": "http://www.geekpark.net/news/374075",
-   "importance": 96,
+   "importance": 92,
    "difficulty": "入门",
    "publishedAt": "2026-11-17T06:24:52.000Z",
    "topics": [
@@ -154,12 +193,50 @@
    "isNew": true
   },
   {
+   "id": "906ef5462886517a",
+   "title": "阿里云连续六年香港IaaS第一，企业客户AI渗透率达95%",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/industrynews/qyieFYqM3EQhE1Hu.html",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-17T09:24:00.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴"
+   ],
+   "firstSeen": "2026-11-17",
+   "isNew": true
+  },
+  {
+   "id": "8c652c474432033e",
+   "title": "腾讯加速挺进AI下半场",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8207501.html",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-17T09:21:36.000Z",
+   "topics": [
+    "产品与应用",
+    "产业与生态"
+   ],
+   "entities": [
+    "腾讯"
+   ],
+   "firstSeen": "2026-11-17",
+   "isNew": true
+  },
+  {
    "id": "dcb2b16e12dacf76",
    "title": "早报｜iPhone Duo新增外屏人脸解锁/曝英伟达董事会无意请回黄仁勋/华为Mate X8定档11月24日",
    "source": "爱范儿",
    "region": "CN",
    "url": "https://www.ifanr.com/1689760?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "importance": 94,
+   "importance": 89,
    "difficulty": "入门",
    "publishedAt": "2026-11-17T00:18:50.000Z",
    "topics": [
@@ -171,84 +248,6 @@
     "阿里巴巴",
     "腾讯",
     "百度"
-   ],
-   "firstSeen": "2026-11-17",
-   "isNew": true
-  },
-  {
-   "id": "07feed94daa0997c",
-   "title": "美国纳管AI算力远程获取，海外数据中心出租算力将须许可",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8207829.html",
-   "importance": 93,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-17T03:32:00.000Z",
-   "topics": [
-    "算力与基建",
-    "政策与治理"
-   ],
-   "entities": [
-    "NVIDIA",
-    "阿里巴巴"
-   ],
-   "firstSeen": "2026-11-17",
-   "isNew": true
-  },
-  {
-   "id": "34e96746cd46efd8",
-   "title": "谷歌DeepMind战略主管Jasjeet Sekhon跳槽加入Anthropic",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4073585107784836?f=rss",
-   "importance": 89,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-17T08:25:03.000Z",
-   "topics": [
-    "产业与生态",
-    "模型与能力"
-   ],
-   "entities": [
-    "Anthropic",
-    "DeepMind"
-   ],
-   "firstSeen": "2026-11-17",
-   "isNew": true
-  },
-  {
-   "id": "4ddee71639bc9644",
-   "title": "Agent演示惊艳，一进生产就不好用：SAP直指企业AI落地的最大幻觉",
-   "source": "InfoQ 中国",
-   "region": "CN",
-   "url": "https://www.infoq.cn/article/AsfcqUsutpSlPIBE1ok9?utm_source=rss&utm_medium=article",
-   "importance": 88,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-17T15:00:05.000Z",
-   "topics": [
-    "产品与应用"
-   ],
-   "entities": [
-    "SAP"
-   ],
-   "firstSeen": "2026-11-17",
-   "isNew": true
-  },
-  {
-   "id": "d7eeffdd2c582f00",
-   "title": "Open AI hit with lawsuit in California over Hugging Face rogue agent incident",
-   "source": "SiliconANGLE",
-   "region": "NA",
-   "url": "https://siliconangle.com/2026/11/16/open-ai-hit-with-lawsuit-in-california-over-hugging-face-rogue-agent-incident/",
-   "importance": 88,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-17T01:56:05.000Z",
-   "topics": [
-    "政策与治理",
-    "产品与应用"
-   ],
-   "entities": [
-    "OpenAI",
-    "Hugging Face"
    ],
    "firstSeen": "2026-11-17",
    "isNew": true
@@ -284,12 +283,31 @@
      "isNew": true
     },
     {
+     "id": "51a2176f36889579",
+     "title": "纳芯微拟4.87亿控股隔空智能：268%评估增值零对赌，感知赛道再落子 ｜并购一线",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8208705.html",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T12:05:09.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [
+      "小米"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
      "id": "5c7b8b41c7544b63",
      "title": "8点1氪丨DeepSeek因算力不足限额；英伟达董事会没考虑让黄仁勋回公司担任CEO；AI演员代言美瞳广告被罚6.82万",
      "source": "36氪",
      "region": "CN",
      "url": "https://36kr.com/p/4073099271230601?f=rss",
-     "importance": 99,
+     "importance": 94,
      "difficulty": "进阶",
      "publishedAt": "2026-11-17T00:11:01.000Z",
      "topics": [
@@ -304,25 +322,6 @@
      ],
      "firstSeen": "2026-11-17",
      "isNew": true
-    },
-    {
-     "id": "84626ca5e92e9829",
-     "title": "OpenAI 和 Meta 联手，打通了 Agent 商业「最后一公里」",
-     "source": "极客公园",
-     "region": "CN",
-     "url": "http://www.geekpark.net/news/374075",
-     "importance": 96,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-17T06:24:52.000Z",
-     "topics": [
-      "产品与应用"
-     ],
-     "entities": [
-      "OpenAI",
-      "Meta"
-     ],
-     "firstSeen": "2026-11-17",
-     "isNew": true
     }
    ]
   },
@@ -333,6 +332,24 @@
    "flag": "🌏",
    "count": 24,
    "top": [
+    {
+     "id": "159556ccdbe877d7",
+     "title": "Mapping the firms leaving a mark in China’s fintech race",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/visual-story/mapping-chinas-notable-fintech-players",
+     "importance": 87,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T11:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "阿里巴巴"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
     {
      "id": "1e83447384005195",
      "title": "India’s Velocity unveils AI tool for D2C shipping",
@@ -353,39 +370,19 @@
      "isNew": true
     },
     {
-     "id": "6d1fb2991f61742f",
-     "title": "Tencent launches lower-cost Hy4 Flash AI model",
+     "id": "408f83dd445fcec2",
+     "title": "Alphabet-backed Isomorphic Labs raises $5b series C",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/tencent-launches-lowercost-hy4-flash-ai-model",
-     "importance": 87,
+     "url": "https://www.techinasia.com/news/alphabet-backed-isomorphic-labs-raises-5b-series-c",
+     "importance": 85,
      "difficulty": "入门",
-     "publishedAt": "2026-11-17T05:09:29.000Z",
+     "publishedAt": "2026-11-17T12:40:47.000Z",
      "topics": [
-      "模型与能力",
-      "产品与应用"
+      "资本与市场",
+      "产业与生态"
      ],
-     "entities": [
-      "腾讯"
-     ],
-     "firstSeen": "2026-11-17",
-     "isNew": true
-    },
-    {
-     "id": "7eb1445ba42ae7e3",
-     "title": "The app reshaping how we control screen time",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/app-reshaping-control-screen-time",
-     "importance": 87,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-17T03:00:44.000Z",
-     "topics": [
-      "产品与应用"
-     ],
-     "entities": [
-      "Google"
-     ],
+     "entities": [],
      "firstSeen": "2026-11-17",
      "isNew": true
     }
@@ -399,53 +396,58 @@
    "count": 24,
    "top": [
     {
-     "id": "acffa3b274acb5d5",
-     "title": "UAE's Vision Makers secures $4 million in a dual round",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/uae-vision-makers-secures-4-million-dual-round",
-     "importance": 72,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-17",
-     "isNew": true
-    },
-    {
-     "id": "74c3e56cb4cec2ad",
-     "title": "Magna AI powers sovereign AI adoption from experimentation to deployment",
+     "id": "a4e7208dcc1dfd65",
+     "title": "Apple refines its AI health tools",
      "source": "TahawulTech",
      "region": "ME",
-     "url": "https://www.tahawultech.com/home-slide/magna-ai-powers-sovereign-ai-adoption-from-experimentation-to-deployment/",
-     "importance": 68,
+     "url": "https://www.tahawultech.com/home-slide/apple-refines-its-ai-health-tools/",
+     "importance": 78,
      "difficulty": "入门",
-     "publishedAt": "2026-11-16T21:04:03.000Z",
+     "publishedAt": "2026-11-17T12:16:44.000Z",
      "topics": [
-      "政策与治理",
+      "产品与应用",
       "产业与生态"
      ],
-     "entities": [],
+     "entities": [
+      "Apple"
+     ],
      "firstSeen": "2026-11-17",
      "isNew": true
     },
     {
-     "id": "883e7a657abd0e23",
-     "title": "Journify raises $12 million at fourfold valuation increase",
-     "source": "Wamda",
+     "id": "a99c255245e556b1",
+     "title": "Google Maps adds new agentic AI features",
+     "source": "TahawulTech",
      "region": "ME",
-     "url": "https://www.wamda.com/2026/11/journify-raises-12-million-fourfold-valuation-increase",
-     "importance": 60,
+     "url": "https://www.tahawultech.com/home-slide/google-maps-adds-new-agentic-ai-features/",
+     "importance": 78,
      "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "publishedAt": "2026-11-17T12:09:08.000Z",
      "topics": [
-      "资本与市场"
+      "产品与应用"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "d8f55875ca46ee1c",
+     "title": "Cyber defence in the AI era",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/features/cyber-defence-in-the-ai-era/",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T11:57:12.000Z",
+     "topics": [
+      "产品与应用",
+      "政策与治理"
      ],
      "entities": [],
-     "firstSeen": "2026-11-16",
-     "isNew": false
+     "firstSeen": "2026-11-17",
+     "isNew": true
     }
    ]
   },
@@ -462,7 +464,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ec%98%a4%ed%94%88%ec%86%8c%ec%8a%a4-%ec%a7%84%ec%98%81-%ec%a0%a0%ec%8a%a8-%ed%99%a9-%eb%b3%b5%ea%b7%80-%ec%b4%89%ea%b5%ac%ed%95%98%ec%a7%80%eb%a7%8c-%ec%95%85%ec%9e%ac-%ec%a4%84/",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-11-16T23:58:10.000Z",
      "topics": [],
@@ -476,7 +478,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%eb%af%b8%eb%9e%98%eb%a5%bc-%ea%bf%b0%eb%9a%ab%eb%8a%94%eb%8b%a4%eb%8d%98-%ec%8b%a4%eb%a6%ac%ec%bd%98%eb%b0%b8%eb%a6%ac%eb%8a%94-%ec%99%9c-%eb%af%b8%ea%b5%ad-%ec%a4%91%ea%b0%84%ec%84%a0%ea%b1%b0/",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-11-16T21:00:00.000Z",
      "topics": [],
@@ -485,14 +487,14 @@
      "isNew": true
     },
     {
-     "id": "abc1d3fcbaca4dbb",
-     "title": "젠슨 황 딸, 직급 넘는 영향력 행사…아버지 퇴진 후 권한 조정 과제",
+     "id": "6f8a6dc545664be5",
+     "title": "메타, AI로 코드 오류 사전 차단...개인정보 관련 심각한 버그 74건 발견",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=217503",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217492",
      "importance": 50,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-17T16:57:30.000Z",
+     "publishedAt": "2026-11-17T18:09:25.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-11-15",
@@ -508,17 +510,35 @@
    "count": 24,
    "top": [
     {
-     "id": "08339e38673debc5",
-     "title": "Legora’s revenue chief on hiring at speed, keeping culture intact and the need for ‘extreme urgency’",
+     "id": "8e2bdf8e22fe955c",
+     "title": "Nvidia creates internal oversight committee",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/business/nvidia-creates-internal-oversight-committee-chips-ai",
+     "importance": 79,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-17T12:54:42.000Z",
+     "topics": [
+      "算力与基建",
+      "政策与治理"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
+     "id": "0012785cc7f1d66d",
+     "title": "EQT and FirstMark back trio of H Company alumni in $30m seed round",
      "source": "Sifted",
      "region": "EU",
-     "url": "https://sifted.eu/articles/legoras-revenue-vp-leonard-schreij-interview/",
+     "url": "https://sifted.eu/articles/remanence-30m-seed-round/",
      "importance": 78,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-17T05:00:40.000Z",
+     "publishedAt": "2026-11-17T12:03:08.000Z",
      "topics": [
-      "资本与市场",
-      "产业与生态"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-11-17",
@@ -537,20 +557,6 @@
       "资本与市场",
       "产品与应用"
      ],
-     "entities": [],
-     "firstSeen": "2026-11-17",
-     "isNew": true
-    },
-    {
-     "id": "9330184b9fa666ba",
-     "title": "Europe's world models startups: mapped",
-     "source": "Sifted",
-     "region": "EU",
-     "url": "https://sifted.eu/articles/europe-world-models-mapped/",
-     "importance": 66,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-17T05:00:47.000Z",
-     "topics": [],
      "entities": [],
      "firstSeen": "2026-11-17",
      "isNew": true
@@ -585,26 +591,6 @@
      "isNew": true
     },
     {
-     "id": "40f65194779cd286",
-     "title": "California sues OpenAI over rogue AI hacking incidents",
-     "source": "The Verge AI",
-     "region": "NA",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-     "importance": 81,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-16T20:46:01.000Z",
-     "topics": [
-      "政策与治理",
-      "产品与应用"
-     ],
-     "entities": [
-      "OpenAI",
-      "Hugging Face"
-     ],
-     "firstSeen": "2026-11-17",
-     "isNew": true
-    },
-    {
      "id": "f074c5a44e4279c5",
      "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
      "source": "TechCrunch AI",
@@ -622,6 +608,25 @@
      ],
      "firstSeen": "2026-11-17",
      "isNew": true
+    },
+    {
+     "id": "e7aef59e3e3bb7a0",
+     "title": "Google Maps can now create trip itineraries for you",
+     "source": "The Verge AI",
+     "region": "NA",
+     "url": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-16T14:00:00.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
     }
    ]
   },
@@ -633,12 +638,32 @@
    "count": 24,
    "top": [
     {
+     "id": "56b05765828c71c1",
+     "title": "Sarvam AI Opens Token Factory To Run Global AI Models On Indian Servers",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/sarvam-ai-opens-token-factory-to-run-global-ai-models-on-indian-servers/",
+     "importance": 94,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-17T09:50:00.000Z",
+     "topics": [
+      "模型与能力",
+      "算力与基建"
+     ],
+     "entities": [
+      "Google",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-11-17",
+     "isNew": true
+    },
+    {
      "id": "8e4c50428457f9d9",
      "title": "D2C’s ‘Red Label’ Test",
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/features/d2cs-red-label-test/",
-     "importance": 87,
+     "importance": 83,
      "difficulty": "入门",
      "publishedAt": "2026-11-17T05:31:40.000Z",
      "topics": [
@@ -651,39 +676,23 @@
      "isNew": true
     },
     {
-     "id": "d0242bdb56e3974e",
-     "title": "Ranveer Singh, Aman Gupta Launch Men’s Personal Care Brand H.I.M",
+     "id": "07e874cc17883729",
+     "title": "Rediff Files Updated IPO Papers For ₹600 Cr Fresh Issue-Only IPO",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/ranveer-singh-aman-gupta-team-up-to-launch-mens-grooming-brand-h-i-m/",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-17T07:26:51.000Z",
+     "url": "https://inc42.com/buzz/rediff-files-updated-ipo-papers-for-%e2%82%b9600-cr-fresh-issue-only-ipo/",
+     "importance": 82,
+     "difficulty": "高级",
+     "publishedAt": "2026-11-17T11:38:16.000Z",
      "topics": [
-      "产品与应用"
+      "资本与市场"
      ],
      "entities": [],
-     "firstSeen": "2026-11-17",
-     "isNew": true
-    },
-    {
-     "id": "9187ec57562e553e",
-     "title": "Instagram Tightens Recommendations For Sexually Suggestive, Violent Content In India",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/instagram-tightens-recommendations-for-sexually-suggestive-violent-content-in-india/",
-     "importance": 72,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-17T07:40:32.000Z",
-     "topics": [],
-     "entities": [
-      "Meta"
-     ],
      "firstSeen": "2026-11-17",
      "isNew": true
     }
    ]
   }
  ],
- "overview": "11 月 17 日，共从 26 个信息源抓取 434 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 111 条发布于 24 小时内。其中 110 条是此前未出现过的新增内容，另有 47 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」53 条、「产品与应用」44 条。值得优先关注的几条：「腾讯 Hy4 flash 实测：快速、实惠、聪明，国模进入过日子时代」（极客公园）、「8点1氪丨DeepSeek因算力不足限额；英伟达董事会没考虑让黄仁勋回公司担任CEO；AI演员代言美瞳广告被罚6.82万」（36氪）、「OpenAI 和 Meta 联手，打通了 Agent 商业「最后一公里」」（极客公园）。"
+ "overview": "11 月 17 日，共从 26 个信息源抓取 430 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 120 条发布于 24 小时内。其中 123 条是此前未出现过的新增内容，另有 34 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」47 条、「资本与市场」46 条。值得优先关注的几条：「腾讯 Hy4 flash 实测：快速、实惠、聪明，国模进入过日子时代」（极客公园）、「纳芯微拟4.87亿控股隔空智能：268%评估增值零对赌，感知赛道再落子 ｜并购一线」（钛媒体）、「8点1氪丨DeepSeek因算力不足限额；英伟达董事会没考虑让黄仁勋回公司担任CEO；AI演员代言美瞳广告被罚6.82万」（36氪）。"
 }
