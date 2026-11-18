@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-18",
- "generatedAt": "2026-11-18T07:59:53.129Z",
+ "generatedAt": "2026-11-18T12:52:33.754Z",
  "mode": "rule",
  "counts": {
-  "crawled": 434,
+  "crawled": 430,
   "published": 157,
-  "newCount": 107,
-  "repeatCount": 50,
+  "newCount": 115,
+  "repeatCount": 42,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,47 +22,51 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 121,
-  "withinFresh": 133,
+  "within24h": 117,
+  "withinFresh": 131,
   "freshHours": 72,
-  "monthPrecision": 18,
+  "monthPrecision": 20,
   "undated": 0,
   "staleDropped": 26,
-  "newestAt": "2026-11-18T16:57:51.000Z"
+  "newestAt": "2026-11-18T18:59:07.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 59
+   "n": 60
   },
   {
    "name": "产品与应用",
-   "n": 33
+   "n": 40
   },
   {
    "name": "算力与基建",
-   "n": 27
-  },
-  {
-   "name": "模型与能力",
-   "n": 19
+   "n": 26
   },
   {
    "name": "产业与生态",
-   "n": 17
+   "n": 22
+  },
+  {
+   "name": "模型与能力",
+   "n": 20
   },
   {
    "name": "政策与治理",
-   "n": 11
+   "n": 7
   }
  ],
  "entities": [
   {
    "name": "NVIDIA",
-   "n": 23
+   "n": 21
   },
   {
    "name": "Google",
+   "n": 13
+  },
+  {
+   "name": "OpenAI",
    "n": 10
   },
   {
@@ -70,106 +74,159 @@
    "n": 9
   },
   {
-   "name": "OpenAI",
-   "n": 7
-  },
-  {
    "name": "Microsoft",
-   "n": 7
+   "n": 5
   },
   {
-   "name": "Amazon",
+   "name": "华为",
+   "n": 4
+  },
+  {
+   "name": "三星",
    "n": 3
   },
   {
    "name": "DeepMind",
    "n": 3
-  },
-  {
-   "name": "AMD",
-   "n": 3
   }
  ],
  "topOverall": [
   {
-   "id": "b2d476c488ee0a78",
-   "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
-   "importance": 96,
+   "id": "57d9fa5e894b667c",
+   "title": "英伟达扩大芯片供应链合作，数十亿美元支持矽品精密扩产",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4075208479495047?f=rss",
+   "importance": 95,
    "difficulty": "进阶",
-   "publishedAt": "2026-11-17T22:29:05.000Z",
+   "publishedAt": "2026-11-18T11:56:26.000Z",
    "topics": [
-    "资本与市场"
+    "算力与基建",
+    "产业与生态"
    ],
    "entities": [
-    "Anthropic",
-    "Google",
-    "Amazon"
+    "NVIDIA",
+    "台积电",
+    "三星"
    ],
    "firstSeen": "2026-11-18",
    "isNew": true
   },
   {
-   "id": "7737ab9812d22e5a",
-   "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol；王兴兴：家用机器人或将迎来技术突破；《GTA 6》开发商批评 AI 公司放任游戏仿制行为｜极客早知道",
-   "source": "极客公园",
+   "id": "4cc39f9a7208e31e",
+   "title": "Anthropic冲刺史上最大IPO 据悉获近七倍超额认购",
+   "source": "36氪",
    "region": "CN",
-   "url": "http://www.geekpark.net/news/374109",
+   "url": "https://36kr.com/newsflashes/4075240073106311?f=rss",
    "importance": 94,
    "difficulty": "入门",
-   "publishedAt": "2026-11-18T00:48:04.000Z",
+   "publishedAt": "2026-11-18T12:28:34.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-11-18",
+   "isNew": true
+  },
+  {
+   "id": "f350d1629bb45bd2",
+   "title": "Sarvam’s move to host Chinese AI models triggers debate",
+   "source": "YourStory",
+   "region": "OTHER",
+   "url": "https://yourstory.com/2026/11/sarvams-move-to-host-chinese-ai-models-triggers-debate",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-18T10:58:32.000Z",
    "topics": [
     "模型与能力",
     "产品与应用"
    ],
    "entities": [
-    "OpenAI",
-    "Anthropic",
-    "DeepMind"
+    "Google",
+    "月之暗面",
+    "DeepSeek"
    ],
    "firstSeen": "2026-11-18",
    "isNew": true
   },
   {
-   "id": "faedb2841a9bcca2",
-   "title": "Microsoft, Salesforce deepen AI partnership with Copilotforce",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/microsoft-salesforce-deepen-ai-partnership-copilotforce",
-   "importance": 93,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-18T04:59:24.000Z",
-   "topics": [
-    "产品与应用",
-    "产业与生态"
-   ],
-   "entities": [
-    "Microsoft",
-    "Salesforce"
-   ],
-   "firstSeen": "2026-11-18",
-   "isNew": true
-  },
-  {
-   "id": "c2a33b201a17c4f8",
-   "title": "Anthropic 上市，三个预测",
-   "source": "钛媒体",
+   "id": "23f694ac28c49d42",
+   "title": "黄仁勋归期悬而未决，买GPU的人已经不敢下单",
+   "source": "雷峰网",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8209437.html",
-   "importance": 91,
+   "url": "https://www.leiphone.com/category/chips/WHSLCH74nrSJW6OE.html",
+   "importance": 93,
    "difficulty": "进阶",
-   "publishedAt": "2026-11-18T06:00:42.000Z",
+   "publishedAt": "2026-11-18T09:45:00.000Z",
    "topics": [
     "算力与基建",
     "资本与市场"
    ],
    "entities": [
-    "Anthropic",
     "NVIDIA",
-    "AMD",
-    "台积电"
+    "华为"
+   ],
+   "firstSeen": "2026-11-18",
+   "isNew": true
+  },
+  {
+   "id": "0d41d36acb55e903",
+   "title": "狂奔后的冷却，AI玩具能跑出下一个泡泡玛特吗？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8208866.html",
+   "importance": 92,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-18T10:07:01.000Z",
+   "topics": [
+    "产品与应用",
+    "资本与市场"
+   ],
+   "entities": [
+    "字节跳动",
+    "华为"
+   ],
+   "firstSeen": "2026-11-18",
+   "isNew": true
+  },
+  {
+   "id": "841cb413b60a5716",
+   "title": "这届高校学生，为何选择用鸿蒙创新？",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1690168?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-18T10:45:36.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "华为"
+   ],
+   "firstSeen": "2026-11-18",
+   "isNew": true
+  },
+  {
+   "id": "ec1b2cb61b7ca876",
+   "title": "第一批打工的人形机器人，有的已经失业了",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8209375.html",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-18T09:51:37.000Z",
+   "topics": [
+    "产品与应用",
+    "产业与生态"
+   ],
+   "entities": [
+    "宇树科技",
+    "智元机器人",
+    "银河通用"
    ],
    "firstSeen": "2026-11-18",
    "isNew": true
@@ -194,69 +251,6 @@
    ],
    "firstSeen": "2026-11-18",
    "isNew": true
-  },
-  {
-   "id": "0b5a168a22da28ca",
-   "title": "黄仁勋打破沉默：为美国人身份自豪，愿意重返英伟达担任CEO；阿里调整员工回流政策：离职两次不得回流原集团；红果被曝筹备电视端独立APP",
-   "source": "雷峰网",
-   "region": "CN",
-   "url": "https://www.leiphone.com/category/zaobao/OlqabqceGorcm242.html",
-   "importance": 91,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-18T00:56:00.000Z",
-   "topics": [
-    "产业与生态",
-    "模型与能力"
-   ],
-   "entities": [
-    "Anthropic",
-    "DeepMind",
-    "NVIDIA",
-    "阿里巴巴"
-   ],
-   "firstSeen": "2026-11-18",
-   "isNew": true
-  },
-  {
-   "id": "750414140670420a",
-   "title": "早报｜黄仁勋称愿重返英伟达/李飞飞加入AMD，向苏姿丰直接汇报/红果短剧治理肖像侵权",
-   "source": "爱范儿",
-   "region": "CN",
-   "url": "https://www.ifanr.com/1689915?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "importance": 91,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-18T00:32:49.000Z",
-   "topics": [
-    "资本与市场",
-    "算力与基建"
-   ],
-   "entities": [
-    "OpenAI",
-    "NVIDIA",
-    "AMD",
-    "三星"
-   ],
-   "firstSeen": "2026-11-18",
-   "isNew": true
-  },
-  {
-   "id": "29e4c03fb9c8c462",
-   "title": "Google Begins Rolling Out Personal AI Assistant, Tasks, In India",
-   "source": "Inc42",
-   "region": "OTHER",
-   "url": "https://inc42.com/buzz/google-begins-rolling-out-personal-ai-assistant-tasks-in-india/",
-   "importance": 91,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-17T23:31:37.000Z",
-   "topics": [
-    "产品与应用",
-    "模型与能力"
-   ],
-   "entities": [
-    "Google"
-   ],
-   "firstSeen": "2026-11-18",
-   "isNew": true
   }
  ],
  "regions": [
@@ -268,66 +262,61 @@
    "count": 24,
    "top": [
     {
-     "id": "7737ab9812d22e5a",
-     "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol；王兴兴：家用机器人或将迎来技术突破；《GTA 6》开发商批评 AI 公司放任游戏仿制行为｜极客早知道",
-     "source": "极客公园",
+     "id": "57d9fa5e894b667c",
+     "title": "英伟达扩大芯片供应链合作，数十亿美元支持矽品精密扩产",
+     "source": "36氪",
      "region": "CN",
-     "url": "http://www.geekpark.net/news/374109",
-     "importance": 94,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-18T00:48:04.000Z",
+     "url": "https://36kr.com/newsflashes/4075208479495047?f=rss",
+     "importance": 95,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-18T11:56:26.000Z",
      "topics": [
-      "模型与能力",
-      "产品与应用"
+      "算力与基建",
+      "产业与生态"
      ],
      "entities": [
-      "OpenAI",
-      "Anthropic",
-      "DeepMind"
+      "NVIDIA",
+      "台积电",
+      "三星"
      ],
      "firstSeen": "2026-11-18",
      "isNew": true
     },
     {
-     "id": "c2a33b201a17c4f8",
-     "title": "Anthropic 上市，三个预测",
-     "source": "钛媒体",
+     "id": "4cc39f9a7208e31e",
+     "title": "Anthropic冲刺史上最大IPO 据悉获近七倍超额认购",
+     "source": "36氪",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8209437.html",
-     "importance": 91,
+     "url": "https://36kr.com/newsflashes/4075240073106311?f=rss",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-18T12:28:34.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-18",
+     "isNew": true
+    },
+    {
+     "id": "23f694ac28c49d42",
+     "title": "黄仁勋归期悬而未决，买GPU的人已经不敢下单",
+     "source": "雷峰网",
+     "region": "CN",
+     "url": "https://www.leiphone.com/category/chips/WHSLCH74nrSJW6OE.html",
+     "importance": 93,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-18T06:00:42.000Z",
+     "publishedAt": "2026-11-18T09:45:00.000Z",
      "topics": [
       "算力与基建",
       "资本与市场"
      ],
      "entities": [
-      "Anthropic",
       "NVIDIA",
-      "AMD",
-      "台积电"
-     ],
-     "firstSeen": "2026-11-18",
-     "isNew": true
-    },
-    {
-     "id": "0b5a168a22da28ca",
-     "title": "黄仁勋打破沉默：为美国人身份自豪，愿意重返英伟达担任CEO；阿里调整员工回流政策：离职两次不得回流原集团；红果被曝筹备电视端独立APP",
-     "source": "雷峰网",
-     "region": "CN",
-     "url": "https://www.leiphone.com/category/zaobao/OlqabqceGorcm242.html",
-     "importance": 91,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-18T00:56:00.000Z",
-     "topics": [
-      "产业与生态",
-      "模型与能力"
-     ],
-     "entities": [
-      "Anthropic",
-      "DeepMind",
-      "NVIDIA",
-      "阿里巴巴"
+      "华为"
      ],
      "firstSeen": "2026-11-18",
      "isNew": true
@@ -347,7 +336,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/microsoft-salesforce-deepen-ai-partnership-copilotforce",
-     "importance": 93,
+     "importance": 89,
      "difficulty": "入门",
      "publishedAt": "2026-11-18T04:59:24.000Z",
      "topics": [
@@ -362,18 +351,21 @@
      "isNew": true
     },
     {
-     "id": "4fd6acf68b5fd565",
-     "title": "Coatue, Thrive in talks to lead Ramp’s $1b funding round",
+     "id": "1ba641390f3070f9",
+     "title": "Indian AI firm Neysa adds AMD chips to its cloud platform",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/coatue-thrive-talks-lead-ramps-1b-funding",
-     "importance": 85,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-18T05:02:55.000Z",
+     "url": "https://www.techinasia.com/news/indian-ai-firm-neysa-adds-amd-chips-cloud-platform",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-18T08:09:13.000Z",
      "topics": [
+      "算力与基建",
       "资本与市场"
      ],
-     "entities": [],
+     "entities": [
+      "AMD"
+     ],
      "firstSeen": "2026-11-18",
      "isNew": true
     },
@@ -406,6 +398,39 @@
    "count": 24,
    "top": [
     {
+     "id": "bfca706b4a1c4d83",
+     "title": "From AI adoption to AI value: What it takes to turn experimentation into impact",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/features/from-ai-adoption-to-ai-value-what-it-takes-to-turn-experimentation-into-impact/",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-18T10:52:36.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-18",
+     "isNew": true
+    },
+    {
+     "id": "5cffdaf71969a605",
+     "title": "DataRobot collaborates with Dell Technologies to bring operationally sovereign agentic AI to Middle East enterprises",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/channel/datarobot-collaborates-with-dell-technologies-to-bring-operationally-sovereign-agentic-ai-to-middle-east-enterprises/",
+     "importance": 69,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-18T10:36:05.000Z",
+     "topics": [
+      "产品与应用",
+      "政策与治理"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-18",
+     "isNew": true
+    },
+    {
      "id": "883e7a657abd0e23",
      "title": "Journify raises $12 million at fourfold valuation increase",
      "source": "Wamda",
@@ -418,42 +443,6 @@
       "资本与市场"
      ],
      "entities": [],
-     "firstSeen": "2026-11-17",
-     "isNew": false
-    },
-    {
-     "id": "fa094c468ed12a6e",
-     "title": "CE-Ventures backs UK's Oyster Therapeutics in $60 million Series A round",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/ce-ventures-backs-uk-oyster-therapeutics-60-million-series-a-round",
-     "importance": 58,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [
-      "Arm"
-     ],
-     "firstSeen": "2026-11-17",
-     "isNew": false
-    },
-    {
-     "id": "e651c97b2986a703",
-     "title": "UAE's Soter Insure secures fresh Series B investment from SC Ventures, SBI Group",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/uae-soter-insure-secures-fresh-series-b-investment-sc-ventures-sbi-group",
-     "importance": 58,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [
-      "Arm"
-     ],
      "firstSeen": "2026-11-17",
      "isNew": false
     }
@@ -488,7 +477,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%eb%87%8c-%ec%9e%84%ed%94%8c%eb%9e%80%ed%8a%b8-%eb%b0%9c%ec%a0%84-%ec%9d%b4%eb%81%88-%ec%88%a8%ec%9d%80-%ec%a3%bc%ec%97%ad%eb%93%a4-%ec%9d%b4%ec%a0%9c%eb%8a%94-%ec%9e%90%ec%8b%a0%ec%9d%98-%ea%b6%8c/",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-11-17T21:00:00.000Z",
      "topics": [],
@@ -525,7 +514,7 @@
      "source": "Sifted",
      "region": "EU",
      "url": "https://sifted.eu/articles/disseqt-ai-agents-rogue/",
-     "importance": 90,
+     "importance": 86,
      "difficulty": "进阶",
      "publishedAt": "2026-11-18T05:00:24.000Z",
      "topics": [
@@ -544,7 +533,7 @@
      "source": "Sifted",
      "region": "EU",
      "url": "https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/",
-     "importance": 88,
+     "importance": 84,
      "difficulty": "进阶",
      "publishedAt": "2026-11-18T05:00:46.000Z",
      "topics": [
@@ -557,17 +546,16 @@
      "isNew": true
     },
     {
-     "id": "60cff40858dfa4f8",
-     "title": "Robotics startup Genesis AI raises $500m backed by Nvidia",
-     "source": "Sifted",
+     "id": "540c0e1b2fa79773",
+     "title": "Nvidia beats earning expectations, confirms no return for Huang",
+     "source": "Silicon Republic",
      "region": "EU",
-     "url": "https://sifted.eu/articles/genesis-ai-raises-500m/",
+     "url": "https://www.siliconrepublic.com/business/nvidia-beats-earning-expectations-confirms-no-return-for-huang",
      "importance": 75,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-17T14:00:45.000Z",
+     "publishedAt": "2026-11-18T09:27:52.000Z",
      "topics": [
-      "算力与基建",
-      "资本与市场"
+      "算力与基建"
      ],
      "entities": [
       "NVIDIA"
@@ -584,26 +572,6 @@
    "flag": "🌎",
    "count": 24,
    "top": [
-    {
-     "id": "b2d476c488ee0a78",
-     "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-     "source": "TechCrunch AI",
-     "region": "NA",
-     "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
-     "importance": 96,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-17T22:29:05.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [
-      "Anthropic",
-      "Google",
-      "Amazon"
-     ],
-     "firstSeen": "2026-11-18",
-     "isNew": true
-    },
     {
      "id": "b002ccde3364baa4",
      "title": "General-purpose robot maker Genesis AI reels in $500M at $3.5B valuation",
@@ -626,22 +594,39 @@
      "isNew": true
     },
     {
-     "id": "986097eebafcd4e3",
-     "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+     "id": "b2d476c488ee0a78",
+     "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
      "source": "TechCrunch AI",
      "region": "NA",
-     "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
-     "importance": 88,
+     "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+     "importance": 91,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-17T22:29:05.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Anthropic",
+      "Google",
+      "Amazon"
+     ],
+     "firstSeen": "2026-11-18",
+     "isNew": true
+    },
+    {
+     "id": "4b64f4fbb871b362",
+     "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+     "importance": 85,
      "difficulty": "入门",
-     "publishedAt": "2026-11-17T14:50:58.000Z",
+     "publishedAt": "2026-11-18T11:30:00.000Z",
      "topics": [
       "资本与市场",
       "产业与生态"
      ],
-     "entities": [
-      "Google",
-      "DeepMind"
-     ],
+     "entities": [],
      "firstSeen": "2026-11-18",
      "isNew": true
     }
@@ -655,20 +640,22 @@
    "count": 24,
    "top": [
     {
-     "id": "29e4c03fb9c8c462",
-     "title": "Google Begins Rolling Out Personal AI Assistant, Tasks, In India",
-     "source": "Inc42",
+     "id": "f350d1629bb45bd2",
+     "title": "Sarvam’s move to host Chinese AI models triggers debate",
+     "source": "YourStory",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/google-begins-rolling-out-personal-ai-assistant-tasks-in-india/",
-     "importance": 91,
+     "url": "https://yourstory.com/2026/11/sarvams-move-to-host-chinese-ai-models-triggers-debate",
+     "importance": 94,
      "difficulty": "入门",
-     "publishedAt": "2026-11-17T23:31:37.000Z",
+     "publishedAt": "2026-11-18T10:58:32.000Z",
      "topics": [
-      "产品与应用",
-      "模型与能力"
+      "模型与能力",
+      "产品与应用"
      ],
      "entities": [
-      "Google"
+      "Google",
+      "月之暗面",
+      "DeepSeek"
      ],
      "firstSeen": "2026-11-18",
      "isNew": true
@@ -691,20 +678,20 @@
      "isNew": true
     },
     {
-     "id": "a5945e3af9f33a43",
-     "title": "Sarvam’s AI Inference Play, Perplexity’s IPO Soon & More",
+     "id": "29e4c03fb9c8c462",
+     "title": "Google Begins Rolling Out Personal AI Assistant, Tasks, In India",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/sarvams-ai-inference-play-perplexitys-ipo-soon-more/",
-     "importance": 88,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-18T02:30:55.000Z",
+     "url": "https://inc42.com/buzz/google-begins-rolling-out-personal-ai-assistant-tasks-in-india/",
+     "importance": 86,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-17T23:31:37.000Z",
      "topics": [
-      "资本与市场",
+      "产品与应用",
       "模型与能力"
      ],
      "entities": [
-      "Perplexity"
+      "Google"
      ],
      "firstSeen": "2026-11-18",
      "isNew": true
@@ -712,5 +699,5 @@
    ]
   }
  ],
- "overview": "11 月 18 日，共从 26 个信息源抓取 434 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 121 条发布于 24 小时内。其中 107 条是此前未出现过的新增内容，另有 50 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」59 条、「产品与应用」33 条。值得优先关注的几条：「OpenAI 发布 GPT-6.2 Astra 和 Sol；王兴兴：家用机器人或将迎来技术突破；《GTA 6》开发商批评 AI 公司放任游戏仿制行为｜极客早知道」（极客公园）、「Anthropic 上市，三个预测」（钛媒体）、「黄仁勋打破沉默：为美国人身份自豪，愿意重返英伟达担任CEO；阿里调整员工回流政策：离职两次不得回流原集团；红果被曝筹备电视端独立APP」（雷峰网）。"
+ "overview": "11 月 18 日，共从 26 个信息源抓取 430 条 AI 产业动态，其中 157 条进入当日精选，覆盖 7 个区域。其中有 117 条发布于 24 小时内。其中 115 条是此前未出现过的新增内容，另有 42 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」60 条、「产品与应用」40 条。值得优先关注的几条：「英伟达扩大芯片供应链合作，数十亿美元支持矽品精密扩产」（36氪）、「Anthropic冲刺史上最大IPO 据悉获近七倍超额认购」（36氪）、「黄仁勋归期悬而未决，买GPU的人已经不敢下单」（雷峰网）。"
 }
