@@ -1,43 +1,43 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-19",
- "generatedAt": "2026-11-19T08:03:02.901Z",
+ "generatedAt": "2026-11-19T12:43:51.332Z",
  "mode": "rule",
  "counts": {
-  "crawled": 433,
-  "published": 155,
-  "newCount": 111,
-  "repeatCount": 44,
+  "crawled": 431,
+  "published": 156,
+  "newCount": 118,
+  "repeatCount": 38,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
    "ME": 24,
-   "JPKR": 11,
+   "JPKR": 12,
    "EU": 24,
    "NA": 24,
    "OTHER": 24
   },
-  "sourceOk": 25,
+  "sourceOk": 26,
   "sourceTotal": 30,
   "regions": 7
  },
  "freshness": {
-  "within24h": 115,
-  "withinFresh": 130,
+  "within24h": 116,
+  "withinFresh": 131,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
-  "staleDropped": 27,
-  "newestAt": "2026-11-19T14:22:13.000Z"
+  "staleDropped": 28,
+  "newestAt": "2026-11-19T18:25:39.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 50
+   "n": 61
   },
   {
    "name": "产品与应用",
-   "n": 41
+   "n": 38
   },
   {
    "name": "算力与基建",
@@ -45,15 +45,15 @@
   },
   {
    "name": "产业与生态",
-   "n": 22
+   "n": 21
   },
   {
    "name": "模型与能力",
-   "n": 17
+   "n": 15
   },
   {
    "name": "政策与治理",
-   "n": 12
+   "n": 8
   }
  ],
  "entities": [
@@ -63,113 +63,110 @@
   },
   {
    "name": "Anthropic",
-   "n": 9
+   "n": 12
   },
   {
    "name": "Google",
-   "n": 9
+   "n": 10
+  },
+  {
+   "name": "阿里巴巴",
+   "n": 6
   },
   {
    "name": "OpenAI",
-   "n": 8
+   "n": 5
   },
   {
    "name": "Microsoft",
-   "n": 6
+   "n": 5
+  },
+  {
+   "name": "AMD",
+   "n": 4
   },
   {
    "name": "Meta",
    "n": 4
-  },
-  {
-   "name": "腾讯",
-   "n": 4
-  },
-  {
-   "name": "阿里巴巴",
-   "n": 3
   }
  ],
  "topOverall": [
   {
-   "id": "7010bc7767b8b903",
-   "title": "Echo 创始人邹皓：硬件负责收集声音，AI负责创造价值",
+   "id": "d8a7525951c37667",
+   "title": "国内首款Gen6 SSD量产，AI存储重算经济帐",
    "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8210472.html",
-   "importance": 96,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-19T06:34:17.000Z",
-   "topics": [
-    "产品与应用",
-    "资本与市场"
-   ],
-   "entities": [
-    "Meta",
-    "百度"
-   ],
-   "firstSeen": "2026-11-19",
-   "isNew": true
-  },
-  {
-   "id": "54b5a1330345620e",
-   "title": "8点1氪丨Anthropic IPO定价83美元；iPhone Duo铰链风波升级；浑水宣布做空英伟达",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/p/4075920892581000?f=rss",
-   "importance": 95,
+   "url": "https://www.tmtpost.com/8210529.html",
+   "importance": 99,
    "difficulty": "进阶",
-   "publishedAt": "2026-11-19T00:01:22.000Z",
+   "publishedAt": "2026-11-19T08:35:17.000Z",
    "topics": [
-    "资本与市场",
-    "算力与基建"
+    "算力与基建",
+    "模型与能力"
    ],
    "entities": [
-    "OpenAI",
-    "Anthropic",
     "NVIDIA",
+    "AMD",
     "三星"
    ],
    "firstSeen": "2026-11-19",
    "isNew": true
   },
   {
-   "id": "9540ea7f689515e2",
-   "title": "聚焦个人知识与成长领域，「Akasi」要做更垂直的Personal Agent｜早期项目",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/p/4075055709508740?f=rss",
-   "importance": 94,
+   "id": "7e123c99f79eed3e",
+   "title": "Anthropic raises $107.3b in IPO, private placement",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/anthropic-raises-1073b-nasdaq-debut",
+   "importance": 99,
    "difficulty": "入门",
-   "publishedAt": "2026-11-19T03:40:21.000Z",
+   "publishedAt": "2026-11-19T08:14:11.000Z",
    "topics": [
-    "产品与应用",
     "资本与市场"
    ],
    "entities": [
-    "Meta"
+    "Anthropic"
    ],
    "firstSeen": "2026-11-19",
    "isNew": true
   },
   {
-   "id": "359f593c0816ae0f",
-   "title": "早报｜GTA6开售，评分破纪录/大疆多款相机涨价/豆包工作三个月日活破800万",
-   "source": "爱范儿",
+   "id": "581a75edba08d6a3",
+   "title": "国产GPU，风浪越大鱼越贵",
+   "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.ifanr.com/1690255?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "importance": 94,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-19T00:36:04.000Z",
+   "url": "https://www.tmtpost.com/8210657.html",
+   "importance": 95,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-19T10:58:06.000Z",
    "topics": [
-    "模型与能力",
+    "算力与基建",
     "资本与市场"
    ],
    "entities": [
-    "Anthropic",
-    "Google",
     "NVIDIA",
-    "腾讯"
+    "AMD",
+    "燧原科技",
+    "沐曦"
+   ],
+   "firstSeen": "2026-11-19",
+   "isNew": true
+  },
+  {
+   "id": "f5e3e3e7dd4e7eae",
+   "title": "Google 杀入 Jev 核心赛道：Gemini Decision 1 五项基准领先两项落后",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/ai/wctgzdX4CN2RVxCm.html",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-19T09:08:00.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "Google"
    ],
    "firstSeen": "2026-11-19",
    "isNew": true
@@ -194,60 +191,62 @@
    "isNew": true
   },
   {
-   "id": "25e346058f6201fc",
-   "title": "「北美大豆包」谷歌，终于杀回 AI 牌桌中央",
-   "source": "极客公园",
-   "region": "CN",
-   "url": "http://www.geekpark.net/news/374196",
+   "id": "bc0e814898275e81",
+   "title": "Anthropic breaks SpaceX IPO record with $81.3bn raise",
+   "source": "Silicon Republic",
+   "region": "EU",
+   "url": "https://www.siliconrepublic.com/business/anthropic-breaks-spacex-ipo-record-with-81-3bn-raise",
    "importance": 92,
    "difficulty": "入门",
-   "publishedAt": "2026-11-19T06:10:00.000Z",
+   "publishedAt": "2026-11-19T09:36:35.000Z",
    "topics": [
-    "模型与能力",
-    "产品与应用"
-   ],
-   "entities": [
-    "Google",
-    "DeepMind"
-   ],
-   "firstSeen": "2026-11-19",
-   "isNew": true
-  },
-  {
-   "id": "8571d7a31dbd2dd4",
-   "title": "Google’s latest midtier model Gemini 4 Neon is three times faster than Carbon and wins on some metrics",
-   "source": "SiliconANGLE",
-   "region": "NA",
-   "url": "https://siliconangle.com/2026/11/18/googles-latest-midtier-model-gemini-4-neon-is-three-times-faster-than-carbon-and-wins-on-some-metrics/",
-   "importance": 91,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-19T02:55:16.000Z",
-   "topics": [
+    "资本与市场",
     "模型与能力"
    ],
    "entities": [
     "OpenAI",
-    "Anthropic",
-    "Google"
+    "Anthropic"
    ],
    "firstSeen": "2026-11-19",
    "isNew": true
   },
   {
-   "id": "957f11b364ced1c0",
-   "title": "华为Mate X8官宣两大功能：小艺慧记+虚拟触控板，生产力再进阶",
+   "id": "ef68451f4a3e28bd",
+   "title": "三个月四轮，估值近百亿，浙大、阿里系具身大脑公司再获新融资｜硬氪首发",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4075109837149321?f=rss",
+   "importance": 92,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-19T09:34:27.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "宇树科技"
+   ],
+   "firstSeen": "2026-11-19",
+   "isNew": true
+  },
+  {
+   "id": "49b7bbf4494101ff",
+   "title": "田渊栋创业合伙人：通往 AGI 最快的路，只能是 AI 造 AI | CoRL 2026",
    "source": "雷峰网",
    "region": "CN",
-   "url": "https://www.leiphone.com/category/industrynews/5DmohtTAlmiheVD3.html",
-   "importance": 90,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-19T03:36:00.000Z",
+   "url": "https://www.leiphone.com/category/private/wIgMWmjlB5GTKg6e.html",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-19T10:09:00.000Z",
    "topics": [
-    "产品与应用",
+    "资本与市场",
     "产业与生态"
    ],
    "entities": [
-    "华为"
+    "Meta",
+    "NVIDIA",
+    "AMD"
    ],
    "firstSeen": "2026-11-19",
    "isNew": true
@@ -262,62 +261,63 @@
    "count": 24,
    "top": [
     {
-     "id": "7010bc7767b8b903",
-     "title": "Echo 创始人邹皓：硬件负责收集声音，AI负责创造价值",
+     "id": "d8a7525951c37667",
+     "title": "国内首款Gen6 SSD量产，AI存储重算经济帐",
      "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8210472.html",
-     "importance": 96,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-19T06:34:17.000Z",
-     "topics": [
-      "产品与应用",
-      "资本与市场"
-     ],
-     "entities": [
-      "Meta",
-      "百度"
-     ],
-     "firstSeen": "2026-11-19",
-     "isNew": true
-    },
-    {
-     "id": "54b5a1330345620e",
-     "title": "8点1氪丨Anthropic IPO定价83美元；iPhone Duo铰链风波升级；浑水宣布做空英伟达",
-     "source": "36氪",
-     "region": "CN",
-     "url": "https://36kr.com/p/4075920892581000?f=rss",
-     "importance": 95,
+     "url": "https://www.tmtpost.com/8210529.html",
+     "importance": 99,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-19T00:01:22.000Z",
+     "publishedAt": "2026-11-19T08:35:17.000Z",
      "topics": [
-      "资本与市场",
-      "算力与基建"
+      "算力与基建",
+      "模型与能力"
      ],
      "entities": [
-      "OpenAI",
-      "Anthropic",
       "NVIDIA",
+      "AMD",
       "三星"
      ],
      "firstSeen": "2026-11-19",
      "isNew": true
     },
     {
-     "id": "9540ea7f689515e2",
-     "title": "聚焦个人知识与成长领域，「Akasi」要做更垂直的Personal Agent｜早期项目",
-     "source": "36氪",
+     "id": "581a75edba08d6a3",
+     "title": "国产GPU，风浪越大鱼越贵",
+     "source": "钛媒体",
      "region": "CN",
-     "url": "https://36kr.com/p/4075055709508740?f=rss",
-     "importance": 94,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-19T03:40:21.000Z",
+     "url": "https://www.tmtpost.com/8210657.html",
+     "importance": 95,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-19T10:58:06.000Z",
      "topics": [
-      "产品与应用",
+      "算力与基建",
       "资本与市场"
      ],
      "entities": [
-      "Meta"
+      "NVIDIA",
+      "AMD",
+      "燧原科技",
+      "沐曦"
+     ],
+     "firstSeen": "2026-11-19",
+     "isNew": true
+    },
+    {
+     "id": "f5e3e3e7dd4e7eae",
+     "title": "Google 杀入 Jev 核心赛道：Gemini Decision 1 五项基准领先两项落后",
+     "source": "雷峰网",
+     "region": "CN",
+     "url": "https://www.leiphone.com/category/ai/wctgzdX4CN2RVxCm.html",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-19T09:08:00.000Z",
+     "topics": [
+      "模型与能力",
+      "产品与应用"
+     ],
+     "entities": [
+      "Google"
      ],
      "firstSeen": "2026-11-19",
      "isNew": true
@@ -332,39 +332,37 @@
    "count": 24,
    "top": [
     {
-     "id": "695031eb6857651f",
-     "title": "Salesforce, Microsoft integrate sales tools with Copilot",
+     "id": "7e123c99f79eed3e",
+     "title": "Anthropic raises $107.3b in IPO, private placement",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/salesforce-microsoft-integrate-sales-tools-copilot",
-     "importance": 90,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-19T03:07:12.000Z",
+     "url": "https://www.techinasia.com/news/anthropic-raises-1073b-nasdaq-debut",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-19T08:14:11.000Z",
      "topics": [
-      "产品与应用"
+      "资本与市场"
      ],
      "entities": [
-      "Microsoft",
-      "Salesforce"
+      "Anthropic"
      ],
      "firstSeen": "2026-11-19",
      "isNew": true
     },
     {
-     "id": "fc99d38a8efdb8bf",
-     "title": "Alibaba’s AI push tested as US moves to close chip loophole",
+     "id": "6884410ab03eff03",
+     "title": "Anthropic IPO could make hundreds of employees millionaires",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/alibabas-ai-push-tested-moves-close-chip-loophole",
-     "importance": 90,
+     "url": "https://www.techinasia.com/news/anthropic-ipo-could-make-hundreds-of-employees-millionaires",
+     "importance": 88,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-19T02:53:30.000Z",
+     "publishedAt": "2026-11-19T09:43:50.000Z",
      "topics": [
-      "算力与基建"
+      "资本与市场"
      ],
      "entities": [
-      "NVIDIA",
-      "阿里巴巴"
+      "Anthropic"
      ],
      "firstSeen": "2026-11-19",
      "isNew": true
@@ -452,15 +450,33 @@
    "name": "日韩",
    "short": "日韩",
    "flag": "🗾",
-   "count": 11,
+   "count": 12,
    "top": [
+    {
+     "id": "13a3dd64625aa0f7",
+     "title": "오픈AI, AI로 AMD GPU 설계 개선…“5개월 만에 1년치 진전”",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217562",
+     "importance": 68,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-19T18:25:39.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "AMD"
+     ],
+     "firstSeen": "2026-11-18",
+     "isNew": false
+    },
     {
      "id": "f2cb7341447be796",
      "title": "안정적 ‘재생에너지’의 균열…기후변화 직격탄 맞은 수력 발전",
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ec%95%88%ec%a0%95%ec%a0%81-%ec%9e%ac%ec%83%9d%ec%97%90%eb%84%88%ec%a7%80%ec%9d%98-%ea%b7%a0%ec%97%b4%ea%b8%b0%ed%9b%84%eb%b3%80%ed%99%94-%ec%a7%81%ea%b2%a9%ed%83%84-%eb%a7%9e/",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-11-18T21:00:00.000Z",
      "topics": [],
@@ -483,20 +499,6 @@
      "entities": [],
      "firstSeen": "2026-11-18",
      "isNew": false
-    },
-    {
-     "id": "197dd472a3e0285d",
-     "title": "뇌 임플란트 발전 이끈 숨은 주역들, 이제는 자신의 권리를 말하다",
-     "source": "MIT Technology Review Korea",
-     "region": "JPKR",
-     "url": "https://www.technologyreview.kr/%eb%87%8c-%ec%9e%84%ed%94%8c%eb%9e%80%ed%8a%b8-%eb%b0%9c%ec%a0%84-%ec%9d%b4%eb%81%88-%ec%88%a8%ec%9d%80-%ec%a3%bc%ec%97%ad%eb%93%a4-%ec%9d%b4%ec%a0%9c%eb%8a%94-%ec%9e%90%ec%8b%a0%ec%9d%98-%ea%b6%8c/",
-     "importance": 33,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-17T21:00:00.000Z",
-     "topics": [],
-     "entities": [],
-     "firstSeen": "2026-11-18",
-     "isNew": false
     }
    ]
   },
@@ -508,12 +510,32 @@
    "count": 24,
    "top": [
     {
-     "id": "7e33f72ffac98da0",
-     "title": "Exclusive: Schneider Electric Ventures brings accelerator scheme to Europe",
+     "id": "bc0e814898275e81",
+     "title": "Anthropic breaks SpaceX IPO record with $81.3bn raise",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/business/anthropic-breaks-spacex-ipo-record-with-81-3bn-raise",
+     "importance": 92,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-19T09:36:35.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-19",
+     "isNew": true
+    },
+    {
+     "id": "f3bb19aac16b33dc",
+     "title": "Exclusive: Schneider Electric's VC fund brings accelerator scheme to Europe",
      "source": "Sifted",
      "region": "EU",
      "url": "https://sifted.eu/articles/schneider-electric-ventures-accelerator-scheme-europe/",
-     "importance": 78,
+     "importance": 74,
      "difficulty": "进阶",
      "publishedAt": "2026-11-19T05:00:42.000Z",
      "topics": [
@@ -529,27 +551,11 @@
      "source": "Sifted",
      "region": "EU",
      "url": "https://sifted.eu/articles/inside-the-next-big-bets-in-ai-compute/",
-     "importance": 78,
+     "importance": 74,
      "difficulty": "进阶",
      "publishedAt": "2026-11-19T05:00:20.000Z",
      "topics": [
       "算力与基建"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-19",
-     "isNew": true
-    },
-    {
-     "id": "b63a5cbb56ed9625",
-     "title": "AI is making teams smaller — and the fight for real talent harder",
-     "source": "Sifted",
-     "region": "EU",
-     "url": "https://sifted.eu/articles/eqt-ai-talent-polly-barnes-opinion/",
-     "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-19T05:00:16.000Z",
-     "topics": [
-      "产业与生态"
      ],
      "entities": [],
      "firstSeen": "2026-11-19",
@@ -570,7 +576,7 @@
      "source": "SiliconANGLE",
      "region": "NA",
      "url": "https://siliconangle.com/2026/11/18/googles-latest-midtier-model-gemini-4-neon-is-three-times-faster-than-carbon-and-wins-on-some-metrics/",
-     "importance": 91,
+     "importance": 87,
      "difficulty": "进阶",
      "publishedAt": "2026-11-19T02:55:16.000Z",
      "topics": [
@@ -585,40 +591,34 @@
      "isNew": true
     },
     {
-     "id": "a6d4cce68183de15",
-     "title": "Google upgrades Gemini’s agentic Task mode with new model, e-commerce features",
-     "source": "SiliconANGLE",
+     "id": "634cc59c69bc4c25",
+     "title": "A human liver has been kept alive outside the body for a record seven weeks",
+     "source": "MIT Technology Review",
      "region": "NA",
-     "url": "https://siliconangle.com/2026/11/18/google-upgrades-geminis-agentic-task-mode-with-new-model-e-commerce-features/",
-     "importance": 86,
+     "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
+     "importance": 81,
      "difficulty": "入门",
-     "publishedAt": "2026-11-18T23:56:55.000Z",
+     "publishedAt": "2026-11-19T12:00:00.000Z",
      "topics": [
-      "产品与应用",
-      "模型与能力"
+      "产品与应用"
      ],
-     "entities": [
-      "Google"
-     ],
+     "entities": [],
      "firstSeen": "2026-11-19",
      "isNew": true
     },
     {
-     "id": "abe68690f42d4712",
-     "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-     "source": "TechCrunch AI",
+     "id": "6be7d6bcb1f2e419",
+     "title": "What a billion-dollar deal says about the US battery market",
+     "source": "MIT Technology Review",
      "region": "NA",
-     "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-     "importance": 86,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-18T23:17:28.000Z",
+     "url": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-19T11:00:00.000Z",
      "topics": [
-      "算力与基建"
+      "产品与应用"
      ],
-     "entities": [
-      "Microsoft",
-      "NVIDIA"
-     ],
+     "entities": [],
      "firstSeen": "2026-11-19",
      "isNew": true
     }
@@ -631,6 +631,23 @@
    "flag": "🌐",
    "count": 24,
    "top": [
+    {
+     "id": "2e0c202cc339dcb5",
+     "title": "InPrime Finserv Raises ₹101 Cr To Expand Lending, Enter Micro-Mortgages",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/inprime-finserv-raises-%e2%82%b9101-cr-to-expand-lending-enter-micro-mortgages/",
+     "importance": 89,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-19T11:17:24.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-19",
+     "isNew": true
+    },
     {
      "id": "2ca7756041a5a08c",
      "title": "Anthropic raises $81.3B in IPO, surpasses SpaceX's record offering",
@@ -650,32 +667,17 @@
      "isNew": true
     },
     {
-     "id": "1f7c773b3b8e8681",
-     "title": "Mufin Green Finance To Acquire 23% Stake In BimaPay For ₹66 Cr",
+     "id": "3a2c6a7d58a3da47",
+     "title": "August AI Raises $12 Mn To Expand AI Healthcare Assistant In The US",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/mufin-green-finance-to-acquire-23-stake-in-bimapay-for-%e2%82%b966-cr/",
+     "url": "https://inc42.com/buzz/august-ai-raises-12-mn-to-expand-ai-healthcare-assistant-in-the-us/",
      "importance": 81,
      "difficulty": "入门",
-     "publishedAt": "2026-11-19T02:00:21.000Z",
+     "publishedAt": "2026-11-19T07:13:39.000Z",
      "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-19",
-     "isNew": true
-    },
-    {
-     "id": "cc546b8c130d6f64",
-     "title": "Boba Bhai Bags $18 Mn To Build A Multi-Brand QSR Chain",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/boba-bhai-bags-18-mn-to-build-a-multi-brand-qsr-chain/",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-19T00:30:41.000Z",
-     "topics": [
-      "资本与市场"
+      "资本与市场",
+      "产品与应用"
      ],
      "entities": [],
      "firstSeen": "2026-11-19",
@@ -684,5 +686,5 @@
    ]
   }
  ],
- "overview": "11 月 19 日，共从 25 个信息源抓取 433 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 115 条发布于 24 小时内。其中 111 条是此前未出现过的新增内容，另有 44 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」50 条、「产品与应用」41 条。值得优先关注的几条：「Echo 创始人邹皓：硬件负责收集声音，AI负责创造价值」（钛媒体）、「8点1氪丨Anthropic IPO定价83美元；iPhone Duo铰链风波升级；浑水宣布做空英伟达」（36氪）、「聚焦个人知识与成长领域，「Akasi」要做更垂直的Personal Agent｜早期项目」（36氪）。"
+ "overview": "11 月 19 日，共从 26 个信息源抓取 431 条 AI 产业动态，其中 156 条进入当日精选，覆盖 7 个区域。其中有 116 条发布于 24 小时内。其中 118 条是此前未出现过的新增内容，另有 38 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」61 条、「产品与应用」38 条。值得优先关注的几条：「国内首款Gen6 SSD量产，AI存储重算经济帐」（钛媒体）、「国产GPU，风浪越大鱼越贵」（钛媒体）、「Google 杀入 Jev 核心赛道：Gemini Decision 1 五项基准领先两项落后」（雷峰网）。"
 }
