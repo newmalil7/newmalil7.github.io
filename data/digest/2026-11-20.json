@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-20",
- "generatedAt": "2026-11-20T07:50:59.877Z",
+ "generatedAt": "2026-11-20T12:41:10.854Z",
  "mode": "rule",
  "counts": {
-  "crawled": 431,
+  "crawled": 428,
   "published": 158,
-  "newCount": 111,
-  "repeatCount": 47,
+  "newCount": 120,
+  "repeatCount": 38,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,51 +22,55 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 118,
+  "within24h": 117,
   "withinFresh": 132,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
-  "staleDropped": 31,
-  "newestAt": "2026-11-20T16:38:01.000Z"
+  "staleDropped": 32,
+  "newestAt": "2026-11-20T18:48:14.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 56
+   "n": 64
   },
   {
    "name": "产品与应用",
-   "n": 38
-  },
-  {
-   "name": "产业与生态",
-   "n": 25
+   "n": 36
   },
   {
    "name": "算力与基建",
-   "n": 23
+   "n": 26
   },
   {
-   "name": "政策与治理",
-   "n": 15
+   "name": "产业与生态",
+   "n": 19
   },
   {
    "name": "模型与能力",
-   "n": 15
+   "n": 14
+  },
+  {
+   "name": "政策与治理",
+   "n": 13
   }
  ],
  "entities": [
   {
    "name": "Anthropic",
-   "n": 21
+   "n": 25
+  },
+  {
+   "name": "NVIDIA",
+   "n": 9
   },
   {
    "name": "OpenAI",
    "n": 9
   },
   {
-   "name": "NVIDIA",
+   "name": "腾讯",
    "n": 8
   },
   {
@@ -74,39 +78,58 @@
    "n": 7
   },
   {
+   "name": "Amazon",
+   "n": 6
+  },
+  {
    "name": "Meta",
    "n": 6
   },
   {
-   "name": "腾讯",
-   "n": 6
-  },
-  {
    "name": "阿里巴巴",
-   "n": 5
-  },
-  {
-   "name": "字节跳动",
-   "n": 5
+   "n": 6
   }
  ],
  "topOverall": [
   {
-   "id": "4c166d468814ddd2",
-   "title": "硅谷最昂贵的一场分手",
+   "id": "626288423fc462f2",
+   "title": "“物理AI第一股”冲刺A股：左手英伟达，右手摩尔线程",
    "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8211899.html",
+   "url": "https://www.tmtpost.com/8212915.html",
    "importance": 99,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-20T04:24:12.000Z",
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-20T10:23:58.000Z",
    "topics": [
     "资本与市场",
-    "产业与生态"
+    "算力与基建"
    ],
    "entities": [
-    "OpenAI",
-    "Anthropic"
+    "NVIDIA",
+    "商汤",
+    "摩尔线程"
+   ],
+   "firstSeen": "2026-11-20",
+   "isNew": true
+  },
+  {
+   "id": "476e3a752cec068b",
+   "title": "Anthropic上市首日涨17%，市值一度冲至2万亿刀，AI热潮还能持续多久？",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4077873869099904?f=rss",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-20T09:14:53.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "Anthropic",
+    "Microsoft",
+    "Apple",
+    "Amazon"
    ],
    "firstSeen": "2026-11-20",
    "isNew": true
@@ -139,7 +162,7 @@
    "source": "36氪",
    "region": "CN",
    "url": "https://36kr.com/p/4077339293242504?f=rss",
-   "importance": 99,
+   "importance": 97,
    "difficulty": "入门",
    "publishedAt": "2026-11-20T00:04:14.000Z",
    "topics": [
@@ -150,28 +173,6 @@
     "OpenAI",
     "Anthropic",
     "Meta"
-   ],
-   "firstSeen": "2026-11-20",
-   "isNew": true
-  },
-  {
-   "id": "0f00358752f62792",
-   "title": "早报｜苹果招人打造「接管电脑」的AI智能体/史上最大IPO，Anthropic上市/华为官宣Mate 90 Air主打轻薄",
-   "source": "爱范儿",
-   "region": "CN",
-   "url": "https://www.ifanr.com/1690473?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "importance": 98,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-20T00:29:44.000Z",
-   "topics": [
-    "资本与市场",
-    "产品与应用"
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic",
-    "阿里巴巴",
-    "腾讯"
    ],
    "firstSeen": "2026-11-20",
    "isNew": true
@@ -198,63 +199,63 @@
    "isNew": true
   },
   {
-   "id": "e14a392f9e686686",
-   "title": "Meet the 8 women powering India’s deeptech future; Anthropic raises a record $81.3B in IPO",
-   "source": "YourStory",
-   "region": "OTHER",
-   "url": "https://yourstory.com/2026/11/meet-the-8-women-powering-indias-deeptech-future-anthropic-ipo",
-   "importance": 96,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-20T02:00:00.000Z",
+   "id": "3ff8ab5be43158ac",
+   "title": "AI这一年，倒下的APP们",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8212771.html",
+   "importance": 95,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-20T09:22:43.000Z",
    "topics": [
-    "资本与市场",
-    "模型与能力"
-   ],
-   "entities": [
-    "Anthropic",
-    "Microsoft"
-   ],
-   "firstSeen": "2026-11-20",
-   "isNew": true
-  },
-  {
-   "id": "2043ce94a17012cd",
-   "title": "AI Startup Disseqt AI Raises $8 Mn To Scale International Operations",
-   "source": "Inc42",
-   "region": "OTHER",
-   "url": "https://inc42.com/buzz/ai-startup-disseqt-ai-raises-8-mn-to-scale-international-operations/",
-   "importance": 94,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-19T15:16:49.000Z",
-   "topics": [
-    "资本与市场",
-    "产品与应用"
+    "产品与应用",
+    "算力与基建"
    ],
    "entities": [
     "OpenAI",
-    "Meta",
-    "Salesforce"
+    "腾讯",
+    "字节跳动",
+    "百度"
    ],
    "firstSeen": "2026-11-20",
    "isNew": true
   },
   {
-   "id": "e70c12e09ed9c521",
-   "title": "Apple may be developing its own AI agent that runs your Mac",
-   "source": "TechCrunch AI",
-   "region": "NA",
-   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-   "importance": 92,
+   "id": "322376106af75c6c",
+   "title": "Anthropic shares drop 6% in AI selloff after record IPO",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/anthropic-shares-drop-6-ai-selloff-record-ipo",
+   "importance": 94,
    "difficulty": "进阶",
-   "publishedAt": "2026-11-20T00:56:01.000Z",
+   "publishedAt": "2026-11-20T09:27:34.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "Anthropic",
+    "Amazon"
+   ],
+   "firstSeen": "2026-11-20",
+   "isNew": true
+  },
+  {
+   "id": "12ac223036ef21df",
+   "title": "给 Gemini 道歉，请自觉排队",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1690572?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-20T09:03:13.000Z",
    "topics": [
     "模型与能力",
     "产品与应用"
    ],
    "entities": [
-    "OpenAI",
-    "Meta",
-    "Apple"
+    "Anthropic",
+    "Google",
+    "DeepMind"
    ],
    "firstSeen": "2026-11-20",
    "isNew": true
@@ -269,21 +270,44 @@
    "count": 24,
    "top": [
     {
-     "id": "4c166d468814ddd2",
-     "title": "硅谷最昂贵的一场分手",
+     "id": "626288423fc462f2",
+     "title": "“物理AI第一股”冲刺A股：左手英伟达，右手摩尔线程",
      "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8211899.html",
+     "url": "https://www.tmtpost.com/8212915.html",
      "importance": 99,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-20T04:24:12.000Z",
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-20T10:23:58.000Z",
      "topics": [
       "资本与市场",
-      "产业与生态"
+      "算力与基建"
      ],
      "entities": [
-      "OpenAI",
-      "Anthropic"
+      "NVIDIA",
+      "商汤",
+      "摩尔线程"
+     ],
+     "firstSeen": "2026-11-20",
+     "isNew": true
+    },
+    {
+     "id": "476e3a752cec068b",
+     "title": "Anthropic上市首日涨17%，市值一度冲至2万亿刀，AI热潮还能持续多久？",
+     "source": "36氪",
+     "region": "CN",
+     "url": "https://36kr.com/p/4077873869099904?f=rss",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-20T09:14:53.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "Anthropic",
+      "Microsoft",
+      "Apple",
+      "Amazon"
      ],
      "firstSeen": "2026-11-20",
      "isNew": true
@@ -306,27 +330,6 @@
       "Anthropic",
       "Meta",
       "腾讯"
-     ],
-     "firstSeen": "2026-11-20",
-     "isNew": true
-    },
-    {
-     "id": "a1bf6275e2105ac8",
-     "title": "8点1氪丨Anthropic上市首日暴涨17%；宗馥莉原“心腹”起诉娃哈哈；OpenAI进军手机领域",
-     "source": "36氪",
-     "region": "CN",
-     "url": "https://36kr.com/p/4077339293242504?f=rss",
-     "importance": 99,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-20T00:04:14.000Z",
-     "topics": [
-      "资本与市场",
-      "模型与能力"
-     ],
-     "entities": [
-      "OpenAI",
-      "Anthropic",
-      "Meta"
      ],
      "firstSeen": "2026-11-20",
      "isNew": true
@@ -362,40 +365,38 @@
      "isNew": true
     },
     {
-     "id": "91dbbd1c7e64e8a2",
-     "title": "US rule puts Nscale’s ByteDance business under scrutiny",
+     "id": "322376106af75c6c",
+     "title": "Anthropic shares drop 6% in AI selloff after record IPO",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/rule-puts-nscales-bytedance-business-scrutiny",
-     "importance": 90,
+     "url": "https://www.techinasia.com/news/anthropic-shares-drop-6-ai-selloff-record-ipo",
+     "importance": 94,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-20T02:10:55.000Z",
+     "publishedAt": "2026-11-20T09:27:34.000Z",
      "topics": [
-      "算力与基建",
       "资本与市场"
      ],
      "entities": [
-      "NVIDIA",
-      "字节跳动"
+      "Anthropic",
+      "Amazon"
      ],
      "firstSeen": "2026-11-20",
      "isNew": true
     },
     {
-     "id": "3e78171dd4331baf",
-     "title": "Nvidia’s crisis shines a light on Asia’s AI chip shift",
+     "id": "a0d27a39d81a0428",
+     "title": "YTL Data Centers denies reports of Nvidia GPU transfers to China",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/nvidias-crisis-shines-light-asias-quiet-chip-shift",
-     "importance": 90,
+     "url": "https://www.techinasia.com/news/ytl-data-centers-denies-reports-of-nvidia-gpu-transfers-to-china",
+     "importance": 92,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-20T01:05:50.000Z",
+     "publishedAt": "2026-11-20T10:57:50.000Z",
      "topics": [
       "算力与基建"
      ],
      "entities": [
-      "NVIDIA",
-      "AMD"
+      "NVIDIA"
      ],
      "firstSeen": "2026-11-20",
      "isNew": true
@@ -409,6 +410,22 @@
    "flag": "🕌",
    "count": 24,
    "top": [
+    {
+     "id": "e5f6f56c1a73ff52",
+     "title": "Hytera showcases AI-powered public safety solutions at World Police Summit 2026",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/enterprise/hytera-showcases-ai-powered-public-safety-solutions-at-world-police-summit-2026/",
+     "importance": 69,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-20T08:07:13.000Z",
+     "topics": [
+      "政策与治理"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-20",
+     "isNew": true
+    },
     {
      "id": "9c0acfcd758f70da",
      "title": "Egypt's Connect Money raises $3.5 million pre-Series A",
@@ -437,22 +454,6 @@
      "topics": [
       "资本与市场",
       "产业与生态"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-20",
-     "isNew": true
-    },
-    {
-     "id": "a9e856d54a142862",
-     "title": "500 Global, Sanabil Investments select seven startups for accelerator's 12th cohort",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/500-global-sanabil-investments-select-seven-startups-accelerators-12th-cohort",
-     "importance": 61,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "算力与基建"
      ],
      "entities": [],
      "firstSeen": "2026-11-20",
@@ -490,7 +491,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ec%82%ac%eb%9e%8c-%ec%bd%94%eb%a7%8c%ed%81%bc-%eb%83%84%ec%83%88-%eb%a7%a1%eb%8a%94%eb%8b%a4-ai-%ed%9b%84%ea%b0%81-%ea%b0%9c%eb%b0%9c-%eb%82%98%ec%84%a0-%ec%8a%a4%ed%83%80%ed%8a%b8/",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-11-19T21:00:00.000Z",
      "topics": [],
@@ -522,22 +523,6 @@
    "count": 24,
    "top": [
     {
-     "id": "7c23b963da558b9f",
-     "title": "Espoo closes in on Helsinki as Finland’s startup funding race tightens",
-     "source": "Sifted",
-     "region": "EU",
-     "url": "https://sifted.eu/articles/espoo-closes-in-on-helsinki-as-finlands-startup-funding-race-tightens/",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-20T05:00:03.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-20",
-     "isNew": true
-    },
-    {
      "id": "e8e50bfa22a081f4",
      "title": "Is AI in a bubble? Menlo Ventures’ Deedy Das on Anthropic’s IPO and Europe",
      "source": "Sifted",
@@ -556,16 +541,33 @@
      "isNew": true
     },
     {
-     "id": "03eeb636fd38b693",
-     "title": "UK AI minister rejects calls for sovereign model, sparking backlash: 'I'm so angry'",
+     "id": "7c23b963da558b9f",
+     "title": "Espoo closes in on Helsinki as Finland’s startup funding race tightens",
      "source": "Sifted",
      "region": "EU",
-     "url": "https://sifted.eu/articles/kanishka-narayan-ai-uk-minister-sovereign/",
-     "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-20T05:00:50.000Z",
+     "url": "https://sifted.eu/articles/espoo-closes-in-on-helsinki-as-finlands-startup-funding-race-tightens/",
+     "importance": 77,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-20T05:00:03.000Z",
      "topics": [
-      "政策与治理"
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-20",
+     "isNew": true
+    },
+    {
+     "id": "9b7df2b88a32b7c6",
+     "title": "Isomorphic Labs and MSD team up on AI-led cancer drug discovery",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/innovation/isomorphic-labs-msd-team-up-ai-led-cancer-drug-discovery",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-20T09:28:12.000Z",
+     "topics": [
+      "产业与生态",
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-11-20",
@@ -650,26 +652,6 @@
    "count": 24,
    "top": [
     {
-     "id": "e14a392f9e686686",
-     "title": "Meet the 8 women powering India’s deeptech future; Anthropic raises a record $81.3B in IPO",
-     "source": "YourStory",
-     "region": "OTHER",
-     "url": "https://yourstory.com/2026/11/meet-the-8-women-powering-indias-deeptech-future-anthropic-ipo",
-     "importance": 96,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-20T02:00:00.000Z",
-     "topics": [
-      "资本与市场",
-      "模型与能力"
-     ],
-     "entities": [
-      "Anthropic",
-      "Microsoft"
-     ],
-     "firstSeen": "2026-11-20",
-     "isNew": true
-    },
-    {
      "id": "2043ce94a17012cd",
      "title": "AI Startup Disseqt AI Raises $8 Mn To Scale International Operations",
      "source": "Inc42",
@@ -691,12 +673,32 @@
      "isNew": true
     },
     {
+     "id": "e14a392f9e686686",
+     "title": "Meet the 8 women powering India’s deeptech future; Anthropic raises a record $81.3B in IPO",
+     "source": "YourStory",
+     "region": "OTHER",
+     "url": "https://yourstory.com/2026/11/meet-the-8-women-powering-indias-deeptech-future-anthropic-ipo",
+     "importance": 92,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-20T02:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "Anthropic",
+      "Microsoft"
+     ],
+     "firstSeen": "2026-11-20",
+     "isNew": true
+    },
+    {
      "id": "1a607ac9496b5026",
      "title": "India’s Anthropic Question, ShareChat’s Turnaround & More",
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/buzz/indias-anthropic-question-sharechats-turnaround-more/",
-     "importance": 88,
+     "importance": 84,
      "difficulty": "进阶",
      "publishedAt": "2026-11-20T02:30:39.000Z",
      "topics": [
@@ -711,5 +713,5 @@
    ]
   }
  ],
- "overview": "11 月 20 日，共从 26 个信息源抓取 431 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 118 条发布于 24 小时内。其中 111 条是此前未出现过的新增内容，另有 47 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」56 条、「产品与应用」38 条。值得优先关注的几条：「硅谷最昂贵的一场分手」（钛媒体）、「AI Agent 元年，苹果是最后一个入局的巨头」（爱范儿）、「8点1氪丨Anthropic上市首日暴涨17%；宗馥莉原“心腹”起诉娃哈哈；OpenAI进军手机领域」（36氪）。"
+ "overview": "11 月 20 日，共从 26 个信息源抓取 428 条 AI 产业动态，其中 158 条进入当日精选，覆盖 7 个区域。其中有 117 条发布于 24 小时内。其中 120 条是此前未出现过的新增内容，另有 38 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」64 条、「产品与应用」36 条。值得优先关注的几条：「“物理AI第一股”冲刺A股：左手英伟达，右手摩尔线程」（钛媒体）、「Anthropic上市首日涨17%，市值一度冲至2万亿刀，AI热潮还能持续多久？」（36氪）、「AI Agent 元年，苹果是最后一个入局的巨头」（爱范儿）。"
 }
