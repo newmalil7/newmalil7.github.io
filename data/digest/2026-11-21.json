@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-21",
- "generatedAt": "2026-11-21T07:47:20.157Z",
+ "generatedAt": "2026-11-21T12:22:26.062Z",
  "mode": "rule",
  "counts": {
-  "crawled": 492,
+  "crawled": 431,
   "published": 155,
-  "newCount": 120,
-  "repeatCount": 35,
+  "newCount": 96,
+  "repeatCount": 59,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -17,18 +17,18 @@
    "NA": 24,
    "OTHER": 24
   },
-  "sourceOk": 29,
+  "sourceOk": 26,
   "sourceTotal": 30,
   "regions": 7
  },
  "freshness": {
-  "within24h": 125,
-  "withinFresh": 140,
+  "within24h": 97,
+  "withinFresh": 129,
   "freshHours": 72,
-  "monthPrecision": 9,
+  "monthPrecision": 20,
   "undated": 0,
-  "staleDropped": 40,
-  "newestAt": "2026-11-21T16:39:48.000Z"
+  "staleDropped": 31,
+  "newestAt": "2026-11-21T18:55:59.000Z"
  },
  "themes": [
   {
@@ -41,19 +41,19 @@
   },
   {
    "name": "算力与基建",
-   "n": 24
-  },
-  {
-   "name": "模型与能力",
-   "n": 20
+   "n": 27
   },
   {
    "name": "产业与生态",
-   "n": 18
+   "n": 20
+  },
+  {
+   "name": "模型与能力",
+   "n": 17
   },
   {
    "name": "政策与治理",
-   "n": 7
+   "n": 9
   }
  ],
  "entities": [
@@ -62,35 +62,56 @@
    "n": 14
   },
   {
+   "name": "Google",
+   "n": 7
+  },
+  {
    "name": "NVIDIA",
-   "n": 10
+   "n": 7
   },
   {
    "name": "阿里巴巴",
    "n": 5
   },
   {
-   "name": "Google",
-   "n": 4
-  },
-  {
-   "name": "OpenAI",
-   "n": 4
-  },
-  {
-   "name": "字节跳动",
-   "n": 4
-  },
-  {
    "name": "腾讯",
    "n": 4
   },
   {
+   "name": "字节跳动",
+   "n": 3
+  },
+  {
    "name": "华为",
    "n": 3
+  },
+  {
+   "name": "三星",
+   "n": 2
   }
  ],
  "topOverall": [
+  {
+   "id": "422de2d7e4ecfdf4",
+   "title": "【数智周报】 Anthropic敲响纳斯达克开市钟，创史上最大规模IPO纪录；美国限制远程获取AI算力，海外数据中心出租算力须许可；DeepSeek第二轮融资落地",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8213535.html",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-21T11:19:38.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "Anthropic",
+    "百度",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-11-21",
+   "isNew": true
+  },
   {
    "id": "f63c547bb9d02410",
    "title": "早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验",
@@ -114,32 +135,12 @@
    "isNew": true
   },
   {
-   "id": "26e5b3e72ccc1c8e",
-   "title": "软银孙正义被曝曾考虑1万亿美元收购SK海力士",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4078915481179273?f=rss",
-   "importance": 97,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-21T02:47:23.000Z",
-   "topics": [
-    "资本与市场",
-    "算力与基建"
-   ],
-   "entities": [
-    "OpenAI",
-    "软银"
-   ],
-   "firstSeen": "2026-11-21",
-   "isNew": true
-  },
-  {
    "id": "8e75ca84e69587af",
    "title": "Seedance、MiniMax和Qwen image修改能力测试：3轮连改，谁更好用？",
    "source": "钛媒体",
    "region": "CN",
    "url": "https://www.tmtpost.com/8213159.html",
-   "importance": 94,
+   "importance": 90,
    "difficulty": "入门",
    "publishedAt": "2026-11-21T05:05:03.000Z",
    "topics": [
@@ -161,7 +162,7 @@
    "source": "极客公园",
    "region": "CN",
    "url": "http://www.geekpark.net/news/374299",
-   "importance": 94,
+   "importance": 89,
    "difficulty": "入门",
    "publishedAt": "2026-11-21T00:17:10.000Z",
    "topics": [
@@ -177,12 +178,31 @@
    "isNew": true
   },
   {
+   "id": "3e77141022e2e13d",
+   "title": "Google Commits $5 Mn To Sundar Pichai’s Alma Mater IIT Kharagpur",
+   "source": "Inc42",
+   "region": "OTHER",
+   "url": "https://inc42.com/buzz/google-commits-5-mn-to-sundar-pichais-alma-mater-iit-kharagpur/",
+   "importance": 87,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-21T09:45:32.000Z",
+   "topics": [
+    "资本与市场",
+    "产业与生态"
+   ],
+   "entities": [
+    "Google"
+   ],
+   "firstSeen": "2026-11-21",
+   "isNew": true
+  },
+  {
    "id": "7d1e9a89842bae9f",
    "title": "Ex-Alibaba AI executive’s startup hits $5b valuation",
    "source": "Tech in Asia",
    "region": "SEA",
    "url": "https://www.techinasia.com/news/exalibaba-ai-executives-startup-hits-5b-valuation",
-   "importance": 90,
+   "importance": 86,
    "difficulty": "进阶",
    "publishedAt": "2026-11-21T01:57:06.000Z",
    "topics": [
@@ -202,7 +222,7 @@
    "source": "Tech in Asia",
    "region": "SEA",
    "url": "https://www.techinasia.com/news/databricks-talks-raise-funds-225b-valuation-report",
-   "importance": 89,
+   "importance": 85,
    "difficulty": "入门",
    "publishedAt": "2026-11-21T04:02:14.000Z",
    "topics": [
@@ -213,38 +233,21 @@
    "isNew": true
   },
   {
-   "id": "8714ce1ed3581cd8",
-   "title": "OpenAI unveils benchmark to test AI on medicinal chemistry",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/openai-unveils-benchmark-test-ai-medicinal-chemistry",
-   "importance": 88,
-   "difficulty": "高级",
-   "publishedAt": "2026-11-21T04:01:51.000Z",
-   "topics": [
-    "模型与能力"
-   ],
-   "entities": [
-    "OpenAI"
-   ],
-   "firstSeen": "2026-11-21",
-   "isNew": true
-  },
-  {
-   "id": "5acdb88464a5b2e0",
-   "title": "Nvidia shares sink 12% on report of SEC accounting probe",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/nvidia-shares-sink-12-report-sec-accounting-probe",
-   "importance": 88,
+   "id": "76781bc146469226",
+   "title": "9点1氪丨黄仁勋或将创办新公司；水贝金价一度跌破800元/克；纳指100进入技术性熊市",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4078827757310856?f=rss",
+   "importance": 85,
    "difficulty": "进阶",
-   "publishedAt": "2026-11-21T04:01:35.000Z",
+   "publishedAt": "2026-11-21T01:19:00.000Z",
    "topics": [
-    "算力与基建",
-    "资本与市场"
+    "资本与市场",
+    "算力与基建"
    ],
    "entities": [
-    "NVIDIA"
+    "NVIDIA",
+    "字节跳动"
    ],
    "firstSeen": "2026-11-21",
    "isNew": true
@@ -258,6 +261,27 @@
    "flag": "🇨🇳",
    "count": 24,
    "top": [
+    {
+     "id": "422de2d7e4ecfdf4",
+     "title": "【数智周报】 Anthropic敲响纳斯达克开市钟，创史上最大规模IPO纪录；美国限制远程获取AI算力，海外数据中心出租算力须许可；DeepSeek第二轮融资落地",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8213535.html",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-21T11:19:38.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "Anthropic",
+      "百度",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-11-21",
+     "isNew": true
+    },
     {
      "id": "f63c547bb9d02410",
      "title": "早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验",
@@ -281,32 +305,12 @@
      "isNew": true
     },
     {
-     "id": "26e5b3e72ccc1c8e",
-     "title": "软银孙正义被曝曾考虑1万亿美元收购SK海力士",
-     "source": "36氪",
-     "region": "CN",
-     "url": "https://36kr.com/newsflashes/4078915481179273?f=rss",
-     "importance": 97,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-21T02:47:23.000Z",
-     "topics": [
-      "资本与市场",
-      "算力与基建"
-     ],
-     "entities": [
-      "OpenAI",
-      "软银"
-     ],
-     "firstSeen": "2026-11-21",
-     "isNew": true
-    },
-    {
      "id": "8e75ca84e69587af",
      "title": "Seedance、MiniMax和Qwen image修改能力测试：3轮连改，谁更好用？",
      "source": "钛媒体",
      "region": "CN",
      "url": "https://www.tmtpost.com/8213159.html",
-     "importance": 94,
+     "importance": 90,
      "difficulty": "入门",
      "publishedAt": "2026-11-21T05:05:03.000Z",
      "topics": [
@@ -337,7 +341,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/exalibaba-ai-executives-startup-hits-5b-valuation",
-     "importance": 90,
+     "importance": 86,
      "difficulty": "进阶",
      "publishedAt": "2026-11-21T01:57:06.000Z",
      "topics": [
@@ -357,7 +361,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/databricks-talks-raise-funds-225b-valuation-report",
-     "importance": 89,
+     "importance": 85,
      "difficulty": "入门",
      "publishedAt": "2026-11-21T04:02:14.000Z",
      "topics": [
@@ -373,7 +377,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/openai-unveils-benchmark-test-ai-medicinal-chemistry",
-     "importance": 88,
+     "importance": 84,
      "difficulty": "高级",
      "publishedAt": "2026-11-21T04:01:51.000Z",
      "topics": [
@@ -395,57 +399,55 @@
    "count": 24,
    "top": [
     {
-     "id": "e9a45991c8a7c8ca",
-     "title": "Anthropic raises $81 billion in record breaking IPO",
-     "source": "Arabian Business",
+     "id": "fa094c468ed12a6e",
+     "title": "CE-Ventures backs UK's Oyster Therapeutics in $60 million Series A round",
+     "source": "Wamda",
      "region": "ME",
-     "url": "https://www.arabianbusiness.com/finance/banking/anthropic-raise-81-billion-in-record-breaking-ipo",
-     "importance": 77,
+     "url": "https://www.wamda.com/2026/11/ce-ventures-backs-uk-oyster-therapeutics-60-million-series-a-round",
+     "importance": 58,
      "difficulty": "入门",
-     "publishedAt": "2026-11-20T08:00:55.000Z",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
      "topics": [
       "资本与市场"
      ],
      "entities": [
-      "Anthropic"
+      "Arm"
      ],
-     "firstSeen": "2026-11-21",
-     "isNew": true
+     "firstSeen": "2026-11-20",
+     "isNew": false
     },
     {
-     "id": "e60dad7e115e111a",
-     "title": "Anthropic IPO Raises $81.3 Billion as Shares Jump 34 per cent on Nasdaq Debut",
-     "source": "ITP.net",
+     "id": "acffa3b274acb5d5",
+     "title": "UAE's Vision Makers secures $4 million in a dual round",
+     "source": "Wamda",
      "region": "ME",
-     "url": "https://www.itp.net/ai-automation/anthropic-ipo-raises-81-3-billion-as-shares-jump-34-per-cent-on-nasdaq-debut",
-     "importance": 77,
+     "url": "https://www.wamda.com/2026/11/uae-vision-makers-secures-4-million-dual-round",
+     "importance": 56,
      "difficulty": "入门",
-     "publishedAt": "2026-11-20T07:52:03.000Z",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
      "topics": [
-      "资本与市场",
-      "模型与能力"
-     ],
-     "entities": [
-      "Anthropic"
-     ],
-     "firstSeen": "2026-11-21",
-     "isNew": true
-    },
-    {
-     "id": "816223cb5e6c9c68",
-     "title": "Would you trust AI to do your weekly supermarket shop?",
-     "source": "Arabian Business",
-     "region": "ME",
-     "url": "https://www.arabianbusiness.com/abnews/would-you-trust-ai-to-do-your-weekly-supermarket-shop",
-     "importance": 69,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-21T04:30:00.000Z",
-     "topics": [
-      "产业与生态"
+      "资本与市场"
      ],
      "entities": [],
-     "firstSeen": "2026-11-21",
-     "isNew": true
+     "firstSeen": "2026-11-20",
+     "isNew": false
+    },
+    {
+     "id": "7b91ae054da237c9",
+     "title": "Multipolitan raises $2 million to develop cross-border mobility platform",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/multipolitan-raises-2-million-develop-cross-border-mobility-platform",
+     "importance": 56,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-20",
+     "isNew": false
     }
    ]
   },
@@ -457,16 +459,16 @@
    "count": 11,
    "top": [
     {
-     "id": "ec885c68a57dc065",
-     "title": "구글, 제미나이 앱에 GIF 생성 기능 출시…오픈AI 이어 도입",
+     "id": "93d0db9b72518097",
+     "title": "머스크의 우주 데이터센터, 첫 금융 장벽…채권단 \"GPU 반입 제한\"",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=217648",
-     "importance": 66,
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217650",
+     "importance": 62,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-21T16:39:48.000Z",
+     "publishedAt": "2026-11-21T18:55:59.000Z",
      "topics": [
-      "模型与能力"
+      "算力与基建"
      ],
      "entities": [],
      "firstSeen": "2026-11-20",
@@ -513,14 +515,14 @@
    "count": 24,
    "top": [
     {
-     "id": "5fc434d3813c174b",
-     "title": "Archer raises $10M to connect recruiters and job seekers with AI",
-     "source": "Tech.eu",
+     "id": "738e55eca7491ac5",
+     "title": "Exclusive: Storonsky-backed Aikido seeks €4bn valuation",
+     "source": "Sifted",
      "region": "EU",
-     "url": "https://tech.eu/2026/11/20/archer-raises-10m-to-connect-recruiters-and-job-seekers-with-ai/",
-     "importance": 76,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-20T09:11:26.000Z",
+     "url": "https://sifted.eu/articles/exclusive-aikido-4bn-valuation/",
+     "importance": 69,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-20T16:04:11.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -529,38 +531,34 @@
      "isNew": true
     },
     {
-     "id": "d58b4f5f08df4a4d",
-     "title": "LATO secures $4.7M to automate customer and expert interviews with AI",
-     "source": "Tech.eu",
+     "id": "892ee36504854530",
+     "title": "Exclusive: Stripe founders and Paul Graham back AI agent swarm startup Hoplite with $5.5m",
+     "source": "Sifted",
      "region": "EU",
-     "url": "https://tech.eu/2026/11/19/lato-secures-47m-to-automate-customer-and-expert-interviews-with-ai/",
-     "importance": 74,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-19T08:15:57.000Z",
+     "url": "https://sifted.eu/articles/hoplite-raise-stripe-founders/",
+     "importance": 69,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-20T13:00:51.000Z",
      "topics": [
-      "产业与生态",
-      "资本与市场"
+      "产品与应用"
      ],
+     "entities": [],
+     "firstSeen": "2026-11-21",
+     "isNew": true
+    },
+    {
+     "id": "e8c1c41eccde150f",
+     "title": "How a handful of European angels hit the Anthropic jackpot",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/european-angels-anthropic-ipo/",
+     "importance": 63,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-20T15:34:03.000Z",
+     "topics": [],
      "entities": [
-      "ElevenLabs"
+      "Anthropic"
      ],
-     "firstSeen": "2026-11-21",
-     "isNew": true
-    },
-    {
-     "id": "257a40d616cf2244",
-     "title": "Startup ecosystem calls to withdraw and re-table EU Inc proposal, Isomorphic Labs bags $5B, and inside Plural's €1B fund",
-     "source": "Tech.eu",
-     "region": "EU",
-     "url": "https://tech.eu/2026/11/20/startup-ecosystem-calls-to-withdraw-and-re-table-eu-inc-proposal/",
-     "importance": 72,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-20T15:09:29.000Z",
-     "topics": [
-      "资本与市场",
-      "产业与生态"
-     ],
-     "entities": [],
      "firstSeen": "2026-11-21",
      "isNew": true
     }
@@ -599,7 +597,7 @@
      "source": "Ars Technica AI",
      "region": "NA",
      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
-     "importance": 80,
+     "importance": 75,
      "difficulty": "进阶",
      "publishedAt": "2026-11-20T21:58:29.000Z",
      "topics": [
@@ -617,7 +615,7 @@
      "source": "Ars Technica AI",
      "region": "NA",
      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-     "importance": 80,
+     "importance": 75,
      "difficulty": "进阶",
      "publishedAt": "2026-11-20T21:47:10.000Z",
      "topics": [
@@ -639,57 +637,62 @@
    "count": 24,
    "top": [
     {
-     "id": "f14f74134ff1c73f",
-     "title": "From Dreamteam To Boba Bhai — Indian Startups Raised Over $291 Mn This Week",
+     "id": "3e77141022e2e13d",
+     "title": "Google Commits $5 Mn To Sundar Pichai’s Alma Mater IIT Kharagpur",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/from-dreamteam-to-boba-bhai-indian-startups-raised-over-291-mn-this-week/",
-     "importance": 81,
+     "url": "https://inc42.com/buzz/google-commits-5-mn-to-sundar-pichais-alma-mater-iit-kharagpur/",
+     "importance": 87,
      "difficulty": "入门",
-     "publishedAt": "2026-11-21T03:30:44.000Z",
+     "publishedAt": "2026-11-21T09:45:32.000Z",
      "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-21",
-     "isNew": true
-    },
-    {
-     "id": "6d85b579952a06c0",
-     "title": "EV Startup River Mobility’s FY26 Revenue Jumps 4.2X To ₹432 Cr",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/ev-startup-river-mobilitys-fy26-revenue-jumps-4-2x-to-%e2%82%b9432-cr/",
-     "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-21T03:00:53.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-21",
-     "isNew": true
-    },
-    {
-     "id": "e2f876f6aa96cff1",
-     "title": "Anthropic’s Nasdaq Debut Sparks Buying Rush Among Indian Retail Investors",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/anthropics-nasdaq-debut-sparks-buying-rush-among-indian-retail-investors/",
-     "importance": 75,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-20T13:42:49.000Z",
-     "topics": [
-      "模型与能力"
+      "资本与市场",
+      "产业与生态"
      ],
      "entities": [
-      "Anthropic"
+      "Google"
      ],
+     "firstSeen": "2026-11-21",
+     "isNew": true
+    },
+    {
+     "id": "517e0a6d8ab952df",
+     "title": "Scaler Cofounder Anshuman Singh Unveils AI Training Data Venture Arcfront",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/scaler-cofounder-anshuman-singh-unveils-ai-training-data-venture-arcfront/",
+     "importance": 84,
+     "difficulty": "高级",
+     "publishedAt": "2026-11-21T09:27:01.000Z",
+     "topics": [
+      "模型与能力",
+      "产业与生态"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-11-21",
+     "isNew": true
+    },
+    {
+     "id": "205ec7e4ea6d7d3b",
+     "title": "Sarvam’s Token Factory Raises India’s AI Inference Stakes",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/features/sarvams-token-factory-raises-indias-ai-inference-stakes/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-21T11:57:54.000Z",
+     "topics": [
+      "模型与能力",
+      "资本与市场"
+     ],
+     "entities": [],
      "firstSeen": "2026-11-21",
      "isNew": true
     }
    ]
   }
  ],
- "overview": "11 月 21 日，共从 29 个信息源抓取 492 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 125 条发布于 24 小时内。其中 120 条是此前未出现过的新增内容，另有 35 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」56 条、「产品与应用」28 条。值得优先关注的几条：「早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验」（爱范儿）、「软银孙正义被曝曾考虑1万亿美元收购SK海力士」（36氪）、「Seedance、MiniMax和Qwen image修改能力测试：3轮连改，谁更好用？」（钛媒体）。"
+ "overview": "11 月 21 日，共从 26 个信息源抓取 431 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 97 条发布于 24 小时内。其中 96 条是此前未出现过的新增内容，另有 59 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」56 条、「产品与应用」28 条。值得优先关注的几条：「【数智周报】 Anthropic敲响纳斯达克开市钟，创史上最大规模IPO纪录；美国限制远程获取AI算力，海外数据中心出租算力须许可；DeepSeek第二轮融资落地」（钛媒体）、「早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验」（爱范儿）、「Seedance、MiniMax和Qwen image修改能力测试：3轮连改，谁更好用？」（钛媒体）。"
 }
