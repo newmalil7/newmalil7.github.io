@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-22",
- "generatedAt": "2026-11-22T07:33:45.288Z",
+ "generatedAt": "2026-11-22T12:25:11.927Z",
  "mode": "rule",
  "counts": {
-  "crawled": 432,
+  "crawled": 433,
   "published": 155,
-  "newCount": 64,
-  "repeatCount": 91,
+  "newCount": 69,
+  "repeatCount": 86,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,13 +22,13 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 68,
-  "withinFresh": 128,
+  "within24h": 58,
+  "withinFresh": 121,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
   "staleDropped": 28,
-  "newestAt": "2026-11-22T12:09:37.000Z"
+  "newestAt": "2026-11-22T17:38:28.000Z"
  },
  "themes": [
   {
@@ -37,60 +37,103 @@
   },
   {
    "name": "产品与应用",
-   "n": 31
+   "n": 36
   },
   {
    "name": "算力与基建",
-   "n": 24
-  },
-  {
-   "name": "产业与生态",
-   "n": 23
+   "n": 22
   },
   {
    "name": "模型与能力",
    "n": 20
   },
   {
+   "name": "产业与生态",
+   "n": 18
+  },
+  {
    "name": "政策与治理",
-   "n": 13
+   "n": 10
   }
  ],
  "entities": [
   {
    "name": "Anthropic",
-   "n": 9
+   "n": 10
   },
   {
    "name": "NVIDIA",
-   "n": 7
+   "n": 9
   },
   {
    "name": "Meta",
-   "n": 5
+   "n": 7
   },
   {
    "name": "Google",
+   "n": 6
+  },
+  {
+   "name": "阿里巴巴",
    "n": 5
   },
   {
    "name": "OpenAI",
+   "n": 5
+  },
+  {
+   "name": "腾讯",
    "n": 4
   },
   {
-   "name": "阿里巴巴",
+   "name": "百度",
    "n": 3
-  },
-  {
-   "name": "字节跳动",
-   "n": 3
-  },
-  {
-   "name": "台积电",
-   "n": 2
   }
  ],
  "topOverall": [
+  {
+   "id": "850141c313d9df8b",
+   "title": "从快手独立，可灵要回答的问题变了",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8213670.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-22T11:05:57.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "百度"
+   ],
+   "firstSeen": "2026-11-22",
+   "isNew": true
+  },
+  {
+   "id": "d3295f0f73420311",
+   "title": "特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-22T10:15:00.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "NVIDIA",
+    "字节跳动"
+   ],
+   "firstSeen": "2026-11-22",
+   "isNew": true
+  },
   {
    "id": "8ae276e152de6181",
    "title": "Anthropic万亿上市，搅动的却是半导体江湖",
@@ -119,7 +162,7 @@
    "source": "Tech in Asia",
    "region": "SEA",
    "url": "https://www.techinasia.com/news/china-plans-standards-ai-token-pricing-quality",
-   "importance": 96,
+   "importance": 92,
    "difficulty": "进阶",
    "publishedAt": "2026-11-22T02:28:23.000Z",
    "topics": [
@@ -135,12 +178,33 @@
    "isNew": true
   },
   {
+   "id": "d5e06c1eff633072",
+   "title": "拆解大厂财报：谁最舍得为AI花钱？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8212870.html",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-22T11:05:18.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "百度"
+   ],
+   "firstSeen": "2026-11-22",
+   "isNew": true
+  },
+  {
    "id": "60ba7caa08abd317",
    "title": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
    "source": "极客公园",
    "region": "CN",
    "url": "http://www.geekpark.net/news/374301",
-   "importance": 91,
+   "importance": 87,
    "difficulty": "进阶",
    "publishedAt": "2026-11-22T01:56:28.000Z",
    "topics": [
@@ -181,64 +245,9 @@
    "source": "爱范儿",
    "region": "CN",
    "url": "https://www.ifanr.com/1690820?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "importance": 86,
+   "importance": 82,
    "difficulty": "入门",
    "publishedAt": "2026-11-22T01:35:14.000Z",
-   "topics": [
-    "模型与能力",
-    "产业与生态"
-   ],
-   "entities": [
-    "Anthropic"
-   ],
-   "firstSeen": "2026-11-22",
-   "isNew": true
-  },
-  {
-   "id": "94834d9ab362579c",
-   "title": "小鹏交出一份增长财报，盈利拐点为何还没来？",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8213686.html",
-   "importance": 84,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-22T04:36:59.000Z",
-   "topics": [
-    "资本与市场",
-    "产品与应用"
-   ],
-   "entities": [],
-   "firstSeen": "2026-11-22",
-   "isNew": true
-  },
-  {
-   "id": "36b2d0a73d9b24ea",
-   "title": "将靶材卖进台积电，江丰电子布局A+H，第二增长曲线成色待考",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8213764.html",
-   "importance": 83,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-22T06:16:53.000Z",
-   "topics": [
-    "资本与市场",
-    "算力与基建"
-   ],
-   "entities": [
-    "台积电"
-   ],
-   "firstSeen": "2026-11-22",
-   "isNew": true
-  },
-  {
-   "id": "173b20dc50d60a4f",
-   "title": "丘成桐回应AI辅助证明黎曼猜想",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/newsflashes/4080470183253125?f=rss",
-   "importance": 83,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-22T05:30:48.000Z",
    "topics": [
     "模型与能力",
     "产业与生态"
@@ -258,6 +267,49 @@
    "flag": "🇨🇳",
    "count": 24,
    "top": [
+    {
+     "id": "850141c313d9df8b",
+     "title": "从快手独立，可灵要回答的问题变了",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8213670.html",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-22T11:05:57.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "阿里巴巴",
+      "腾讯",
+      "百度"
+     ],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    },
+    {
+     "id": "d3295f0f73420311",
+     "title": "特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局",
+     "source": "雷峰网",
+     "region": "CN",
+     "url": "https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-22T10:15:00.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "NVIDIA",
+      "字节跳动"
+     ],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    },
     {
      "id": "8ae276e152de6181",
      "title": "Anthropic万亿上市，搅动的却是半导体江湖",
@@ -279,47 +331,6 @@
      ],
      "firstSeen": "2026-11-22",
      "isNew": true
-    },
-    {
-     "id": "60ba7caa08abd317",
-     "title": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
-     "source": "极客公园",
-     "region": "CN",
-     "url": "http://www.geekpark.net/news/374301",
-     "importance": 91,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-22T01:56:28.000Z",
-     "topics": [
-      "产品与应用",
-      "产业与生态"
-     ],
-     "entities": [
-      "腾讯"
-     ],
-     "firstSeen": "2026-11-22",
-     "isNew": true
-    },
-    {
-     "id": "86852823bf6884b5",
-     "title": "全球Meta一家独大，中国AI眼镜为何还在混战？",
-     "source": "钛媒体",
-     "region": "CN",
-     "url": "https://www.tmtpost.com/8213674.html",
-     "importance": 87,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-22T01:02:01.000Z",
-     "topics": [
-      "资本与市场",
-      "产品与应用"
-     ],
-     "entities": [
-      "Meta",
-      "阿里巴巴",
-      "华为",
-      "小米"
-     ],
-     "firstSeen": "2026-11-22",
-     "isNew": true
     }
    ]
   },
@@ -336,7 +347,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/china-plans-standards-ai-token-pricing-quality",
-     "importance": 96,
+     "importance": 92,
      "difficulty": "进阶",
      "publishedAt": "2026-11-22T02:28:23.000Z",
      "topics": [
@@ -352,14 +363,14 @@
      "isNew": true
     },
     {
-     "id": "83eb76e289583241",
-     "title": "Series SEA: Who’s investing in the region’s fintech startups?",
+     "id": "cf8e6b2520be28cb",
+     "title": "Mapping the firms dominating Japan’s health sector",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/top-sea-investors-fintech",
+     "url": "https://www.techinasia.com/visual-story/mapping-firms-dominating-japans-health-sector",
      "importance": 81,
      "difficulty": "入门",
-     "publishedAt": "2026-11-22T07:00:00.000Z",
+     "publishedAt": "2026-11-22T11:00:00.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -368,17 +379,16 @@
      "isNew": true
     },
     {
-     "id": "d6c9c01e9b82c525",
-     "title": "KKR’s Helix eyes majority stake in data center firm EdgeCore",
+     "id": "3b503879020f3765",
+     "title": "These are the most active investors in Japan’s startups",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/kkrs-helix-eyes-majority-stake-data-center-firm-edgecore",
-     "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-22T04:31:34.000Z",
+     "url": "https://www.techinasia.com/active-investors-japans-startups",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-22T09:00:00.000Z",
      "topics": [
-      "算力与基建",
-      "产品与应用"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-11-22",
@@ -454,17 +464,15 @@
    "count": 11,
    "top": [
     {
-     "id": "567b26ea43bd1aa3",
-     "title": "싱킹머신즈, 노트북서 구동하는 264억 매개변수 '잉클링 2 미니' 공개",
+     "id": "547963bb94d455d5",
+     "title": "오픈AI \"AI가 연구 작업 절반 스스로 완료\"…7개월 만에 성공률 2배",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=217656",
-     "importance": 62,
-     "difficulty": "高级",
-     "publishedAt": "2026-11-22T12:09:37.000Z",
-     "topics": [
-      "产业与生态"
-     ],
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217657",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-22T17:25:00.000Z",
+     "topics": [],
      "entities": [],
      "firstSeen": "2026-11-21",
      "isNew": false
@@ -510,26 +518,6 @@
    "count": 24,
    "top": [
     {
-     "id": "bc0e814898275e81",
-     "title": "Anthropic breaks SpaceX IPO record with $81.3bn raise",
-     "source": "Silicon Republic",
-     "region": "EU",
-     "url": "https://www.siliconrepublic.com/business/anthropic-breaks-spacex-ipo-record-with-81-3bn-raise",
-     "importance": 53,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-19T09:36:35.000Z",
-     "topics": [
-      "资本与市场",
-      "模型与能力"
-     ],
-     "entities": [
-      "OpenAI",
-      "Anthropic"
-     ],
-     "firstSeen": "2026-11-21",
-     "isNew": false
-    },
-    {
      "id": "e8e50bfa22a081f4",
      "title": "Is AI in a bubble? Menlo Ventures’ Deedy Das on Anthropic’s IPO and Europe",
      "source": "Sifted",
@@ -562,6 +550,22 @@
      "entities": [],
      "firstSeen": "2026-11-21",
      "isNew": false
+    },
+    {
+     "id": "892ee36504854530",
+     "title": "Exclusive: Stripe founders and Paul Graham back AI agent swarm startup Hoplite with $5.5m",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/hoplite-raise-stripe-founders/",
+     "importance": 45,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-20T13:00:51.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-21",
+     "isNew": false
     }
    ]
   },
@@ -578,7 +582,7 @@
      "source": "TechCrunch AI",
      "region": "NA",
      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-     "importance": 80,
+     "importance": 75,
      "difficulty": "进阶",
      "publishedAt": "2026-11-21T21:07:42.000Z",
      "topics": [
@@ -587,22 +591,6 @@
      "entities": [
       "NVIDIA"
      ],
-     "firstSeen": "2026-11-22",
-     "isNew": true
-    },
-    {
-     "id": "5ff19e6e038eb3e1",
-     "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-     "source": "TechCrunch AI",
-     "region": "NA",
-     "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-     "importance": 77,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-21T21:37:10.000Z",
-     "topics": [
-      "产品与应用"
-     ],
-     "entities": [],
      "firstSeen": "2026-11-22",
      "isNew": true
     },
@@ -622,6 +610,22 @@
      "entities": [
       "Anthropic"
      ],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    },
+    {
+     "id": "7ea47367ab83fed5",
+     "title": "Here are the top AI agents that can live in your text messages",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+     "importance": 73,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-21T17:00:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
      "firstSeen": "2026-11-22",
      "isNew": true
     }
@@ -658,7 +662,7 @@
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/features/the-gta-vi-sized-hole-in-indian-gaming/",
-     "importance": 81,
+     "importance": 77,
      "difficulty": "入门",
      "publishedAt": "2026-11-22T05:30:37.000Z",
      "topics": [
@@ -669,16 +673,16 @@
      "isNew": true
     },
     {
-     "id": "16c84b8ac311076a",
-     "title": "Indian Startup IPO Tracker 2026",
+     "id": "5a238998f7e7d05c",
+     "title": "Exclusive: Bewakoof Cofounder Prabhkiran Singh Launches AI Shopping Assistant Save8",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026/",
-     "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-21T23:31:54.000Z",
+     "url": "https://inc42.com/buzz/bewakoof-cofounder-prabhkiran-singh-launches-ai-shopping-assistant-save8/",
+     "importance": 76,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-21T13:53:04.000Z",
      "topics": [
-      "资本与市场"
+      "产品与应用"
      ],
      "entities": [],
      "firstSeen": "2026-11-22",
@@ -687,5 +691,5 @@
    ]
   }
  ],
- "overview": "11 月 22 日，共从 26 个信息源抓取 432 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 68 条发布于 24 小时内。其中 64 条是此前未出现过的新增内容，另有 91 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」48 条、「产品与应用」31 条。值得优先关注的几条：「Anthropic万亿上市，搅动的却是半导体江湖」（钛媒体）、「关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切」（极客公园）、「全球Meta一家独大，中国AI眼镜为何还在混战？」（钛媒体）。"
+ "overview": "11 月 22 日，共从 26 个信息源抓取 433 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 58 条发布于 24 小时内。其中 69 条是此前未出现过的新增内容，另有 86 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」48 条、「产品与应用」36 条。值得优先关注的几条：「从快手独立，可灵要回答的问题变了」（钛媒体）、「特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局」（雷峰网）、「Anthropic万亿上市，搅动的却是半导体江湖」（钛媒体）。"
 }
