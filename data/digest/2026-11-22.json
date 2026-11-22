@@ -1,0 +1,691 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-11-22",
+ "generatedAt": "2026-11-22T07:33:45.288Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 432,
+  "published": 155,
+  "newCount": 64,
+  "repeatCount": 91,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 11,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 26,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 68,
+  "withinFresh": 128,
+  "freshHours": 72,
+  "monthPrecision": 20,
+  "undated": 0,
+  "staleDropped": 28,
+  "newestAt": "2026-11-22T12:09:37.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 48
+  },
+  {
+   "name": "产品与应用",
+   "n": 31
+  },
+  {
+   "name": "算力与基建",
+   "n": 24
+  },
+  {
+   "name": "产业与生态",
+   "n": 23
+  },
+  {
+   "name": "模型与能力",
+   "n": 20
+  },
+  {
+   "name": "政策与治理",
+   "n": 13
+  }
+ ],
+ "entities": [
+  {
+   "name": "Anthropic",
+   "n": 9
+  },
+  {
+   "name": "NVIDIA",
+   "n": 7
+  },
+  {
+   "name": "Meta",
+   "n": 5
+  },
+  {
+   "name": "Google",
+   "n": 5
+  },
+  {
+   "name": "OpenAI",
+   "n": 4
+  },
+  {
+   "name": "阿里巴巴",
+   "n": 3
+  },
+  {
+   "name": "字节跳动",
+   "n": 3
+  },
+  {
+   "name": "台积电",
+   "n": 2
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "8ae276e152de6181",
+   "title": "Anthropic万亿上市，搅动的却是半导体江湖",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8213769.html",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-22T06:16:44.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "Anthropic",
+    "NVIDIA",
+    "AMD",
+    "台积电"
+   ],
+   "firstSeen": "2026-11-22",
+   "isNew": true
+  },
+  {
+   "id": "927ce23ddc80520a",
+   "title": "China plans new standards for AI token pricing, quality",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/china-plans-standards-ai-token-pricing-quality",
+   "importance": 96,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-22T02:28:23.000Z",
+   "topics": [
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "字节跳动",
+    "百度",
+    "科大讯飞"
+   ],
+   "firstSeen": "2026-11-22",
+   "isNew": true
+  },
+  {
+   "id": "60ba7caa08abd317",
+   "title": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/374301",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-22T01:56:28.000Z",
+   "topics": [
+    "产品与应用",
+    "产业与生态"
+   ],
+   "entities": [
+    "腾讯"
+   ],
+   "firstSeen": "2026-11-22",
+   "isNew": true
+  },
+  {
+   "id": "86852823bf6884b5",
+   "title": "全球Meta一家独大，中国AI眼镜为何还在混战？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8213674.html",
+   "importance": 87,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-22T01:02:01.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [
+    "Meta",
+    "阿里巴巴",
+    "华为",
+    "小米"
+   ],
+   "firstSeen": "2026-11-22",
+   "isNew": true
+  },
+  {
+   "id": "c77f957e91ab7c42",
+   "title": "Claude 的黎曼猜想证明获 Lean 官方认证，马斯克直呼惊人成就",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1690820?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 86,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-22T01:35:14.000Z",
+   "topics": [
+    "模型与能力",
+    "产业与生态"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-11-22",
+   "isNew": true
+  },
+  {
+   "id": "94834d9ab362579c",
+   "title": "小鹏交出一份增长财报，盈利拐点为何还没来？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8213686.html",
+   "importance": 84,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-22T04:36:59.000Z",
+   "topics": [
+    "资本与市场",
+    "产品与应用"
+   ],
+   "entities": [],
+   "firstSeen": "2026-11-22",
+   "isNew": true
+  },
+  {
+   "id": "36b2d0a73d9b24ea",
+   "title": "将靶材卖进台积电，江丰电子布局A+H，第二增长曲线成色待考",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8213764.html",
+   "importance": 83,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-22T06:16:53.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "台积电"
+   ],
+   "firstSeen": "2026-11-22",
+   "isNew": true
+  },
+  {
+   "id": "173b20dc50d60a4f",
+   "title": "丘成桐回应AI辅助证明黎曼猜想",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4080470183253125?f=rss",
+   "importance": 83,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-22T05:30:48.000Z",
+   "topics": [
+    "模型与能力",
+    "产业与生态"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-11-22",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "8ae276e152de6181",
+     "title": "Anthropic万亿上市，搅动的却是半导体江湖",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8213769.html",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-22T06:16:44.000Z",
+     "topics": [
+      "资本与市场",
+      "算力与基建"
+     ],
+     "entities": [
+      "Anthropic",
+      "NVIDIA",
+      "AMD",
+      "台积电"
+     ],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    },
+    {
+     "id": "60ba7caa08abd317",
+     "title": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
+     "source": "极客公园",
+     "region": "CN",
+     "url": "http://www.geekpark.net/news/374301",
+     "importance": 91,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-22T01:56:28.000Z",
+     "topics": [
+      "产品与应用",
+      "产业与生态"
+     ],
+     "entities": [
+      "腾讯"
+     ],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    },
+    {
+     "id": "86852823bf6884b5",
+     "title": "全球Meta一家独大，中国AI眼镜为何还在混战？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8213674.html",
+     "importance": 87,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-22T01:02:01.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "Meta",
+      "阿里巴巴",
+      "华为",
+      "小米"
+     ],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "927ce23ddc80520a",
+     "title": "China plans new standards for AI token pricing, quality",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/china-plans-standards-ai-token-pricing-quality",
+     "importance": 96,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-22T02:28:23.000Z",
+     "topics": [
+      "模型与能力"
+     ],
+     "entities": [
+      "阿里巴巴",
+      "字节跳动",
+      "百度",
+      "科大讯飞"
+     ],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    },
+    {
+     "id": "83eb76e289583241",
+     "title": "Series SEA: Who’s investing in the region’s fintech startups?",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/top-sea-investors-fintech",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-22T07:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    },
+    {
+     "id": "d6c9c01e9b82c525",
+     "title": "KKR’s Helix eyes majority stake in data center firm EdgeCore",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/kkrs-helix-eyes-majority-stake-data-center-firm-edgecore",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-22T04:31:34.000Z",
+     "topics": [
+      "算力与基建",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "fa094c468ed12a6e",
+     "title": "CE-Ventures backs UK's Oyster Therapeutics in $60 million Series A round",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/ce-ventures-backs-uk-oyster-therapeutics-60-million-series-a-round",
+     "importance": 58,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-11-21",
+     "isNew": false
+    },
+    {
+     "id": "acffa3b274acb5d5",
+     "title": "UAE's Vision Makers secures $4 million in a dual round",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/uae-vision-makers-secures-4-million-dual-round",
+     "importance": 56,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-21",
+     "isNew": false
+    },
+    {
+     "id": "7b91ae054da237c9",
+     "title": "Multipolitan raises $2 million to develop cross-border mobility platform",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/multipolitan-raises-2-million-develop-cross-border-mobility-platform",
+     "importance": 56,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-21",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 11,
+   "top": [
+    {
+     "id": "567b26ea43bd1aa3",
+     "title": "싱킹머신즈, 노트북서 구동하는 264억 매개변수 '잉클링 2 미니' 공개",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217656",
+     "importance": 62,
+     "difficulty": "高级",
+     "publishedAt": "2026-11-22T12:09:37.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-21",
+     "isNew": false
+    },
+    {
+     "id": "e518b02c0f0d5fdf",
+     "title": "AI人事とは？採用・評価・労務で任せてよい業務と導入時の注意点",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/11/20/278548/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e4%25ba%25ba%25e4%25ba%258b%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e6%258e%25a1%25e7%2594%25a8%25e3%2583%25bb%25e8%25a9%2595%25e4%25be%25a1%25e3%2583%25bb%25e5%258a%25b4%25e5%258b%2599%25e3%2581%25a7%25e4%25bb%25bb%25e3%2581%259b%25e3%2581%25a6%25e3%2582%2588%25e3%2581%2584%25e6%25a5%25ad%25e5%258b%2599%25e3%2581%25a8",
+     "importance": 39,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-19T18:29:51.000Z",
+     "topics": [
+      "政策与治理",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-21",
+     "isNew": false
+    },
+    {
+     "id": "80281d8b8bad92a4",
+     "title": "“사람 코만큼 냄새 맡는다”… AI 후각 개발 나선 스타트업",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ec%82%ac%eb%9e%8c-%ec%bd%94%eb%a7%8c%ed%81%bc-%eb%83%84%ec%83%88-%eb%a7%a1%eb%8a%94%eb%8b%a4-ai-%ed%9b%84%ea%b0%81-%ea%b0%9c%eb%b0%9c-%eb%82%98%ec%84%a0-%ec%8a%a4%ed%83%80%ed%8a%b8/",
+     "importance": 27,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-19T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-21",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "bc0e814898275e81",
+     "title": "Anthropic breaks SpaceX IPO record with $81.3bn raise",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/business/anthropic-breaks-spacex-ipo-record-with-81-3bn-raise",
+     "importance": 53,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-19T09:36:35.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-21",
+     "isNew": false
+    },
+    {
+     "id": "e8e50bfa22a081f4",
+     "title": "Is AI in a bubble? Menlo Ventures’ Deedy Das on Anthropic’s IPO and Europe",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/menlo-ventures-podcast/",
+     "importance": 49,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-19T13:55:11.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-21",
+     "isNew": false
+    },
+    {
+     "id": "738e55eca7491ac5",
+     "title": "Exclusive: Storonsky-backed Aikido seeks €4bn valuation",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/exclusive-aikido-4bn-valuation/",
+     "importance": 45,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-20T16:04:11.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-21",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "affdca711cfa13ff",
+     "title": "A tale of two Nvidias",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+     "importance": 80,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-21T21:07:42.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    },
+    {
+     "id": "5ff19e6e038eb3e1",
+     "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+     "importance": 77,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-21T21:37:10.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    },
+    {
+     "id": "93115582fa04432c",
+     "title": "Can Anthropic afford to put safety first?",
+     "source": "The Verge AI",
+     "region": "NA",
+     "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+     "importance": 74,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-21T15:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "26f7ebcde6478095",
+     "title": "IIT Delhi Alumnus’ Startup Sues Apple For ₹1,500 Cr Over NameDrop Patent Infringement",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/iit-delhi-alumnus-startup-sues-apple-for-%e2%82%b91500-cr-over-namedrop-patent-infringement/",
+     "importance": 82,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-21T13:43:51.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Apple"
+     ],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    },
+    {
+     "id": "d6a70460a6960f99",
+     "title": "The GTA VI-Sized Hole In Indian Gaming",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/features/the-gta-vi-sized-hole-in-indian-gaming/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-22T05:30:37.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    },
+    {
+     "id": "16c84b8ac311076a",
+     "title": "Indian Startup IPO Tracker 2026",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-21T23:31:54.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-22",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "11 月 22 日，共从 26 个信息源抓取 432 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 68 条发布于 24 小时内。其中 64 条是此前未出现过的新增内容，另有 91 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」48 条、「产品与应用」31 条。值得优先关注的几条：「Anthropic万亿上市，搅动的却是半导体江湖」（钛媒体）、「关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切」（极客公园）、「全球Meta一家独大，中国AI眼镜为何还在混战？」（钛媒体）。"
+}
