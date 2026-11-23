@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-23",
- "generatedAt": "2026-11-23T08:21:47.667Z",
+ "generatedAt": "2026-11-23T14:17:40.061Z",
  "mode": "rule",
  "counts": {
-  "crawled": 428,
+  "crawled": 430,
   "published": 155,
-  "newCount": 69,
-  "repeatCount": 86,
+  "newCount": 101,
+  "repeatCount": 54,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -17,39 +17,39 @@
    "NA": 24,
    "OTHER": 24
   },
-  "sourceOk": 25,
+  "sourceOk": 26,
   "sourceTotal": 30,
   "regions": 7
  },
  "freshness": {
-  "within24h": 72,
-  "withinFresh": 110,
+  "within24h": 99,
+  "withinFresh": 113,
   "freshHours": 72,
   "monthPrecision": 20,
   "undated": 0,
-  "staleDropped": 20,
-  "newestAt": "2026-11-23T17:08:39.000Z"
+  "staleDropped": 27,
+  "newestAt": "2026-11-23T19:52:07.000Z"
  },
  "themes": [
   {
    "name": "资本与市场",
-   "n": 40
+   "n": 46
   },
   {
    "name": "产品与应用",
-   "n": 39
-  },
-  {
-   "name": "算力与基建",
-   "n": 20
+   "n": 37
   },
   {
    "name": "产业与生态",
-   "n": 16
+   "n": 22
+  },
+  {
+   "name": "算力与基建",
+   "n": 21
   },
   {
    "name": "政策与治理",
-   "n": 16
+   "n": 17
   },
   {
    "name": "模型与能力",
@@ -58,39 +58,83 @@
  ],
  "entities": [
   {
-   "name": "Anthropic",
+   "name": "NVIDIA",
    "n": 9
   },
   {
-   "name": "OpenAI",
+   "name": "Anthropic",
+   "n": 8
+  },
+  {
+   "name": "腾讯",
    "n": 7
   },
   {
-   "name": "NVIDIA",
-   "n": 5
+   "name": "阿里巴巴",
+   "n": 6
   },
   {
    "name": "Google",
    "n": 5
   },
   {
-   "name": "腾讯",
-   "n": 3
+   "name": "OpenAI",
+   "n": 5
   },
   {
-   "name": "阿里巴巴",
-   "n": 2
+   "name": "Arm",
+   "n": 4
   },
   {
-   "name": "Amazon",
-   "n": 2
-  },
-  {
-   "name": "Perplexity",
-   "n": 2
+   "name": "Meta",
+   "n": 4
   }
  ],
  "topOverall": [
+  {
+   "id": "4efbcee992aba155",
+   "title": "华为星芒限时5499元起，网友喊话再便宜500，刘赫回应：我们选择创新优先；英伟达才说H200芯片不卖中国，美财长突喊：不用再限丨雷峰早报",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/zaobao/WvQYh5bertpjOZdF.html",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-23T10:40:00.000Z",
+   "topics": [
+    "算力与基建",
+    "政策与治理"
+   ],
+   "entities": [
+    "NVIDIA",
+    "腾讯",
+    "百度",
+    "华为"
+   ],
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "id": "5d6695f1e6523b53",
+   "title": "豆包工作、千问办公、WorkBuddy，怎么越长越像了？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8214460.html",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-23T09:08:46.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "MiniMax",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
   {
    "id": "deb9ea5ab9a36601",
    "title": "Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
@@ -111,12 +155,91 @@
    "isNew": true
   },
   {
+   "id": "e195cb0318113f8d",
+   "title": "独家解读丨苦战三个月，AI办公经得起财报检验吗？",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-23T09:54:00.000Z",
+   "topics": [
+    "产品与应用",
+    "资本与市场"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "字节跳动"
+   ],
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "id": "eabcd46681cf58f3",
+   "title": "Why using rocks for carbon removal could eventually reduce crop growth",
+   "source": "MIT Technology Review",
+   "region": "NA",
+   "url": "https://www.technologyreview.com/2026/11/23/1149392/why-using-rocks-for-carbon-removal-could-eventually-reduce-crop-growth/",
+   "importance": 93,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-23T11:00:00.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [
+    "Google",
+    "Microsoft"
+   ],
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "id": "ed2f4597f4b02ccd",
+   "title": "年薪百万，硅谷大厂急招反内鬼专家",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8214813.html",
+   "importance": 92,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-23T10:36:02.000Z",
+   "topics": [
+    "产业与生态",
+    "政策与治理"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "id": "4c444236e315aa3b",
+   "title": "Zavya Nets ₹22.6 Cr To Scale Everyday Silver Jewellery Biz",
+   "source": "Inc42",
+   "region": "OTHER",
+   "url": "https://inc42.com/buzz/zavya-nets-%e2%82%b922-6-cr-to-scale-everyday-silver-jewellery-biz/",
+   "importance": 91,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-23T11:04:56.000Z",
+   "topics": [
+    "资本与市场",
+    "产业与生态"
+   ],
+   "entities": [
+    "Arm"
+   ],
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
    "id": "e2866b2acba0c983",
    "title": "中通快递与阿里云伶鹊达成深度合作，智慧AI打造客服新体验",
    "source": "雷峰网",
    "region": "CN",
    "url": "https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html",
-   "importance": 94,
+   "importance": 90,
    "difficulty": "入门",
    "publishedAt": "2026-11-23T02:26:00.000Z",
    "topics": [
@@ -125,116 +248,6 @@
    ],
    "entities": [
     "阿里巴巴"
-   ],
-   "firstSeen": "2026-11-23",
-   "isNew": true
-  },
-  {
-   "id": "196d7824a99ecf69",
-   "title": "Agent 想用但不敢用？百度智能云企业级 Agent 安全落地实践",
-   "source": "InfoQ 中国",
-   "region": "CN",
-   "url": "https://www.infoq.cn/article/dzgleaOZ3ILx5cztUtXw?utm_source=rss&utm_medium=article",
-   "importance": 88,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-23T15:55:51.000Z",
-   "topics": [
-    "产品与应用",
-    "政策与治理"
-   ],
-   "entities": [
-    "百度"
-   ],
-   "firstSeen": "2026-11-23",
-   "isNew": true
-  },
-  {
-   "id": "5cd794e60cc53f37",
-   "title": "国内首个！蚂蚁阿福医生版上线“循证金标准”UpToDate ，打造全场景医生AI工作台",
-   "source": "雷峰网",
-   "region": "CN",
-   "url": "https://www.leiphone.com/category/industrynews/Ljtu9TVFrPPeiBsX.html",
-   "importance": 88,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-23T03:38:00.000Z",
-   "topics": [
-    "产品与应用",
-    "政策与治理"
-   ],
-   "entities": [],
-   "firstSeen": "2026-11-23",
-   "isNew": true
-  },
-  {
-   "id": "d99977f1f8c6886b",
-   "title": "Amazon ECS Gateway 正式上线，可以自动生成主机名，但不支持自定义域名",
-   "source": "InfoQ 中国",
-   "region": "CN",
-   "url": "https://www.infoq.cn/article/6mOVcKUGjpD1VmxZOGqt?utm_source=rss&utm_medium=article",
-   "importance": 87,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-23T16:00:00.000Z",
-   "topics": [
-    "产品与应用"
-   ],
-   "entities": [
-    "Amazon"
-   ],
-   "firstSeen": "2026-11-23",
-   "isNew": true
-  },
-  {
-   "id": "15ba24173d79218d",
-   "title": "辰星技术：营收扩张难掩亏损，多款机器人曾亏本销售",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8209841.html",
-   "importance": 85,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-23T05:21:35.000Z",
-   "topics": [
-    "资本与市场",
-    "产品与应用"
-   ],
-   "entities": [],
-   "firstSeen": "2026-11-23",
-   "isNew": true
-  },
-  {
-   "id": "9ceaed7116281da3",
-   "title": "OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道",
-   "source": "极客公园",
-   "region": "CN",
-   "url": "http://www.geekpark.net/news/374304",
-   "importance": 85,
-   "difficulty": "高级",
-   "publishedAt": "2026-11-23T01:22:36.000Z",
-   "topics": [
-    "模型与能力",
-    "政策与治理"
-   ],
-   "entities": [
-    "OpenAI",
-    "Perplexity"
-   ],
-   "firstSeen": "2026-11-23",
-   "isNew": true
-  },
-  {
-   "id": "400f5731ee377632",
-   "title": "字节20亿元对腾讯5亿美元：AI办公入口之争",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8212002.html",
-   "importance": 84,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-23T07:53:58.000Z",
-   "topics": [
-    "产品与应用"
-   ],
-   "entities": [
-    "腾讯",
-    "字节跳动"
    ],
    "firstSeen": "2026-11-23",
    "isNew": true
@@ -248,6 +261,50 @@
    "flag": "🇨🇳",
    "count": 24,
    "top": [
+    {
+     "id": "4efbcee992aba155",
+     "title": "华为星芒限时5499元起，网友喊话再便宜500，刘赫回应：我们选择创新优先；英伟达才说H200芯片不卖中国，美财长突喊：不用再限丨雷峰早报",
+     "source": "雷峰网",
+     "region": "CN",
+     "url": "https://www.leiphone.com/category/zaobao/WvQYh5bertpjOZdF.html",
+     "importance": 99,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-23T10:40:00.000Z",
+     "topics": [
+      "算力与基建",
+      "政策与治理"
+     ],
+     "entities": [
+      "NVIDIA",
+      "腾讯",
+      "百度",
+      "华为"
+     ],
+     "firstSeen": "2026-11-23",
+     "isNew": true
+    },
+    {
+     "id": "5d6695f1e6523b53",
+     "title": "豆包工作、千问办公、WorkBuddy，怎么越长越像了？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8214460.html",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-23T09:08:46.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "阿里巴巴",
+      "腾讯",
+      "MiniMax",
+      "DeepSeek"
+     ],
+     "firstSeen": "2026-11-23",
+     "isNew": true
+    },
     {
      "id": "deb9ea5ab9a36601",
      "title": "Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
@@ -266,44 +323,6 @@
      ],
      "firstSeen": "2026-11-23",
      "isNew": true
-    },
-    {
-     "id": "e2866b2acba0c983",
-     "title": "中通快递与阿里云伶鹊达成深度合作，智慧AI打造客服新体验",
-     "source": "雷峰网",
-     "region": "CN",
-     "url": "https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html",
-     "importance": 94,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-23T02:26:00.000Z",
-     "topics": [
-      "产品与应用",
-      "模型与能力"
-     ],
-     "entities": [
-      "阿里巴巴"
-     ],
-     "firstSeen": "2026-11-23",
-     "isNew": true
-    },
-    {
-     "id": "196d7824a99ecf69",
-     "title": "Agent 想用但不敢用？百度智能云企业级 Agent 安全落地实践",
-     "source": "InfoQ 中国",
-     "region": "CN",
-     "url": "https://www.infoq.cn/article/dzgleaOZ3ILx5cztUtXw?utm_source=rss&utm_medium=article",
-     "importance": 88,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-23T15:55:51.000Z",
-     "topics": [
-      "产品与应用",
-      "政策与治理"
-     ],
-     "entities": [
-      "百度"
-     ],
-     "firstSeen": "2026-11-23",
-     "isNew": true
     }
    ]
   },
@@ -315,50 +334,51 @@
    "count": 24,
    "top": [
     {
-     "id": "c9ec9bc40c5fdacb",
-     "title": "China’s Zhipu said to have added GLM-5.4 to coding plan",
+     "id": "490fc8abfe48b919",
+     "title": "US data center firm Vertiv tests Nvidia AI infrastructure",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/chinas-zhipu-added-glm54-coding-plan",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-23T08:04:38.000Z",
+     "url": "https://www.techinasia.com/news/data-center-firm-vertiv-tests-nvidia-ai-infrastructure",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-23T08:45:48.000Z",
      "topics": [
-      "产品与应用"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-23",
-     "isNew": true
-    },
-    {
-     "id": "0b560efeda24ae20",
-     "title": "Ex-Inditex veterans launch accessible pattern software",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/exinditex-veterans-launch-accessible-pattern-software",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-23T07:00:15.000Z",
-     "topics": [
-      "产品与应用",
+      "算力与基建",
       "产业与生态"
      ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-23",
+     "isNew": true
+    },
+    {
+     "id": "79af7c733c0bbe70",
+     "title": "Mapping the trailblazers in Korea’s health sector",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/visual-story/mapping-trailblazers-koreas-health-sector",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-23T11:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
      "entities": [],
      "firstSeen": "2026-11-23",
      "isNew": true
     },
     {
-     "id": "d3d95af2f47b66fe",
-     "title": "TikTok expands parental controls with new safety features",
+     "id": "4cf75de1f5de6b89",
+     "title": "Indian data security startup Matters.AI raises $12m",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/tiktok-expands-parental-controls-safety-features",
+     "url": "https://www.techinasia.com/news/indian-data-security-startup-mattersai-raises-12m",
      "importance": 81,
      "difficulty": "入门",
-     "publishedAt": "2026-11-23T04:08:14.000Z",
+     "publishedAt": "2026-11-23T10:01:12.000Z",
      "topics": [
-      "产品与应用",
-      "政策与治理"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-11-23",
@@ -374,6 +394,39 @@
    "count": 24,
    "top": [
     {
+     "id": "a935ba3e7428173b",
+     "title": "Jordanian fintech invoiceQ raises $5 million in oversubscribed Series A",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/jordanian-fintech-invoiceq-raises-5-million-oversubscribed-series-a",
+     "importance": 68,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "政策与治理"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-23",
+     "isNew": true
+    },
+    {
+     "id": "197c28cd34a25c40",
+     "title": "Saudi Arabia's OORI partners with Oumla to digitise private market investments",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/saudi-arabia-oori-partners-oumla-digitise-private-market-investments",
+     "importance": 65,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-23",
+     "isNew": true
+    },
+    {
      "id": "fa094c468ed12a6e",
      "title": "CE-Ventures backs UK's Oyster Therapeutics in $60 million Series A round",
      "source": "Wamda",
@@ -388,39 +441,6 @@
      "entities": [
       "Arm"
      ],
-     "firstSeen": "2026-11-22",
-     "isNew": false
-    },
-    {
-     "id": "acffa3b274acb5d5",
-     "title": "UAE's Vision Makers secures $4 million in a dual round",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/uae-vision-makers-secures-4-million-dual-round",
-     "importance": 56,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-22",
-     "isNew": false
-    },
-    {
-     "id": "7b91ae054da237c9",
-     "title": "Multipolitan raises $2 million to develop cross-border mobility platform",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/multipolitan-raises-2-million-develop-cross-border-mobility-platform",
-     "importance": 56,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "资本与市场",
-      "产品与应用"
-     ],
-     "entities": [],
      "firstSeen": "2026-11-22",
      "isNew": false
     }
@@ -439,7 +459,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/10%ec%96%b5-%eb%8b%ac%eb%9f%ac-%ea%b3%84%ec%95%bd%ec%9d%b4-%eb%b3%b4%ec%97%ac%ec%a3%bc%eb%8a%94-%eb%af%b8%ea%b5%ad-%eb%b0%b0%ed%84%b0%eb%a6%ac-%ec%82%b0%ec%97%85%ec%9d%98-%eb%b3%80%ed%99%94/",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-11-22T21:00:00.000Z",
      "topics": [],
@@ -448,14 +468,14 @@
      "isNew": true
     },
     {
-     "id": "b21462a3e67fc3f0",
-     "title": "엔비디아, 차량에서 직접 추론하는 자율주행 모델 '알파마요 2 엣지' 공개",
+     "id": "83e36449d36fefea",
+     "title": "'네온'이 3주 만에 '카본'을 추월한 이유…구글 \"3개 세대 동시 개발\"",
      "source": "AI타임스",
      "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=217700",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217693",
      "importance": 50,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-23T17:08:39.000Z",
+     "publishedAt": "2026-11-23T17:40:00.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-11-22",
@@ -488,12 +508,28 @@
    "count": 24,
    "top": [
     {
+     "id": "6c5efa8669cd1a0f",
+     "title": "Defence startup Agon raises $70m backed by Northzone and Lakestar",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/agon-raise-northzone-lakestar-defence/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-23T13:56:34.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-23",
+     "isNew": true
+    },
+    {
      "id": "7f50c0549c0a8295",
      "title": "Backed by Nvidia and a16z, Black Forest Labs sets its sights on world models",
      "source": "Sifted",
      "region": "EU",
      "url": "https://sifted.eu/articles/black-forest-labs-nvidia-a16z-andreas-blattmann-interview/",
-     "importance": 84,
+     "importance": 80,
      "difficulty": "进阶",
      "publishedAt": "2026-11-23T05:00:45.000Z",
      "topics": [
@@ -507,38 +543,22 @@
      "isNew": true
     },
     {
-     "id": "1b08d4e798f5e22f",
-     "title": "Eileen Burbidge backs Monzo alums’ anti-fraud startup in £1.8m pre-seed",
-     "source": "Sifted",
-     "region": "EU",
-     "url": "https://sifted.eu/articles/acorda-pre-seed/",
-     "importance": 66,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-23T05:00:46.000Z",
-     "topics": [],
-     "entities": [],
-     "firstSeen": "2026-11-23",
-     "isNew": true
-    },
-    {
-     "id": "bc0e814898275e81",
-     "title": "Anthropic breaks SpaceX IPO record with $81.3bn raise",
+     "id": "0c3e1f58d99fb9bb",
+     "title": "Irish founders bag $5.5m to speed up agentic use with Hoplite",
      "source": "Silicon Republic",
      "region": "EU",
-     "url": "https://www.siliconrepublic.com/business/anthropic-breaks-spacex-ipo-record-with-81-3bn-raise",
-     "importance": 40,
+     "url": "https://www.siliconrepublic.com/start-ups/stripe-y-combinator-hoplite-ai-agentic-cloud-funding-ireland-limerick",
+     "importance": 78,
      "difficulty": "入门",
-     "publishedAt": "2026-11-19T09:36:35.000Z",
+     "publishedAt": "2026-11-23T10:56:59.000Z",
      "topics": [
-      "资本与市场",
-      "模型与能力"
+      "资本与市场"
      ],
      "entities": [
-      "OpenAI",
-      "Anthropic"
+      "Amazon"
      ],
-     "firstSeen": "2026-11-22",
-     "isNew": false
+     "firstSeen": "2026-11-23",
+     "isNew": true
     }
    ]
   },
@@ -550,52 +570,57 @@
    "count": 24,
    "top": [
     {
-     "id": "21269f04085589d0",
-     "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-     "source": "TechCrunch AI",
+     "id": "eabcd46681cf58f3",
+     "title": "Why using rocks for carbon removal could eventually reduce crop growth",
+     "source": "MIT Technology Review",
      "region": "NA",
-     "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+     "url": "https://www.technologyreview.com/2026/11/23/1149392/why-using-rocks-for-carbon-removal-could-eventually-reduce-crop-growth/",
+     "importance": 93,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-23T11:00:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Google",
+      "Microsoft"
+     ],
+     "firstSeen": "2026-11-23",
+     "isNew": true
+    },
+    {
+     "id": "8fb70a6ed7fd5d43",
+     "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+     "source": "Ars Technica AI",
+     "region": "NA",
+     "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-23T12:00:00.000Z",
+     "topics": [
+      "产品与应用",
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-23",
+     "isNew": true
+    },
+    {
+     "id": "6b9cee288aa92648",
+     "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+     "source": "Ars Technica AI",
+     "region": "NA",
+     "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
      "importance": 84,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-23T01:25:53.000Z",
+     "publishedAt": "2026-11-23T14:10:18.000Z",
      "topics": [
-      "资本与市场"
+      "算力与基建"
      ],
      "entities": [
-      "Anthropic"
-     ],
-     "firstSeen": "2026-11-23",
-     "isNew": true
-    },
-    {
-     "id": "8a7beba3109deecb",
-     "title": "Why data centers are at the center of the Big Tech backlash",
-     "source": "TechCrunch AI",
-     "region": "NA",
-     "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
-     "importance": 69,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-22T18:08:43.000Z",
-     "topics": [
-      "算力与基建",
-      "政策与治理"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-23",
-     "isNew": true
-    },
-    {
-     "id": "f94c9cb68d5bd8d7",
-     "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-     "source": "TechCrunch AI",
-     "region": "NA",
-     "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-     "importance": 68,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-22T21:14:07.000Z",
-     "topics": [],
-     "entities": [
-      "OpenAI"
+      "NVIDIA"
      ],
      "firstSeen": "2026-11-23",
      "isNew": true
@@ -610,49 +635,53 @@
    "count": 24,
    "top": [
     {
-     "id": "045643449ea41d78",
-     "title": "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
+     "id": "4c444236e315aa3b",
+     "title": "Zavya Nets ₹22.6 Cr To Scale Everyday Silver Jewellery Biz",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups/",
-     "importance": 81,
+     "url": "https://inc42.com/buzz/zavya-nets-%e2%82%b922-6-cr-to-scale-everyday-silver-jewellery-biz/",
+     "importance": 91,
      "difficulty": "入门",
-     "publishedAt": "2026-11-23T06:21:38.000Z",
+     "publishedAt": "2026-11-23T11:04:56.000Z",
      "topics": [
-      "资本与市场"
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-11-23",
+     "isNew": true
+    },
+    {
+     "id": "54043317a75be03c",
+     "title": "Data Security Startup Matters.AI Nets ₹115 Cr From Tanglin Venture Partners, Others",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/data-security-startup-matters-ai-nets-%e2%82%b9115-cr-from-tanglin-venture-partners-others/",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-23T11:11:38.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
      ],
      "entities": [],
      "firstSeen": "2026-11-23",
      "isNew": true
     },
     {
-     "id": "6f05250e1ace41db",
-     "title": "India’s Inference Test, Scaler Founder’s New AI Bet & More",
+     "id": "96ef509e34b0a3db",
+     "title": "Sarvam AI Defends Token Factory, Says Homegrown Models Remain Core Focus",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/indias-inference-test-scaler-founders-new-ai-bet-more/",
+     "url": "https://inc42.com/buzz/sarvam-ai-defends-token-factory-says-homegrown-models-remain-core-focus/",
      "importance": 78,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-23T02:30:21.000Z",
+     "publishedAt": "2026-11-23T09:22:03.000Z",
      "topics": [
       "模型与能力",
       "算力与基建"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-23",
-     "isNew": true
-    },
-    {
-     "id": "4b826e7c4d161ef9",
-     "title": "Fintech Stocks Put MDR Dreams On Hold",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/features/fintech-stocks-put-mdr-dreams-on-hold/",
-     "importance": 74,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-23T00:30:44.000Z",
-     "topics": [
-      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-11-23",
@@ -661,5 +690,5 @@
    ]
   }
  ],
- "overview": "11 月 23 日，共从 25 个信息源抓取 428 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 72 条发布于 24 小时内。其中 69 条是此前未出现过的新增内容，另有 86 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」40 条、「产品与应用」39 条。值得优先关注的几条：「Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了」（InfoQ 中国）、「中通快递与阿里云伶鹊达成深度合作，智慧AI打造客服新体验」（雷峰网）、「Agent 想用但不敢用？百度智能云企业级 Agent 安全落地实践」（InfoQ 中国）。"
+ "overview": "11 月 23 日，共从 26 个信息源抓取 430 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 99 条发布于 24 小时内。其中 101 条是此前未出现过的新增内容，另有 54 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」46 条、「产品与应用」37 条。值得优先关注的几条：「华为星芒限时5499元起，网友喊话再便宜500，刘赫回应：我们选择创新优先；英伟达才说H200芯片不卖中国，美财长突喊：不用再限丨雷峰早报」（雷峰网）、「豆包工作、千问办公、WorkBuddy，怎么越长越像了？」（钛媒体）、「Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了」（InfoQ 中国）。"
 }
