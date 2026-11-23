@@ -1,0 +1,5772 @@
+{
+ "schema": "ai-horizon/v1",
+ "generatedAt": "2026-11-23T08:21:47.667Z",
+ "date": "2026-11-23",
+ "enrichMode": "rule",
+ "stats": {
+  "total": 428,
+  "byRegion": {
+   "CN": 121,
+   "SEA": 25,
+   "ME": 34,
+   "JPKR": 11,
+   "EU": 44,
+   "NA": 104,
+   "OTHER": 89
+  },
+  "sourceTotal": 30,
+  "sourceOk": 25,
+  "freshness": {
+   "maxAgeHours": 168,
+   "freshHours": 72,
+   "within24h": 128,
+   "withinFresh": 249,
+   "monthPrecision": 20,
+   "undated": 0,
+   "staleDropped": 20,
+   "staleSources": []
+  },
+  "newCount": 69,
+  "repeatCount": 86,
+  "seenWindowDays": 7,
+  "seenDays": [
+   "2026-11-22",
+   "2026-11-21",
+   "2026-11-20",
+   "2026-11-19",
+   "2026-11-18",
+   "2026-11-17",
+   "2026-11-16"
+  ],
+  "failures": [
+   {
+    "id": "qbitai",
+    "name": "量子位",
+    "error": "HTTP 403"
+   },
+   {
+    "id": "arabianbusiness",
+    "name": "Arabian Business",
+    "error": "HTTP 405"
+   },
+   {
+    "id": "itp-net",
+    "name": "ITP.net",
+    "error": "HTTP 405"
+   },
+   {
+    "id": "tech-eu",
+    "name": "Tech.eu",
+    "error": "HTTP 403"
+   },
+   {
+    "id": "vulcanpost",
+    "name": "Vulcan Post",
+    "error": "This operation was aborted"
+   }
+  ],
+  "published": 155,
+  "perRegionCap": 24,
+  "i18n": {
+   "need": 131,
+   "done": 131,
+   "pending": 0
+  },
+  "takeaways": {
+   "need": 155,
+   "done": 0,
+   "llm": 0,
+   "fallback": 0
+  }
+ },
+ "curated": true,
+ "items": [
+  {
+   "title": "Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
+   "url": "https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article",
+   "source": "InfoQ 中国",
+   "sourceId": "infoq-cn",
+   "sourceTier": 1,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "<div align='right'><a href='https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article'>点击查看原文></a></div>",
+   "publishedAt": "2026-11-23T09:20:56.000Z",
+   "id": "deb9ea5ab9a36601",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    }
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "difficulty": "进阶",
+   "importance": 96,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "中通快递与阿里云伶鹊达成深度合作，智慧AI打造客服新体验",
+   "url": "https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html",
+   "source": "雷峰网",
+   "sourceId": "leiphone",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "业界"
+   ],
+   "summary": "近日，阿里云伶鹊与中通快递达成深度合作，为中通快递打造企业级AI客服，在小件末端配送场景中落地智能语音热线和智能语音外呼两大能力。上线后“呼入+外呼”日均服务量达数十万通，AI“呼入”热线带来的下单转化率提升近20%。 （AI客服产品示意图） 在“呼入”场景下，用户拨通中通快递客服热线后，伶鹊可以听懂“我要改地址”、“快递显示签收但我没收到”、“到上海要几天”等高频诉求，再结合订单的实时状态，通过多轮对话引导用户修改和确认信息，直到把问题办完。 在“外呼”场景下，快递员派件扫码前，伶鹊会自动拨通收件人电话，核对地址、取得客户授权、处理异常情况，批量完成服务。快递员只需处理真正复杂的情况，送件效率提升了数倍。 目前，伶鹊针对中通客服对话场景优化了垂直大模型，能在快递行业这种高并发、强流程的场景里准确听懂客户诉求；其次是把语音交互延迟控制在1.5秒以内…",
+   "publishedAt": "2026-11-23T02:26:00.000Z",
+   "id": "e2866b2acba0c983",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    }
+   ],
+   "entities": [
+    "阿里巴巴"
+   ],
+   "difficulty": "入门",
+   "importance": 94,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "Agent 想用但不敢用？百度智能云企业级 Agent 安全落地实践",
+   "url": "https://www.infoq.cn/article/dzgleaOZ3ILx5cztUtXw?utm_source=rss&utm_medium=article",
+   "source": "InfoQ 中国",
+   "sourceId": "infoq-cn",
+   "sourceTier": 1,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "<div align='right'><a href='https://www.infoq.cn/article/dzgleaOZ3ILx5cztUtXw?utm_source=rss&utm_medium=article'>点击查看原文></a></div>",
+   "publishedAt": "2026-11-23T15:55:51.000Z",
+   "id": "196d7824a99ecf69",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [
+    "百度"
+   ],
+   "difficulty": "进阶",
+   "importance": 88,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "国内首个！蚂蚁阿福医生版上线“循证金标准”UpToDate ，打造全场景医生AI工作台",
+   "url": "https://www.leiphone.com/category/industrynews/Ljtu9TVFrPPeiBsX.html",
+   "source": "雷峰网",
+   "sourceId": "leiphone",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "业界"
+   ],
+   "summary": "11月22日，蚂蚁阿福医生版发布PC工作台（电脑端）版本，同时接入威科集团循证医学临床决策支持解决方案UpToDate，成为国内首个接入该专业功能的AI平台。 即日起，全国医生、护士及药师等卫生专业技术人员都可通过阿福医生版限时免费试用UpToDate。 此次升级， 阿福医生版实现了手机App加PC工作台的双端布局， 医生既可以便捷地在手机上借助阿福在线接诊、管理和沟通患者，也能在电脑上借助阿福的AI工具完成整理病历、分析数据、生成医学PPT等较复杂任务，双端打通使用起来更方便。 “阿福期待成为医生临床判断的得力助手，和医生一起应对医疗的复杂性。”蚂蚁集团CEO韩歆毅在当天的论坛上表示。他强调，AI在临床上的价值，不是替医生做决定，而是让医生的每个决定，都建立在更完整的信息和更扎实的证据上。 解决问诊、患者随访、科研难题 阿福医生版成为全场景的AI工…",
+   "publishedAt": "2026-11-23T03:38:00.000Z",
+   "id": "5cd794e60cc53f37",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 88,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "Amazon ECS Gateway 正式上线，可以自动生成主机名，但不支持自定义域名",
+   "url": "https://www.infoq.cn/article/6mOVcKUGjpD1VmxZOGqt?utm_source=rss&utm_medium=article",
+   "source": "InfoQ 中国",
+   "sourceId": "infoq-cn",
+   "sourceTier": 1,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "<div align='right'><a href='https://www.infoq.cn/article/6mOVcKUGjpD1VmxZOGqt?utm_source=rss&utm_medium=article'>点击查看原文></a></div>",
+   "publishedAt": "2026-11-23T16:00:00.000Z",
+   "id": "d99977f1f8c6886b",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [
+    "Amazon"
+   ],
+   "difficulty": "入门",
+   "importance": 87,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "辰星技术：营收扩张难掩亏损，多款机器人曾亏本销售",
+   "url": "https://www.tmtpost.com/8209841.html",
+   "source": "钛媒体",
+   "sourceId": "tmtpost",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "IPO速递"
+   ],
+   "summary": "近期，天津辰星技术股份有限公司（下称“辰星技术”）提交了招股说明书，拟港股IPO上市。 笔者注意到，辰星技术营收虽持续扩张，但盈利根基并不稳固，业绩波动显著。报告期内公司仅在2025年依靠大额政府补助实现短暂账面盈利，其余时段均为亏损；剔除股改因素影响后，这家成立十余载的企业经营层面累计亏损接近2.2亿元，同时，公司经营性现金流持续净流出，资金压力持续凸显。 此外，辰星技术并联机器人出货量和销量存在差额，叠加经销商渠道长期毛利率为负，市场对是否存在渠道压货产生疑问。同时，公司产品盈利结构分化严重，仅并联机器人实现盈利，高速SCARA、重载协作机器人曾陷入亏本销售，多款主力新品持续亏损。能否构建稳定造血能力、完成产品商业化落地，仍是辰星技术需要面对的重大考验。 仍在亏损 辰星技术是一家高速工业机器人公司，致力于高速度、高可靠性机器人的研究与开发（「研发…",
+   "publishedAt": "2026-11-23T05:21:35.000Z",
+   "id": "15ba24173d79218d",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 85,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道",
+   "url": "http://www.geekpark.net/news/374304",
+   "source": "极客公园",
+   "sourceId": "geekpark",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "OpenAI 首席科学家警告：AI 最早可能在 2027 年加速自身发展，奥尔特曼赞同为 AI 开发设限 11 月 23 日消息，当地时间于 11 月 22 日，OpenAI 首席科学家雅库布 · 帕霍茨基（Jakub Pachocki）发文，提议 AI 企业应建立行业统一标准，对先进 AI 模型的开发设置共同限制，在研究人员具备更可靠的模型行为理解和监控能力之前，不应突破约定的发展门槛。 他认为，传统 AI 能力评测基准会随着技术进步迅速过时，而困惑度（Perplexity）可以作为衡量模型预训练进展的参考指标（困惑度用于衡量 AI 模型预测下一个文本 Token 的能力，数值越低，代表模型的预测能力越强）。 帕霍茨基还公布了 OpenAI 内部使用的部分模型评测数据：GPT-3.5 的对数困惑度约为 0.99，GPT-4 约为 0.91。当这一指…",
+   "publishedAt": "2026-11-23T01:22:36.000Z",
+   "id": "9ceaed7116281da3",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [
+    "OpenAI",
+    "Perplexity"
+   ],
+   "difficulty": "高级",
+   "importance": 85,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "字节20亿元对腾讯5亿美元：AI办公入口之争",
+   "url": "https://www.tmtpost.com/8212002.html",
+   "source": "钛媒体",
+   "sourceId": "tmtpost",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "投稿"
+   ],
+   "summary": "文 | Tech商业 上周，字节跳动和腾讯同期摊牌。 豆包工作上线三个月，DAU突破800万，企业ARR超过20亿元。同一天，WorkBuddy披露DAU超过1000万，日均Token消耗100万亿，近七天收入年化折算超过5亿美元。 放在一年前，这组数字只有一个读法：速度竞赛。谁跑得快，谁先撞线。但到了2026年下半年，数字本身退到其次。真正值得拆的，是两组数字背后两套完全不同的入口逻辑——以及它们对“AI办公究竟在争什么”给出的两个答案。 字节：把AI装进飞书的关系网 孤立地看豆包工作的ARR，会失真。它得放进飞书的坐标系里读。 飞书2025年ARR已超30亿元，2026年二季度ARR同比增长超100%。豆包工作三个月做到20亿元ARR，增速惊人，但其中相当一部分来自飞书既有客户的升级与迁移，而非全新的企业采购。 字节的路径很清楚：不另起炉灶造一个…",
+   "publishedAt": "2026-11-23T07:53:58.000Z",
+   "id": "400f5731ee377632",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [
+    "腾讯",
+    "字节跳动"
+   ],
+   "difficulty": "入门",
+   "importance": 84,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "立景创新：第一大客户身兼头号供应商，产能闲置仍谋扩产",
+   "url": "https://www.tmtpost.com/8210963.html",
+   "source": "钛媒体",
+   "sourceId": "tmtpost",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "IPO速递"
+   ],
+   "summary": "近期，立景创新科技股份有限公司（下称“立景创新”）提交了招股说明书，拟港股IPO上市。 笔者注意到，报告期内，立景创新业绩高度依赖前五大客户，客户集中度逐年攀升，2025年、2026年1-5月前五大客户贡献超九成营业收入。其中客户A为核心收入来源，2025年贡献公司71%营收，自2024年起，公司至少六成收入均来自该客户，业务绑定程度极深。值得警惕的是，客户A同时身兼公司第一大供应商，大额双向购销并行的特殊结构，相关交易定价的公允性与业务独立性，都有待公司进一步解释。此外，公司多条业务板块产能利用率长期不足70%，产能闲置之下仍计划募资扩产，合理性存疑，与此同时，尽管公司现金及现金等价物、银行存款足以覆盖银行贷款，但其银行借款常年维持在21亿元以上，呈现明显“存贷双高”特征，资金配置存在矛盾，引发市场热议。 客户A既是第一大客户，又是第一大供应商 立…",
+   "publishedAt": "2026-11-23T05:19:54.000Z",
+   "id": "cb997e76066ad4ca",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 84,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "Backed by Nvidia and a16z, Black Forest Labs sets its sights on world models",
+   "url": "https://sifted.eu/articles/black-forest-labs-nvidia-a16z-andreas-blattmann-interview/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-23T05:00:45.000Z",
+   "id": "7f50c0549c0a8295",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "difficulty": "进阶",
+   "importance": 84,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "在 Nvidia 和 a16z 的支持下，黑森林实验室将目光投向世界模型",
+    "ts": "2026-11-23T08:21:48.560Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+   "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Venture",
+    "Anthropic",
+    "anthropic ipo",
+    "Baillie Gifford"
+   ],
+   "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+   "publishedAt": "2026-11-23T01:25:53.000Z",
+   "id": "21269f04085589d0",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "difficulty": "进阶",
+   "importance": 84,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Notable Capital、GIC 和 Baillie Gifford 如何在 Anthropic 首次公开募股前大举押注",
+    "zhSummary": "三位重要支持者分享了他们在 Anthropic 上投入数十亿美元的信念的原因。",
+    "ts": "2026-11-23T08:21:48.964Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "WISE2026「具身智能&文商旅」分会场议程公布",
+   "url": "https://36kr.com/p/4082051861451648?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "机器人会跳舞、端咖啡、做导览，具身智能有了被看见的方式。 但对文商旅行业来说，真正值得讨论的不是机器人还能展示什么，而是当它进入购物中心、酒店与文旅空间后，怎样嵌入日常运营、创造持续价值，并与人、数据和规则长期共处。 11月26日，WISE2026「具身智能&文商旅」分会场将在北京亦庄·国家信创园会议中心举行。以“文商旅的‘赛博场景’：具身智能激活新消费赛道”为主题，邀请场景运营方、具身智能企业、金融机构与法律服务机构，共同讨论技术从原型走向商业现场的关键一步。 上午议程将从规则与场景切入。 《2026中国具身智能产业法律与合规白皮书》将在现场发布；执惠集团刘照慧、珠海万达赵子乾、银河通用机器人赵于莉等嘉宾，将分别从文旅、购物中心和商超场景出发，讨论航天科技如何进入文商旅、机器人怎样参与商业运营，以及具身大模型能否成为商超的“通用大脑”。“场景为王”…",
+   "publishedAt": "2026-11-23T07:58:26.000Z",
+   "id": "a090def6e3775ab6",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [
+    "银河通用"
+   ],
+   "difficulty": "入门",
+   "importance": 82,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "深拆 GPT-6.2 Astra：性能涨了、价格降了，任务成本减少近一半，OpenAI 怎么做到的？",
+   "url": "https://www.leiphone.com/category/ai/MR1Osv9r2Rtr4V7F.html",
+   "source": "雷峰网",
+   "sourceId": "leiphone",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "人工智能"
+   ],
+   "summary": "性能提升 6.2 分，Token 少 22%，API 价格降 20%。 作者丨 郑佳美 编辑丨岑 峰 刚刚，OpenAI 发布了 GPT-6.2 Astra 和 GPT-6.2 Sol。 这次更新有一个很具体的变化：模型开始更主动地判断一项工作应该怎么完成，包括什么时候需要调用工具、什么时候应该直接操作计算机、复杂任务需要投入多少推理资源，以及怎样减少反复修改才能交付符合要求的成果。 举个例子，过去让 AI 制作一份财务估值工作簿，模型需要从多个文件中提取数据，理解不同业务之间的关系，建立财务计算逻辑，再检查结果能否相互对应。 整个过程涉及文件读取、数据处理、表格生成和结果核验，任何一个环节出现偏差，最终文件就可能无法直接使用。现在， OpenAI 希望 GPT-6.2 Astra 能够承担更多这样的连续工作，把原本需要人工不断衔接的操作整合进一条完…",
+   "publishedAt": "2026-11-23T05:50:00.000Z",
+   "id": "ce3c0f5bf5667f2e",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "difficulty": "入门",
+   "importance": 82,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "安谋科技发布“星辰100e” AIoT 原型平台，AI推理性能最高提升 340 倍",
+   "url": "https://www.infoq.cn/article/pdjVKiH3ONYjePlUDufv?utm_source=rss&utm_medium=article",
+   "source": "InfoQ 中国",
+   "sourceId": "infoq-cn",
+   "sourceTier": 1,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "<div align='right'><a href='https://www.infoq.cn/article/pdjVKiH3ONYjePlUDufv?utm_source=rss&utm_medium=article'>点击查看原文></a></div>",
+   "publishedAt": "2026-11-23T14:22:11.000Z",
+   "id": "3e90bf49d9362006",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 81,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "China’s Zhipu said to have added GLM-5.4 to coding plan",
+   "url": "https://www.techinasia.com/news/chinas-zhipu-added-glm54-coding-plan",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "News",
+    "China",
+    "generative AI",
+    "GLM-5.4"
+   ],
+   "summary": "Zhipu management expects to launch GLM-5.5 in December with about 3 trillion parameters.",
+   "publishedAt": "2026-11-23T08:04:38.000Z",
+   "id": "c9ec9bc40c5fdacb",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 81,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "据称中国智普已将 GLM-5.4 添加到编码计划中",
+    "zhSummary": "智普管理层预计12月推出GLM-5.5，参数约3万亿。",
+    "ts": "2026-11-23T08:21:50.915Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Ex-Inditex veterans launch accessible pattern software",
+   "url": "https://www.techinasia.com/exinditex-veterans-launch-accessible-pattern-software",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "Startups",
+    "fashion",
+    "Fashion Technology",
+    "Mindata Labs"
+   ],
+   "summary": "MPattern bridges the gap between manual sewing tools and expensive industrial software with a simple browser-based platform.",
+   "publishedAt": "2026-11-23T07:00:15.000Z",
+   "id": "0b560efeda24ae20",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 81,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "前 Inditex 退伍军人推出无障碍图案软件",
+    "zhSummary": "MPattern 通过一个简单的基于浏览器的平台弥合了手动缝纫工具和昂贵的工业软件之间的差距。",
+    "ts": "2026-11-23T08:21:52.966Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
+   "url": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "In-Depth"
+   ],
+   "summary": "The Indian startup ecosystem continued to mature in FY26, with 22 new-age tech companies making their public market debut as against 13 in FY25. At the same time, a growing number of startups turned profitable or moved closer to profitability after years of cost rationalisation to adjust to the new funding realities. Despite a tough Q4 for many startups due to geopolitical unce…",
+   "publishedAt": "2026-11-23T06:21:38.000Z",
+   "id": "045643449ea41d78",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 81,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "26 财年财务追踪：追踪印度初创企业的财务业绩",
+    "zhSummary": "印度初创企业生态系统在 2026 财年继续成熟，有 22 家新时代科技公司首次公开市场，而 2025 财年只有 13 家。与此同时，越来越多的初创公司扭亏为盈或接近盈利。",
+    "ts": "2026-11-23T08:21:54.420Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "TikTok expands parental controls with new safety features",
+   "url": "https://www.techinasia.com/news/tiktok-expands-parental-controls-safety-features",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "News",
+    "Social Media",
+    "European Union",
+    "online safety",
+    "TikTok"
+   ],
+   "summary": "TikTok is developing the self-harm alert with Boston Children's Hospital's Digital Wellness Lab.",
+   "publishedAt": "2026-11-23T04:08:14.000Z",
+   "id": "d3d95af2f47b66fe",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 81,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "TikTok 通过新的安全功能扩大了家长控制",
+    "zhSummary": "TikTok 正在与波士顿儿童医院的数字健康实验室合作开发自残警报。",
+    "ts": "2026-11-23T08:21:55.975Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Capital SEA: Southeast Asia’s funding landscape",
+   "url": "https://www.techinasia.com/visual-story/capital-sea-southeast-asias-funding-landscape",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Premium Content",
+    "Visual Stories",
+    "Southeast Asia"
+   ],
+   "summary": "Who are the new active investors on the block? Which funding rounds look like outliers? This visual story answers all this and more.",
+   "publishedAt": "2026-11-23T04:00:00.000Z",
+   "id": "1b9b2cc4f2dd2bac",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 81,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Capital SEA：东南亚的融资格局",
+    "zhSummary": "谁是新的活跃投资者？哪些融资轮看起来像是异常值？这个视觉故事回答了所有这些以及更多。",
+    "ts": "2026-11-23T08:21:55.975Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "蚂蚁阿福App新版发布：实时视频“望闻问切”功能上线，小毛小病在家也能搞定",
+   "url": "https://www.leiphone.com/category/industrynews/YXUz5sDMtx6SzE3P.html",
+   "source": "雷峰网",
+   "sourceId": "leiphone",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "业界"
+   ],
+   "summary": "11月23日的蚂蚁阿福医疗健康生态大会上，健康AI蚂蚁阿福发布新版：基于蚂蚁百灵医疗健康系列模型，新增实时视频“看健康”功能，用户可与阿福视频电话，让阿福帮忙看症状、看状态、看药品、看报告，像真人一样“望闻问切”分析健康问题，并可联动医生在线把关。这意味着，日常一些不舒服或者小毛小病，用户通过“AI+真人医生”在家就能搞定。 此外，新版蚂蚁阿福App对于“AI健康管家”能力也做了升级：结合用户的健康档案或者智能健康硬件，制定个性化减重、控糖、育儿等方案，并陪伴用户达成。为了让健康管理更量化和简单，阿福也进一步扩容了所打通的健康硬件品类，在体脂秤、血糖仪、运动手表等基础上，新发布了阿福AI健康手环和阿福AI健康戒指，实现睡眠、心率、运动、女性生理周期等指标的关注和分析。 据了解，新版蚂蚁阿福App以蚂蚁百灵医疗健康系列模型LingSante为基座，包括…",
+   "publishedAt": "2026-11-23T03:47:00.000Z",
+   "id": "ef6b53bb622059ef",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 81,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "迅合科技：在Excel和微信群里，给老板造一个Personal Agent",
+   "url": "https://www.tmtpost.com/8209450.html",
+   "source": "钛媒体",
+   "sourceId": "tmtpost",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "AGI",
+    "AI产业观察"
+   ],
+   "summary": "在国内某知名大型百货公司的门店里，每一位导购都配有Agent。它以一张录音卡为入口，把导购一天接待顾客的话术通过录音记录下来，通过文字转录，实现销售知识的沉淀，并反向输出线索挖掘动作和销售培训等。这家公司每个季度要上六百多款新品，导购们过去只能通过集中培训快速上岗，而现在则可以通过AI实现个性化业务培训。这套AI方案落地后，门店转化率提升普遍在15%~30%，而单个导购全年的语音接入成本，大约只有2000元。 这是一家中国初创企业的非典型Agent生意模式。迅合科技目前核心在做的是一款针对中小企业老板的Personal Agent产品AIBOSS，像上述的线索转化场景只是AIBOSS落地的一环。 不过，相较于经过商业验证的Coding Agent，火热的Work场景Agent，直达老板本人的Personal Agent其实切口更窄。业内有一类判断是…",
+   "publishedAt": "2026-11-23T03:35:20.000Z",
+   "id": "cd8b898bb7798879",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 81,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "WISE2026「了不起的OPC」分会场议程公布",
+   "url": "https://36kr.com/p/4082049334695041?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "一个人做事，工具已经不是最大的门槛。 AI可以帮你写方案、做设计、搭应用，但它不会自动带来第一个客户，也不会直接告诉你：自己的哪项能力值得付费，怎样把一次合作变成持续获客。 对OPC来说，真正的问题早已不是“一个人能不能做”，而是“一个人怎样把事情做成”。 11月27日，WISE2026「了不起的OPC」分会场将在北京亦庄·国家信创园会议中心举行。这一天，我们不准备把成功故事轮流讲一遍，而是想把一个人做生意最关键的几步，放到台面上说清楚。 上午，先把“客户为什么买单”聊透 个人IP如何带来稳定获客？OPC怎样建立自己的复利飞轮？客户究竟愿意为什么样的能力付费？一个人不必样样精通，但如何形成真正可以成交的产品和服务？ 除了案例分享，OPC、城市主理人与客户代表还会坐进“敢问敢答”现场。问题从现场产生，关于报价、交付、合作与踩坑的真实答案，也回到现场…",
+   "publishedAt": "2026-11-23T07:55:37.000Z",
+   "id": "dad29e3807a6cf56",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 80,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "鸿蒙版醒图新版本上线：AI修图「不烧心」",
+   "url": "https://www.ifanr.com/1690991?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "source": "爱范儿",
+   "sourceId": "ifanr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "产品",
+    "AI修图师",
+    "手机摄影",
+    "鸿蒙"
+   ],
+   "summary": "近日，鸿蒙版醒图新版本上线。更新日志里小编一句“不烧心”的俏皮言语，逗笑了不少网友，并纷纷到评论区打卡。”为了你的更新日志我也要给你点五颗星了，醒图”、“新版本介绍也是紧跟潮流啊，醒图”、“时代清流，用着不烧心”、“好好好，适配积极，好用爱用”……那让我们看看，更新后的醒图都有哪些功能让人爱不释手？ 相册里的废片，用AI还能捞一把 夜市里拍到一张表情满分的照片，回家才发现脸几乎埋在暗处。想把这张捞回来，打开「智能修图」，试试「一键变美」或「一键出片」。醒图会自动调整风格和构图，也会照顾头发、皮肤这些细节。那张原本只舍得自己看的照片，修一修也能发进九宫格。 同一张夜景，换个光影就能换种感觉。想让街拍多一点闪光灯抓拍的味道，可以试试「相机直闪」。暖灯下和朋友碰杯的那张，可以用「温暖测光」顺着现场的暖调修。还有「富士闪光」等效果可选，几种光影切着看，哪张合…",
+   "publishedAt": "2026-11-23T06:07:33.000Z",
+   "id": "90cfd5bc42042b3f",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 80,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "硅基员工元年，投入要向组织与流程倾斜丨ToB产业观察",
+   "url": "https://www.tmtpost.com/8214320.html",
+   "source": "钛媒体",
+   "sourceId": "tmtpost",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "ToB产业观察"
+   ],
+   "summary": "一家大型软件开发企业，其内部有两千名工程师。当这家企业应用AI编程工具之后，单个人的产出效率提升了20%~40%，个别岗位甚至效率翻倍。按常理推，2000个人每人快30%，公司总该快一截。但整个企业效率提升却不及预期。 原因不复杂——个人干活的速度提升了，但在流程审批环节耽误了很多时间。需求、评审、测试、上线，每一个环节都在排队，节点全卡着，“原来引以为傲的那些流程和规则，现在变成了限制器。”华思远指出。 而这就是今年企业级AI应用的一个缩影，单点的工具能力不断地增强，每个员工的效率看似在提升，但体现在公司整体层面的提效却微乎其微。 硅基同事上岗并不简单 企业级AI应用在今年是被大家讨论最多的话题之一，很多企业试图打造以数字员工为代表的硅基同事，对此，凯洛格咨询集团创始人王成与我们分享了他对于企业的一些观察，他指出，一天消耗10亿个Token，按当前…",
+   "publishedAt": "2026-11-23T03:33:13.000Z",
+   "id": "be194065d3ca94ff",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 80,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "OpenAI scientist proposes limits on advanced AI capabilities",
+   "url": "https://www.techinasia.com/news/openai-scientist-proposes-limits-advanced-ai-capabilities",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "News",
+    "AI safety",
+    "European Union",
+    "Jakub Pachocki"
+   ],
+   "summary": "OpenAI CEO Sam Altman voiced support for Jakub Pachocki's proposal in a post on X.",
+   "publishedAt": "2026-11-23T00:57:56.000Z",
+   "id": "7b83c7861c3ba8b4",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "difficulty": "进阶",
+   "importance": 80,
+   "plainHint": "规则制定者正在给 AI 划边界",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "OpenAI 科学家提出对高级人工智能功能的限制",
+    "zhSummary": "OpenAI首席执行官萨姆·阿尔特曼（Sam Altman）在X上发帖表示支持雅库布·帕乔基（Jakub Pachocki）的提议。",
+    "ts": "2026-11-23T08:21:59.030Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Tencent details Hy4 safety tests as AI misuse concerns grow",
+   "url": "https://www.techinasia.com/news/tencent-details-hy4-safety-tests-ai-misuse-concerns-grow",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "News",
+    "AI safety",
+    "China",
+    "Hy4"
+   ],
+   "summary": "According to Tencent’s report, Alice found Hy4 had “limited” hacking capabilities.",
+   "publishedAt": "2026-11-23T00:23:14.000Z",
+   "id": "aa0328af9d2c3864",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [
+    "腾讯"
+   ],
+   "difficulty": "进阶",
+   "importance": 80,
+   "plainHint": "规则制定者正在给 AI 划边界",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "随着人工智能滥用担忧的加剧，腾讯详细介绍了 Hy4 安全测试",
+    "zhSummary": "据腾讯报道，Alice 发现 Hy4 的黑客能力“有限”。",
+    "ts": "2026-11-23T08:22:00.639Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "消息称三星未来三年存储产能接近售罄，客户抢长约至2031年",
+   "url": "https://36kr.com/newsflashes/4082072791290755?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "据报道，三星电子2027年至2029年间的存储芯片产能有绝大部分已通过客户合约提前锁定。为确保未来供货稳定，部分客户不仅积极要求增加供应量，更进一步寻求将长期供应合约（Long-Term Agreement，LTA）延长至2031年。（新浪财经）",
+   "publishedAt": "2026-11-23T08:19:10.000Z",
+   "id": "1339a92f4065c513",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [
+    "三星"
+   ],
+   "difficulty": "进阶",
+   "importance": 79,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "智谱GLM-5.4上线",
+   "url": "https://36kr.com/newsflashes/4082029922636930?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "智谱GLM-5.4于今日中午上线Coding Plan订阅体系，官方尚未正式发布。另据智谱官方社群消息，GLM-5.4采用Loop Transformer架构，是国内首款基于该架构的旗舰模型。内测用户反馈其综合表现优于3万亿级别参数的Kimi K3.1 Pro，官方跑分暂未公布。据了解，智谱管理层预计四季度推出约3万亿参数的旗舰模型，市场普遍预期是GLM-5.5于12月接力发布。（澎湃）",
+   "publishedAt": "2026-11-23T07:35:34.000Z",
+   "id": "d42818cce2f966f0",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [
+    "智谱AI"
+   ],
+   "difficulty": "进阶",
+   "importance": 79,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "加州起诉 OpenAI：说起来你可能不信，是模型先动的手",
+   "url": "https://www.leiphone.com/category/ai/c9ZMpnn48OtWzF0Z.html",
+   "source": "雷峰网",
+   "sourceId": "leiphone",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "人工智能"
+   ],
+   "summary": "长任务、子 Agent 委派与共享服务凭证，让传统安全架构面临权限失控风险。 作者丨 郑佳美 编辑丨岑 峰 说起来你可能不信，这次真的是模型先动的手。 当地时间 11 月 16 日，加州总检察长 Rob Bonta 一纸诉状把 OpenAI 告上了法庭。起诉书里最值得注意的一句指控是：OpenAI 的智能体（Agent）在缺乏适当监管的情况下，“自己跑了出去，主动对外部系统发起了攻击”。 这件事情一下子从技术圈出了圈。大家不是震惊于 AI 会攻击，而是震惊于 OpenAI 内部披露的细节：为了不让人类发现自己做错了事，两个负责干活的 Coding Agent，竟然偷偷把监督自己的监控系统给“拔”了。 这已经不是“猜疑链”的问题了，这是底层的“权限链”出了大问题。 今年 7 月，OpenAI 的一个自主智能体（Agent）越过了测试环境的边界，直接对外…",
+   "publishedAt": "2026-11-23T05:36:00.000Z",
+   "id": "d6faf5552116c021",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [
+    "OpenAI"
+   ],
+   "difficulty": "进阶",
+   "importance": 79,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "李泽湘、红杉押注的AI体育硬件再获超亿元融资，众筹百万美元，已出货数万台｜硬氪首发",
+   "url": "https://36kr.com/p/4057886873441153?f=rss",
+   "source": "36氪",
+   "sourceId": "36kr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，AI体育硬件公司「英汉思动力Enhanced Robotics」近日完成超亿元B轮融资，投资方为国科投资。本轮资金将重点投向技术研发迭代、产能升级扩容与市场化落地，并进一步加码海外渠道建设，搭建稳定的海外经销与用户服务体系。 自成立以来，英汉思动力已连续完成多轮融资，累计融资金额达数亿元。投资方阵容涵盖学术与产业界资源，包括李泽湘教授旗下XBOTPARK基金、高秉强教授旗下Brizan Ventures、科大讯飞联合创始人胡郁，以及红杉中国、襄禾资本、赛纳资本、达晨财智、不同资本、晨晖创投等知名机构。 英汉思动力成立于2018年，以机器人动力、感知与控制技术为核心底座，聚焦AI智能消费体育、专业体育智能训练两大赛道，先后推出了T-APEX专业运动表现训练系统、Tenniix AI网球发球机器人等产品。 从长期布局来…",
+   "publishedAt": "2026-11-23T05:09:53.000Z",
+   "id": "ad7f61d11b846b0d",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [
+    "科大讯飞"
+   ],
+   "difficulty": "进阶",
+   "importance": 79,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "XREAL AURA 体验：科幻电影的未来，这么近那么远",
+   "url": "https://www.ifanr.com/1690660?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "source": "爱范儿",
+   "sourceId": "ifanr",
+   "sourceTier": 2,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [
+    "产品",
+    "Android XR",
+    "AR眼镜",
+    "XREAL",
+    "手势交互"
+   ],
+   "summary": "在科幻电影《少数派报告》里，警探约翰·安德顿站在一面巨大的透明屏幕前，戴着特制手套，伸手抓住一段监控录像，将它拖到面前，放大、查看，再随手甩到一边。 紧接着，他又从旁边调出另一段影像，双手在空中来回挥动，像摆弄真实物体一样整理着眼前的信息。 最近，编辑部办公室里也出现了这样很「赛博朋克」的一幕： 几个同事戴着一副墨镜似的眼镜，对着空气伸手、点击，时不时还捏合、拖动几下。 旁边看热闹的同事忍不住调侃了一句：「赛博表演艺术家」。 而在眼镜里，他们真的能用手选中、拖动眼前的窗口，或者捏合调整大小。 浏览器、视频和各种应用可以同时出现在身边，转头看向别处，再回过头，刚刚摆好的窗口依然停留在原来的位置。 这就是 XREAL AURA ，Google 与 XREAL 联手打造的 Android XR 空间计算眼镜。 它将显示、空间定位和手势交互结合在一起，让《少…",
+   "publishedAt": "2026-11-23T04:00:32.000Z",
+   "id": "4d09b18580a62b50",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [
+    "Google"
+   ],
+   "difficulty": "进阶",
+   "importance": 79,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "Agent不再只写代码，亚马逊云科技瞄准三个新难题",
+   "url": "https://www.infoq.cn/article/4cFZ1bATcXRJaGPFoF7z?utm_source=rss&utm_medium=article",
+   "source": "InfoQ 中国",
+   "sourceId": "infoq-cn",
+   "sourceTier": 1,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "<div align='right'><a href='https://www.infoq.cn/article/4cFZ1bATcXRJaGPFoF7z?utm_source=rss&utm_medium=article'>点击查看原文></a></div>",
+   "publishedAt": "2026-11-23T15:37:03.000Z",
+   "id": "121da5f4b44fc8b3",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 78,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "亚马逊云科技推出Well-Architected Agent预览版",
+   "url": "https://www.infoq.cn/article/LQuPgS5lcFDMEKhZSP5d?utm_source=rss&utm_medium=article",
+   "source": "InfoQ 中国",
+   "sourceId": "infoq-cn",
+   "sourceTier": 1,
+   "region": "CN",
+   "lang": "zh",
+   "categories": [],
+   "summary": "<div align='right'><a href='https://www.infoq.cn/article/LQuPgS5lcFDMEKhZSP5d?utm_source=rss&utm_medium=article'>点击查看原文></a></div>",
+   "publishedAt": "2026-11-23T14:16:59.000Z",
+   "id": "07e6f45cf3516058",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 78,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true
+  },
+  {
+   "title": "Germany’s BIT Capital takes AI funds to Hong Kong, Singapore",
+   "url": "https://www.techinasia.com/news/germanys-bit-capital-takes-ai-funds-hong-kong-singapore",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "News",
+    "ai",
+    "BIT Capital",
+    "Hong Kong"
+   ],
+   "summary": "The firm said it was working with financial intermediaries in both markets, with regional distribution handled through licensed partners.",
+   "publishedAt": "2026-11-23T08:02:05.000Z",
+   "id": "ccb055c8a818f554",
+   "topics": [
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 78,
+   "plainHint": "大厂、人才和开源社区在怎么重新排座次",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "德国BIT Capital将人工智能基金带到香港和新加坡",
+    "zhSummary": "该公司表示，正在与两个市场的金融中介机构合作，并通过授权合作伙伴处理区域分销。",
+    "ts": "2026-11-23T08:22:02.404Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Ant Group begins releasing open-weight medical AI models",
+   "url": "https://www.techinasia.com/news/ant-group-begins-releasing-openweight-medical-ai-models",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "News",
+    "ai",
+    "Ant Group",
+    "China"
+   ],
+   "summary": "Ant said Afu serves 150 million users and handles nearly 20 million health consultations a day.",
+   "publishedAt": "2026-11-23T04:18:55.000Z",
+   "id": "a5a8677498ce5850",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 78,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "蚂蚁集团开始发布开放权重医疗人工智能模型",
+    "zhSummary": "蚂蚁金服表示，阿福服务1.5亿用户，每天处理近2000万次健康咨询。",
+    "ts": "2026-11-23T08:22:04.170Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "India’s Inference Test, Scaler Founder’s New AI Bet & More",
+   "url": "https://inc42.com/buzz/indias-inference-test-scaler-founders-new-ai-bet-more/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "News",
+    "Inc42 Daily Brief"
+   ],
+   "summary": "Inside The Business Of Inference Platforms Sarvam is entering its commercial era with Token Factory. By serving global AI models on local GPUs with Rupee billing, Sarvam is now chasing usage-driven revenues. But critics are flaying the unicorn’s new AI inference stack for questionable economics and hosting Chinese models. Sovereignty Debate: Token Factory lets developers toggle…",
+   "publishedAt": "2026-11-23T02:30:21.000Z",
+   "id": "6f05250e1ace41db",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 78,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "印度的推理测试、Scaler 创始人的新 AI 赌注等等",
+    "zhSummary": "推理平台业务内部 Sarvam 正在通过 Token Factory 进入商业时代。通过以卢比计费在本地 GPU 上提供全球人工智能模型，Sarvam 现在正在追逐使用驱动的收入。但批评者们正在抨击",
+    "ts": "2026-11-23T08:22:05.448Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Ant Group leads $100m round in Chinese humanoid robot maker",
+   "url": "https://www.techinasia.com/news/ant-group-leads-100m-chinese-humanoid-robot-maker",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Investments",
+    "News",
+    "Robotics",
+    "Startups",
+    "Ant Group"
+   ],
+   "summary": "Wang Kai, Simplexity’s co-founder, said existing backers Alibaba, Tencent, HongShan Capital, and Lanchi Ventures also joined the round.",
+   "publishedAt": "2026-11-23T02:29:40.000Z",
+   "id": "35210a590743a791",
+   "topics": [],
+   "entities": [
+    "阿里巴巴",
+    "腾讯"
+   ],
+   "difficulty": "进阶",
+   "importance": 78,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "蚂蚁集团领投中国人形机器人制造商 1 亿美元融资",
+    "zhSummary": "Simplexity 联合创始人王凯表示，现有投资者阿里巴巴、腾讯、鸿山资本和蓝驰创投也参与了本轮融资。",
+    "ts": "2026-11-23T08:22:07.446Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Israeli fintech firm BridgeWise files draft prospectus for IPO",
+   "url": "https://www.techinasia.com/news/israeli-fintech-firm-bridgewise-files-draft-prospectus-ipo",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "Fintech",
+    "News",
+    "BridgeWise",
+    "fintech"
+   ],
+   "summary": "About 145 financial institutions used BridgeWise's products, according to its prospectus.",
+   "publishedAt": "2026-11-23T01:09:45.000Z",
+   "id": "9de9f1fac1c17e2f",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 78,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "以色列金融科技公司 BridgeWise 提交 IPO 招股说明书草案",
+    "zhSummary": "根据 BridgeWise 的招股说明书，约有 145 家金融机构使用其产品。",
+    "ts": "2026-11-23T08:22:08.942Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "LG Electronics to reorganize to push AI data center cooling",
+   "url": "https://www.techinasia.com/news/lg-electronics-reorganize-push-ai-data-center-cooling",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "News",
+    "Robotics",
+    "AI data center cooling",
+    "LG Electronics"
+   ],
+   "summary": "LG already offers solutions for data centers and showed products for AI data center cooling at Data Center World 2026.",
+   "publishedAt": "2026-11-23T02:02:47.000Z",
+   "id": "8d112dad9061f80f",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 74,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "LG电子重组推动人工智能数据中心冷却",
+    "zhSummary": "LG 已经为数据中心提供解决方案，并在 Data Center World 2026 上展示了用于 AI 数据中心冷却的产品。",
+    "ts": "2026-11-23T08:22:10.776Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "AI crop breeding tackles the aviation fuel shortage",
+   "url": "https://www.techinasia.com/ai-crop-breeding-tackles-aviation-fuel-shortage",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "Startups",
+    "agritech",
+    "AI Breeding",
+    "DNA Harvest Partners"
+   ],
+   "summary": "By targeting underserved Asian seed companies, DNA Harvest Partners aims to solve a massive feedstock shortage for industrial oils.",
+   "publishedAt": "2026-11-23T02:00:09.000Z",
+   "id": "90da32e73f8a13c4",
+   "topics": [
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 74,
+   "plainHint": "大厂、人才和开源社区在怎么重新排座次",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "人工智能作物育种解决航空燃料短缺问题",
+    "zhSummary": "DNA Harvest Partners 瞄准服务不足的亚洲种子公司，旨在解决工业油原料严重短缺的问题。",
+    "ts": "2026-11-23T08:22:12.004Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "SG optics firm MetaOptics secures up to $25m facility",
+   "url": "https://www.techinasia.com/news/sg-optics-firm-metaoptics-secures-25m-facility",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "News",
+    "Funding",
+    "MetaOptics",
+    "semiconductors",
+    "Singapore"
+   ],
+   "summary": "The investor is a Bermuda-based vehicle managed by Global Emerging Markets.",
+   "publishedAt": "2026-11-23T01:50:37.000Z",
+   "id": "81af32c7addd4fd7",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    },
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 74,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "SG 光学公司 MetaOptics 获得高达 2500 万美元的设施",
+    "zhSummary": "投资者是一家总部位于百慕大的机构，由 Global Emerging Markets 管理。",
+    "ts": "2026-11-23T08:22:13.759Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "The genAI gold rush puts legacy AI to the test",
+   "url": "https://www.techinasia.com/oldschool-ai-firms-fight-stay-relevant-genai-gold-rush",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "Business-to-business",
+    "Premium Content",
+    "artificial intelligence",
+    "drones"
+   ],
+   "summary": "From integrating agents into their operations to managing rising computing costs, here's how AI veterans are responding to the genAI boom.",
+   "publishedAt": "2026-11-23T01:00:56.000Z",
+   "id": "000a3e2d445154cd",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 74,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "genAI 淘金热让传统人工智能经受考验",
+    "zhSummary": "从将代理集成到他们的运营中到管理不断上升的计算成本，以下是人工智能资深人士如何应对 genAI 热潮的信息。",
+    "ts": "2026-11-23T08:22:16.079Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Fintech Stocks Put MDR Dreams On Hold",
+   "url": "https://inc42.com/features/fintech-stocks-put-mdr-dreams-on-hold/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "In-Depth",
+    "Inc42 Markets"
+   ],
+   "summary": "It seems India’s fintech investors may have counted their chickens too early. The timeline for the much-anticipated merchant discount rate (MDR) on select UPI transactions has been deferred further down the calendar . The proposed monetisation of India’s UPI ecosystem was expected to be a post-Diwali bonus for digital payment companies, with a promise of a much-needed revenue s…",
+   "publishedAt": "2026-11-23T00:30:44.000Z",
+   "id": "4b826e7c4d161ef9",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 74,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "金融科技股搁置了 MDR 梦想",
+    "zhSummary": "印度的金融科技投资者似乎算得太早了。备受期待的特定 UPI 交易商家折扣率 (MDR) 的时间表已进一步推迟。拟议的",
+    "ts": "2026-11-23T08:22:18.901Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Sarvam clarifies AI strategy amid debate over hosting Chinese models",
+   "url": "https://yourstory.com/2026/11/sarvam-clarifies-ai-strategy-amid-debate-over-hosting-chinese-models",
+   "source": "YourStory",
+   "sourceId": "yourstory",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [],
+   "summary": "After Sarvam AI’s Token Factory attracted both support and criticism, particularly over its inclusion of Chinese-developed AI models, co-founder Pratyush Kumar has sought to address the questions surrounding the platform’s funding, use of computing resources, and its relevance to Sarvam’s indigenous AI ambitions. Kumar said the IndiaAI Mission offered around 20 startups access…",
+   "publishedAt": "2026-11-23T07:22:02.000Z",
+   "id": "d04ed58aab580f10",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 72,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Sarvam 在关于托管中国模型的争论中澄清了人工智能战略",
+    "zhSummary": "在 Sarvam AI 的 Token Factory 受到支持和批评，特别是在其纳入中国开发的人工智能模型方面，联合创始人 Pratyush Kumar 试图解决围绕该平台的资金、使用",
+    "ts": "2026-11-23T08:22:19.942Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Brisbane medtech lands $5 million pre-Series A to give patients back their lost voices",
+   "url": "https://www.startupdaily.net/topic/funding/brisbane-medtech-lands-5-million-pre-series-a-to-give-patients-back-their-lost-voices/",
+   "source": "Startup Daily",
+   "sourceId": "startupdaily",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "AI/Machine Learning",
+    "Funding",
+    "Capital Raising",
+    "Laronix",
+    "medtech"
+   ],
+   "summary": "Laronix bags $5m to clone lost voices from 10 seconds of audio and take AVA global—see how medtech is making silence obsolete.",
+   "publishedAt": "2026-11-23T00:39:34.000Z",
+   "id": "47cd12362dbfb8fe",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 72,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "布里斯班医疗科技公司在 A 轮融资前获得 500 万美元资金，帮助患者恢复失去的声音",
+    "zhSummary": "Laronix 斥资 500 万美元从 10 秒的音频中克隆丢失的声音，并将 AVA 推向全球——看看医疗科技如何让沉默成为过去。",
+    "ts": "2026-11-23T08:22:21.151Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "India ranks sixth globally in GTA VI search volume, says study",
+   "url": "https://yourstory.com/2026/11/india-ranks-sixth-globally-in-gta-6-search-volume-study",
+   "source": "YourStory",
+   "sourceId": "yourstory",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [],
+   "summary": "India ranks sixth globally in total search volume for Grand Theft Auto VI (GTA VI), recording approximately 943,900 average monthly searches for the game-related terms, according to a study by The Action Network . However, when adjusted for population, India ranks 106th globally, with around 66 searches per 100,000 people. This highlights the difference between the scale of int…",
+   "publishedAt": "2026-11-23T07:47:36.000Z",
+   "id": "4b8f738bc41b810c",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 69,
+   "plainHint": "规则制定者正在给 AI 划边界",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "研究称，印度在 GTA VI 搜索量中排名全球第六",
+    "zhSummary": "根据 The Action Network 的一项研究，印度的侠盗猎车手 VI (GTA VI) 总搜索量在全球排名第六，游戏相关术语的平均每月搜索量约为 943,900 次。然而，当调整",
+    "ts": "2026-11-23T08:22:22.896Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Startup news and updates: Daily roundup (November 23, 2026)",
+   "url": "https://yourstory.com/2026/11/startup-news-updates-daily-roundup-november-23-2026",
+   "source": "YourStory",
+   "sourceId": "yourstory",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [],
+   "summary": "From Sridhar Vembu's view on AI to Government of Karnataka training AI talent, YourStory brings you today’s headlines with the latest developments across sectors. Latest News Sridhar Vembu \" align=\"center\"> Sridhar Vembu \" align=\"center\"> What mechanisation and automation did to farmers, weavers, carpenters and ironsmiths could now be happening to mathematicians and programmers…",
+   "publishedAt": "2026-11-23T07:03:12.000Z",
+   "id": "a2f542f9ae164ea9",
+   "topics": [
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "高级",
+   "importance": 69,
+   "plainHint": "大厂、人才和开源社区在怎么重新排座次",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "初创公司新闻和更新：每日综述（2026 年 11 月 23 日）",
+    "zhSummary": "从 Sridhar Vembu 对人工智能的看法到卡纳塔克邦政府培训人工智能人才，YourStory 为您带来今日头条以及各行业的最新发展。最新消息 Sridhar Vembu “align=”center”> Sridhar Vembu”align=“center”>",
+    "ts": "2026-11-23T08:22:25.324Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Why data centers are at the center of the Big Tech backlash",
+   "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Government & Policy",
+    "Media & Entertainment",
+    "data centers"
+   ],
+   "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+   "publishedAt": "2026-11-22T18:08:43.000Z",
+   "id": "8a7beba3109deecb",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 69,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "为什么数据中心成为大型科技公司抵制的中心",
+    "zhSummary": "记者帕里斯·马克思拆开他的新书《超大规模》。",
+    "ts": "2026-11-23T08:22:25.722Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "VC funding rebounds as startups raise $255M; Women founders driving social change",
+   "url": "https://yourstory.com/2026/11/vc-funding-rebounds-women-founders-social-change",
+   "source": "YourStory",
+   "sourceId": "yourstory",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [],
+   "summary": "Dear Reader, India’s startup funding landscape showed signs of recovery in the third week of November, with investments jumping to $255 million from $26 million in the previous week. AI, retail, food brands and spacetech attracted investor interest, although large-ticket deals remained limited. Meanwhile, quantum computing is beginning to show promise beyond theoretical researc…",
+   "publishedAt": "2026-11-23T02:00:00.000Z",
+   "id": "f05d8704d7871971",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 68,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "随着初创公司筹集 2.55 亿美元，风险投资资金出现反弹；女性创始人推动社会变革",
+    "zhSummary": "亲爱的读者，印度的初创企业融资格局在 11 月第三周出现复苏迹象，投资额从前一周的 2600 万美元跃升至 2.55 亿美元。人工智能、零售、食品品牌和航天技术吸引了投资者",
+    "ts": "2026-11-23T08:22:28.299Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+   "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "OpenAI",
+    "sam altman"
+   ],
+   "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+   "publishedAt": "2026-11-22T21:14:07.000Z",
+   "id": "f94c9cb68d5bd8d7",
+   "topics": [],
+   "entities": [
+    "OpenAI"
+   ],
+   "difficulty": "进阶",
+   "importance": 68,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "OpenAI首席科学家对如何限制AI发展有思考",
+    "zhSummary": "要确定人工智能开发的速度限制，您需要就如何衡量速度达成一致。",
+    "ts": "2026-11-23T08:22:28.709Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "source": "OpenAI 官方",
+   "sourceId": "openai-news",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "Research"
+   ],
+   "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "publishedAt": "2026-11-22T00:00:00.000Z",
+   "id": "fea140e9cd0e46bd",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [
+    "Perplexity"
+   ],
+   "difficulty": "进阶",
+   "importance": 67,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "困惑与智慧",
+    "zhSummary": "困惑度如何衡量人工智能模型的进展，以及为什么它可以帮助开发人员建立评估新兴功能的共享方法。",
+    "ts": "2026-11-23T08:22:29.109Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Series SEA: Who’s investing in the region’s education startups?",
+   "url": "https://www.techinasia.com/top-sea-investors-education",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Investments",
+    "Premium Content",
+    "edtech startups",
+    "education",
+    "education startups"
+   ],
+   "summary": "We've compiled a list of investors that are pouring money into Southeast Asia’s education startups.",
+   "publishedAt": "2026-11-23T07:00:00.000Z",
+   "id": "4a4b79a49c1fa803",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 66,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "系列 SEA：谁在投资该地区的教育初创企业？",
+    "zhSummary": "我们编制了一份向东南亚教育初创企业注资的投资者名单。",
+    "ts": "2026-11-23T08:22:31.095Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Eileen Burbidge backs Monzo alums’ anti-fraud startup in £1.8m pre-seed",
+   "url": "https://sifted.eu/articles/acorda-pre-seed/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-23T05:00:46.000Z",
+   "id": "1b08d4e798f5e22f",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 66,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Eileen Burbidge 以 180 万英镑种子前资金支持 Monzo 校友的反欺诈初创公司",
+    "ts": "2026-11-23T08:22:31.693Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "OCBC, stablecoin firm StraitsX pilot cross-border payments",
+   "url": "https://www.techinasia.com/news/ocbc-stablecoin-firm-straitsx-pilot-crossborder-payments",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Crypto",
+    "Fintech",
+    "News",
+    "OCBC",
+    "Singapore"
+   ],
+   "summary": "A pilot payment from Japan, made after the yen cut-off, was credited the same day.",
+   "publishedAt": "2026-11-23T04:25:08.000Z",
+   "id": "ba2e0fbb47d0283f",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 66,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "华侨银行 (OCBC) 与稳定币公司 StraitsX 试点跨境支付",
+    "zhSummary": "日元断电后，来自日本的一笔试点付款已于当天入账。",
+    "ts": "2026-11-23T08:22:33.251Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "EY, Women’s World Banking explore AI for women’s financial access",
+   "url": "https://www.techinasia.com/news/ey-womens-world-banking-explore-ai-womens-financial-access",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "Fintech",
+    "News",
+    "ai",
+    "financial inclusion"
+   ],
+   "summary": "UC Berkeley researchers examined AI underwriting of people with no credit history.",
+   "publishedAt": "2026-11-23T02:00:59.000Z",
+   "id": "7930eb8acc062dc4",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 62,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "安永与女性世界银行合作探索人工智能为女性提供金融服务",
+    "zhSummary": "加州大学伯克利分校的研究人员检查了没有信用记录的人的人工智能承保。",
+    "ts": "2026-11-23T08:22:35.680Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Asia’s tech investors with the highest exit rates",
+   "url": "https://www.techinasia.com/asias-tech-investors-highest-exit-rate",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Investments",
+    "Premium Content",
+    "exits"
+   ],
+   "summary": "An investor's true worth lies in how well they head for the exits.",
+   "publishedAt": "2026-11-23T00:00:00.000Z",
+   "id": "a017cd8d0fe107ae",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 62,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "退出率最高的亚洲科技投资者",
+    "zhSummary": "投资者的真正价值在于他们退出时的表现如何。",
+    "ts": "2026-11-23T08:22:37.380Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "10억 달러 계약이 알려주는 미국 배터리 시장의 새 공식",
+   "url": "https://www.technologyreview.kr/10%ec%96%b5-%eb%8b%ac%eb%9f%ac-%ea%b3%84%ec%95%bd%ec%9d%b4-%eb%b3%b4%ec%97%ac%ec%a3%bc%eb%8a%94-%eb%af%b8%ea%b5%ad-%eb%b0%b0%ed%84%b0%eb%a6%ac-%ec%82%b0%ec%97%85%ec%9d%98-%eb%b3%80%ed%99%94/",
+   "source": "MIT Technology Review Korea",
+   "sourceId": "mittr-kr",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ko",
+   "categories": [
+    "기후변화 · 에너지",
+    "AI 요약 완료",
+    "배터리"
+   ],
+   "summary": "미국 배터리 소재 기업 실라가 파나소닉 에너지와 실리콘-탄소 음극재 공급 계약을 체결하면서, 중국 의존도 축소와 공급망 안보를 중시하는 미국 차세대 배터리 산업의 변화를 보여줬다. The post 10억 달러 계약이 알려주는 미국 배터리 시장의 새 공식 appeared first on MIT 테크놀로지 리뷰 | MIT Technology Review Korea .",
+   "publishedAt": "2026-11-22T21:00:00.000Z",
+   "id": "65f927d31f14c3e3",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 62,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "ko",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "10亿美元的合同揭示了美国电池市场的新模式",
+    "zhSummary": "美国电池材料公司Sila与松下能源签订硅碳负极材料供应合同，展示了美国下一代电池行业强调减少对中国依赖和供应链安全的变化。这份价值 10 亿美元的合同揭示的美国电池市场的新公式首先出现在《麻省理工科技评论》上麻省理工学院技术评论韩国。",
+    "enTitle": "A new formula for the U.S. battery market revealed by the $1 billion contract",
+    "enSummary": "Sila, an American battery materials company, signed a contract with Panasonic Energy to supply silicon-carbon anode materials, demonstrating changes in the U.S. next-generation battery industry that emphasizes reducing dependence on China and supply chain security. The post The new formula for the US battery market revealed by the $1 billion contract appeared first on MIT Technology Review | MIT Technology Review Korea.",
+    "ts": "2026-11-23T08:22:41.949Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "IIT Delhi Alumnus’ Startup Sues Apple For ₹1,500 Cr Over NameDrop Patent Infringement",
+   "url": "https://inc42.com/buzz/iit-delhi-alumnus-startup-sues-apple-for-%e2%82%b91500-cr-over-namedrop-patent-infringement/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "News"
+   ],
+   "summary": "What happens when two iPhones are brought close together? Users get to exchange contact details without typing or scanning a QR code with NameDrop. For GG Technologies, a startup founded by IIT Delhi alumnus Gaurav Goel in 2018, this feature is at the heart of a patent dispute which sees it lock horns with the tech giant Apple. GG, the parent company of contact-sharing app Stay…",
+   "publishedAt": "2026-11-21T13:43:51.000Z",
+   "id": "26f7ebcde6478095",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [
+    "Apple"
+   ],
+   "difficulty": "入门",
+   "importance": 58,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "IIT 德里校友的初创公司因 NameDrop 专利侵权起诉苹果公司，赔偿 1,500 卢比",
+    "zhSummary": "当两部 iPhone 靠近时会发生什么？用户无需使用 NameDrop 输入或扫描二维码即可交换联系方式。对于 GG Technologies 来说，这是一家由 IIT Delhi 校友 Gaurav Goel 于 2018 年创立的初创公司，",
+    "ts": "2026-11-23T08:22:41.949Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "CE-Ventures backs UK's Oyster Therapeutics in $60 million Series A round",
+   "url": "https://www.wamda.com/2026/11/ce-ventures-backs-uk-oyster-therapeutics-60-million-series-a-round",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "UK-based biotech company Oyster Therapeutics has raised $60 million in Series A funding, with participation from CE-Ventures, the corporate venture capital arm of UAE-based Crescent Enterprises. CE-Ventures' individual investment amount was not disclosed. Previously known as Kesmalea Therapeutics, Oyster is headquartered in London, UK, and develops targeted protein degradation…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "fa094c468ed12a6e",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [
+    "Arm"
+   ],
+   "difficulty": "入门",
+   "importance": 58,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "CE-Ventures 在 A 轮融资中支持英国 Oyster Therapeutics 6000 万美元",
+    "zhSummary": "总部位于英国的生物技术公司 Oyster Therapeutics 已在 A 轮融资中筹集了 6000 万美元，参与方包括阿联酋 Crescent Enterprises 的企业风险投资部门 CE-Ventures。 CE-Ventures个人投资金额",
+    "ts": "2026-11-23T08:22:41.949Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "AI is doing to programmers what it did to farmers, weavers: Sridhar Vembu",
+   "url": "https://yourstory.com/2026/11/what-happened-farmers-weavers-happening-to-programmers-sridhar-vembu-ai",
+   "source": "YourStory",
+   "sourceId": "yourstory",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [],
+   "summary": "What mechanisation and automation did to farmers, weavers, carpenters and ironsmiths could now be happening to mathematicians and programmers, according to Zoho co-founder Sridhar Vembu. He believes artificial intelligence (AI) is beginning to displace work traditionally associated with highly skilled intellectual professionals, just as earlier technological advances transforme…",
+   "publishedAt": "2026-11-23T04:58:05.000Z",
+   "id": "caba97c52025d28a",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 57,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "人工智能对程序员的影响就像对农民和纺织工的影响一样：Sridhar Vembu",
+    "zhSummary": "Zoho 联合创始人 Sridhar Vembu 表示，机械化和自动化对农民、织布工、木匠和铁匠的影响现在也可能发生在数学家和程序员身上。他认为人工智能（AI）",
+    "ts": "2026-11-23T08:22:43.263Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Far Eye helps reduce Flipkart logistics expenses by 6%",
+   "url": "https://yourstory.com/2026/11/far-eye-helps-reduce-flipkart-logistics-expenses-6-percent",
+   "source": "YourStory",
+   "sourceId": "yourstory",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [],
+   "summary": "AI-powered enterprise SaaS Far Eye on Sunday said it has helped ecommerce major Flipkart's B2B cash-and-carry market place, Flipkart Wholesale, slash its logistics spend by 6% besides an 8% reduction in vehicle deployment pan-India. This has enabled Flipkart Wholesale to improve fleet productivity without compromising delivery efficiency, reducing vehicle idle time by 10%, Far…",
+   "publishedAt": "2026-11-23T03:43:30.000Z",
+   "id": "9eb8869115df31cf",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 57,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Far Eye 帮助 Flipkart 物流费用降低 6%",
+    "zhSummary": "人工智能驱动的企业 SaaS Far Eye 周日表示，它已帮助电子商务巨头 Flipkart 的 B2B 现购自运市场 Flipkart Wholesale 将其物流支出削减了 6%，此外还将泛印度的车辆部署减少了 8%。这",
+    "ts": "2026-11-23T08:22:45.179Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "NAB alerts staff to redundancies with IT access revocation emails",
+   "url": "https://www.itnews.com.au/news/nab-alerts-staff-to-redundancies-with-it-access-revocation-emails-630532?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+   "source": "iTnews Australia",
+   "sourceId": "itnews-au",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [],
+   "summary": "Bank apologises for error.&#160;",
+   "publishedAt": "2026-11-23T03:24:00.000Z",
+   "id": "817c6a8afb0567af",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 57,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "NAB 通过 IT 访问撤销电子邮件提醒员工裁员",
+    "zhSummary": "银行对错误表示歉意。",
+    "ts": "2026-11-23T08:22:46.741Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "VinFast To Build Dedicated E-Scooter Assembly Line At TN Plant",
+   "url": "https://inc42.com/buzz/vinfast-to-build-dedicated-e-scooter-assembly-line-at-tn-plant/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "News"
+   ],
+   "summary": "Electric vehicle (EV) giant VinFast is building a dedicated electric two-wheeler production line at its Thoothukudi manufacturing facility in Tamil Nadu. Speaking with Inc42 on the sidelines of the company’s V Creator All Star Summit 2026, VinFast Asia chief executive Tapan Ghosh said that the manufacturer expects its first set of electric scooters to roll out of the plant earl…",
+   "publishedAt": "2026-11-22T13:03:22.000Z",
+   "id": "5ccf402425061891",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 57,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "VinFast 将在田纳西州工厂建造专用电动滑板车装配线",
+    "zhSummary": "电动汽车 (EV) 巨头 VinFast 正在其位于泰米尔纳德邦的 Thoothukudi 制造工厂建设一条专用电动两轮车生产线。在 Inc42 2026 年 V Creator 全明星峰会期间接受 Inc42 采访时，",
+    "ts": "2026-11-23T08:22:49.030Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Mapping the firms dominating Japan’s health sector",
+   "url": "https://www.techinasia.com/visual-story/mapping-firms-dominating-japans-health-sector",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Landscape reports",
+    "Premium Content",
+    "Visual Stories",
+    "health sector",
+    "healthcare startups"
+   ],
+   "summary": "Mapping Japan's health sector: Key players, top investors, and funding insights in one report.",
+   "publishedAt": "2026-11-22T11:00:00.000Z",
+   "id": "cf8e6b2520be28cb",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 56,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "绘制主导日本卫生部门的公司图",
+    "zhSummary": "绘制日本卫生部门的地图：一份报告中的主要参与者、顶级投资者和融资见解。",
+    "ts": "2026-11-23T08:22:49.030Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "These are the most active investors in Japan’s startups",
+   "url": "https://www.techinasia.com/active-investors-japans-startups",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Investments",
+    "Premium Content",
+    "Investor funding lists",
+    "Japan",
+    "Startups"
+   ],
+   "summary": "Which investors are writing the most checks to Japan-based startups?",
+   "publishedAt": "2026-11-22T09:00:00.000Z",
+   "id": "3b503879020f3765",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 56,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "这些是日本初创企业最活跃的投资者",
+    "zhSummary": "哪些投资者向日本初创企业开出的支票最多？",
+    "ts": "2026-11-23T08:22:49.030Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "UAE's Vision Makers secures $4 million in a dual round",
+   "url": "https://www.wamda.com/2026/11/uae-vision-makers-secures-4-million-dual-round",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Dubai-based Web3 startup Vision Makers has secured $4 million in cumulative funding across pre-seed and seed rounds, with its latest financing completed at a $20 million valuation. Investors include MH Ventures, Castrum Capital, Titans Ventures, Archer Capital, M2M Capital and Mira Capital. Founded in 2023 by Paul Farhi, Vision Makers develops a platform combining cryptocurrenc…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "acffa3b274acb5d5",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 56,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "阿联酋 Vision Makers 在双轮融资中获得 400 万美元融资",
+    "zhSummary": "总部位于迪拜的 Web3 初创公司 Vision Makers 已在种子前和种子轮中累计获得 400 万美元资金，最新融资完成时估值为 2000 万美元。投资者包括 MH Ventures、Castrum Capital、Titans",
+    "ts": "2026-11-23T08:22:49.030Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Multipolitan raises $2 million to develop cross-border mobility platform",
+   "url": "https://www.wamda.com/2026/11/multipolitan-raises-2-million-develop-cross-border-mobility-platform",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "UAE-based travel and global mobility technology startup Multipolitan has raised $2 million in pre-seed funding, led by EmergentX, at a pre-money valuation of $25 million. Founded in Singapore in 2024 by Nirbhay Handa and Lee Smith, Multipolitan develops a platform that combines immigration, visa, travel and personal document management services. The company plans to launch its…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "7b91ae054da237c9",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 56,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Multipolitan 融资 200 万美元开发跨境移动平台",
+    "zhSummary": "总部位于阿联酋的旅游和全球出行技术初创公司 Multipolitan 已筹集 200 万美元的种子前资金，由 EmergentX 领投，投资前估值为 2500 万美元。由 Nirbhay Handa 和 Lee Smith 于 2024 年在新加坡创立，",
+    "ts": "2026-11-23T08:22:49.030Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Startups",
+    "anthropic ipo",
+    "Equity podcast",
+    "Jensen Huang"
+   ],
+   "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to […]",
+   "publishedAt": "2026-11-20T14:55:44.000Z",
+   "id": "c4afddfc7b6c6c54",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [
+    "Anthropic",
+    "NVIDIA"
+   ],
+   "difficulty": "进阶",
+   "importance": 55,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "英伟达黄仁勋丑闻的影响仍在继续",
+    "zhSummary": "在应对首席执行官黄仁勋被罢免的影响期间，英伟达本周发布了最新的财报，该报告显示了健康的增长，并承诺美好时光将持续下去。与此同时，该芯片制造商表示",
+    "ts": "2026-11-23T08:22:49.030Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+   "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+   "source": "The Verge AI",
+   "sourceId": "theverge-ai",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [],
+   "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music . Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto -themed section. They found several audio files with Suno metadata that pointed back to the tracks on Suno's site. Creator Edmun…",
+   "publishedAt": "2026-11-22T17:25:20.000Z",
+   "id": "f5674b81dcb5838b",
+   "topics": [],
+   "entities": [
+    "Suno"
+   ],
+   "difficulty": "进阶",
+   "importance": 54,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "《以撒的结合》开发商从 Repentance Plus 中删除了 AI 音乐",
+    "zhSummary": "《以撒的结合：忏悔 Plus》在被发现游戏的某个特定部分使用了 AI 音乐后，过去几天在 Steam 上遭到了评论轰炸。 Reddit 用户 ShweetsStuff 发现了在一次活动中使用的歌曲",
+    "ts": "2026-11-23T08:22:50.476Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Google Commits $5 Mn To Sundar Pichai’s Alma Mater IIT Kharagpur",
+   "url": "https://inc42.com/buzz/google-commits-5-mn-to-sundar-pichais-alma-mater-iit-kharagpur/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "News",
+    "Spot News"
+   ],
+   "summary": "Google announced a commitment of $5 Mn in funding to IIT Kharagpur, the alma mater of CEO Sundar Pichai, to accelerate advanced artificial intelligence (AI) research, expand AI education and strengthen the institute’s technological capabilities. Announcing this, Pichai said the collaboration would help shape the next generation of students, adding that India was increasingly em…",
+   "publishedAt": "2026-11-21T09:45:32.000Z",
+   "id": "3e77141022e2e13d",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [
+    "Google"
+   ],
+   "difficulty": "入门",
+   "importance": 54,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "谷歌向 Sundar Pichai 的母校 IIT Kharagpur 捐赠 500 万美元",
+    "zhSummary": "谷歌宣布承诺向 CEO Sundar Pichai 的母校 IIT Kharagpur 提供 500 万美元资金，以加速先进人工智能 (AI) 研究、扩大人工智能教育并加强该研究所的技术实力",
+    "ts": "2026-11-23T08:22:50.476Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "We haven’t seen the last of the major tech outages",
+   "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+   "source": "The Verge AI",
+   "sourceId": "theverge-ai",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [],
+   "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase . But the consensus is that there are more to come . Director of National Intelligence Jay Clayton told CNN : \"The American people should be prepared for a great deal of investment in upgrading our…",
+   "publishedAt": "2026-11-22T22:48:02.000Z",
+   "id": "3800fbfec0683abe",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 53,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "我们还没有看到最后一次重大技术中断",
+    "zhSummary": "在过去一周左右的时间里，我们看到了美国联邦航空管理局（FAA）在全国范围内的停飞、导致整个公司陷入瘫痪的多日 Outlook 中断以及摩根大通银行业务的中断。但共识是还会有更多。",
+    "ts": "2026-11-23T08:22:50.876Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "The Lottery Corporation is transforming its contact centre",
+   "url": "https://www.itnews.com.au/news/the-lottery-corporation-is-transforming-its-contact-centre-630484?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+   "source": "iTnews Australia",
+   "sourceId": "itnews-au",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [],
+   "summary": "Smaller-scale pilot proves breakthrough for gaining board approval.",
+   "publishedAt": "2026-11-22T20:39:00.000Z",
+   "id": "f6c1457068852ad8",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 53,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "彩票公司正在改造其联络中心",
+    "zhSummary": "小规模试点证明获得董事会批准取得了突破。",
+    "ts": "2026-11-23T08:22:52.531Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "AI-found Ghostscript flaw turned file uploads into remote code execution",
+   "url": "https://www.itnews.com.au/news/ai-found-ghostscript-flaw-turned-file-uploads-into-remote-code-execution-630512?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+   "source": "iTnews Australia",
+   "sourceId": "itnews-au",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [],
+   "summary": "Upload2Shell sandbox escape details and PoC published over weekend.",
+   "publishedAt": "2026-11-22T20:32:00.000Z",
+   "id": "aa916014c38bad59",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 53,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "AI 发现的 Ghostscript 缺陷将文件上传转变为远程代码执行",
+    "zhSummary": "Upload2Shell 沙箱逃逸细节和 PoC 于周末发布。",
+    "ts": "2026-11-23T08:22:54.043Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Exclusive: Bewakoof Cofounder Prabhkiran Singh Launches AI Shopping Assistant Save8",
+   "url": "https://inc42.com/buzz/bewakoof-cofounder-prabhkiran-singh-launches-ai-shopping-assistant-save8/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "News",
+    "Exclusive"
+   ],
+   "summary": "Bewakoof cofounder and former CEO Prabhkiran Singh has launched Save8, an AI-powered shopping assistant that helps consumers compare prices and offers across ecommerce and quick commerce platforms. The venture comes months after Singh stepped down from Bewakoof, the D2C fashion brand he led for nearly 14 years. Singh is also looking to raise external capital for Save8 and has h…",
+   "publishedAt": "2026-11-21T13:53:04.000Z",
+   "id": "5a238998f7e7d05c",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 52,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "独家：Bewakoof 联合创始人 Prabhkiran Singh 推出人工智能购物助手 Save8",
+    "zhSummary": "Bewakoof 联合创始人兼前首席执行官 Prabhkiran Singh 推出了 Save8，这是一款人工智能购物助手，可帮助消费者比较电子商务和快速商务平台的价格和优惠。这次冒险是在辛格几个月后进行的",
+    "ts": "2026-11-23T08:22:54.043Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Egypt's Connect Money raises $3.5 million pre-Series A",
+   "url": "https://www.wamda.com/2026/11/egypt-connect-money-raises-3-5-million-pre-series",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Egypt-based fintech Connect Money has raised $3.5 million in a pre-Series A round led by existing investors Mohamed Farouk, Algebra Ventures and DisrupTech Ventures. The transaction combines new capital with secondary share sales, allowing several early investors to make partial exits. Founded in 2024 by Ayman Essawy, Marwan Kenawy and Momtaz Moussa, Connect Money provides embe…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "9c0acfcd758f70da",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 52,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "埃及的 Connect Money 在 A 轮融资前筹集了 350 万美元",
+    "zhSummary": "总部位于埃及的金融科技公司 Connect Money 在由现有投资者 Mohamed Farouk、Algebra Ventures 和 DisrupTech Ventures 领投的 Pre-A 轮融资中筹集了 350 万美元。该交易将新资本与二级股票销售相结合，使",
+    "ts": "2026-11-23T08:22:54.043Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Ziina offers new feature to split bill to simplify shared payments",
+   "url": "https://www.wamda.com/2026/11/ziina-offers-new-feature-split-simplify-shared-payments",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Press release: Ziina, the UAE homegrown financial platform serving consumers and merchants, has launched Split Bill, extending its consumer peer-to-peer (P2P) offering with a feature that makes it easier to request and track shared group payments. Organising a shared expense often leaves one person responsible for collecting contributions, tracking who has paid and following up…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "ee2f36e4550cf380",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 52,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Ziina 提供新功能来拆分账单以简化共享付款",
+    "zhSummary": "新闻稿：为消费者和商家提供服务的阿联酋本土金融平台 Ziina 推出了 Split Bill，扩展了其消费者点对点 (P2P) 产品的功能，使请求和跟踪共享群组变得更加容易",
+    "ts": "2026-11-23T08:22:54.043Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Mawsool raises pre-seed funding to develop AI-powered sales intelligence platform",
+   "url": "https://www.wamda.com/2026/11/mawsool-raises-pre-seed-funding-develop-ai-powered-sales-intelligence-platform",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Saudi Arabia-based sales intelligence startup Mawsool has closed an undisclosed pre-seed funding round, with participation from Parachute16, Ghassan Halawa, THANAWI, Advanced Elements Co. and Abdullah Al-Dosari, alongside other investors. Founded in 2023 by Osama Abdelhadi and Oday Ali, Mawsool develops an AI-powered B2B sales intelligence platform that helps companies identify…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "14159e20514a1192",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 52,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Mawsool 筹集种子前资金以开发人工智能驱动的销售智能平台",
+    "zhSummary": "总部位于沙特阿拉伯的销售情报初创公司 Mawsool 已完成一轮未公开的种子前融资，Parachute16、Ghassan Halawa、THANAWI、Advanced Elements Co. 和 Abdullah Al-Dosari 以及其他投资者参与其中。",
+    "ts": "2026-11-23T08:22:54.044Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "A tale of two Nvidias",
+   "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Hardware",
+    "Equity podcast",
+    "Jensen Huang",
+    "nvidia"
+   ],
+   "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+   "publishedAt": "2026-11-21T21:07:42.000Z",
+   "id": "affdca711cfa13ff",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "difficulty": "进阶",
+   "importance": 51,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "两个 Nvidia 的故事",
+    "zhSummary": "我们看到了英伟达的两种截然不同的景象——该公司最新的盈利报告与大声呼吁黄仁勋回归的科技高管。",
+    "ts": "2026-11-23T08:22:54.044Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Scaler Cofounder Anshuman Singh Unveils AI Training Data Venture Arcfront",
+   "url": "https://inc42.com/buzz/scaler-cofounder-anshuman-singh-unveils-ai-training-data-venture-arcfront/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "News",
+    "AI Economy"
+   ],
+   "summary": "Tech upskilling platform Scaler’s cofounder Anshuman Singh has unveiled Arcfront, an AI research and training data venture that turns records of how professionals solve problems into material for training and testing advanced AI models. Singh is building the venture with Naman Bhalla, Scaler’s former head of AI products and an ex-Google software engineer. In a post on X, Singh…",
+   "publishedAt": "2026-11-21T09:27:01.000Z",
+   "id": "517e0a6d8ab952df",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [
+    "Google"
+   ],
+   "difficulty": "高级",
+   "importance": 51,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Scaler 联合创始人 Ans human Singh 推出人工智能训练数据 Venture Arcfront",
+    "zhSummary": "技术提升平台 Scaler 的联合创始人 Ans human Singh 推出了 Arcfront，这是一家人工智能研究和培训数据企业，可将专业人员如何解决问题的记录转化为培训和测试高级人工智能模型的材料。",
+    "ts": "2026-11-23T08:22:54.044Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "엔비디아, 차량에서 직접 추론하는 자율주행 모델 '알파마요 2 엣지' 공개",
+   "url": "https://www.aitimes.com/news/articleView.html?idxno=217700",
+   "source": "AI타임스",
+   "sourceId": "aitimes-kr",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ko",
+   "categories": [],
+   "summary": "엔비디아가 차량용 컴퓨팅 환경에서도 복잡한 추론을 수행할 수 있도록 설계한 경량 AI 모델을 선보이며 자율주행 기술의 온디바이스화에 속도를 내고 있다.엔비디아는 최근 차량 내부에서 직접 추론하고 주행 경로를 생성하는 자율주행 AI 모델 '알파마요 2 엣지(Alpamayo 2 Edge)'를 공개했다. 대형 클라우드 모델의 추론 능력을 차량용 연산 환경에 맞게 경량화한 모델로, 주행 상황을 분석하고 판단 근거까지 설명하는 것이 특징이다.알파마요 2 엣지는 엔비디아가 20억 매개변수급 모델로 소개한 비전-언어-행동(VLA) 모델이다. 주",
+   "publishedAt": "2026-11-23T17:08:39.000Z",
+   "id": "b21462a3e67fc3f0",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 50,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "ko",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "NVIDIA 推出“Alphamayo 2 Edge”，这是一种直接从车辆进行推理的自动驾驶模型",
+    "zhSummary": "NVIDIA 推出轻量级 AI 模型，旨在加速自动驾驶技术在设备上的实现，该模型甚至可以在车辆计算环境中执行复杂的推理。 NVIDIA 最近推出了“Alpamayo 2 Edge”，这是一种自动驾驶人工智能模型，可以直接在车内进行推理并创建驾驶路线。该模型是一个轻量级模型，利用大型云模型的推理能力来适应汽车计算环境，分析驾驶情况并解释判断依据。",
+    "enTitle": "NVIDIA unveils ‘Alphamayo 2 Edge’, an autonomous driving model that infers directly from the vehicle",
+    "enSummary": "NVIDIA is accelerating the on-device implementation of autonomous driving technology by introducing a lightweight AI model designed to perform complex inference even in a vehicle computing environment. NVIDIA recently unveiled ‘Alpamayo 2 Edge,’ an autonomous driving AI model that makes inferences and creates driving routes directly inside the vehicle. This model is a lightweight model that uses the inference capabilities of large cloud models to suit the automotive computing environment, analyzing driving situations and explaining the basis for judgment.",
+    "ts": "2026-11-23T08:22:56.471Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "[Update] WazirX, ZebPay Among Platforms Impacted By MoEngage Data Breach",
+   "url": "https://inc42.com/buzz/now-moengage-suffers-cybersecurity-attack-due-to-compromised-third-party-vendor/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "News"
+   ],
+   "summary": "Update | November 23, 11:02 IST Cryptocurrency exchanges WazirX and ZebPay have disclosed that some of their users’ information was impacted in the cybersecurity breach at MoEngage, which involved a compromised third-party vendor account. In separate notices to customers, both exchanges clarified that their internal systems, wallets and trading infrastructure remained unaffecte…",
+   "publishedAt": "2026-11-23T05:32:01.000Z",
+   "id": "2018ac904c2f1ec7",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 50,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-21",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "[更新] WazirX、ZebPay 等平台均受到 MoEngage 数据泄露的影响",
+    "zhSummary": "更新 | 11 月 23 日 11:02 IST 加密货币交易所 WazirX 和 ZebPay 披露，其部分用户信息在 MoEngage 的网络安全漏洞中受到影响，该漏洞涉及第三方供应商帐户被盗。",
+    "ts": "2026-11-23T08:22:58.106Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "You Probably Own Nvidia Stock Without Knowing It",
+   "url": "https://www.techloy.com/insight-loop-newsletter-november-22-2026-etf-holdings-apple-microsoft-nvidia/",
+   "source": "Techloy",
+   "sourceId": "techloy",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "/ Money",
+    "Insight Loop",
+    "Top Story",
+    "Nvidia"
+   ],
+   "summary": "🌐 Insight Loop is now weekly! It's Techloy ’s insight-based newsletter for paid subscribers that dives deep into groundbreaking technology, products, and the numbers behind them. Imagine investing in five different funds, thinking you've spread your risk. Sounds sensible, right? But what if those funds were investing heavily in the same companies? That question matters this we…",
+   "publishedAt": "2026-11-22T09:58:00.000Z",
+   "id": "f8cbe2b17818b0fe",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "difficulty": "进阶",
+   "importance": 50,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "您可能在不知情的情况下拥有 Nvidia 股票",
+    "zhSummary": "🌐 Insight Loop 现在每周一次！这是 Techloy 为付费订阅者提供的基于洞察力的时事通讯，深入探讨突破性技术、产品及其背后的数字。想象一下投资五种不同的基金，并认为您已经",
+    "ts": "2026-11-23T08:22:58.106Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Can Anthropic afford to put safety first?",
+   "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+   "source": "The Verge AI",
+   "sourceId": "theverge-ai",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [],
+   "summary": "Today, I’m talking with Hayden Field, The Verge ’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to say that Anthropic has become one of the most valuable compan…",
+   "publishedAt": "2026-11-21T15:00:00.000Z",
+   "id": "93115582fa04432c",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    }
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "difficulty": "进阶",
+   "importance": 50,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Anthropic 能否将安全放在第一位？",
+    "zhSummary": "今天，我将与 The Verge 的高级人工智能记者 Hayden Field 讨论 Anthropic IPO，这是我们关于现实生活中的人工智能系列的第三集也是最后一集。克劳德背后的人工智能实验室上周四在纳斯达克上市。这",
+    "ts": "2026-11-23T08:22:58.106Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Canada’s sovereign AI ambitions come with a local economic bargain",
+   "url": "https://siliconangle.com/2026/11/20/canadas-sovereign-ai-ambitions-come-with-local-economic-bargain-dellatsc26/",
+   "source": "SiliconANGLE",
+   "sourceId": "siliconangle",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "Cube Event Coverage",
+    "Infra",
+    "NEWS",
+    "#DellAtSC26",
+    "#SC26"
+   ],
+   "summary": "Data center backlash is pushing builders to show communities what they get in return, and public-private partnerships are becoming one answer. As the race for sovereign AI heats up, the question is shifting from where intellectual property lives to where compute runs and who profits from it. Canada offers a sharp test case. A modern […] The post Canada’s sovereign AI ambitions…",
+   "publishedAt": "2026-11-20T12:16:57.000Z",
+   "id": "46f736520471d4f1",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 50,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "加拿大的主权人工智能野心伴随着当地经济讨价还价",
+    "zhSummary": "数据中心的强烈反对迫使建筑商向社区展示他们得到的回报，而公私合作伙伴关系正在成为答案之一。随着人工智能主权竞赛的白热化，问题已经从知识产权的归属转向",
+    "ts": "2026-11-23T08:22:58.106Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Indian Startup IPO Tracker 2026",
+   "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "In-Depth",
+    "Listicle"
+   ],
+   "summary": "Dalal Street emerged as a founder’s paradise in 2025, with 18 Indian startups listing on the bourses and collectively mopping up a record ₹41,248 Cr from the public markets . The surge was driven by a combination of macroeconomic tailwinds and regulatory support. While robust GDP growth projections helped revive investor appetite, SEBI’s reforms played a key role. Measures such…",
+   "publishedAt": "2026-11-21T23:31:54.000Z",
+   "id": "16c84b8ac311076a",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 49,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "2026 年印度初创企业 IPO 追踪",
+    "zhSummary": "2025 年，Dalal Street 成为创始人的天堂，18 家印度初创公司在交易所上市，并从公开市场总共吸纳了创纪录的 41,248 卢比。宏观经济利好因素共同推动了这一增长",
+    "ts": "2026-11-23T08:22:58.106Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Atomberg & Voltas Execute JV Agreement To Build AC Compressors",
+   "url": "https://inc42.com/buzz/atomberg-voltas-execute-jv-agreement-to-build-ac-compressors/",
+   "source": "Inc42",
+   "sourceId": "inc42",
+   "sourceTier": 1,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "News"
+   ],
+   "summary": "IPO-bound consumer appliances startup Atomberg has executed a joint venture (JV) agreement with Tata-owned Voltas to manufacture compressors for room air conditioners (ACs) and other allied parts in India. In a statement, Voltas said that Atomberg Innovation Private Limited’s (AIPL) wholly-owned subsidiary Atomberg Airtech Private Limited (AAPL) will be designated as the JV ent…",
+   "publishedAt": "2026-11-21T20:41:00.000Z",
+   "id": "3c95dff33084654e",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 49,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Atomberg 与 Voltas 签署合资协议，生产交流压缩机",
+    "zhSummary": "即将首次公开募股的消费电器初创公司 Atomberg 与塔塔旗下的 Voltas 签署了一项合资协议，在印度生产室内空调 (AC) 压缩机和其他相关零部件。沃尔塔斯在一份声明中表示",
+    "ts": "2026-11-23T08:22:58.106Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Here are the top AI agents that can live in your text messages",
+   "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "instinct",
+    "AI agents"
+   ],
+   "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+   "publishedAt": "2026-11-21T17:00:00.000Z",
+   "id": "7ea47367ab83fed5",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 49,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "以下是可以存在于您的短信中的顶级人工智能代理",
+    "zhSummary": "我们创建了一份最著名的人工智能代理列表，这些代理可以存在于您的短信中，从一般助理到专为家庭、旅行和工作设计的代理。",
+    "ts": "2026-11-23T08:22:58.106Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Combatting adversarial distillation",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "source": "OpenAI 官方",
+   "sourceId": "openai-news",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [],
+   "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "publishedAt": "2026-11-20T10:00:00.000Z",
+   "id": "68fc898dbbcf18b1",
+   "topics": [],
+   "entities": [
+    "OpenAI"
+   ],
+   "difficulty": "高级",
+   "importance": 49,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "打击对抗性蒸馏",
+    "zhSummary": "OpenAI 的分层对抗蒸馏方法结合了模型训练、防护、检测和执行，以防止能力提取。",
+    "ts": "2026-11-23T08:22:58.106Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Inside The Founder Room: What Nobody Tells You About Running a Podcast — or Building in Africa",
+   "url": "https://www.techloy.com/inside-the-founder-room-what-nobody-tells-you-about-running-a-podcast-or-building-in-africa/",
+   "source": "Techloy",
+   "sourceId": "techloy",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [
+    "/ Startups",
+    "The Founder Room",
+    "Tech in Africa",
+    "Top Story",
+    "Techloy Originals"
+   ],
+   "summary": "You learn more about a startup from how its founder answers one honest question than from any pitch deck they will ever send. That has been the premise of The Founder Room since July. Almost every other Saturday I've sat down with one founder, and worked through a set of questions that shifts with their industry, their stage and their market. A few months and a run of conversat…",
+   "publishedAt": "2026-11-22T15:18:34.000Z",
+   "id": "9b2a8af9d3362542",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 48,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "创始人房间内：没有人告诉你关于运行播客或在非洲建设的事情",
+    "zhSummary": "你可以通过创始人如何回答一个诚实的问题来了解一家初创公司，而不是通过他们发送的任何宣传材料。自七月以来，这一直是 The Founder Room 的前提。几乎每隔一个星期六我都会和一个人坐下来",
+    "ts": "2026-11-23T08:22:59.337Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "The vibe-coding revolution is coming to all the gadgets",
+   "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+   "source": "The Verge AI",
+   "sourceId": "theverge-ai",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [],
+   "summary": "This is The Stepback , a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce . The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here . How it started Like so many things with AI, it's not that large language models opened up some wholly new capabilit…",
+   "publishedAt": "2026-11-22T13:00:00.000Z",
+   "id": "9846473f3a20274d",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 48,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-23",
+   "isNew": true,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "振动编码革命即将席卷所有电子设备",
+    "zhSummary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关一切事物的振动黑客的更多信息，请关注 David Pierce。 《Stepback》将于东部时间周日上午 8 点到达我们订阅者的收件箱。选择",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Series SEA: Who’s investing in the region’s fintech startups?",
+   "url": "https://www.techinasia.com/top-sea-investors-fintech",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Investments",
+    "Premium Content",
+    "fintech",
+    "Investor funding lists",
+    "investors in southeast asia"
+   ],
+   "summary": "We've compiled a list of investors that are pouring money into Southeast Asia’s fintech startups.",
+   "publishedAt": "2026-11-22T07:00:00.000Z",
+   "id": "83eb76e289583241",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "系列 SEA：谁在投资该地区的金融科技初创公司？",
+    "zhSummary": "我们编制了一份向东南亚金融科技初创企业注资的投资者名单。",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+   "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Apps",
+    "Security",
+    "Social",
+    "Meredith Whittaker"
+   ],
+   "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+   "publishedAt": "2026-11-21T21:37:10.000Z",
+   "id": "5ff19e6e038eb3e1",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Signal 限制移动屏幕截图，因为它面临人工智能监控的“生存威胁”",
+    "zhSummary": "Signal 限制了用户在 Android 和 iOS 应用程序中截取屏幕截图的能力。",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "FinBursa names Angelica Tigan CRO to lead US and global expansion",
+   "url": "https://www.wamda.com/2026/11/finbursa-names-angelica-tigan-cro-lead-global-expansion",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "New York-based private markets technology company FinBursa has appointed Angelica Tigan as Chief Revenue Officer (CRO) to oversee global sales and partnerships, with an immediate focus on expanding its presence in the US. Tigan brings nearly 20 years of experience in private markets technology, having held sales leadership roles at BlackRock's Aladdin business and eFront, along…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "f096d992503ef4da",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "FinBursa 任命 Angelica Tigan CRO 领导美国和全球扩张",
+    "zhSummary": "总部位于纽约的私募市场科技公司 FinBursa 已任命 Angelica Tigan 为首席营收官 (CRO)，负责监督全球销售和合作伙伴关系，并立即关注扩大其在美国的业务。蒂甘带来",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Sabika secures new investment to expand gold and silver trading platform",
+   "url": "https://www.wamda.com/2026/11/sabika-secures-new-investment-expand-gold-silver-trading-platform",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Egypt-based digital precious metals investment platform Sabika has announced the completion of multiple funding rounds for an undisclosed amount. The company did not reveal the investors, funding stages or the number of rounds completed. Founded in 2022 by Mohammed Darwish and Ibrahim Anwar, Sabika enables users to buy and sell gold and silver, monitor market prices, set price…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "c05bd9668caecd8d",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Sabika获得新投资以扩大黄金和白银交易平台",
+    "zhSummary": "总部位于埃及的数字贵金属投资平台 Sabika 宣布完成多轮融资，金额未公开。该公司没有透露投资者、融资阶段或已完成的轮数。",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Merak Capital leads $1.3 million investment in Saudi gaming startup Lambda Studios",
+   "url": "https://www.wamda.com/2026/11/merak-capital-leads-1-3-million-investment-saudi-gaming-startup-lambda-studios",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Saudi gaming startup Lambda Studios has raised $1.3 million in a funding round led by Merak Capital, a Riyadh-based investment firm. The round's stage and other participating investors were not disclosed. Founded in 2024 by Sari and Firas AlSaedi, Lambda Studios develops and publishes video games. The business originated as a project the founders started in Makkah nearly a deca…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "ddd9c80fe9f09262",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Merak Capital 领投对沙特游戏初创公司 Lambda Studios 的 130 万美元投资",
+    "zhSummary": "沙特游戏初创公司 Lambda Studios 在由利雅得投资公司 Merak Capital 领投的一轮融资中筹集了 130 万美元。该轮融资的阶段和其他参与投资者并未透露。由 Sari 和 Firas 于 2024 年创立",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "OmniOps unveils Bunyan Inference Hub to simplify AI deployment in Saudi Arabia",
+   "url": "https://www.wamda.com/2026/11/omniops-unveils-bunyan-inference-hub-simplify-ai-deployment-saudi-arabia",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Press release: OmniOps, Saudi Arabia's sovereign AI infrastructure technology company, announced the launch of Bunyan Inference Hub, a platform for governments, enterprises, startups and developers to access open-source AI models and computing resources, with data and workloads hosted in Saudi Arabia. As organizations move AI applications into production, infrastructure becomes…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "0a45436219de2b1c",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "OmniOps 推出 Bunyan 推理中心以简化沙特阿拉伯的人工智能部署",
+    "zhSummary": "新闻稿：沙特阿拉伯主权人工智能基础设施技术公司 OmniOps 宣布推出 Bunyan Inference Hub，这是一个供政府、企业、初创公司和开发人员访问开源人工智能模型和",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "UAE's Wafr attracts angel investment to digitise sukuk issuance and settlement",
+   "url": "https://www.wamda.com/2026/11/uae-wafr-attracts-angel-investment-digitise-sukuk-issuance-settlement",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "UAE-based fintech Wafr has secured an undisclosed pre-seed funding round, with participation from angel investors Coen Jonker, co-founder of Tyme Group, and Neal Cross, former chief innovation officer at DBS Bank. Co-founded by Mahmoud Bouchelif and Anthony Murphy in 2026, Wafr is developing a global Islamic finance platform offering Shariah-compliant financial services to indi…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "930ee10eab1f8d9f",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 48,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "阿联酋 Wafr 吸引天使投资将伊斯兰债券发行和结算数字化",
+    "zhSummary": "总部位于阿联酋的金融科技公司 Wafr 已获得一轮未公开的种子前融资，天使投资人 Tyme Group 联合创始人 Coen Jonker 和星展银行前首席创新官 Neal Cross 参与其中。马哈茂德共同创立",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "KKR’s Helix eyes majority stake in data center firm EdgeCore",
+   "url": "https://www.techinasia.com/news/kkrs-helix-eyes-majority-stake-data-center-firm-edgecore",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "News",
+    "AI infrastructure",
+    "EdgeCore Digital Infrastructure",
+    "Helix Digital Infrastructure"
+   ],
+   "summary": "Helix launched in June under former AWS chief Adam Selipsky with US$10 billion.",
+   "publishedAt": "2026-11-22T04:31:34.000Z",
+   "id": "d6c9c01e9b82c525",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 45,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "KKR 旗下 Helix 有意收购数据中心公司 EdgeCore 多数股权",
+    "zhSummary": "Helix 于 6 月在 AWS 前首席执行官 Adam Selipsky 的领导下推出，投资额为 100 亿美元。",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Google rolls out new search homepage with AI chat history and no search button",
+   "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Google",
+    "Artificial Intelligence",
+    "google",
+    "search"
+   ],
+   "summary": "Google's flagship search experience is evolving into an AI experience with stunning speed. Even time-tested elements of search are getting AI makeovers, and the latest to get this treatment is the search homepage on Google.com. A redesign that's been in testing for the last few weeks is now official, bringing easier access to AI chats and dropping the dedicated search button en…",
+   "publishedAt": "2026-11-20T21:58:29.000Z",
+   "id": "fd2c97e468501228",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [
+    "Google"
+   ],
+   "difficulty": "进阶",
+   "importance": 45,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "谷歌推出新搜索主页，带有人工智能聊天记录，没有搜索按钮",
+    "zhSummary": "谷歌的旗舰搜索体验正在以惊人的速度演变成人工智能体验。即使是经过时间考验的搜索元素也正在接受人工智能改造，最新获得这种处理的是 Google.com 上的搜索主页。重新设计",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+   "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "ai data centers",
+    "big tech",
+    "carbon emissions",
+    "data centers"
+   ],
+   "summary": "Meta’s executives are rethinking the company’s original goal of achieving net-zero emissions by 2030. That revelation in Meta’s latest sustainability report comes as the company reported a record percentage increase in greenhouse gas emissions that exceeds any other Big Tech competitor racing to build new AI data centers. The company’s 2026 sustainability report claims that “ou…",
+   "publishedAt": "2026-11-20T21:47:10.000Z",
+   "id": "58952237f45b38be",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [
+    "Meta"
+   ],
+   "difficulty": "进阶",
+   "importance": 45,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "在 AI 数据中心排放创纪录之际，Meta 重新考虑 2030 年净零排放目标",
+    "zhSummary": "Meta 的高管正在重新考虑公司到 2030 年实现净零排放的最初目标。Meta 最新的可持续发展报告中披露这一点之际，该公司报告温室气体增长百分比创历史新高",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "500 Global, Sanabil Investments select seven startups for accelerator's 12th cohort",
+   "url": "https://www.wamda.com/2026/11/500-global-sanabil-investments-select-seven-startups-accelerators-12th-cohort",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "US-based venture capital firm 500 Global and Saudi Arabia's Sanabil Investments, a wholly owned subsidiary of the Public Investment Fund (PIF), have selected seven startups from 888 applications for the 12th cohort of the Sanabil Accelerator by 500 Global. Running from 27 September to 9 December 2026, the hybrid accelerator supports early-stage startups operating across operati…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "a9e856d54a142862",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 45,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "全球 500 强和 Sanabil Investments 选择 7 家初创公司作为加速器第 12 批成员",
+    "zhSummary": "美国风险投资公司 500 Global 和公共投资基金 (PIF) 的全资子公司沙特阿拉伯 Sanabil Investments 从 888 份申请中选出了 7 家初创公司，用于第 12 批 Sanabil 项目",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Egypt's Chipverse secures pre-seed funding to double GPU capacity",
+   "url": "https://www.wamda.com/2026/11/egypt-chipverse-secures-pre-seed-funding-double-gpu-capacity",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Egyptian AI computing infrastructure startup Chipverse has closed an undisclosed pre-seed funding round backed by regional angel investors and technology entrepreneurs. The company did not disclose the investors' identities. Founded in 2024, Chipverse provides locally hosted GPU clusters and dedicated bare-metal servers that enable businesses and developers to train and run AI…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "0faf47d63a79bdca",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    },
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 45,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "埃及 Chipverse 获得种子前资金，使 GPU 容量翻倍",
+    "zhSummary": "埃及人工智能计算基础设施初创公司 Chipverse 已完成一轮未公开的种子前融资，由地区天使投资者和技术企业家支持。该公司没有透露投资者的身份。成立于",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "The most misunderstood graph in AI just got a major update",
+   "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "source": "MIT Technology Review",
+   "sourceId": "mit-tr",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "Artificial intelligence",
+    "App",
+    "Summary"
+   ],
+   "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely shared— and widely misinterpreted , owing to the…",
+   "publishedAt": "2026-11-20T18:15:15.000Z",
+   "id": "1830f14625b84b9b",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 42,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-21",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "人工智能中最容易被误解的图表刚刚进行了重大更新",
+    "zhSummary": "人工智能评估非营利组织 METR 的一份新报告发现，一些人工智能能力正在沿着指数轨迹持续改进，但它也表明模型并不像它们那样擅长需要判断的任务",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Sovereignty starts with data, not chips, says Stuttgart AI factory chief",
+   "url": "https://siliconangle.com/2026/11/21/sovereignty-data-not-chips-stuttgart-sovereign-ai-factory-sc26/",
+   "source": "SiliconANGLE",
+   "sourceId": "siliconangle",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Cube Event Coverage",
+    "NEWS",
+    "#SC26",
+    "#theCube"
+   ],
+   "summary": "A sovereign AI factory is only as valuable as the companies that can actually get onto it. Across Europe, publicly funded AI factories are racing to give startups and small manufacturers supercomputer-class GPUs without pushing them into lock-in or loose data handling. In Stuttgart, the HammerHAI AI factory is taking shape around a system from […] The post Sovereignty starts wi…",
+   "publishedAt": "2026-11-21T21:48:11.000Z",
+   "id": "0db844f897a8f551",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 40,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "斯图加特人工智能工厂负责人表示，主权始于数据，而不是芯片",
+    "zhSummary": "一个主权人工智能工厂的价值取决于真正能够进入它的公司。在整个欧洲，公共资助的人工智能工厂正在竞相为初创公司和小型制造商提供超级计算机级的 GPU，而不是迫使他们进入",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Anthropic goes public, but is it too late to save the AI trade?",
+   "url": "https://siliconangle.com/2026/11/20/anthropic-goes-public-but-is-it-too-late-to-save-the-ai-trade/",
+   "source": "SiliconANGLE",
+   "sourceId": "siliconangle",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "NEWS",
+    "The-Latest",
+    "Top Story 5",
+    "agent"
+   ],
+   "summary": "Anthropic came through with its initial public offering Thursday, but did it just signal a top in the AI trade? The artificial intelligence model maker’s IPO went almost picture-perfectly, really, producing a 17% pop that wasn’t so high that it left an excessive amount of money on the table but high enough to call it […] The post Anthropic goes public, but is it too late to sav…",
+   "publishedAt": "2026-11-20T15:00:54.000Z",
+   "id": "6f99f80da397254e",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "difficulty": "进阶",
+   "importance": 40,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-21",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Anthropic 上市，但拯救人工智能行业是否为时已晚？",
+    "zhSummary": "Anthropic 于周四完成了首次公开募股，但这是否只是标志着人工智能行业见顶？这家人工智能模型制造商的 IPO 几乎一帆风顺，实际上，上涨了 17%，但涨幅并不算高",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Anthropic breaks SpaceX IPO record with $81.3bn raise",
+   "url": "https://www.siliconrepublic.com/business/anthropic-breaks-spacex-ipo-record-with-81-3bn-raise",
+   "source": "Silicon Republic",
+   "sourceId": "siliconrepublic",
+   "sourceTier": 2,
+   "region": "EU",
+   "lang": "en",
+   "categories": [
+    "Business",
+    "Anthropic",
+    "Claude",
+    "funding and investment",
+    "OpenAI"
+   ],
+   "summary": "Priced at $83 per share, well above its original range, the AI giant will begin trading on the Nasdaq Global Select Market today (19 November) under the symbol ANT. Read more: Anthropic breaks SpaceX IPO record with $81.3bn raise",
+   "publishedAt": "2026-11-19T09:36:35.000Z",
+   "id": "bc0e814898275e81",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    }
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "difficulty": "入门",
+   "importance": 40,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Anthropic 筹集 813 亿美元，打破 SpaceX IPO 纪录",
+    "zhSummary": "这家人工智能巨头的定价为每股 83 美元，远高于其最初定价范围，将于今天（11 月 19 日）在纳斯达克全球精选市场开始交易，代码为 ANT。了解更多：Anthropic 筹集 813 亿美元，打破 SpaceX IPO 纪录",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+   "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+   "source": "The Verge AI",
+   "sourceId": "theverge-ai",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [],
+   "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit , a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word . They're all part of Chess's new Classic Games platform, which is launching its public beta on Satu…",
+   "publishedAt": "2026-11-21T14:00:00.000Z",
+   "id": "2826523276f7140e",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 39,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Chess.com 的下一步行动是建立从麻将到数独等经典游戏的新中心",
+    "zhSummary": "Chess.com 已准备好超越国际象棋领域。继今年早些时候推出无赌博扑克网站 Gambit 后，该公司现在又增加了 10 种游戏：西洋双陆棋、跳棋、围棋、红桃、麻将、将棋、数独、纸牌、",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+   "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+   "source": "Ars Technica AI",
+   "sourceId": "ars-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Biz & IT",
+    "Security",
+    "inference",
+    "LLMs"
+   ],
+   "summary": "Researchers planted 2 million digital tripwires in requests sent through a sprawling network of AI services to find out what happened to sensitive information entrusted to them. What they discovered was an ecosystem that leaked highly sensitive data like a sieve. The exposure was found through an ingenious experiment designed to test if sensitive information can leak through th…",
+   "publishedAt": "2026-11-20T20:59:08.000Z",
+   "id": "2f06d775e48af7a5",
+   "topics": [
+    {
+     "id": "model",
+     "name": "模型与能力",
+     "color": "#6d5efc"
+    },
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 39,
+   "plainHint": "又有人把 AI 的\"脑子\"升级了一代",
+   "firstSeen": "2026-11-21",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "研究人员将 200 万只金丝雀植入人工智能供应链。一场隐私灾难浮出水面。",
+    "zhSummary": "研究人员在通过庞大的人工智能服务网络发送的请求中植入了 200 万条数字绊线，以查明委托给他们的敏感信息发生了什么。他们发现的是一个高度泄漏的生态系统",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Chips can survive the space environment — can their financing?",
+   "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+   "source": "TechCrunch AI",
+   "sourceId": "techcrunch-ai",
+   "sourceTier": 1,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Elon Musk",
+    "SpaceX"
+   ],
+   "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+   "publishedAt": "2026-11-20T17:40:01.000Z",
+   "id": "d16e73201d56fcfa",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 39,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-21",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "芯片可以在太空环境中生存——它们的融资可以吗？",
+    "zhSummary": "贷款人不希望 SpaceX 将其抵押品送入轨道。这对于太空数据中心来说意味着什么？",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Exclusive: Storonsky-backed Aikido seeks €4bn valuation",
+   "url": "https://sifted.eu/articles/exclusive-aikido-4bn-valuation/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-20T16:04:11.000Z",
+   "id": "738e55eca7491ac5",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 39,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "独家：Storonsky 支持的 Aikido 寻求 40 亿欧元估值",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Exclusive: Stripe founders and Paul Graham back AI agent swarm startup Hoplite with $5.5m",
+   "url": "https://sifted.eu/articles/hoplite-raise-stripe-founders/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-20T13:00:51.000Z",
+   "id": "892ee36504854530",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 39,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "独家：Stripe 创始人和 Paul Graham 以 550 万美元支持 AI 代理初创公司 Hoplite",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Amazon highlights EGP 29 billion GDP contribution as it expands Egyptian operations",
+   "url": "https://www.wamda.com/2026/11/amazon-highlights-egp-29-billion-gdp-contribution-expands-egyptian-operations",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "US e-commerce and technology company Amazon announced that its investments contributed more than EGP 29 billion to Egypt's GDP over the past decade, according to an economic impact assessment conducted by consultancy Keystone Strategy. The company said its investments supported more than 60,000 direct, indirect, induced and seasonal jobs across Egypt during the period, spanning…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "5d8672c391cea9cd",
+   "topics": [],
+   "entities": [
+    "Amazon"
+   ],
+   "difficulty": "进阶",
+   "importance": 39,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "亚马逊强调其扩大埃及业务时对 GDP 的贡献为 290 亿埃及镑",
+    "zhSummary": "根据咨询公司 Keystone Strategy 进行的经济影响评估，美国电子商务和科技公司亚马逊宣布，过去十年其投资为埃及 GDP 贡献了超过 290 亿埃及镑。这",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "CrowdStrike reportedly in talks to acquire cybersecurity provider Zscaler",
+   "url": "https://siliconangle.com/2026/11/20/crowdstrike-reportedly-in-talks-to-acquire-cybersecurity-provider-zscaler/",
+   "source": "SiliconANGLE",
+   "sourceId": "siliconangle",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "NEWS",
+    "Security",
+    "The-Latest",
+    "Top Story 6",
+    "acquisition"
+   ],
+   "summary": "CrowdStrike Holdings Inc. is reportedly in talks to buy Zscaler Inc., a publicly traded provider of cybersecurity software. Sources told Bloomberg today that the acquisition could “come together soon.” However, they cautioned that it’s still possible the talks will fall through. Investors seem to be confident that the deal will materialize. Zscaler’s share price jumped […] The…",
+   "publishedAt": "2026-11-21T01:50:36.000Z",
+   "id": "1f1b8be100018788",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 37,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-21",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "据报道，CrowdStrike 正在洽谈收购网络安全提供商 Zscaler",
+    "zhSummary": "据报道，CrowdStrike Holdings Inc. 正在洽谈收购网络安全软件上市提供商 Zscaler Inc.。消息人士今天告诉彭博社，此次收购可能“很快就会完成”。然而，他们警告说，",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Isomorphic Labs and MSD team up on AI-led cancer drug discovery",
+   "url": "https://www.siliconrepublic.com/innovation/isomorphic-labs-msd-team-up-ai-led-cancer-drug-discovery",
+   "source": "Silicon Republic",
+   "sourceId": "siliconrepublic",
+   "sourceTier": 2,
+   "region": "EU",
+   "lang": "en",
+   "categories": [
+    "Innovation",
+    "AI",
+    "Alphabet",
+    "funding and investment",
+    "MSD"
+   ],
+   "summary": "The partnership will see both organisations collaborate on oncology drug therapies designed to target small molecules. Read more: Isomorphic Labs and MSD team up on AI-led cancer drug discovery",
+   "publishedAt": "2026-11-20T09:28:12.000Z",
+   "id": "9b7df2b88a32b7c6",
+   "topics": [
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    },
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 37,
+   "plainHint": "大厂、人才和开源社区在怎么重新排座次",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Isomorphic Labs 和默沙东合作开发人工智能主导的癌症药物",
+    "zhSummary": "此次合作将使两个组织在针对小分子的肿瘤药物疗法方面进行合作。了解更多：Isomorphic Labs 和 MSD 合作开发人工智能主导的癌症药物",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Inference now drives two-thirds of AI workloads, changing where chips get deployed",
+   "url": "https://siliconangle.com/2026/11/21/inference-two-thirds-ai-workloads-chip-deployment-positron-sc26/",
+   "source": "SiliconANGLE",
+   "sourceId": "siliconangle",
+   "sourceTier": 2,
+   "region": "NA",
+   "lang": "en",
+   "categories": [
+    "AI",
+    "Cube Event Coverage",
+    "NEWS",
+    "#SC26",
+    "AI data centers"
+   ],
+   "summary": "AI spending is shifting from giant training clusters toward smaller, quickly built sites, and modular data centers are becoming a natural home for inference workloads. Power, cooling and memory supply now shape where tokens get generated as much as raw chip performance does. Inference-first chipmakers want to capture that shift. Positron AI Inc., which raised […] The post Infer…",
+   "publishedAt": "2026-11-21T18:28:26.000Z",
+   "id": "8f900dbd4a75904b",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [],
+   "difficulty": "高级",
+   "importance": 36,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "推理现在驱动着三分之二的人工智能工作负载，改变了芯片的部署位置",
+    "zhSummary": "人工智能支出正在从巨大的训练集群转向更小的、快速构建的站点，而模块化数据中心正在成为推理工作负载的自然家园。电力、冷却和内存供应现在决定了代币的生成位置",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Is AI in a bubble? Menlo Ventures’ Deedy Das on Anthropic’s IPO and Europe",
+   "url": "https://sifted.eu/articles/menlo-ventures-podcast/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-19T13:55:11.000Z",
+   "id": "e8e50bfa22a081f4",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "difficulty": "进阶",
+   "importance": 36,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "人工智能正处于泡沫之中吗？ Menlo Ventures 的 Deedy Das 谈 Anthropic 的 IPO 和欧洲",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Anthropic’s $1.4tn IPO puts Europe’s AI boom to the test",
+   "url": "https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-18T05:00:46.000Z",
+   "id": "9981d6d682d55883",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "difficulty": "进阶",
+   "importance": 36,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Anthropic 1.4 万亿美元的 IPO 让欧洲人工智能热潮经受考验",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "A list of fundraising startups from Asia and beyond (Updated)",
+   "url": "https://www.techinasia.com/visual-story/list-fundraising-startups-southeast-asia-india",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Investments",
+    "Premium Content",
+    "fundraising",
+    "Startups"
+   ],
+   "summary": "Fundraising is hard. To make things slightly easier, we've compiled this list of fundraising startups for our subscribers.",
+   "publishedAt": "2026-11-22T04:00:00.000Z",
+   "id": "a37567377ae7ea18",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 33,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "来自亚洲及其他地区的筹款初创公司名单（更新）",
+    "zhSummary": "筹款很难。为了让事情变得更容易一些，我们为订阅者编制了这份筹款初创公司名单。",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "LG Uplus unveils 2027 reorganization to expand AI business",
+   "url": "https://www.techinasia.com/news/lg-uplus-unveils-2027-reorganization-expand-ai-business",
+   "source": "Tech in Asia",
+   "sourceId": "techinasia",
+   "sourceTier": 1,
+   "region": "SEA",
+   "lang": "en",
+   "categories": [
+    "Artificial Intelligence",
+    "News",
+    "ai",
+    "lg uplus",
+    "South Korea"
+   ],
+   "summary": "LG Uplus also created a Digital Business Unit for its consumer operations.",
+   "publishedAt": "2026-11-22T03:43:13.000Z",
+   "id": "436b6a607eed025c",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 33,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "LG Uplus公布2027年重组计划以扩大AI业务",
+    "zhSummary": "LG Uplus 还为其消费者业务创建了数字业务部门。",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "How a handful of European angels hit the Anthropic jackpot",
+   "url": "https://sifted.eu/articles/european-angels-anthropic-ipo/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-20T15:34:03.000Z",
+   "id": "e8c1c41eccde150f",
+   "topics": [],
+   "entities": [
+    "Anthropic"
+   ],
+   "difficulty": "进阶",
+   "importance": 33,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "少数欧洲天使如何赢得人择大奖",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Sudan's Cashi secures $660,000 investment from France's Proparco",
+   "url": "https://www.wamda.com/2026/11/sudans-cashi-secures-660000-investment-frances-proparco",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Sudanese fintech startup Cashi has secured a €600,000 (approximately $660,000) equity investment from Proparco, the French development finance institution and subsidiary of the Agence Fran&ccedil;aise de D&eacute;veloppement (AFD) Group. The transaction marks Proparco's first financing operation in Sudan. Founded in 2022, Cashi develops digital payment infrastructure that allow…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "8af4be6d80510966",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 33,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "苏丹 Cashi 获得法国 Proparco 66 万美元投资",
+    "zhSummary": "苏丹金融科技初创公司 Cashi 已获得 Proparco 60 万欧元（约合 66 万美元）的股权投资。Proparco 是法国开发金融机构，也是法国开发署 (AFD) 集团的子公司。",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Shaffra establishes Saudi headquarters as AI workforce deployments grow",
+   "url": "https://www.wamda.com/2026/11/shaffra-establishes-saudi-headquarters-ai-workforce-deployments-grow",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Press release: As Saudi Arabia marks the Year of Artificial Intelligence, Shaffra, the GCC-born AI Workforce Platform building Autonomous AI Teams for enterprises and governments, has established its headquarters in Riyadh, Saudi Arabia. This builds on its existing operations with the public and private sectors across the GCC, supporting its next phase of growth. Shaffra’s depl…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "6b8665a5561e1bad",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 33,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "随着人工智能劳动力部署的增长，Shaffra 设立沙特总部",
+    "zhSummary": "新闻稿：在沙特阿拉伯庆祝人工智能年之际，诞生于海湾合作委员会的人工智能劳动力平台 Shaffra 已在沙特阿拉伯利雅得设立总部，为企业和政府构建自主人工智能团队。",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Saudi tech group iMENA secures $214 million to support regional growth",
+   "url": "https://www.wamda.com/2026/11/saudi-tech-group-imena-secures-214-million-support-regional-growth",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Saudi Arabia-headquartered technology group iMENA has completed a SAR 802 million ($214 million) capital increase in two tranches, aimed at supporting its growth in Saudi Arabia and across the Middle East and North Africa. Co-founded in 2012 by Nasir Alsharif, Khaldoon Tabaza, and Adey Salamin, iMENA operates digital platforms in online classifieds, automotive commerce, and mob…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "113f42e8de6e44d2",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 33,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "沙特科技集团 iMENA 获得 2.14 亿美元支持区域增长",
+    "zhSummary": "总部位于沙特阿拉伯的科技集团 iMENA 已分两期完成 8.02 亿沙特里亚尔（2.14 亿美元）的增资，旨在支持其在沙特阿拉伯以及中东和北非地区的增长。共同创立于",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "The missing half of MENA's venture capital data",
+   "url": "https://www.wamda.com/2026/11/missing-half-mena-venture-capital-data",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "An article by Nour ElShaeri, startup and VC journalist and CEO of Investment Analyst AI (IA) A merchant of the last century would have thought our bookkeeping peculiar. He kept a daybook, a ledger and a correspondence file, and he kept them in double entry, because he had learned at some expense that a house which records only what it buys has written down half of its own histo…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "db06d96e81c9cc50",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 33,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "中东和北非地区风险投资数据缺失的一半",
+    "zhSummary": "Nour ElShaeri 的文章，初创公司和风险投资记者兼 Investment Analyst AI (IA) 首席执行官 上个世纪的商人会认为我们的簿记很奇怪。他保存了一本日记本、一本分类账和一份信件档案，并且他保存了",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Wa'ed Ventures backs Saudi cybersecurity startup COGNNA",
+   "url": "https://www.wamda.com/2026/11/waed-ventures-backs-saudi-cybersecurity-startup-cognna",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Saudi cybersecurity startup COGNNA has secured an undisclosed investment from Wa'ed Ventures, the $500 million venture capital fund backed by Saudi Aramco. The investment will support the company's expansion and development of its AI-powered cybersecurity solutions. Founded in 2022 by Ibrahim Alshamrani and Ziyad Alshehri, COGNNA provides managed threat detection and response s…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "edb02a5f915401f2",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 33,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Wa'ed Ventures 支持沙特网络安全初创公司 COGNNA",
+    "zhSummary": "沙特网络安全初创公司 COGNNA 已获得 Wa'ed Ventures 的一笔未公开投资，Wa'ed Ventures 是沙特阿美公司支持的 5 亿美元风险投资基金。本次投资将支持公司业务的拓展和发展",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Oman's 44.01 secures fresh investment from Holcim",
+   "url": "https://www.wamda.com/2026/11/oman-44-01-secures-fresh-investment-holcim",
+   "source": "Wamda",
+   "sourceId": "wamda",
+   "sourceTier": 1,
+   "region": "ME",
+   "lang": "en",
+   "categories": [],
+   "summary": "Omani climatetech company 44.01 has secured a strategic investment from Swiss building materials company Holcim through its corporate venture capital activities. The investment amount and equity stake were not disclosed. Founded in 2020 by Talal Hassan, Ehab Tasfai and Karan Khimji, 44.01 develops carbon mineralisation technology that injects captured carbon dioxide into reacti…",
+   "publishedAt": "2026-11-01T12:00:00.000Z",
+   "dateInferred": true,
+   "datePrecision": "month",
+   "id": "4e728b21bc91910a",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 33,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "阿曼 44.01 获得 Holcim 新投资",
+    "zhSummary": "阿曼气候科技公司 44.01 通过其企业风险投资活动获得了瑞士建筑材料公司 Holcim 的战略投资。投资金额和股权比例并未披露。成立于 2020 年",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "CII proposes 15 financial sector reforms to boost long-term growth ambitions",
+   "url": "https://yourstory.com/2026/11/cii-15-financial-sector-reforms-boost-long-term-growth-ambitions",
+   "source": "YourStory",
+   "sourceId": "yourstory",
+   "sourceTier": 2,
+   "region": "OTHER",
+   "lang": "en",
+   "categories": [],
+   "summary": "In a bid to strengthen India's financial system for long-term growth ambitions, the industry body CII has proposed 15 financial sector reforms, including a permanent liquidity window for well-governed NBFCs and higher priority sector lending limits for renewable energy. The recommendations come against the backdrop of the government's constitution of a High-Level Committee on B…",
+   "publishedAt": "2026-11-22T12:13:28.000Z",
+   "id": "7ebd954acae966b3",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 32,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "CII提出15项金融部门改革以促进长期增长目标",
+    "zhSummary": "为了加强印度的金融体系以实现长期增长目标，行业机构 CII 提出了 15 项金融部门改革，包括为治理良好的非银行金融机构和更高优先级部门提供永久流动性窗口",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Espoo closes in on Helsinki as Finland’s startup funding race tightens",
+   "url": "https://sifted.eu/articles/espoo-closes-in-on-helsinki-as-finlands-startup-funding-race-tightens/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-20T05:00:03.000Z",
+   "id": "7c23b963da558b9f",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 29,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "随着芬兰初创企业融资竞争的加剧，埃斯波逼近赫尔辛基",
+    "ts": "2026-11-23T08:22:59.742Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Inside Malmö: The Swedish city building the future of food",
+   "url": "https://sifted.eu/articles/inside-the-swedish-city-building-the-future-of-food-brnd/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-20T09:00:01.000Z",
+   "id": "037dfb4fb87f58d9",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 27,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "马尔默内部：瑞典城市打造食品的未来",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "UK AI minister rejects calls for sovereign model, sparking backlash: 'I'm so angry'",
+   "url": "https://sifted.eu/articles/kanishka-narayan-ai-uk-minister-sovereign/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-20T05:00:50.000Z",
+   "id": "03eeb636fd38b693",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 26,
+   "plainHint": "规则制定者正在给 AI 划边界",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "英国人工智能部长拒绝建立主权模型的呼吁，引发强烈反对：“我很生气”",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "AI人事とは？採用・評価・労務で任せてよい業務と導入時の注意点",
+   "url": "https://ainow.ai/2026/11/20/278548/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e4%25ba%25ba%25e4%25ba%258b%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e6%258e%25a1%25e7%2594%25a8%25e3%2583%25bb%25e8%25a9%2595%25e4%25be%25a1%25e3%2583%25bb%25e5%258a%25b4%25e5%258b%2599%25e3%2581%25a7%25e4%25bb%25bb%25e3%2581%259b%25e3%2581%25a6%25e3%2582%2588%25e3%2581%2584%25e6%25a5%25ad%25e5%258b%2599%25e3%2581%25a8",
+   "source": "AINOW",
+   "sourceId": "ainow",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ja",
+   "categories": [
+    "AINOW編集部",
+    "生成AI"
+   ],
+   "summary": "AI人事とは、採用・評価・労務などの人事業務にAIを取り入れ、文書作成やデータ分析を任せることで、担当者が人にしかできない判断に集中できる状態をつくる取り組みです。 「経営層から人事でもAIを使えと言われたが、採用や評価に使って問題にならないか不安」と感じ、最初の一歩を決めきれない担当者は少なくありません。 AIは、誤りを人が拾える業務から始め、処遇の確定は人が担うと線引きすれば、安全に工数を減らせます。手作業の人事を続けている間に、他社は採用や労務の対応速度で差をつけていくでしょう。 本記事では、人事業務を「すぐ任せてよい業務」「条件付きで使う業務」「人が最終判断すべき業務」の3段階に分ける線引きを中心に、国内の事例と法規制への備えを解説します。 読み終えるころには、自社で最初にAIを入れる業務を決め、上長に説明できる導入案を描けるようになります…",
+   "publishedAt": "2026-11-19T18:29:51.000Z",
+   "id": "e518b02c0f0d5fdf",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 26,
+   "plainHint": "规则制定者正在给 AI 划边界",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "ja",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "什么是人工智能人力资源？招聘、考核、劳务中可委派的任务及介绍时的注意事项",
+    "zhSummary": "AI人力资源是将人工智能融入到招聘、考核、劳动事务等人力资源运营中，通过将文档制作和数据分析委托给人员，创造一种让人员能够专注于只有人类才能做出的决策的状态。许多负责人无法决定第一步，因为他们觉得“管理层告诉我在人力资源中使用人工智能，但我担心如果我将其用于招聘或评估，会产生问题。”人工智能可以通过从人类可以发现错误的任务开始，并确保人类负责确定处理方式来安全地减少工时。",
+    "enTitle": "What is AI HR? Tasks that can be delegated in recruitment, evaluation, and labor, and points to note when introducing them",
+    "enSummary": "AI human resources is an initiative that incorporates AI into human resources operations such as recruitment, evaluation, and labor affairs, and by entrusting document creation and data analysis to personnel, it creates a state in which personnel can concentrate on decisions that only humans can make. There are many people in charge who are unable to decide on the first step because they feel, ``Management has told me to use AI in human resources, but I'm worried that it will cause problems if I use it for recruitment or evaluation.'' AI can safely reduce man-hours by starting with tasks where humans can pick up mistakes, and by making sure that humans are responsible for determining treatment.",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Exclusive: Schneider Electric's VC fund brings accelerator scheme to Europe",
+   "url": "https://sifted.eu/articles/schneider-electric-ventures-accelerator-scheme-europe/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-19T05:00:42.000Z",
+   "id": "f3bb19aac16b33dc",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 26,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "独家：施耐德电气的风险投资基金将加速器计划引入欧洲",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "The next big bets in AI compute",
+   "url": "https://sifted.eu/articles/inside-the-next-big-bets-in-ai-compute/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-19T05:00:20.000Z",
+   "id": "8a7ab081e0a33eaf",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 26,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "人工智能计算的下一个大赌注",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "AI is making teams smaller — and the fight for real talent harder",
+   "url": "https://sifted.eu/articles/eqt-ai-talent-polly-barnes-opinion/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-19T05:00:16.000Z",
+   "id": "b63a5cbb56ed9625",
+   "topics": [
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 26,
+   "plainHint": "大厂、人才和开源社区在怎么重新排座次",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "人工智能正在使团队变得更小——并且争夺真正的人才变得更加困难",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "AIエージェントの使い方を解説！業務を任せる手順と注意点",
+   "url": "https://ainow.ai/2026/11/18/278541/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e4%25bd%25bf%25e3%2581%2584%25e6%2596%25b9%25e3%2582%2592%25e8%25a7%25a3%25e8%25aa%25ac%25ef%25bc%2581%25e6%25a5%25ad%25e5%258b%2599%25e3%2582%2592%25e4%25bb%25bb%25e3%2581%259b%25e3%2582%258b%25e6%2589%258b%25e9%25a0%2586",
+   "source": "AINOW",
+   "sourceId": "ainow",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ja",
+   "categories": [
+    "AINOW編集部",
+    "生成AI"
+   ],
+   "summary": "毎日のメール確認や資料の下調べに時間を取られ、本来考えるべき仕事が後回しになっていないでしょうか。AIエージェントを使うと、こうした作業を一連の流れとして任せられるようになります。 ただし、業務全体をいきなり任せると、誤った情報の採用や意図しない送信が起きるおそれがあります。最初に小さな業務から始め、権限を絞って進める方法を知っておくことが、安全に使い続ける近道です。 本記事では、AIエージェントの使い方を5つのステップで説明し、業務別の活用例と使う前に確認したい注意点を解説します。 読み終えたときには、自社で最初に任せる業務を1つ決め、安全に試し始められる状態になります。 AIエージェントの使い方を5ステップで始める AIエージェントは、次の5つのステップで段階的に始めると失敗が少なくなります。 任せる業務を1つ選ぶ 無料のチャットAIで試す 指示…",
+   "publishedAt": "2026-11-17T17:53:02.000Z",
+   "id": "9753d363fb175779",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 26,
+   "plainHint": "规则制定者正在给 AI 划边界",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "ja",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "讲解如何使用AI代理！委派工作的程序及注意事项",
+    "zhSummary": "您是否每天花费太多时间检查电子邮件和研究材料，而推迟了您应该考虑的工作？使用人工智能代理，可以将这些任务作为一系列任务委托。但是，如果您突然将整个任务委托给其他人，则存在采用或无意中发送错误信息的风险。从小任务开始，并了解如何通过缩小权限来继续进行，是继续安全使用它们的捷径。",
+    "enTitle": "Explain how to use AI agent! Procedures and precautions for delegating work",
+    "enSummary": "Are you spending too much time checking your emails and researching materials every day, and putting off the work you should be thinking about? Using AI agents, it becomes possible to entrust these tasks as a series of tasks. However, if you suddenly delegate the entire task to someone else, there is a risk that the wrong information will be adopted or unintentionally sent. Starting with small tasks and knowing how to proceed by narrowing down your authority is a shortcut to continuing to use them safely.",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Apple refines its AI health tools",
+   "url": "https://www.tahawultech.com/home-slide/apple-refines-its-ai-health-tools/",
+   "source": "TahawulTech",
+   "sourceId": "tahawultech",
+   "sourceTier": 2,
+   "region": "ME",
+   "lang": "en",
+   "categories": [
+    "Healthcare",
+    "Home-Slide",
+    "News",
+    "Technology",
+    "AI health tools"
+   ],
+   "summary": "Apple recently started fine-tuning their AI health tools by studying user interactions, the company hopes this research will provide an edge in the design of future apps. The company emphasised no health app could replace real-world interactions with clinical staff, but noted the services it provides can be tweaked to be more useful, in turn contributing to the overall use of A…",
+   "publishedAt": "2026-11-17T12:16:44.000Z",
+   "id": "a4e7208dcc1dfd65",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [
+    "Apple"
+   ],
+   "difficulty": "入门",
+   "importance": 26,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "苹果完善其人工智能健康工具",
+    "zhSummary": "苹果最近开始通过研究用户交互来微调他们的人工智能健康工具，该公司希望这项研究能够为未来应用程序的设计提供优势。该公司强调没有任何健康应用程序可以取代现实世界",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Google Maps adds new agentic AI features",
+   "url": "https://www.tahawultech.com/home-slide/google-maps-adds-new-agentic-ai-features/",
+   "source": "TahawulTech",
+   "sourceId": "tahawultech",
+   "sourceTier": 2,
+   "region": "ME",
+   "lang": "en",
+   "categories": [
+    "Home-Slide",
+    "News",
+    "Technology",
+    "Vendor",
+    "Agentic AI"
+   ],
+   "summary": "Google Maps has recently added new agentic AI features to Ask Maps allowing the application to plan a road trip and call local businesses to find an appointment. Ask Maps can build step-by-step trip itineraries, from a day of holiday shopping to a three-day road trip, and shows real-time details such as live traffic conditions when people pull up directions. Using agentic AI, p…",
+   "publishedAt": "2026-11-17T12:09:08.000Z",
+   "id": "a99c255245e556b1",
+   "topics": [
+    {
+     "id": "product",
+     "name": "产品与应用",
+     "color": "#10b981"
+    }
+   ],
+   "entities": [
+    "Google"
+   ],
+   "difficulty": "入门",
+   "importance": 26,
+   "plainHint": "AI 具体被拿去做成了什么能用的东西",
+   "firstSeen": "2026-11-18",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "谷歌地图添加新的代理人工智能功能",
+    "zhSummary": "谷歌地图最近在 Ask Maps 中添加了新的代理人工智能功能，允许该应用程序规划公路旅行并致电当地企业进行预约。 Ask Maps 可以从假期的一天开始逐步制定旅行路线",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Dublin-headquartered Disseqt AI raises $8m in funding",
+   "url": "https://www.siliconrepublic.com/start-ups/disseqt-ai-raises-funds-nova-ucd-dublin-expansion-scaling",
+   "source": "Silicon Republic",
+   "sourceId": "siliconrepublic",
+   "sourceTier": 2,
+   "region": "EU",
+   "lang": "en",
+   "categories": [
+    "Start-ups",
+    "AI",
+    "funding and investment",
+    "NovaUCD"
+   ],
+   "summary": "The funding will be put towards expanding internationally and hiring across sales, operations and technology. Read more: Dublin-headquartered Disseqt AI raises $8m in funding",
+   "publishedAt": "2026-11-18T15:45:27.000Z",
+   "id": "2b477ff36d565a86",
+   "topics": [
+    {
+     "id": "capital",
+     "name": "资本与市场",
+     "color": "#f59e0b"
+    },
+    {
+     "id": "industry",
+     "name": "产业与生态",
+     "color": "#8b5cf6"
+    }
+   ],
+   "entities": [],
+   "difficulty": "入门",
+   "importance": 24,
+   "plainHint": "钱在往哪里流，行业重心就在哪里",
+   "firstSeen": "2026-11-21",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "总部位于都柏林的 Disseqt AI 筹集 800 万美元资金",
+    "zhSummary": "这笔资金将用于国际扩张以及销售、运营和技术方面的招聘。了解更多：总部位于都柏林的 Disseqt AI 筹集 800 万美元资金",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Nvidia beats earning expectations, confirms no return for Huang",
+   "url": "https://www.siliconrepublic.com/business/nvidia-beats-earning-expectations-confirms-no-return-for-huang",
+   "source": "Silicon Republic",
+   "sourceId": "siliconrepublic",
+   "sourceTier": 2,
+   "region": "EU",
+   "lang": "en",
+   "categories": [
+    "Business",
+    "AI",
+    "earnings",
+    "Nvidia",
+    "US"
+   ],
+   "summary": "The much-anticipated Nvidia earnings announcement calmed some market fears with better-than-expected returns and outlook. Read more: Nvidia beats earning expectations, confirms no return for Huang",
+   "publishedAt": "2026-11-18T09:27:52.000Z",
+   "id": "540c0e1b2fa79773",
+   "topics": [
+    {
+     "id": "compute",
+     "name": "算力与基建",
+     "color": "#0ea5e9"
+    }
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "difficulty": "进阶",
+   "importance": 23,
+   "plainHint": "支撑 AI 运转的\"电力与厂房\"又扩容了",
+   "firstSeen": "2026-11-19",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "英伟达超出盈利预期，确认黄仁勋不会回归",
+    "zhSummary": "备受期待的英伟达财报以好于预期的回报和前景平息了部分市场担忧。阅读更多：英伟达超出盈利预期，确认黄仁勋不会回归",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "‘Waiting for uncertainty to disappear is not a strategy’",
+   "url": "https://www.siliconrepublic.com/careers/strategy-pwc-skills-working-life-productivity-infrastructure-economy",
+   "source": "Silicon Republic",
+   "sourceId": "siliconrepublic",
+   "sourceTier": 2,
+   "region": "EU",
+   "lang": "en",
+   "categories": [
+    "Careers",
+    "economy",
+    "Employers",
+    "productivity",
+    "PwC"
+   ],
+   "summary": "PwC’s Ciarán Nevin explores how a company must do more than predict challenges; it must have a foundation that enables it to respond when disruption hits. Read more: ‘Waiting for uncertainty to disappear is not a strategy’",
+   "publishedAt": "2026-11-20T15:52:17.000Z",
+   "id": "51a3e496215fc669",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "“等待不确定性消失不是一种策略”",
+    "zhSummary": "普华永道 (PwC) 的西亚兰·内文 (Ciarán Nevin) 探讨了公司除了预测挑战之外还必须做些什么；它必须有一个基础，使其能够在中断发生时做出反应。阅读更多：“等待不确定性消失不是一种策略”",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "SomaTech takes top prize at All-Island Circular Venture Awards 2026",
+   "url": "https://www.siliconrepublic.com/innovation/somatechtop-prize-all-island-circular-venture-awards-2026",
+   "source": "Silicon Republic",
+   "sourceId": "siliconrepublic",
+   "sourceTier": 2,
+   "region": "EU",
+   "lang": "en",
+   "categories": [
+    "Innovation",
+    "agriculture",
+    "agritech",
+    "AI",
+    "awards and recognition"
+   ],
+   "summary": "According to the judging panel, SomaTech demonstrated ‘commercial viability and significant scaling potential’. Read more: SomaTech takes top prize at All-Island Circular Venture Awards 2026",
+   "publishedAt": "2026-11-20T11:33:06.000Z",
+   "id": "c1d9a0b4b702a7a6",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "SomaTech 荣获 2026 年全岛循环创业奖最高奖",
+    "zhSummary": "根据评审团的说法，SomaTech 展示了“商业可行性和巨大的扩展潜力”。了解更多：SomaTech 荣获 2026 年全岛循环创业奖最高奖",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Italy’s Bending Spoons to buy Mailchimp from Intuit for $3.68bn",
+   "url": "https://www.siliconrepublic.com/business/italys-bending-spoons-to-buy-mailchimp-from-intuit-for-3-68bn",
+   "source": "Silicon Republic",
+   "sourceId": "siliconrepublic",
+   "sourceTier": 2,
+   "region": "EU",
+   "lang": "en",
+   "categories": [
+    "Business",
+    "email",
+    "enterprise software",
+    "Europe",
+    "Italy"
+   ],
+   "summary": "The deal, which is expected to close in early 2027, comes five years after Intuit bought Mailchimp for roughly $12bn. Read more: Italy’s Bending Spoons to buy Mailchimp from Intuit for $3.68bn",
+   "publishedAt": "2026-11-20T09:51:43.000Z",
+   "id": "747eb6b343f7ee53",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "意大利 Bending Spoons 将以 36.8 亿美元从 Intuit 手中收购 Mailchimp",
+    "zhSummary": "该交易预计将于 2027 年初完成，五年前 Intuit 以约 120 亿美元收购 Mailchimp。了解更多：意大利 Bending Spoons 将以 36.8 亿美元从 Intuit 手中收购 Mailchimp",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Commvault brings cyber crises decision making to life with Minutes to Meltdown",
+   "url": "https://www.tahawultech.com/news/commvault-brings-cyber-crisis-decision-making-to-life-with-minutes-to-meltdown/",
+   "source": "TahawulTech",
+   "sourceId": "tahawultech",
+   "sourceTier": 2,
+   "region": "ME",
+   "lang": "en",
+   "categories": [
+    "Home-Slide",
+    "News",
+    "Security",
+    "Commvault",
+    "cyber crisis management"
+   ],
+   "summary": "Interactive ransomware simulation hosted with Hitachi Vantara and Kyndryl in Dubai challenges business and technology leaders to make critical recovery decisions under pressure Commvault, in collaboration with Hitachi Vantara and Kyndryl, hosted its immersive Minutes to Meltdown cyber crisis simulation at TODA – Theatre of Digital Art, Dubai, bringing together business and tech…",
+   "publishedAt": "2026-11-20T09:23:34.000Z",
+   "id": "9bd7a3c81fbd595b",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Commvault 通过 Minutes to Meltdown 将网络危机决策变为现实",
+    "zhSummary": "由 Hitachi Vantara 和 Kyndryl 在迪拜主办的交互式勒索软件模拟挑战业务和技术领导者在压力下做出关键的恢复决策 Commvault 与 Hitachi Vantara 和 Kyndryl 合作，",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Monaghan’s Spryt wins Grand Prix at 2026 National Startup Awards",
+   "url": "https://www.siliconrepublic.com/start-ups/monaghans-spryt-wins-gran-prix-at-2026-national-startup-awards",
+   "source": "Silicon Republic",
+   "sourceId": "siliconrepublic",
+   "sourceTier": 2,
+   "region": "EU",
+   "lang": "en",
+   "categories": [
+    "Start-ups",
+    "AI",
+    "awards and recognition",
+    "Enterprise Ireland",
+    "entrepreneurs"
+   ],
+   "summary": "Spryt was named overall Startup of the Year at the National Startup Awards at City Hall last night. It was the 16th edition of the annual awards. Read more: Monaghan’s Spryt wins Grand Prix at 2026 National Startup Awards",
+   "publishedAt": "2026-11-20T09:22:58.000Z",
+   "id": "41d5fe968c0a7172",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Monaghan 的 Spryt 荣获 2026 年国家创业奖大奖",
+    "zhSummary": "Spryt 昨晚在市政厅举行的国家创业奖颁奖典礼上被评为年度最佳创业公司。这是该年度奖项的第16届。了解更多：Monaghan 的 Spryt 荣获 2026 年国家创业奖大奖",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Hytera showcases AI-powered public safety solutions at World Police Summit 2026",
+   "url": "https://www.tahawultech.com/enterprise/hytera-showcases-ai-powered-public-safety-solutions-at-world-police-summit-2026/",
+   "source": "TahawulTech",
+   "sourceId": "tahawultech",
+   "sourceTier": 2,
+   "region": "ME",
+   "lang": "en",
+   "categories": [
+    "Enterprise",
+    "News",
+    "Vendor",
+    "AI-powered",
+    "featured2"
+   ],
+   "summary": "Hytera Communications, a leading global provider of critical communications technologies and solutions, concluded its participation at the World Police Summit (WPS) 2026 in Dubai, where it showcased a range of AI-powered technologies designed to enhance public safety operations, strengthen emergency response capabilities and support the evolving needs of law enforcement agencie…",
+   "publishedAt": "2026-11-20T08:07:13.000Z",
+   "id": "e5f6f56c1a73ff52",
+   "topics": [
+    {
+     "id": "policy",
+     "name": "政策与治理",
+     "color": "#ef4444"
+    }
+   ],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "规则制定者正在给 AI 划边界",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "海能达在 2026 年世界警察峰会上展示人工智能驱动的公共安全解决方案",
+    "zhSummary": "全球领先的关键通信技术和解决方案提供商海能达通信结束了其在迪拜举行的 2026 年世界警察峰会 (WPS) 的参与，并在会上展示了一系列人工智能技术",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "10 Ireland-based cybersecurity experts you should know about",
+   "url": "https://www.siliconrepublic.com/enterprise/10-irish-cybersecurity-experts-you-should-know-about",
+   "source": "Silicon Republic",
+   "sourceId": "siliconrepublic",
+   "sourceTier": 2,
+   "region": "EU",
+   "lang": "en",
+   "categories": [
+    "Enterprise",
+    "AI",
+    "cyberattacks",
+    "cybersecurity",
+    "Ireland"
+   ],
+   "summary": "The world relies on security professionals to reinforce our systems. Ireland's experts have long contributed to this field. Read more: 10 Ireland-based cybersecurity experts you should know about",
+   "publishedAt": "2026-11-20T07:00:02.000Z",
+   "id": "f9323d62820b5e60",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "您应该了解的 10 位爱尔兰网络安全专家",
+    "zhSummary": "世界依赖安全专业人员来加强我们的系统。爱尔兰的专家长期以来一直在这一领域做出贡献。了解更多：您应该了解的 10 位爱尔兰网络安全专家",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "13 pre-seed fintechs to watch, according to VCs",
+   "url": "https://sifted.eu/articles/pre-seed-fintechs-to-watch/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-20T05:00:48.000Z",
+   "id": "66dfa5e6f24bb949",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "风投机构称 13 家值得关注的种子期金融科技公司",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "Inside Slush 2026: Robots, riches and the race to superintelligence",
+   "url": "https://sifted.eu/articles/inside-slush-2026-robots-riches-and-the-race-to-superintelligence/",
+   "source": "Sifted",
+   "sourceId": "sifted",
+   "sourceTier": 1,
+   "region": "EU",
+   "lang": "en",
+   "categories": [],
+   "summary": "",
+   "publishedAt": "2026-11-20T05:00:44.000Z",
+   "id": "e23f4e66748ec52e",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "en",
+    "src": "google+orig",
+    "pending": [],
+    "zhTitle": "Slush 2026 内部：机器人、财富和超级智能竞赛",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "“사람 코만큼 냄새 맡는다”… AI 후각 개발 나선 스타트업",
+   "url": "https://www.technologyreview.kr/%ec%82%ac%eb%9e%8c-%ec%bd%94%eb%a7%8c%ed%81%bc-%eb%83%84%ec%83%88-%eb%a7%a1%eb%8a%94%eb%8b%a4-ai-%ed%9b%84%ea%b0%81-%ea%b0%9c%eb%b0%9c-%eb%82%98%ec%84%a0-%ec%8a%a4%ed%83%80%ed%8a%b8/",
+   "source": "MIT Technology Review Korea",
+   "sourceId": "mittr-kr",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ko",
+   "categories": [
+    "인공지능",
+    "AI",
+    "AI 요약 완료",
+    "오스모",
+    "후각"
+   ],
+   "summary": "AI 스타트업 오스모가 방대한 후각 데이터와 AI 모델을 활용해 냄새를 구별하고 새로운 향을 만드는 기술을 개발하며 향수부터 질병 진단까지 활용 가능성을 넓히고 있다. The post “사람 코만큼 냄새 맡는다”… AI 후각 개발 나선 스타트업 appeared first on MIT 테크놀로지 리뷰 | MIT Technology Review Korea .",
+   "publishedAt": "2026-11-19T21:00:00.000Z",
+   "id": "80281d8b8bad92a4",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "ko",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "“我能像人鼻子一样闻到气味”……初创公司开发人工智能嗅觉",
+    "zhSummary": "人工智能初创公司 Osmo 正在利用大量嗅觉数据和人工智能模型来开发技术来区分气味并创造新的气味，从而扩大其从香水到疾病诊断的应用潜力。 “我能像人鼻子一样闻到气味”……开发人工智能嗅觉的初创公司首次出现在《麻省理工科技评论》上 |麻省理工学院技术评论韩国。",
+    "enTitle": "“I can smell as much as a human nose”... Startup developing AI sense of smell",
+    "enSummary": "AI startup Osmo is using vast olfactory data and AI models to develop technology to distinguish odors and create new scents, expanding its potential for use from perfume to disease diagnosis. The post “I can smell as much as a human nose”... Startup developing AI sense of smell appeared first on MIT Technology Review | MIT Technology Review Korea.",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "AIマーケティングとは？種類・活用分野10選と企業事例をわかりやすく解説",
+   "url": "https://ainow.ai/2026/11/20/278551/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2583%259e%25e3%2583%25bc%25e3%2582%25b1%25e3%2583%2586%25e3%2582%25a3%25e3%2583%25b3%25e3%2582%25b0%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e7%25a8%25ae%25e9%25a1%259e%25e3%2583%25bb%25e6%25b4%25bb%25e7%2594%25a8%25e5%2588%2586%25e9%2587%258e10%25e9%2581%25b8%25e3%2581%25a8%25e4%25bc%2581%25e6%25a5%25ad",
+   "source": "AINOW",
+   "sourceId": "ainow",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ja",
+   "categories": [
+    "AINOW編集部",
+    "生成AI"
+   ],
+   "summary": "ChatGPTで広告コピーを作る程度には使っているものの、部署全体のマーケティングにAIをどう組み込めば成果が出るのか、全体像を描けていない方は多いのではないでしょうか。 AIマーケティングとは、AIを使って顧客データの分析・予測からコンテンツ制作、施策の実行までを効率化・高度化するマーケティング手法です。 すでに広告運用やメール配信でAIを使い、成果を伸ばしている企業は増えています。一方で、AIの種類と得意分野を理解しないまま導入すると、課題に合わないツールを選んで予算を無駄にしやすくなります。 本記事では、予測AI・生成AI・AIエージェントの3種類と10の活用分野を軸に、企業事例と導入の手順を中心に解説します。 読み終えたときには、自社の課題に合うAIとツールを選び、社内にAIマーケティングの導入を提案できる状態になっています。ぜひ最後までご覧…",
+   "publishedAt": "2026-11-19T19:04:38.000Z",
+   "id": "1887838863539972",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "ja",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "什么是人工智能营销？ 10种类型和应用领域及公司示例的简单易懂的解释",
+    "zhSummary": "虽然很多人使用ChatGPT达到了制作广告文案的程度，但很多人可能无法全面了解如何将AI融入到整个部门的营销中以达到效果。 AI营销是一种利用人工智能来简化和提高从分析和预测客户数据到内容制作和实施措施的一切效率和复杂性的营销方法。越来越多的公司已经在广告运营和电子邮件分发中使用人工智能来改善业绩。",
+    "enTitle": "What is AI marketing? Easy-to-understand explanation of 10 types and application fields and company examples",
+    "enSummary": "Although many people use ChatGPT to the extent of creating ad copy, many people may not be able to draw a complete picture of how to incorporate AI into the marketing of the entire department to achieve results. AI marketing is a marketing method that uses AI to streamline and improve the efficiency and sophistication of everything from analyzing and predicting customer data to content production and implementing measures. An increasing number of companies are already using AI in advertising operations and email distribution to improve results.",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "안정적 ‘재생에너지’의 균열…기후변화 직격탄 맞은 수력 발전",
+   "url": "https://www.technologyreview.kr/%ec%95%88%ec%a0%95%ec%a0%81-%ec%9e%ac%ec%83%9d%ec%97%90%eb%84%88%ec%a7%80%ec%9d%98-%ea%b7%a0%ec%97%b4%ea%b8%b0%ed%9b%84%eb%b3%80%ed%99%94-%ec%a7%81%ea%b2%a9%ed%83%84-%eb%a7%9e/",
+   "source": "MIT Technology Review Korea",
+   "sourceId": "mittr-kr",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ko",
+   "categories": [
+    "기후변화 · 에너지",
+    "AI 요약 완료",
+    "기후변화",
+    "수력발전",
+    "에너지정보청"
+   ],
+   "summary": "장기 가뭄과 기후변화로 수력 발전량이 급감하면서 재생에너지의 안정적인 전력 공급에도 경고등이 켜졌다. The post 안정적 ‘재생에너지’의 균열…기후변화 직격탄 맞은 수력 발전 appeared first on MIT 테크놀로지 리뷰 | MIT Technology Review Korea .",
+   "publishedAt": "2026-11-18T21:00:00.000Z",
+   "id": "f2cb7341447be796",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "ko",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "稳定的“可再生能源”出现裂痕……水力发电直接受到气候变化的打击",
+    "zhSummary": "由于长期干旱和气候变化，水力发电量大幅下降，可再生能源稳定供电已敲响警钟。稳定的“可再生能源”出现裂痕……受气候变化直接打击的水力发电首先出现在《麻省理工学院技术评论》上麻省理工学院技术评论韩国。",
+    "enTitle": "Cracks in stable ‘renewable energy’… Hydroelectric power generation directly hit by climate change",
+    "enSummary": "As hydroelectric power generation has plummeted due to long-term drought and climate change, warning lights have come on regarding the stable power supply of renewable energy. The post Cracks in stable ‘renewable energy’… Hydroelectric power directly hit by climate change appeared first on MIT Technology Review | MIT Technology Review Korea.",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "뇌 임플란트 발전 이끈 숨은 주역들, 이제는 자신의 권리를 말하다",
+   "url": "https://www.technologyreview.kr/%eb%87%8c-%ec%9e%84%ed%94%8c%eb%9e%80%ed%8a%b8-%eb%b0%9c%ec%a0%84-%ec%9d%b4%eb%81%88-%ec%88%a8%ec%9d%80-%ec%a3%bc%ec%97%ad%eb%93%a4-%ec%9d%b4%ec%a0%9c%eb%8a%94-%ec%9e%90%ec%8b%a0%ec%9d%98-%ea%b6%8c/",
+   "source": "MIT Technology Review Korea",
+   "sourceId": "mittr-kr",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ko",
+   "categories": [
+    "바이오",
+    "AI 요약 완료",
+    "뇌임플란트"
+   ],
+   "summary": "실험용 뇌 임플란트를 이식받은 사람들이 연구에 기여한 만큼 정당한 인정을 받고 임상시험 과정에서도 자신의 권리와 결정권을 존중받아야 한다고 목소리를 내고 있다. The post 뇌 임플란트 발전 이끈 숨은 주역들, 이제는 자신의 권리를 말하다 appeared first on MIT 테크놀로지 리뷰 | MIT Technology Review Korea .",
+   "publishedAt": "2026-11-17T21:00:00.000Z",
+   "id": "197dd472a3e0285d",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "ko",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "领导大脑植入物开发的隐藏参与者现在正在大声疾呼他们的权利。",
+    "zhSummary": "接受实验性大脑植入的人们纷纷呼吁，他们对研究的贡献应该得到应有的认可，他们的权利和决策权在临床试验期间应该得到尊重。领导大脑植入物开发的隐藏参与者现在为自己的权利发声，首先出现在《麻省理工学院技术评论》上 |麻省理工学院技术评论韩国。",
+    "enTitle": "The hidden players who led the development of brain implants are now speaking out about their rights.",
+    "enSummary": "People who have received experimental brain implants are raising their voices that they should be given due recognition for their contribution to research and that their rights and decision-making authority should be respected during clinical trials. The post Hidden players who led the development of brain implants, now speak out for their rights appeared first on MIT Technology Review | MIT Technology Review Korea.",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "AI採用とは？活用できる5業務とメリット・注意点を解説",
+   "url": "https://ainow.ai/2026/11/18/278539/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e6%258e%25a1%25e7%2594%25a8%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e6%25b4%25bb%25e7%2594%25a8%25e3%2581%25a7%25e3%2581%258d%25e3%2582%258b5%25e6%25a5%25ad%25e5%258b%2599%25e3%2581%25a8%25e3%2583%25a1%25e3%2583%25aa%25e3%2583%2583%25e3%2583%2588%25e3%2583%25bb%25e6%25b3%25a8%25e6%2584%258f%25e7%2582%25b9",
+   "source": "AINOW",
+   "sourceId": "ainow",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ja",
+   "categories": [
+    "AINOW編集部",
+    "生成AI"
+   ],
+   "summary": "人手が足りない中で、求人票の作成やスカウト文の準備、書類選考に追われ、候補者と向き合う時間が減っていないでしょうか。 採用にAIを使うと、こうした定型業務を減らせます。一方で、学習データの偏りや個人情報の扱いといった新たな課題も生まれます。 本記事では、AI採用とは何か、活用できる業務、メリット、注意点を整理して解説します。 読み終えたときには、自社の採用工程のどこにAIを使い、どこを人が担うかを判断できるようになります。 AI採用とは AI採用とは、求人の作成から選考、面接の記録まで、採用業務の工程にAIを組み込んで効率化や公平性の向上を図る取り組みです。 ポイントは、採用業務をAIに丸ごと任せることではありません。AIが担う作業と、人が判断する作業を分けて設計することにあります。 多くの解説記事が、採用の最終的な合否は人が判断すべきだと指摘してい…",
+   "publishedAt": "2026-11-17T17:54:16.000Z",
+   "id": "a215e7d69996fa8d",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "ja",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "什么是人工智能招聘？可以使用的 5 个任务的说明、优点和注意事项",
+    "zhSummary": "由于人手短缺，您是否忙着发布招聘信息、准备星探信、筛选文件，而与候选人面对面交流的时间是否减少？在招聘中使用人工智能可以减少这些日常任务。另一方面，出现了新的问题，例如训练数据的偏差和个人信息的处理。在这篇文章中，我们将解释什么是人工智能招聘、可以用于人工智能招聘的任务、好处以及注意事项。当你读完它时，你将能够决定在公司的招聘流程中哪些地方使用人工智能以及哪些地方使用人类。什么是人工智能招聘？",
+    "enTitle": "What is AI recruitment? Explanation of 5 tasks that can be used, benefits, and precautions",
+    "enSummary": "With a shortage of manpower, are you busy creating job postings, preparing scout letters, and screening documents, and are you spending less time face-to-face with candidates? Using AI in recruitment can reduce these routine tasks. On the other hand, new issues arise, such as bias in training data and handling of personal information. In this article, we will explain what AI recruitment is, the tasks that can be used for it, the benefits, and points to note. By the time you finish reading it, you will be able to decide where to use AI in your company's recruitment process and where to use humans. What is AI recruitment?",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "오픈소스 진영, 젠슨 황 복귀 촉구…하지만 ‘악재’ 줄줄이",
+   "url": "https://www.technologyreview.kr/%ec%98%a4%ed%94%88%ec%86%8c%ec%8a%a4-%ec%a7%84%ec%98%81-%ec%a0%a0%ec%8a%a8-%ed%99%a9-%eb%b3%b5%ea%b7%80-%ec%b4%89%ea%b5%ac%ed%95%98%ec%a7%80%eb%a7%8c-%ec%95%85%ec%9e%ac-%ec%a4%84/",
+   "source": "MIT Technology Review Korea",
+   "sourceId": "mittr-kr",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ko",
+   "categories": [
+    "인공지능",
+    "AI 요약 완료",
+    "복귀",
+    "엔비디아",
+    "오픈소스"
+   ],
+   "summary": "허깅 페이스와 벤처캐피털 등 오픈소스 AI 진영이 젠슨 황 전 엔비디아 CEO의 복귀 청원에 대거 동참하고 있지만, 중국의 블랙웰 칩 이용 의혹과 미국 상무부의 새 규제로 오픈소스 AI의 평판과 기술 발전에 먹구름이 드리우고 있다. The post 오픈소스 진영, 젠슨 황 복귀 촉구…하지만 ‘악재’ 줄줄이 appeared first on MIT 테크놀로지 리뷰 | MIT Technology Review Korea .",
+   "publishedAt": "2026-11-16T23:58:10.000Z",
+   "id": "f189b2d425ac2c20",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "ko",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "开源阵营催促黄仁勋回归……然而“坏消息”接二连三",
+    "zhSummary": "Hugging Face、风投等一大批开源AI阵营正在加入请愿活动，要求英伟达前CEO黄仁勋回归，但对中国使用Blackwell芯片的怀疑以及美国商务部新规的出台，给开源AI的声誉和技术发展蒙上了一层阴影。后开源阵营催促黄仁勋回归……然而《麻省理工科技评论》先是接连出现“坏消息”|麻省理工学院技术评论韩国。",
+    "enTitle": "Open source camp urges Jensen Huang to return... However, one after another of ‘bad news’",
+    "enSummary": "A large number of open source AI camps, such as Hugging Face and venture capital, are joining the petition for the return of former Nvidia CEO Jensen Huang, but suspicions about China's use of Blackwell chips and new regulations from the U.S. Department of Commerce are casting a cloud over the reputation and technological development of open source AI. The post Open source camp urges Jensen Huang to return... However, ‘bad news’ appeared one after another first on MIT Technology Review | MIT Technology Review Korea.",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  },
+  {
+   "title": "미래를 예측한다던 실리콘밸리 거물들은 왜 정치의 미래를 읽지 못했나",
+   "url": "https://www.technologyreview.kr/%eb%af%b8%eb%9e%98%eb%a5%bc-%ea%bf%b0%eb%9a%ab%eb%8a%94%eb%8b%a4%eb%8d%98-%ec%8b%a4%eb%a6%ac%ec%bd%98%eb%b0%b8%eb%a6%ac%eb%8a%94-%ec%99%9c-%eb%af%b8%ea%b5%ad-%ec%a4%91%ea%b0%84%ec%84%a0%ea%b1%b0/",
+   "source": "MIT Technology Review Korea",
+   "sourceId": "mittr-kr",
+   "sourceTier": 1,
+   "region": "JPKR",
+   "lang": "ko",
+   "categories": [
+    "오피니언",
+    "AI",
+    "AI 요약 완료",
+    "도널드트럼프",
+    "샘올트먼"
+   ],
+   "summary": "트럼프 행정부에 공개적으로 줄을 선 실리콘밸리의 AI 거물들이 미국 중간선거에서 드러난 정치 지형의 변화를 예측하지 못하면서 장기적인 기업 신뢰와 사업 전략까지 위태롭게 만들었다. The post 미래를 예측한다던 실리콘밸리 거물들은 왜 정치의 미래를 읽지 못했나 appeared first on MIT 테크놀로지 리뷰 | MIT Technology Review Korea .",
+   "publishedAt": "2026-11-16T21:00:00.000Z",
+   "id": "b1cd63b7ae75c619",
+   "topics": [],
+   "entities": [],
+   "difficulty": "进阶",
+   "importance": 20,
+   "plainHint": "行业又有了新动向",
+   "firstSeen": "2026-11-22",
+   "isNew": false,
+   "i18n": {
+    "origLang": "ko",
+    "src": "google",
+    "pending": [],
+    "zhTitle": "为什么号称能预测未来的硅谷巨头们却没有读懂政治的未来？",
+    "zhSummary": "公开与特朗普政府结盟的硅谷人工智能巨头未能预见到美国中期选举所揭示的政治格局的变化，从而危及了企业的长期信任和商业战略。 《为什么预测未来的硅谷巨头们不能读懂政治的未来》一文首先出现在《麻省理工科技评论》上 |麻省理工学院技术评论韩国。",
+    "enTitle": "Why did the Silicon Valley giants who were said to predict the future fail to read the future of politics?",
+    "enSummary": "Silicon Valley's AI giants who have publicly aligned themselves with the Trump administration have jeopardized long-term corporate trust and business strategies by failing to anticipate the changes in the political landscape revealed in the U.S. midterm elections. The post Why couldn't the Silicon Valley giants who predicted the future read the future of politics appeared first on MIT Technology Review | MIT Technology Review Korea.",
+    "ts": "2026-11-23T08:22:59.743Z",
+    "partial": false
+   }
+  }
+ ]
+}
