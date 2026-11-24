@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-24",
- "generatedAt": "2026-11-24T10:30:00.832Z",
+ "generatedAt": "2026-11-24T14:41:54.125Z",
  "mode": "rule",
  "counts": {
-  "crawled": 426,
+  "crawled": 425,
   "published": 154,
-  "newCount": 107,
-  "repeatCount": 47,
+  "newCount": 114,
+  "repeatCount": 40,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,60 +22,64 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 113,
-  "withinFresh": 120,
+  "within24h": 112,
+  "withinFresh": 125,
   "freshHours": 72,
   "monthPrecision": 19,
   "undated": 0,
-  "staleDropped": 33,
-  "newestAt": "2026-11-24T18:28:58.000Z"
+  "staleDropped": 37,
+  "newestAt": "2026-11-24T20:21:09.000Z"
  },
  "themes": [
   {
-   "name": "资本与市场",
-   "n": 45
+   "name": "产品与应用",
+   "n": 43
   },
   {
-   "name": "产品与应用",
-   "n": 40
+   "name": "资本与市场",
+   "n": 39
   },
   {
    "name": "算力与基建",
-   "n": 34
+   "n": 28
   },
   {
    "name": "模型与能力",
-   "n": 20
+   "n": 21
   },
   {
    "name": "产业与生态",
-   "n": 16
+   "n": 19
   },
   {
    "name": "政策与治理",
-   "n": 11
+   "n": 9
   }
  ],
  "entities": [
   {
    "name": "NVIDIA",
-   "n": 27
+   "n": 21
   },
   {
    "name": "Anthropic",
    "n": 11
   },
   {
-   "name": "OpenAI",
-   "n": 7
+   "name": "Amazon",
+   "n": 8
   },
   {
-   "name": "Amazon",
-   "n": 6
+   "name": "Meta",
+   "n": 5
+  },
+  {
+   "name": "OpenAI",
+   "n": 5
   },
   {
    "name": "Google",
-   "n": 6
+   "n": 5
   },
   {
    "name": "腾讯",
@@ -83,10 +87,6 @@
   },
   {
    "name": "DeepSeek",
-   "n": 3
-  },
-  {
-   "name": "Meta",
    "n": 3
   }
  ],
@@ -114,33 +114,12 @@
    "isNew": true
   },
   {
-   "id": "bc073fb0e5223598",
-   "title": "这些一流大模型，为什么选择不同的 Benchmark？",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8216115.html",
-   "importance": 99,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-24T09:10:35.000Z",
-   "topics": [
-    "模型与能力",
-    "资本与市场"
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic",
-    "腾讯"
-   ],
-   "firstSeen": "2026-11-24",
-   "isNew": true
-  },
-  {
    "id": "29de782812d2a439",
    "title": "早报｜黄仁勋回归，英伟达股价一夜暴涨31%/《复仇者联盟5》发布终极预告/3399起，荣耀700系列发布",
    "source": "爱范儿",
    "region": "CN",
    "url": "https://www.ifanr.com/1691119?utm_source=rss&utm_medium=rss&utm_campaign=",
-   "importance": 98,
+   "importance": 93,
    "difficulty": "入门",
    "publishedAt": "2026-11-24T00:02:01.000Z",
    "topics": [
@@ -152,90 +131,6 @@
     "NVIDIA",
     "智谱AI",
     "DeepSeek"
-   ],
-   "firstSeen": "2026-11-24",
-   "isNew": true
-  },
-  {
-   "id": "5fba2db05a6cf249",
-   "title": "Anthropic shares fall as Nvidia, other AI stocks rally",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/anthropic-shares-fall-nvidia-ai-stocks-rally",
-   "importance": 96,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-24T02:05:03.000Z",
-   "topics": [
-    "资本与市场",
-    "算力与基建"
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic",
-    "NVIDIA"
-   ],
-   "firstSeen": "2026-11-24",
-   "isNew": true
-  },
-  {
-   "id": "338447f019b8244e",
-   "title": "错过Anthropic的孙正义，半年投资亏了323亿",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8216202.html",
-   "importance": 95,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-24T09:03:40.000Z",
-   "topics": [
-    "算力与基建",
-    "资本与市场"
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic",
-    "NVIDIA",
-    "软银"
-   ],
-   "firstSeen": "2026-11-24",
-   "isNew": true
-  },
-  {
-   "id": "06b015dc5c8334a7",
-   "title": "英伟达恢复黄仁勋CEO职务！黄仁勋重返公司总部，受到数百名员工迎接；DeepSeek最新估值或达6078亿元；蚂蚁开源医疗AI模型家族丨雷峰早报",
-   "source": "雷峰网",
-   "region": "CN",
-   "url": "https://www.leiphone.com/category/zaobao/Ao31dQuXPBTU7qpK.html",
-   "importance": 95,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-24T01:42:00.000Z",
-   "topics": [
-    "模型与能力",
-    "产业与生态"
-   ],
-   "entities": [
-    "OpenAI",
-    "Meta",
-    "NVIDIA",
-    "小米"
-   ],
-   "firstSeen": "2026-11-24",
-   "isNew": true
-  },
-  {
-   "id": "b2d175793ce760c1",
-   "title": "华为星芒O1 Pro，如何把手机 AI 再往前努一小步",
-   "source": "极客公园",
-   "region": "CN",
-   "url": "http://www.geekpark.net/news/374417",
-   "importance": 92,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-24T07:47:16.000Z",
-   "topics": [
-    "产品与应用"
-   ],
-   "entities": [
-    "字节跳动",
-    "华为"
    ],
    "firstSeen": "2026-11-24",
    "isNew": true
@@ -258,6 +153,107 @@
     "Anthropic",
     "阿里巴巴",
     "月之暗面"
+   ],
+   "firstSeen": "2026-11-24",
+   "isNew": true
+  },
+  {
+   "id": "5fba2db05a6cf249",
+   "title": "Anthropic shares fall as Nvidia, other AI stocks rally",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/anthropic-shares-fall-nvidia-ai-stocks-rally",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-24T02:05:03.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-11-24",
+   "isNew": true
+  },
+  {
+   "id": "266281ab9f853bcf",
+   "title": "实测小豆：主动办事的背后，AI 正在走向每一个人",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1691355?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-24T11:04:40.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "Meta"
+   ],
+   "firstSeen": "2026-11-24",
+   "isNew": true
+  },
+  {
+   "id": "86f87953c9f5d2bd",
+   "title": "阶跃星辰的终端生态，还是一场熟人局？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8215895.html",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-24T09:15:51.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "阶跃星辰"
+   ],
+   "firstSeen": "2026-11-24",
+   "isNew": true
+  },
+  {
+   "id": "06b015dc5c8334a7",
+   "title": "英伟达恢复黄仁勋CEO职务！黄仁勋重返公司总部，受到数百名员工迎接；DeepSeek最新估值或达6078亿元；蚂蚁开源医疗AI模型家族丨雷峰早报",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/zaobao/Ao31dQuXPBTU7qpK.html",
+   "importance": 90,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-24T01:42:00.000Z",
+   "topics": [
+    "模型与能力",
+    "产业与生态"
+   ],
+   "entities": [
+    "OpenAI",
+    "Meta",
+    "NVIDIA",
+    "小米"
+   ],
+   "firstSeen": "2026-11-24",
+   "isNew": true
+  },
+  {
+   "id": "2f82780e136efdde",
+   "title": "市值蒸发3000亿后，摩尔线程要拿出10亿回购",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8216343.html",
+   "importance": 89,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-24T11:07:08.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "NVIDIA",
+    "摩尔线程"
    ],
    "firstSeen": "2026-11-24",
    "isNew": true
@@ -294,33 +290,12 @@
      "isNew": true
     },
     {
-     "id": "bc073fb0e5223598",
-     "title": "这些一流大模型，为什么选择不同的 Benchmark？",
-     "source": "钛媒体",
-     "region": "CN",
-     "url": "https://www.tmtpost.com/8216115.html",
-     "importance": 99,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-24T09:10:35.000Z",
-     "topics": [
-      "模型与能力",
-      "资本与市场"
-     ],
-     "entities": [
-      "OpenAI",
-      "Anthropic",
-      "腾讯"
-     ],
-     "firstSeen": "2026-11-24",
-     "isNew": true
-    },
-    {
      "id": "29de782812d2a439",
      "title": "早报｜黄仁勋回归，英伟达股价一夜暴涨31%/《复仇者联盟5》发布终极预告/3399起，荣耀700系列发布",
      "source": "爱范儿",
      "region": "CN",
      "url": "https://www.ifanr.com/1691119?utm_source=rss&utm_medium=rss&utm_campaign=",
-     "importance": 98,
+     "importance": 93,
      "difficulty": "入门",
      "publishedAt": "2026-11-24T00:02:01.000Z",
      "topics": [
@@ -332,6 +307,28 @@
       "NVIDIA",
       "智谱AI",
       "DeepSeek"
+     ],
+     "firstSeen": "2026-11-24",
+     "isNew": true
+    },
+    {
+     "id": "a7e10789308e192e",
+     "title": "国产大模型的黄仁勋变量",
+     "source": "36氪",
+     "region": "CN",
+     "url": "https://36kr.com/p/4083259280561031?f=rss",
+     "importance": 91,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-24T04:26:25.000Z",
+     "topics": [
+      "模型与能力",
+      "产业与生态"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "阿里巴巴",
+      "月之暗面"
      ],
      "firstSeen": "2026-11-24",
      "isNew": true
@@ -351,7 +348,7 @@
      "source": "Tech in Asia",
      "region": "SEA",
      "url": "https://www.techinasia.com/news/anthropic-shares-fall-nvidia-ai-stocks-rally",
-     "importance": 96,
+     "importance": 91,
      "difficulty": "进阶",
      "publishedAt": "2026-11-24T02:05:03.000Z",
      "topics": [
@@ -385,20 +382,18 @@
      "isNew": true
     },
     {
-     "id": "84d8806d75ae2939",
-     "title": "Singapore probes Megaspeed after US trade blacklist",
+     "id": "218b7ceb4fd1b0b0",
+     "title": "Mapping the trailblazing startups in Australia’s AI sector",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/news/singapore-probes-megaspeed-trade-blacklist",
-     "importance": 84,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-24T06:00:26.000Z",
+     "url": "https://www.techinasia.com/visual-story/mapping-trailblazing-startups-australias-ai-sector",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-24T11:00:00.000Z",
      "topics": [
-      "算力与基建"
+      "资本与市场"
      ],
-     "entities": [
-      "NVIDIA"
-     ],
+     "entities": [],
      "firstSeen": "2026-11-24",
      "isNew": true
     }
@@ -411,6 +406,23 @@
    "flag": "🕌",
    "count": 24,
    "top": [
+    {
+     "id": "8257c2bada354ee3",
+     "title": "Cynoia launches Hannibal AI ahead of further African expansion",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/cynoia-launches-hannibal-ai-ahead-african-expansion",
+     "importance": 68,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-24",
+     "isNew": true
+    },
     {
      "id": "9eeaaa95daa160d4",
      "title": "NVIDIA shares soar 30% following Jensen Huang’s return as CEO and chairman",
@@ -430,37 +442,18 @@
      "isNew": true
     },
     {
-     "id": "acffa3b274acb5d5",
-     "title": "UAE's Vision Makers secures $4 million in a dual round",
-     "source": "Wamda",
+     "id": "66b52fb28ab9ac84",
+     "title": "Burjeel puts secure connectivity at the heart of patient care with HPE Networking",
+     "source": "TahawulTech",
      "region": "ME",
-     "url": "https://www.wamda.com/2026/11/uae-vision-makers-secures-4-million-dual-round",
-     "importance": 56,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "资本与市场"
-     ],
+     "url": "https://www.tahawultech.com/home-slide/burjeel-puts-secure-connectivity-at-the-heart-of-patient-care-with-hpe-networking/",
+     "importance": 57,
+     "difficulty": "高级",
+     "publishedAt": "2026-11-24T11:50:50.000Z",
+     "topics": [],
      "entities": [],
-     "firstSeen": "2026-11-23",
-     "isNew": false
-    },
-    {
-     "id": "a935ba3e7428173b",
-     "title": "Jordanian fintech invoiceQ raises $5 million in oversubscribed Series A",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/jordanian-fintech-invoiceq-raises-5-million-oversubscribed-series-a",
-     "importance": 52,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "资本与市场",
-      "政策与治理"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-23",
-     "isNew": false
+     "firstSeen": "2026-11-24",
+     "isNew": true
     }
    ]
   },
@@ -561,15 +554,17 @@
      "isNew": true
     },
     {
-     "id": "bcef4530a12a17b8",
-     "title": "Cybersecurity startups mapped: 108 companies guarding Europe's digital frontline",
-     "source": "Sifted",
+     "id": "20b900dc378de668",
+     "title": "Is AI-generated research putting pressure on STEM-based peer review?",
+     "source": "Silicon Republic",
      "region": "EU",
-     "url": "https://sifted.eu/articles/cybersecurity-startups-mapped-108-companies-guarding-europes-digital-frontline/",
-     "importance": 66,
+     "url": "https://www.siliconrepublic.com/innovation/ai%e2%80%91enabled-scientific-research-threat-stem-field-innovation",
+     "importance": 69,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-24T05:00:22.000Z",
-     "topics": [],
+     "publishedAt": "2026-11-24T12:30:22.000Z",
+     "topics": [
+      "产业与生态"
+     ],
      "entities": [],
      "firstSeen": "2026-11-24",
      "isNew": true
@@ -584,19 +579,39 @@
    "count": 24,
    "top": [
     {
-     "id": "6cbba3a18911adb0",
-     "title": "Amazon acquires key assets of AI startup Decart for reported $7.5B",
-     "source": "SiliconANGLE",
+     "id": "2739419de4235038",
+     "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+     "source": "Ars Technica AI",
      "region": "NA",
-     "url": "https://siliconangle.com/2026/11/23/amazon-acquires-key-assets-of-ai-startup-decart-for-reported-7-5b/",
-     "importance": 86,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-24T01:40:22.000Z",
+     "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-24T12:30:05.000Z",
      "topics": [
-      "资本与市场"
+      "产品与应用",
+      "产业与生态"
      ],
      "entities": [
       "Amazon"
+     ],
+     "firstSeen": "2026-11-24",
+     "isNew": true
+    },
+    {
+     "id": "eaa7142a88940246",
+     "title": "Data centers are getting their own natural gas power plants",
+     "source": "MIT Technology Review",
+     "region": "NA",
+     "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-24T11:00:00.000Z",
+     "topics": [
+      "算力与基建",
+      "产品与应用"
+     ],
+     "entities": [
+      "xAI"
      ],
      "firstSeen": "2026-11-24",
      "isNew": true
@@ -619,25 +634,6 @@
      ],
      "firstSeen": "2026-11-24",
      "isNew": true
-    },
-    {
-     "id": "716e69035a55430f",
-     "title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
-     "source": "The Verge AI",
-     "region": "NA",
-     "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
-     "importance": 79,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-23T19:04:52.000Z",
-     "topics": [
-      "产品与应用"
-     ],
-     "entities": [
-      "Apple",
-      "Amazon"
-     ],
-     "firstSeen": "2026-11-24",
-     "isNew": true
     }
    ]
   },
@@ -649,49 +645,51 @@
    "count": 24,
    "top": [
     {
-     "id": "1594bf7c793fdbe9",
-     "title": "Ex-Sequoia Investor Sudhanshu Mishra Launches Agentic AI Startup Demi AI",
+     "id": "242733279225c491",
+     "title": "Claude Ship and OpenAI OpenWorks: What Each Does and Who Can Use It",
+     "source": "Techloy",
+     "region": "OTHER",
+     "url": "https://www.techloy.com/claude-ship-openai-openworks-explained/",
+     "importance": 88,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-24T10:32:39.000Z",
+     "topics": [
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-24",
+     "isNew": true
+    },
+    {
+     "id": "c6691a7c1b48bb56",
+     "title": "AidenAI Nets $32 Mn To Scale Enterprise AI Workflows",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/ex-sequoia-investor-sudhanshu-mishra-launches-agentic-ai-startup-demi-ai/",
+     "url": "https://inc42.com/buzz/aidenai-nets-32-mn-to-scale-enterprise-ai-workflows/",
      "importance": 85,
      "difficulty": "入门",
-     "publishedAt": "2026-11-24T08:26:07.000Z",
+     "publishedAt": "2026-11-24T10:23:27.000Z",
      "topics": [
-      "产品与应用"
+      "资本与市场",
+      "产业与生态"
      ],
      "entities": [],
      "firstSeen": "2026-11-24",
      "isNew": true
     },
     {
-     "id": "823435754bd54806",
-     "title": "Google Cloud Confirms Around 30 Job Cuts In India, Rejects Wider Layoff Rumours",
+     "id": "a1c8bfce82b38420",
+     "title": "GMP Not Indicator Of Expected Returns: SEBI Seeks To Curb IPO GMP Circulation",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/google-cloud-confirms-around-30-job-cuts-in-india-rejects-wider-layoff-rumours/",
-     "importance": 84,
+     "url": "https://inc42.com/buzz/gmp-not-indicator-of-expected-returns-sebi-seeks-to-curb-ipo-gmp-circulation/",
+     "importance": 82,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-24T07:29:13.000Z",
-     "topics": [
-      "算力与基建",
-      "资本与市场"
-     ],
-     "entities": [
-      "Google"
-     ],
-     "firstSeen": "2026-11-24",
-     "isNew": true
-    },
-    {
-     "id": "bcd6dc58f6b3ee3f",
-     "title": "Cosine Robots Bags ₹22.4 Cr To Scale Robotics Hardware Production",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/cosine-robots-bags-%e2%82%b922-4-cr-to-scale-robotics-hardware-production/",
-     "importance": 81,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-24T09:16:50.000Z",
+     "publishedAt": "2026-11-24T13:15:41.000Z",
      "topics": [
       "资本与市场"
      ],
@@ -702,5 +700,5 @@
    ]
   }
  ],
- "overview": "11 月 24 日，共从 26 个信息源抓取 426 条 AI 产业动态，其中 154 条进入当日精选，覆盖 7 个区域。其中有 113 条发布于 24 小时内。其中 107 条是此前未出现过的新增内容，另有 47 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」45 条、「产品与应用」40 条。值得优先关注的几条：「AI办公，不再只拼大模型」（钛媒体）、「这些一流大模型，为什么选择不同的 Benchmark？」（钛媒体）、「早报｜黄仁勋回归，英伟达股价一夜暴涨31%/《复仇者联盟5》发布终极预告/3399起，荣耀700系列发布」（爱范儿）。"
+ "overview": "11 月 24 日，共从 26 个信息源抓取 425 条 AI 产业动态，其中 154 条进入当日精选，覆盖 7 个区域。其中有 112 条发布于 24 小时内。其中 114 条是此前未出现过的新增内容，另有 40 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」43 条、「资本与市场」39 条。值得优先关注的几条：「AI办公，不再只拼大模型」（钛媒体）、「早报｜黄仁勋回归，英伟达股价一夜暴涨31%/《复仇者联盟5》发布终极预告/3399起，荣耀700系列发布」（爱范儿）、「国产大模型的黄仁勋变量」（36氪）。"
 }
