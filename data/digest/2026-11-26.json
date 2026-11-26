@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-26",
- "generatedAt": "2026-11-26T08:57:48.877Z",
+ "generatedAt": "2026-11-26T13:42:47.439Z",
  "mode": "rule",
  "counts": {
   "crawled": 421,
   "published": 153,
-  "newCount": 105,
-  "repeatCount": 48,
+  "newCount": 122,
+  "repeatCount": 31,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,10 +22,10 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 121,
-  "withinFresh": 132,
+  "within24h": 122,
+  "withinFresh": 133,
   "freshHours": 72,
-  "monthPrecision": 17,
+  "monthPrecision": 16,
   "undated": 0,
   "staleDropped": 39,
   "newestAt": "2026-11-26T17:55:33.000Z"
@@ -33,23 +33,23 @@
  "themes": [
   {
    "name": "资本与市场",
-   "n": 51
+   "n": 53
   },
   {
    "name": "产品与应用",
-   "n": 35
+   "n": 32
   },
   {
    "name": "算力与基建",
-   "n": 26
+   "n": 27
   },
   {
    "name": "产业与生态",
-   "n": 22
+   "n": 18
   },
   {
    "name": "政策与治理",
-   "n": 15
+   "n": 13
   },
   {
    "name": "模型与能力",
@@ -59,15 +59,11 @@
  "entities": [
   {
    "name": "NVIDIA",
-   "n": 12
+   "n": 14
   },
   {
    "name": "Anthropic",
-   "n": 11
-  },
-  {
-   "name": "Amazon",
-   "n": 7
+   "n": 12
   },
   {
    "name": "OpenAI",
@@ -75,22 +71,48 @@
   },
   {
    "name": "Meta",
-   "n": 4
+   "n": 5
+  },
+  {
+   "name": "Amazon",
+   "n": 5
   },
   {
    "name": "Google",
    "n": 3
   },
   {
-   "name": "华为",
+   "name": "Apple",
    "n": 3
   },
   {
-   "name": "Apple",
-   "n": 2
+   "name": "ElevenLabs",
+   "n": 3
   }
  ],
  "topOverall": [
+  {
+   "id": "2168658df1d61166",
+   "title": "2026 年，国产模型还能追上 Opus 5.5 吗",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1695555?utm_source=rss&utm_medium=rss&utm_campaign",
+   "importance": 99,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-26T10:02:35.000Z",
+   "topics": [
+    "算力与基建",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "NVIDIA",
+    "DeepSeek"
+   ],
+   "firstSeen": "2026-11-26",
+   "isNew": true
+  },
   {
    "id": "a0b8efe0f8369f09",
    "title": "Apple pulls Chinese AI chatbot Talkie over child safety",
@@ -112,59 +134,19 @@
    "isNew": true
   },
   {
-   "id": "2d24f7f25839ec3b",
-   "title": "成本低九成、开源权重：MAGI-2 带动视频模型进入大掀桌时代",
-   "source": "极客公园",
-   "region": "CN",
-   "url": "http://www.geekpark.net/news/374532",
-   "importance": 93,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-26T08:38:54.000Z",
-   "topics": [
-    "模型与能力",
-    "算力与基建"
-   ],
-   "entities": [
-    "阿里巴巴",
-    "MiniMax"
-   ],
-   "firstSeen": "2026-11-26",
-   "isNew": true
-  },
-  {
-   "id": "71091f1b27eea456",
-   "title": "AI“奥本海默”时刻：两家龙头公司员工已经不相信模型安全了",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8218572.html",
-   "importance": 92,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-26T06:30:00.000Z",
-   "topics": [
-    "模型与能力",
-    "产品与应用"
-   ],
-   "entities": [
-    "OpenAI",
-    "Anthropic"
-   ],
-   "firstSeen": "2026-11-26",
-   "isNew": true
-  },
-  {
-   "id": "cea4ad608312630b",
-   "title": "WhatsApp Rolls Out Message Scheduling Up To 14 Days In Advance",
-   "source": "Inc42",
-   "region": "OTHER",
-   "url": "https://inc42.com/buzz/whatsapp-rolls-out-message-scheduling-up-to-14-days-in-advance/",
+   "id": "355271c05d4a282c",
+   "title": "ElevenLabs in talks to raise funding at $33bn valuation, reports say",
+   "source": "Sifted",
+   "region": "EU",
+   "url": "https://sifted.eu/articles/elevenlabs-funding-round-raise-33-bn-latest/",
    "importance": 91,
    "difficulty": "入门",
-   "publishedAt": "2026-11-26T05:45:02.000Z",
+   "publishedAt": "2026-11-26T10:48:32.000Z",
    "topics": [
-    "产品与应用"
+    "资本与市场"
    ],
    "entities": [
-    "Meta"
+    "ElevenLabs"
    ],
    "firstSeen": "2026-11-26",
    "isNew": true
@@ -189,18 +171,61 @@
    "isNew": true
   },
   {
-   "id": "69043e65489ebcd5",
-   "title": "Green Aero Raises $14 Mn To Build Jet Engines, Combat Drones",
-   "source": "Inc42",
-   "region": "OTHER",
-   "url": "https://inc42.com/buzz/green-aero-raises-14-mn-to-build-jet-engines-combat-drones/",
-   "importance": 89,
+   "id": "d6ed13904d91d24f",
+   "title": "小米的利润，被AI拖累了？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8219233.html",
+   "importance": 90,
    "difficulty": "入门",
-   "publishedAt": "2026-11-26T03:55:05.000Z",
+   "publishedAt": "2026-11-26T10:34:20.000Z",
    "topics": [
-    "资本与市场"
+    "资本与市场",
+    "产品与应用"
    ],
-   "entities": [],
+   "entities": [
+    "小米"
+   ],
+   "firstSeen": "2026-11-26",
+   "isNew": true
+  },
+  {
+   "id": "ff08e33e0906c77b",
+   "title": "一家100人的AI公司，凭什么被英伟达、Anthropic、亚马逊抬到75亿？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8218433.html",
+   "importance": 89,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-26T09:56:00.000Z",
+   "topics": [
+    "资本与市场",
+    "算力与基建"
+   ],
+   "entities": [
+    "Anthropic",
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-11-26",
+   "isNew": true
+  },
+  {
+   "id": "2d24f7f25839ec3b",
+   "title": "成本低九成、开源权重：MAGI-2 带动视频模型进入大掀桌时代",
+   "source": "极客公园",
+   "region": "CN",
+   "url": "http://www.geekpark.net/news/374532",
+   "importance": 89,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-26T08:38:54.000Z",
+   "topics": [
+    "模型与能力",
+    "算力与基建"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "MiniMax"
+   ],
    "firstSeen": "2026-11-26",
    "isNew": true
   },
@@ -221,24 +246,6 @@
    ],
    "firstSeen": "2026-11-26",
    "isNew": true
-  },
-  {
-   "id": "d06ba5b84ba601c3",
-   "title": "Nvidia halts server shipments to SEA on US curbs",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/nvidia-halts-server-shipments-sea-curbs",
-   "importance": 88,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-26T07:53:50.000Z",
-   "topics": [
-    "算力与基建"
-   ],
-   "entities": [
-    "NVIDIA"
-   ],
-   "firstSeen": "2026-11-26",
-   "isNew": true
   }
  ],
  "regions": [
@@ -250,41 +257,23 @@
    "count": 24,
    "top": [
     {
-     "id": "2d24f7f25839ec3b",
-     "title": "成本低九成、开源权重：MAGI-2 带动视频模型进入大掀桌时代",
-     "source": "极客公园",
+     "id": "2168658df1d61166",
+     "title": "2026 年，国产模型还能追上 Opus 5.5 吗",
+     "source": "爱范儿",
      "region": "CN",
-     "url": "http://www.geekpark.net/news/374532",
-     "importance": 93,
+     "url": "https://www.ifanr.com/1695555?utm_source=rss&utm_medium=rss&utm_campaign",
+     "importance": 99,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-26T08:38:54.000Z",
+     "publishedAt": "2026-11-26T10:02:35.000Z",
      "topics": [
-      "模型与能力",
-      "算力与基建"
-     ],
-     "entities": [
-      "阿里巴巴",
-      "MiniMax"
-     ],
-     "firstSeen": "2026-11-26",
-     "isNew": true
-    },
-    {
-     "id": "71091f1b27eea456",
-     "title": "AI“奥本海默”时刻：两家龙头公司员工已经不相信模型安全了",
-     "source": "钛媒体",
-     "region": "CN",
-     "url": "https://www.tmtpost.com/8218572.html",
-     "importance": 92,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-26T06:30:00.000Z",
-     "topics": [
-      "模型与能力",
-      "产品与应用"
+      "算力与基建",
+      "模型与能力"
      ],
      "entities": [
       "OpenAI",
-      "Anthropic"
+      "Anthropic",
+      "NVIDIA",
+      "DeepSeek"
      ],
      "firstSeen": "2026-11-26",
      "isNew": true
@@ -304,6 +293,25 @@
      "entities": [
       "OpenAI",
       "Anthropic"
+     ],
+     "firstSeen": "2026-11-26",
+     "isNew": true
+    },
+    {
+     "id": "d6ed13904d91d24f",
+     "title": "小米的利润，被AI拖累了？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8219233.html",
+     "importance": 90,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-26T10:34:20.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [
+      "小米"
      ],
      "firstSeen": "2026-11-26",
      "isNew": true
@@ -383,56 +391,57 @@
    "count": 24,
    "top": [
     {
-     "id": "a1ed7005db925b09",
-     "title": "Huawei and Landmark Group drive measurable digital growth for Centrepoint and Home Centre",
+     "id": "f12bdbd43e303dc1",
+     "title": "ASUS to showcase Zenbook, ProArt and ROG at GITEX GLOBAL 2026",
      "source": "TahawulTech",
      "region": "ME",
-     "url": "https://www.tahawultech.com/channel/huawei-and-landmark-group-drive-measurable-digital-growth-for-centrepoint-and-home-centre/",
-     "importance": 57,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-25T11:11:01.000Z",
+     "url": "https://www.tahawultech.com/industry/technology/asus-to-showcase-zenbook-proart-and-rog-at-gitex-global-2026/",
+     "importance": 75,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-26T11:49:32.000Z",
      "topics": [
-      "资本与市场",
-      "产业与生态"
+      "算力与基建"
      ],
      "entities": [
-      "华为"
+      "NVIDIA"
      ],
-     "firstSeen": "2026-11-25",
-     "isNew": false
+     "firstSeen": "2026-11-26",
+     "isNew": true
     },
     {
-     "id": "acffa3b274acb5d5",
-     "title": "UAE's Vision Makers secures $4 million in a dual round",
-     "source": "Wamda",
+     "id": "4f3663f0909c4249",
+     "title": "Alibaba Cloud named a leader in Gartner® Magic Quadrant for Container Management for 4th consecutive year",
+     "source": "TahawulTech",
      "region": "ME",
-     "url": "https://www.wamda.com/2026/11/uae-vision-makers-secures-4-million-dual-round",
-     "importance": 56,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "url": "https://www.tahawultech.com/enterprise/alibaba-cloud-named-a-leader-in-gartner-magic-quadrant-for-container-management-for-4th-consecutive-year/",
+     "importance": 75,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-26T11:09:56.000Z",
      "topics": [
-      "资本与市场"
+      "算力与基建"
      ],
-     "entities": [],
-     "firstSeen": "2026-11-25",
-     "isNew": false
+     "entities": [
+      "阿里巴巴"
+     ],
+     "firstSeen": "2026-11-26",
+     "isNew": true
     },
     {
-     "id": "df3e9186f19f42c5",
-     "title": "Saudi AI startup 009 raises $1.4 million pre-seed led by Outliers Venture Capital",
-     "source": "Wamda",
+     "id": "c3429c08c824a337",
+     "title": "Artificial Intelligence is never risk-free",
+     "source": "TahawulTech",
      "region": "ME",
-     "url": "https://www.wamda.com/2026/11/saudi-ai-startup-009-raises-1-4-million-pre-seed-led-outliers-venture-capital",
-     "importance": 52,
+     "url": "https://www.tahawultech.com/features/artificial-intelligence-is-never-risk-free/",
+     "importance": 72,
      "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "publishedAt": "2026-11-26T12:06:26.000Z",
      "topics": [
-      "资本与市场",
+      "模型与能力",
       "产品与应用"
      ],
      "entities": [],
-     "firstSeen": "2026-11-25",
-     "isNew": false
+     "firstSeen": "2026-11-26",
+     "isNew": true
     }
    ]
   },
@@ -449,7 +458,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/ai-%ec%9d%98%ec%8b%9d-%eb%85%bc%ec%9f%81-%eb%b6%88%eb%b6%99%ec%9d%b8-%ec%95%a4%ed%8a%b8%eb%a1%9c%ed%94%bd%ec%b2%a0%ed%95%99%ea%b3%84%eb%8a%94-%ea%b0%91%eb%a1%a0%ec%9d%84%eb%b0%95/",
-     "importance": 78,
+     "importance": 73,
      "difficulty": "进阶",
      "publishedAt": "2026-11-25T21:00:00.000Z",
      "topics": [
@@ -465,7 +474,7 @@
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ec%9d%b8%ed%84%b0%eb%b7%b0-ai-%ec%8b%9c%eb%8c%80%ec%9d%98-%eb%af%b8%eb%9e%98-%ec%a0%84%eb%a0%a5-%ed%95%b5%ec%9c%b5%ed%95%a9-%ec%83%81%ec%9a%a9%ed%99%94%eb%8a%94-%eb%af%bc%ea%b0%84%ec%9d%b4/",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-11-25T21:00:00.000Z",
      "topics": [],
@@ -497,12 +506,30 @@
    "count": 24,
    "top": [
     {
+     "id": "355271c05d4a282c",
+     "title": "ElevenLabs in talks to raise funding at $33bn valuation, reports say",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/elevenlabs-funding-round-raise-33-bn-latest/",
+     "importance": 91,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-26T10:48:32.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "ElevenLabs"
+     ],
+     "firstSeen": "2026-11-26",
+     "isNew": true
+    },
+    {
      "id": "5d5e9330aa5e0e38",
      "title": "Exclusive: Starforge raises €6.6m to build nuclear fusion reactors at scale",
      "source": "Sifted",
      "region": "EU",
      "url": "https://sifted.eu/articles/exclusive-starforge-fundraise-nuclear-fusion-reactors/",
-     "importance": 81,
+     "importance": 77,
      "difficulty": "入门",
      "publishedAt": "2026-11-26T05:00:51.000Z",
      "topics": [
@@ -513,33 +540,19 @@
      "isNew": true
     },
     {
-     "id": "ccad5345ecd897f4",
-     "title": "Meet Goldfish: The kings of Slush aiming to take on Apple",
-     "source": "Sifted",
+     "id": "7137702c4f7a2f15",
+     "title": "FT: Nvidia turns down south-east Asian shipments after new US chip curbs",
+     "source": "Silicon Republic",
      "region": "EU",
-     "url": "https://sifted.eu/articles/goldfish-slush-100-winners/",
-     "importance": 72,
+     "url": "https://www.siliconrepublic.com/business/ft-nvidia-turns-down-south-asian-shipments-after-new-us-chip-curbs",
+     "importance": 75,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-26T05:00:35.000Z",
-     "topics": [],
-     "entities": [
-      "Apple"
+     "publishedAt": "2026-11-26T08:59:13.000Z",
+     "topics": [
+      "算力与基建"
      ],
-     "firstSeen": "2026-11-26",
-     "isNew": true
-    },
-    {
-     "id": "3cc391a13b897a3b",
-     "title": "Monzo cofounder Tom Blomfield leaves Anthropic after less than six months, reports say",
-     "source": "Sifted",
-     "region": "EU",
-     "url": "https://sifted.eu/articles/anthropic-monzo-tom-blomfield-quits/",
-     "importance": 72,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-26T05:00:18.000Z",
-     "topics": [],
      "entities": [
-      "Anthropic"
+      "NVIDIA"
      ],
      "firstSeen": "2026-11-26",
      "isNew": true
@@ -559,7 +572,7 @@
      "source": "SiliconANGLE",
      "region": "NA",
      "url": "https://siliconangle.com/2026/11/25/ai-infrastructure-stocks-continue-their-slide-but-anthropic-closes-higher/",
-     "importance": 87,
+     "importance": 82,
      "difficulty": "进阶",
      "publishedAt": "2026-11-25T21:15:32.000Z",
      "topics": [
@@ -570,6 +583,22 @@
       "Amazon",
       "NVIDIA"
      ],
+     "firstSeen": "2026-11-26",
+     "isNew": true
+    },
+    {
+     "id": "b7e99cb0eca88951",
+     "title": "The next generation of bionic hands is here—and they can feel",
+     "source": "MIT Technology Review",
+     "region": "NA",
+     "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-26T09:59:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
      "firstSeen": "2026-11-26",
      "isNew": true
     },
@@ -591,25 +620,6 @@
      ],
      "firstSeen": "2026-11-26",
      "isNew": true
-    },
-    {
-     "id": "15687e6cf2736744",
-     "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-     "source": "TechCrunch AI",
-     "region": "NA",
-     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-     "importance": 81,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-25T14:10:18.000Z",
-     "topics": [
-      "产品与应用"
-     ],
-     "entities": [
-      "Meta",
-      "Amazon"
-     ],
-     "firstSeen": "2026-11-26",
-     "isNew": true
     }
    ]
   },
@@ -626,7 +636,7 @@
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/buzz/whatsapp-rolls-out-message-scheduling-up-to-14-days-in-advance/",
-     "importance": 91,
+     "importance": 87,
      "difficulty": "入门",
      "publishedAt": "2026-11-26T05:45:02.000Z",
      "topics": [
@@ -639,12 +649,28 @@
      "isNew": true
     },
     {
+     "id": "15405441c1e7d347",
+     "title": "Urban Company Forays Into AC Market, Opens Pre-Bookings For Native ACs At ₹55,499",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/urban-company-forays-into-ac-market-opens-pre-bookings-for-native-acs-at-%e2%82%b955499/",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-26T12:29:36.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-26",
+     "isNew": true
+    },
+    {
      "id": "69043e65489ebcd5",
      "title": "Green Aero Raises $14 Mn To Build Jet Engines, Combat Drones",
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/buzz/green-aero-raises-14-mn-to-build-jet-engines-combat-drones/",
-     "importance": 89,
+     "importance": 85,
      "difficulty": "入门",
      "publishedAt": "2026-11-26T03:55:05.000Z",
      "topics": [
@@ -653,28 +679,9 @@
      "entities": [],
      "firstSeen": "2026-11-26",
      "isNew": true
-    },
-    {
-     "id": "d110ffac99f4da2f",
-     "title": "[Update] Anthropic Rolls Out Claude Duet In India After US Launch",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/buzz/anthropic-takes-on-openai-meta-with-new-proactive-ai-agent-claude-duet/",
-     "importance": 87,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-25T13:20:13.000Z",
-     "topics": [
-      "产品与应用",
-      "模型与能力"
-     ],
-     "entities": [
-      "Anthropic"
-     ],
-     "firstSeen": "2026-11-26",
-     "isNew": true
     }
    ]
   }
  ],
- "overview": "11 月 26 日，共从 26 个信息源抓取 421 条 AI 产业动态，其中 153 条进入当日精选，覆盖 7 个区域。其中有 121 条发布于 24 小时内。其中 105 条是此前未出现过的新增内容，另有 48 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」51 条、「产品与应用」35 条。值得优先关注的几条：「成本低九成、开源权重：MAGI-2 带动视频模型进入大掀桌时代」（极客公园）、「AI“奥本海默”时刻：两家龙头公司员工已经不相信模型安全了」（钛媒体）、「破发不算最疼，Claude Code核心班底被OpenAI疯狂收割才是：Anthropic的编程王座悬了？」（InfoQ 中国）。"
+ "overview": "11 月 26 日，共从 26 个信息源抓取 421 条 AI 产业动态，其中 153 条进入当日精选，覆盖 7 个区域。其中有 122 条发布于 24 小时内。其中 122 条是此前未出现过的新增内容，另有 31 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」53 条、「产品与应用」32 条。值得优先关注的几条：「2026 年，国产模型还能追上 Opus 5.5 吗」（爱范儿）、「破发不算最疼，Claude Code核心班底被OpenAI疯狂收割才是：Anthropic的编程王座悬了？」（InfoQ 中国）、「小米的利润，被AI拖累了？」（钛媒体）。"
 }
