@@ -1,129 +1,163 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-27",
- "generatedAt": "2026-11-27T09:10:39.492Z",
+ "generatedAt": "2026-11-27T13:40:36.653Z",
  "mode": "rule",
  "counts": {
-  "crawled": 401,
-  "published": 149,
-  "newCount": 90,
-  "repeatCount": 59,
+  "crawled": 456,
+  "published": 154,
+  "newCount": 133,
+  "repeatCount": 21,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
-   "ME": 19,
+   "ME": 24,
    "JPKR": 10,
    "EU": 24,
    "NA": 24,
    "OTHER": 24
   },
-  "sourceOk": 25,
+  "sourceOk": 28,
   "sourceTotal": 30,
   "regions": 7
  },
  "freshness": {
-  "within24h": 93,
-  "withinFresh": 128,
+  "within24h": 120,
+  "withinFresh": 148,
   "freshHours": 72,
-  "monthPrecision": 19,
+  "monthPrecision": 4,
   "undated": 0,
-  "staleDropped": 42,
-  "newestAt": "2026-11-27T16:15:06.000Z"
+  "staleDropped": 57,
+  "newestAt": "2026-11-27T17:25:02.000Z"
  },
  "themes": [
   {
    "name": "产品与应用",
-   "n": 40
+   "n": 48
   },
   {
    "name": "资本与市场",
-   "n": 34
-  },
-  {
-   "name": "产业与生态",
-   "n": 28
+   "n": 40
   },
   {
    "name": "算力与基建",
-   "n": 21
+   "n": 24
+  },
+  {
+   "name": "产业与生态",
+   "n": 23
   },
   {
    "name": "模型与能力",
-   "n": 17
+   "n": 18
   },
   {
    "name": "政策与治理",
-   "n": 8
+   "n": 4
   }
  ],
  "entities": [
   {
    "name": "NVIDIA",
-   "n": 10
+   "n": 13
   },
   {
    "name": "Anthropic",
-   "n": 9
+   "n": 12
   },
   {
    "name": "OpenAI",
-   "n": 5
+   "n": 6
   },
   {
    "name": "腾讯",
    "n": 4
   },
   {
-   "name": "华为",
+   "name": "Google",
    "n": 4
   },
   {
-   "name": "小米",
-   "n": 3
-  },
-  {
    "name": "Meta",
-   "n": 3
+   "n": 4
   },
   {
-   "name": "Apple",
+   "name": "Amazon",
+   "n": 4
+  },
+  {
+   "name": "华为",
    "n": 3
   }
  ],
  "topOverall": [
   {
-   "id": "529977a076b49936",
-   "title": "腾讯阿里百度集体交账，AI进入兑现期",
-   "source": "钛媒体",
+   "id": "67c2b4fde32bb48b",
+   "title": "魏建军称车企竞争激烈，董明珠：有些产业害虫该灭就灭；英伟达暂停向东南亚四国出货服务器；腾讯、小红书都在招人加码个人智能体",
+   "source": "雷峰网",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8219613.html",
-   "importance": 94,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-27T04:52:19.000Z",
+   "url": "https://www.leiphone.com/category/zaobao/VrpGC0c4wtt3NcEi.html",
+   "importance": 95,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-27T07:10:00.000Z",
    "topics": [
-    "资本与市场",
-    "模型与能力"
+    "产业与生态",
+    "算力与基建"
    ],
    "entities": [
+    "NVIDIA",
     "阿里巴巴",
     "腾讯",
-    "百度"
+    "通义千问"
    ],
    "firstSeen": "2026-11-27",
    "isNew": true
   },
   {
-   "id": "7dd83785a5b7640e",
-   "title": "英伟达暂停向东南亚四国交付AI服务器，全球供给缺口或将扩大？",
-   "source": "钛媒体",
+   "id": "5a87fa74764e41cd",
+   "title": "Agent 上车元年，支付宝造了一个行动座舱",
+   "source": "爱范儿",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8216813.html",
-   "importance": 91,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-27T08:12:04.000Z",
+   "url": "https://www.ifanr.com/1695888?utm_source=rss&utm_medium=rss&utm_campaign",
+   "importance": 88,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-27T10:01:35.000Z",
    "topics": [
-    "算力与基建",
-    "产品与应用"
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [],
+   "firstSeen": "2026-11-27",
+   "isNew": true
+  },
+  {
+   "id": "de51754d4bb2ebee",
+   "title": "支付宝车载助手3.0发布，助力智能座舱打造下一代可靠可信生活服务",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/industrynews/szJUnXEhChJQgJHZ.html",
+   "importance": 88,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-27T09:56:00.000Z",
+   "topics": [
+    "产品与应用",
+    "产业与生态"
+   ],
+   "entities": [],
+   "firstSeen": "2026-11-27",
+   "isNew": true
+  },
+  {
+   "id": "14dcb8ce1ee2c5a0",
+   "title": "Singapore says reports of Nvidia shipment halt unconfirmed",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/singapore-reports-nvidia-shipment-halt-unconfirmed",
+   "importance": 88,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-27T09:28:57.000Z",
+   "topics": [
+    "算力与基建"
    ],
    "entities": [
     "NVIDIA"
@@ -132,23 +166,19 @@
    "isNew": true
   },
   {
-   "id": "9cc9bc3de2214201",
-   "title": "早报｜双11手机销量降17%，前五都是iPhone/马斯克：美国每名儿童赠送两股SpaceX/小红书处置逾万篇虚假人设笔记",
-   "source": "爱范儿",
-   "region": "CN",
-   "url": "https://www.ifanr.com/1695611?utm_source=rss&utm_medium=rss&utm_campaign",
-   "importance": 91,
-   "difficulty": "进阶",
-   "publishedAt": "2026-11-27T00:08:31.000Z",
+   "id": "f8135dcb582fd1f1",
+   "title": "Samay Raina Becomes First YouTube Creator Globally To Cross 10 Lakh Paid Channel Members",
+   "source": "Inc42",
+   "region": "OTHER",
+   "url": "https://inc42.com/buzz/samay-raina-becomes-first-youtube-creator-globally-to-cross-10-lakh-paid-channel-members/",
+   "importance": 87,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-27T13:20:28.000Z",
    "topics": [
-    "模型与能力",
-    "产业与生态"
+    "产品与应用"
    ],
    "entities": [
-    "OpenAI",
-    "腾讯",
-    "华为",
-    "小米"
+    "Google"
    ],
    "firstSeen": "2026-11-27",
    "isNew": true
@@ -159,7 +189,7 @@
    "source": "36氪",
    "region": "CN",
    "url": "https://36kr.com/p/4086249473534598?f=rss",
-   "importance": 90,
+   "importance": 86,
    "difficulty": "入门",
    "publishedAt": "2026-11-27T06:09:07.000Z",
    "topics": [
@@ -173,58 +203,23 @@
    "isNew": true
   },
   {
-   "id": "8c34e446b3af6ecf",
-   "title": "Claude Code 灵魂人物，开始反思 Vibe Coding 的未来了",
+   "id": "9cc9bc3de2214201",
+   "title": "早报｜双11手机销量降17%，前五都是iPhone/马斯克：美国每名儿童赠送两股SpaceX/小红书处置逾万篇虚假人设笔记",
    "source": "爱范儿",
    "region": "CN",
-   "url": "https://www.ifanr.com/1695671?utm_source=rss&utm_medium=rss&utm_campaign",
-   "importance": 89,
+   "url": "https://www.ifanr.com/1695611?utm_source=rss&utm_medium=rss&utm_campaign",
+   "importance": 86,
    "difficulty": "进阶",
-   "publishedAt": "2026-11-27T03:49:58.000Z",
+   "publishedAt": "2026-11-27T00:08:31.000Z",
    "topics": [
-    "资本与市场",
-    "模型与能力"
+    "模型与能力",
+    "产业与生态"
    ],
    "entities": [
     "OpenAI",
-    "Anthropic"
-   ],
-   "firstSeen": "2026-11-27",
-   "isNew": true
-  },
-  {
-   "id": "265ee653dbd4c1f7",
-   "title": "一场物理AI闭门会里的三层“温差”",
-   "source": "钛媒体",
-   "region": "CN",
-   "url": "https://www.tmtpost.com/8218564.html",
-   "importance": 88,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-27T03:27:53.000Z",
-   "topics": [
-    "产业与生态",
-    "产品与应用"
-   ],
-   "entities": [],
-   "firstSeen": "2026-11-27",
-   "isNew": true
-  },
-  {
-   "id": "ca353b36e67a4c94",
-   "title": "游戏和影视之后，儒意集团联手腾讯进军AI服务",
-   "source": "36氪",
-   "region": "CN",
-   "url": "https://36kr.com/p/4086757655231105?f=rss",
-   "importance": 88,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-27T01:00:39.000Z",
-   "topics": [
-    "产品与应用",
-    "模型与能力"
-   ],
-   "entities": [
-    "Meta",
-    "腾讯"
+    "腾讯",
+    "华为",
+    "小米"
    ],
    "firstSeen": "2026-11-27",
    "isNew": true
@@ -256,64 +251,58 @@
    "count": 24,
    "top": [
     {
-     "id": "529977a076b49936",
-     "title": "腾讯阿里百度集体交账，AI进入兑现期",
-     "source": "钛媒体",
+     "id": "67c2b4fde32bb48b",
+     "title": "魏建军称车企竞争激烈，董明珠：有些产业害虫该灭就灭；英伟达暂停向东南亚四国出货服务器；腾讯、小红书都在招人加码个人智能体",
+     "source": "雷峰网",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8219613.html",
-     "importance": 94,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-27T04:52:19.000Z",
+     "url": "https://www.leiphone.com/category/zaobao/VrpGC0c4wtt3NcEi.html",
+     "importance": 95,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T07:10:00.000Z",
      "topics": [
-      "资本与市场",
-      "模型与能力"
+      "产业与生态",
+      "算力与基建"
      ],
      "entities": [
+      "NVIDIA",
       "阿里巴巴",
       "腾讯",
-      "百度"
+      "通义千问"
      ],
      "firstSeen": "2026-11-27",
      "isNew": true
     },
     {
-     "id": "7dd83785a5b7640e",
-     "title": "英伟达暂停向东南亚四国交付AI服务器，全球供给缺口或将扩大？",
-     "source": "钛媒体",
-     "region": "CN",
-     "url": "https://www.tmtpost.com/8216813.html",
-     "importance": 91,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-27T08:12:04.000Z",
-     "topics": [
-      "算力与基建",
-      "产品与应用"
-     ],
-     "entities": [
-      "NVIDIA"
-     ],
-     "firstSeen": "2026-11-27",
-     "isNew": true
-    },
-    {
-     "id": "9cc9bc3de2214201",
-     "title": "早报｜双11手机销量降17%，前五都是iPhone/马斯克：美国每名儿童赠送两股SpaceX/小红书处置逾万篇虚假人设笔记",
+     "id": "5a87fa74764e41cd",
+     "title": "Agent 上车元年，支付宝造了一个行动座舱",
      "source": "爱范儿",
      "region": "CN",
-     "url": "https://www.ifanr.com/1695611?utm_source=rss&utm_medium=rss&utm_campaign",
-     "importance": 91,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-27T00:08:31.000Z",
+     "url": "https://www.ifanr.com/1695888?utm_source=rss&utm_medium=rss&utm_campaign",
+     "importance": 88,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-27T10:01:35.000Z",
      "topics": [
-      "模型与能力",
+      "产品与应用",
+      "模型与能力"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "de51754d4bb2ebee",
+     "title": "支付宝车载助手3.0发布，助力智能座舱打造下一代可靠可信生活服务",
+     "source": "雷峰网",
+     "region": "CN",
+     "url": "https://www.leiphone.com/category/industrynews/szJUnXEhChJQgJHZ.html",
+     "importance": 88,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-27T09:56:00.000Z",
+     "topics": [
+      "产品与应用",
       "产业与生态"
      ],
-     "entities": [
-      "OpenAI",
-      "腾讯",
-      "华为",
-      "小米"
-     ],
+     "entities": [],
      "firstSeen": "2026-11-27",
      "isNew": true
     }
@@ -326,6 +315,24 @@
    "flag": "🌏",
    "count": 24,
    "top": [
+    {
+     "id": "14dcb8ce1ee2c5a0",
+     "title": "Singapore says reports of Nvidia shipment halt unconfirmed",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/singapore-reports-nvidia-shipment-halt-unconfirmed",
+     "importance": 88,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T09:28:57.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
     {
      "id": "05afd2c0edd00a33",
      "title": "Huawei gains ground in China’s AI chip market after US curbs",
@@ -345,38 +352,18 @@
      "isNew": true
     },
     {
-     "id": "7ef291663aeac8fd",
-     "title": "Jensen Huang’s back, but the chips are still down for SEA",
+     "id": "182c79b212ad4ae5",
+     "title": "These are the most active investors in Hong Kong’s startups",
      "source": "Tech in Asia",
      "region": "SEA",
-     "url": "https://www.techinasia.com/jensen-huangs-chips-sea",
-     "importance": 84,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-27T01:00:57.000Z",
-     "topics": [
-      "算力与基建"
-     ],
-     "entities": [
-      "NVIDIA"
-     ],
-     "firstSeen": "2026-11-27",
-     "isNew": true
-    },
-    {
-     "id": "ca580cdb23ea903a",
-     "title": "SAP prepares to cut at least 10,000 jobs in AI overhaul",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/sap-prepares-cut-10000-jobs-ai-overhaul",
-     "importance": 83,
+     "url": "https://www.techinasia.com/active-investors-hong-kongs-startups",
+     "importance": 81,
      "difficulty": "入门",
-     "publishedAt": "2026-11-27T00:38:29.000Z",
+     "publishedAt": "2026-11-27T09:00:00.000Z",
      "topics": [
       "资本与市场"
      ],
-     "entities": [
-      "SAP"
-     ],
+     "entities": [],
      "firstSeen": "2026-11-27",
      "isNew": true
     }
@@ -387,57 +374,63 @@
    "name": "中东",
    "short": "中东",
    "flag": "🕌",
-   "count": 19,
+   "count": 24,
    "top": [
     {
-     "id": "acffa3b274acb5d5",
-     "title": "UAE's Vision Makers secures $4 million in a dual round",
+     "id": "224cf4602bb86246",
+     "title": "Arabic.AI joins UAE government's FedAI ecosystem as founding partner",
      "source": "Wamda",
      "region": "ME",
-     "url": "https://www.wamda.com/2026/11/uae-vision-makers-secures-4-million-dual-round",
-     "importance": 56,
-     "difficulty": "入门",
+     "url": "https://www.wamda.com/2026/11/arabicai-joins-uae-governments-fedai-ecosystem-founding-partner",
+     "importance": 79,
+     "difficulty": "进阶",
      "publishedAt": "2026-11-01T12:00:00.000Z",
      "topics": [
-      "资本与市场"
+      "算力与基建",
+      "产业与生态"
      ],
-     "entities": [],
-     "firstSeen": "2026-11-26",
-     "isNew": false
+     "entities": [
+      "Google",
+      "Microsoft",
+      "Oracle"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
     },
     {
-     "id": "df3e9186f19f42c5",
-     "title": "Saudi AI startup 009 raises $1.4 million pre-seed led by Outliers Venture Capital",
-     "source": "Wamda",
+     "id": "8669987bd96c2f3e",
+     "title": "Amazon launches virtual BYD and Denza car showrooms in UAE",
+     "source": "Arabian Business",
      "region": "ME",
-     "url": "https://www.wamda.com/2026/11/saudi-ai-startup-009-raises-1-4-million-pre-seed-led-outliers-venture-capital",
-     "importance": 52,
+     "url": "https://www.arabianbusiness.com/business/transport/amazon-launches-virtual-byd-and-denza-car-showrooms-in-uae",
+     "importance": 74,
      "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "publishedAt": "2026-11-27T06:29:20.000Z",
      "topics": [
-      "资本与市场",
+      "产品与应用",
+      "产业与生态"
+     ],
+     "entities": [
+      "Amazon"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "47452685342ab90a",
+     "title": "BenQ’s managing director Manish Bakshi puts the spotlight on the CP-05 interactive display series",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/features/benqs-managing-director-manish-bakshi-puts-the-spotlight-on-the-cp-05-interactive-display-series/",
+     "importance": 72,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-27T11:16:03.000Z",
+     "topics": [
       "产品与应用"
      ],
      "entities": [],
-     "firstSeen": "2026-11-26",
-     "isNew": false
-    },
-    {
-     "id": "5ece1eb4b4fb38ad",
-     "title": "UAE's Sooner raises $20 million to expand home financing solutions",
-     "source": "Wamda",
-     "region": "ME",
-     "url": "https://www.wamda.com/2026/11/uae-sooner-raises-20-million-expand-home-financing-solutions",
-     "importance": 52,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-01T12:00:00.000Z",
-     "topics": [
-      "资本与市场",
-      "产业与生态"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-26",
-     "isNew": false
+     "firstSeen": "2026-11-27",
+     "isNew": true
     }
    ]
   },
@@ -500,52 +493,54 @@
    "count": 24,
    "top": [
     {
-     "id": "02a7342979313d30",
-     "title": "'Never say never': US fintech giant Ramp on more European acquisitions",
-     "source": "Sifted",
+     "id": "d7fc3b5d72766629",
+     "title": "Beyond the taboo: Polari Labs brings biotech innovation to anorectal health",
+     "source": "Tech.eu",
      "region": "EU",
-     "url": "https://sifted.eu/articles/ramp-europe-expansion-interview/",
+     "url": "https://tech.eu/2026/11/27/beyond-the-taboo-polari-labs-brings-biotech-innovation-to-anorectal-health/",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-27T11:27:45.000Z",
+     "topics": [
+      "产业与生态",
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "9a9ebc9838102e3a",
+     "title": "Lampsy Health raises €1.1M to shine a light on undetected night-time seizures",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/11/27/lampsy-health-raises-eur11m-to-shine-a-light-on-undetected-night-time-seizures/",
+     "importance": 82,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T08:56:04.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "f4808f84ac6a998e",
+     "title": "Papa John’s pizza order first UK cardless payment by AI agent",
+     "source": "Tech.eu",
+     "region": "EU",
+     "url": "https://tech.eu/2026/11/27/papa-johns-pizza-order-first-uk-cardless-payment-by-ai-agent/",
      "importance": 78,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-27T05:00:58.000Z",
+     "publishedAt": "2026-11-27T11:00:00.000Z",
      "topics": [
-      "资本与市场"
+      "产品与应用"
      ],
      "entities": [],
      "firstSeen": "2026-11-27",
      "isNew": true
-    },
-    {
-     "id": "481198c98a6c40d4",
-     "title": "‘We’re not migration software’: Conduct’s CEO on building an AI operating system for enterprise IT teams",
-     "source": "Sifted",
-     "region": "EU",
-     "url": "https://sifted.eu/articles/conduct-ceo-on-building-an-ai-operating-system-for-enterprise-it-teams/",
-     "importance": 66,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-27T05:00:27.000Z",
-     "topics": [],
-     "entities": [],
-     "firstSeen": "2026-11-27",
-     "isNew": true
-    },
-    {
-     "id": "355271c05d4a282c",
-     "title": "ElevenLabs in talks to raise funding at $33bn valuation, reports say",
-     "source": "Sifted",
-     "region": "EU",
-     "url": "https://sifted.eu/articles/elevenlabs-funding-round-raise-33-bn-latest/",
-     "importance": 66,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-26T10:48:32.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [
-      "ElevenLabs"
-     ],
-     "firstSeen": "2026-11-26",
-     "isNew": false
     }
    ]
   },
@@ -556,6 +551,38 @@
    "flag": "🌎",
    "count": 24,
    "top": [
+    {
+     "id": "1ce1725859b675d8",
+     "title": "Our 2027 Innovators Under 35 competition is now open",
+     "source": "MIT Technology Review",
+     "region": "NA",
+     "url": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-27T10:48:47.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "6d95d6c916c60dc3",
+     "title": "How cutting-edge prosthetics can help probe the human mind",
+     "source": "MIT Technology Review",
+     "region": "NA",
+     "url": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-27T10:00:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
     {
      "id": "9022c938ce7e4a19",
      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
@@ -573,44 +600,6 @@
      ],
      "firstSeen": "2026-11-27",
      "isNew": true
-    },
-    {
-     "id": "4a7a025ad498a643",
-     "title": "Nvidia hits pause on chip shipments to Southeast Asia",
-     "source": "TechCrunch AI",
-     "region": "NA",
-     "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-     "importance": 75,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-26T20:03:54.000Z",
-     "topics": [
-      "算力与基建",
-      "产业与生态"
-     ],
-     "entities": [
-      "NVIDIA"
-     ],
-     "firstSeen": "2026-11-27",
-     "isNew": true
-    },
-    {
-     "id": "04cce06f3e460e31",
-     "title": "Report sheds light on China ties of some US-based Nvidia partners",
-     "source": "SiliconANGLE",
-     "region": "NA",
-     "url": "https://siliconangle.com/2026/11/26/report-sheds-light-on-china-ties-of-some-us-based-nvidia-partners/",
-     "importance": 71,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-26T21:13:23.000Z",
-     "topics": [
-      "算力与基建",
-      "产业与生态"
-     ],
-     "entities": [
-      "NVIDIA"
-     ],
-     "firstSeen": "2026-11-27",
-     "isNew": true
     }
    ]
   },
@@ -622,33 +611,34 @@
    "count": 24,
    "top": [
     {
-     "id": "88620e6007cc2f28",
-     "title": "Apple To Open Seventh India Store In Hyderabad’s Kukatpally",
+     "id": "f8135dcb582fd1f1",
+     "title": "Samay Raina Becomes First YouTube Creator Globally To Cross 10 Lakh Paid Channel Members",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/apple-to-open-seventh-india-store-in-hyderabads-kukatpally/",
-     "importance": 83,
+     "url": "https://inc42.com/buzz/samay-raina-becomes-first-youtube-creator-globally-to-cross-10-lakh-paid-channel-members/",
+     "importance": 87,
      "difficulty": "入门",
-     "publishedAt": "2026-11-26T21:33:06.000Z",
+     "publishedAt": "2026-11-27T13:20:28.000Z",
      "topics": [
       "产品与应用"
      ],
      "entities": [
-      "Apple"
+      "Google"
      ],
      "firstSeen": "2026-11-27",
      "isNew": true
     },
     {
-     "id": "c1659ac35d628cc5",
-     "title": "Norwest Sells ₹262 Cr Stake In Amagi Through Block Deal",
+     "id": "44b7dc724e83d0e5",
+     "title": "Kabeer Biswas’ M Raises $9 Mn Led By RTP Global",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/norwest-sells-%e2%82%b9262-cr-stake-in-amagi-through-block-deal/",
-     "importance": 82,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-27T05:09:22.000Z",
+     "url": "https://inc42.com/buzz/kabeer-biswas-m-raises-9-mn-led-by-rtp-global/",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-27T10:33:52.000Z",
      "topics": [
+      "资本与市场",
       "产业与生态"
      ],
      "entities": [],
@@ -656,17 +646,16 @@
      "isNew": true
     },
     {
-     "id": "de784acc329f98d2",
-     "title": "WhatsApp To Partner Jio To Launch Int’l Data eSIM Feature In India",
+     "id": "a1c0f1dad40e8dde",
+     "title": "Haleon In Talks To Acquire Controlling Stake In HealthKart At $1.4 Bn Valuation: Report",
      "source": "Inc42",
      "region": "OTHER",
-     "url": "https://inc42.com/buzz/whatsapp-to-partner-jio-to-launch-intl-data-esim-feature-in-india/",
-     "importance": 80,
+     "url": "https://inc42.com/buzz/haleon-in-talks-to-acquire-controlling-stake-in-healthkart-at-1-4-bn-valuation-report/",
+     "importance": 85,
      "difficulty": "入门",
-     "publishedAt": "2026-11-26T20:49:55.000Z",
+     "publishedAt": "2026-11-27T09:26:03.000Z",
      "topics": [
-      "产品与应用",
-      "产业与生态"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-11-27",
@@ -675,5 +664,5 @@
    ]
   }
  ],
- "overview": "11 月 27 日，共从 25 个信息源抓取 401 条 AI 产业动态，其中 149 条进入当日精选，覆盖 7 个区域。其中有 93 条发布于 24 小时内。其中 90 条是此前未出现过的新增内容，另有 59 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」40 条、「资本与市场」34 条。值得优先关注的几条：「腾讯阿里百度集体交账，AI进入兑现期」（钛媒体）、「英伟达暂停向东南亚四国交付AI服务器，全球供给缺口或将扩大？」（钛媒体）、「早报｜双11手机销量降17%，前五都是iPhone/马斯克：美国每名儿童赠送两股SpaceX/小红书处置逾万篇虚假人设笔记」（爱范儿）。"
+ "overview": "11 月 27 日，共从 28 个信息源抓取 456 条 AI 产业动态，其中 154 条进入当日精选，覆盖 7 个区域。其中有 120 条发布于 24 小时内。其中 133 条是此前未出现过的新增内容，另有 21 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」48 条、「资本与市场」40 条。值得优先关注的几条：「魏建军称车企竞争激烈，董明珠：有些产业害虫该灭就灭；英伟达暂停向东南亚四国出货服务器；腾讯、小红书都在招人加码个人智能体」（雷峰网）、「Agent 上车元年，支付宝造了一个行动座舱」（爱范儿）、「支付宝车载助手3.0发布，助力智能座舱打造下一代可靠可信生活服务」（雷峰网）。"
 }
