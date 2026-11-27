@@ -1,0 +1,679 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-11-27",
+ "generatedAt": "2026-11-27T09:10:39.492Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 401,
+  "published": 149,
+  "newCount": 90,
+  "repeatCount": 59,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 19,
+   "JPKR": 10,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 25,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 93,
+  "withinFresh": 128,
+  "freshHours": 72,
+  "monthPrecision": 19,
+  "undated": 0,
+  "staleDropped": 42,
+  "newestAt": "2026-11-27T16:15:06.000Z"
+ },
+ "themes": [
+  {
+   "name": "产品与应用",
+   "n": 40
+  },
+  {
+   "name": "资本与市场",
+   "n": 34
+  },
+  {
+   "name": "产业与生态",
+   "n": 28
+  },
+  {
+   "name": "算力与基建",
+   "n": 21
+  },
+  {
+   "name": "模型与能力",
+   "n": 17
+  },
+  {
+   "name": "政策与治理",
+   "n": 8
+  }
+ ],
+ "entities": [
+  {
+   "name": "NVIDIA",
+   "n": 10
+  },
+  {
+   "name": "Anthropic",
+   "n": 9
+  },
+  {
+   "name": "OpenAI",
+   "n": 5
+  },
+  {
+   "name": "腾讯",
+   "n": 4
+  },
+  {
+   "name": "华为",
+   "n": 4
+  },
+  {
+   "name": "小米",
+   "n": 3
+  },
+  {
+   "name": "Meta",
+   "n": 3
+  },
+  {
+   "name": "Apple",
+   "n": 3
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "529977a076b49936",
+   "title": "腾讯阿里百度集体交账，AI进入兑现期",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8219613.html",
+   "importance": 94,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-27T04:52:19.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "阿里巴巴",
+    "腾讯",
+    "百度"
+   ],
+   "firstSeen": "2026-11-27",
+   "isNew": true
+  },
+  {
+   "id": "7dd83785a5b7640e",
+   "title": "英伟达暂停向东南亚四国交付AI服务器，全球供给缺口或将扩大？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8216813.html",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-27T08:12:04.000Z",
+   "topics": [
+    "算力与基建",
+    "产品与应用"
+   ],
+   "entities": [
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-11-27",
+   "isNew": true
+  },
+  {
+   "id": "9cc9bc3de2214201",
+   "title": "早报｜双11手机销量降17%，前五都是iPhone/马斯克：美国每名儿童赠送两股SpaceX/小红书处置逾万篇虚假人设笔记",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1695611?utm_source=rss&utm_medium=rss&utm_campaign",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-27T00:08:31.000Z",
+   "topics": [
+    "模型与能力",
+    "产业与生态"
+   ],
+   "entities": [
+    "OpenAI",
+    "腾讯",
+    "华为",
+    "小米"
+   ],
+   "firstSeen": "2026-11-27",
+   "isNew": true
+  },
+  {
+   "id": "85cd632258e1edc2",
+   "title": "威云创达CEO何金：一家图像传感器龙头，为什么下场做AI算力？",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4086249473534598?f=rss",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-27T06:09:07.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "小米"
+   ],
+   "firstSeen": "2026-11-27",
+   "isNew": true
+  },
+  {
+   "id": "8c34e446b3af6ecf",
+   "title": "Claude Code 灵魂人物，开始反思 Vibe Coding 的未来了",
+   "source": "爱范儿",
+   "region": "CN",
+   "url": "https://www.ifanr.com/1695671?utm_source=rss&utm_medium=rss&utm_campaign",
+   "importance": 89,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-27T03:49:58.000Z",
+   "topics": [
+    "资本与市场",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "firstSeen": "2026-11-27",
+   "isNew": true
+  },
+  {
+   "id": "265ee653dbd4c1f7",
+   "title": "一场物理AI闭门会里的三层“温差”",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8218564.html",
+   "importance": 88,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-27T03:27:53.000Z",
+   "topics": [
+    "产业与生态",
+    "产品与应用"
+   ],
+   "entities": [],
+   "firstSeen": "2026-11-27",
+   "isNew": true
+  },
+  {
+   "id": "ca353b36e67a4c94",
+   "title": "游戏和影视之后，儒意集团联手腾讯进军AI服务",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/p/4086757655231105?f=rss",
+   "importance": 88,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-27T01:00:39.000Z",
+   "topics": [
+    "产品与应用",
+    "模型与能力"
+   ],
+   "entities": [
+    "Meta",
+    "腾讯"
+   ],
+   "firstSeen": "2026-11-27",
+   "isNew": true
+  },
+  {
+   "id": "69e44eb91c8fc0eb",
+   "title": "瞄准“走偏”与“健忘”两道难题：蚂蚁灵波发布两大模型，补齐机器人空间导航能力",
+   "source": "InfoQ 中国",
+   "region": "CN",
+   "url": "https://www.infoq.cn/article/zRubhYcrBMTrOvzjlPQN?utm_source=rss&utm_medium=article",
+   "importance": 85,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-27T16:15:06.000Z",
+   "topics": [
+    "模型与能力",
+    "产品与应用"
+   ],
+   "entities": [],
+   "firstSeen": "2026-11-27",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "529977a076b49936",
+     "title": "腾讯阿里百度集体交账，AI进入兑现期",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8219613.html",
+     "importance": 94,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-27T04:52:19.000Z",
+     "topics": [
+      "资本与市场",
+      "模型与能力"
+     ],
+     "entities": [
+      "阿里巴巴",
+      "腾讯",
+      "百度"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "7dd83785a5b7640e",
+     "title": "英伟达暂停向东南亚四国交付AI服务器，全球供给缺口或将扩大？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8216813.html",
+     "importance": 91,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T08:12:04.000Z",
+     "topics": [
+      "算力与基建",
+      "产品与应用"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "9cc9bc3de2214201",
+     "title": "早报｜双11手机销量降17%，前五都是iPhone/马斯克：美国每名儿童赠送两股SpaceX/小红书处置逾万篇虚假人设笔记",
+     "source": "爱范儿",
+     "region": "CN",
+     "url": "https://www.ifanr.com/1695611?utm_source=rss&utm_medium=rss&utm_campaign",
+     "importance": 91,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T00:08:31.000Z",
+     "topics": [
+      "模型与能力",
+      "产业与生态"
+     ],
+     "entities": [
+      "OpenAI",
+      "腾讯",
+      "华为",
+      "小米"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "05afd2c0edd00a33",
+     "title": "Huawei gains ground in China’s AI chip market after US curbs",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/huawei-gains-ground-in-chinas-ai-chip-market-after-us-curbs",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T07:49:00.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [
+      "华为"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "7ef291663aeac8fd",
+     "title": "Jensen Huang’s back, but the chips are still down for SEA",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/jensen-huangs-chips-sea",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T01:00:57.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "ca580cdb23ea903a",
+     "title": "SAP prepares to cut at least 10,000 jobs in AI overhaul",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/sap-prepares-cut-10000-jobs-ai-overhaul",
+     "importance": 83,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-27T00:38:29.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "SAP"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 19,
+   "top": [
+    {
+     "id": "acffa3b274acb5d5",
+     "title": "UAE's Vision Makers secures $4 million in a dual round",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/uae-vision-makers-secures-4-million-dual-round",
+     "importance": 56,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-26",
+     "isNew": false
+    },
+    {
+     "id": "df3e9186f19f42c5",
+     "title": "Saudi AI startup 009 raises $1.4 million pre-seed led by Outliers Venture Capital",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/saudi-ai-startup-009-raises-1-4-million-pre-seed-led-outliers-venture-capital",
+     "importance": 52,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-26",
+     "isNew": false
+    },
+    {
+     "id": "5ece1eb4b4fb38ad",
+     "title": "UAE's Sooner raises $20 million to expand home financing solutions",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/uae-sooner-raises-20-million-expand-home-financing-solutions",
+     "importance": 52,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-26",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 10,
+   "top": [
+    {
+     "id": "971bd84af9edd69a",
+     "title": "빅테크는 ‘탄소 먹는 돌가루’에 꽂혔지만…뜻밖의 연구 결과 나왔다",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%eb%b9%85%ed%85%8c%ed%81%ac%eb%8a%94-%ed%83%84%ec%86%8c-%eb%a8%b9%eb%8a%94-%eb%8f%8c%ea%b0%80%eb%a3%a8%ec%97%90-%ea%bd%82%ed%98%94%ec%a7%80%eb%a7%8c%eb%9c%bb%eb%b0%96%ec%9d%98-%ec%97%b0/",
+     "importance": 57,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-26T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "3a0c3c647858fe55",
+     "title": "AIで求人業務を効率化する方法10選！採用担当の工数を減らす進め方",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/11/27/278577/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2581%25a7%25e6%25b1%2582%25e4%25ba%25ba%25e6%25a5%25ad%25e5%258b%2599%25e3%2582%2592%25e5%258a%25b9%25e7%258e%2587%25e5%258c%2596%25e3%2581%2599%25e3%2582%258b%25e6%2596%25b9%25e6%25b3%259510%25e9%2581%25b8%25ef%25bc%2581%25e6%258e%25a1%25e7%2594%25a8%25e6%258b%2585%25e5%25bd%2593%25e3%2581%25ae%25e5%25b7%25a5",
+     "importance": 57,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-26T18:15:18.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "7ebd261dac25dd5e",
+     "title": "AI原稿作成のやり方を解説！種類別プロンプト例とおすすめツール6選",
+     "source": "AINOW",
+     "region": "JPKR",
+     "url": "https://ainow.ai/2026/11/27/278565/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e5%258e%259f%25e7%25a8%25bf%25e4%25bd%259c%25e6%2588%2590%25e3%2581%25ae%25e3%2582%2584%25e3%2582%258a%25e6%2596%25b9%25e3%2582%2592%25e8%25a7%25a3%25e8%25aa%25ac%25ef%25bc%2581%25e7%25a8%25ae%25e9%25a1%259e%25e5%2588%25a5%25e3%2583%2597%25e3%2583%25ad%25e3%2583%25b3%25e3%2583%2597%25e3%2583%2588%25e4%25be%258b%25e3%2581%25a8",
+     "importance": 57,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-26T16:02:20.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "02a7342979313d30",
+     "title": "'Never say never': US fintech giant Ramp on more European acquisitions",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/ramp-europe-expansion-interview/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T05:00:58.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "481198c98a6c40d4",
+     "title": "‘We’re not migration software’: Conduct’s CEO on building an AI operating system for enterprise IT teams",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/conduct-ceo-on-building-an-ai-operating-system-for-enterprise-it-teams/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T05:00:27.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "355271c05d4a282c",
+     "title": "ElevenLabs in talks to raise funding at $33bn valuation, reports say",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/elevenlabs-funding-round-raise-33-bn-latest/",
+     "importance": 66,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-26T10:48:32.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "ElevenLabs"
+     ],
+     "firstSeen": "2026-11-26",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "9022c938ce7e4a19",
+     "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-26T16:00:00.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "4a7a025ad498a643",
+     "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+     "source": "TechCrunch AI",
+     "region": "NA",
+     "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+     "importance": 75,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-26T20:03:54.000Z",
+     "topics": [
+      "算力与基建",
+      "产业与生态"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "04cce06f3e460e31",
+     "title": "Report sheds light on China ties of some US-based Nvidia partners",
+     "source": "SiliconANGLE",
+     "region": "NA",
+     "url": "https://siliconangle.com/2026/11/26/report-sheds-light-on-china-ties-of-some-us-based-nvidia-partners/",
+     "importance": 71,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-26T21:13:23.000Z",
+     "topics": [
+      "算力与基建",
+      "产业与生态"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "88620e6007cc2f28",
+     "title": "Apple To Open Seventh India Store In Hyderabad’s Kukatpally",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/apple-to-open-seventh-india-store-in-hyderabads-kukatpally/",
+     "importance": 83,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-26T21:33:06.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Apple"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "c1659ac35d628cc5",
+     "title": "Norwest Sells ₹262 Cr Stake In Amagi Through Block Deal",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/norwest-sells-%e2%82%b9262-cr-stake-in-amagi-through-block-deal/",
+     "importance": 82,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T05:09:22.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    },
+    {
+     "id": "de784acc329f98d2",
+     "title": "WhatsApp To Partner Jio To Launch Int’l Data eSIM Feature In India",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/whatsapp-to-partner-jio-to-launch-intl-data-esim-feature-in-india/",
+     "importance": 80,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-26T20:49:55.000Z",
+     "topics": [
+      "产品与应用",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "11 月 27 日，共从 25 个信息源抓取 401 条 AI 产业动态，其中 149 条进入当日精选，覆盖 7 个区域。其中有 93 条发布于 24 小时内。其中 90 条是此前未出现过的新增内容，另有 59 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」40 条、「资本与市场」34 条。值得优先关注的几条：「腾讯阿里百度集体交账，AI进入兑现期」（钛媒体）、「英伟达暂停向东南亚四国交付AI服务器，全球供给缺口或将扩大？」（钛媒体）、「早报｜双11手机销量降17%，前五都是iPhone/马斯克：美国每名儿童赠送两股SpaceX/小红书处置逾万篇虚假人设笔记」（爱范儿）。"
+}
