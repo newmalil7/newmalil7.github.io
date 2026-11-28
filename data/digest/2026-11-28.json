@@ -1,0 +1,687 @@
+{
+ "schema": "ai-horizon/digest-v1",
+ "date": "2026-11-28",
+ "generatedAt": "2026-11-28T08:31:41.270Z",
+ "mode": "rule",
+ "counts": {
+  "crawled": 417,
+  "published": 155,
+  "newCount": 60,
+  "repeatCount": 95,
+  "byRegion": {
+   "CN": 24,
+   "SEA": 24,
+   "ME": 24,
+   "JPKR": 11,
+   "EU": 24,
+   "NA": 24,
+   "OTHER": 24
+  },
+  "sourceOk": 26,
+  "sourceTotal": 30,
+  "regions": 7
+ },
+ "freshness": {
+  "within24h": 87,
+  "withinFresh": 133,
+  "freshHours": 72,
+  "monthPrecision": 19,
+  "undated": 0,
+  "staleDropped": 44,
+  "newestAt": "2026-11-28T16:45:34.000Z"
+ },
+ "themes": [
+  {
+   "name": "资本与市场",
+   "n": 42
+  },
+  {
+   "name": "产品与应用",
+   "n": 38
+  },
+  {
+   "name": "算力与基建",
+   "n": 29
+  },
+  {
+   "name": "产业与生态",
+   "n": 24
+  },
+  {
+   "name": "政策与治理",
+   "n": 10
+  },
+  {
+   "name": "模型与能力",
+   "n": 10
+  }
+ ],
+ "entities": [
+  {
+   "name": "NVIDIA",
+   "n": 12
+  },
+  {
+   "name": "Anthropic",
+   "n": 9
+  },
+  {
+   "name": "OpenAI",
+   "n": 7
+  },
+  {
+   "name": "Google",
+   "n": 4
+  },
+  {
+   "name": "Amazon",
+   "n": 4
+  },
+  {
+   "name": "Meta",
+   "n": 3
+  },
+  {
+   "name": "华为",
+   "n": 2
+  },
+  {
+   "name": "Apple",
+   "n": 2
+  }
+ ],
+ "topOverall": [
+  {
+   "id": "fd28200e1cd3b2a3",
+   "title": "Personal AI Agents Are Coming: Who Owns The Customer Now?",
+   "source": "Inc42",
+   "region": "OTHER",
+   "url": "https://inc42.com/features/personal-ai-agents-are-coming-who-owns-the-customer-now/",
+   "importance": 99,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-28T07:46:51.000Z",
+   "topics": [
+    "产品与应用",
+    "政策与治理"
+   ],
+   "entities": [
+    "OpenAI",
+    "Meta"
+   ],
+   "firstSeen": "2026-11-28",
+   "isNew": true
+  },
+  {
+   "id": "92d8e94cc81df87e",
+   "title": "OpenAI 和 Anthropic 在招什么样的营销人才？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8221003.html",
+   "importance": 91,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-28T02:53:00.000Z",
+   "topics": [
+    "模型与能力",
+    "产业与生态"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "DeepMind"
+   ],
+   "firstSeen": "2026-11-28",
+   "isNew": true
+  },
+  {
+   "id": "f96f2f335ccf1224",
+   "title": "马斯克：谷歌已表示有兴趣从SpaceX租用更多算力",
+   "source": "36氪",
+   "region": "CN",
+   "url": "https://36kr.com/newsflashes/4089093439715968?f=rss",
+   "importance": 89,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-28T07:50:48.000Z",
+   "topics": [
+    "算力与基建",
+    "模型与能力"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "firstSeen": "2026-11-28",
+   "isNew": true
+  },
+  {
+   "id": "bfeea00b714374c0",
+   "title": "AI服务器卖爆了，但卖服务器的不赚钱了：股价跌一半，市场在清算什么",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8221273.html",
+   "importance": 89,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-28T03:17:25.000Z",
+   "topics": [
+    "算力与基建",
+    "资本与市场"
+   ],
+   "entities": [
+    "Anthropic",
+    "NVIDIA"
+   ],
+   "firstSeen": "2026-11-28",
+   "isNew": true
+  },
+  {
+   "id": "9dc3e75a3f82cb00",
+   "title": "Philippine EV startup TechFlow launches condo charging system",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/philippine-ev-startup-techflow-launches-condo-charging-system",
+   "importance": 85,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-28T04:22:18.000Z",
+   "topics": [
+    "产品与应用"
+   ],
+   "entities": [],
+   "firstSeen": "2026-11-28",
+   "isNew": true
+  },
+  {
+   "id": "c9ea5a4fcd14d9e0",
+   "title": "双城联动首发｜共绩算力云平台，一站式跑通 AI 训推全流程",
+   "source": "雷峰网",
+   "region": "CN",
+   "url": "https://www.leiphone.com/category/industrynews/mFpSlgs8pnwUk320.html",
+   "importance": 85,
+   "difficulty": "高级",
+   "publishedAt": "2026-11-28T02:40:00.000Z",
+   "topics": [
+    "产品与应用",
+    "算力与基建"
+   ],
+   "entities": [],
+   "firstSeen": "2026-11-28",
+   "isNew": true
+  },
+  {
+   "id": "5a6aa2cad84062d2",
+   "title": "Binance wins in-principle approval for Bhutan operations",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/binance-wins-inprinciple-approval-bhutan-operations",
+   "importance": 84,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-28T08:29:46.000Z",
+   "topics": [
+    "产业与生态"
+   ],
+   "entities": [
+    "Arm"
+   ],
+   "firstSeen": "2026-11-28",
+   "isNew": true
+  },
+  {
+   "id": "6f2fd0919268f421",
+   "title": "Anthropic stock rises 11%, climbs above $83 IPO price",
+   "source": "Tech in Asia",
+   "region": "SEA",
+   "url": "https://www.techinasia.com/news/anthropic-shares-rebound-11-volatile-ipo-week",
+   "importance": 84,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-28T02:11:31.000Z",
+   "topics": [
+    "资本与市场"
+   ],
+   "entities": [
+    "Anthropic"
+   ],
+   "firstSeen": "2026-11-28",
+   "isNew": true
+  }
+ ],
+ "regions": [
+  {
+   "code": "CN",
+   "name": "中国国内",
+   "short": "中国",
+   "flag": "🇨🇳",
+   "count": 24,
+   "top": [
+    {
+     "id": "92d8e94cc81df87e",
+     "title": "OpenAI 和 Anthropic 在招什么样的营销人才？",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8221003.html",
+     "importance": 91,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-28T02:53:00.000Z",
+     "topics": [
+      "模型与能力",
+      "产业与生态"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "DeepMind"
+     ],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "f96f2f335ccf1224",
+     "title": "马斯克：谷歌已表示有兴趣从SpaceX租用更多算力",
+     "source": "36氪",
+     "region": "CN",
+     "url": "https://36kr.com/newsflashes/4089093439715968?f=rss",
+     "importance": 89,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-28T07:50:48.000Z",
+     "topics": [
+      "算力与基建",
+      "模型与能力"
+     ],
+     "entities": [
+      "OpenAI",
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "bfeea00b714374c0",
+     "title": "AI服务器卖爆了，但卖服务器的不赚钱了：股价跌一半，市场在清算什么",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8221273.html",
+     "importance": 89,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-28T03:17:25.000Z",
+     "topics": [
+      "算力与基建",
+      "资本与市场"
+     ],
+     "entities": [
+      "Anthropic",
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "SEA",
+   "name": "东南亚",
+   "short": "东南亚",
+   "flag": "🌏",
+   "count": 24,
+   "top": [
+    {
+     "id": "9dc3e75a3f82cb00",
+     "title": "Philippine EV startup TechFlow launches condo charging system",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/philippine-ev-startup-techflow-launches-condo-charging-system",
+     "importance": 85,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-28T04:22:18.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "5a6aa2cad84062d2",
+     "title": "Binance wins in-principle approval for Bhutan operations",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/binance-wins-inprinciple-approval-bhutan-operations",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-28T08:29:46.000Z",
+     "topics": [
+      "产业与生态"
+     ],
+     "entities": [
+      "Arm"
+     ],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "6f2fd0919268f421",
+     "title": "Anthropic stock rises 11%, climbs above $83 IPO price",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/news/anthropic-shares-rebound-11-volatile-ipo-week",
+     "importance": 84,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-28T02:11:31.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "中东",
+   "short": "中东",
+   "flag": "🕌",
+   "count": 24,
+   "top": [
+    {
+     "id": "00f84e72c5e2a140",
+     "title": "Every company now needs an AI usage policy, says Septten Advisors official",
+     "source": "TahawulTech",
+     "region": "ME",
+     "url": "https://www.tahawultech.com/insight/opinion/every-company-now-needs-an-ai-usage-policy-says-septten-advisors-official/",
+     "importance": 68,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T15:03:56.000Z",
+     "topics": [
+      "政策与治理",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "224cf4602bb86246",
+     "title": "Arabic.AI joins UAE government's FedAI ecosystem as founding partner",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/arabicai-joins-uae-governments-fedai-ecosystem-founding-partner",
+     "importance": 63,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "算力与基建",
+      "产业与生态"
+     ],
+     "entities": [
+      "Google",
+      "Microsoft",
+      "Oracle"
+     ],
+     "firstSeen": "2026-11-27",
+     "isNew": false
+    },
+    {
+     "id": "df3e9186f19f42c5",
+     "title": "Saudi AI startup 009 raises $1.4 million pre-seed led by Outliers Venture Capital",
+     "source": "Wamda",
+     "region": "ME",
+     "url": "https://www.wamda.com/2026/11/saudi-ai-startup-009-raises-1-4-million-pre-seed-led-outliers-venture-capital",
+     "importance": 52,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-01T12:00:00.000Z",
+     "topics": [
+      "资本与市场",
+      "产品与应用"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "JPKR",
+   "name": "日韩",
+   "short": "日韩",
+   "flag": "🗾",
+   "count": 11,
+   "top": [
+    {
+     "id": "590011ea49138eb6",
+     "title": "앤트로픽 전·현직 50여명 '수입 10% 기부' 서약…창업자들은 지분 80% 기부",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217896",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-28T16:45:34.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": false
+    },
+    {
+     "id": "e82730e2965af4a8",
+     "title": "전력망 연결에 최대 10년…데이터센터 개발사들, ‘자체 가스발전소’로 돌파구",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/%ec%a0%84%eb%a0%a5%eb%a7%9d-%ec%97%b0%ea%b2%b0%ec%97%90-%ec%b5%9c%eb%8c%80-10%eb%85%84%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%84%bc%ed%84%b0-%ea%b0%9c%eb%b0%9c%ec%82%ac%eb%93%a4-%ec%9e%90%ec%b2%b4/",
+     "importance": 62,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T21:00:00.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "7c05b4435e64b6f6",
+     "title": "‘AI 의식’ 논쟁 불붙인 앤트로픽…철학계는 갑론을박",
+     "source": "MIT Technology Review Korea",
+     "region": "JPKR",
+     "url": "https://www.technologyreview.kr/ai-%ec%9d%98%ec%8b%9d-%eb%85%bc%ec%9f%81-%eb%b6%88%eb%b6%99%ec%9d%b8-%ec%95%a4%ed%8a%b8%eb%a1%9c%ed%94%bd%ec%b2%a0%ed%95%99%ea%b3%84%eb%8a%94-%ea%b0%91%eb%a1%a0%ec%9d%84%eb%b0%95/",
+     "importance": 43,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-25T21:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "EU",
+   "name": "欧洲",
+   "short": "欧洲",
+   "flag": "🇪🇺",
+   "count": 24,
+   "top": [
+    {
+     "id": "79009a22bfd048d2",
+     "title": "Reuters: Hackers breach US Air Force’s cloud computing platform",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/enterprise/hackers-breach-us-air-force-flagship-cloud-computing-platform",
+     "importance": 60,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T15:30:37.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "355271c05d4a282c",
+     "title": "ElevenLabs in talks to raise funding at $33bn valuation, reports say",
+     "source": "Sifted",
+     "region": "EU",
+     "url": "https://sifted.eu/articles/elevenlabs-funding-round-raise-33-bn-latest/",
+     "importance": 58,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-26T10:48:32.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [
+      "ElevenLabs"
+     ],
+     "firstSeen": "2026-11-26",
+     "isNew": false
+    },
+    {
+     "id": "8662167503ae28e3",
+     "title": "How medical devices can aid the Irish population and health system",
+     "source": "Silicon Republic",
+     "region": "EU",
+     "url": "https://www.siliconrepublic.com/innovation/how-medical-devices-can-aid-the-irish-population-and-health-system",
+     "importance": 47,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-27T12:30:17.000Z",
+     "topics": [
+      "资本与市场",
+      "政策与治理"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": false
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "北美",
+   "short": "北美",
+   "flag": "🌎",
+   "count": 24,
+   "top": [
+    {
+     "id": "a39b40a85e13344f",
+     "title": "Report links Alice Huang to Chinese firms with smuggled Nvidia chips",
+     "source": "SiliconANGLE",
+     "region": "NA",
+     "url": "https://siliconangle.com/2026/11/27/report-links-alice-huang-to-chinese-firms-with-smuggled-nvidia-chips/",
+     "importance": 71,
+     "difficulty": "高级",
+     "publishedAt": "2026-11-28T00:13:33.000Z",
+     "topics": [
+      "算力与基建",
+      "产业与生态"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "62d1476b7e29cde8",
+     "title": "Hackers reportedly breach key US Air Force cloud platform",
+     "source": "SiliconANGLE",
+     "region": "NA",
+     "url": "https://siliconangle.com/2026/11/27/hackers-reportedly-breach-key-us-air-force-cloud-platform/",
+     "importance": 71,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T21:32:13.000Z",
+     "topics": [
+      "算力与基建"
+     ],
+     "entities": [
+      "Amazon"
+     ],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "21e7db942b13d60c",
+     "title": "Jensen Huang returns, but controversies keep growing around Nvidia",
+     "source": "SiliconANGLE",
+     "region": "NA",
+     "url": "https://siliconangle.com/2026/11/27/jensen-huang-returns-but-controversies-keep-growing-around-nvidia/",
+     "importance": 66,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T15:00:56.000Z",
+     "topics": [
+      "算力与基建",
+      "产品与应用"
+     ],
+     "entities": [
+      "NVIDIA"
+     ],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "其他地区",
+   "short": "其他",
+   "flag": "🌐",
+   "count": 24,
+   "top": [
+    {
+     "id": "fd28200e1cd3b2a3",
+     "title": "Personal AI Agents Are Coming: Who Owns The Customer Now?",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/features/personal-ai-agents-are-coming-who-owns-the-customer-now/",
+     "importance": 99,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-28T07:46:51.000Z",
+     "topics": [
+      "产品与应用",
+      "政策与治理"
+     ],
+     "entities": [
+      "OpenAI",
+      "Meta"
+     ],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "af1e7fe02ad45261",
+     "title": "From Finnable To M — Indian Startups Raised About $147 Mn This Week",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/buzz/from-finnable-to-m-indian-startups-raised-about-147-mn-this-week/",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-28T03:30:23.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "f49448ab7957bf3c",
+     "title": "How Kapiva Is Gearing Up On Its Growth Strategy As It Targets ₹1,000 Cr In Revenue",
+     "source": "Inc42",
+     "region": "OTHER",
+     "url": "https://inc42.com/startups/how-kapiva-is-gearing-up-on-its-growth-strategy-as-it-targets-%e2%82%b91000-cr-in-revenue/",
+     "importance": 78,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-28T06:30:29.000Z",
+     "topics": [
+      "资本与市场",
+      "产业与生态"
+     ],
+     "entities": [],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    }
+   ]
+  }
+ ],
+ "overview": "11 月 28 日，共从 26 个信息源抓取 417 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 87 条发布于 24 小时内。其中 60 条是此前未出现过的新增内容，另有 95 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」42 条、「产品与应用」38 条。值得优先关注的几条：「OpenAI 和 Anthropic 在招什么样的营销人才？」（钛媒体）、「马斯克：谷歌已表示有兴趣从SpaceX租用更多算力」（36氪）、「AI服务器卖爆了，但卖服务器的不赚钱了：股价跌一半，市场在清算什么」（钛媒体）。"
+}
