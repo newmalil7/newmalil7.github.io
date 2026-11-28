@@ -1,13 +1,13 @@
 {
  "schema": "ai-horizon/digest-v1",
  "date": "2026-11-28",
- "generatedAt": "2026-11-28T08:31:41.270Z",
+ "generatedAt": "2026-11-28T12:49:57.300Z",
  "mode": "rule",
  "counts": {
   "crawled": 417,
   "published": 155,
-  "newCount": 60,
-  "repeatCount": 95,
+  "newCount": 66,
+  "repeatCount": 89,
   "byRegion": {
    "CN": 24,
    "SEA": 24,
@@ -22,22 +22,22 @@
   "regions": 7
  },
  "freshness": {
-  "within24h": 87,
+  "within24h": 67,
   "withinFresh": 133,
   "freshHours": 72,
   "monthPrecision": 19,
   "undated": 0,
   "staleDropped": 44,
-  "newestAt": "2026-11-28T16:45:34.000Z"
+  "newestAt": "2026-11-28T18:31:30.000Z"
  },
  "themes": [
   {
-   "name": "资本与市场",
+   "name": "产品与应用",
    "n": 42
   },
   {
-   "name": "产品与应用",
-   "n": 38
+   "name": "资本与市场",
+   "n": 39
   },
   {
    "name": "算力与基建",
@@ -45,25 +45,25 @@
   },
   {
    "name": "产业与生态",
-   "n": 24
+   "n": 21
   },
   {
    "name": "政策与治理",
-   "n": 10
+   "n": 11
   },
   {
    "name": "模型与能力",
-   "n": 10
+   "n": 7
   }
  ],
  "entities": [
   {
    "name": "NVIDIA",
-   "n": 12
+   "n": 14
   },
   {
    "name": "Anthropic",
-   "n": 9
+   "n": 10
   },
   {
    "name": "OpenAI",
@@ -71,7 +71,7 @@
   },
   {
    "name": "Google",
-   "n": 4
+   "n": 5
   },
   {
    "name": "Amazon",
@@ -82,11 +82,11 @@
    "n": 3
   },
   {
-   "name": "华为",
+   "name": "Arm",
    "n": 2
   },
   {
-   "name": "Apple",
+   "name": "DeepSeek",
    "n": 2
   }
  ],
@@ -112,23 +112,41 @@
    "isNew": true
   },
   {
-   "id": "92d8e94cc81df87e",
-   "title": "OpenAI 和 Anthropic 在招什么样的营销人才？",
+   "id": "f059ea30bf5874c0",
+   "title": "【数智周报】 黄仁勋回归英伟达，恢复CEO职务；Anthropic CEO以IPO发行价出售337.8万股，套现约2.8亿美元；英伟达暂停向四个东南亚国家出货服务器",
    "source": "钛媒体",
    "region": "CN",
-   "url": "https://www.tmtpost.com/8221003.html",
-   "importance": 91,
+   "url": "https://www.tmtpost.com/8221485.html",
+   "importance": 95,
    "difficulty": "进阶",
-   "publishedAt": "2026-11-28T02:53:00.000Z",
+   "publishedAt": "2026-11-28T10:37:58.000Z",
    "topics": [
-    "模型与能力",
-    "产业与生态"
+    "算力与基建",
+    "资本与市场"
    ],
    "entities": [
-    "OpenAI",
     "Anthropic",
-    "Google",
-    "DeepMind"
+    "NVIDIA",
+    "宇树科技"
+   ],
+   "firstSeen": "2026-11-28",
+   "isNew": true
+  },
+  {
+   "id": "8df0b5af522f8a53",
+   "title": "AI短剧，正把游戏踹下吸金王座",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8221355.html",
+   "importance": 90,
+   "difficulty": "入门",
+   "publishedAt": "2026-11-28T12:40:24.000Z",
+   "topics": [
+    "产品与应用",
+    "资本与市场"
+   ],
+   "entities": [
+    "腾讯"
    ],
    "firstSeen": "2026-11-28",
    "isNew": true
@@ -154,12 +172,34 @@
    "isNew": true
   },
   {
+   "id": "92d8e94cc81df87e",
+   "title": "OpenAI 和 Anthropic 在招什么样的营销人才？",
+   "source": "钛媒体",
+   "region": "CN",
+   "url": "https://www.tmtpost.com/8221003.html",
+   "importance": 87,
+   "difficulty": "进阶",
+   "publishedAt": "2026-11-28T02:53:00.000Z",
+   "topics": [
+    "模型与能力",
+    "产业与生态"
+   ],
+   "entities": [
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "DeepMind"
+   ],
+   "firstSeen": "2026-11-28",
+   "isNew": true
+  },
+  {
    "id": "bfeea00b714374c0",
    "title": "AI服务器卖爆了，但卖服务器的不赚钱了：股价跌一半，市场在清算什么",
    "source": "钛媒体",
    "region": "CN",
    "url": "https://www.tmtpost.com/8221273.html",
-   "importance": 89,
+   "importance": 85,
    "difficulty": "进阶",
    "publishedAt": "2026-11-28T03:17:25.000Z",
    "topics": [
@@ -170,39 +210,6 @@
     "Anthropic",
     "NVIDIA"
    ],
-   "firstSeen": "2026-11-28",
-   "isNew": true
-  },
-  {
-   "id": "9dc3e75a3f82cb00",
-   "title": "Philippine EV startup TechFlow launches condo charging system",
-   "source": "Tech in Asia",
-   "region": "SEA",
-   "url": "https://www.techinasia.com/news/philippine-ev-startup-techflow-launches-condo-charging-system",
-   "importance": 85,
-   "difficulty": "入门",
-   "publishedAt": "2026-11-28T04:22:18.000Z",
-   "topics": [
-    "产品与应用"
-   ],
-   "entities": [],
-   "firstSeen": "2026-11-28",
-   "isNew": true
-  },
-  {
-   "id": "c9ea5a4fcd14d9e0",
-   "title": "双城联动首发｜共绩算力云平台，一站式跑通 AI 训推全流程",
-   "source": "雷峰网",
-   "region": "CN",
-   "url": "https://www.leiphone.com/category/industrynews/mFpSlgs8pnwUk320.html",
-   "importance": 85,
-   "difficulty": "高级",
-   "publishedAt": "2026-11-28T02:40:00.000Z",
-   "topics": [
-    "产品与应用",
-    "算力与基建"
-   ],
-   "entities": [],
    "firstSeen": "2026-11-28",
    "isNew": true
   },
@@ -252,23 +259,41 @@
    "count": 24,
    "top": [
     {
-     "id": "92d8e94cc81df87e",
-     "title": "OpenAI 和 Anthropic 在招什么样的营销人才？",
+     "id": "f059ea30bf5874c0",
+     "title": "【数智周报】 黄仁勋回归英伟达，恢复CEO职务；Anthropic CEO以IPO发行价出售337.8万股，套现约2.8亿美元；英伟达暂停向四个东南亚国家出货服务器",
      "source": "钛媒体",
      "region": "CN",
-     "url": "https://www.tmtpost.com/8221003.html",
-     "importance": 91,
+     "url": "https://www.tmtpost.com/8221485.html",
+     "importance": 95,
      "difficulty": "进阶",
-     "publishedAt": "2026-11-28T02:53:00.000Z",
+     "publishedAt": "2026-11-28T10:37:58.000Z",
      "topics": [
-      "模型与能力",
-      "产业与生态"
+      "算力与基建",
+      "资本与市场"
      ],
      "entities": [
-      "OpenAI",
       "Anthropic",
-      "Google",
-      "DeepMind"
+      "NVIDIA",
+      "宇树科技"
+     ],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "8df0b5af522f8a53",
+     "title": "AI短剧，正把游戏踹下吸金王座",
+     "source": "钛媒体",
+     "region": "CN",
+     "url": "https://www.tmtpost.com/8221355.html",
+     "importance": 90,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-28T12:40:24.000Z",
+     "topics": [
+      "产品与应用",
+      "资本与市场"
+     ],
+     "entities": [
+      "腾讯"
      ],
      "firstSeen": "2026-11-28",
      "isNew": true
@@ -292,26 +317,6 @@
      ],
      "firstSeen": "2026-11-28",
      "isNew": true
-    },
-    {
-     "id": "bfeea00b714374c0",
-     "title": "AI服务器卖爆了，但卖服务器的不赚钱了：股价跌一半，市场在清算什么",
-     "source": "钛媒体",
-     "region": "CN",
-     "url": "https://www.tmtpost.com/8221273.html",
-     "importance": 89,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-28T03:17:25.000Z",
-     "topics": [
-      "算力与基建",
-      "资本与市场"
-     ],
-     "entities": [
-      "Anthropic",
-      "NVIDIA"
-     ],
-     "firstSeen": "2026-11-28",
-     "isNew": true
     }
    ]
   },
@@ -322,22 +327,6 @@
    "flag": "🌏",
    "count": 24,
    "top": [
-    {
-     "id": "9dc3e75a3f82cb00",
-     "title": "Philippine EV startup TechFlow launches condo charging system",
-     "source": "Tech in Asia",
-     "region": "SEA",
-     "url": "https://www.techinasia.com/news/philippine-ev-startup-techflow-launches-condo-charging-system",
-     "importance": 85,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-28T04:22:18.000Z",
-     "topics": [
-      "产品与应用"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-28",
-     "isNew": true
-    },
     {
      "id": "5a6aa2cad84062d2",
      "title": "Binance wins in-principle approval for Bhutan operations",
@@ -371,6 +360,22 @@
      "entities": [
       "Anthropic"
      ],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
+     "id": "f13cb83d4b380927",
+     "title": "These are the most active investors in Southeast Asia’s startups",
+     "source": "Tech in Asia",
+     "region": "SEA",
+     "url": "https://www.techinasia.com/top-venture-capital-southeast-asia",
+     "importance": 81,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-28T09:00:00.000Z",
+     "topics": [
+      "资本与市场"
+     ],
+     "entities": [],
      "firstSeen": "2026-11-28",
      "isNew": true
     }
@@ -448,34 +453,32 @@
    "count": 11,
    "top": [
     {
-     "id": "590011ea49138eb6",
-     "title": "앤트로픽 전·현직 50여명 '수입 10% 기부' 서약…창업자들은 지분 80% 기부",
-     "source": "AI타임스",
-     "region": "JPKR",
-     "url": "https://www.aitimes.com/news/articleView.html?idxno=217896",
-     "importance": 66,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-28T16:45:34.000Z",
-     "topics": [
-      "资本与市场"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-27",
-     "isNew": false
-    },
-    {
      "id": "e82730e2965af4a8",
      "title": "전력망 연결에 최대 10년…데이터센터 개발사들, ‘자체 가스발전소’로 돌파구",
      "source": "MIT Technology Review Korea",
      "region": "JPKR",
      "url": "https://www.technologyreview.kr/%ec%a0%84%eb%a0%a5%eb%a7%9d-%ec%97%b0%ea%b2%b0%ec%97%90-%ec%b5%9c%eb%8c%80-10%eb%85%84%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%84%bc%ed%84%b0-%ea%b0%9c%eb%b0%9c%ec%82%ac%eb%93%a4-%ec%9e%90%ec%b2%b4/",
-     "importance": 62,
+     "importance": 57,
      "difficulty": "进阶",
      "publishedAt": "2026-11-27T21:00:00.000Z",
      "topics": [],
      "entities": [],
      "firstSeen": "2026-11-28",
      "isNew": true
+    },
+    {
+     "id": "5f44a021af232677",
+     "title": "유발 하라리 \"AI 최대 위협은 '집단적 치매'...인류, 세상 이해 못할 것\"",
+     "source": "AI타임스",
+     "region": "JPKR",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217900",
+     "importance": 50,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-28T18:31:30.000Z",
+     "topics": [],
+     "entities": [],
+     "firstSeen": "2026-11-27",
+     "isNew": false
     },
     {
      "id": "7c05b4435e64b6f6",
@@ -524,7 +527,7 @@
      "source": "Sifted",
      "region": "EU",
      "url": "https://sifted.eu/articles/elevenlabs-funding-round-raise-33-bn-latest/",
-     "importance": 58,
+     "importance": 52,
      "difficulty": "入门",
      "publishedAt": "2026-11-26T10:48:32.000Z",
      "topics": [
@@ -537,17 +540,16 @@
      "isNew": false
     },
     {
-     "id": "8662167503ae28e3",
-     "title": "How medical devices can aid the Irish population and health system",
-     "source": "Silicon Republic",
+     "id": "02a7342979313d30",
+     "title": "'Never say never': US fintech giant Ramp on more European acquisitions",
+     "source": "Sifted",
      "region": "EU",
-     "url": "https://www.siliconrepublic.com/innovation/how-medical-devices-can-aid-the-irish-population-and-health-system",
-     "importance": 47,
-     "difficulty": "入门",
-     "publishedAt": "2026-11-27T12:30:17.000Z",
+     "url": "https://sifted.eu/articles/ramp-europe-expansion-interview/",
+     "importance": 45,
+     "difficulty": "进阶",
+     "publishedAt": "2026-11-27T05:00:58.000Z",
      "topics": [
-      "资本与市场",
-      "政策与治理"
+      "资本与市场"
      ],
      "entities": [],
      "firstSeen": "2026-11-27",
@@ -568,7 +570,7 @@
      "source": "SiliconANGLE",
      "region": "NA",
      "url": "https://siliconangle.com/2026/11/27/report-links-alice-huang-to-chinese-firms-with-smuggled-nvidia-chips/",
-     "importance": 71,
+     "importance": 66,
      "difficulty": "高级",
      "publishedAt": "2026-11-28T00:13:33.000Z",
      "topics": [
@@ -587,7 +589,7 @@
      "source": "SiliconANGLE",
      "region": "NA",
      "url": "https://siliconangle.com/2026/11/27/hackers-reportedly-breach-key-us-air-force-cloud-platform/",
-     "importance": 71,
+     "importance": 66,
      "difficulty": "进阶",
      "publishedAt": "2026-11-27T21:32:13.000Z",
      "topics": [
@@ -648,12 +650,30 @@
      "isNew": true
     },
     {
+     "id": "9063c8f97bb3c5b1",
+     "title": "How to Download WhatsApp Backup from Google Drive",
+     "source": "Techloy",
+     "region": "OTHER",
+     "url": "https://www.techloy.com/how-to-download-whatsapp-backup-from-google-drive/",
+     "importance": 78,
+     "difficulty": "入门",
+     "publishedAt": "2026-11-28T09:32:45.000Z",
+     "topics": [
+      "产品与应用"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "firstSeen": "2026-11-28",
+     "isNew": true
+    },
+    {
      "id": "af1e7fe02ad45261",
      "title": "From Finnable To M — Indian Startups Raised About $147 Mn This Week",
      "source": "Inc42",
      "region": "OTHER",
      "url": "https://inc42.com/buzz/from-finnable-to-m-indian-startups-raised-about-147-mn-this-week/",
-     "importance": 81,
+     "importance": 77,
      "difficulty": "入门",
      "publishedAt": "2026-11-28T03:30:23.000Z",
      "topics": [
@@ -662,26 +682,9 @@
      "entities": [],
      "firstSeen": "2026-11-28",
      "isNew": true
-    },
-    {
-     "id": "f49448ab7957bf3c",
-     "title": "How Kapiva Is Gearing Up On Its Growth Strategy As It Targets ₹1,000 Cr In Revenue",
-     "source": "Inc42",
-     "region": "OTHER",
-     "url": "https://inc42.com/startups/how-kapiva-is-gearing-up-on-its-growth-strategy-as-it-targets-%e2%82%b91000-cr-in-revenue/",
-     "importance": 78,
-     "difficulty": "进阶",
-     "publishedAt": "2026-11-28T06:30:29.000Z",
-     "topics": [
-      "资本与市场",
-      "产业与生态"
-     ],
-     "entities": [],
-     "firstSeen": "2026-11-28",
-     "isNew": true
     }
    ]
   }
  ],
- "overview": "11 月 28 日，共从 26 个信息源抓取 417 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 87 条发布于 24 小时内。其中 60 条是此前未出现过的新增内容，另有 95 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「资本与市场」42 条、「产品与应用」38 条。值得优先关注的几条：「OpenAI 和 Anthropic 在招什么样的营销人才？」（钛媒体）、「马斯克：谷歌已表示有兴趣从SpaceX租用更多算力」（36氪）、「AI服务器卖爆了，但卖服务器的不赚钱了：股价跌一半，市场在清算什么」（钛媒体）。"
+ "overview": "11 月 28 日，共从 26 个信息源抓取 417 条 AI 产业动态，其中 155 条进入当日精选，覆盖 7 个区域。其中有 67 条发布于 24 小时内。其中 66 条是此前未出现过的新增内容，另有 89 条为近 7 天内的延续报道（已降权排后）。当日最集中的板块是「产品与应用」42 条、「资本与市场」39 条。值得优先关注的几条：「【数智周报】 黄仁勋回归英伟达，恢复CEO职务；Anthropic CEO以IPO发行价出售337.8万股，套现约2.8亿美元；英伟达暂停向四个东南亚国家出货服务器」（钛媒体）、「AI短剧，正把游戏踹下吸金王座」（钛媒体）、「马斯克：谷歌已表示有兴趣从SpaceX租用更多算力」（36氪）。"
 }
